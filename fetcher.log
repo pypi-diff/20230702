@@ -1,0 +1,133 @@
+[2023-07-02 00:00:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724849]
+[2023-07-02 00:01:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-02 00:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: QualysPy
+[2023-07-02 00:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: QualysPy
+[2023-07-02 00:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylookyloo
+[2023-07-02 00:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flook
+[2023-07-02 00:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: known
+[2023-07-02 00:01:01] INFO root fetch - processPackages [known]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-02 00:01:01] INFO root fetch - processPackages [pylookyloo]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-02 00:01:01] INFO root fetch - processPackages [QualysPy]: New version: [0.3.9.3] Old Version: [0.3.9.2]
+[2023-07-02 00:01:01] INFO root fetch - processPackages [QualysPy]: New version: [0.3.9.3] Old Version: [0.3.9.2]
+[2023-07-02 00:01:01] INFO root fetch - processPackages [flook]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-02 00:01:01] INFO root fetch - processPackages [flook]: Downloading https://files.pythonhosted.org/packages/b5/36/70c037790cf1a59d8a417dbd1f7952c3928bf02e497c285740fa5ef9ea7f/flook-0.4.0.tar.gz
+[2023-07-02 00:01:01] INFO root fetch - processPackages [QualysPy]: Downloading https://files.pythonhosted.org/packages/d1/f9/e3e87ae37447a52200ca80438cf00d8e78f6f06a5f111048a02ed05da197/qualyspy-0.3.9.2.tar.gz
+[2023-07-02 00:01:01] INFO root fetch - processPackages [QualysPy]: Downloading https://files.pythonhosted.org/packages/d1/f9/e3e87ae37447a52200ca80438cf00d8e78f6f06a5f111048a02ed05da197/qualyspy-0.3.9.2.tar.gz
+[2023-07-02 00:01:01] INFO root fetch - processPackages [known]: Downloading https://files.pythonhosted.org/packages/e6/13/f35512e8c6a817f044cadd3db78f64cc677c8ed05bff22b91a93b3c96e43/known-0.0.5.tar.gz
+[2023-07-02 00:01:01] INFO root fetch - processPackages [pylookyloo]: Downloading https://files.pythonhosted.org/packages/33/6d/ef31d4f55bddadb6bdd26a151d0edcdb07d4ba583751020e5300db8d871b/pylookyloo-1.8.1.tar.gz
+[2023-07-02 00:01:01] INFO root fetch - processPackages [flook]: Downloading https://files.pythonhosted.org/packages/66/31/88af9624541b9fd3c5560ef3f5204517a62bef3ed1974072bf08758edce7/flook-0.4.1.tar.gz
+[2023-07-02 00:01:01] INFO root fetch - processPackages [flook]: executing diffoscope
+[2023-07-02 00:01:01] INFO root fetch - processPackages [flook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flook-0.4.0.tar.gz tmp/flook-0.4.1.tar.gz --markdown 20230702/f/flook/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-02 00:01:02] INFO root fetch - processPackages [QualysPy]: Downloading https://files.pythonhosted.org/packages/b6/8c/0477d9726a7ae9ed0641df2fe2ed67a54ad56ae38e920ace9f6529af5e00/qualyspy-0.3.9.3.tar.gz
+[2023-07-02 00:01:02] INFO root fetch - processPackages [QualysPy]: Downloading https://files.pythonhosted.org/packages/b6/8c/0477d9726a7ae9ed0641df2fe2ed67a54ad56ae38e920ace9f6529af5e00/qualyspy-0.3.9.3.tar.gz
+[2023-07-02 00:01:02] INFO root fetch - processPackages [QualysPy]: executing diffoscope
+[2023-07-02 00:01:02] INFO root fetch - processPackages [QualysPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualyspy-0.3.9.2.tar.gz tmp/qualyspy-0.3.9.3.tar.gz --markdown 20230702/Q/QualysPy/0.3.9.2-0.3.9.3/diff.md --exclude *.pyd
+[2023-07-02 00:01:02] INFO root fetch - processPackages [QualysPy]: executing diffoscope
+[2023-07-02 00:01:02] INFO root fetch - processPackages [QualysPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualyspy-0.3.9.2.tar.gz tmp/qualyspy-0.3.9.3.tar.gz --markdown 20230702/Q/QualysPy/0.3.9.2-0.3.9.3/diff.md --exclude *.pyd
+[2023-07-02 00:01:02] INFO root fetch - processPackages [known]: Downloading https://files.pythonhosted.org/packages/93/d7/2156562d5f70c265abb3cd883d990f660af2eaabb9f4610f787451f06ed2/known-0.0.6.tar.gz
+[2023-07-02 00:01:02] INFO root fetch - processPackages [pylookyloo]: Downloading https://files.pythonhosted.org/packages/1c/8e/9f01bc5bd5d1db10b9b3841588f47fd74b334474d4548856401e9a122cf0/pylookyloo-1.9.0.tar.gz
+[2023-07-02 00:01:02] INFO root fetch - processPackages [known]: executing diffoscope
+[2023-07-02 00:01:02] INFO root fetch - processPackages [known]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/known-0.0.5.tar.gz tmp/known-0.0.6.tar.gz --markdown 20230702/k/known/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-02 00:01:02] INFO root fetch - processPackages [pylookyloo]: executing diffoscope
+[2023-07-02 00:01:02] INFO root fetch - processPackages [pylookyloo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylookyloo-1.8.1.tar.gz tmp/pylookyloo-1.9.0.tar.gz --markdown 20230702/p/pylookyloo/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-02 00:01:03] INFO root fetch - processPackages [known]: Remove: archive file [/home/abi/fetcher/tmp/known-0.0.5.tar.gz]
+[2023-07-02 00:01:03] INFO root fetch - processPackages [known]: Remove: archive file [/home/abi/fetcher/tmp/known-0.0.6.tar.gz]
+[2023-07-02 00:01:03] INFO root fetch - main [MainThread]: End processing [known]: success
+[2023-07-02 00:01:03] INFO root fetch - processPackages [pylookyloo]: Remove: archive file [/home/abi/fetcher/tmp/pylookyloo-1.8.1.tar.gz]
+[2023-07-02 00:01:03] INFO root fetch - processPackages [pylookyloo]: Remove: archive file [/home/abi/fetcher/tmp/pylookyloo-1.9.0.tar.gz]
+[2023-07-02 00:01:03] INFO root fetch - main [MainThread]: End processing [pylookyloo]: success
+[2023-07-02 00:01:03] INFO root fetch - processPackages [flook]: Remove: archive file [/home/abi/fetcher/tmp/flook-0.4.0.tar.gz]
+[2023-07-02 00:01:03] INFO root fetch - processPackages [flook]: Remove: archive file [/home/abi/fetcher/tmp/flook-0.4.1.tar.gz]
+[2023-07-02 00:01:03] INFO root fetch - main [MainThread]: End processing [flook]: success
+[2023-07-02 00:01:04] INFO root fetch - processPackages [QualysPy]: Remove: archive file [/home/abi/fetcher/tmp/qualyspy-0.3.9.2.tar.gz]
+[2023-07-02 00:01:04] INFO root fetch - processPackages [QualysPy]: Remove: archive file [/home/abi/fetcher/tmp/qualyspy-0.3.9.3.tar.gz]
+[2023-07-02 00:01:04] INFO root fetch - main [MainThread]: End processing [QualysPy]: success
+[2023-07-02 00:01:04] ERROR root fetch - processPackages [QualysPy]: Diffoscope failed: gzip: tmp/qualyspy-0.3.9.3.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/qualyspy-0.3.9.3.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-07-02 00:01:04] INFO root fetch - main [MainThread]: End processing [QualysPy] error
+[2023-07-02 00:01:04] INFO root fetch - main [MainThread]: Store serial: [18724864]
