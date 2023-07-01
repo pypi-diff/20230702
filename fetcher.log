@@ -659,3 +659,15 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 01:30:04] INFO root fetch - processPackages [PySDM-examples]: Remove: archive file [/home/abi/fetcher/tmp/PySDM-examples-2.9.tar.gz]
 [2023-07-02 01:30:04] INFO root fetch - main [MainThread]: End processing [PySDM-examples]: success
 [2023-07-02 01:30:04] INFO root fetch - main [MainThread]: Store serial: [18725050]
+[2023-07-02 01:35:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18725050]
+[2023-07-02 01:35:13] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-02 01:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cjm-yolox-pytorch
+[2023-07-02 01:35:13] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-02 01:35:13] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/38/42/f7bac1a35240c4c2529871019c724b4ea9bf3662e072e9f09b3b8472bf4e/cjm-yolox-pytorch-0.0.1.tar.gz
+[2023-07-02 01:35:14] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/de/97/1e49286eab20b1ca16c9e395bac50c58f08a894d1bc345dd244917351384/cjm-yolox-pytorch-0.0.2.tar.gz
+[2023-07-02 01:35:14] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-02 01:35:14] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.1.tar.gz tmp/cjm-yolox-pytorch-0.0.2.tar.gz --markdown 20230702/c/cjm-yolox-pytorch/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-02 01:35:15] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.1.tar.gz]
+[2023-07-02 01:35:15] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.2.tar.gz]
+[2023-07-02 01:35:15] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-02 01:35:15] INFO root fetch - main [MainThread]: Store serial: [18725053]
