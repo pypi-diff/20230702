@@ -801,3 +801,24 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 01:45:45] INFO root fetch - processPackages [PySDM]: Remove: archive file [/home/abi/fetcher/tmp/PySDM-2.9.tar.gz]
 [2023-07-02 01:45:45] INFO root fetch - main [MainThread]: End processing [PySDM]: success
 [2023-07-02 01:45:45] INFO root fetch - main [MainThread]: Store serial: [18725095]
+[2023-07-02 01:50:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18725095]
+[2023-07-02 01:50:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-02 01:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: embedchain-harin
+[2023-07-02 01:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vfx-pipeline-api
+[2023-07-02 01:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lemmy-nhl
+[2023-07-02 01:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llamabot
+[2023-07-02 01:50:54] WARNING root fetch - processPackages [embedchain-harin]: Skipping, unable to determine old version
+[2023-07-02 01:50:54] INFO root fetch - main [MainThread]: End processing [embedchain-harin] error
+[2023-07-02 01:50:54] WARNING root fetch - processPackages [lemmy-nhl]: Skipping, unable to determine old version
+[2023-07-02 01:50:54] INFO root fetch - main [MainThread]: End processing [lemmy-nhl] error
+[2023-07-02 01:50:54] INFO root fetch - processPackages [llamabot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 01:50:54] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/31/05/7d4721877f2dde80d5bd40c84773d24b5486a794e78758d5c6c51a0e0ee0/llamabot-0.0.8.tar.gz
+[2023-07-02 01:50:54] WARNING root fetch - processPackages [vfx-pipeline-api]: Skipping, unable to determine old version
+[2023-07-02 01:50:54] INFO root fetch - main [MainThread]: End processing [vfx-pipeline-api] error
+[2023-07-02 01:50:54] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/8c/77/360013b912689bcadc9699ffbfd0c59717ab5c032c425ce8f661e39484f5/llamabot-0.0.9.tar.gz
+[2023-07-02 01:50:54] INFO root fetch - processPackages [llamabot]: executing diffoscope
+[2023-07-02 01:50:54] INFO root fetch - processPackages [llamabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamabot-0.0.8.tar.gz tmp/llamabot-0.0.9.tar.gz --markdown 20230702/l/llamabot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 01:50:55] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.8.tar.gz]
+[2023-07-02 01:50:55] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.9.tar.gz]
+[2023-07-02 01:50:55] INFO root fetch - main [MainThread]: End processing [llamabot]: success
+[2023-07-02 01:50:55] INFO root fetch - main [MainThread]: Store serial: [18725111]
