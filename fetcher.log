@@ -440,3 +440,52 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 00:47:47] INFO root fetch - processPackages [xtor]: Remove: archive file [/home/abi/fetcher/tmp/xtor-0.3.1.tar.gz]
 [2023-07-02 00:47:47] INFO root fetch - main [MainThread]: End processing [xtor]: success
 [2023-07-02 00:47:47] INFO root fetch - main [MainThread]: Store serial: [18724976]
+[2023-07-02 00:52:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724976]
+[2023-07-02 00:52:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-02 00:52:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SwiftyPy
+[2023-07-02 00:52:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lucianosyllvapacotepypi
+[2023-07-02 00:52:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unbelievaboat
+[2023-07-02 00:52:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: loren-frank-data-processing
+[2023-07-02 00:52:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SwiftyPy
+[2023-07-02 00:52:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sinabs
+[2023-07-02 00:52:55] INFO root fetch - processPackages [SwiftyPy]: New version: [4.1] Old Version: [3.1]
+[2023-07-02 00:52:55] INFO root fetch - processPackages [unbelievaboat]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-02 00:52:55] INFO root fetch - processPackages [SwiftyPy]: New version: [4.1] Old Version: [3.1]
+[2023-07-02 00:52:55] WARNING root fetch - processPackages [lucianosyllvapacotepypi]: Skipping, unable to determine old version
+[2023-07-02 00:52:55] INFO root fetch - main [MainThread]: End processing [lucianosyllvapacotepypi] error
+[2023-07-02 00:52:55] INFO root fetch - processPackages [loren-frank-data-processing]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-02 00:52:55] INFO root fetch - processPackages [sinabs]: New version: [1.2.7.dev3] Old Version: [1.2.7.dev2]
+[2023-07-02 00:52:55] INFO root fetch - processPackages [unbelievaboat]: Downloading https://files.pythonhosted.org/packages/7f/41/91ac87c650974b237641b94357b9699310c92c0edbf2fa998fc9c9d242aa/unbelievaboat-1.0.5.tar.gz
+[2023-07-02 00:52:55] INFO root fetch - processPackages [loren-frank-data-processing]: Downloading https://files.pythonhosted.org/packages/87/48/77b81b0a45a74ed64b95432a5dedaac2af0f0a3edaf2dd69a46038de5ee0/loren_frank_data_processing-1.0.1.tar.gz
+[2023-07-02 00:52:55] INFO root fetch - processPackages [SwiftyPy]: Downloading https://files.pythonhosted.org/packages/ac/54/eec2a3a2534cf84a1236de891ae9a74a9cf691f38599f607f6f6a608e7eb/SwiftyPy-3.1.tar.gz
+[2023-07-02 00:52:55] INFO root fetch - processPackages [SwiftyPy]: Downloading https://files.pythonhosted.org/packages/ac/54/eec2a3a2534cf84a1236de891ae9a74a9cf691f38599f607f6f6a608e7eb/SwiftyPy-3.1.tar.gz
+[2023-07-02 00:52:55] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/e0/2e/1672cc34b9b6ed22bfe29b4c0dfbb65b7b496485d8e8c05412a78745e503/sinabs-1.2.7.dev2.tar.gz
+[2023-07-02 00:52:56] INFO root fetch - processPackages [unbelievaboat]: Downloading https://files.pythonhosted.org/packages/c9/b8/e396069b167f661bde61cf3d2a3c19f0026150faad30dacfb3fc45b68869/unbelievaboat-1.0.6.tar.gz
+[2023-07-02 00:52:56] INFO root fetch - processPackages [loren-frank-data-processing]: Downloading https://files.pythonhosted.org/packages/3e/92/d3f73937e0dce1b0ae079f793a08a7a8327afb8259e9ecd76f6fea2cd2fe/loren_frank_data_processing-1.0.2.tar.gz
+[2023-07-02 00:52:56] INFO root fetch - processPackages [unbelievaboat]: executing diffoscope
+[2023-07-02 00:52:56] INFO root fetch - processPackages [unbelievaboat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unbelievaboat-1.0.5.tar.gz tmp/unbelievaboat-1.0.6.tar.gz --markdown 20230702/u/unbelievaboat/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-02 00:52:56] INFO root fetch - processPackages [loren-frank-data-processing]: executing diffoscope
+[2023-07-02 00:52:56] INFO root fetch - processPackages [loren-frank-data-processing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loren_frank_data_processing-1.0.1.tar.gz tmp/loren_frank_data_processing-1.0.2.tar.gz --markdown 20230702/l/loren-frank-data-processing/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-02 00:52:56] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/d9/f8/bfa62fee3593cc4dbd26c98960245c4a7b86eb4e6545ed18e584f23d92af/sinabs-1.2.7.dev3.tar.gz
+[2023-07-02 00:52:56] INFO root fetch - processPackages [sinabs]: executing diffoscope
+[2023-07-02 00:52:56] INFO root fetch - processPackages [sinabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinabs-1.2.7.dev2.tar.gz tmp/sinabs-1.2.7.dev3.tar.gz --markdown 20230702/s/sinabs/1.2.7.dev2-1.2.7.dev3/diff.md --exclude *.pyd
+[2023-07-02 00:52:57] INFO root fetch - processPackages [loren-frank-data-processing]: Remove: archive file [/home/abi/fetcher/tmp/loren_frank_data_processing-1.0.1.tar.gz]
+[2023-07-02 00:52:57] INFO root fetch - processPackages [loren-frank-data-processing]: Remove: archive file [/home/abi/fetcher/tmp/loren_frank_data_processing-1.0.2.tar.gz]
+[2023-07-02 00:52:57] INFO root fetch - main [MainThread]: End processing [loren-frank-data-processing]: success
+[2023-07-02 00:52:57] INFO root fetch - processPackages [unbelievaboat]: Remove: archive file [/home/abi/fetcher/tmp/unbelievaboat-1.0.5.tar.gz]
+[2023-07-02 00:52:57] INFO root fetch - processPackages [unbelievaboat]: Remove: archive file [/home/abi/fetcher/tmp/unbelievaboat-1.0.6.tar.gz]
+[2023-07-02 00:52:57] INFO root fetch - main [MainThread]: End processing [unbelievaboat]: success
+[2023-07-02 00:52:57] INFO root fetch - processPackages [sinabs]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-1.2.7.dev2.tar.gz]
+[2023-07-02 00:52:57] INFO root fetch - processPackages [sinabs]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-1.2.7.dev3.tar.gz]
+[2023-07-02 00:52:57] INFO root fetch - main [MainThread]: End processing [sinabs]: success
+[2023-07-02 00:52:58] INFO root fetch - processPackages [SwiftyPy]: Downloading https://files.pythonhosted.org/packages/b0/3f/23566d40a29965d0a4d04d150481cd4920ab0055b51dd9cd6449a7256f21/SwiftyPy-4.1.tar.gz
+[2023-07-02 00:52:58] INFO root fetch - processPackages [SwiftyPy]: Downloading https://files.pythonhosted.org/packages/b0/3f/23566d40a29965d0a4d04d150481cd4920ab0055b51dd9cd6449a7256f21/SwiftyPy-4.1.tar.gz
+[2023-07-02 00:52:59] INFO root fetch - processPackages [SwiftyPy]: executing diffoscope
+[2023-07-02 00:52:59] INFO root fetch - processPackages [SwiftyPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SwiftyPy-3.1.tar.gz tmp/SwiftyPy-4.1.tar.gz --markdown 20230702/S/SwiftyPy/3.1-4.1/diff.md --exclude *.pyd
+[2023-07-02 00:52:59] INFO root fetch - processPackages [SwiftyPy]: executing diffoscope
+[2023-07-02 00:52:59] INFO root fetch - processPackages [SwiftyPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SwiftyPy-3.1.tar.gz tmp/SwiftyPy-4.1.tar.gz --markdown 20230702/S/SwiftyPy/3.1-4.1/diff.md --exclude *.pyd
+[2023-07-02 00:53:43] INFO root fetch - processPackages [SwiftyPy]: Remove: archive file [/home/abi/fetcher/tmp/SwiftyPy-3.1.tar.gz]
+[2023-07-02 00:53:43] INFO root fetch - processPackages [SwiftyPy]: Remove: archive file [/home/abi/fetcher/tmp/SwiftyPy-4.1.tar.gz]
+[2023-07-02 00:53:43] INFO root fetch - main [MainThread]: End processing [SwiftyPy]: success
+[2023-07-02 00:53:46] INFO root fetch - main [MainThread]: End processing [SwiftyPy]: success
+[2023-07-02 00:53:46] INFO root fetch - main [MainThread]: Store serial: [18724993]
