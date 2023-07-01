@@ -744,3 +744,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 01:40:31] INFO root fetch - processPackages [pipenv]: Remove: archive file [/home/abi/fetcher/tmp/pipenv-9.1.0.tar.gz]
 [2023-07-02 01:40:31] INFO root fetch - main [MainThread]: End processing [pipenv]: success
 [2023-07-02 01:40:31] INFO root fetch - main [MainThread]: Store serial: [18725076]
+[2023-07-02 01:45:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18725076]
+[2023-07-02 01:45:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-02 01:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PySDM
+[2023-07-02 01:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llamabot
+[2023-07-02 01:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xklb
+[2023-07-02 01:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: loren-frank-data-processing
+[2023-07-02 01:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cjm-yolox-pytorch
+[2023-07-02 01:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: skyplane-nightly
+[2023-07-02 01:45:40] INFO root fetch - processPackages [loren-frank-data-processing]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-02 01:45:40] INFO root fetch - processPackages [PySDM]: New version: [2.9] Old Version: [2.8]
+[2023-07-02 01:45:40] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-02 01:45:40] INFO root fetch - processPackages [skyplane-nightly]: New version: [0.3.2.dev202306302345] Old Version: [0.3.2.dev202306292345]
+[2023-07-02 01:45:40] INFO root fetch - processPackages [llamabot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 01:45:40] INFO root fetch - processPackages [xklb]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-02 01:45:40] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/59/f8/46494e1529452066bd973569214be3ed4ba39abf0a708a19f2a6478855dd/skyplane_nightly-0.3.2.dev202306292345.tar.gz
+[2023-07-02 01:45:40] INFO root fetch - processPackages [loren-frank-data-processing]: Downloading https://files.pythonhosted.org/packages/3e/92/d3f73937e0dce1b0ae079f793a08a7a8327afb8259e9ecd76f6fea2cd2fe/loren_frank_data_processing-1.0.2.tar.gz
+[2023-07-02 01:45:40] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/10/78/158da1876f9993e387cbd6f3e863998fb3d36545c88820f91a57f7a97b99/xklb-2.2.8.tar.gz
+[2023-07-02 01:45:40] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/ce/d7/1bd48619cef37a238c67016ccb9ce7a5835c8a53accf5e92621b4239803c/cjm-yolox-pytorch-0.0.4.tar.gz
+[2023-07-02 01:45:40] INFO root fetch - processPackages [PySDM]: Downloading https://files.pythonhosted.org/packages/17/d1/08e0d17cbe649fc4b7076f8d101822c798dbbb7083219645877912e8855e/PySDM-2.8.tar.gz
+[2023-07-02 01:45:40] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/31/05/7d4721877f2dde80d5bd40c84773d24b5486a794e78758d5c6c51a0e0ee0/llamabot-0.0.8.tar.gz
+[2023-07-02 01:45:40] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/21/af/fbdd09ebcfd5aa404fbf007cfe827b2b56fcfd19c73cc4b3f7f672fe0b3c/xklb-2.2.9.tar.gz
+[2023-07-02 01:45:40] INFO root fetch - processPackages [loren-frank-data-processing]: Downloading https://files.pythonhosted.org/packages/ab/ae/fe8a49270419852109f9c0d0eff38b915c2e1545917864482a9d90c00769/loren_frank_data_processing-1.0.3.tar.gz
+[2023-07-02 01:45:40] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/28/b4/745acbbcd08cac2d3600488ad0aeb11527bb7f636c31b7ed980b86c85721/skyplane_nightly-0.3.2.dev202306302345.tar.gz
+[2023-07-02 01:45:40] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/0e/72/123453da376320192e727e0f0ebbbaf90f42ca0a9cb39be6f2f2ab2d63fd/cjm-yolox-pytorch-0.0.5.tar.gz
+[2023-07-02 01:45:40] INFO root fetch - processPackages [loren-frank-data-processing]: executing diffoscope
+[2023-07-02 01:45:40] INFO root fetch - processPackages [loren-frank-data-processing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loren_frank_data_processing-1.0.2.tar.gz tmp/loren_frank_data_processing-1.0.3.tar.gz --markdown 20230702/l/loren-frank-data-processing/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-02 01:45:40] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-07-02 01:45:40] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.2.8.tar.gz tmp/xklb-2.2.9.tar.gz --markdown 20230702/x/xklb/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-02 01:45:40] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/8c/77/360013b912689bcadc9699ffbfd0c59717ab5c032c425ce8f661e39484f5/llamabot-0.0.9.tar.gz
+[2023-07-02 01:45:40] INFO root fetch - processPackages [PySDM]: Downloading https://files.pythonhosted.org/packages/a0/87/500d29854c171383aeec947323457a0e9a4b56dad81353ffeb13c855c1af/PySDM-2.9.tar.gz
+[2023-07-02 01:45:40] INFO root fetch - processPackages [skyplane-nightly]: executing diffoscope
+[2023-07-02 01:45:40] INFO root fetch - processPackages [skyplane-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyplane_nightly-0.3.2.dev202306292345.tar.gz tmp/skyplane_nightly-0.3.2.dev202306302345.tar.gz --markdown 20230702/s/skyplane-nightly/0.3.2.dev202306292345-0.3.2.dev202306302345/diff.md --exclude *.pyd
+[2023-07-02 01:45:40] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-02 01:45:40] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.4.tar.gz tmp/cjm-yolox-pytorch-0.0.5.tar.gz --markdown 20230702/c/cjm-yolox-pytorch/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-02 01:45:40] INFO root fetch - processPackages [PySDM]: executing diffoscope
+[2023-07-02 01:45:40] INFO root fetch - processPackages [PySDM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySDM-2.8.tar.gz tmp/PySDM-2.9.tar.gz --markdown 20230702/P/PySDM/2.8-2.9/diff.md --exclude *.pyd
+[2023-07-02 01:45:41] INFO root fetch - processPackages [llamabot]: executing diffoscope
+[2023-07-02 01:45:41] INFO root fetch - processPackages [llamabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamabot-0.0.8.tar.gz tmp/llamabot-0.0.9.tar.gz --markdown 20230702/l/llamabot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 01:45:42] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.4.tar.gz]
+[2023-07-02 01:45:42] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.5.tar.gz]
+[2023-07-02 01:45:42] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-02 01:45:42] INFO root fetch - processPackages [loren-frank-data-processing]: Remove: archive file [/home/abi/fetcher/tmp/loren_frank_data_processing-1.0.2.tar.gz]
+[2023-07-02 01:45:42] INFO root fetch - processPackages [loren-frank-data-processing]: Remove: archive file [/home/abi/fetcher/tmp/loren_frank_data_processing-1.0.3.tar.gz]
+[2023-07-02 01:45:42] INFO root fetch - main [MainThread]: End processing [loren-frank-data-processing]: success
+[2023-07-02 01:45:42] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev202306292345.tar.gz]
+[2023-07-02 01:45:42] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev202306302345.tar.gz]
+[2023-07-02 01:45:42] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
+[2023-07-02 01:45:42] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.8.tar.gz]
+[2023-07-02 01:45:42] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.9.tar.gz]
+[2023-07-02 01:45:42] INFO root fetch - main [MainThread]: End processing [llamabot]: success
+[2023-07-02 01:45:43] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.8.tar.gz]
+[2023-07-02 01:45:43] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.9.tar.gz]
+[2023-07-02 01:45:43] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-07-02 01:45:45] INFO root fetch - processPackages [PySDM]: Remove: archive file [/home/abi/fetcher/tmp/PySDM-2.8.tar.gz]
+[2023-07-02 01:45:45] INFO root fetch - processPackages [PySDM]: Remove: archive file [/home/abi/fetcher/tmp/PySDM-2.9.tar.gz]
+[2023-07-02 01:45:45] INFO root fetch - main [MainThread]: End processing [PySDM]: success
+[2023-07-02 01:45:45] INFO root fetch - main [MainThread]: Store serial: [18725095]
