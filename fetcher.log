@@ -554,3 +554,24 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 01:09:18] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3-py3-none-any.whl.zip]
 [2023-07-02 01:09:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
 [2023-07-02 01:09:18] INFO root fetch - main [MainThread]: Store serial: [18725015]
+[2023-07-02 01:14:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18725015]
+[2023-07-02 01:14:27] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-02 01:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: poetry-plugin-package-info
+[2023-07-02 01:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: universal-test-runner
+[2023-07-02 01:14:27] INFO root fetch - processPackages [poetry-plugin-package-info]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-02 01:14:27] INFO root fetch - processPackages [universal-test-runner]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-02 01:14:27] INFO root fetch - processPackages [poetry-plugin-package-info]: Downloading https://files.pythonhosted.org/packages/03/97/013b3fea80a1dd40b2025b5173b2385907dcd00de166d0d36250a4f264bb/poetry_plugin_package_info-0.2.2.tar.gz
+[2023-07-02 01:14:27] INFO root fetch - processPackages [universal-test-runner]: Downloading https://files.pythonhosted.org/packages/56/fe/2d0b22e2ea5321821a2ad7aa3fad14298c73b5d51c0d036573e715b2c920/universal_test_runner-0.3.0.tar.gz
+[2023-07-02 01:14:28] INFO root fetch - processPackages [poetry-plugin-package-info]: Downloading https://files.pythonhosted.org/packages/b9/6a/27550730a1d05092a429a21282457d7c25e1efbd68de82420cd623f25499/poetry_plugin_package_info-0.2.3.tar.gz
+[2023-07-02 01:14:28] INFO root fetch - processPackages [universal-test-runner]: Downloading https://files.pythonhosted.org/packages/14/c7/fa363f0a5b13e41ca25ca3b153e34422e30f3cdf776e6dd3b7164d9b2d3f/universal_test_runner-0.4.0.tar.gz
+[2023-07-02 01:14:28] INFO root fetch - processPackages [poetry-plugin-package-info]: executing diffoscope
+[2023-07-02 01:14:28] INFO root fetch - processPackages [poetry-plugin-package-info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_plugin_package_info-0.2.2.tar.gz tmp/poetry_plugin_package_info-0.2.3.tar.gz --markdown 20230702/p/poetry-plugin-package-info/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-02 01:14:28] INFO root fetch - processPackages [universal-test-runner]: executing diffoscope
+[2023-07-02 01:14:28] INFO root fetch - processPackages [universal-test-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/universal_test_runner-0.3.0.tar.gz tmp/universal_test_runner-0.4.0.tar.gz --markdown 20230702/u/universal-test-runner/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-02 01:14:29] INFO root fetch - processPackages [poetry-plugin-package-info]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_package_info-0.2.2.tar.gz]
+[2023-07-02 01:14:29] INFO root fetch - processPackages [poetry-plugin-package-info]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_package_info-0.2.3.tar.gz]
+[2023-07-02 01:14:29] INFO root fetch - main [MainThread]: End processing [poetry-plugin-package-info]: success
+[2023-07-02 01:14:29] INFO root fetch - processPackages [universal-test-runner]: Remove: archive file [/home/abi/fetcher/tmp/universal_test_runner-0.3.0.tar.gz]
+[2023-07-02 01:14:29] INFO root fetch - processPackages [universal-test-runner]: Remove: archive file [/home/abi/fetcher/tmp/universal_test_runner-0.4.0.tar.gz]
+[2023-07-02 01:14:29] INFO root fetch - main [MainThread]: End processing [universal-test-runner]: success
+[2023-07-02 01:14:29] INFO root fetch - main [MainThread]: Store serial: [18725021]
