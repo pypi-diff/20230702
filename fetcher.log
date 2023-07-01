@@ -177,3 +177,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 00:06:16] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202307012204.tar.gz]
 [2023-07-02 00:06:16] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
 [2023-07-02 00:06:16] INFO root fetch - main [MainThread]: Store serial: [18724880]
+[2023-07-02 00:11:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724880]
+[2023-07-02 00:11:24] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-02 00:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: artfight-api
+[2023-07-02 00:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: c2cwsgiutils
+[2023-07-02 00:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlabsio
+[2023-07-02 00:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: es7s
+[2023-07-02 00:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yambs
+[2023-07-02 00:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pref-voting
+[2023-07-02 00:11:24] INFO root fetch - processPackages [streamlabsio]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-02 00:11:24] WARNING root fetch - processPackages [artfight-api]: Skipping, unable to determine old version
+[2023-07-02 00:11:24] INFO root fetch - main [MainThread]: End processing [artfight-api] error
+[2023-07-02 00:11:24] INFO root fetch - processPackages [pref-voting]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-02 00:11:24] INFO root fetch - processPackages [es7s]: New version: [3.6.0.dev0] Old Version: [3.5.0.dev0]
+[2023-07-02 00:11:24] INFO root fetch - processPackages [yambs]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-02 00:11:24] INFO root fetch - processPackages [c2cwsgiutils]: New version: [6.0.0.dev97] Old Version: [6.0.0.dev96]
+[2023-07-02 00:11:24] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/82/69/0096a2aad270c6978e8b4f740c28a597ebc3898508936600960d135c2a44/c2cwsgiutils-6.0.0.dev96.tar.gz
+[2023-07-02 00:11:24] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/ba/38/9e4c7e614878def76a3fade540f9045634f1b19578a7ea9152c657af6093/yambs-1.9.1.tar.gz
+[2023-07-02 00:11:24] INFO root fetch - processPackages [pref-voting]: Downloading https://files.pythonhosted.org/packages/77/25/ffa5ff3e018fc7f7c9fb8831d3ec2f3537f5fb2b9ae6b49310fcdce19d48/pref_voting-0.4.8.tar.gz
+[2023-07-02 00:11:24] INFO root fetch - processPackages [streamlabsio]: Downloading https://files.pythonhosted.org/packages/78/37/80511c0d220bd88a0fc865911c4fc480488f49cdde4024e7cb6c22f8400e/streamlabsio-1.0.1.tar.gz
+[2023-07-02 00:11:24] INFO root fetch - processPackages [es7s]: Downloading https://files.pythonhosted.org/packages/d4/9b/638089077ce7b31286a1c6ea6d58552b2cb0e3f363a26c290e6de2ea308b/es7s-3.5.0.dev0.tar.gz
+[2023-07-02 00:11:24] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/bc/de/c8e0de2150ff70173e8603e117bc9f72cf2ab9d296bef3f2b076e79ae675/yambs-1.9.2.tar.gz
+[2023-07-02 00:11:24] INFO root fetch - processPackages [yambs]: executing diffoscope
+[2023-07-02 00:11:24] INFO root fetch - processPackages [yambs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yambs-1.9.1.tar.gz tmp/yambs-1.9.2.tar.gz --markdown 20230702/y/yambs/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-02 00:11:24] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/7e/19/e64dc0870291f601e6d1f041424eef5a28112c1c9b7be627a7f01c80ebab/c2cwsgiutils-6.0.0.dev97.tar.gz
+[2023-07-02 00:11:25] INFO root fetch - processPackages [streamlabsio]: Downloading https://files.pythonhosted.org/packages/74/8f/f06ccb5dd148227442d9ff65abe59937d37b2a54785cbbcb4c0f483559e5/streamlabsio-1.0.2.tar.gz
+[2023-07-02 00:11:25] INFO root fetch - processPackages [streamlabsio]: executing diffoscope
+[2023-07-02 00:11:25] INFO root fetch - processPackages [streamlabsio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlabsio-1.0.1.tar.gz tmp/streamlabsio-1.0.2.tar.gz --markdown 20230702/s/streamlabsio/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-02 00:11:25] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2023-07-02 00:11:25] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-6.0.0.dev96.tar.gz tmp/c2cwsgiutils-6.0.0.dev97.tar.gz --markdown 20230702/c/c2cwsgiutils/6.0.0.dev96-6.0.0.dev97/diff.md --exclude *.pyd
+[2023-07-02 00:11:25] INFO root fetch - processPackages [es7s]: Downloading https://files.pythonhosted.org/packages/19/8b/f0ecc6844615f1d6585d48b9c2cc1f4e21bd25b8cf7a8d0aa0f8912bc159/es7s-3.6.0.dev0.tar.gz
+[2023-07-02 00:11:25] INFO root fetch - processPackages [pref-voting]: Downloading https://files.pythonhosted.org/packages/25/33/15bd2e1b3749a053085a61c8c9e6deafd9ffce855827db1f7ad34acb69bb/pref_voting-0.4.9.tar.gz
+[2023-07-02 00:11:25] INFO root fetch - processPackages [es7s]: executing diffoscope
+[2023-07-02 00:11:25] INFO root fetch - processPackages [es7s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/es7s-3.5.0.dev0.tar.gz tmp/es7s-3.6.0.dev0.tar.gz --markdown 20230702/e/es7s/3.5.0.dev0-3.6.0.dev0/diff.md --exclude *.pyd
+[2023-07-02 00:11:25] INFO root fetch - processPackages [pref-voting]: executing diffoscope
+[2023-07-02 00:11:25] INFO root fetch - processPackages [pref-voting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pref_voting-0.4.8.tar.gz tmp/pref_voting-0.4.9.tar.gz --markdown 20230702/p/pref-voting/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-02 00:11:26] INFO root fetch - processPackages [streamlabsio]: Remove: archive file [/home/abi/fetcher/tmp/streamlabsio-1.0.1.tar.gz]
+[2023-07-02 00:11:26] INFO root fetch - processPackages [streamlabsio]: Remove: archive file [/home/abi/fetcher/tmp/streamlabsio-1.0.2.tar.gz]
+[2023-07-02 00:11:26] INFO root fetch - main [MainThread]: End processing [streamlabsio]: success
+[2023-07-02 00:11:26] INFO root fetch - processPackages [yambs]: Remove: archive file [/home/abi/fetcher/tmp/yambs-1.9.1.tar.gz]
+[2023-07-02 00:11:26] INFO root fetch - processPackages [yambs]: Remove: archive file [/home/abi/fetcher/tmp/yambs-1.9.2.tar.gz]
+[2023-07-02 00:11:26] INFO root fetch - main [MainThread]: End processing [yambs]: success
+[2023-07-02 00:11:26] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.0.0.dev96.tar.gz]
+[2023-07-02 00:11:26] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.0.0.dev97.tar.gz]
+[2023-07-02 00:11:26] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2023-07-02 00:11:26] INFO root fetch - processPackages [pref-voting]: Remove: archive file [/home/abi/fetcher/tmp/pref_voting-0.4.8.tar.gz]
+[2023-07-02 00:11:26] INFO root fetch - processPackages [pref-voting]: Remove: archive file [/home/abi/fetcher/tmp/pref_voting-0.4.9.tar.gz]
+[2023-07-02 00:11:26] INFO root fetch - main [MainThread]: End processing [pref-voting]: success
+[2023-07-02 00:11:26] INFO root fetch - processPackages [es7s]: Remove: archive file [/home/abi/fetcher/tmp/es7s-3.5.0.dev0.tar.gz]
+[2023-07-02 00:11:26] INFO root fetch - processPackages [es7s]: Remove: archive file [/home/abi/fetcher/tmp/es7s-3.6.0.dev0.tar.gz]
+[2023-07-02 00:11:26] INFO root fetch - main [MainThread]: End processing [es7s]: success
+[2023-07-02 00:11:26] INFO root fetch - main [MainThread]: Store serial: [18724904]
