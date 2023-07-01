@@ -489,3 +489,47 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 00:53:43] INFO root fetch - main [MainThread]: End processing [SwiftyPy]: success
 [2023-07-02 00:53:46] INFO root fetch - main [MainThread]: End processing [SwiftyPy]: success
 [2023-07-02 00:53:46] INFO root fetch - main [MainThread]: Store serial: [18724993]
+[2023-07-02 00:58:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724993]
+[2023-07-02 00:58:55] INFO root fetch - main [MainThread]: No changed packages found
+[2023-07-02 01:03:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724993]
+[2023-07-02 01:04:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-02 01:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: absplit
+[2023-07-02 01:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmnt-cu101
+[2023-07-02 01:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pg-bulk-ingest
+[2023-07-02 01:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gatoeda65
+[2023-07-02 01:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tmnt
+[2023-07-02 01:04:01] INFO root fetch - processPackages [pg-bulk-ingest]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 01:04:01] INFO root fetch - processPackages [absplit]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-07-02 01:04:01] WARNING root fetch - processPackages [gatoeda65]: Skipping, unable to determine old version
+[2023-07-02 01:04:01] INFO root fetch - main [MainThread]: End processing [gatoeda65] error
+[2023-07-02 01:04:01] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230701] Old Version: [0.7.0b20230630]
+[2023-07-02 01:04:01] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230630] Old Version: [0.7.0b20230629]
+[2023-07-02 01:04:01] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/ec/a0/d3688ee3b584fe6cb0638830f8012289bb7e9f9849407f4a1f5b2fcdcfd1/tmnt-cu101-0.7.0b20230630.tar.gz
+[2023-07-02 01:04:01] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/86/6d/b99fbcec3bcc56cba53ff18be0290ca585e2be17930988bbde4f1ee2f698/tmnt-0.7.0b20230629.tar.gz
+[2023-07-02 01:04:01] INFO root fetch - processPackages [absplit]: Downloading https://files.pythonhosted.org/packages/b0/f0/910c108fb20a572e6f4fd67837873e5831059077d81febf3617abcce6ce6/absplit-1.3.1.tar.gz
+[2023-07-02 01:04:01] INFO root fetch - processPackages [pg-bulk-ingest]: Downloading https://files.pythonhosted.org/packages/e7/4c/79370bd20a6c816fde6c364043a829acf317c47786fa13893e26ccd005f6/pg_bulk_ingest-0.0.8.tar.gz
+[2023-07-02 01:04:01] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/f4/7d/7a41e98e4c8de57a43cd96a1d8b40c0f7c81e2b289c3cf390ec2515912e8/tmnt-0.7.0b20230630.tar.gz
+[2023-07-02 01:04:01] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/af/f9/80f5c9814b67e4ae0dfb8a2f9aa9e982d80d4f6d1b02c9705245d2122285/tmnt-cu101-0.7.0b20230701.tar.gz
+[2023-07-02 01:04:01] INFO root fetch - processPackages [absplit]: Downloading https://files.pythonhosted.org/packages/68/86/78f65e09776cc3eead6d191f5242147293de45bf7091b569789c7e63fe94/absplit-1.4.0.tar.gz
+[2023-07-02 01:04:01] INFO root fetch - processPackages [pg-bulk-ingest]: Downloading https://files.pythonhosted.org/packages/db/bb/df7525f74975aacf76789085425bed157db43bb21c9d69e39c9e4bedd944/pg_bulk_ingest-0.0.9.tar.gz
+[2023-07-02 01:04:01] INFO root fetch - processPackages [absplit]: executing diffoscope
+[2023-07-02 01:04:01] INFO root fetch - processPackages [absplit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/absplit-1.3.1.tar.gz tmp/absplit-1.4.0.tar.gz --markdown 20230702/a/absplit/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-07-02 01:04:01] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-07-02 01:04:01] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230630.tar.gz tmp/tmnt-cu101-0.7.0b20230701.tar.gz --markdown 20230702/t/tmnt-cu101/0.7.0b20230630-0.7.0b20230701/diff.md --exclude *.pyd
+[2023-07-02 01:04:01] INFO root fetch - processPackages [pg-bulk-ingest]: executing diffoscope
+[2023-07-02 01:04:01] INFO root fetch - processPackages [pg-bulk-ingest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_bulk_ingest-0.0.8.tar.gz tmp/pg_bulk_ingest-0.0.9.tar.gz --markdown 20230702/p/pg-bulk-ingest/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 01:04:02] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-07-02 01:04:02] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230629.tar.gz tmp/tmnt-0.7.0b20230630.tar.gz --markdown 20230702/t/tmnt/0.7.0b20230629-0.7.0b20230630/diff.md --exclude *.pyd
+[2023-07-02 01:04:02] INFO root fetch - processPackages [pg-bulk-ingest]: Remove: archive file [/home/abi/fetcher/tmp/pg_bulk_ingest-0.0.8.tar.gz]
+[2023-07-02 01:04:02] INFO root fetch - processPackages [pg-bulk-ingest]: Remove: archive file [/home/abi/fetcher/tmp/pg_bulk_ingest-0.0.9.tar.gz]
+[2023-07-02 01:04:02] INFO root fetch - main [MainThread]: End processing [pg-bulk-ingest]: success
+[2023-07-02 01:04:02] INFO root fetch - processPackages [absplit]: Remove: archive file [/home/abi/fetcher/tmp/absplit-1.3.1.tar.gz]
+[2023-07-02 01:04:02] INFO root fetch - processPackages [absplit]: Remove: archive file [/home/abi/fetcher/tmp/absplit-1.4.0.tar.gz]
+[2023-07-02 01:04:02] INFO root fetch - main [MainThread]: End processing [absplit]: success
+[2023-07-02 01:04:03] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230630.tar.gz]
+[2023-07-02 01:04:03] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230701.tar.gz]
+[2023-07-02 01:04:03] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-07-02 01:04:03] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230629.tar.gz]
+[2023-07-02 01:04:03] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230630.tar.gz]
+[2023-07-02 01:04:03] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-07-02 01:04:03] INFO root fetch - main [MainThread]: Store serial: [18725010]
