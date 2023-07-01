@@ -228,3 +228,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 00:11:26] INFO root fetch - processPackages [es7s]: Remove: archive file [/home/abi/fetcher/tmp/es7s-3.6.0.dev0.tar.gz]
 [2023-07-02 00:11:26] INFO root fetch - main [MainThread]: End processing [es7s]: success
 [2023-07-02 00:11:26] INFO root fetch - main [MainThread]: Store serial: [18724904]
+[2023-07-02 00:16:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724904]
+[2023-07-02 00:16:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-02 00:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: littleballoffur
+[2023-07-02 00:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: loren-frank-data-processing
+[2023-07-02 00:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: owe-python-sdk
+[2023-07-02 00:16:36] INFO root fetch - processPackages [littleballoffur]: New version: [2.3.1] Old Version: [2.2.0]
+[2023-07-02 00:16:36] INFO root fetch - processPackages [owe-python-sdk]: New version: [0.0.1a5] Old Version: [0.0.1a4]
+[2023-07-02 00:16:36] INFO root fetch - processPackages [loren-frank-data-processing]: New version: [1.0.1] Old Version: [0.9.9.dev0]
+[2023-07-02 00:16:36] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/26/88/58179a0b3faa546bc96f945a743c689b4e9ab029d6e1d316a898dacfbe0f/owe_python_sdk-0.0.1a4.tar.gz
+[2023-07-02 00:16:37] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/8c/26/aa00d1d6ae65f0f66e64991d7a8b93a4e97fdceac5868ea339978c73111b/owe_python_sdk-0.0.1a5.tar.gz
+[2023-07-02 00:16:37] INFO root fetch - processPackages [littleballoffur]: Downloading https://files.pythonhosted.org/packages/7c/ba/16e3846edc26b6f7a170b0663fe4caf87ad235c7cd7f11c4565d59dc62c5/littleballoffur-2.2.0.tar.gz
+[2023-07-02 00:16:37] INFO root fetch - processPackages [loren-frank-data-processing]: Downloading https://files.pythonhosted.org/packages/f9/6d/b4ab9ebfb819e3ba99f3f047a3dfdfab684a8590c0e8465715d9b385c8e0/loren_frank_data_processing-0.9.9.dev0.tar.gz
+[2023-07-02 00:16:37] INFO root fetch - processPackages [owe-python-sdk]: executing diffoscope
+[2023-07-02 00:16:37] INFO root fetch - processPackages [owe-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owe_python_sdk-0.0.1a4.tar.gz tmp/owe_python_sdk-0.0.1a5.tar.gz --markdown 20230702/o/owe-python-sdk/0.0.1a4-0.0.1a5/diff.md --exclude *.pyd
+[2023-07-02 00:16:37] INFO root fetch - processPackages [littleballoffur]: Downloading https://files.pythonhosted.org/packages/69/a5/8139f6a59e954769d92429a65412873bdb8de584a0cd18bda0dc586c92d8/littleballoffur-2.3.1.tar.gz
+[2023-07-02 00:16:37] INFO root fetch - processPackages [loren-frank-data-processing]: Downloading https://files.pythonhosted.org/packages/87/48/77b81b0a45a74ed64b95432a5dedaac2af0f0a3edaf2dd69a46038de5ee0/loren_frank_data_processing-1.0.1.tar.gz
+[2023-07-02 00:16:37] INFO root fetch - processPackages [littleballoffur]: executing diffoscope
+[2023-07-02 00:16:37] INFO root fetch - processPackages [littleballoffur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/littleballoffur-2.2.0.tar.gz tmp/littleballoffur-2.3.1.tar.gz --markdown 20230702/l/littleballoffur/2.2.0-2.3.1/diff.md --exclude *.pyd
+[2023-07-02 00:16:37] INFO root fetch - processPackages [loren-frank-data-processing]: executing diffoscope
+[2023-07-02 00:16:37] INFO root fetch - processPackages [loren-frank-data-processing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loren_frank_data_processing-0.9.9.dev0.tar.gz tmp/loren_frank_data_processing-1.0.1.tar.gz --markdown 20230702/l/loren-frank-data-processing/0.9.9.dev0-1.0.1/diff.md --exclude *.pyd
+[2023-07-02 00:16:38] INFO root fetch - processPackages [owe-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/owe_python_sdk-0.0.1a4.tar.gz]
+[2023-07-02 00:16:38] INFO root fetch - processPackages [owe-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/owe_python_sdk-0.0.1a5.tar.gz]
+[2023-07-02 00:16:38] INFO root fetch - main [MainThread]: End processing [owe-python-sdk]: success
+[2023-07-02 00:16:38] INFO root fetch - processPackages [littleballoffur]: Remove: archive file [/home/abi/fetcher/tmp/littleballoffur-2.2.0.tar.gz]
+[2023-07-02 00:16:38] INFO root fetch - processPackages [littleballoffur]: Remove: archive file [/home/abi/fetcher/tmp/littleballoffur-2.3.1.tar.gz]
+[2023-07-02 00:16:38] INFO root fetch - main [MainThread]: End processing [littleballoffur]: success
+[2023-07-02 00:16:38] INFO root fetch - processPackages [loren-frank-data-processing]: Remove: archive file [/home/abi/fetcher/tmp/loren_frank_data_processing-0.9.9.dev0.tar.gz]
+[2023-07-02 00:16:38] INFO root fetch - processPackages [loren-frank-data-processing]: Remove: archive file [/home/abi/fetcher/tmp/loren_frank_data_processing-1.0.1.tar.gz]
+[2023-07-02 00:16:38] INFO root fetch - main [MainThread]: End processing [loren-frank-data-processing]: success
+[2023-07-02 00:16:38] INFO root fetch - main [MainThread]: Store serial: [18724913]
