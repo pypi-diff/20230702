@@ -131,3 +131,49 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 
 [2023-07-02 00:01:04] INFO root fetch - main [MainThread]: End processing [QualysPy] error
 [2023-07-02 00:01:04] INFO root fetch - main [MainThread]: Store serial: [18724864]
+[2023-07-02 00:06:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724864]
+[2023-07-02 00:06:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-02 00:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: QualysPy
+[2023-07-02 00:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: owe-python-sdk
+[2023-07-02 00:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dockery
+[2023-07-02 00:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ml-compiler-opt
+[2023-07-02 00:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: QualysPy
+[2023-07-02 00:06:13] INFO root fetch - processPackages [QualysPy]: New version: [0.3.9.5] Old Version: [0.3.9.4]
+[2023-07-02 00:06:13] INFO root fetch - processPackages [owe-python-sdk]: New version: [0.0.1a5] Old Version: [0.0.1a4]
+[2023-07-02 00:06:13] INFO root fetch - processPackages [QualysPy]: New version: [0.3.9.5] Old Version: [0.3.9.4]
+[2023-07-02 00:06:13] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202307012204] Old Version: [0.0.1.dev202307010008]
+[2023-07-02 00:06:13] INFO root fetch - processPackages [dockery]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-07-02 00:06:13] INFO root fetch - processPackages [dockery]: Downloading https://files.pythonhosted.org/packages/ae/c6/e83d705f80226e56c44ab64c3546556d64389c9329285c2ab8217cfed500/dockery-0.5.1.tar.gz
+[2023-07-02 00:06:13] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/4c/7b/1aa95f04c6b9eb025ec94e04d1aac83dec882c00c477ad3a8caac98973ef/ml-compiler-opt-0.0.1.dev202307010008.tar.gz
+[2023-07-02 00:06:13] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/26/88/58179a0b3faa546bc96f945a743c689b4e9ab029d6e1d316a898dacfbe0f/owe_python_sdk-0.0.1a4.tar.gz
+[2023-07-02 00:06:14] INFO root fetch - processPackages [QualysPy]: Downloading https://files.pythonhosted.org/packages/8c/34/7d161af554d9db0a13873443f1c7d862856e344cac26b5b4413c1898406f/qualyspy-0.3.9.4.tar.gz
+[2023-07-02 00:06:14] INFO root fetch - processPackages [QualysPy]: Downloading https://files.pythonhosted.org/packages/8c/34/7d161af554d9db0a13873443f1c7d862856e344cac26b5b4413c1898406f/qualyspy-0.3.9.4.tar.gz
+[2023-07-02 00:06:14] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/8c/26/aa00d1d6ae65f0f66e64991d7a8b93a4e97fdceac5868ea339978c73111b/owe_python_sdk-0.0.1a5.tar.gz
+[2023-07-02 00:06:14] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/45/25/cfd17e511ef8660a8792d2712a19b0cae473cbd2d278595d5b4222eba91e/ml-compiler-opt-0.0.1.dev202307012204.tar.gz
+[2023-07-02 00:06:14] INFO root fetch - processPackages [dockery]: Downloading https://files.pythonhosted.org/packages/4f/84/91b2cdddb04bebe02ffe36377dbe06177c41a5c45c4fe229d2fbc06874ce/dockery-0.6.0.tar.gz
+[2023-07-02 00:06:14] INFO root fetch - processPackages [QualysPy]: Downloading https://files.pythonhosted.org/packages/ee/b0/291064ecd4befaf4e4c203ab95edf3afe3bcc87cbc40975bcb8bdf9e83ee/qualyspy-0.3.9.5.tar.gz
+[2023-07-02 00:06:14] INFO root fetch - processPackages [QualysPy]: Downloading https://files.pythonhosted.org/packages/ee/b0/291064ecd4befaf4e4c203ab95edf3afe3bcc87cbc40975bcb8bdf9e83ee/qualyspy-0.3.9.5.tar.gz
+[2023-07-02 00:06:14] INFO root fetch - processPackages [dockery]: executing diffoscope
+[2023-07-02 00:06:14] INFO root fetch - processPackages [dockery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dockery-0.5.1.tar.gz tmp/dockery-0.6.0.tar.gz --markdown 20230702/d/dockery/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-07-02 00:06:14] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-07-02 00:06:14] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-compiler-opt-0.0.1.dev202307010008.tar.gz tmp/ml-compiler-opt-0.0.1.dev202307012204.tar.gz --markdown 20230702/m/ml-compiler-opt/0.0.1.dev202307010008-0.0.1.dev202307012204/diff.md --exclude *.pyd
+[2023-07-02 00:06:14] INFO root fetch - processPackages [owe-python-sdk]: executing diffoscope
+[2023-07-02 00:06:14] INFO root fetch - processPackages [owe-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owe_python_sdk-0.0.1a4.tar.gz tmp/owe_python_sdk-0.0.1a5.tar.gz --markdown 20230702/o/owe-python-sdk/0.0.1a4-0.0.1a5/diff.md --exclude *.pyd
+[2023-07-02 00:06:14] INFO root fetch - processPackages [QualysPy]: executing diffoscope
+[2023-07-02 00:06:14] INFO root fetch - processPackages [QualysPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualyspy-0.3.9.4.tar.gz tmp/qualyspy-0.3.9.5.tar.gz --markdown 20230702/Q/QualysPy/0.3.9.4-0.3.9.5/diff.md --exclude *.pyd
+[2023-07-02 00:06:14] INFO root fetch - processPackages [QualysPy]: executing diffoscope
+[2023-07-02 00:06:14] INFO root fetch - processPackages [QualysPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualyspy-0.3.9.4.tar.gz tmp/qualyspy-0.3.9.5.tar.gz --markdown 20230702/Q/QualysPy/0.3.9.4-0.3.9.5/diff.md --exclude *.pyd
+[2023-07-02 00:06:15] INFO root fetch - processPackages [owe-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/owe_python_sdk-0.0.1a4.tar.gz]
+[2023-07-02 00:06:15] INFO root fetch - processPackages [owe-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/owe_python_sdk-0.0.1a5.tar.gz]
+[2023-07-02 00:06:15] INFO root fetch - main [MainThread]: End processing [owe-python-sdk]: success
+[2023-07-02 00:06:15] INFO root fetch - processPackages [dockery]: Remove: archive file [/home/abi/fetcher/tmp/dockery-0.5.1.tar.gz]
+[2023-07-02 00:06:15] INFO root fetch - processPackages [QualysPy]: Remove: archive file [/home/abi/fetcher/tmp/qualyspy-0.3.9.4.tar.gz]
+[2023-07-02 00:06:15] INFO root fetch - processPackages [dockery]: Remove: archive file [/home/abi/fetcher/tmp/dockery-0.6.0.tar.gz]
+[2023-07-02 00:06:15] INFO root fetch - processPackages [QualysPy]: Remove: archive file [/home/abi/fetcher/tmp/qualyspy-0.3.9.5.tar.gz]
+[2023-07-02 00:06:15] INFO root fetch - main [MainThread]: End processing [dockery]: success
+[2023-07-02 00:06:15] INFO root fetch - main [MainThread]: End processing [QualysPy]: success
+[2023-07-02 00:06:16] INFO root fetch - main [MainThread]: End processing [QualysPy]: success
+[2023-07-02 00:06:16] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202307010008.tar.gz]
+[2023-07-02 00:06:16] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202307012204.tar.gz]
+[2023-07-02 00:06:16] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-07-02 00:06:16] INFO root fetch - main [MainThread]: Store serial: [18724880]
