@@ -671,3 +671,76 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 01:35:15] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.2.tar.gz]
 [2023-07-02 01:35:15] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
 [2023-07-02 01:35:15] INFO root fetch - main [MainThread]: Store serial: [18725053]
+[2023-07-02 01:40:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18725053]
+[2023-07-02 01:40:23] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-02 01:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: golem-garden
+[2023-07-02 01:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cjm-yolox-pytorch
+[2023-07-02 01:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MLandPattern
+[2023-07-02 01:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sweepai
+[2023-07-02 01:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: remotior-sensus
+[2023-07-02 01:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pipenv
+[2023-07-02 01:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cjm-yolox-pytorch
+[2023-07-02 01:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nibiru
+[2023-07-02 01:40:23] INFO root fetch - processPackages [golem-garden]: New version: [0.6.0] Old Version: [0.5.3]
+[2023-07-02 01:40:23] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-02 01:40:23] INFO root fetch - processPackages [remotior-sensus]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 01:40:23] INFO root fetch - processPackages [sweepai]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 01:40:23] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-02 01:40:23] INFO root fetch - processPackages [MLandPattern]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-02 01:40:23] INFO root fetch - processPackages [pipenv]: New version: [9.1.0] Old Version: [9.0.3]
+[2023-07-02 01:40:23] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/de/97/1e49286eab20b1ca16c9e395bac50c58f08a894d1bc345dd244917351384/cjm-yolox-pytorch-0.0.2.tar.gz
+[2023-07-02 01:40:23] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/de/97/1e49286eab20b1ca16c9e395bac50c58f08a894d1bc345dd244917351384/cjm-yolox-pytorch-0.0.2.tar.gz
+[2023-07-02 01:40:23] INFO root fetch - processPackages [nibiru]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-02 01:40:23] INFO root fetch - processPackages [MLandPattern]: Downloading https://files.pythonhosted.org/packages/21/b2/cddf2383a56c27926dc4d9e1e12fd8ca58c35a1c22fa8c96eeca06a3fba8/MLandPattern-0.3.0.tar.gz
+[2023-07-02 01:40:23] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/27/ca/475b581b75fe7c8e41015f0a388da8650b29553bc6d803b43dbe78720725/sweepai-0.1.8.tar.gz
+[2023-07-02 01:40:23] INFO root fetch - processPackages [golem-garden]: Downloading https://files.pythonhosted.org/packages/61/d8/92524922b61e05a6ccc67e391b4c17e1de26fb5e11736d0e614432d7486d/golem_garden-0.5.3.tar.gz
+[2023-07-02 01:40:23] INFO root fetch - processPackages [pipenv]: Downloading https://files.pythonhosted.org/packages/df/eb/d796f85bc65969569a250c896c8b7d7aacb25a6857914c08cf4ed9bfc7f6/pipenv-9.0.3.tar.gz
+[2023-07-02 01:40:23] INFO root fetch - processPackages [remotior-sensus]: Downloading https://files.pythonhosted.org/packages/2d/82/4f0f8be3b8f3c4f00b90027ff3c32958918221be17a5ad7c3cf298d4af04/remotior_sensus-0.0.8.tar.gz
+[2023-07-02 01:40:23] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/8d/8d/5526bb9ff0bb75e5e93506973598613a3acb4c2801d5ecadb34571e1fb67/cjm-yolox-pytorch-0.0.3.tar.gz
+[2023-07-02 01:40:23] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/8d/8d/5526bb9ff0bb75e5e93506973598613a3acb4c2801d5ecadb34571e1fb67/cjm-yolox-pytorch-0.0.3.tar.gz
+[2023-07-02 01:40:23] INFO root fetch - processPackages [nibiru]: Downloading https://files.pythonhosted.org/packages/c9/8f/3cb00d502eaf610ca4b02f5e37b7c4772342e7a8951630764f454da93faa/nibiru-0.5.3.tar.gz
+[2023-07-02 01:40:23] INFO root fetch - processPackages [MLandPattern]: Downloading https://files.pythonhosted.org/packages/ee/e2/38d6b8bf8e73a836cd63bb6ff51f3f4b71b173b12ad253c373ef3a6fcf05/MLandPattern-0.3.1.tar.gz
+[2023-07-02 01:40:23] INFO root fetch - processPackages [golem-garden]: Downloading https://files.pythonhosted.org/packages/35/27/39e44433eb42e281bfe3b03c823a5ae93eed16a9c1e0bcf832dd477275fb/golem_garden-0.6.0.tar.gz
+[2023-07-02 01:40:23] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/95/bf/23fc51bb9a04118d723216f9ef4f4acab507671893b504968965974a6207/sweepai-0.1.9.tar.gz
+[2023-07-02 01:40:24] INFO root fetch - processPackages [MLandPattern]: executing diffoscope
+[2023-07-02 01:40:24] INFO root fetch - processPackages [MLandPattern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MLandPattern-0.3.0.tar.gz tmp/MLandPattern-0.3.1.tar.gz --markdown 20230702/M/MLandPattern/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-02 01:40:24] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-02 01:40:24] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-02 01:40:24] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.2.tar.gz tmp/cjm-yolox-pytorch-0.0.3.tar.gz --markdown 20230702/c/cjm-yolox-pytorch/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-02 01:40:24] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.2.tar.gz tmp/cjm-yolox-pytorch-0.0.3.tar.gz --markdown 20230702/c/cjm-yolox-pytorch/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-02 01:40:24] INFO root fetch - processPackages [remotior-sensus]: Downloading https://files.pythonhosted.org/packages/e4/c8/0c6054910848b2651da24ecb17a3d9ab9a62b4c844a98797ec686eaac17b/remotior_sensus-0.0.9.tar.gz
+[2023-07-02 01:40:24] INFO root fetch - processPackages [golem-garden]: executing diffoscope
+[2023-07-02 01:40:24] INFO root fetch - processPackages [golem-garden]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/golem_garden-0.5.3.tar.gz tmp/golem_garden-0.6.0.tar.gz --markdown 20230702/g/golem-garden/0.5.3-0.6.0/diff.md --exclude *.pyd
+[2023-07-02 01:40:24] INFO root fetch - processPackages [sweepai]: executing diffoscope
+[2023-07-02 01:40:24] INFO root fetch - processPackages [sweepai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweepai-0.1.8.tar.gz tmp/sweepai-0.1.9.tar.gz --markdown 20230702/s/sweepai/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 01:40:24] INFO root fetch - processPackages [remotior-sensus]: executing diffoscope
+[2023-07-02 01:40:24] INFO root fetch - processPackages [remotior-sensus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotior_sensus-0.0.8.tar.gz tmp/remotior_sensus-0.0.9.tar.gz --markdown 20230702/r/remotior-sensus/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 01:40:24] INFO root fetch - processPackages [nibiru]: Downloading https://files.pythonhosted.org/packages/50/dc/7e6c979729048b5ab50308a9ee2b3d871bec8633dab926fb0c420a1eab55/nibiru-0.5.4.tar.gz
+[2023-07-02 01:40:24] INFO root fetch - processPackages [nibiru]: executing diffoscope
+[2023-07-02 01:40:24] INFO root fetch - processPackages [nibiru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nibiru-0.5.3.tar.gz tmp/nibiru-0.5.4.tar.gz --markdown 20230702/n/nibiru/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-07-02 01:40:24] INFO root fetch - processPackages [pipenv]: Downloading https://files.pythonhosted.org/packages/53/66/3f7451f27ce52b194f289c5b3ceb6b159ba177a932bea1fef8e1885ccf92/pipenv-9.1.0.tar.gz
+[2023-07-02 01:40:25] INFO root fetch - processPackages [MLandPattern]: Remove: archive file [/home/abi/fetcher/tmp/MLandPattern-0.3.0.tar.gz]
+[2023-07-02 01:40:25] INFO root fetch - processPackages [MLandPattern]: Remove: archive file [/home/abi/fetcher/tmp/MLandPattern-0.3.1.tar.gz]
+[2023-07-02 01:40:25] INFO root fetch - main [MainThread]: End processing [MLandPattern]: success
+[2023-07-02 01:40:25] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.2.tar.gz]
+[2023-07-02 01:40:25] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.3.tar.gz]
+[2023-07-02 01:40:25] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-02 01:40:25] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-02 01:40:25] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.1.8.tar.gz]
+[2023-07-02 01:40:25] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.1.9.tar.gz]
+[2023-07-02 01:40:25] INFO root fetch - main [MainThread]: End processing [sweepai]: success
+[2023-07-02 01:40:25] INFO root fetch - processPackages [nibiru]: Remove: archive file [/home/abi/fetcher/tmp/nibiru-0.5.3.tar.gz]
+[2023-07-02 01:40:25] INFO root fetch - processPackages [nibiru]: Remove: archive file [/home/abi/fetcher/tmp/nibiru-0.5.4.tar.gz]
+[2023-07-02 01:40:25] INFO root fetch - main [MainThread]: End processing [nibiru]: success
+[2023-07-02 01:40:25] INFO root fetch - processPackages [golem-garden]: Remove: archive file [/home/abi/fetcher/tmp/golem_garden-0.5.3.tar.gz]
+[2023-07-02 01:40:25] INFO root fetch - processPackages [golem-garden]: Remove: archive file [/home/abi/fetcher/tmp/golem_garden-0.6.0.tar.gz]
+[2023-07-02 01:40:25] INFO root fetch - main [MainThread]: End processing [golem-garden]: success
+[2023-07-02 01:40:26] INFO root fetch - processPackages [pipenv]: executing diffoscope
+[2023-07-02 01:40:26] INFO root fetch - processPackages [pipenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipenv-9.0.3.tar.gz tmp/pipenv-9.1.0.tar.gz --markdown 20230702/p/pipenv/9.0.3-9.1.0/diff.md --exclude *.pyd
+[2023-07-02 01:40:26] INFO root fetch - processPackages [remotior-sensus]: Remove: archive file [/home/abi/fetcher/tmp/remotior_sensus-0.0.8.tar.gz]
+[2023-07-02 01:40:26] INFO root fetch - processPackages [remotior-sensus]: Remove: archive file [/home/abi/fetcher/tmp/remotior_sensus-0.0.9.tar.gz]
+[2023-07-02 01:40:26] INFO root fetch - main [MainThread]: End processing [remotior-sensus]: success
+[2023-07-02 01:40:31] INFO root fetch - processPackages [pipenv]: Remove: archive file [/home/abi/fetcher/tmp/pipenv-9.0.3.tar.gz]
+[2023-07-02 01:40:31] INFO root fetch - processPackages [pipenv]: Remove: archive file [/home/abi/fetcher/tmp/pipenv-9.1.0.tar.gz]
+[2023-07-02 01:40:31] INFO root fetch - main [MainThread]: End processing [pipenv]: success
+[2023-07-02 01:40:31] INFO root fetch - main [MainThread]: Store serial: [18725076]
