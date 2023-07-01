@@ -419,3 +419,24 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 00:42:36] INFO root fetch - processPackages [lsst-pex-config]: Remove: archive file [/home/abi/fetcher/tmp/lsst-pex-config-26.0.0a20230500.tar.gz]
 [2023-07-02 00:42:36] INFO root fetch - main [MainThread]: End processing [lsst-pex-config]: success
 [2023-07-02 00:42:36] INFO root fetch - main [MainThread]: Store serial: [18724970]
+[2023-07-02 00:47:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724970]
+[2023-07-02 00:47:45] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-02 00:47:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: owe-python-sdk
+[2023-07-02 00:47:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xtor
+[2023-07-02 00:47:45] INFO root fetch - processPackages [owe-python-sdk]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-07-02 00:47:45] INFO root fetch - processPackages [xtor]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-02 00:47:45] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/b7/87/2ed4496794411461faafd9b31cde5a571ee0b54f11200933d019777ca951/owe_python_sdk-0.0.1a8.tar.gz
+[2023-07-02 00:47:45] INFO root fetch - processPackages [xtor]: Downloading https://files.pythonhosted.org/packages/0f/90/2fbeefaabd599384807f8872bfc9cd251a732fb94d65428ec465344ceaf7/xtor-0.3.0.tar.gz
+[2023-07-02 00:47:46] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/31/27/a7a614b3213736597496297134f4cd10fd0ecee2f977d8e86784bb925c43/owe_python_sdk-0.0.1a9.tar.gz
+[2023-07-02 00:47:46] INFO root fetch - processPackages [xtor]: Downloading https://files.pythonhosted.org/packages/f5/f9/844d260a6b06646a29e9482344d21ad53f7337764bc132093f025e761594/xtor-0.3.1.tar.gz
+[2023-07-02 00:47:46] INFO root fetch - processPackages [owe-python-sdk]: executing diffoscope
+[2023-07-02 00:47:46] INFO root fetch - processPackages [owe-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owe_python_sdk-0.0.1a8.tar.gz tmp/owe_python_sdk-0.0.1a9.tar.gz --markdown 20230702/o/owe-python-sdk/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-07-02 00:47:46] INFO root fetch - processPackages [xtor]: executing diffoscope
+[2023-07-02 00:47:46] INFO root fetch - processPackages [xtor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtor-0.3.0.tar.gz tmp/xtor-0.3.1.tar.gz --markdown 20230702/x/xtor/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-02 00:47:47] INFO root fetch - processPackages [owe-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/owe_python_sdk-0.0.1a8.tar.gz]
+[2023-07-02 00:47:47] INFO root fetch - processPackages [owe-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/owe_python_sdk-0.0.1a9.tar.gz]
+[2023-07-02 00:47:47] INFO root fetch - main [MainThread]: End processing [owe-python-sdk]: success
+[2023-07-02 00:47:47] INFO root fetch - processPackages [xtor]: Remove: archive file [/home/abi/fetcher/tmp/xtor-0.3.0.tar.gz]
+[2023-07-02 00:47:47] INFO root fetch - processPackages [xtor]: Remove: archive file [/home/abi/fetcher/tmp/xtor-0.3.1.tar.gz]
+[2023-07-02 00:47:47] INFO root fetch - main [MainThread]: End processing [xtor]: success
+[2023-07-02 00:47:47] INFO root fetch - main [MainThread]: Store serial: [18724976]
