@@ -822,3 +822,24 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 01:50:55] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.9.tar.gz]
 [2023-07-02 01:50:55] INFO root fetch - main [MainThread]: End processing [llamabot]: success
 [2023-07-02 01:50:55] INFO root fetch - main [MainThread]: Store serial: [18725111]
+[2023-07-02 01:55:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18725111]
+[2023-07-02 01:56:04] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-02 01:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xenosite-fragment
+[2023-07-02 01:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SqlDB
+[2023-07-02 01:56:04] INFO root fetch - processPackages [xenosite-fragment]: New version: [0a9] Old Version: [0a8]
+[2023-07-02 01:56:04] INFO root fetch - processPackages [SqlDB]: New version: [2.0.9] Old Version: [2.0.7]
+[2023-07-02 01:56:04] INFO root fetch - processPackages [xenosite-fragment]: Downloading https://files.pythonhosted.org/packages/82/86/6cfe618dc886070457c7e173cb2e05b6e7d1a7618bf172f533bc7bbcc086/xenosite-fragment-0a8.tar.gz
+[2023-07-02 01:56:04] INFO root fetch - processPackages [SqlDB]: Downloading https://files.pythonhosted.org/packages/55/1d/0bbb5294aa3a5981d268aca1f7ceae529781d4f59620af20093619b75fd8/SqlDB-2.0.7.tar.gz
+[2023-07-02 01:56:04] INFO root fetch - processPackages [xenosite-fragment]: Downloading https://files.pythonhosted.org/packages/d4/3d/f7c5db07e86f0386ca1ca4ce3d79d3182da8fe8ad06cf6518cbbe8eb50a6/xenosite-fragment-0a9.tar.gz
+[2023-07-02 01:56:05] INFO root fetch - processPackages [SqlDB]: Downloading https://files.pythonhosted.org/packages/2e/12/42b864b651fabfc4f002ed3edc7a9c025b1789f67c6187dc0dcf0d8f7cd9/SqlDB-2.0.9.tar.gz
+[2023-07-02 01:56:05] INFO root fetch - processPackages [xenosite-fragment]: executing diffoscope
+[2023-07-02 01:56:05] INFO root fetch - processPackages [xenosite-fragment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xenosite-fragment-0a8.tar.gz tmp/xenosite-fragment-0a9.tar.gz --markdown 20230702/x/xenosite-fragment/0a8-0a9/diff.md --exclude *.pyd
+[2023-07-02 01:56:05] INFO root fetch - processPackages [SqlDB]: executing diffoscope
+[2023-07-02 01:56:05] INFO root fetch - processPackages [SqlDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SqlDB-2.0.7.tar.gz tmp/SqlDB-2.0.9.tar.gz --markdown 20230702/S/SqlDB/2.0.7-2.0.9/diff.md --exclude *.pyd
+[2023-07-02 01:56:06] INFO root fetch - processPackages [SqlDB]: Remove: archive file [/home/abi/fetcher/tmp/SqlDB-2.0.7.tar.gz]
+[2023-07-02 01:56:06] INFO root fetch - processPackages [SqlDB]: Remove: archive file [/home/abi/fetcher/tmp/SqlDB-2.0.9.tar.gz]
+[2023-07-02 01:56:06] INFO root fetch - main [MainThread]: End processing [SqlDB]: success
+[2023-07-02 01:56:06] INFO root fetch - processPackages [xenosite-fragment]: Remove: archive file [/home/abi/fetcher/tmp/xenosite-fragment-0a8.tar.gz]
+[2023-07-02 01:56:06] INFO root fetch - processPackages [xenosite-fragment]: Remove: archive file [/home/abi/fetcher/tmp/xenosite-fragment-0a9.tar.gz]
+[2023-07-02 01:56:06] INFO root fetch - main [MainThread]: End processing [xenosite-fragment]: success
+[2023-07-02 01:56:06] INFO root fetch - main [MainThread]: Store serial: [18725116]
