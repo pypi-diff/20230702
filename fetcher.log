@@ -288,3 +288,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 00:21:53] INFO root fetch - processPackages [database-knotinfo]: Remove: archive file [/home/abi/fetcher/tmp/database_knotinfo-21.7.15.tar.gz]
 [2023-07-02 00:21:53] INFO root fetch - main [MainThread]: End processing [database-knotinfo]: success
 [2023-07-02 00:21:53] INFO root fetch - main [MainThread]: Store serial: [18724919]
+[2023-07-02 00:26:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724919]
+[2023-07-02 00:27:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-02 00:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opshin
+[2023-07-02 00:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: liveports
+[2023-07-02 00:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pythogen
+[2023-07-02 00:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: i8-terminal
+[2023-07-02 00:27:01] INFO root fetch - processPackages [opshin]: New version: [0.9.15] Old Version: [0.9.14]
+[2023-07-02 00:27:02] INFO root fetch - processPackages [liveports]: New version: [0.1.9] Old Version: [0.1.13]
+[2023-07-02 00:27:02] INFO root fetch - processPackages [pythogen]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 00:27:02] INFO root fetch - processPackages [i8-terminal]: New version: [0.2.92] Old Version: [0.2.91]
+[2023-07-02 00:27:02] INFO root fetch - processPackages [liveports]: Downloading https://files.pythonhosted.org/packages/b5/97/b0312924a9f015dd1f1440cb71ec8d61c0a22c26b2a542760fd86fb05a3d/liveports-0.1.13.tar.gz
+[2023-07-02 00:27:02] INFO root fetch - processPackages [opshin]: Downloading https://files.pythonhosted.org/packages/ac/8f/230fda1102c884b7ed406b6fa48643d7b0826e924f753db71c59de2fd65f/opshin-0.9.14.tar.gz
+[2023-07-02 00:27:02] INFO root fetch - processPackages [i8-terminal]: Downloading https://files.pythonhosted.org/packages/b2/f4/d28f09dd52fc85ed7e5327697ee024846c2466afdbcbe35d657e5c6b2428/i8-terminal-0.2.91.tar.gz
+[2023-07-02 00:27:02] INFO root fetch - processPackages [pythogen]: Downloading https://files.pythonhosted.org/packages/48/3e/eac273da1103a200129011044b18d51ccfccd6907915ce6033be8583b016/pythogen-0.1.8.tar.gz
+[2023-07-02 00:27:02] INFO root fetch - processPackages [liveports]: Downloading https://files.pythonhosted.org/packages/cb/d1/99d622e522d5681b51bd34b5e84f98f6a6e912fc52c1243bcef5a9a070e0/liveports-0.1.9.tar.gz
+[2023-07-02 00:27:02] INFO root fetch - processPackages [opshin]: Downloading https://files.pythonhosted.org/packages/85/27/589ead27cf5b537b46af189eb5765afcf156edecbd7075c43b3d788048ac/opshin-0.9.15.tar.gz
+[2023-07-02 00:27:02] INFO root fetch - processPackages [liveports]: executing diffoscope
+[2023-07-02 00:27:02] INFO root fetch - processPackages [liveports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveports-0.1.13.tar.gz tmp/liveports-0.1.9.tar.gz --markdown 20230702/l/liveports/0.1.13-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 00:27:02] INFO root fetch - processPackages [i8-terminal]: Downloading https://files.pythonhosted.org/packages/08/82/d336f75a5f61cb640ea18fd374428d3e594823e0aee99248aa12983813f6/i8-terminal-0.2.92.tar.gz
+[2023-07-02 00:27:02] INFO root fetch - processPackages [pythogen]: Downloading https://files.pythonhosted.org/packages/03/0b/5ab5f47d2b0ccac1ff22db3f9bf4792249988f69499046a2bfd29059e576/pythogen-0.1.9.tar.gz
+[2023-07-02 00:27:02] INFO root fetch - processPackages [opshin]: executing diffoscope
+[2023-07-02 00:27:02] INFO root fetch - processPackages [opshin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opshin-0.9.14.tar.gz tmp/opshin-0.9.15.tar.gz --markdown 20230702/o/opshin/0.9.14-0.9.15/diff.md --exclude *.pyd
+[2023-07-02 00:27:02] INFO root fetch - processPackages [i8-terminal]: executing diffoscope
+[2023-07-02 00:27:02] INFO root fetch - processPackages [i8-terminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i8-terminal-0.2.91.tar.gz tmp/i8-terminal-0.2.92.tar.gz --markdown 20230702/i/i8-terminal/0.2.91-0.2.92/diff.md --exclude *.pyd
+[2023-07-02 00:27:02] INFO root fetch - processPackages [pythogen]: executing diffoscope
+[2023-07-02 00:27:02] INFO root fetch - processPackages [pythogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythogen-0.1.8.tar.gz tmp/pythogen-0.1.9.tar.gz --markdown 20230702/p/pythogen/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 00:27:03] INFO root fetch - processPackages [liveports]: Remove: archive file [/home/abi/fetcher/tmp/liveports-0.1.13.tar.gz]
+[2023-07-02 00:27:03] INFO root fetch - processPackages [liveports]: Remove: archive file [/home/abi/fetcher/tmp/liveports-0.1.9.tar.gz]
+[2023-07-02 00:27:03] INFO root fetch - main [MainThread]: End processing [liveports]: success
+[2023-07-02 00:27:03] INFO root fetch - processPackages [opshin]: Remove: archive file [/home/abi/fetcher/tmp/opshin-0.9.14.tar.gz]
+[2023-07-02 00:27:03] INFO root fetch - processPackages [opshin]: Remove: archive file [/home/abi/fetcher/tmp/opshin-0.9.15.tar.gz]
+[2023-07-02 00:27:03] INFO root fetch - main [MainThread]: End processing [opshin]: success
+[2023-07-02 00:27:03] INFO root fetch - processPackages [pythogen]: Remove: archive file [/home/abi/fetcher/tmp/pythogen-0.1.8.tar.gz]
+[2023-07-02 00:27:03] INFO root fetch - processPackages [pythogen]: Remove: archive file [/home/abi/fetcher/tmp/pythogen-0.1.9.tar.gz]
+[2023-07-02 00:27:03] INFO root fetch - main [MainThread]: End processing [pythogen]: success
+[2023-07-02 00:27:04] INFO root fetch - processPackages [i8-terminal]: Remove: archive file [/home/abi/fetcher/tmp/i8-terminal-0.2.91.tar.gz]
+[2023-07-02 00:27:04] INFO root fetch - processPackages [i8-terminal]: Remove: archive file [/home/abi/fetcher/tmp/i8-terminal-0.2.92.tar.gz]
+[2023-07-02 00:27:04] INFO root fetch - main [MainThread]: End processing [i8-terminal]: success
+[2023-07-02 00:27:04] INFO root fetch - main [MainThread]: Store serial: [18724930]
