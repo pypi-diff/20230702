@@ -533,3 +533,24 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 01:04:03] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230630.tar.gz]
 [2023-07-02 01:04:03] INFO root fetch - main [MainThread]: End processing [tmnt]: success
 [2023-07-02 01:04:03] INFO root fetch - main [MainThread]: Store serial: [18725010]
+[2023-07-02 01:09:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18725010]
+[2023-07-02 01:09:11] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-02 01:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-openupgrade-scripts
+[2023-07-02 01:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OZI
+[2023-07-02 01:09:11] INFO root fetch - processPackages [OZI]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-02 01:09:11] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: New version: [16.0.1.0.3] Old Version: [16.0.1.0.2]
+[2023-07-02 01:09:11] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/7d/9f/c864027970361c6dee6094c0beaeee2491b1d21383669b1fa637328e2f96/odoo_addon_openupgrade_scripts-16.0.1.0.2-py3-none-any.whl
+[2023-07-02 01:09:11] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/ae/9c/8fd980e33da77fefefc96bf26a328fdedda9b50452094fddb0d75d9894f2/OZI-0.0.6-~=3.9-none-any.whl
+[2023-07-02 01:09:11] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/32/59/6a44c0380e03be0e6a8665b2bc150dd61612537fcb5ce296b6c382ceb8d2/odoo_addon_openupgrade_scripts-16.0.1.0.3-py3-none-any.whl
+[2023-07-02 01:09:11] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: executing diffoscope
+[2023-07-02 01:09:11] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_openupgrade_scripts-16.0.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3-py3-none-any.whl.zip --markdown 20230702/o/odoo-addon-openupgrade-scripts/16.0.1.0.2-16.0.1.0.3/diff.md --exclude *.pyd
+[2023-07-02 01:09:12] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/7f/12/46e3f3793de828bf9551ea05af54362105ebd5752e688a3067953670a206/OZI-0.0.7.tar.gz
+[2023-07-02 01:09:12] INFO root fetch - processPackages [OZI]: executing diffoscope
+[2023-07-02 01:09:12] INFO root fetch - processPackages [OZI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI-0.0.6-~=3.9-none-any.whl.zip tmp/OZI-0.0.7.tar.gz --markdown 20230702/O/OZI/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-02 01:09:13] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-0.0.6-~=3.9-none-any.whl.zip]
+[2023-07-02 01:09:13] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-0.0.7.tar.gz]
+[2023-07-02 01:09:13] INFO root fetch - main [MainThread]: End processing [OZI]: success
+[2023-07-02 01:09:18] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.2-py3-none-any.whl.zip]
+[2023-07-02 01:09:18] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3-py3-none-any.whl.zip]
+[2023-07-02 01:09:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
+[2023-07-02 01:09:18] INFO root fetch - main [MainThread]: Store serial: [18725015]
