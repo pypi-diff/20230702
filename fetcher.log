@@ -258,3 +258,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 00:16:38] INFO root fetch - processPackages [loren-frank-data-processing]: Remove: archive file [/home/abi/fetcher/tmp/loren_frank_data_processing-1.0.1.tar.gz]
 [2023-07-02 00:16:38] INFO root fetch - main [MainThread]: End processing [loren-frank-data-processing]: success
 [2023-07-02 00:16:38] INFO root fetch - main [MainThread]: Store serial: [18724913]
+[2023-07-02 00:21:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724913]
+[2023-07-02 00:21:47] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-02 00:21:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: database-knotinfo
+[2023-07-02 00:21:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: owe-python-sdk
+[2023-07-02 00:21:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opshin
+[2023-07-02 00:21:47] INFO root fetch - processPackages [opshin]: New version: [0.9.15] Old Version: [0.9.14]
+[2023-07-02 00:21:47] INFO root fetch - processPackages [owe-python-sdk]: New version: [0.0.1a7] Old Version: [0.0.1a6]
+[2023-07-02 00:21:47] INFO root fetch - processPackages [database-knotinfo]: New version: [21.7.15] Old Version: [21.7]
+[2023-07-02 00:21:47] INFO root fetch - processPackages [opshin]: Downloading https://files.pythonhosted.org/packages/ac/8f/230fda1102c884b7ed406b6fa48643d7b0826e924f753db71c59de2fd65f/opshin-0.9.14.tar.gz
+[2023-07-02 00:21:47] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/06/c0/f3d0554ff254108737b6dc1055db6fbca0e224f3656bc1185706bf290ef0/owe_python_sdk-0.0.1a6.tar.gz
+[2023-07-02 00:21:47] INFO root fetch - processPackages [database-knotinfo]: Downloading https://files.pythonhosted.org/packages/ed/10/02c95e09f90ea3ca6a6622ba42077bf5e1bb8004d969c78a73d79bc763fc/database_knotinfo-21.7.tar.gz
+[2023-07-02 00:21:47] INFO root fetch - processPackages [opshin]: Downloading https://files.pythonhosted.org/packages/85/27/589ead27cf5b537b46af189eb5765afcf156edecbd7075c43b3d788048ac/opshin-0.9.15.tar.gz
+[2023-07-02 00:21:47] INFO root fetch - processPackages [opshin]: executing diffoscope
+[2023-07-02 00:21:47] INFO root fetch - processPackages [opshin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opshin-0.9.14.tar.gz tmp/opshin-0.9.15.tar.gz --markdown 20230702/o/opshin/0.9.14-0.9.15/diff.md --exclude *.pyd
+[2023-07-02 00:21:47] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/15/a7/b33adfad307aa9b76e2b5dd84b8afabae7e2cdfd5e31eb9ade4bde18c101/owe_python_sdk-0.0.1a7.tar.gz
+[2023-07-02 00:21:48] INFO root fetch - processPackages [owe-python-sdk]: executing diffoscope
+[2023-07-02 00:21:48] INFO root fetch - processPackages [owe-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owe_python_sdk-0.0.1a6.tar.gz tmp/owe_python_sdk-0.0.1a7.tar.gz --markdown 20230702/o/owe-python-sdk/0.0.1a6-0.0.1a7/diff.md --exclude *.pyd
+[2023-07-02 00:21:48] INFO root fetch - processPackages [opshin]: Remove: archive file [/home/abi/fetcher/tmp/opshin-0.9.14.tar.gz]
+[2023-07-02 00:21:48] INFO root fetch - processPackages [opshin]: Remove: archive file [/home/abi/fetcher/tmp/opshin-0.9.15.tar.gz]
+[2023-07-02 00:21:48] INFO root fetch - main [MainThread]: End processing [opshin]: success
+[2023-07-02 00:21:49] INFO root fetch - processPackages [owe-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/owe_python_sdk-0.0.1a6.tar.gz]
+[2023-07-02 00:21:49] INFO root fetch - processPackages [owe-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/owe_python_sdk-0.0.1a7.tar.gz]
+[2023-07-02 00:21:49] INFO root fetch - main [MainThread]: End processing [owe-python-sdk]: success
+[2023-07-02 00:21:49] INFO root fetch - processPackages [database-knotinfo]: Downloading https://files.pythonhosted.org/packages/41/30/c317860b531bb854820f45d9dd7f7a377cb7f44dc35a5e3f5d73f0521eda/database_knotinfo-21.7.15.tar.gz
+[2023-07-02 00:21:50] INFO root fetch - processPackages [database-knotinfo]: executing diffoscope
+[2023-07-02 00:21:50] INFO root fetch - processPackages [database-knotinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database_knotinfo-21.7.tar.gz tmp/database_knotinfo-21.7.15.tar.gz --markdown 20230702/d/database-knotinfo/21.7-21.7.15/diff.md --exclude *.pyd
+[2023-07-02 00:21:53] INFO root fetch - processPackages [database-knotinfo]: Remove: archive file [/home/abi/fetcher/tmp/database_knotinfo-21.7.tar.gz]
+[2023-07-02 00:21:53] INFO root fetch - processPackages [database-knotinfo]: Remove: archive file [/home/abi/fetcher/tmp/database_knotinfo-21.7.15.tar.gz]
+[2023-07-02 00:21:53] INFO root fetch - main [MainThread]: End processing [database-knotinfo]: success
+[2023-07-02 00:21:53] INFO root fetch - main [MainThread]: Store serial: [18724919]
