@@ -587,3 +587,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 01:19:41] INFO root fetch - processPackages [django-favicon-plus-reloaded]: Remove: archive file [/home/abi/fetcher/tmp/django-favicon-plus-reloaded-1.1.6.tar.gz]
 [2023-07-02 01:19:41] INFO root fetch - main [MainThread]: End processing [django-favicon-plus-reloaded]: success
 [2023-07-02 01:19:41] INFO root fetch - main [MainThread]: Store serial: [18725024]
+[2023-07-02 01:24:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18725024]
+[2023-07-02 01:24:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-02 01:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gentle-mxml
+[2023-07-02 01:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: melon-scheduler
+[2023-07-02 01:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-semantic-release
+[2023-07-02 01:24:49] INFO root fetch - processPackages [gentle-mxml]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-02 01:24:49] INFO root fetch - processPackages [melon-scheduler]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-02 01:24:49] INFO root fetch - processPackages [python-semantic-release]: New version: [8.0.0rc3] Old Version: [8.0.0rc2]
+[2023-07-02 01:24:49] INFO root fetch - processPackages [gentle-mxml]: Downloading https://files.pythonhosted.org/packages/74/f4/681a7e8775957f2acbe53490b9101f0da5e5820e7752935e381f7ea6ebf5/gentle_mxml-0.3.0.tar.gz
+[2023-07-02 01:24:50] INFO root fetch - processPackages [melon-scheduler]: Downloading https://files.pythonhosted.org/packages/a0/6a/c15c6652dddfdc47b0997c67804bc9675683e357f321f76bf0e6f55c218e/melon_scheduler-0.1.2.tar.gz
+[2023-07-02 01:24:50] INFO root fetch - processPackages [python-semantic-release]: Downloading https://files.pythonhosted.org/packages/24/8f/9f76c87cf7c705467a25303b27fa0a0b412291dd276b8a177ce3d88e9ba0/python-semantic-release-8.0.0rc2.tar.gz
+[2023-07-02 01:24:50] INFO root fetch - processPackages [gentle-mxml]: Downloading https://files.pythonhosted.org/packages/e9/ad/ea368b98a7b2e026eb544da6176cc8a844d91d5b1e8accae5302b139a7af/gentle_mxml-0.3.1.tar.gz
+[2023-07-02 01:24:50] INFO root fetch - processPackages [melon-scheduler]: Downloading https://files.pythonhosted.org/packages/ec/3d/0179feefa3c279c6e9a6a00802288f5092c5df6c37061a6516f3d2028abf/melon_scheduler-0.1.3.tar.gz
+[2023-07-02 01:24:50] INFO root fetch - processPackages [python-semantic-release]: Downloading https://files.pythonhosted.org/packages/3d/d6/535347ad1ccf231f7dc22211c85177efcd4f5327aecd6cf23f1e0a115990/python-semantic-release-8.0.0rc3.tar.gz
+[2023-07-02 01:24:50] INFO root fetch - processPackages [gentle-mxml]: executing diffoscope
+[2023-07-02 01:24:50] INFO root fetch - processPackages [gentle-mxml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gentle_mxml-0.3.0.tar.gz tmp/gentle_mxml-0.3.1.tar.gz --markdown 20230702/g/gentle-mxml/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-02 01:24:50] INFO root fetch - processPackages [melon-scheduler]: executing diffoscope
+[2023-07-02 01:24:50] INFO root fetch - processPackages [melon-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/melon_scheduler-0.1.2.tar.gz tmp/melon_scheduler-0.1.3.tar.gz --markdown 20230702/m/melon-scheduler/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-02 01:24:50] INFO root fetch - processPackages [python-semantic-release]: executing diffoscope
+[2023-07-02 01:24:50] INFO root fetch - processPackages [python-semantic-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-semantic-release-8.0.0rc2.tar.gz tmp/python-semantic-release-8.0.0rc3.tar.gz --markdown 20230702/p/python-semantic-release/8.0.0rc2-8.0.0rc3/diff.md --exclude *.pyd
+[2023-07-02 01:24:51] INFO root fetch - processPackages [melon-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/melon_scheduler-0.1.2.tar.gz]
+[2023-07-02 01:24:51] INFO root fetch - processPackages [melon-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/melon_scheduler-0.1.3.tar.gz]
+[2023-07-02 01:24:51] INFO root fetch - main [MainThread]: End processing [melon-scheduler]: success
+[2023-07-02 01:24:51] INFO root fetch - processPackages [gentle-mxml]: Remove: archive file [/home/abi/fetcher/tmp/gentle_mxml-0.3.0.tar.gz]
+[2023-07-02 01:24:51] INFO root fetch - processPackages [gentle-mxml]: Remove: archive file [/home/abi/fetcher/tmp/gentle_mxml-0.3.1.tar.gz]
+[2023-07-02 01:24:51] INFO root fetch - main [MainThread]: End processing [gentle-mxml]: success
+[2023-07-02 01:24:52] INFO root fetch - processPackages [python-semantic-release]: Remove: archive file [/home/abi/fetcher/tmp/python-semantic-release-8.0.0rc2.tar.gz]
+[2023-07-02 01:24:52] INFO root fetch - processPackages [python-semantic-release]: Remove: archive file [/home/abi/fetcher/tmp/python-semantic-release-8.0.0rc3.tar.gz]
+[2023-07-02 01:24:52] INFO root fetch - main [MainThread]: End processing [python-semantic-release]: success
+[2023-07-02 01:24:52] INFO root fetch - main [MainThread]: Store serial: [18725033]
