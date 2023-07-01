@@ -575,3 +575,15 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 01:14:29] INFO root fetch - processPackages [universal-test-runner]: Remove: archive file [/home/abi/fetcher/tmp/universal_test_runner-0.4.0.tar.gz]
 [2023-07-02 01:14:29] INFO root fetch - main [MainThread]: End processing [universal-test-runner]: success
 [2023-07-02 01:14:29] INFO root fetch - main [MainThread]: Store serial: [18725021]
+[2023-07-02 01:19:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18725021]
+[2023-07-02 01:19:38] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-02 01:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-favicon-plus-reloaded
+[2023-07-02 01:19:39] INFO root fetch - processPackages [django-favicon-plus-reloaded]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-07-02 01:19:39] INFO root fetch - processPackages [django-favicon-plus-reloaded]: Downloading https://files.pythonhosted.org/packages/30/7d/6e16a592cdd9ff99dd54b948931564c0ca9d33d93374ab7e80024a497456/django-favicon-plus-reloaded-1.1.5.tar.gz
+[2023-07-02 01:19:39] INFO root fetch - processPackages [django-favicon-plus-reloaded]: Downloading https://files.pythonhosted.org/packages/b6/18/af3866ee7474c0b16b4b87c4b0bdbb08fbf1f2ed717028733d49fa771383/django-favicon-plus-reloaded-1.1.6.tar.gz
+[2023-07-02 01:19:39] INFO root fetch - processPackages [django-favicon-plus-reloaded]: executing diffoscope
+[2023-07-02 01:19:39] INFO root fetch - processPackages [django-favicon-plus-reloaded]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-favicon-plus-reloaded-1.1.5.tar.gz tmp/django-favicon-plus-reloaded-1.1.6.tar.gz --markdown 20230702/d/django-favicon-plus-reloaded/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-07-02 01:19:41] INFO root fetch - processPackages [django-favicon-plus-reloaded]: Remove: archive file [/home/abi/fetcher/tmp/django-favicon-plus-reloaded-1.1.5.tar.gz]
+[2023-07-02 01:19:41] INFO root fetch - processPackages [django-favicon-plus-reloaded]: Remove: archive file [/home/abi/fetcher/tmp/django-favicon-plus-reloaded-1.1.6.tar.gz]
+[2023-07-02 01:19:41] INFO root fetch - main [MainThread]: End processing [django-favicon-plus-reloaded]: success
+[2023-07-02 01:19:41] INFO root fetch - main [MainThread]: Store serial: [18725024]
