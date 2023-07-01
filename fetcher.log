@@ -617,3 +617,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 01:24:52] INFO root fetch - processPackages [python-semantic-release]: Remove: archive file [/home/abi/fetcher/tmp/python-semantic-release-8.0.0rc3.tar.gz]
 [2023-07-02 01:24:52] INFO root fetch - main [MainThread]: End processing [python-semantic-release]: success
 [2023-07-02 01:24:52] INFO root fetch - main [MainThread]: Store serial: [18725033]
+[2023-07-02 01:29:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18725033]
+[2023-07-02 01:30:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-02 01:30:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rabe-cridlib
+[2023-07-02 01:30:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gto
+[2023-07-02 01:30:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PySDM-examples
+[2023-07-02 01:30:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: granny-pliers
+[2023-07-02 01:30:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: whisper-timestamped
+[2023-07-02 01:30:00] WARNING root fetch - processPackages [whisper-timestamped]: Skipping, unable to determine old version
+[2023-07-02 01:30:00] INFO root fetch - main [MainThread]: End processing [whisper-timestamped] error
+[2023-07-02 01:30:00] INFO root fetch - processPackages [gto]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-02 01:30:00] INFO root fetch - processPackages [rabe-cridlib]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-02 01:30:00] INFO root fetch - processPackages [PySDM-examples]: New version: [2.9] Old Version: [2.8]
+[2023-07-02 01:30:00] INFO root fetch - processPackages [granny-pliers]: New version: [0.0.9] Old Version: [0.0.15]
+[2023-07-02 01:30:01] INFO root fetch - processPackages [granny-pliers]: Downloading https://files.pythonhosted.org/packages/fe/0d/fefd21c0fcf6ffeeda3f6d300c104230497b5454699e1e48cdf04be8683e/granny-pliers-0.0.15.tar.gz
+[2023-07-02 01:30:01] INFO root fetch - processPackages [PySDM-examples]: Downloading https://files.pythonhosted.org/packages/4c/5f/2e48117f41afb88b71fd3561ca8f6ef534989001f0cc583f5af2f7a56fa1/PySDM-examples-2.8.tar.gz
+[2023-07-02 01:30:01] INFO root fetch - processPackages [gto]: Downloading https://files.pythonhosted.org/packages/2c/6c/edc2e7323443e678b79cb73ad6d336e20485f83d77d83560ddac58ee843d/gto-0.3.4.tar.gz
+[2023-07-02 01:30:01] INFO root fetch - processPackages [rabe-cridlib]: Downloading https://files.pythonhosted.org/packages/a7/18/ed0fc17b87961f68e107cc40ce8d5dfe01408796304c8c581209cac8f168/rabe_cridlib-0.8.0.tar.gz
+[2023-07-02 01:30:01] INFO root fetch - processPackages [granny-pliers]: Downloading https://files.pythonhosted.org/packages/20/f0/37fcc81ed273742c6409ea0c1d18a3553183ccb9578c1da42344c98289ad/granny-pliers-0.0.9.tar.gz
+[2023-07-02 01:30:01] INFO root fetch - processPackages [granny-pliers]: executing diffoscope
+[2023-07-02 01:30:01] INFO root fetch - processPackages [granny-pliers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/granny-pliers-0.0.15.tar.gz tmp/granny-pliers-0.0.9.tar.gz --markdown 20230702/g/granny-pliers/0.0.15-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 01:30:01] INFO root fetch - processPackages [rabe-cridlib]: Downloading https://files.pythonhosted.org/packages/e5/62/6970ce467b68609211ca982a9b28abe5ac5604a5ee1bec7a6726f07ee106/rabe_cridlib-0.9.0.tar.gz
+[2023-07-02 01:30:01] INFO root fetch - processPackages [gto]: Downloading https://files.pythonhosted.org/packages/9d/1c/f92b259065a6a50caa3cfd0c5aa6517893da3d8e01ce6c22c722e820bf4d/gto-0.3.5.tar.gz
+[2023-07-02 01:30:01] INFO root fetch - processPackages [rabe-cridlib]: executing diffoscope
+[2023-07-02 01:30:01] INFO root fetch - processPackages [rabe-cridlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rabe_cridlib-0.8.0.tar.gz tmp/rabe_cridlib-0.9.0.tar.gz --markdown 20230702/r/rabe-cridlib/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-02 01:30:01] INFO root fetch - processPackages [gto]: executing diffoscope
+[2023-07-02 01:30:01] INFO root fetch - processPackages [gto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gto-0.3.4.tar.gz tmp/gto-0.3.5.tar.gz --markdown 20230702/g/gto/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-02 01:30:01] INFO root fetch - processPackages [PySDM-examples]: Downloading https://files.pythonhosted.org/packages/38/cd/e8c43c853d105d7b3cb064085b972b191719b91b54e18c66a563a2361203/PySDM-examples-2.9.tar.gz
+[2023-07-02 01:30:02] INFO root fetch - processPackages [PySDM-examples]: executing diffoscope
+[2023-07-02 01:30:02] INFO root fetch - processPackages [PySDM-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySDM-examples-2.8.tar.gz tmp/PySDM-examples-2.9.tar.gz --markdown 20230702/P/PySDM-examples/2.8-2.9/diff.md --exclude *.pyd
+[2023-07-02 01:30:02] INFO root fetch - processPackages [rabe-cridlib]: Remove: archive file [/home/abi/fetcher/tmp/rabe_cridlib-0.8.0.tar.gz]
+[2023-07-02 01:30:02] INFO root fetch - processPackages [rabe-cridlib]: Remove: archive file [/home/abi/fetcher/tmp/rabe_cridlib-0.9.0.tar.gz]
+[2023-07-02 01:30:02] INFO root fetch - main [MainThread]: End processing [rabe-cridlib]: success
+[2023-07-02 01:30:02] INFO root fetch - processPackages [granny-pliers]: Remove: archive file [/home/abi/fetcher/tmp/granny-pliers-0.0.15.tar.gz]
+[2023-07-02 01:30:02] INFO root fetch - processPackages [granny-pliers]: Remove: archive file [/home/abi/fetcher/tmp/granny-pliers-0.0.9.tar.gz]
+[2023-07-02 01:30:02] INFO root fetch - main [MainThread]: End processing [granny-pliers]: success
+[2023-07-02 01:30:02] INFO root fetch - processPackages [gto]: Remove: archive file [/home/abi/fetcher/tmp/gto-0.3.4.tar.gz]
+[2023-07-02 01:30:02] INFO root fetch - processPackages [gto]: Remove: archive file [/home/abi/fetcher/tmp/gto-0.3.5.tar.gz]
+[2023-07-02 01:30:02] INFO root fetch - main [MainThread]: End processing [gto]: success
+[2023-07-02 01:30:04] INFO root fetch - processPackages [PySDM-examples]: Remove: archive file [/home/abi/fetcher/tmp/PySDM-examples-2.8.tar.gz]
+[2023-07-02 01:30:04] INFO root fetch - processPackages [PySDM-examples]: Remove: archive file [/home/abi/fetcher/tmp/PySDM-examples-2.9.tar.gz]
+[2023-07-02 01:30:04] INFO root fetch - main [MainThread]: End processing [PySDM-examples]: success
+[2023-07-02 01:30:04] INFO root fetch - main [MainThread]: Store serial: [18725050]
