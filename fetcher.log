@@ -351,3 +351,14 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 00:32:14] INFO root fetch - processPackages [flux-local]: Remove: archive file [/home/abi/fetcher/tmp/flux-local-2.0.1.tar.gz]
 [2023-07-02 00:32:14] INFO root fetch - main [MainThread]: End processing [flux-local]: success
 [2023-07-02 00:32:14] INFO root fetch - main [MainThread]: Store serial: [18724938]
+[2023-07-02 00:37:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724938]
+[2023-07-02 00:37:23] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-02 00:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly-intel
+[2023-07-02 00:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lowrankdensity-demo
+[2023-07-02 00:37:24] WARNING root fetch - processPackages [lowrankdensity-demo]: Skipping, unable to determine old version
+[2023-07-02 00:37:24] INFO root fetch - main [MainThread]: End processing [lowrankdensity-demo] error
+[2023-07-02 00:37:24] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.14.0.dev20230701] Old Version: [2.14.0.dev20230630]
+[2023-07-02 00:37:24] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/a4/62/a9157431063dcbb38429b0c3f264081422ad198f8bbed0fc2e647d6783a5/tf_nightly_intel-2.14.0.dev20230630-cp39-cp39-win_amd64.whl
+[2023-07-02 00:37:25] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 183368236>=10485760
+[2023-07-02 00:37:25] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-07-02 00:37:25] INFO root fetch - main [MainThread]: Store serial: [18724952]
