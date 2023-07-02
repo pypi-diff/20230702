@@ -8557,3 +8557,22 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 13:50:10] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-1.1.9.tar.gz]
 [2023-07-02 13:50:10] INFO root fetch - main [MainThread]: End processing [ExpoSeq]: success
 [2023-07-02 13:50:10] INFO root fetch - main [MainThread]: Store serial: [18728291]
+[2023-07-02 13:55:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18728291]
+[2023-07-02 13:55:20] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-02 13:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: limburg-flood-impact
+[2023-07-02 13:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: limburg-flood-impact
+[2023-07-02 13:55:20] INFO root fetch - processPackages [limburg-flood-impact]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-07-02 13:55:20] INFO root fetch - processPackages [limburg-flood-impact]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-07-02 13:55:21] INFO root fetch - processPackages [limburg-flood-impact]: Downloading https://files.pythonhosted.org/packages/68/08/201c8bbd86cd17f357079e72f74f7d4bb77ecce31c7aee4062a5dbfc675b/limburg_flood_impact-0.6.2.tar.gz
+[2023-07-02 13:55:21] INFO root fetch - processPackages [limburg-flood-impact]: Downloading https://files.pythonhosted.org/packages/68/08/201c8bbd86cd17f357079e72f74f7d4bb77ecce31c7aee4062a5dbfc675b/limburg_flood_impact-0.6.2.tar.gz
+[2023-07-02 13:55:21] INFO root fetch - processPackages [limburg-flood-impact]: Downloading https://files.pythonhosted.org/packages/ed/60/5594073b39facda6fae9f0a06e180ae8992ee7f1dd881fecf9388bd32302/limburg_flood_impact-0.7.0.tar.gz
+[2023-07-02 13:55:21] INFO root fetch - processPackages [limburg-flood-impact]: Downloading https://files.pythonhosted.org/packages/ed/60/5594073b39facda6fae9f0a06e180ae8992ee7f1dd881fecf9388bd32302/limburg_flood_impact-0.7.0.tar.gz
+[2023-07-02 13:55:21] INFO root fetch - processPackages [limburg-flood-impact]: executing diffoscope
+[2023-07-02 13:55:21] INFO root fetch - processPackages [limburg-flood-impact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/limburg_flood_impact-0.6.2.tar.gz tmp/limburg_flood_impact-0.7.0.tar.gz --markdown 20230702/l/limburg-flood-impact/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-07-02 13:55:21] INFO root fetch - processPackages [limburg-flood-impact]: executing diffoscope
+[2023-07-02 13:55:21] INFO root fetch - processPackages [limburg-flood-impact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/limburg_flood_impact-0.6.2.tar.gz tmp/limburg_flood_impact-0.7.0.tar.gz --markdown 20230702/l/limburg-flood-impact/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-07-02 13:55:22] INFO root fetch - processPackages [limburg-flood-impact]: Remove: archive file [/home/abi/fetcher/tmp/limburg_flood_impact-0.6.2.tar.gz]
+[2023-07-02 13:55:22] INFO root fetch - processPackages [limburg-flood-impact]: Remove: archive file [/home/abi/fetcher/tmp/limburg_flood_impact-0.7.0.tar.gz]
+[2023-07-02 13:55:22] INFO root fetch - main [MainThread]: End processing [limburg-flood-impact]: success
+[2023-07-02 13:55:22] INFO root fetch - main [MainThread]: End processing [limburg-flood-impact]: success
+[2023-07-02 13:55:22] INFO root fetch - main [MainThread]: Store serial: [18728298]
