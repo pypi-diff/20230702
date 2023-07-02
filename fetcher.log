@@ -14414,3 +14414,108 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-02 20:46:45] INFO root fetch - processPackages [mitogen]: Remove: archive file [/home/abi/fetcher/tmp/mitogen-0.3.4.tar.gz]
 [2023-07-02 20:46:45] INFO root fetch - main [MainThread]: End processing [mitogen]: success
 [2023-07-02 20:46:45] INFO root fetch - main [MainThread]: Store serial: [18730716]
+[2023-07-02 20:51:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18730716]
+[2023-07-02 20:51:55] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-02 20:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wpdetect
+[2023-07-02 20:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gs-netsuite-api
+[2023-07-02 20:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: objectory
+[2023-07-02 20:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cval-lib
+[2023-07-02 20:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: geojson-pydantic
+[2023-07-02 20:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: persistable-clustering
+[2023-07-02 20:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: packagelister
+[2023-07-02 20:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datawhispers
+[2023-07-02 20:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: squirrels
+[2023-07-02 20:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: b2sim
+[2023-07-02 20:51:55] INFO root fetch - processPackages [cval-lib]: New version: [0.0.1.2] Old Version: [0.0.0.1]
+[2023-07-02 20:51:55] INFO root fetch - processPackages [packagelister]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-07-02 20:51:55] INFO root fetch - processPackages [geojson-pydantic]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-02 20:51:55] INFO root fetch - processPackages [gs-netsuite-api]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-02 20:51:55] INFO root fetch - processPackages [wpdetect]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-07-02 20:51:55] INFO root fetch - processPackages [persistable-clustering]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-07-02 20:51:55] INFO root fetch - processPackages [objectory]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-02 20:51:55] INFO root fetch - processPackages [datawhispers]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-02 20:51:55] INFO root fetch - processPackages [b2sim]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-02 20:51:55] INFO root fetch - processPackages [squirrels]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-02 20:51:55] INFO root fetch - processPackages [objectory]: Downloading https://files.pythonhosted.org/packages/d3/73/618cbd88654bab7c8583f298a6970d13066f7c3bd71f78213d9a3740c4fc/objectory-0.0.4.tar.gz
+[2023-07-02 20:51:55] INFO root fetch - processPackages [datawhispers]: Downloading https://files.pythonhosted.org/packages/b2/f2/355d1f92c35825cdd60b9bb28bc405dabc58e55f50d1513b2fe3f6083f09/datawhispers-0.2.7.tar.gz
+[2023-07-02 20:51:55] INFO root fetch - processPackages [gs-netsuite-api]: Downloading https://files.pythonhosted.org/packages/2f/9d/fd60cc161a1fe9ced9a0cc07048d554f0b6c62b8538a8e56aaaf7560393d/gs-netsuite-api-1.2.0.tar.gz
+[2023-07-02 20:51:56] INFO root fetch - processPackages [wpdetect]: Downloading https://files.pythonhosted.org/packages/c8/25/477893a8fc97ef1b6692df077d3e0da9df88e3c89f4b8aa08a427e8a47ed/wpdetect-1.4.5.tar.gz
+[2023-07-02 20:51:56] INFO root fetch - processPackages [b2sim]: Downloading https://files.pythonhosted.org/packages/0a/7d/452d267373c861263d76edb4e1609a7d1e7ae815e8d9b42e313ae3e55bf6/b2sim-1.0.4.tar.gz
+[2023-07-02 20:51:56] INFO root fetch - processPackages [persistable-clustering]: Downloading https://files.pythonhosted.org/packages/33/8b/65a32bf8ca14f7bcf4617cbd2b5747488b22794215ba76c37aa4c9925039/persistable-clustering-0.4.4.tar.gz
+[2023-07-02 20:51:56] INFO root fetch - processPackages [packagelister]: Downloading https://files.pythonhosted.org/packages/2b/73/042c051b71fdbc26e20118e0aa1f72b2640849ae3d72adbefea04dc5c687/packagelister-1.6.1.tar.gz
+[2023-07-02 20:51:56] INFO root fetch - processPackages [squirrels]: Downloading https://files.pythonhosted.org/packages/26/70/92759563e5f065540f2da2f6374e782c2454dadd399fdd6575a2c6ea6104/squirrels-0.1.0.tar.gz
+[2023-07-02 20:51:56] INFO root fetch - processPackages [geojson-pydantic]: Downloading https://files.pythonhosted.org/packages/db/62/d6873584c338da05e420257cf0f87283a377e6e5b7fd6447353291a8def4/geojson_pydantic-0.6.2.tar.gz
+[2023-07-02 20:51:56] INFO root fetch - processPackages [cval-lib]: Downloading https://files.pythonhosted.org/packages/6f/ba/bb58fb6a56c9f3094582f30c06c24744e885321323a074ec5943dac90c5c/cval-lib-0.0.0.1.tar.gz
+[2023-07-02 20:51:56] INFO root fetch - processPackages [datawhispers]: Downloading https://files.pythonhosted.org/packages/22/07/45d3837212e46d274b6737550be09ca63e812046fa45eea0079926456e31/datawhispers-0.2.8.tar.gz
+[2023-07-02 20:51:56] INFO root fetch - processPackages [b2sim]: Downloading https://files.pythonhosted.org/packages/57/e7/ffc705d69e0bcdbb81efa52d2deb234edf2fa194dae3a0a6c07bd3e8d43f/b2sim-1.0.5.tar.gz
+[2023-07-02 20:51:56] INFO root fetch - processPackages [objectory]: Downloading https://files.pythonhosted.org/packages/eb/22/3ae26c89bf10e8ddf8645774ee68880649373de6720bbd3c49c01d72fc67/objectory-0.0.5.tar.gz
+[2023-07-02 20:51:56] INFO root fetch - processPackages [datawhispers]: executing diffoscope
+[2023-07-02 20:51:56] INFO root fetch - processPackages [datawhispers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawhispers-0.2.7.tar.gz tmp/datawhispers-0.2.8.tar.gz --markdown 20230702/d/datawhispers/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-02 20:51:56] INFO root fetch - processPackages [gs-netsuite-api]: Downloading https://files.pythonhosted.org/packages/c4/e6/8d4f20b8563e1d5e64408a1c5c29e1c3a4cfa568615b42eb78a89e08cee0/gs-netsuite-api-1.2.1.tar.gz
+[2023-07-02 20:51:56] INFO root fetch - processPackages [wpdetect]: Downloading https://files.pythonhosted.org/packages/de/34/5f2a7a0dbbac87ba3cbd9f6afe83645c10d1154401f7a789785faa262f23/wpdetect-1.4.6.tar.gz
+[2023-07-02 20:51:56] INFO root fetch - processPackages [b2sim]: executing diffoscope
+[2023-07-02 20:51:56] INFO root fetch - processPackages [b2sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b2sim-1.0.4.tar.gz tmp/b2sim-1.0.5.tar.gz --markdown 20230702/b/b2sim/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-02 20:51:56] INFO root fetch - processPackages [packagelister]: Downloading https://files.pythonhosted.org/packages/9e/cd/1201682b1130ee7f271dd737814ae9429202d3e86a521160da2441825f11/packagelister-1.6.2.tar.gz
+[2023-07-02 20:51:56] INFO root fetch - processPackages [geojson-pydantic]: Downloading https://files.pythonhosted.org/packages/9c/86/3e1f4441cda46f70501436cd5112a48c82d6d539abdb8fb9fbca86bed83c/geojson_pydantic-0.6.3.tar.gz
+[2023-07-02 20:51:56] INFO root fetch - processPackages [squirrels]: Downloading https://files.pythonhosted.org/packages/fd/73/cc0465ab8b982822d69514c252367a3534c09eef8a655f5d12268ceaf629/squirrels-0.1.1.tar.gz
+[2023-07-02 20:51:56] INFO root fetch - processPackages [packagelister]: executing diffoscope
+[2023-07-02 20:51:56] INFO root fetch - processPackages [packagelister]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packagelister-1.6.1.tar.gz tmp/packagelister-1.6.2.tar.gz --markdown 20230702/p/packagelister/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-07-02 20:51:56] INFO root fetch - processPackages [persistable-clustering]: Downloading https://files.pythonhosted.org/packages/ca/af/8faec1f38f139b6b3e9c91ef743e88ce1a058f777964d4105c9b88e17262/persistable-clustering-0.4.5.tar.gz
+[2023-07-02 20:51:56] INFO root fetch - processPackages [objectory]: executing diffoscope
+[2023-07-02 20:51:56] INFO root fetch - processPackages [objectory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/objectory-0.0.4.tar.gz tmp/objectory-0.0.5.tar.gz --markdown 20230702/o/objectory/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-02 20:51:56] INFO root fetch - processPackages [cval-lib]: Downloading https://files.pythonhosted.org/packages/5c/01/4b4b71c4ed0a00ee52f8f4e7f3c14ec3f487b011b5b479ff6dcc622b879e/cval-lib-0.0.1.2.tar.gz
+[2023-07-02 20:51:56] INFO root fetch - processPackages [wpdetect]: executing diffoscope
+[2023-07-02 20:51:56] INFO root fetch - processPackages [wpdetect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wpdetect-1.4.5.tar.gz tmp/wpdetect-1.4.6.tar.gz --markdown 20230702/w/wpdetect/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-07-02 20:51:56] INFO root fetch - processPackages [geojson-pydantic]: executing diffoscope
+[2023-07-02 20:51:56] INFO root fetch - processPackages [gs-netsuite-api]: executing diffoscope
+[2023-07-02 20:51:56] INFO root fetch - processPackages [geojson-pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geojson_pydantic-0.6.2.tar.gz tmp/geojson_pydantic-0.6.3.tar.gz --markdown 20230702/g/geojson-pydantic/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-02 20:51:56] INFO root fetch - processPackages [gs-netsuite-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs-netsuite-api-1.2.0.tar.gz tmp/gs-netsuite-api-1.2.1.tar.gz --markdown 20230702/g/gs-netsuite-api/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-02 20:51:56] INFO root fetch - processPackages [squirrels]: executing diffoscope
+[2023-07-02 20:51:56] INFO root fetch - processPackages [squirrels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squirrels-0.1.0.tar.gz tmp/squirrels-0.1.1.tar.gz --markdown 20230702/s/squirrels/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-02 20:51:56] INFO root fetch - processPackages [cval-lib]: executing diffoscope
+[2023-07-02 20:51:56] INFO root fetch - processPackages [cval-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cval-lib-0.0.0.1.tar.gz tmp/cval-lib-0.0.1.2.tar.gz --markdown 20230702/c/cval-lib/0.0.0.1-0.0.1.2/diff.md --exclude *.pyd
+[2023-07-02 20:51:56] INFO root fetch - processPackages [persistable-clustering]: executing diffoscope
+[2023-07-02 20:51:56] INFO root fetch - processPackages [persistable-clustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/persistable-clustering-0.4.4.tar.gz tmp/persistable-clustering-0.4.5.tar.gz --markdown 20230702/p/persistable-clustering/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-07-02 20:51:57] INFO root fetch - processPackages [datawhispers]: Remove: archive file [/home/abi/fetcher/tmp/datawhispers-0.2.7.tar.gz]
+[2023-07-02 20:51:57] INFO root fetch - processPackages [datawhispers]: Remove: archive file [/home/abi/fetcher/tmp/datawhispers-0.2.8.tar.gz]
+[2023-07-02 20:51:57] INFO root fetch - processPackages [datawhispers]: Start processing: sync-pre-commit-lock
+[2023-07-02 20:51:57] INFO root fetch - main [MainThread]: End processing [datawhispers]: success
+[2023-07-02 20:51:57] INFO root fetch - processPackages [b2sim]: Remove: archive file [/home/abi/fetcher/tmp/b2sim-1.0.4.tar.gz]
+[2023-07-02 20:51:57] INFO root fetch - processPackages [b2sim]: Remove: archive file [/home/abi/fetcher/tmp/b2sim-1.0.5.tar.gz]
+[2023-07-02 20:51:57] INFO root fetch - processPackages [b2sim]: Start processing: datawhispers
+[2023-07-02 20:51:57] INFO root fetch - main [MainThread]: End processing [b2sim]: success
+[2023-07-02 20:51:57] WARNING root fetch - processPackages [sync-pre-commit-lock]: Skipping, unable to determine old version
+[2023-07-02 20:51:57] INFO root fetch - main [MainThread]: End processing [sync-pre-commit-lock] error
+[2023-07-02 20:51:57] INFO root fetch - processPackages [datawhispers]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-02 20:51:57] INFO root fetch - processPackages [datawhispers]: Downloading https://files.pythonhosted.org/packages/b2/f2/355d1f92c35825cdd60b9bb28bc405dabc58e55f50d1513b2fe3f6083f09/datawhispers-0.2.7.tar.gz
+[2023-07-02 20:51:58] INFO root fetch - processPackages [packagelister]: Remove: archive file [/home/abi/fetcher/tmp/packagelister-1.6.1.tar.gz]
+[2023-07-02 20:51:58] INFO root fetch - processPackages [packagelister]: Remove: archive file [/home/abi/fetcher/tmp/packagelister-1.6.2.tar.gz]
+[2023-07-02 20:51:58] INFO root fetch - main [MainThread]: End processing [packagelister]: success
+[2023-07-02 20:51:58] INFO root fetch - processPackages [wpdetect]: Remove: archive file [/home/abi/fetcher/tmp/wpdetect-1.4.5.tar.gz]
+[2023-07-02 20:51:58] INFO root fetch - processPackages [wpdetect]: Remove: archive file [/home/abi/fetcher/tmp/wpdetect-1.4.6.tar.gz]
+[2023-07-02 20:51:58] INFO root fetch - main [MainThread]: End processing [wpdetect]: success
+[2023-07-02 20:51:58] INFO root fetch - processPackages [datawhispers]: Downloading https://files.pythonhosted.org/packages/22/07/45d3837212e46d274b6737550be09ca63e812046fa45eea0079926456e31/datawhispers-0.2.8.tar.gz
+[2023-07-02 20:51:58] INFO root fetch - processPackages [datawhispers]: executing diffoscope
+[2023-07-02 20:51:58] INFO root fetch - processPackages [datawhispers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawhispers-0.2.7.tar.gz tmp/datawhispers-0.2.8.tar.gz --markdown 20230702/d/datawhispers/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-02 20:51:58] INFO root fetch - processPackages [objectory]: Remove: archive file [/home/abi/fetcher/tmp/objectory-0.0.4.tar.gz]
+[2023-07-02 20:51:58] INFO root fetch - processPackages [objectory]: Remove: archive file [/home/abi/fetcher/tmp/objectory-0.0.5.tar.gz]
+[2023-07-02 20:51:58] INFO root fetch - main [MainThread]: End processing [objectory]: success
+[2023-07-02 20:51:58] INFO root fetch - processPackages [geojson-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/geojson_pydantic-0.6.2.tar.gz]
+[2023-07-02 20:51:58] INFO root fetch - processPackages [geojson-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/geojson_pydantic-0.6.3.tar.gz]
+[2023-07-02 20:51:58] INFO root fetch - main [MainThread]: End processing [geojson-pydantic]: success
+[2023-07-02 20:51:58] INFO root fetch - processPackages [squirrels]: Remove: archive file [/home/abi/fetcher/tmp/squirrels-0.1.0.tar.gz]
+[2023-07-02 20:51:58] INFO root fetch - processPackages [squirrels]: Remove: archive file [/home/abi/fetcher/tmp/squirrels-0.1.1.tar.gz]
+[2023-07-02 20:51:58] INFO root fetch - main [MainThread]: End processing [squirrels]: success
+[2023-07-02 20:51:58] INFO root fetch - processPackages [cval-lib]: Remove: archive file [/home/abi/fetcher/tmp/cval-lib-0.0.0.1.tar.gz]
+[2023-07-02 20:51:58] INFO root fetch - processPackages [cval-lib]: Remove: archive file [/home/abi/fetcher/tmp/cval-lib-0.0.1.2.tar.gz]
+[2023-07-02 20:51:58] INFO root fetch - main [MainThread]: End processing [cval-lib]: success
+[2023-07-02 20:51:59] INFO root fetch - processPackages [datawhispers]: Remove: archive file [/home/abi/fetcher/tmp/datawhispers-0.2.7.tar.gz]
+[2023-07-02 20:51:59] INFO root fetch - processPackages [datawhispers]: Remove: archive file [/home/abi/fetcher/tmp/datawhispers-0.2.8.tar.gz]
+[2023-07-02 20:51:59] INFO root fetch - main [MainThread]: End processing [datawhispers]: success
+[2023-07-02 20:51:59] INFO root fetch - processPackages [persistable-clustering]: Remove: archive file [/home/abi/fetcher/tmp/persistable-clustering-0.4.4.tar.gz]
+[2023-07-02 20:51:59] INFO root fetch - processPackages [persistable-clustering]: Remove: archive file [/home/abi/fetcher/tmp/persistable-clustering-0.4.5.tar.gz]
+[2023-07-02 20:51:59] INFO root fetch - main [MainThread]: End processing [persistable-clustering]: success
+[2023-07-02 20:52:00] INFO root fetch - processPackages [gs-netsuite-api]: Remove: archive file [/home/abi/fetcher/tmp/gs-netsuite-api-1.2.0.tar.gz]
+[2023-07-02 20:52:00] INFO root fetch - processPackages [gs-netsuite-api]: Remove: archive file [/home/abi/fetcher/tmp/gs-netsuite-api-1.2.1.tar.gz]
+[2023-07-02 20:52:00] INFO root fetch - main [MainThread]: End processing [gs-netsuite-api]: success
+[2023-07-02 20:52:00] INFO root fetch - main [MainThread]: Store serial: [18730754]
