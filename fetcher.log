@@ -16085,3 +16085,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 22:38:40] INFO root fetch - processPackages [pytest-shell-utilities]: Remove: archive file [/home/abi/fetcher/tmp/pytest-shell-utilities-1.8.0.tar.gz]
 [2023-07-02 22:38:40] INFO root fetch - main [MainThread]: End processing [pytest-shell-utilities]: success
 [2023-07-02 22:38:40] INFO root fetch - main [MainThread]: Store serial: [18731418]
+[2023-07-02 22:43:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18731418]
+[2023-07-02 22:43:52] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-02 22:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-backblaze-b2
+[2023-07-02 22:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cihai-cli
+[2023-07-02 22:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: automation-utilities
+[2023-07-02 22:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-openupgrade-scripts
+[2023-07-02 22:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lollms
+[2023-07-02 22:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: timer-module
+[2023-07-02 22:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: i8-terminal
+[2023-07-02 22:43:52] INFO root fetch - processPackages [timer-module]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-02 22:43:52] INFO root fetch - processPackages [django-backblaze-b2]: New version: [4.0.0] Old Version: [3.2.1]
+[2023-07-02 22:43:52] INFO root fetch - processPackages [cihai-cli]: New version: [0.9.0a1] Old Version: [0.9.0a0]
+[2023-07-02 22:43:52] INFO root fetch - processPackages [automation-utilities]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-07-02 22:43:52] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: New version: [16.0.1.0.3.5] Old Version: [16.0.1.0.3.4]
+[2023-07-02 22:43:52] INFO root fetch - processPackages [i8-terminal]: New version: [0.2.93] Old Version: [0.2.92]
+[2023-07-02 22:43:52] INFO root fetch - processPackages [lollms]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-02 22:43:52] INFO root fetch - processPackages [django-backblaze-b2]: Downloading https://files.pythonhosted.org/packages/5d/fc/e562d1c36462d259d36847dc9c2ebd5cde6ad948d6aba240bce5eeea7459/django_backblaze_b2-3.2.1.tar.gz
+[2023-07-02 22:43:52] INFO root fetch - processPackages [i8-terminal]: Downloading https://files.pythonhosted.org/packages/08/82/d336f75a5f61cb640ea18fd374428d3e594823e0aee99248aa12983813f6/i8-terminal-0.2.92.tar.gz
+[2023-07-02 22:43:52] INFO root fetch - processPackages [automation-utilities]: Downloading https://files.pythonhosted.org/packages/95/cb/951ea76d9da11d360a5cebed252a88df9ebcc1566bd0913c0c8ca5b9eba7/automation-utilities-1.3.4.tar.gz
+[2023-07-02 22:43:52] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/5e/36/9a793bfc2338d418c057a1cd4083942ab7b9951cbde20c8903cac2b26eed/odoo_addon_openupgrade_scripts-16.0.1.0.3.4-py3-none-any.whl
+[2023-07-02 22:43:52] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/55/8e/c10a453677812ff66a65c459737c99f6b99cc00da8cc2e27f3a1f924faa0/lollms-2.1.8.tar.gz
+[2023-07-02 22:43:52] INFO root fetch - processPackages [timer-module]: Downloading https://files.pythonhosted.org/packages/6d/8e/9b3b5ba554da0fb0a3a36d0a565b16aca87a05ca9582a066f06a88b9857d/timer-module-1.1.2.tar.gz
+[2023-07-02 22:43:52] INFO root fetch - processPackages [cihai-cli]: Downloading https://files.pythonhosted.org/packages/d2/4c/75ccfa9c6b8fb30de3cba09cf54a8c9f6f9f2f38a9cea4b854a81c25cc79/cihai-cli-0.9.0a0.tar.gz
+[2023-07-02 22:43:52] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/6a/83/7745db4a743155e7a857ec418630027696e10e7fb67dfd6805a2496bdb64/lollms-2.1.9.tar.gz
+[2023-07-02 22:43:52] INFO root fetch - processPackages [automation-utilities]: Downloading https://files.pythonhosted.org/packages/b2/f7/9745cc9a8e89e23dcd5a00cbb727ccdf7a787ab210a0239a7feef0fccb06/automation-utilities-1.3.5.tar.gz
+[2023-07-02 22:43:52] INFO root fetch - processPackages [django-backblaze-b2]: Downloading https://files.pythonhosted.org/packages/b4/19/4e45e16b5b1218d82d96f64cff050f1804de54690f1ac957039563ceeee8/django_backblaze_b2-4.0.0.tar.gz
+[2023-07-02 22:43:52] INFO root fetch - processPackages [automation-utilities]: executing diffoscope
+[2023-07-02 22:43:52] INFO root fetch - processPackages [automation-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation-utilities-1.3.4.tar.gz tmp/automation-utilities-1.3.5.tar.gz --markdown 20230702/a/automation-utilities/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-07-02 22:43:52] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/47/ec/51493bfc4f19e8c43a602477703b89c0d4a8f04da5799301d6246786eab6/odoo_addon_openupgrade_scripts-16.0.1.0.3.5-py3-none-any.whl
+[2023-07-02 22:43:52] INFO root fetch - processPackages [lollms]: executing diffoscope
+[2023-07-02 22:43:52] INFO root fetch - processPackages [lollms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms-2.1.8.tar.gz tmp/lollms-2.1.9.tar.gz --markdown 20230702/l/lollms/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-02 22:43:52] INFO root fetch - processPackages [i8-terminal]: Downloading https://files.pythonhosted.org/packages/82/a5/7985f33081143f04e9b2a154286c7d43b2a1e52fae6b67b91f9319d5db83/i8-terminal-0.2.93.tar.gz
+[2023-07-02 22:43:52] INFO root fetch - processPackages [timer-module]: Downloading https://files.pythonhosted.org/packages/2c/2d/24566a7e03a65fd75b587f0c881dfa842653af3dd82b24a204cbbb51d56c/timer-module-1.1.3.tar.gz
+[2023-07-02 22:43:52] INFO root fetch - processPackages [django-backblaze-b2]: executing diffoscope
+[2023-07-02 22:43:52] INFO root fetch - processPackages [django-backblaze-b2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_backblaze_b2-3.2.1.tar.gz tmp/django_backblaze_b2-4.0.0.tar.gz --markdown 20230702/d/django-backblaze-b2/3.2.1-4.0.0/diff.md --exclude *.pyd
+[2023-07-02 22:43:52] INFO root fetch - processPackages [cihai-cli]: Downloading https://files.pythonhosted.org/packages/0b/b5/e89b0b6924ecd0d5a3cb77abed8ec4b18fefbae25d67658b915c13d1bf35/cihai-cli-0.9.0a1.tar.gz
+[2023-07-02 22:43:52] INFO root fetch - processPackages [i8-terminal]: executing diffoscope
+[2023-07-02 22:43:52] INFO root fetch - processPackages [i8-terminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i8-terminal-0.2.92.tar.gz tmp/i8-terminal-0.2.93.tar.gz --markdown 20230702/i/i8-terminal/0.2.92-0.2.93/diff.md --exclude *.pyd
+[2023-07-02 22:43:52] INFO root fetch - processPackages [timer-module]: executing diffoscope
+[2023-07-02 22:43:52] INFO root fetch - processPackages [timer-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timer-module-1.1.2.tar.gz tmp/timer-module-1.1.3.tar.gz --markdown 20230702/t/timer-module/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-02 22:43:52] INFO root fetch - processPackages [cihai-cli]: executing diffoscope
+[2023-07-02 22:43:52] INFO root fetch - processPackages [cihai-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cihai-cli-0.9.0a0.tar.gz tmp/cihai-cli-0.9.0a1.tar.gz --markdown 20230702/c/cihai-cli/0.9.0a0-0.9.0a1/diff.md --exclude *.pyd
+[2023-07-02 22:43:52] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: executing diffoscope
+[2023-07-02 22:43:52] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.4-py3-none-any.whl.zip tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.5-py3-none-any.whl.zip --markdown 20230702/o/odoo-addon-openupgrade-scripts/16.0.1.0.3.4-16.0.1.0.3.5/diff.md --exclude *.pyd
+[2023-07-02 22:43:53] INFO root fetch - processPackages [automation-utilities]: Remove: archive file [/home/abi/fetcher/tmp/automation-utilities-1.3.4.tar.gz]
+[2023-07-02 22:43:53] INFO root fetch - processPackages [automation-utilities]: Remove: archive file [/home/abi/fetcher/tmp/automation-utilities-1.3.5.tar.gz]
+[2023-07-02 22:43:53] INFO root fetch - main [MainThread]: End processing [automation-utilities]: success
+[2023-07-02 22:43:54] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.8.tar.gz]
+[2023-07-02 22:43:54] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.9.tar.gz]
+[2023-07-02 22:43:54] INFO root fetch - main [MainThread]: End processing [lollms]: success
+[2023-07-02 22:43:54] INFO root fetch - processPackages [timer-module]: Remove: archive file [/home/abi/fetcher/tmp/timer-module-1.1.2.tar.gz]
+[2023-07-02 22:43:54] INFO root fetch - processPackages [timer-module]: Remove: archive file [/home/abi/fetcher/tmp/timer-module-1.1.3.tar.gz]
+[2023-07-02 22:43:54] INFO root fetch - main [MainThread]: End processing [timer-module]: success
+[2023-07-02 22:43:54] INFO root fetch - processPackages [cihai-cli]: Remove: archive file [/home/abi/fetcher/tmp/cihai-cli-0.9.0a0.tar.gz]
+[2023-07-02 22:43:54] INFO root fetch - processPackages [cihai-cli]: Remove: archive file [/home/abi/fetcher/tmp/cihai-cli-0.9.0a1.tar.gz]
+[2023-07-02 22:43:54] INFO root fetch - main [MainThread]: End processing [cihai-cli]: success
+[2023-07-02 22:43:54] INFO root fetch - processPackages [django-backblaze-b2]: Remove: archive file [/home/abi/fetcher/tmp/django_backblaze_b2-3.2.1.tar.gz]
+[2023-07-02 22:43:54] INFO root fetch - processPackages [django-backblaze-b2]: Remove: archive file [/home/abi/fetcher/tmp/django_backblaze_b2-4.0.0.tar.gz]
+[2023-07-02 22:43:54] INFO root fetch - main [MainThread]: End processing [django-backblaze-b2]: success
+[2023-07-02 22:43:54] INFO root fetch - processPackages [i8-terminal]: Remove: archive file [/home/abi/fetcher/tmp/i8-terminal-0.2.92.tar.gz]
+[2023-07-02 22:43:54] INFO root fetch - processPackages [i8-terminal]: Remove: archive file [/home/abi/fetcher/tmp/i8-terminal-0.2.93.tar.gz]
+[2023-07-02 22:43:54] INFO root fetch - main [MainThread]: End processing [i8-terminal]: success
+[2023-07-02 22:43:59] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.4-py3-none-any.whl.zip]
+[2023-07-02 22:43:59] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.5-py3-none-any.whl.zip]
+[2023-07-02 22:43:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
+[2023-07-02 22:43:59] INFO root fetch - main [MainThread]: Store serial: [18731437]
