@@ -10983,3 +10983,114 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 17:07:26] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.14.0.dev20230701-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-02 17:07:26] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
 [2023-07-02 17:07:26] INFO root fetch - main [MainThread]: Store serial: [18729300]
+[2023-07-02 17:12:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18729300]
+[2023-07-02 17:12:39] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-02 17:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flowtask
+[2023-07-02 17:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aliyun-python-sdk-rds
+[2023-07-02 17:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wisedata
+[2023-07-02 17:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hagrid
+[2023-07-02 17:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: doctran
+[2023-07-02 17:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spyder-unittest
+[2023-07-02 17:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: open-metric-learning
+[2023-07-02 17:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: foreverbull
+[2023-07-02 17:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyQt6-Fluent-Widgets
+[2023-07-02 17:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: unbelievaboat
+[2023-07-02 17:12:39] INFO root fetch - processPackages [flowtask]: New version: [4.5.9] Old Version: [4.5.8]
+[2023-07-02 17:12:39] INFO root fetch - processPackages [aliyun-python-sdk-rds]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-07-02 17:12:39] INFO root fetch - processPackages [unbelievaboat]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-02 17:12:39] INFO root fetch - processPackages [wisedata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-02 17:12:39] INFO root fetch - processPackages [spyder-unittest]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-07-02 17:12:39] INFO root fetch - processPackages [open-metric-learning]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-02 17:12:39] INFO root fetch - processPackages [foreverbull]: New version: [0.0.0.99.20230610094209] Old Version: [0.0.0.92]
+[2023-07-02 17:12:39] INFO root fetch - processPackages [doctran]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-02 17:12:39] INFO root fetch - processPackages [hagrid]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-02 17:12:39] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: New version: [1.0.0] Old Version: [0.9.9]
+[2023-07-02 17:12:39] INFO root fetch - processPackages [unbelievaboat]: Downloading https://files.pythonhosted.org/packages/77/8d/df1066fcb48252eddda2c29e624d7f54a135ea4ed74a13e6928b75dc9a63/unbelievaboat-1.1.0.tar.gz
+[2023-07-02 17:12:40] INFO root fetch - processPackages [wisedata]: Downloading https://files.pythonhosted.org/packages/59/7e/51c9ee099c7c9091a95758b6bd96fc272734c2bdd6a563a498351b7f3659/wisedata-1.0.8.tar.gz
+[2023-07-02 17:12:40] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/63/8f/f6b3f8daafd8bb51dd59ed15dee9f83776e53b4bd4f460239542b391169f/hagrid-0.3.8.tar.gz
+[2023-07-02 17:12:40] INFO root fetch - processPackages [foreverbull]: Downloading https://files.pythonhosted.org/packages/83/5e/402b3d8e197a33b59ae5994459465f8027f487cad42df3747b300fe53dc4/foreverbull-0.0.0.92.tar.gz
+[2023-07-02 17:12:40] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/86/16/e429481b48c8e39fd99916cf0d5537d596ff8a08c15cde79f3fa9f8b822b/aliyun-python-sdk-rds-2.7.8.tar.gz
+[2023-07-02 17:12:40] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/ad/e7/2a7bdbefc43301a163c5989db8711c8a7285f1cad001672a53b0613d45cc/flowtask-4.5.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-02 17:12:40] INFO root fetch - processPackages [doctran]: Downloading https://files.pythonhosted.org/packages/53/9c/90bf30cdd7d1b5a9ef0ac19c463e1b877669cb467215e55b1d48d1963f37/doctran-0.0.0.tar.gz
+[2023-07-02 17:12:40] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/c5/a2/5d4f3ecb64b992911d44cbc9a665c5a07c1e1132293b104115fc7bfce74a/PyQt6-Fluent-Widgets-0.9.9.tar.gz
+[2023-07-02 17:12:40] INFO root fetch - processPackages [spyder-unittest]: Downloading https://files.pythonhosted.org/packages/29/c7/bebf48971a86f39fd166cc892df9a21414fe7cc16e9e93092b0c820a50ed/spyder_unittest-0.5.1.tar.gz
+[2023-07-02 17:12:40] INFO root fetch - processPackages [open-metric-learning]: Downloading https://files.pythonhosted.org/packages/7c/32/56f993eacc8968987dc5290f4c834a97b05eec53cf322e9dc814e8f6329c/open-metric-learning-0.4.2.tar.gz
+[2023-07-02 17:12:40] INFO root fetch - processPackages [foreverbull]: Downloading https://files.pythonhosted.org/packages/6e/c3/cf13499a255fd30c5d6ccd05686ba0af46cbde2f1cb23b7a4e121a7e23ee/foreverbull-0.0.0.99.20230610094209.tar.gz
+[2023-07-02 17:12:40] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/93/62/db70dc46e40b49bc26e4074bed1920230e6deffcc964b82b28bdc7cfccdc/hagrid-0.3.9.tar.gz
+[2023-07-02 17:12:40] INFO root fetch - processPackages [wisedata]: Downloading https://files.pythonhosted.org/packages/4b/95/3ebedc58284018ea58e831ba692e4b928ad5e2298c32954b2204837d4033/wisedata-1.0.9.tar.gz
+[2023-07-02 17:12:40] INFO root fetch - processPackages [unbelievaboat]: Downloading https://files.pythonhosted.org/packages/d5/54/ab710f80b2eecdcab88bc6f76f37e33e59914eb8c51e83212622649c8f4a/unbelievaboat-1.1.1.tar.gz
+[2023-07-02 17:12:40] INFO root fetch - processPackages [hagrid]: executing diffoscope
+[2023-07-02 17:12:40] INFO root fetch - processPackages [hagrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagrid-0.3.8.tar.gz tmp/hagrid-0.3.9.tar.gz --markdown 20230702/h/hagrid/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-02 17:12:40] INFO root fetch - processPackages [wisedata]: executing diffoscope
+[2023-07-02 17:12:40] INFO root fetch - processPackages [wisedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wisedata-1.0.8.tar.gz tmp/wisedata-1.0.9.tar.gz --markdown 20230702/w/wisedata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-02 17:12:40] INFO root fetch - processPackages [foreverbull]: executing diffoscope
+[2023-07-02 17:12:40] INFO root fetch - processPackages [foreverbull]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foreverbull-0.0.0.92.tar.gz tmp/foreverbull-0.0.0.99.20230610094209.tar.gz --markdown 20230702/f/foreverbull/0.0.0.92-0.0.0.99.20230610094209/diff.md --exclude *.pyd
+[2023-07-02 17:12:40] INFO root fetch - processPackages [doctran]: Downloading https://files.pythonhosted.org/packages/2b/70/903b9186a03c7c8768b4076835baccb9cd9bae0db7fcf0d39b13089e2ceb/doctran-0.0.1.tar.gz
+[2023-07-02 17:12:40] INFO root fetch - processPackages [open-metric-learning]: Downloading https://files.pythonhosted.org/packages/a8/db/973aeacbcfe018c973d33e725ea2bab650f9ab2b9db2b6ad2eb041d91b14/open-metric-learning-0.4.3.tar.gz
+[2023-07-02 17:12:40] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/49/c8/97bd9925e2aab8e2fb90f2bd5952e96c8793dbb73634161c2b81b93690bb/aliyun-python-sdk-rds-2.7.9.tar.gz
+[2023-07-02 17:12:40] INFO root fetch - processPackages [spyder-unittest]: Downloading https://files.pythonhosted.org/packages/f4/8f/ec9bf6a4b2281738e796fbcd735031be094ce5be403bdfec272c2100679e/spyder_unittest-0.6.0.tar.gz
+[2023-07-02 17:12:40] INFO root fetch - processPackages [doctran]: executing diffoscope
+[2023-07-02 17:12:40] INFO root fetch - processPackages [doctran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doctran-0.0.0.tar.gz tmp/doctran-0.0.1.tar.gz --markdown 20230702/d/doctran/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-02 17:12:40] INFO root fetch - processPackages [unbelievaboat]: executing diffoscope
+[2023-07-02 17:12:40] INFO root fetch - processPackages [unbelievaboat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unbelievaboat-1.1.0.tar.gz tmp/unbelievaboat-1.1.1.tar.gz --markdown 20230702/u/unbelievaboat/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-02 17:12:40] INFO root fetch - processPackages [aliyun-python-sdk-rds]: executing diffoscope
+[2023-07-02 17:12:40] INFO root fetch - processPackages [aliyun-python-sdk-rds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-rds-2.7.8.tar.gz tmp/aliyun-python-sdk-rds-2.7.9.tar.gz --markdown 20230702/a/aliyun-python-sdk-rds/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-07-02 17:12:40] INFO root fetch - processPackages [spyder-unittest]: executing diffoscope
+[2023-07-02 17:12:40] INFO root fetch - processPackages [spyder-unittest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyder_unittest-0.5.1.tar.gz tmp/spyder_unittest-0.6.0.tar.gz --markdown 20230702/s/spyder-unittest/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-07-02 17:12:40] INFO root fetch - processPackages [open-metric-learning]: executing diffoscope
+[2023-07-02 17:12:40] INFO root fetch - processPackages [open-metric-learning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-metric-learning-0.4.2.tar.gz tmp/open-metric-learning-0.4.3.tar.gz --markdown 20230702/o/open-metric-learning/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-02 17:12:40] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/35/53/04c3a1f53dc66877ee25e413c1aa50bad44c05f99c916a1571df43833a88/PyQt6-Fluent-Widgets-1.0.0.tar.gz
+[2023-07-02 17:12:40] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/76/cb/ef23ff55853e577b3477d762009a1fc68908a244c1bfb016650886d6699b/flowtask-4.5.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-02 17:12:40] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: executing diffoscope
+[2023-07-02 17:12:40] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6-Fluent-Widgets-0.9.9.tar.gz tmp/PyQt6-Fluent-Widgets-1.0.0.tar.gz --markdown 20230702/P/PyQt6-Fluent-Widgets/0.9.9-1.0.0/diff.md --exclude *.pyd
+[2023-07-02 17:12:40] INFO root fetch - processPackages [flowtask]: executing diffoscope
+[2023-07-02 17:12:40] INFO root fetch - processPackages [flowtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowtask-4.5.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/flowtask-4.5.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230702/f/flowtask/4.5.8-4.5.9/diff.md --exclude *.pyd
+[2023-07-02 17:12:41] INFO root fetch - processPackages [wisedata]: Remove: archive file [/home/abi/fetcher/tmp/wisedata-1.0.8.tar.gz]
+[2023-07-02 17:12:41] INFO root fetch - processPackages [wisedata]: Remove: archive file [/home/abi/fetcher/tmp/wisedata-1.0.9.tar.gz]
+[2023-07-02 17:12:41] INFO root fetch - processPackages [wisedata]: Start processing: django-cloud-storages
+[2023-07-02 17:12:41] INFO root fetch - main [MainThread]: End processing [wisedata]: success
+[2023-07-02 17:12:41] INFO root fetch - processPackages [django-cloud-storages]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-07-02 17:12:42] INFO root fetch - processPackages [django-cloud-storages]: Downloading https://files.pythonhosted.org/packages/56/d5/f00f72b25d1883cf8fa500cab1202a9cf26f73ffeef626a9dd298cfd7670/django_cloud_storages-1.1.5.tar.gz
+[2023-07-02 17:12:42] INFO root fetch - processPackages [foreverbull]: Remove: archive file [/home/abi/fetcher/tmp/foreverbull-0.0.0.92.tar.gz]
+[2023-07-02 17:12:42] INFO root fetch - processPackages [foreverbull]: Remove: archive file [/home/abi/fetcher/tmp/foreverbull-0.0.0.99.20230610094209.tar.gz]
+[2023-07-02 17:12:42] INFO root fetch - processPackages [foreverbull]: Start processing: hyko-sdk
+[2023-07-02 17:12:42] INFO root fetch - main [MainThread]: End processing [foreverbull]: success
+[2023-07-02 17:12:42] INFO root fetch - processPackages [doctran]: Remove: archive file [/home/abi/fetcher/tmp/doctran-0.0.0.tar.gz]
+[2023-07-02 17:12:42] INFO root fetch - processPackages [doctran]: Remove: archive file [/home/abi/fetcher/tmp/doctran-0.0.1.tar.gz]
+[2023-07-02 17:12:42] INFO root fetch - main [MainThread]: End processing [doctran]: success
+[2023-07-02 17:12:42] INFO root fetch - processPackages [hyko-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 17:12:42] INFO root fetch - processPackages [unbelievaboat]: Remove: archive file [/home/abi/fetcher/tmp/unbelievaboat-1.1.0.tar.gz]
+[2023-07-02 17:12:42] INFO root fetch - processPackages [unbelievaboat]: Remove: archive file [/home/abi/fetcher/tmp/unbelievaboat-1.1.1.tar.gz]
+[2023-07-02 17:12:42] INFO root fetch - main [MainThread]: End processing [unbelievaboat]: success
+[2023-07-02 17:12:42] INFO root fetch - processPackages [django-cloud-storages]: Downloading https://files.pythonhosted.org/packages/df/9b/1789639d5a620733753b76b4edabc216dc0e31a4b225f8654c675a0c54c4/django_cloud_storages-1.1.6.tar.gz
+[2023-07-02 17:12:42] INFO root fetch - processPackages [django-cloud-storages]: executing diffoscope
+[2023-07-02 17:12:42] INFO root fetch - processPackages [django-cloud-storages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cloud_storages-1.1.5.tar.gz tmp/django_cloud_storages-1.1.6.tar.gz --markdown 20230702/d/django-cloud-storages/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-07-02 17:12:42] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/f8/1b/02137db3d93571c0867cacae818eb8136e59f81d7b8eeee650eb74521728/hyko_sdk-0.1.8.tar.gz
+[2023-07-02 17:12:42] INFO root fetch - processPackages [spyder-unittest]: Remove: archive file [/home/abi/fetcher/tmp/spyder_unittest-0.5.1.tar.gz]
+[2023-07-02 17:12:42] INFO root fetch - processPackages [spyder-unittest]: Remove: archive file [/home/abi/fetcher/tmp/spyder_unittest-0.6.0.tar.gz]
+[2023-07-02 17:12:42] INFO root fetch - main [MainThread]: End processing [spyder-unittest]: success
+[2023-07-02 17:12:42] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/18/dd/0fc13fe8ada91f69ab17997d640fbdeff420217e7e2dc38f5e85178a4187/hyko_sdk-0.1.9.tar.gz
+[2023-07-02 17:12:42] INFO root fetch - processPackages [hyko-sdk]: executing diffoscope
+[2023-07-02 17:12:42] INFO root fetch - processPackages [hyko-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyko_sdk-0.1.8.tar.gz tmp/hyko_sdk-0.1.9.tar.gz --markdown 20230702/h/hyko-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 17:12:43] INFO root fetch - processPackages [django-cloud-storages]: Remove: archive file [/home/abi/fetcher/tmp/django_cloud_storages-1.1.5.tar.gz]
+[2023-07-02 17:12:43] INFO root fetch - processPackages [django-cloud-storages]: Remove: archive file [/home/abi/fetcher/tmp/django_cloud_storages-1.1.6.tar.gz]
+[2023-07-02 17:12:43] INFO root fetch - main [MainThread]: End processing [django-cloud-storages]: success
+[2023-07-02 17:12:43] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.5.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-02 17:12:43] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.5.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-02 17:12:43] INFO root fetch - main [MainThread]: End processing [flowtask]: success
+[2023-07-02 17:12:43] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.8.tar.gz]
+[2023-07-02 17:12:43] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.9.tar.gz]
+[2023-07-02 17:12:43] INFO root fetch - main [MainThread]: End processing [hagrid]: success
+[2023-07-02 17:12:43] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.8.tar.gz]
+[2023-07-02 17:12:43] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.9.tar.gz]
+[2023-07-02 17:12:43] INFO root fetch - main [MainThread]: End processing [hyko-sdk]: success
+[2023-07-02 17:12:45] INFO root fetch - processPackages [open-metric-learning]: Remove: archive file [/home/abi/fetcher/tmp/open-metric-learning-0.4.2.tar.gz]
+[2023-07-02 17:12:45] INFO root fetch - processPackages [open-metric-learning]: Remove: archive file [/home/abi/fetcher/tmp/open-metric-learning-0.4.3.tar.gz]
+[2023-07-02 17:12:45] INFO root fetch - main [MainThread]: End processing [open-metric-learning]: success
+[2023-07-02 17:12:45] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-Fluent-Widgets-0.9.9.tar.gz]
+[2023-07-02 17:12:45] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-Fluent-Widgets-1.0.0.tar.gz]
+[2023-07-02 17:12:45] INFO root fetch - main [MainThread]: End processing [PyQt6-Fluent-Widgets]: success
+[2023-07-02 17:12:45] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.8.tar.gz]
+[2023-07-02 17:12:45] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.9.tar.gz]
+[2023-07-02 17:12:45] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-rds]: success
+[2023-07-02 17:12:45] INFO root fetch - main [MainThread]: Store serial: [18729337]
