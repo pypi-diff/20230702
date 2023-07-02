@@ -2015,3 +2015,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 03:23:53] INFO root fetch - processPackages [JsMacrosAC]: Remove: archive file [/home/abi/fetcher/tmp/JsMacrosAC-1.8.4.8260804.tar.gz]
 [2023-07-02 03:23:53] INFO root fetch - main [MainThread]: End processing [JsMacrosAC]: success
 [2023-07-02 03:23:53] INFO root fetch - main [MainThread]: Store serial: [18725553]
+[2023-07-02 03:28:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18725553]
+[2023-07-02 03:29:02] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-02 03:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pixqrcodegen
+[2023-07-02 03:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asyncdb
+[2023-07-02 03:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dark-matter
+[2023-07-02 03:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-hugo-deploy
+[2023-07-02 03:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vcc-lib
+[2023-07-02 03:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: interaction-devkit
+[2023-07-02 03:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: catchem-alpha-zero
+[2023-07-02 03:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: plush-fabric
+[2023-07-02 03:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-sops-secrets
+[2023-07-02 03:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hassle
+[2023-07-02 03:29:02] INFO root fetch - processPackages [pixqrcodegen]: New version: [0.8] Old Version: [0.7]
+[2023-07-02 03:29:02] INFO root fetch - processPackages [asyncdb]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-07-02 03:29:02] INFO root fetch - processPackages [dark-matter]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-02 03:29:02] INFO root fetch - processPackages [plush-fabric]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-02 03:29:02] INFO root fetch - processPackages [vcc-lib]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-02 03:29:02] INFO root fetch - processPackages [hassle]: New version: [2.8.5] Old Version: [2.8.4]
+[2023-07-02 03:29:02] INFO root fetch - processPackages [catchem-alpha-zero]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-02 03:29:02] WARNING root fetch - processPackages [interaction-devkit]: Skipping, unable to determine old version
+[2023-07-02 03:29:02] INFO root fetch - main [MainThread]: End processing [interaction-devkit] error
+[2023-07-02 03:29:02] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-02 03:29:02] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-02 03:29:02] INFO root fetch - processPackages [dark-matter]: Downloading https://files.pythonhosted.org/packages/b9/d2/2e18229949be3e12a54c6880d9292eae1b6d10ec48a4b33d95753bf1f852/dark-matter-4.0.8.tar.gz
+[2023-07-02 03:29:02] INFO root fetch - processPackages [asyncdb]: Downloading https://files.pythonhosted.org/packages/be/8b/4d1beb7aca09a5ed1383647222a3b89c3ced663a7083cf113c89cc942361/asyncdb-2.3.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-02 03:29:02] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-07-02 03:29:02] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-07-02 03:29:02] INFO root fetch - processPackages [pixqrcodegen]: Downloading https://files.pythonhosted.org/packages/8d/22/fd1b6db385b45ef18ca3510fb795afeac468927a36173c0599c66d172d3d/pixqrcodegen-0.7.tar.gz
+[2023-07-02 03:29:02] INFO root fetch - processPackages [catchem-alpha-zero]: Downloading https://files.pythonhosted.org/packages/42/83/11233591aafe36785313431a2313c50b83b328bfe3a8550c7b778b0fccac/catchem-alpha-zero-0.0.1.tar.gz
+[2023-07-02 03:29:02] INFO root fetch - processPackages [vcc-lib]: Downloading https://files.pythonhosted.org/packages/5d/e3/0cff512c6b472bdc9a1fcf97c7f0e81097e0e78dacc666b4624bd52d8d36/vcc_lib-0.3.0-py3-none-any.whl
+[2023-07-02 03:29:02] INFO root fetch - processPackages [hassle]: Downloading https://files.pythonhosted.org/packages/6b/7f/7787ad12761c114e4ab0cfb7c5b8fa72f79f02ccc7f5e6721f399e8a483d/hassle-2.8.4.tar.gz
+[2023-07-02 03:29:02] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-07-02 03:29:02] INFO root fetch - processPackages [dark-matter]: Downloading https://files.pythonhosted.org/packages/c3/ec/2598bd337fd9f176a9b456b4915afd25b446ddb15e6e6b0f772ea1457b6b/dark-matter-4.0.9.tar.gz
+[2023-07-02 03:29:02] INFO root fetch - processPackages [plush-fabric]: Downloading https://files.pythonhosted.org/packages/30/c5/37aef832cd3a1ab6daa7024e80128b4083d3cba3e19d630bd6d21984fa90/plush-fabric-0.5.8.tar.gz
+[2023-07-02 03:29:03] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-07-02 03:29:03] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230702/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-02 03:29:03] INFO root fetch - processPackages [asyncdb]: Downloading https://files.pythonhosted.org/packages/4c/c0/7d58696e9d66d2ba43e22fc4ed696b9e6693cb8b3549d98037941332aa0b/asyncdb-2.3.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-02 03:29:03] INFO root fetch - processPackages [pixqrcodegen]: Downloading https://files.pythonhosted.org/packages/6b/90/db2c11db32912f6c556241060ca6a82d7aa0e9a7fc1cf1dbed2c0943962a/pixqrcodegen-0.8.tar.gz
+[2023-07-02 03:29:03] INFO root fetch - processPackages [dark-matter]: executing diffoscope
+[2023-07-02 03:29:03] INFO root fetch - processPackages [dark-matter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dark-matter-4.0.8.tar.gz tmp/dark-matter-4.0.9.tar.gz --markdown 20230702/d/dark-matter/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-02 03:29:03] INFO root fetch - processPackages [catchem-alpha-zero]: Downloading https://files.pythonhosted.org/packages/1d/5c/2bc5be84925cf660530b87626d7f052ba9a6846d6c86ca3c8bb82e03089e/catchem-alpha-zero-0.0.2.tar.gz
+[2023-07-02 03:29:03] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-07-02 03:29:03] INFO root fetch - processPackages [vcc-lib]: Downloading https://files.pythonhosted.org/packages/b6/97/8eaa84e4801cd726a9edddbe70ff5c303e024c5270c60418ea516f545738/vcc_lib-0.3.1-py3-none-any.whl
+[2023-07-02 03:29:03] INFO root fetch - processPackages [vcc-lib]: executing diffoscope
+[2023-07-02 03:29:03] INFO root fetch - processPackages [vcc-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcc_lib-0.3.0-py3-none-any.whl.zip tmp/vcc_lib-0.3.1-py3-none-any.whl.zip --markdown 20230702/v/vcc-lib/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-02 03:29:03] INFO root fetch - processPackages [asyncdb]: executing diffoscope
+[2023-07-02 03:29:03] INFO root fetch - processPackages [asyncdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncdb-2.3.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/asyncdb-2.3.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230702/a/asyncdb/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-07-02 03:29:03] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-07-02 03:29:03] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230702/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-02 03:29:03] INFO root fetch - processPackages [catchem-alpha-zero]: executing diffoscope
+[2023-07-02 03:29:03] INFO root fetch - processPackages [catchem-alpha-zero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catchem-alpha-zero-0.0.1.tar.gz tmp/catchem-alpha-zero-0.0.2.tar.gz --markdown 20230702/c/catchem-alpha-zero/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-02 03:29:03] INFO root fetch - processPackages [pixqrcodegen]: executing diffoscope
+[2023-07-02 03:29:03] INFO root fetch - processPackages [plush-fabric]: Downloading https://files.pythonhosted.org/packages/47/dd/d9e91f6ac73dce2d7ddcb57faa1779d3671bb6725cd8881088f9e32a0af4/plush-fabric-0.5.9.tar.gz
+[2023-07-02 03:29:03] INFO root fetch - processPackages [pixqrcodegen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixqrcodegen-0.7.tar.gz tmp/pixqrcodegen-0.8.tar.gz --markdown 20230702/p/pixqrcodegen/0.7-0.8/diff.md --exclude *.pyd
+[2023-07-02 03:29:03] INFO root fetch - processPackages [hassle]: Downloading https://files.pythonhosted.org/packages/86/fe/a374d0bbedc5b3037088374892183e8b396166bc41d0103a109b7bb1f068/hassle-2.8.5.tar.gz
+[2023-07-02 03:29:03] INFO root fetch - processPackages [plush-fabric]: executing diffoscope
+[2023-07-02 03:29:03] INFO root fetch - processPackages [plush-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plush-fabric-0.5.8.tar.gz tmp/plush-fabric-0.5.9.tar.gz --markdown 20230702/p/plush-fabric/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-02 03:29:03] INFO root fetch - processPackages [hassle]: executing diffoscope
+[2023-07-02 03:29:03] INFO root fetch - processPackages [hassle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hassle-2.8.4.tar.gz tmp/hassle-2.8.5.tar.gz --markdown 20230702/h/hassle/2.8.4-2.8.5/diff.md --exclude *.pyd
+[2023-07-02 03:29:04] INFO root fetch - processPackages [vcc-lib]: Remove: archive file [/home/abi/fetcher/tmp/vcc_lib-0.3.0-py3-none-any.whl.zip]
+[2023-07-02 03:29:04] INFO root fetch - processPackages [vcc-lib]: Remove: archive file [/home/abi/fetcher/tmp/vcc_lib-0.3.1-py3-none-any.whl.zip]
+[2023-07-02 03:29:04] INFO root fetch - main [MainThread]: End processing [vcc-lib]: success
+[2023-07-02 03:29:04] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-07-02 03:29:04] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-07-02 03:29:04] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-07-02 03:29:04] INFO root fetch - processPackages [pixqrcodegen]: Remove: archive file [/home/abi/fetcher/tmp/pixqrcodegen-0.7.tar.gz]
+[2023-07-02 03:29:04] INFO root fetch - processPackages [pixqrcodegen]: Remove: archive file [/home/abi/fetcher/tmp/pixqrcodegen-0.8.tar.gz]
+[2023-07-02 03:29:04] INFO root fetch - main [MainThread]: End processing [pixqrcodegen]: success
+[2023-07-02 03:29:04] INFO root fetch - processPackages [plush-fabric]: Remove: archive file [/home/abi/fetcher/tmp/plush-fabric-0.5.8.tar.gz]
+[2023-07-02 03:29:04] INFO root fetch - processPackages [plush-fabric]: Remove: archive file [/home/abi/fetcher/tmp/plush-fabric-0.5.9.tar.gz]
+[2023-07-02 03:29:04] INFO root fetch - main [MainThread]: End processing [plush-fabric]: success
+[2023-07-02 03:29:05] INFO root fetch - processPackages [asyncdb]: Remove: archive file [/home/abi/fetcher/tmp/asyncdb-2.3.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-02 03:29:05] INFO root fetch - processPackages [asyncdb]: Remove: archive file [/home/abi/fetcher/tmp/asyncdb-2.3.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-02 03:29:05] INFO root fetch - main [MainThread]: End processing [asyncdb]: success
+[2023-07-02 03:29:05] INFO root fetch - processPackages [dark-matter]: Remove: archive file [/home/abi/fetcher/tmp/dark-matter-4.0.8.tar.gz]
+[2023-07-02 03:29:05] INFO root fetch - processPackages [dark-matter]: Remove: archive file [/home/abi/fetcher/tmp/dark-matter-4.0.9.tar.gz]
+[2023-07-02 03:29:05] INFO root fetch - main [MainThread]: End processing [dark-matter]: success
+[2023-07-02 03:29:06] INFO root fetch - processPackages [catchem-alpha-zero]: Remove: archive file [/home/abi/fetcher/tmp/catchem-alpha-zero-0.0.1.tar.gz]
+[2023-07-02 03:29:06] INFO root fetch - processPackages [catchem-alpha-zero]: Remove: archive file [/home/abi/fetcher/tmp/catchem-alpha-zero-0.0.2.tar.gz]
+[2023-07-02 03:29:06] INFO root fetch - main [MainThread]: End processing [catchem-alpha-zero]: success
+[2023-07-02 03:29:06] INFO root fetch - processPackages [hassle]: Remove: archive file [/home/abi/fetcher/tmp/hassle-2.8.4.tar.gz]
+[2023-07-02 03:29:06] INFO root fetch - processPackages [hassle]: Remove: archive file [/home/abi/fetcher/tmp/hassle-2.8.5.tar.gz]
+[2023-07-02 03:29:06] INFO root fetch - main [MainThread]: End processing [hassle]: success
+[2023-07-02 03:29:06] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-07-02 03:29:06] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-07-02 03:29:06] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-07-02 03:29:06] INFO root fetch - main [MainThread]: Store serial: [18725583]
