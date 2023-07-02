@@ -8269,3 +8269,208 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 13:33:42] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.2b6.tar.gz]
 [2023-07-02 13:33:42] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
 [2023-07-02 13:33:42] INFO root fetch - main [MainThread]: Store serial: [18728191]
+[2023-07-02 13:38:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18728191]
+[2023-07-02 13:38:51] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-02 13:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pywinstyles
+[2023-07-02 13:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: funbuild
+[2023-07-02 13:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mik-py
+[2023-07-02 13:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tfrecords
+[2023-07-02 13:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: funfluid
+[2023-07-02 13:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: funfluid
+[2023-07-02 13:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-nano
+[2023-07-02 13:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py-tfl
+[2023-07-02 13:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: awstaga
+[2023-07-02 13:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mik-py
+[2023-07-02 13:38:51] INFO root fetch - processPackages [tfrecords]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-02 13:38:51] INFO root fetch - processPackages [mik-py]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-02 13:38:51] INFO root fetch - processPackages [funfluid]: New version: [202307021935] Old Version: [202307021934]
+[2023-07-02 13:38:51] INFO root fetch - processPackages [pywinstyles]: New version: [1.2] Old Version: [1.1]
+[2023-07-02 13:38:51] INFO root fetch - processPackages [funfluid]: New version: [202307021935] Old Version: [202307021934]
+[2023-07-02 13:38:51] INFO root fetch - processPackages [funbuild]: New version: [202307021934] Old Version: [202306301707]
+[2023-07-02 13:38:51] INFO root fetch - processPackages [mik-py]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-02 13:38:52] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230701] Old Version: [2.4.0b20230630]
+[2023-07-02 13:38:52] INFO root fetch - processPackages [mik-py]: Downloading https://files.pythonhosted.org/packages/71/e1/434f957122d0a3ae663224a55a964fae686acea2fb574a0c6fa92c06289c/mik_py-0.0.4.tar.gz
+[2023-07-02 13:38:52] INFO root fetch - processPackages [mik-py]: Downloading https://files.pythonhosted.org/packages/71/e1/434f957122d0a3ae663224a55a964fae686acea2fb574a0c6fa92c06289c/mik_py-0.0.4.tar.gz
+[2023-07-02 13:38:52] INFO root fetch - processPackages [py-tfl]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-02 13:38:52] WARNING root fetch - processPackages [awstaga]: Skipping, unable to determine old version
+[2023-07-02 13:38:52] INFO root fetch - processPackages [awstaga]: Start processing: hotsos
+[2023-07-02 13:38:52] INFO root fetch - main [MainThread]: End processing [awstaga] error
+[2023-07-02 13:38:52] INFO root fetch - processPackages [tfrecords]: Downloading https://files.pythonhosted.org/packages/ae/d6/f6c21774ffa12da88a83c2b66deecad8166383e366afc9caa4054ad25b1d/tfrecords-0.2.8-cp39-cp39-win_amd64.whl
+[2023-07-02 13:38:52] INFO root fetch - processPackages [funfluid]: Downloading https://files.pythonhosted.org/packages/dd/94/b069abc473d1d7c49e7f5beaca2c17b7c7422280bd5f8db20f227d14f992/funfluid-202307021934.tar.gz
+[2023-07-02 13:38:52] INFO root fetch - processPackages [funbuild]: Downloading https://files.pythonhosted.org/packages/dc/21/e77674952717cf182ea31273fc225247e7fbd9920cf32e9e5efdf03894df/funbuild-202306301707.tar.gz
+[2023-07-02 13:38:52] INFO root fetch - processPackages [funfluid]: Downloading https://files.pythonhosted.org/packages/dd/94/b069abc473d1d7c49e7f5beaca2c17b7c7422280bd5f8db20f227d14f992/funfluid-202307021934.tar.gz
+[2023-07-02 13:38:52] INFO root fetch - processPackages [pywinstyles]: Downloading https://files.pythonhosted.org/packages/a5/24/9fbf0c73021fe4fa5e70be8c6e594a4344a70bd729a015c3cf7fe4aba798/pywinstyles-1.1.tar.gz
+[2023-07-02 13:38:52] INFO root fetch - processPackages [hotsos]: New version: [1.15.post6] Old Version: [1.15.post5]
+[2023-07-02 13:38:52] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/12/2d/3bf694ff4b0a24fdec479eb8af1f437b2288bb3bcbd3a75de12ec9fa97c7/bigdl_nano-2.4.0b20230630-py3-none-win_amd64.whl
+[2023-07-02 13:38:52] INFO root fetch - processPackages [mik-py]: Downloading https://files.pythonhosted.org/packages/80/cb/4df90261d956aff37b6627ad0780b8ac0c7a5c488a053f4f9faee3ffdca3/mik_py-0.0.5.tar.gz
+[2023-07-02 13:38:52] INFO root fetch - processPackages [mik-py]: Downloading https://files.pythonhosted.org/packages/80/cb/4df90261d956aff37b6627ad0780b8ac0c7a5c488a053f4f9faee3ffdca3/mik_py-0.0.5.tar.gz
+[2023-07-02 13:38:52] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/f9/71/cdbf4d741310377dc20d75735edaf7dbb07fa9d43fbd1c4b3e69fab3e0fc/hotsos-1.15.post5.tar.gz
+[2023-07-02 13:38:52] INFO root fetch - processPackages [py-tfl]: Downloading https://files.pythonhosted.org/packages/ad/0d/a95f5edfdc2d70344e4671d391d9f2255b075247af2a08acc0e8faa7c691/py_tfl-0.4.4.tar.gz
+[2023-07-02 13:38:52] INFO root fetch - processPackages [funfluid]: Downloading https://files.pythonhosted.org/packages/b0/c0/c754c94fc274a0fe7582c765db14eb6f617d8215d0919850b809e83a306c/funfluid-202307021935.tar.gz
+[2023-07-02 13:38:52] INFO root fetch - processPackages [funfluid]: Downloading https://files.pythonhosted.org/packages/b0/c0/c754c94fc274a0fe7582c765db14eb6f617d8215d0919850b809e83a306c/funfluid-202307021935.tar.gz
+[2023-07-02 13:38:52] INFO root fetch - processPackages [mik-py]: executing diffoscope
+[2023-07-02 13:38:52] INFO root fetch - processPackages [mik-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mik_py-0.0.4.tar.gz tmp/mik_py-0.0.5.tar.gz --markdown 20230702/m/mik-py/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-02 13:38:52] INFO root fetch - processPackages [mik-py]: executing diffoscope
+[2023-07-02 13:38:52] INFO root fetch - processPackages [mik-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mik_py-0.0.4.tar.gz tmp/mik_py-0.0.5.tar.gz --markdown 20230702/m/mik-py/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-02 13:38:52] INFO root fetch - processPackages [funbuild]: Downloading https://files.pythonhosted.org/packages/04/63/7f9d087a204a10ca170b1b976bd899263a4bd123f92377ae3363988153aa/funbuild-202307021934.tar.gz
+[2023-07-02 13:38:52] INFO root fetch - processPackages [pywinstyles]: Downloading https://files.pythonhosted.org/packages/44/e1/5b218efe88d44d3a359ede3942e8004463770cc308c72328ee81d8f1059b/pywinstyles-1.2.tar.gz
+[2023-07-02 13:38:52] INFO root fetch - processPackages [funfluid]: executing diffoscope
+[2023-07-02 13:38:52] INFO root fetch - processPackages [funfluid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funfluid-202307021934.tar.gz tmp/funfluid-202307021935.tar.gz --markdown 20230702/f/funfluid/202307021934-202307021935/diff.md --exclude *.pyd
+[2023-07-02 13:38:52] INFO root fetch - processPackages [tfrecords]: Downloading https://files.pythonhosted.org/packages/07/c3/4c1b52bf2a6b16a32e989d7b98d62f1fccd6446b5309630b87d1a27986f8/tfrecords-0.2.9-cp39-cp39-win_amd64.whl
+[2023-07-02 13:38:52] INFO root fetch - processPackages [funfluid]: executing diffoscope
+[2023-07-02 13:38:52] INFO root fetch - processPackages [funfluid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funfluid-202307021934.tar.gz tmp/funfluid-202307021935.tar.gz --markdown 20230702/f/funfluid/202307021934-202307021935/diff.md --exclude *.pyd
+[2023-07-02 13:38:52] INFO root fetch - processPackages [py-tfl]: executing diffoscope
+[2023-07-02 13:38:52] INFO root fetch - processPackages [py-tfl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_tfl-0.4.3.tar.gz tmp/py_tfl-0.4.4.tar.gz --markdown 20230702/p/py-tfl/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-02 13:38:52] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/0d/78/30c040d1964f67f525d2f2805abbcb10372c2cde99e2e38662f320b49d64/hotsos-1.15.post6.tar.gz
+[2023-07-02 13:38:52] INFO root fetch - processPackages [pywinstyles]: executing diffoscope
+[2023-07-02 13:38:52] INFO root fetch - processPackages [pywinstyles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywinstyles-1.1.tar.gz tmp/pywinstyles-1.2.tar.gz --markdown 20230702/p/pywinstyles/1.1-1.2/diff.md --exclude *.pyd
+[2023-07-02 13:38:52] INFO root fetch - processPackages [funbuild]: executing diffoscope
+[2023-07-02 13:38:52] INFO root fetch - processPackages [funbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funbuild-202306301707.tar.gz tmp/funbuild-202307021934.tar.gz --markdown 20230702/f/funbuild/202306301707-202307021934/diff.md --exclude *.pyd
+[2023-07-02 13:38:52] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2023-07-02 13:38:52] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.15.post5.tar.gz tmp/hotsos-1.15.post6.tar.gz --markdown 20230702/h/hotsos/1.15.post5-1.15.post6/diff.md --exclude *.pyd
+[2023-07-02 13:38:53] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/ea/20/795e5333e51f116eebc23cfb6f6475d9f5ce710f7e778f18fdbd279b63d1/bigdl_nano-2.4.0b20230701-py3-none-win_amd64.whl
+[2023-07-02 13:38:53] INFO root fetch - processPackages [tfrecords]: executing diffoscope
+[2023-07-02 13:38:53] INFO root fetch - processPackages [tfrecords]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfrecords-0.2.8-cp39-cp39-win_amd64.whl.zip tmp/tfrecords-0.2.9-cp39-cp39-win_amd64.whl.zip --markdown 20230702/t/tfrecords/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-02 13:38:53] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-07-02 13:38:53] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230630-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230701-py3-none-win_amd64.whl.zip --markdown 20230702/b/bigdl-nano/2.4.0b20230630-2.4.0b20230701/diff.md --exclude *.pyd
+[2023-07-02 13:38:53] INFO root fetch - processPackages [mik-py]: Remove: archive file [/home/abi/fetcher/tmp/mik_py-0.0.4.tar.gz]
+[2023-07-02 13:38:53] INFO root fetch - processPackages [mik-py]: Remove: archive file [/home/abi/fetcher/tmp/mik_py-0.0.5.tar.gz]
+[2023-07-02 13:38:53] INFO root fetch - processPackages [mik-py]: Start processing: asserto
+[2023-07-02 13:38:53] INFO root fetch - main [MainThread]: End processing [mik-py]: success
+[2023-07-02 13:38:53] INFO root fetch - processPackages [mik-py]: Start processing: clickzetta-connector
+[2023-07-02 13:38:53] INFO root fetch - main [MainThread]: End processing [mik-py]: success
+[2023-07-02 13:38:53] INFO root fetch - processPackages [asserto]: New version: [0.1.3] Old Version: [0.0.7]
+[2023-07-02 13:38:54] INFO root fetch - processPackages [py-tfl]: Remove: archive file [/home/abi/fetcher/tmp/py_tfl-0.4.3.tar.gz]
+[2023-07-02 13:38:54] INFO root fetch - processPackages [py-tfl]: Remove: archive file [/home/abi/fetcher/tmp/py_tfl-0.4.4.tar.gz]
+[2023-07-02 13:38:54] INFO root fetch - processPackages [py-tfl]: Start processing: clickzetta-sqlalchemy
+[2023-07-02 13:38:54] INFO root fetch - main [MainThread]: End processing [py-tfl]: success
+[2023-07-02 13:38:54] INFO root fetch - processPackages [clickzetta-connector]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-02 13:38:54] INFO root fetch - processPackages [asserto]: Downloading https://files.pythonhosted.org/packages/f4/5d/6ec987e673fd35f5a28eaf618e58f795afb8342c358ba7472ed51821fa60/asserto-0.0.7.tar.gz
+[2023-07-02 13:38:54] INFO root fetch - processPackages [clickzetta-sqlalchemy]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-02 13:38:54] INFO root fetch - processPackages [funfluid]: Remove: archive file [/home/abi/fetcher/tmp/funfluid-202307021934.tar.gz]
+[2023-07-02 13:38:54] INFO root fetch - processPackages [funfluid]: Remove: archive file [/home/abi/fetcher/tmp/funfluid-202307021935.tar.gz]
+[2023-07-02 13:38:54] INFO root fetch - main [MainThread]: End processing [funfluid]: success
+[2023-07-02 13:38:54] INFO root fetch - processPackages [pywinstyles]: Remove: archive file [/home/abi/fetcher/tmp/pywinstyles-1.1.tar.gz]
+[2023-07-02 13:38:54] INFO root fetch - processPackages [pywinstyles]: Remove: archive file [/home/abi/fetcher/tmp/pywinstyles-1.2.tar.gz]
+[2023-07-02 13:38:54] INFO root fetch - main [MainThread]: End processing [pywinstyles]: success
+[2023-07-02 13:38:54] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/72/d1/d65bb4b4077a404aa08b3a2615159873fac64bc9adabf42a5b45cb50f00b/clickzetta-connector-0.8.8.tar.gz
+[2023-07-02 13:38:54] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/1e/c5/d4be8dcc2a67d1d955c84c09b0223b9977fd638ed0bf7d09cc2a752386cf/clickzetta-sqlalchemy-0.8.8.tar.gz
+[2023-07-02 13:38:54] INFO root fetch - processPackages [funbuild]: Remove: archive file [/home/abi/fetcher/tmp/funbuild-202306301707.tar.gz]
+[2023-07-02 13:38:54] INFO root fetch - processPackages [funbuild]: Remove: archive file [/home/abi/fetcher/tmp/funbuild-202307021934.tar.gz]
+[2023-07-02 13:38:54] INFO root fetch - main [MainThread]: End processing [funbuild]: success
+[2023-07-02 13:38:54] INFO root fetch - processPackages [asserto]: Downloading https://files.pythonhosted.org/packages/35/81/b68e9a8aa3fb86c669913eccb94793e06e30d493c5adc2ade7022939e454/asserto-0.1.3.tar.gz
+[2023-07-02 13:38:54] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/81/41/2c55796964b0e67291955e1856242db62fc8e6f14e179a50bf1c6296f067/clickzetta-connector-0.8.9.tar.gz
+[2023-07-02 13:38:54] INFO root fetch - processPackages [clickzetta-connector]: executing diffoscope
+[2023-07-02 13:38:54] INFO root fetch - processPackages [clickzetta-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-connector-0.8.8.tar.gz tmp/clickzetta-connector-0.8.9.tar.gz --markdown 20230702/c/clickzetta-connector/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-07-02 13:38:54] INFO root fetch - processPackages [asserto]: executing diffoscope
+[2023-07-02 13:38:54] INFO root fetch - processPackages [asserto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asserto-0.0.7.tar.gz tmp/asserto-0.1.3.tar.gz --markdown 20230702/a/asserto/0.0.7-0.1.3/diff.md --exclude *.pyd
+[2023-07-02 13:38:54] ERROR root fetch - processPackages [funfluid]: Diffoscope failed: gzip: tmp/funfluid-202307021935.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/funfluid-202307021935.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-07-02 13:38:54] INFO root fetch - main [MainThread]: End processing [funfluid] error
+[2023-07-02 13:38:54] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/05/6f/f31876ff58c9201594d988fd4bbd8a182a97a305a16842de419109e35005/clickzetta-sqlalchemy-0.8.9.tar.gz
+[2023-07-02 13:38:54] INFO root fetch - processPackages [tfrecords]: Remove: archive file [/home/abi/fetcher/tmp/tfrecords-0.2.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-02 13:38:54] INFO root fetch - processPackages [tfrecords]: Remove: archive file [/home/abi/fetcher/tmp/tfrecords-0.2.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-02 13:38:54] INFO root fetch - main [MainThread]: End processing [tfrecords]: success
+[2023-07-02 13:38:54] INFO root fetch - processPackages [clickzetta-sqlalchemy]: executing diffoscope
+[2023-07-02 13:38:54] INFO root fetch - processPackages [clickzetta-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-sqlalchemy-0.8.8.tar.gz tmp/clickzetta-sqlalchemy-0.8.9.tar.gz --markdown 20230702/c/clickzetta-sqlalchemy/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-07-02 13:38:55] INFO root fetch - processPackages [asserto]: Remove: archive file [/home/abi/fetcher/tmp/asserto-0.0.7.tar.gz]
+[2023-07-02 13:38:55] INFO root fetch - processPackages [asserto]: Remove: archive file [/home/abi/fetcher/tmp/asserto-0.1.3.tar.gz]
+[2023-07-02 13:38:55] INFO root fetch - main [MainThread]: End processing [asserto]: success
+[2023-07-02 13:38:55] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-sqlalchemy-0.8.8.tar.gz]
+[2023-07-02 13:38:55] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-sqlalchemy-0.8.9.tar.gz]
+[2023-07-02 13:38:55] INFO root fetch - main [MainThread]: End processing [clickzetta-sqlalchemy]: success
+[2023-07-02 13:38:56] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.8.tar.gz]
+[2023-07-02 13:38:56] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.9.tar.gz]
+[2023-07-02 13:38:56] INFO root fetch - main [MainThread]: End processing [clickzetta-connector]: success
+[2023-07-02 13:38:57] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.15.post5.tar.gz]
+[2023-07-02 13:38:57] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.15.post6.tar.gz]
+[2023-07-02 13:38:57] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2023-07-02 13:39:49] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230630-py3-none-win_amd64.whl.zip]
+[2023-07-02 13:39:49] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230701-py3-none-win_amd64.whl.zip]
+[2023-07-02 13:39:49] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-07-02 13:39:49] INFO root fetch - main [MainThread]: Store serial: [18728247]
