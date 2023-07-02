@@ -1976,3 +1976,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 03:18:40] INFO root fetch - processPackages [adata]: Remove: archive file [/home/abi/fetcher/tmp/adata-0.0.9b0.tar.gz]
 [2023-07-02 03:18:40] INFO root fetch - main [MainThread]: End processing [adata]: success
 [2023-07-02 03:18:40] INFO root fetch - main [MainThread]: Store serial: [18725540]
+[2023-07-02 03:23:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18725540]
+[2023-07-02 03:23:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-02 03:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: JsMacrosAC
+[2023-07-02 03:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dwave-ocean-sdk
+[2023-07-02 03:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tomfoolery
+[2023-07-02 03:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trongrid-extractor
+[2023-07-02 03:23:49] INFO root fetch - processPackages [tomfoolery]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-07-02 03:23:49] INFO root fetch - processPackages [JsMacrosAC]: New version: [1.8.4.8260804] Old Version: [1.8.4.8257505]
+[2023-07-02 03:23:49] INFO root fetch - processPackages [trongrid-extractor]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-07-02 03:23:49] INFO root fetch - processPackages [dwave-ocean-sdk]: New version: [6.4.1] Old Version: [6.4.0]
+[2023-07-02 03:23:49] INFO root fetch - processPackages [JsMacrosAC]: Downloading https://files.pythonhosted.org/packages/d2/51/7c0ec7252fd2155b1518bb2cdc0474e7b128b8269c663fbd51922c54c4b6/JsMacrosAC-1.8.4.8257505.tar.gz
+[2023-07-02 03:23:49] INFO root fetch - processPackages [trongrid-extractor]: Downloading https://files.pythonhosted.org/packages/a5/62/ba802bdb2fef932f68b775f46a022ff2e73259d0eddc2ce5743f6314c9d0/trongrid_extractor-0.3.9.tar.gz
+[2023-07-02 03:23:49] INFO root fetch - processPackages [tomfoolery]: Downloading https://files.pythonhosted.org/packages/c5/ed/77f5f35c97ef28ca12645db350decffff1da43ae1215066da4a54add1f27/tomfoolery-0.1.0.tar.gz
+[2023-07-02 03:23:49] INFO root fetch - processPackages [dwave-ocean-sdk]: Downloading https://files.pythonhosted.org/packages/79/7a/e532be642e60f6f6fbd9b8ce80bcc0a1b2c831562b3bb0d0056c7fc1c409/dwave-ocean-sdk-6.4.0.tar.gz
+[2023-07-02 03:23:49] INFO root fetch - processPackages [trongrid-extractor]: Downloading https://files.pythonhosted.org/packages/88/f9/bc6aac01b62f17119b89052274bdf7a0391816c3a9984d69d9a710c8d027/trongrid_extractor-0.4.0.tar.gz
+[2023-07-02 03:23:49] INFO root fetch - processPackages [JsMacrosAC]: Downloading https://files.pythonhosted.org/packages/81/be/8240905765353670455c82d54636efe9dad886832027f0dbb77d87b74e92/JsMacrosAC-1.8.4.8260804.tar.gz
+[2023-07-02 03:23:49] INFO root fetch - processPackages [trongrid-extractor]: executing diffoscope
+[2023-07-02 03:23:49] INFO root fetch - processPackages [trongrid-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trongrid_extractor-0.3.9.tar.gz tmp/trongrid_extractor-0.4.0.tar.gz --markdown 20230702/t/trongrid-extractor/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-07-02 03:23:49] INFO root fetch - processPackages [tomfoolery]: Downloading https://files.pythonhosted.org/packages/16/cd/f21fa6ac7d1978655293cdcde21ec549545d95adfbb1f9c8ebf8327e578b/tomfoolery-1.0.0.tar.gz
+[2023-07-02 03:23:49] INFO root fetch - processPackages [JsMacrosAC]: executing diffoscope
+[2023-07-02 03:23:49] INFO root fetch - processPackages [JsMacrosAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JsMacrosAC-1.8.4.8257505.tar.gz tmp/JsMacrosAC-1.8.4.8260804.tar.gz --markdown 20230702/J/JsMacrosAC/1.8.4.8257505-1.8.4.8260804/diff.md --exclude *.pyd
+[2023-07-02 03:23:49] INFO root fetch - processPackages [tomfoolery]: executing diffoscope
+[2023-07-02 03:23:49] INFO root fetch - processPackages [tomfoolery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomfoolery-0.1.0.tar.gz tmp/tomfoolery-1.0.0.tar.gz --markdown 20230702/t/tomfoolery/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-02 03:23:50] INFO root fetch - processPackages [dwave-ocean-sdk]: Downloading https://files.pythonhosted.org/packages/57/12/fe502dce19534163a0b5c723c8177e6a9ef56c10a67396b009db6cc027c4/dwave-ocean-sdk-6.4.1.tar.gz
+[2023-07-02 03:23:50] INFO root fetch - processPackages [dwave-ocean-sdk]: executing diffoscope
+[2023-07-02 03:23:50] INFO root fetch - processPackages [dwave-ocean-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwave-ocean-sdk-6.4.0.tar.gz tmp/dwave-ocean-sdk-6.4.1.tar.gz --markdown 20230702/d/dwave-ocean-sdk/6.4.0-6.4.1/diff.md --exclude *.pyd
+[2023-07-02 03:23:50] INFO root fetch - processPackages [trongrid-extractor]: Remove: archive file [/home/abi/fetcher/tmp/trongrid_extractor-0.3.9.tar.gz]
+[2023-07-02 03:23:50] INFO root fetch - processPackages [trongrid-extractor]: Remove: archive file [/home/abi/fetcher/tmp/trongrid_extractor-0.4.0.tar.gz]
+[2023-07-02 03:23:50] INFO root fetch - main [MainThread]: End processing [trongrid-extractor]: success
+[2023-07-02 03:23:51] INFO root fetch - processPackages [tomfoolery]: Remove: archive file [/home/abi/fetcher/tmp/tomfoolery-0.1.0.tar.gz]
+[2023-07-02 03:23:51] INFO root fetch - processPackages [tomfoolery]: Remove: archive file [/home/abi/fetcher/tmp/tomfoolery-1.0.0.tar.gz]
+[2023-07-02 03:23:51] INFO root fetch - main [MainThread]: End processing [tomfoolery]: success
+[2023-07-02 03:23:51] INFO root fetch - processPackages [dwave-ocean-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dwave-ocean-sdk-6.4.0.tar.gz]
+[2023-07-02 03:23:51] INFO root fetch - processPackages [dwave-ocean-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dwave-ocean-sdk-6.4.1.tar.gz]
+[2023-07-02 03:23:51] INFO root fetch - main [MainThread]: End processing [dwave-ocean-sdk]: success
+[2023-07-02 03:23:53] INFO root fetch - processPackages [JsMacrosAC]: Remove: archive file [/home/abi/fetcher/tmp/JsMacrosAC-1.8.4.8257505.tar.gz]
+[2023-07-02 03:23:53] INFO root fetch - processPackages [JsMacrosAC]: Remove: archive file [/home/abi/fetcher/tmp/JsMacrosAC-1.8.4.8260804.tar.gz]
+[2023-07-02 03:23:53] INFO root fetch - main [MainThread]: End processing [JsMacrosAC]: success
+[2023-07-02 03:23:53] INFO root fetch - main [MainThread]: Store serial: [18725553]
