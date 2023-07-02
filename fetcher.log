@@ -5258,3 +5258,70 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 08:53:55] INFO root fetch - processPackages [typedload]: Remove: archive file [/home/abi/fetcher/tmp/typedload-2.9.tar.gz]
 [2023-07-02 08:53:55] INFO root fetch - main [MainThread]: End processing [typedload]: success
 [2023-07-02 08:53:55] INFO root fetch - main [MainThread]: Store serial: [18726780]
+[2023-07-02 08:58:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726780]
+[2023-07-02 08:59:04] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-02 08:59:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: 3mystic_common
+[2023-07-02 08:59:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: threemystic-common
+[2023-07-02 08:59:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: threemystic-common
+[2023-07-02 08:59:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: threemystic-common
+[2023-07-02 08:59:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ez-a-sync
+[2023-07-02 08:59:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: threemystic-cloud-client
+[2023-07-02 08:59:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: threemystic-cloud-client
+[2023-07-02 08:59:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: threemystic-cloud-client
+[2023-07-02 08:59:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: reflex-icons
+[2023-07-02 08:59:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: 3mystic_cloud_client
+[2023-07-02 08:59:04] INFO root fetch - processPackages [ez-a-sync]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-02 08:59:04] INFO root fetch - processPackages [threemystic-common]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-07-02 08:59:04] WARNING root fetch - processPackages [3mystic_common]: Skipping, unable to determine old version
+[2023-07-02 08:59:04] INFO root fetch - processPackages [threemystic-common]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-07-02 08:59:04] INFO root fetch - processPackages [threemystic-common]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-07-02 08:59:04] INFO root fetch - main [MainThread]: End processing [3mystic_common] error
+[2023-07-02 08:59:04] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/bc/c6/03e4605449ed000f8b9bb289cb7ea5eec4583ae70659f07d145c6a1cfff7/ez-a-sync-0.3.0.tar.gz
+[2023-07-02 08:59:04] INFO root fetch - processPackages [threemystic-cloud-client]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-07-02 08:59:04] INFO root fetch - processPackages [threemystic-cloud-client]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-07-02 08:59:04] INFO root fetch - processPackages [threemystic-cloud-client]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-07-02 08:59:04] WARNING root fetch - processPackages [reflex-icons]: Skipping, unable to determine old version
+[2023-07-02 08:59:04] INFO root fetch - main [MainThread]: End processing [reflex-icons] error
+[2023-07-02 08:59:04] WARNING root fetch - processPackages [3mystic_cloud_client]: Skipping, unable to determine old version
+[2023-07-02 08:59:04] INFO root fetch - main [MainThread]: End processing [3mystic_cloud_client] error
+[2023-07-02 08:59:04] INFO root fetch - processPackages [threemystic-common]: Downloading https://files.pythonhosted.org/packages/d2/9c/1d06d8dd016fd060c87e695d8d7e41568fe5eba95b217404aa5e49d65e87/threemystic_common-0.0.3.tar.gz
+[2023-07-02 08:59:04] INFO root fetch - processPackages [threemystic-common]: Downloading https://files.pythonhosted.org/packages/d2/9c/1d06d8dd016fd060c87e695d8d7e41568fe5eba95b217404aa5e49d65e87/threemystic_common-0.0.3.tar.gz
+[2023-07-02 08:59:04] INFO root fetch - processPackages [threemystic-common]: Downloading https://files.pythonhosted.org/packages/d2/9c/1d06d8dd016fd060c87e695d8d7e41568fe5eba95b217404aa5e49d65e87/threemystic_common-0.0.3.tar.gz
+[2023-07-02 08:59:04] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/b4/0a/7c55d95c2fd7d9df5c8087e658cbe2611c7f6f964be55d73da38d1d1b3ff/threemystic_cloud_client-0.0.2.tar.gz
+[2023-07-02 08:59:04] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/b4/0a/7c55d95c2fd7d9df5c8087e658cbe2611c7f6f964be55d73da38d1d1b3ff/threemystic_cloud_client-0.0.2.tar.gz
+[2023-07-02 08:59:04] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/b4/0a/7c55d95c2fd7d9df5c8087e658cbe2611c7f6f964be55d73da38d1d1b3ff/threemystic_cloud_client-0.0.2.tar.gz
+[2023-07-02 08:59:04] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/4c/8a/95046d110907e265ebe53ffff0a296f73514733e440f131a3d5b26875333/ez-a-sync-0.3.1.tar.gz
+[2023-07-02 08:59:04] INFO root fetch - processPackages [threemystic-common]: Downloading https://files.pythonhosted.org/packages/33/8f/4fce4b83cc84a1e7768d1d7600727800d6ccafe28400f24a115476ae8d6c/threemystic_common-0.1.0.tar.gz
+[2023-07-02 08:59:04] INFO root fetch - processPackages [threemystic-common]: Downloading https://files.pythonhosted.org/packages/33/8f/4fce4b83cc84a1e7768d1d7600727800d6ccafe28400f24a115476ae8d6c/threemystic_common-0.1.0.tar.gz
+[2023-07-02 08:59:04] INFO root fetch - processPackages [threemystic-common]: Downloading https://files.pythonhosted.org/packages/33/8f/4fce4b83cc84a1e7768d1d7600727800d6ccafe28400f24a115476ae8d6c/threemystic_common-0.1.0.tar.gz
+[2023-07-02 08:59:05] INFO root fetch - processPackages [ez-a-sync]: executing diffoscope
+[2023-07-02 08:59:05] INFO root fetch - processPackages [ez-a-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez-a-sync-0.3.0.tar.gz tmp/ez-a-sync-0.3.1.tar.gz --markdown 20230702/e/ez-a-sync/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-02 08:59:05] INFO root fetch - processPackages [threemystic-common]: executing diffoscope
+[2023-07-02 08:59:05] INFO root fetch - processPackages [threemystic-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_common-0.0.3.tar.gz tmp/threemystic_common-0.1.0.tar.gz --markdown 20230702/t/threemystic-common/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-07-02 08:59:05] INFO root fetch - processPackages [threemystic-common]: executing diffoscope
+[2023-07-02 08:59:05] INFO root fetch - processPackages [threemystic-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_common-0.0.3.tar.gz tmp/threemystic_common-0.1.0.tar.gz --markdown 20230702/t/threemystic-common/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-07-02 08:59:05] INFO root fetch - processPackages [threemystic-common]: executing diffoscope
+[2023-07-02 08:59:05] INFO root fetch - processPackages [threemystic-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_common-0.0.3.tar.gz tmp/threemystic_common-0.1.0.tar.gz --markdown 20230702/t/threemystic-common/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-07-02 08:59:05] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/2f/fb/7a6693e9ad1d538bd0005b5ac7ed9a19ba3fcbb40008eac4eb9c5b9fce5e/threemystic_cloud_client-0.1.0.tar.gz
+[2023-07-02 08:59:05] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/2f/fb/7a6693e9ad1d538bd0005b5ac7ed9a19ba3fcbb40008eac4eb9c5b9fce5e/threemystic_cloud_client-0.1.0.tar.gz
+[2023-07-02 08:59:05] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/2f/fb/7a6693e9ad1d538bd0005b5ac7ed9a19ba3fcbb40008eac4eb9c5b9fce5e/threemystic_cloud_client-0.1.0.tar.gz
+[2023-07-02 08:59:05] INFO root fetch - processPackages [threemystic-cloud-client]: executing diffoscope
+[2023-07-02 08:59:05] INFO root fetch - processPackages [threemystic-cloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_client-0.0.2.tar.gz tmp/threemystic_cloud_client-0.1.0.tar.gz --markdown 20230702/t/threemystic-cloud-client/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-07-02 08:59:05] INFO root fetch - processPackages [threemystic-cloud-client]: executing diffoscope
+[2023-07-02 08:59:05] INFO root fetch - processPackages [threemystic-cloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_client-0.0.2.tar.gz tmp/threemystic_cloud_client-0.1.0.tar.gz --markdown 20230702/t/threemystic-cloud-client/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-07-02 08:59:05] INFO root fetch - processPackages [threemystic-cloud-client]: executing diffoscope
+[2023-07-02 08:59:05] INFO root fetch - processPackages [threemystic-cloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_client-0.0.2.tar.gz tmp/threemystic_cloud_client-0.1.0.tar.gz --markdown 20230702/t/threemystic-cloud-client/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-07-02 08:59:06] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.3.0.tar.gz]
+[2023-07-02 08:59:06] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.3.1.tar.gz]
+[2023-07-02 08:59:06] INFO root fetch - main [MainThread]: End processing [ez-a-sync]: success
+[2023-07-02 08:59:06] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.0.2.tar.gz]
+[2023-07-02 08:59:06] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.0.tar.gz]
+[2023-07-02 08:59:06] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-client]: success
+[2023-07-02 08:59:06] INFO root fetch - processPackages [threemystic-common]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_common-0.0.3.tar.gz]
+[2023-07-02 08:59:06] INFO root fetch - processPackages [threemystic-common]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_common-0.1.0.tar.gz]
+[2023-07-02 08:59:06] INFO root fetch - main [MainThread]: End processing [threemystic-common]: success
+[2023-07-02 08:59:06] INFO root fetch - main [MainThread]: End processing [threemystic-common]: success
+[2023-07-02 08:59:06] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-client]: success
+[2023-07-02 08:59:06] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-client]: success
+[2023-07-02 08:59:06] INFO root fetch - main [MainThread]: End processing [threemystic-common]: success
+[2023-07-02 08:59:06] INFO root fetch - main [MainThread]: Store serial: [18726820]
