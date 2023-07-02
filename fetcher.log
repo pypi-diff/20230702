@@ -15817,3 +15817,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 22:22:52] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.8.tar.gz]
 [2023-07-02 22:22:52] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
 [2023-07-02 22:22:52] INFO root fetch - main [MainThread]: Store serial: [18731303]
+[2023-07-02 22:27:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18731303]
+[2023-07-02 22:28:02] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-02 22:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: queenbee-local
+[2023-07-02 22:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2023-07-02 22:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpt-functions
+[2023-07-02 22:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gallery-dl
+[2023-07-02 22:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: non-local-detector
+[2023-07-02 22:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: unboxer
+[2023-07-02 22:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hellomilar
+[2023-07-02 22:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: osxphotos
+[2023-07-02 22:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: asgardpy
+[2023-07-02 22:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: threemystic-common
+[2023-07-02 22:28:02] INFO root fetch - processPackages [non-local-detector]: New version: [0.2.4.dev0] Old Version: [0.2.3.dev0]
+[2023-07-02 22:28:02] INFO root fetch - processPackages [gpt-functions]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-02 22:28:02] WARNING root fetch - processPackages [threemystic-common]: Skipping, unable to determine old version
+[2023-07-02 22:28:02] INFO root fetch - main [MainThread]: End processing [threemystic-common] error
+[2023-07-02 22:28:02] INFO root fetch - processPackages [non-local-detector]: Downloading https://files.pythonhosted.org/packages/00/69/9737f88cb03b94546803315545b91777fac5f34e02d476063df11c6a79c0/non_local_detector-0.2.3.dev0.tar.gz
+[2023-07-02 22:28:02] INFO root fetch - processPackages [gpt-functions]: Downloading https://files.pythonhosted.org/packages/a7/40/4577e4d0def2d330f23720d16d5b36ae515b41d6aa9c83187c2396e94743/gpt_functions-0.0.4.tar.gz
+[2023-07-02 22:28:02] INFO root fetch - processPackages [queenbee-local]: New version: [0.6.0] Old Version: [0.5.4]
+[2023-07-02 22:28:02] WARNING root fetch - processPackages [unboxer]: Skipping, unable to determine old version
+[2023-07-02 22:28:02] INFO root fetch - main [MainThread]: End processing [unboxer] error
+[2023-07-02 22:28:02] INFO root fetch - processPackages [asgardpy]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-02 22:28:02] WARNING root fetch - processPackages [hellomilar]: Skipping, unable to determine old version
+[2023-07-02 22:28:02] INFO root fetch - main [MainThread]: End processing [hellomilar] error
+[2023-07-02 22:28:02] INFO root fetch - processPackages [osxphotos]: New version: [0.60.6] Old Version: [0.60.5]
+[2023-07-02 22:28:02] INFO root fetch - processPackages [gallery-dl]: New version: [1.9.0] Old Version: [1.8.7]
+[2023-07-02 22:28:02] INFO root fetch - processPackages [gpt-functions]: Downloading https://files.pythonhosted.org/packages/6b/aa/3cf33899b191e2a93ac34a0f6aaca091defd3f868cd56710f8d1b34c11d9/gpt_functions-0.0.5.tar.gz
+[2023-07-02 22:28:02] INFO root fetch - processPackages [non-local-detector]: Downloading https://files.pythonhosted.org/packages/2d/7a/b3c51988a9f313723cb23567fcb09f4cfe1ebd6328a9d0570568156d01a8/non_local_detector-0.2.4.dev0.tar.gz
+[2023-07-02 22:28:02] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-02 22:28:02] INFO root fetch - processPackages [gpt-functions]: executing diffoscope
+[2023-07-02 22:28:02] INFO root fetch - processPackages [gpt-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_functions-0.0.4.tar.gz tmp/gpt_functions-0.0.5.tar.gz --markdown 20230702/g/gpt-functions/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-02 22:28:02] INFO root fetch - processPackages [queenbee-local]: Downloading https://files.pythonhosted.org/packages/a0/c7/eb1fc871f764a7cd0d2ee0d50eb039fdb36244e65c867aa5bd113996c922/queenbee-local-0.5.4.tar.gz
+[2023-07-02 22:28:02] INFO root fetch - processPackages [asgardpy]: Downloading https://files.pythonhosted.org/packages/a0/f8/d91d358b6f34d0f38b610d501ad19598da790286ef367561a5a3c2308ed5/asgardpy-0.3.3.tar.gz
+[2023-07-02 22:28:02] INFO root fetch - processPackages [gallery-dl]: Downloading https://files.pythonhosted.org/packages/5d/1c/09cf02a5b984e19ad70eef4b0546aef2c2642861044e7d619f393e8c8b9a/gallery_dl-1.8.7.tar.gz
+[2023-07-02 22:28:02] INFO root fetch - processPackages [non-local-detector]: executing diffoscope
+[2023-07-02 22:28:02] INFO root fetch - processPackages [non-local-detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/non_local_detector-0.2.3.dev0.tar.gz tmp/non_local_detector-0.2.4.dev0.tar.gz --markdown 20230702/n/non-local-detector/0.2.3.dev0-0.2.4.dev0/diff.md --exclude *.pyd
+[2023-07-02 22:28:02] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-02 22:28:02] INFO root fetch - processPackages [osxphotos]: Downloading https://files.pythonhosted.org/packages/47/43/435b0cd219dfc8be1720a55e6f4fc4319ffcdc493c0673cd6aaef426c51c/osxphotos-0.60.5.tar.gz
+[2023-07-02 22:28:02] INFO root fetch - processPackages [queenbee-local]: Downloading https://files.pythonhosted.org/packages/73/8a/78e0068deb63653ac576e2277d0d66cda8b56bb27e766a63e6366533d947/queenbee-local-0.6.0.tar.gz
+[2023-07-02 22:28:02] INFO root fetch - processPackages [asgardpy]: Downloading https://files.pythonhosted.org/packages/90/66/ee36ea8c46091f04f91114e6cfb0e2824bb79158580a295beee9058e23d7/asgardpy-0.3.4.tar.gz
+[2023-07-02 22:28:02] INFO root fetch - processPackages [gallery-dl]: Downloading https://files.pythonhosted.org/packages/c5/b2/1405454a6bfc347687a5b389bf788d050a0f09cf6f56e4409b54a6571334/gallery_dl-1.9.0.tar.gz
+[2023-07-02 22:28:03] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-02 22:28:03] INFO root fetch - processPackages [queenbee-local]: executing diffoscope
+[2023-07-02 22:28:03] INFO root fetch - processPackages [queenbee-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/queenbee-local-0.5.4.tar.gz tmp/queenbee-local-0.6.0.tar.gz --markdown 20230702/q/queenbee-local/0.5.4-0.6.0/diff.md --exclude *.pyd
+[2023-07-02 22:28:03] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-02 22:28:03] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230702/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-02 22:28:03] INFO root fetch - processPackages [asgardpy]: executing diffoscope
+[2023-07-02 22:28:03] INFO root fetch - processPackages [asgardpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asgardpy-0.3.3.tar.gz tmp/asgardpy-0.3.4.tar.gz --markdown 20230702/a/asgardpy/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-02 22:28:03] INFO root fetch - processPackages [gallery-dl]: executing diffoscope
+[2023-07-02 22:28:03] INFO root fetch - processPackages [gallery-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gallery_dl-1.8.7.tar.gz tmp/gallery_dl-1.9.0.tar.gz --markdown 20230702/g/gallery-dl/1.8.7-1.9.0/diff.md --exclude *.pyd
+[2023-07-02 22:28:03] INFO root fetch - processPackages [osxphotos]: Downloading https://files.pythonhosted.org/packages/f2/9d/b5aba7f6064d8a04fa8d6dcd716d96a3a2a02e47a417855c05872ba41cc6/osxphotos-0.60.6.tar.gz
+[2023-07-02 22:28:03] INFO root fetch - processPackages [gpt-functions]: Remove: archive file [/home/abi/fetcher/tmp/gpt_functions-0.0.4.tar.gz]
+[2023-07-02 22:28:03] INFO root fetch - processPackages [gpt-functions]: Remove: archive file [/home/abi/fetcher/tmp/gpt_functions-0.0.5.tar.gz]
+[2023-07-02 22:28:03] INFO root fetch - main [MainThread]: End processing [gpt-functions]: success
+[2023-07-02 22:28:03] INFO root fetch - processPackages [osxphotos]: executing diffoscope
+[2023-07-02 22:28:03] INFO root fetch - processPackages [osxphotos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osxphotos-0.60.5.tar.gz tmp/osxphotos-0.60.6.tar.gz --markdown 20230702/o/osxphotos/0.60.5-0.60.6/diff.md --exclude *.pyd
+[2023-07-02 22:28:04] INFO root fetch - processPackages [non-local-detector]: Remove: archive file [/home/abi/fetcher/tmp/non_local_detector-0.2.3.dev0.tar.gz]
+[2023-07-02 22:28:04] INFO root fetch - processPackages [non-local-detector]: Remove: archive file [/home/abi/fetcher/tmp/non_local_detector-0.2.4.dev0.tar.gz]
+[2023-07-02 22:28:04] INFO root fetch - main [MainThread]: End processing [non-local-detector]: success
+[2023-07-02 22:28:04] INFO root fetch - processPackages [queenbee-local]: Remove: archive file [/home/abi/fetcher/tmp/queenbee-local-0.5.4.tar.gz]
+[2023-07-02 22:28:04] INFO root fetch - processPackages [queenbee-local]: Remove: archive file [/home/abi/fetcher/tmp/queenbee-local-0.6.0.tar.gz]
+[2023-07-02 22:28:04] INFO root fetch - main [MainThread]: End processing [queenbee-local]: success
+[2023-07-02 22:28:04] INFO root fetch - processPackages [asgardpy]: Remove: archive file [/home/abi/fetcher/tmp/asgardpy-0.3.3.tar.gz]
+[2023-07-02 22:28:04] INFO root fetch - processPackages [asgardpy]: Remove: archive file [/home/abi/fetcher/tmp/asgardpy-0.3.4.tar.gz]
+[2023-07-02 22:28:04] INFO root fetch - main [MainThread]: End processing [asgardpy]: success
+[2023-07-02 22:28:04] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-02 22:28:04] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-02 22:28:04] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-02 22:28:07] INFO root fetch - processPackages [gallery-dl]: Remove: archive file [/home/abi/fetcher/tmp/gallery_dl-1.8.7.tar.gz]
+[2023-07-02 22:28:07] INFO root fetch - processPackages [gallery-dl]: Remove: archive file [/home/abi/fetcher/tmp/gallery_dl-1.9.0.tar.gz]
+[2023-07-02 22:28:07] INFO root fetch - main [MainThread]: End processing [gallery-dl]: success
+[2023-07-02 22:28:11] INFO root fetch - processPackages [osxphotos]: Remove: archive file [/home/abi/fetcher/tmp/osxphotos-0.60.5.tar.gz]
+[2023-07-02 22:28:11] INFO root fetch - processPackages [osxphotos]: Remove: archive file [/home/abi/fetcher/tmp/osxphotos-0.60.6.tar.gz]
+[2023-07-02 22:28:11] INFO root fetch - main [MainThread]: End processing [osxphotos]: success
+[2023-07-02 22:28:11] INFO root fetch - main [MainThread]: Store serial: [18731340]
