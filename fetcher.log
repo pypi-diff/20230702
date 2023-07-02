@@ -14375,3 +14375,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-02 20:41:34] INFO root fetch - processPackages [django-jutil]: Remove: archive file [/home/abi/fetcher/tmp/django-jutil-3.9.9.tar.gz]
 [2023-07-02 20:41:34] INFO root fetch - main [MainThread]: End processing [django-jutil]: success
 [2023-07-02 20:41:34] INFO root fetch - main [MainThread]: Store serial: [18730703]
+[2023-07-02 20:46:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18730703]
+[2023-07-02 20:46:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-02 20:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phxutils
+[2023-07-02 20:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: VideoEmotionRecognition
+[2023-07-02 20:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mitogen
+[2023-07-02 20:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datawhispers
+[2023-07-02 20:46:43] INFO root fetch - processPackages [phxutils]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-02 20:46:43] INFO root fetch - processPackages [VideoEmotionRecognition]: New version: [0.2] Old Version: [0.1]
+[2023-07-02 20:46:43] INFO root fetch - processPackages [mitogen]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-02 20:46:43] INFO root fetch - processPackages [datawhispers]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-02 20:46:43] INFO root fetch - processPackages [phxutils]: Downloading https://files.pythonhosted.org/packages/34/b2/ef698fe4474797b28af799b6e4bb8f6f68b6e0d07364f1653867bd90ce09/phxutils-1.1.8.tar.gz
+[2023-07-02 20:46:43] INFO root fetch - processPackages [phxutils]: Downloading https://files.pythonhosted.org/packages/73/b5/ab222f5eea91d62ca8ba37271ea9acc5fabc7920f2ee31f6e49f8010580a/phxutils-1.1.9.tar.gz
+[2023-07-02 20:46:43] INFO root fetch - processPackages [datawhispers]: Downloading https://files.pythonhosted.org/packages/b2/f2/355d1f92c35825cdd60b9bb28bc405dabc58e55f50d1513b2fe3f6083f09/datawhispers-0.2.7.tar.gz
+[2023-07-02 20:46:43] INFO root fetch - processPackages [phxutils]: executing diffoscope
+[2023-07-02 20:46:43] INFO root fetch - processPackages [phxutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phxutils-1.1.8.tar.gz tmp/phxutils-1.1.9.tar.gz --markdown 20230702/p/phxutils/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-02 20:46:43] INFO root fetch - processPackages [mitogen]: Downloading https://files.pythonhosted.org/packages/d9/8d/ca1acf9c3194608846378eaac17d109bbadf9003d6c2331ac5c8a240a1c2/mitogen-0.3.3.tar.gz
+[2023-07-02 20:46:43] INFO root fetch - processPackages [VideoEmotionRecognition]: Downloading https://files.pythonhosted.org/packages/01/41/7ed94c54ffb7d179bb02ff7fe1bc0cac24b4d815f5dd857ae0d4a414822f/VideoEmotionRecognition-0.1.tar.gz
+[2023-07-02 20:46:43] INFO root fetch - processPackages [datawhispers]: Downloading https://files.pythonhosted.org/packages/22/07/45d3837212e46d274b6737550be09ca63e812046fa45eea0079926456e31/datawhispers-0.2.8.tar.gz
+[2023-07-02 20:46:43] INFO root fetch - processPackages [datawhispers]: executing diffoscope
+[2023-07-02 20:46:43] INFO root fetch - processPackages [datawhispers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawhispers-0.2.7.tar.gz tmp/datawhispers-0.2.8.tar.gz --markdown 20230702/d/datawhispers/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-02 20:46:43] INFO root fetch - processPackages [VideoEmotionRecognition]: Downloading https://files.pythonhosted.org/packages/da/56/2a2538217a707580c3bf4c5189acf7e3b601f3afdbf71e223e65dccbda48/VideoEmotionRecognition-0.2.tar.gz
+[2023-07-02 20:46:43] INFO root fetch - processPackages [mitogen]: Downloading https://files.pythonhosted.org/packages/34/66/596c0615106c7d3027453585bd8b61e6cb4301fb136cfee841956fea5fa8/mitogen-0.3.4.tar.gz
+[2023-07-02 20:46:44] INFO root fetch - processPackages [mitogen]: executing diffoscope
+[2023-07-02 20:46:44] INFO root fetch - processPackages [mitogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitogen-0.3.3.tar.gz tmp/mitogen-0.3.4.tar.gz --markdown 20230702/m/mitogen/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-02 20:46:44] INFO root fetch - processPackages [VideoEmotionRecognition]: executing diffoscope
+[2023-07-02 20:46:44] INFO root fetch - processPackages [VideoEmotionRecognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VideoEmotionRecognition-0.1.tar.gz tmp/VideoEmotionRecognition-0.2.tar.gz --markdown 20230702/V/VideoEmotionRecognition/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-02 20:46:44] INFO root fetch - processPackages [phxutils]: Remove: archive file [/home/abi/fetcher/tmp/phxutils-1.1.8.tar.gz]
+[2023-07-02 20:46:44] INFO root fetch - processPackages [phxutils]: Remove: archive file [/home/abi/fetcher/tmp/phxutils-1.1.9.tar.gz]
+[2023-07-02 20:46:44] INFO root fetch - main [MainThread]: End processing [phxutils]: success
+[2023-07-02 20:46:44] INFO root fetch - processPackages [datawhispers]: Remove: archive file [/home/abi/fetcher/tmp/datawhispers-0.2.7.tar.gz]
+[2023-07-02 20:46:44] INFO root fetch - processPackages [datawhispers]: Remove: archive file [/home/abi/fetcher/tmp/datawhispers-0.2.8.tar.gz]
+[2023-07-02 20:46:44] INFO root fetch - main [MainThread]: End processing [datawhispers]: success
+[2023-07-02 20:46:44] INFO root fetch - processPackages [VideoEmotionRecognition]: Remove: archive file [/home/abi/fetcher/tmp/VideoEmotionRecognition-0.1.tar.gz]
+[2023-07-02 20:46:44] INFO root fetch - processPackages [VideoEmotionRecognition]: Remove: archive file [/home/abi/fetcher/tmp/VideoEmotionRecognition-0.2.tar.gz]
+[2023-07-02 20:46:44] INFO root fetch - main [MainThread]: End processing [VideoEmotionRecognition]: success
+[2023-07-02 20:46:45] INFO root fetch - processPackages [mitogen]: Remove: archive file [/home/abi/fetcher/tmp/mitogen-0.3.3.tar.gz]
+[2023-07-02 20:46:45] INFO root fetch - processPackages [mitogen]: Remove: archive file [/home/abi/fetcher/tmp/mitogen-0.3.4.tar.gz]
+[2023-07-02 20:46:45] INFO root fetch - main [MainThread]: End processing [mitogen]: success
+[2023-07-02 20:46:45] INFO root fetch - main [MainThread]: Store serial: [18730716]
