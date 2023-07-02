@@ -15121,3 +15121,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 21:29:38] INFO root fetch - processPackages [gravitorch]: Remove: archive file [/home/abi/fetcher/tmp/gravitorch-0.0.9.tar.gz]
 [2023-07-02 21:29:38] INFO root fetch - main [MainThread]: End processing [gravitorch]: success
 [2023-07-02 21:29:38] INFO root fetch - main [MainThread]: Store serial: [18730963]
+[2023-07-02 21:34:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18730963]
+[2023-07-02 21:34:48] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-02 21:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gravitorch
+[2023-07-02 21:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SantorinAI
+[2023-07-02 21:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: WinDeklar
+[2023-07-02 21:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sv-ttk
+[2023-07-02 21:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: humanloop
+[2023-07-02 21:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dvc-data
+[2023-07-02 21:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: QPUIQ
+[2023-07-02 21:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-bi-sql-editor
+[2023-07-02 21:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: enocean-ble
+[2023-07-02 21:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: JWaves
+[2023-07-02 21:34:48] INFO root fetch - processPackages [sv-ttk]: New version: [2.5.2] Old Version: [2.5.1]
+[2023-07-02 21:34:48] INFO root fetch - processPackages [WinDeklar]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-02 21:34:48] INFO root fetch - processPackages [SantorinAI]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-02 21:34:48] INFO root fetch - processPackages [QPUIQ]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-02 21:34:48] INFO root fetch - processPackages [humanloop]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-02 21:34:48] WARNING root fetch - processPackages [JWaves]: Skipping, unable to determine old version
+[2023-07-02 21:34:48] INFO root fetch - processPackages [odoo-addon-bi-sql-editor]: New version: [16.0.1.0.4] Old Version: [16.0.1.0.3.1]
+[2023-07-02 21:34:48] INFO root fetch - main [MainThread]: End processing [JWaves] error
+[2023-07-02 21:34:48] INFO root fetch - processPackages [gravitorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 21:34:48] WARNING root fetch - processPackages [enocean-ble]: Skipping, unable to determine old version
+[2023-07-02 21:34:48] INFO root fetch - main [MainThread]: End processing [enocean-ble] error
+[2023-07-02 21:34:48] INFO root fetch - processPackages [dvc-data]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-07-02 21:34:48] INFO root fetch - processPackages [humanloop]: Downloading https://files.pythonhosted.org/packages/f1/b9/4267d841e0747581a912ad1bbbfd431c4a0321da4fe23ecfce74d9c18ee3/humanloop-0.4.8.tar.gz
+[2023-07-02 21:34:48] INFO root fetch - processPackages [WinDeklar]: Downloading https://files.pythonhosted.org/packages/10/50/92574c958cb7a919f013f902d29a5b662ae14bb06e12b8a14cd79e346b30/windeklar-0.2.1.tar.gz
+[2023-07-02 21:34:48] INFO root fetch - processPackages [sv-ttk]: Downloading https://files.pythonhosted.org/packages/b5/cc/e8c823aecd07321514f7e59a27063207fdd1bd353825933e4cca8d63ef1f/sv_ttk-2.5.1.tar.gz
+[2023-07-02 21:34:48] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/c9/eb/1f9ad6dd70d489668d0232bdceb903d45bebf0fcf67b3cd9e8bd372ade64/dvc-data-2.3.1.tar.gz
+[2023-07-02 21:34:48] INFO root fetch - processPackages [QPUIQ]: Downloading https://files.pythonhosted.org/packages/76/6b/7c74799124ceed5da51c64eaba7c190e2052395440f6b82c3cad2980de36/QPUIQ-0.2.4.tar.gz
+[2023-07-02 21:34:48] INFO root fetch - processPackages [gravitorch]: Downloading https://files.pythonhosted.org/packages/3c/eb/d596884cdb31e5198aa387878eb8ef895802e567d7d679b97f4a406e21ae/gravitorch-0.0.8.tar.gz
+[2023-07-02 21:34:48] INFO root fetch - processPackages [humanloop]: Downloading https://files.pythonhosted.org/packages/84/32/5746adabd7ecbbe87c50804a08d26141ec3c210d49fac450b500adfa126a/humanloop-0.4.9.tar.gz
+[2023-07-02 21:34:48] INFO root fetch - processPackages [SantorinAI]: Downloading https://files.pythonhosted.org/packages/7d/05/ed51cd3f2e96228555ac3fc719eca553f6c10687d72f66ab76c12e148e32/SantorinAI-1.3.0.tar.gz
+[2023-07-02 21:34:48] INFO root fetch - processPackages [humanloop]: executing diffoscope
+[2023-07-02 21:34:48] INFO root fetch - processPackages [humanloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/humanloop-0.4.8.tar.gz tmp/humanloop-0.4.9.tar.gz --markdown 20230702/h/humanloop/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-02 21:34:48] INFO root fetch - processPackages [odoo-addon-bi-sql-editor]: Downloading https://files.pythonhosted.org/packages/c3/ea/fdbd8d07a2e1ddff6fda56e7e982f9521980d001c4242fa374fce4357f0a/odoo_addon_bi_sql_editor-16.0.1.0.3.1-py3-none-any.whl
+[2023-07-02 21:34:48] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/40/e8/80c8be016a60acc829410a226259b1986eae697f68bf75e3511f7fa48b2d/dvc-data-2.3.2.tar.gz
+[2023-07-02 21:34:48] INFO root fetch - processPackages [WinDeklar]: Downloading https://files.pythonhosted.org/packages/00/6d/743156133ceb01413f987c298da191f86c647cb80ce7a22a7ae62f51c3c0/windeklar-0.2.2.tar.gz
+[2023-07-02 21:34:48] INFO root fetch - processPackages [gravitorch]: Downloading https://files.pythonhosted.org/packages/d8/af/12bd29b316e1abfd4a89affc84ab78a2b03aaa0ebdf20315c6dc8c4c3886/gravitorch-0.0.9.tar.gz
+[2023-07-02 21:34:48] INFO root fetch - processPackages [WinDeklar]: executing diffoscope
+[2023-07-02 21:34:48] INFO root fetch - processPackages [WinDeklar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windeklar-0.2.1.tar.gz tmp/windeklar-0.2.2.tar.gz --markdown 20230702/W/WinDeklar/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-02 21:34:48] INFO root fetch - processPackages [sv-ttk]: Downloading https://files.pythonhosted.org/packages/77/10/c48e98bb963d3e3727bb5705e1f322fb5ff0283ceae59ff2b2b470ac45e1/sv_ttk-2.5.2.tar.gz
+[2023-07-02 21:34:48] INFO root fetch - processPackages [QPUIQ]: Downloading https://files.pythonhosted.org/packages/60/70/658e383cf58e23d19fd50f63fbfcfda06e170d71d83d71eaea3dbc42d49d/QPUIQ-0.2.5.tar.gz
+[2023-07-02 21:34:48] INFO root fetch - processPackages [gravitorch]: executing diffoscope
+[2023-07-02 21:34:48] INFO root fetch - processPackages [gravitorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravitorch-0.0.8.tar.gz tmp/gravitorch-0.0.9.tar.gz --markdown 20230702/g/gravitorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 21:34:48] INFO root fetch - processPackages [SantorinAI]: Downloading https://files.pythonhosted.org/packages/ef/d3/df9e3b4f7e616f3c969294bee8e15ed237933da01114350592b308257e11/SantorinAI-1.3.1.tar.gz
+[2023-07-02 21:34:48] INFO root fetch - processPackages [dvc-data]: executing diffoscope
+[2023-07-02 21:34:48] INFO root fetch - processPackages [dvc-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-data-2.3.1.tar.gz tmp/dvc-data-2.3.2.tar.gz --markdown 20230702/d/dvc-data/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-07-02 21:34:48] INFO root fetch - processPackages [SantorinAI]: executing diffoscope
+[2023-07-02 21:34:48] INFO root fetch - processPackages [SantorinAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SantorinAI-1.3.0.tar.gz tmp/SantorinAI-1.3.1.tar.gz --markdown 20230702/S/SantorinAI/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-02 21:34:48] INFO root fetch - processPackages [sv-ttk]: executing diffoscope
+[2023-07-02 21:34:48] INFO root fetch - processPackages [sv-ttk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sv_ttk-2.5.1.tar.gz tmp/sv_ttk-2.5.2.tar.gz --markdown 20230702/s/sv-ttk/2.5.1-2.5.2/diff.md --exclude *.pyd
+[2023-07-02 21:34:48] INFO root fetch - processPackages [odoo-addon-bi-sql-editor]: Downloading https://files.pythonhosted.org/packages/e5/30/f94ea0b1fb3713e3f3b6e6d021861a2af8c46d8d8b96d2babb63ef6dd45f/odoo_addon_bi_sql_editor-16.0.1.0.4-py3-none-any.whl
+[2023-07-02 21:34:48] INFO root fetch - processPackages [QPUIQ]: executing diffoscope
+[2023-07-02 21:34:48] INFO root fetch - processPackages [QPUIQ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QPUIQ-0.2.4.tar.gz tmp/QPUIQ-0.2.5.tar.gz --markdown 20230702/Q/QPUIQ/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-02 21:34:48] INFO root fetch - processPackages [odoo-addon-bi-sql-editor]: executing diffoscope
+[2023-07-02 21:34:48] INFO root fetch - processPackages [odoo-addon-bi-sql-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_bi_sql_editor-16.0.1.0.3.1-py3-none-any.whl.zip tmp/odoo_addon_bi_sql_editor-16.0.1.0.4-py3-none-any.whl.zip --markdown 20230702/o/odoo-addon-bi-sql-editor/16.0.1.0.3.1-16.0.1.0.4/diff.md --exclude *.pyd
+[2023-07-02 21:34:50] INFO root fetch - processPackages [WinDeklar]: Remove: archive file [/home/abi/fetcher/tmp/windeklar-0.2.1.tar.gz]
+[2023-07-02 21:34:50] INFO root fetch - processPackages [WinDeklar]: Remove: archive file [/home/abi/fetcher/tmp/windeklar-0.2.2.tar.gz]
+[2023-07-02 21:34:50] INFO root fetch - main [MainThread]: End processing [WinDeklar]: success
+[2023-07-02 21:34:50] INFO root fetch - processPackages [SantorinAI]: Remove: archive file [/home/abi/fetcher/tmp/SantorinAI-1.3.0.tar.gz]
+[2023-07-02 21:34:50] INFO root fetch - processPackages [SantorinAI]: Remove: archive file [/home/abi/fetcher/tmp/SantorinAI-1.3.1.tar.gz]
+[2023-07-02 21:34:50] INFO root fetch - main [MainThread]: End processing [SantorinAI]: success
+[2023-07-02 21:34:50] INFO root fetch - processPackages [sv-ttk]: Remove: archive file [/home/abi/fetcher/tmp/sv_ttk-2.5.1.tar.gz]
+[2023-07-02 21:34:50] INFO root fetch - processPackages [sv-ttk]: Remove: archive file [/home/abi/fetcher/tmp/sv_ttk-2.5.2.tar.gz]
+[2023-07-02 21:34:50] INFO root fetch - main [MainThread]: End processing [sv-ttk]: success
+[2023-07-02 21:34:50] INFO root fetch - processPackages [QPUIQ]: Remove: archive file [/home/abi/fetcher/tmp/QPUIQ-0.2.4.tar.gz]
+[2023-07-02 21:34:50] INFO root fetch - processPackages [QPUIQ]: Remove: archive file [/home/abi/fetcher/tmp/QPUIQ-0.2.5.tar.gz]
+[2023-07-02 21:34:50] INFO root fetch - main [MainThread]: End processing [QPUIQ]: success
+[2023-07-02 21:34:50] INFO root fetch - processPackages [odoo-addon-bi-sql-editor]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_bi_sql_editor-16.0.1.0.3.1-py3-none-any.whl.zip]
+[2023-07-02 21:34:50] INFO root fetch - processPackages [odoo-addon-bi-sql-editor]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_bi_sql_editor-16.0.1.0.4-py3-none-any.whl.zip]
+[2023-07-02 21:34:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-bi-sql-editor]: success
+[2023-07-02 21:34:51] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-2.3.1.tar.gz]
+[2023-07-02 21:34:51] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-2.3.2.tar.gz]
+[2023-07-02 21:34:51] INFO root fetch - main [MainThread]: End processing [dvc-data]: success
+[2023-07-02 21:34:52] INFO root fetch - processPackages [gravitorch]: Remove: archive file [/home/abi/fetcher/tmp/gravitorch-0.0.8.tar.gz]
+[2023-07-02 21:34:52] INFO root fetch - processPackages [gravitorch]: Remove: archive file [/home/abi/fetcher/tmp/gravitorch-0.0.9.tar.gz]
+[2023-07-02 21:34:52] INFO root fetch - main [MainThread]: End processing [gravitorch]: success
+[2023-07-02 21:34:53] INFO root fetch - processPackages [humanloop]: Remove: archive file [/home/abi/fetcher/tmp/humanloop-0.4.8.tar.gz]
+[2023-07-02 21:34:53] INFO root fetch - processPackages [humanloop]: Remove: archive file [/home/abi/fetcher/tmp/humanloop-0.4.9.tar.gz]
+[2023-07-02 21:34:53] INFO root fetch - main [MainThread]: End processing [humanloop]: success
+[2023-07-02 21:34:53] INFO root fetch - main [MainThread]: Store serial: [18730995]
