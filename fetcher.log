@@ -4831,3 +4831,27 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 07:46:08] INFO root fetch - processPackages [pyHB]: Remove: archive file [/home/abi/fetcher/tmp/pyHB-0.3.tar.gz]
 [2023-07-02 07:46:08] INFO root fetch - main [MainThread]: End processing [pyHB]: success
 [2023-07-02 07:46:08] INFO root fetch - main [MainThread]: Store serial: [18726600]
+[2023-07-02 07:51:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726600]
+[2023-07-02 07:51:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-02 07:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo13-addons-oca-website
+[2023-07-02 07:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: namespace-mahdimir
+[2023-07-02 07:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: terra-classic-sdk
+[2023-07-02 07:51:17] INFO root fetch - processPackages [odoo13-addons-oca-website]: New version: [13.0.20230630.0] Old Version: [13.0.20221010.1]
+[2023-07-02 07:51:17] INFO root fetch - processPackages [terra-classic-sdk]: New version: [2.0.8.2] Old Version: [2.0.8.1]
+[2023-07-02 07:51:17] WARNING root fetch - processPackages [namespace-mahdimir]: Skipping, unable to determine old version
+[2023-07-02 07:51:17] INFO root fetch - main [MainThread]: End processing [namespace-mahdimir] error
+[2023-07-02 07:51:17] INFO root fetch - processPackages [terra-classic-sdk]: Downloading https://files.pythonhosted.org/packages/fa/3b/b607e6fc3b9440f8a79fa7268b237438af3821484e623fdc000881205c05/terra_classic_sdk-2.0.8.1.tar.gz
+[2023-07-02 07:51:17] INFO root fetch - processPackages [odoo13-addons-oca-website]: Downloading https://files.pythonhosted.org/packages/9a/fa/d0e286abe3f27a5cedd5546017056d07a6ad417248ca828d15018913dfa3/odoo13_addons_oca_website-13.0.20221010.1-py3-none-any.whl
+[2023-07-02 07:51:17] INFO root fetch - processPackages [terra-classic-sdk]: Downloading https://files.pythonhosted.org/packages/1d/81/81c10605083a7fb71d1de82e7709244707384b370090f80df041ea07b499/terra_classic_sdk-2.0.8.2.tar.gz
+[2023-07-02 07:51:17] INFO root fetch - processPackages [odoo13-addons-oca-website]: Downloading https://files.pythonhosted.org/packages/2e/d3/c489282ae383048e2084cf7a38eca2f01b944590d603b84d3902697ec62a/odoo13_addons_oca_website-13.0.20230630.0-py3-none-any.whl
+[2023-07-02 07:51:17] INFO root fetch - processPackages [terra-classic-sdk]: executing diffoscope
+[2023-07-02 07:51:17] INFO root fetch - processPackages [terra-classic-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terra_classic_sdk-2.0.8.1.tar.gz tmp/terra_classic_sdk-2.0.8.2.tar.gz --markdown 20230702/t/terra-classic-sdk/2.0.8.1-2.0.8.2/diff.md --exclude *.pyd
+[2023-07-02 07:51:17] INFO root fetch - processPackages [odoo13-addons-oca-website]: executing diffoscope
+[2023-07-02 07:51:17] INFO root fetch - processPackages [odoo13-addons-oca-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addons_oca_website-13.0.20221010.1-py3-none-any.whl.zip tmp/odoo13_addons_oca_website-13.0.20230630.0-py3-none-any.whl.zip --markdown 20230702/o/odoo13-addons-oca-website/13.0.20221010.1-13.0.20230630.0/diff.md --exclude *.pyd
+[2023-07-02 07:51:18] INFO root fetch - processPackages [odoo13-addons-oca-website]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_website-13.0.20221010.1-py3-none-any.whl.zip]
+[2023-07-02 07:51:18] INFO root fetch - processPackages [odoo13-addons-oca-website]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_website-13.0.20230630.0-py3-none-any.whl.zip]
+[2023-07-02 07:51:18] INFO root fetch - main [MainThread]: End processing [odoo13-addons-oca-website]: success
+[2023-07-02 07:51:20] INFO root fetch - processPackages [terra-classic-sdk]: Remove: archive file [/home/abi/fetcher/tmp/terra_classic_sdk-2.0.8.1.tar.gz]
+[2023-07-02 07:51:20] INFO root fetch - processPackages [terra-classic-sdk]: Remove: archive file [/home/abi/fetcher/tmp/terra_classic_sdk-2.0.8.2.tar.gz]
+[2023-07-02 07:51:20] INFO root fetch - main [MainThread]: End processing [terra-classic-sdk]: success
+[2023-07-02 07:51:20] INFO root fetch - main [MainThread]: Store serial: [18726611]
