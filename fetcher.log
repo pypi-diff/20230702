@@ -4188,3 +4188,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 06:45:11] INFO root fetch - processPackages [llama-hub]: Remove: archive file [/home/abi/fetcher/tmp/llama_hub-0.0.7.tar.gz]
 [2023-07-02 06:45:11] INFO root fetch - main [MainThread]: End processing [llama-hub]: success
 [2023-07-02 06:45:11] INFO root fetch - main [MainThread]: Store serial: [18726387]
+[2023-07-02 06:50:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726387]
+[2023-07-02 06:50:21] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-02 06:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aitemplates
+[2023-07-02 06:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyHB
+[2023-07-02 06:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tomfoolery
+[2023-07-02 06:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ag-llama-api
+[2023-07-02 06:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Andromeda-llm
+[2023-07-02 06:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sinabs
+[2023-07-02 06:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-redisdb
+[2023-07-02 06:50:21] INFO root fetch - processPackages [aitemplates]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 06:50:21] INFO root fetch - processPackages [pyHB]: New version: [0.2] Old Version: [0.1]
+[2023-07-02 06:50:21] INFO root fetch - processPackages [ag-llama-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 06:50:21] WARNING root fetch - processPackages [Andromeda-llm]: Skipping, unable to determine old version
+[2023-07-02 06:50:21] INFO root fetch - main [MainThread]: End processing [Andromeda-llm] error
+[2023-07-02 06:50:21] INFO root fetch - processPackages [cdk-redisdb]: New version: [0.0.37] Old Version: [0.0.36]
+[2023-07-02 06:50:21] INFO root fetch - processPackages [sinabs]: New version: [1.2.7.dev7] Old Version: [1.2.7.dev6]
+[2023-07-02 06:50:21] INFO root fetch - processPackages [tomfoolery]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-02 06:50:21] INFO root fetch - processPackages [aitemplates]: Downloading https://files.pythonhosted.org/packages/c9/1f/c3b35e203e73c6562287311527c36798cf058f4542a1cc2012699e54c8f2/aitemplates-0.1.8.tar.gz
+[2023-07-02 06:50:21] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/e7/db/6c93bb8ec9653fafd298258240710b4768345a45843013bc715cf9e658f7/ag_llama_api-0.0.8.tar.gz
+[2023-07-02 06:50:21] INFO root fetch - processPackages [tomfoolery]: Downloading https://files.pythonhosted.org/packages/16/cd/f21fa6ac7d1978655293cdcde21ec549545d95adfbb1f9c8ebf8327e578b/tomfoolery-1.0.0.tar.gz
+[2023-07-02 06:50:21] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/f0/35/0215d0ab4bfeef6ae6281e7d2e600b8ec67d01f1a074929eea8537f9188a/sinabs-1.2.7.dev6.tar.gz
+[2023-07-02 06:50:21] INFO root fetch - processPackages [pyHB]: Downloading https://files.pythonhosted.org/packages/0f/4f/a9ff8c8f0e811c440febc7165cbab4647fea072f8573d51837385f5c50b1/pyHB-0.1.tar.gz
+[2023-07-02 06:50:21] INFO root fetch - processPackages [aitemplates]: Downloading https://files.pythonhosted.org/packages/31/8d/fec27aa91f72352e256e81460077515d340f93b087b2d5f555a95e17896a/aitemplates-0.1.9.tar.gz
+[2023-07-02 06:50:21] INFO root fetch - processPackages [cdk-redisdb]: Downloading https://files.pythonhosted.org/packages/6a/44/8558d4c26eb5d9522f5456b1fa860e5a6472313691b709701167067809f8/cdk-redisdb-0.0.36.tar.gz
+[2023-07-02 06:50:21] INFO root fetch - processPackages [tomfoolery]: Downloading https://files.pythonhosted.org/packages/fc/88/1fc1be3845e76b17b99fb293fb69701f9d98af1e27970d005cd7a16cda6a/tomfoolery-1.0.1.tar.gz
+[2023-07-02 06:50:21] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/0e/45/5ce146425eb4c54590e514bf53d436ec8eb7cbeee70953b613dcd4e56824/ag_llama_api-0.0.9.tar.gz
+[2023-07-02 06:50:21] INFO root fetch - processPackages [aitemplates]: executing diffoscope
+[2023-07-02 06:50:21] INFO root fetch - processPackages [aitemplates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aitemplates-0.1.8.tar.gz tmp/aitemplates-0.1.9.tar.gz --markdown 20230702/a/aitemplates/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 06:50:21] INFO root fetch - processPackages [tomfoolery]: executing diffoscope
+[2023-07-02 06:50:21] INFO root fetch - processPackages [tomfoolery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomfoolery-1.0.0.tar.gz tmp/tomfoolery-1.0.1.tar.gz --markdown 20230702/t/tomfoolery/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-02 06:50:21] INFO root fetch - processPackages [ag-llama-api]: executing diffoscope
+[2023-07-02 06:50:21] INFO root fetch - processPackages [ag-llama-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ag_llama_api-0.0.8.tar.gz tmp/ag_llama_api-0.0.9.tar.gz --markdown 20230702/a/ag-llama-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 06:50:21] INFO root fetch - processPackages [pyHB]: Downloading https://files.pythonhosted.org/packages/78/05/54ed3fbe38bcd6b49cbcb05f656ddff7414790a9f47936af708025375cc0/pyHB-0.2.tar.gz
+[2023-07-02 06:50:21] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/f5/35/976796393a784989469b57e0ef34c42157d48c5ed77182a10638ab70b1a4/sinabs-1.2.7.dev7.tar.gz
+[2023-07-02 06:50:21] INFO root fetch - processPackages [pyHB]: executing diffoscope
+[2023-07-02 06:50:21] INFO root fetch - processPackages [pyHB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyHB-0.1.tar.gz tmp/pyHB-0.2.tar.gz --markdown 20230702/p/pyHB/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-02 06:50:21] INFO root fetch - processPackages [cdk-redisdb]: Downloading https://files.pythonhosted.org/packages/19/0d/96f0caed2520ba4e105b08a14b593b8324908222298f2c900d037be1cbf4/cdk-redisdb-0.0.37.tar.gz
+[2023-07-02 06:50:22] INFO root fetch - processPackages [cdk-redisdb]: executing diffoscope
+[2023-07-02 06:50:22] INFO root fetch - processPackages [cdk-redisdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-redisdb-0.0.36.tar.gz tmp/cdk-redisdb-0.0.37.tar.gz --markdown 20230702/c/cdk-redisdb/0.0.36-0.0.37/diff.md --exclude *.pyd
+[2023-07-02 06:50:22] INFO root fetch - processPackages [sinabs]: executing diffoscope
+[2023-07-02 06:50:22] INFO root fetch - processPackages [sinabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinabs-1.2.7.dev6.tar.gz tmp/sinabs-1.2.7.dev7.tar.gz --markdown 20230702/s/sinabs/1.2.7.dev6-1.2.7.dev7/diff.md --exclude *.pyd
+[2023-07-02 06:50:22] INFO root fetch - processPackages [tomfoolery]: Remove: archive file [/home/abi/fetcher/tmp/tomfoolery-1.0.0.tar.gz]
+[2023-07-02 06:50:22] INFO root fetch - processPackages [tomfoolery]: Remove: archive file [/home/abi/fetcher/tmp/tomfoolery-1.0.1.tar.gz]
+[2023-07-02 06:50:22] INFO root fetch - main [MainThread]: End processing [tomfoolery]: success
+[2023-07-02 06:50:23] INFO root fetch - processPackages [pyHB]: Remove: archive file [/home/abi/fetcher/tmp/pyHB-0.1.tar.gz]
+[2023-07-02 06:50:23] INFO root fetch - processPackages [pyHB]: Remove: archive file [/home/abi/fetcher/tmp/pyHB-0.2.tar.gz]
+[2023-07-02 06:50:23] INFO root fetch - main [MainThread]: End processing [pyHB]: success
+[2023-07-02 06:50:23] INFO root fetch - processPackages [aitemplates]: Remove: archive file [/home/abi/fetcher/tmp/aitemplates-0.1.8.tar.gz]
+[2023-07-02 06:50:23] INFO root fetch - processPackages [aitemplates]: Remove: archive file [/home/abi/fetcher/tmp/aitemplates-0.1.9.tar.gz]
+[2023-07-02 06:50:23] INFO root fetch - main [MainThread]: End processing [aitemplates]: success
+[2023-07-02 06:50:23] INFO root fetch - processPackages [cdk-redisdb]: Remove: archive file [/home/abi/fetcher/tmp/cdk-redisdb-0.0.36.tar.gz]
+[2023-07-02 06:50:23] INFO root fetch - processPackages [cdk-redisdb]: Remove: archive file [/home/abi/fetcher/tmp/cdk-redisdb-0.0.37.tar.gz]
+[2023-07-02 06:50:23] INFO root fetch - main [MainThread]: End processing [cdk-redisdb]: success
+[2023-07-02 06:50:23] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.8.tar.gz]
+[2023-07-02 06:50:23] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.9.tar.gz]
+[2023-07-02 06:50:23] INFO root fetch - main [MainThread]: End processing [ag-llama-api]: success
+[2023-07-02 06:50:25] INFO root fetch - processPackages [sinabs]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-1.2.7.dev6.tar.gz]
+[2023-07-02 06:50:25] INFO root fetch - processPackages [sinabs]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-1.2.7.dev7.tar.gz]
+[2023-07-02 06:50:25] INFO root fetch - main [MainThread]: End processing [sinabs]: success
+[2023-07-02 06:50:25] INFO root fetch - main [MainThread]: Store serial: [18726410]
