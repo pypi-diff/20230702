@@ -14309,3 +14309,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-02 20:36:22] INFO root fetch - processPackages [pathier]: Remove: archive file [/home/abi/fetcher/tmp/pathier-1.1.0.tar.gz]
 [2023-07-02 20:36:22] INFO root fetch - main [MainThread]: End processing [pathier]: success
 [2023-07-02 20:36:22] INFO root fetch - main [MainThread]: Store serial: [18730685]
+[2023-07-02 20:41:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18730685]
+[2023-07-02 20:41:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-02 20:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: canarypy
+[2023-07-02 20:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aleksis-app-buelleten
+[2023-07-02 20:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datascience-cookiecutter
+[2023-07-02 20:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: c2cwsgiutils
+[2023-07-02 20:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: phxutils
+[2023-07-02 20:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sugaru
+[2023-07-02 20:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-jutil
+[2023-07-02 20:41:32] INFO root fetch - processPackages [canarypy]: New version: [0.0.13] Old Version: [0.0.12]
+[2023-07-02 20:41:32] INFO root fetch - processPackages [aleksis-app-buelleten]: New version: [2.0.dev1] Old Version: [2.0.dev0]
+[2023-07-02 20:41:32] INFO root fetch - processPackages [datascience-cookiecutter]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-02 20:41:32] INFO root fetch - processPackages [phxutils]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-02 20:41:32] INFO root fetch - processPackages [sugaru]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-02 20:41:32] INFO root fetch - processPackages [c2cwsgiutils]: New version: [6.0.0.dev99] Old Version: [6.0.0.dev97]
+[2023-07-02 20:41:32] INFO root fetch - processPackages [django-jutil]: New version: [3.9.9] Old Version: [3.9.8]
+[2023-07-02 20:41:32] INFO root fetch - processPackages [sugaru]: Downloading https://files.pythonhosted.org/packages/b3/19/357507fa1bd43cf804602a2f79effffa0daad94b639bf3bc6e3f6adb9732/sugaru-0.1.0.tar.gz
+[2023-07-02 20:41:32] INFO root fetch - processPackages [phxutils]: Downloading https://files.pythonhosted.org/packages/34/b2/ef698fe4474797b28af799b6e4bb8f6f68b6e0d07364f1653867bd90ce09/phxutils-1.1.8.tar.gz
+[2023-07-02 20:41:32] INFO root fetch - processPackages [datascience-cookiecutter]: Downloading https://files.pythonhosted.org/packages/6b/0e/5c2df25f93dc2b07c654b2b398abb38d2629e7e2055b94a228729ff1feec/datascience_cookiecutter-0.3.2.tar.gz
+[2023-07-02 20:41:32] INFO root fetch - processPackages [canarypy]: Downloading https://files.pythonhosted.org/packages/24/70/e8430b1c2f5f0132b46609b6c8c05b34fc84d3b767995212c1dc994f8a36/canarypy-0.0.12-py3-none-any.whl
+[2023-07-02 20:41:32] INFO root fetch - processPackages [django-jutil]: Downloading https://files.pythonhosted.org/packages/2e/e6/3fdcc7e3736b647cf3ab5609859c19dc656fb6ea44111d0c1c4b5a0f1478/django-jutil-3.9.8.tar.gz
+[2023-07-02 20:41:32] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/7e/19/e64dc0870291f601e6d1f041424eef5a28112c1c9b7be627a7f01c80ebab/c2cwsgiutils-6.0.0.dev97.tar.gz
+[2023-07-02 20:41:32] INFO root fetch - processPackages [aleksis-app-buelleten]: Downloading https://files.pythonhosted.org/packages/92/87/9e5d05f20704fc2cb2bd959f391e017b864d6f4269684d5be09ee8bcdb16/aleksis_app_buelleten-2.0.dev0.tar.gz
+[2023-07-02 20:41:32] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/bc/fc/caed9a3b8aa535ab83ce1fdf048ce861e9039ac24958fa3ddf9049b3f2b6/c2cwsgiutils-6.0.0.dev99.tar.gz
+[2023-07-02 20:41:32] INFO root fetch - processPackages [phxutils]: Downloading https://files.pythonhosted.org/packages/73/b5/ab222f5eea91d62ca8ba37271ea9acc5fabc7920f2ee31f6e49f8010580a/phxutils-1.1.9.tar.gz
+[2023-07-02 20:41:32] INFO root fetch - processPackages [django-jutil]: Downloading https://files.pythonhosted.org/packages/c7/e1/8d217e76e40dfccf488f7ca6bf4ab4dd7d1df5694dbd9b81fe94c00d18fd/django-jutil-3.9.9.tar.gz
+[2023-07-02 20:41:32] INFO root fetch - processPackages [datascience-cookiecutter]: Downloading https://files.pythonhosted.org/packages/71/4b/2cc0971c623a409338769640b2199e22bfd42ea9dd6778cbf5fab42d7bcc/datascience_cookiecutter-0.3.3.tar.gz
+[2023-07-02 20:41:32] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2023-07-02 20:41:32] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-6.0.0.dev97.tar.gz tmp/c2cwsgiutils-6.0.0.dev99.tar.gz --markdown 20230702/c/c2cwsgiutils/6.0.0.dev97-6.0.0.dev99/diff.md --exclude *.pyd
+[2023-07-02 20:41:32] INFO root fetch - processPackages [phxutils]: executing diffoscope
+[2023-07-02 20:41:32] INFO root fetch - processPackages [phxutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phxutils-1.1.8.tar.gz tmp/phxutils-1.1.9.tar.gz --markdown 20230702/p/phxutils/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-02 20:41:32] INFO root fetch - processPackages [canarypy]: Downloading https://files.pythonhosted.org/packages/8a/75/24a22e842c3192bd5cee507f64359b889058bd6209734a00fc86c56d1b2c/canarypy-0.0.13-py3-none-any.whl
+[2023-07-02 20:41:32] INFO root fetch - processPackages [sugaru]: Downloading https://files.pythonhosted.org/packages/ad/88/99d5935f303c27cda42d94a5b73f8ac45ceef7a2cfeffa4172de42d2d11a/sugaru-0.2.0.tar.gz
+[2023-07-02 20:41:32] INFO root fetch - processPackages [django-jutil]: executing diffoscope
+[2023-07-02 20:41:32] INFO root fetch - processPackages [django-jutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-jutil-3.9.8.tar.gz tmp/django-jutil-3.9.9.tar.gz --markdown 20230702/d/django-jutil/3.9.8-3.9.9/diff.md --exclude *.pyd
+[2023-07-02 20:41:32] INFO root fetch - processPackages [datascience-cookiecutter]: executing diffoscope
+[2023-07-02 20:41:32] INFO root fetch - processPackages [datascience-cookiecutter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datascience_cookiecutter-0.3.2.tar.gz tmp/datascience_cookiecutter-0.3.3.tar.gz --markdown 20230702/d/datascience-cookiecutter/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-02 20:41:32] INFO root fetch - processPackages [aleksis-app-buelleten]: Downloading https://files.pythonhosted.org/packages/0a/41/b6407b6185460d672b9437198b2111f66d65d63c1e196a1bdb4c5e935697/aleksis_app_buelleten-2.0.dev1.tar.gz
+[2023-07-02 20:41:33] INFO root fetch - processPackages [canarypy]: executing diffoscope
+[2023-07-02 20:41:33] INFO root fetch - processPackages [canarypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canarypy-0.0.12-py3-none-any.whl.zip tmp/canarypy-0.0.13-py3-none-any.whl.zip --markdown 20230702/c/canarypy/0.0.12-0.0.13/diff.md --exclude *.pyd
+[2023-07-02 20:41:33] INFO root fetch - processPackages [sugaru]: executing diffoscope
+[2023-07-02 20:41:33] INFO root fetch - processPackages [sugaru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sugaru-0.1.0.tar.gz tmp/sugaru-0.2.0.tar.gz --markdown 20230702/s/sugaru/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-02 20:41:33] INFO root fetch - processPackages [aleksis-app-buelleten]: executing diffoscope
+[2023-07-02 20:41:33] INFO root fetch - processPackages [aleksis-app-buelleten]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aleksis_app_buelleten-2.0.dev0.tar.gz tmp/aleksis_app_buelleten-2.0.dev1.tar.gz --markdown 20230702/a/aleksis-app-buelleten/2.0.dev0-2.0.dev1/diff.md --exclude *.pyd
+[2023-07-02 20:41:34] INFO root fetch - processPackages [phxutils]: Remove: archive file [/home/abi/fetcher/tmp/phxutils-1.1.8.tar.gz]
+[2023-07-02 20:41:34] INFO root fetch - processPackages [phxutils]: Remove: archive file [/home/abi/fetcher/tmp/phxutils-1.1.9.tar.gz]
+[2023-07-02 20:41:34] INFO root fetch - main [MainThread]: End processing [phxutils]: success
+[2023-07-02 20:41:34] INFO root fetch - processPackages [datascience-cookiecutter]: Remove: archive file [/home/abi/fetcher/tmp/datascience_cookiecutter-0.3.2.tar.gz]
+[2023-07-02 20:41:34] INFO root fetch - processPackages [datascience-cookiecutter]: Remove: archive file [/home/abi/fetcher/tmp/datascience_cookiecutter-0.3.3.tar.gz]
+[2023-07-02 20:41:34] INFO root fetch - main [MainThread]: End processing [datascience-cookiecutter]: success
+[2023-07-02 20:41:34] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.0.0.dev97.tar.gz]
+[2023-07-02 20:41:34] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.0.0.dev99.tar.gz]
+[2023-07-02 20:41:34] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2023-07-02 20:41:34] INFO root fetch - processPackages [sugaru]: Remove: archive file [/home/abi/fetcher/tmp/sugaru-0.1.0.tar.gz]
+[2023-07-02 20:41:34] INFO root fetch - processPackages [sugaru]: Remove: archive file [/home/abi/fetcher/tmp/sugaru-0.2.0.tar.gz]
+[2023-07-02 20:41:34] INFO root fetch - main [MainThread]: End processing [sugaru]: success
+[2023-07-02 20:41:34] INFO root fetch - processPackages [aleksis-app-buelleten]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_app_buelleten-2.0.dev0.tar.gz]
+[2023-07-02 20:41:34] INFO root fetch - processPackages [aleksis-app-buelleten]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_app_buelleten-2.0.dev1.tar.gz]
+[2023-07-02 20:41:34] INFO root fetch - main [MainThread]: End processing [aleksis-app-buelleten]: success
+[2023-07-02 20:41:34] INFO root fetch - processPackages [canarypy]: Remove: archive file [/home/abi/fetcher/tmp/canarypy-0.0.12-py3-none-any.whl.zip]
+[2023-07-02 20:41:34] INFO root fetch - processPackages [canarypy]: Remove: archive file [/home/abi/fetcher/tmp/canarypy-0.0.13-py3-none-any.whl.zip]
+[2023-07-02 20:41:34] INFO root fetch - main [MainThread]: End processing [canarypy]: success
+[2023-07-02 20:41:34] INFO root fetch - processPackages [django-jutil]: Remove: archive file [/home/abi/fetcher/tmp/django-jutil-3.9.8.tar.gz]
+[2023-07-02 20:41:34] INFO root fetch - processPackages [django-jutil]: Remove: archive file [/home/abi/fetcher/tmp/django-jutil-3.9.9.tar.gz]
+[2023-07-02 20:41:34] INFO root fetch - main [MainThread]: End processing [django-jutil]: success
+[2023-07-02 20:41:34] INFO root fetch - main [MainThread]: Store serial: [18730703]
