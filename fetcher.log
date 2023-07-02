@@ -11464,3 +11464,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 17:39:50] INFO root fetch - processPackages [qepy]: Remove: archive file [/home/abi/fetcher/tmp/qepy-0.0.4.tar.gz]
 [2023-07-02 17:39:50] INFO root fetch - main [MainThread]: End processing [qepy]: success
 [2023-07-02 17:39:50] INFO root fetch - main [MainThread]: Store serial: [18729605]
+[2023-07-02 17:44:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18729605]
+[2023-07-02 17:44:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-02 17:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aicoder
+[2023-07-02 17:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: e-qsl
+[2023-07-02 17:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-tbase-post-product
+[2023-07-02 17:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: performancetest
+[2023-07-02 17:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bambi
+[2023-07-02 17:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fast-webflow
+[2023-07-02 17:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: abd-clam
+[2023-07-02 17:44:59] INFO root fetch - processPackages [e-qsl]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 17:44:59] WARNING root fetch - processPackages [performancetest]: Skipping, unable to determine old version
+[2023-07-02 17:44:59] INFO root fetch - main [MainThread]: End processing [performancetest] error
+[2023-07-02 17:44:59] INFO root fetch - processPackages [aicoder]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-02 17:44:59] INFO root fetch - processPackages [fast-webflow]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-02 17:44:59] INFO root fetch - processPackages [e-qsl]: Downloading https://files.pythonhosted.org/packages/1d/e4/f98965ad46a5e52221c2dcd82f071628344eaebbb5dda2e663e2f69749cc/e-qsl-0.1.8.tar.gz
+[2023-07-02 17:44:59] INFO root fetch - processPackages [django-tbase-post-product]: New version: [2023.7.216883125] Old Version: [2023.6.616859884]
+[2023-07-02 17:44:59] INFO root fetch - processPackages [fast-webflow]: Downloading https://files.pythonhosted.org/packages/d3/d0/5b646885bfaeb7ba6e613a090eccffd0f214fb8790427e014183ea166d84/fast-webflow-0.3.0.tar.gz
+[2023-07-02 17:44:59] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/82/e2/079ee2be4ae36dc24f7f14c9ffec387466a53a0df7e6fa2ac33a8883e7b1/aicoder-0.3.1-py3-none-any.whl
+[2023-07-02 17:44:59] INFO root fetch - processPackages [bambi]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-02 17:45:00] INFO root fetch - processPackages [abd-clam]: New version: [0.9.0.dev5] Old Version: [0.9.0.dev1]
+[2023-07-02 17:45:00] INFO root fetch - processPackages [fast-webflow]: Downloading https://files.pythonhosted.org/packages/c6/d6/be0a63ec5c76f400d076a7f003cabc4ba82f8bca739d85fda9e48798a0ef/fast-webflow-0.3.1.tar.gz
+[2023-07-02 17:45:00] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/4b/c8/a75a068314a601d8c27a25ada9abeab74020ebed5a16ddd2c0bb9548ef35/aicoder-0.3.2-py3-none-any.whl
+[2023-07-02 17:45:00] INFO root fetch - processPackages [fast-webflow]: executing diffoscope
+[2023-07-02 17:45:00] INFO root fetch - processPackages [fast-webflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast-webflow-0.3.0.tar.gz tmp/fast-webflow-0.3.1.tar.gz --markdown 20230702/f/fast-webflow/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-02 17:45:00] INFO root fetch - processPackages [django-tbase-post-product]: Downloading https://files.pythonhosted.org/packages/07/42/8f97cae0cdb5d0152592bbfedfc716cbcb00231b23aba332073e1703d451/django_tbase_post_product-2023.6.616859884.tar.gz
+[2023-07-02 17:45:00] INFO root fetch - processPackages [bambi]: Downloading https://files.pythonhosted.org/packages/0c/d2/235d619f8b3535affa8355356b700996afb18ca5f0a26e5bc9b6866d93d5/bambi-0.9.2.tar.gz
+[2023-07-02 17:45:00] INFO root fetch - processPackages [abd-clam]: Downloading https://files.pythonhosted.org/packages/bd/20/964ab768efce75ba26c4319c140e23a1b920b649444733ed661e13323622/abd_clam-0.9.0.dev1.tar.gz
+[2023-07-02 17:45:00] INFO root fetch - processPackages [aicoder]: executing diffoscope
+[2023-07-02 17:45:00] INFO root fetch - processPackages [aicoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicoder-0.3.1-py3-none-any.whl.zip tmp/aicoder-0.3.2-py3-none-any.whl.zip --markdown 20230702/a/aicoder/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-02 17:45:00] INFO root fetch - processPackages [e-qsl]: Downloading https://files.pythonhosted.org/packages/53/3b/0affc5c6730054741a521330a3878a5d86a23d03e6c4b7b6222c10bf04b1/e-qsl-0.1.9.tar.gz
+[2023-07-02 17:45:00] INFO root fetch - processPackages [e-qsl]: executing diffoscope
+[2023-07-02 17:45:00] INFO root fetch - processPackages [e-qsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e-qsl-0.1.8.tar.gz tmp/e-qsl-0.1.9.tar.gz --markdown 20230702/e/e-qsl/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 17:45:00] INFO root fetch - processPackages [django-tbase-post-product]: Downloading https://files.pythonhosted.org/packages/40/cc/7bb19fa3aaea8a10efc40f1726538b7855c4f616983f55b9431483b2de76/django_tbase_post_product-2023.7.216883125.tar.gz
+[2023-07-02 17:45:00] INFO root fetch - processPackages [bambi]: Downloading https://files.pythonhosted.org/packages/80/74/3ccbfd991d13fffdaa00f961c31553270fbd2e2eb4ef76601c94efab01a2/bambi-0.9.3.tar.gz
+[2023-07-02 17:45:00] INFO root fetch - processPackages [abd-clam]: Downloading https://files.pythonhosted.org/packages/9c/87/023a50a2fea36c90811c51197f0f44e18904c603fc07439a0212d0be2b6a/abd_clam-0.9.0.dev5.tar.gz
+[2023-07-02 17:45:00] INFO root fetch - processPackages [abd-clam]: executing diffoscope
+[2023-07-02 17:45:00] INFO root fetch - processPackages [abd-clam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abd_clam-0.9.0.dev1.tar.gz tmp/abd_clam-0.9.0.dev5.tar.gz --markdown 20230702/a/abd-clam/0.9.0.dev1-0.9.0.dev5/diff.md --exclude *.pyd
+[2023-07-02 17:45:00] INFO root fetch - processPackages [django-tbase-post-product]: executing diffoscope
+[2023-07-02 17:45:00] INFO root fetch - processPackages [django-tbase-post-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_tbase_post_product-2023.6.616859884.tar.gz tmp/django_tbase_post_product-2023.7.216883125.tar.gz --markdown 20230702/d/django-tbase-post-product/2023.6.616859884-2023.7.216883125/diff.md --exclude *.pyd
+[2023-07-02 17:45:00] INFO root fetch - processPackages [bambi]: executing diffoscope
+[2023-07-02 17:45:00] INFO root fetch - processPackages [bambi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambi-0.9.2.tar.gz tmp/bambi-0.9.3.tar.gz --markdown 20230702/b/bambi/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-02 17:45:01] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.3.1-py3-none-any.whl.zip]
+[2023-07-02 17:45:01] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.3.2-py3-none-any.whl.zip]
+[2023-07-02 17:45:01] INFO root fetch - main [MainThread]: End processing [aicoder]: success
+[2023-07-02 17:45:01] INFO root fetch - processPackages [fast-webflow]: Remove: archive file [/home/abi/fetcher/tmp/fast-webflow-0.3.0.tar.gz]
+[2023-07-02 17:45:01] INFO root fetch - processPackages [fast-webflow]: Remove: archive file [/home/abi/fetcher/tmp/fast-webflow-0.3.1.tar.gz]
+[2023-07-02 17:45:01] INFO root fetch - main [MainThread]: End processing [fast-webflow]: success
+[2023-07-02 17:45:01] INFO root fetch - processPackages [e-qsl]: Remove: archive file [/home/abi/fetcher/tmp/e-qsl-0.1.8.tar.gz]
+[2023-07-02 17:45:01] INFO root fetch - processPackages [e-qsl]: Remove: archive file [/home/abi/fetcher/tmp/e-qsl-0.1.9.tar.gz]
+[2023-07-02 17:45:01] INFO root fetch - main [MainThread]: End processing [e-qsl]: success
+[2023-07-02 17:45:01] INFO root fetch - processPackages [abd-clam]: Remove: archive file [/home/abi/fetcher/tmp/abd_clam-0.9.0.dev1.tar.gz]
+[2023-07-02 17:45:01] INFO root fetch - processPackages [abd-clam]: Remove: archive file [/home/abi/fetcher/tmp/abd_clam-0.9.0.dev5.tar.gz]
+[2023-07-02 17:45:01] INFO root fetch - main [MainThread]: End processing [abd-clam]: success
+[2023-07-02 17:45:01] INFO root fetch - processPackages [django-tbase-post-product]: Remove: archive file [/home/abi/fetcher/tmp/django_tbase_post_product-2023.6.616859884.tar.gz]
+[2023-07-02 17:45:01] INFO root fetch - processPackages [django-tbase-post-product]: Remove: archive file [/home/abi/fetcher/tmp/django_tbase_post_product-2023.7.216883125.tar.gz]
+[2023-07-02 17:45:01] INFO root fetch - main [MainThread]: End processing [django-tbase-post-product]: success
+[2023-07-02 17:45:02] INFO root fetch - processPackages [bambi]: Remove: archive file [/home/abi/fetcher/tmp/bambi-0.9.2.tar.gz]
+[2023-07-02 17:45:02] INFO root fetch - processPackages [bambi]: Remove: archive file [/home/abi/fetcher/tmp/bambi-0.9.3.tar.gz]
+[2023-07-02 17:45:02] INFO root fetch - main [MainThread]: End processing [bambi]: success
+[2023-07-02 17:45:02] INFO root fetch - main [MainThread]: Store serial: [18729623]
