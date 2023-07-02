@@ -4468,3 +4468,170 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 07:14:09] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
 [2023-07-02 07:14:09] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
 [2023-07-02 07:14:09] INFO root fetch - main [MainThread]: Store serial: [18726481]
+[2023-07-02 07:19:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726481]
+[2023-07-02 07:19:18] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-02 07:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TDhelper
+[2023-07-02 07:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-homeassistant-custom-component
+[2023-07-02 07:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: non-local-detector
+[2023-07-02 07:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ag-llama-api
+[2023-07-02 07:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sortd
+[2023-07-02 07:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tflite-runtime-nightly
+[2023-07-02 07:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ypricemagic
+[2023-07-02 07:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tflite-support-nightly
+[2023-07-02 07:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ngrad
+[2023-07-02 07:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-base-import-security-group
+[2023-07-02 07:19:18] INFO root fetch - processPackages [odoo14-addon-base-import-security-group]: New version: [14.0.1.0.1.dev6] Old Version: [14.0.1.0.1.dev5]
+[2023-07-02 07:19:18] INFO root fetch - processPackages [ag-llama-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 07:19:18] INFO root fetch - processPackages [TDhelper]: New version: [2.6.5] Old Version: [2.6.4]
+[2023-07-02 07:19:18] INFO root fetch - processPackages [sortd]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-02 07:19:18] INFO root fetch - processPackages [non-local-detector]: New version: [0.2.3.dev0] Old Version: [0.2.2.dev0]
+[2023-07-02 07:19:18] INFO root fetch - processPackages [ngrad]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-02 07:19:18] INFO root fetch - processPackages [ypricemagic]: New version: [2.5.4] Old Version: [2.5.3]
+[2023-07-02 07:19:18] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-02 07:19:18] INFO root fetch - processPackages [tflite-support-nightly]: New version: [0.4.4.dev20230701] Old Version: [0.4.4.dev20230630]
+[2023-07-02 07:19:18] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.14.0.dev20230701] Old Version: [2.14.0.dev20230630]
+[2023-07-02 07:19:18] INFO root fetch - processPackages [odoo14-addon-base-import-security-group]: Downloading https://files.pythonhosted.org/packages/06/8e/cb5f30da01b7cf3e4808acfd4f708dd28fa08995ef4a94c8e53ee495afd5/odoo14_addon_base_import_security_group-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-07-02 07:19:18] INFO root fetch - processPackages [TDhelper]: Downloading https://files.pythonhosted.org/packages/8e/64/61550ae9ce9bb895b54d0b997f2b0b7bc2e5e4cd2b6ce6ab861b3449dd4a/TDhelper-2.6.4.tar.gz
+[2023-07-02 07:19:18] INFO root fetch - processPackages [non-local-detector]: Downloading https://files.pythonhosted.org/packages/d3/3c/43790641a02f6ab113b311b2bbd60a3f7ce6a7361f72537d67f7a8597eac/non_local_detector-0.2.2.dev0.tar.gz
+[2023-07-02 07:19:18] INFO root fetch - processPackages [sortd]: Downloading https://files.pythonhosted.org/packages/7f/a9/c1dd83c4fe7c9e587322ca93555cde1c834af3901c15857ca7cfe2fc379d/sortd-1.2.2.tar.gz
+[2023-07-02 07:19:18] INFO root fetch - processPackages [ngrad]: Downloading https://files.pythonhosted.org/packages/f3/84/6198952c819147b01594083d866a2449df20efc58f50c32085bb4914e692/ngrad-1.0.2.tar.gz
+[2023-07-02 07:19:18] INFO root fetch - processPackages [ypricemagic]: Downloading https://files.pythonhosted.org/packages/c6/81/399175cca84ace481b9ca138c8951de743db121526c8743aa1d2d36cba52/ypricemagic-2.5.3.tar.gz
+[2023-07-02 07:19:18] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/e7/db/6c93bb8ec9653fafd298258240710b4768345a45843013bc715cf9e658f7/ag_llama_api-0.0.8.tar.gz
+[2023-07-02 07:19:18] INFO root fetch - processPackages [tflite-support-nightly]: Downloading https://files.pythonhosted.org/packages/2c/72/bc8c4e40d98f2d2cef769f8dd7fc45f48a0cb2341dc9d188e0ea84d7146f/tflite_support_nightly-0.4.4.dev20230630-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-02 07:19:18] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/8a/3b/b76075872ac35edad46a4fd3401c3faebda7af874b306526a1d7e1a4336a/pytest-homeassistant-custom-component-0.9.8.tar.gz
+[2023-07-02 07:19:19] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/ee/b2/d6656523f1d1d835b123eed5681c644eee1623ebb9546c4f7ea3e4cee9b3/tflite_runtime_nightly-2.14.0.dev20230630-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-02 07:19:19] INFO root fetch - processPackages [TDhelper]: Downloading https://files.pythonhosted.org/packages/05/1d/498df1d67300456decd9f318d21284af537430956eec0ae28e685861cea9/TDhelper-2.6.5.tar.gz
+[2023-07-02 07:19:19] WARNING root fetch - processPackages [tflite-support-nightly]: Skipping package: exceeds size limit 60815122>=10485760
+[2023-07-02 07:19:19] INFO root fetch - processPackages [tflite-support-nightly]: Start processing: odoo14-addon-base-tier-validation
+[2023-07-02 07:19:19] INFO root fetch - main [MainThread]: End processing [tflite-support-nightly] error
+[2023-07-02 07:19:19] INFO root fetch - processPackages [sortd]: Downloading https://files.pythonhosted.org/packages/d7/7e/561a3c5046f98b8de2672b4c52a8ed04402e6c5ff8ab33ccee5ea94d4b98/sortd-1.2.3.tar.gz
+[2023-07-02 07:19:19] INFO root fetch - processPackages [odoo14-addon-base-tier-validation]: New version: [14.0.2.9.3.dev2] Old Version: [14.0.2.9.3.dev1]
+[2023-07-02 07:19:19] INFO root fetch - processPackages [odoo14-addon-base-import-security-group]: Downloading https://files.pythonhosted.org/packages/26/67/e114da940cf9b7a09f2745dcda05f5dea57444b2a809864e620b2429ce70/odoo14_addon_base_import_security_group-14.0.1.0.1.dev6-py3-none-any.whl
+[2023-07-02 07:19:19] INFO root fetch - processPackages [TDhelper]: executing diffoscope
+[2023-07-02 07:19:19] INFO root fetch - processPackages [TDhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDhelper-2.6.4.tar.gz tmp/TDhelper-2.6.5.tar.gz --markdown 20230702/T/TDhelper/2.6.4-2.6.5/diff.md --exclude *.pyd
+[2023-07-02 07:19:19] INFO root fetch - processPackages [ypricemagic]: Downloading https://files.pythonhosted.org/packages/7d/85/35e12be0d489355d37487c8cce5f7f5d6c5f8a33c8eef4c37e79667547de/ypricemagic-2.5.4.tar.gz
+[2023-07-02 07:19:19] INFO root fetch - processPackages [ngrad]: Downloading https://files.pythonhosted.org/packages/71/6a/dbebf6d0bf01621fea14b2e178b761afaf682636e0b74e2701a23a7bbd24/ngrad-1.0.3.tar.gz
+[2023-07-02 07:19:19] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/0e/45/5ce146425eb4c54590e514bf53d436ec8eb7cbeee70953b613dcd4e56824/ag_llama_api-0.0.9.tar.gz
+[2023-07-02 07:19:19] INFO root fetch - processPackages [sortd]: executing diffoscope
+[2023-07-02 07:19:19] INFO root fetch - processPackages [sortd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sortd-1.2.2.tar.gz tmp/sortd-1.2.3.tar.gz --markdown 20230702/s/sortd/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-02 07:19:19] INFO root fetch - processPackages [ypricemagic]: executing diffoscope
+[2023-07-02 07:19:19] INFO root fetch - processPackages [ypricemagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ypricemagic-2.5.3.tar.gz tmp/ypricemagic-2.5.4.tar.gz --markdown 20230702/y/ypricemagic/2.5.3-2.5.4/diff.md --exclude *.pyd
+[2023-07-02 07:19:19] INFO root fetch - processPackages [ngrad]: executing diffoscope
+[2023-07-02 07:19:19] INFO root fetch - processPackages [ngrad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngrad-1.0.2.tar.gz tmp/ngrad-1.0.3.tar.gz --markdown 20230702/n/ngrad/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-02 07:19:19] INFO root fetch - processPackages [ag-llama-api]: executing diffoscope
+[2023-07-02 07:19:19] INFO root fetch - processPackages [ag-llama-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ag_llama_api-0.0.8.tar.gz tmp/ag_llama_api-0.0.9.tar.gz --markdown 20230702/a/ag-llama-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 07:19:19] INFO root fetch - processPackages [odoo14-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/a4/41/f6e395b9f5937455356910186875b19fa954e93ff9234913ca6fbf9a4826/odoo14_addon_base_tier_validation-14.0.2.9.3.dev1-py3-none-any.whl
+[2023-07-02 07:19:19] INFO root fetch - processPackages [odoo14-addon-base-import-security-group]: executing diffoscope
+[2023-07-02 07:19:19] INFO root fetch - processPackages [odoo14-addon-base-import-security-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_import_security_group-14.0.1.0.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_base_import_security_group-14.0.1.0.1.dev6-py3-none-any.whl.zip --markdown 20230702/o/odoo14-addon-base-import-security-group/14.0.1.0.1.dev5-14.0.1.0.1.dev6/diff.md --exclude *.pyd
+[2023-07-02 07:19:19] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/60/4e/ba1174db4b883610c2a5afba7a30857178ada41a2368936b2e3d764bfe6a/pytest-homeassistant-custom-component-0.9.9.tar.gz
+[2023-07-02 07:19:19] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: executing diffoscope
+[2023-07-02 07:19:19] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz --markdown 20230702/p/pytest-homeassistant-custom-component/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-02 07:19:19] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/c8/13/d905275a3ae15f78d5d23794f71bd4211b091b4a3d2dbb081b72c8e35322/tflite_runtime_nightly-2.14.0.dev20230701-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-02 07:19:19] INFO root fetch - processPackages [odoo14-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/73/89/7073b56a745671f832b25a39cb81b5ea7fb5f16de94186cd6e016b7723d0/odoo14_addon_base_tier_validation-14.0.2.9.3.dev2-py3-none-any.whl
+[2023-07-02 07:19:19] INFO root fetch - processPackages [non-local-detector]: Downloading https://files.pythonhosted.org/packages/00/69/9737f88cb03b94546803315545b91777fac5f34e02d476063df11c6a79c0/non_local_detector-0.2.3.dev0.tar.gz
+[2023-07-02 07:19:19] INFO root fetch - processPackages [odoo14-addon-base-tier-validation]: executing diffoscope
+[2023-07-02 07:19:19] INFO root fetch - processPackages [odoo14-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_tier_validation-14.0.2.9.3.dev1-py3-none-any.whl.zip tmp/odoo14_addon_base_tier_validation-14.0.2.9.3.dev2-py3-none-any.whl.zip --markdown 20230702/o/odoo14-addon-base-tier-validation/14.0.2.9.3.dev1-14.0.2.9.3.dev2/diff.md --exclude *.pyd
+[2023-07-02 07:19:20] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-07-02 07:19:20] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.14.0.dev20230630-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/tflite_runtime_nightly-2.14.0.dev20230701-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230702/t/tflite-runtime-nightly/2.14.0.dev20230630-2.14.0.dev20230701/diff.md --exclude *.pyd
+[2023-07-02 07:19:20] INFO root fetch - processPackages [non-local-detector]: executing diffoscope
+[2023-07-02 07:19:20] INFO root fetch - processPackages [non-local-detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/non_local_detector-0.2.2.dev0.tar.gz tmp/non_local_detector-0.2.3.dev0.tar.gz --markdown 20230702/n/non-local-detector/0.2.2.dev0-0.2.3.dev0/diff.md --exclude *.pyd
+[2023-07-02 07:19:20] INFO root fetch - processPackages [ngrad]: Remove: archive file [/home/abi/fetcher/tmp/ngrad-1.0.2.tar.gz]
+[2023-07-02 07:19:20] INFO root fetch - processPackages [ngrad]: Remove: archive file [/home/abi/fetcher/tmp/ngrad-1.0.3.tar.gz]
+[2023-07-02 07:19:20] INFO root fetch - processPackages [ngrad]: Start processing: odoo-addon-base-tier-validation
+[2023-07-02 07:19:20] INFO root fetch - main [MainThread]: End processing [ngrad]: success
+[2023-07-02 07:19:20] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: New version: [16.0.1.0.5.1] Old Version: [16.0.1.0.5]
+[2023-07-02 07:19:20] INFO root fetch - processPackages [sortd]: Remove: archive file [/home/abi/fetcher/tmp/sortd-1.2.2.tar.gz]
+[2023-07-02 07:19:20] INFO root fetch - processPackages [sortd]: Remove: archive file [/home/abi/fetcher/tmp/sortd-1.2.3.tar.gz]
+[2023-07-02 07:19:20] INFO root fetch - processPackages [sortd]: Start processing: odoo-addon-announcement
+[2023-07-02 07:19:20] INFO root fetch - main [MainThread]: End processing [sortd]: success
+[2023-07-02 07:19:20] INFO root fetch - processPackages [odoo-addon-announcement]: New version: [15.0.1.1.0.1] Old Version: [15.0.1.1.0]
+[2023-07-02 07:19:20] INFO root fetch - processPackages [odoo14-addon-base-import-security-group]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_import_security_group-14.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2023-07-02 07:19:20] INFO root fetch - processPackages [odoo14-addon-base-import-security-group]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_import_security_group-14.0.1.0.1.dev6-py3-none-any.whl.zip]
+[2023-07-02 07:19:20] INFO root fetch - processPackages [odoo14-addon-base-import-security-group]: Start processing: sweep
+[2023-07-02 07:19:20] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-import-security-group]: success
+[2023-07-02 07:19:21] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/ae/10/4de5b1618a0dc049d8b636d4423574ea5475d33887e8882ed413eb6b4c8a/odoo_addon_base_tier_validation-16.0.1.0.5-py3-none-any.whl
+[2023-07-02 07:19:21] INFO root fetch - processPackages [sweep]: New version: [2.0.1.0] Old Version: [2.0.0.2]
+[2023-07-02 07:19:21] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.8.tar.gz]
+[2023-07-02 07:19:21] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.9.tar.gz]
+[2023-07-02 07:19:21] INFO root fetch - processPackages [ag-llama-api]: Start processing: odoo-addon-base-tier-validation
+[2023-07-02 07:19:21] INFO root fetch - main [MainThread]: End processing [ag-llama-api]: success
+[2023-07-02 07:19:21] INFO root fetch - processPackages [odoo-addon-announcement]: Downloading https://files.pythonhosted.org/packages/e7/15/f0065f2fb0e4509f0f2de3b54760e580d5012f14eb58d9fd745ce19761a6/odoo_addon_announcement-15.0.1.1.0-py3-none-any.whl
+[2023-07-02 07:19:21] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: New version: [16.0.1.0.5.1] Old Version: [16.0.1.0.5]
+[2023-07-02 07:19:21] INFO root fetch - processPackages [sweep]: Downloading https://files.pythonhosted.org/packages/8b/5a/100dccbabaf90f2e6cd34208c2df17137345219f39d033c9d18149d5589e/sweep-2.0.0.2-py3.10.egg
+[2023-07-02 07:19:21] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/52/86/009bfef76fb3859f7d77eb9bc1898046a30eb15dab586ae5f0d123b7b765/odoo_addon_base_tier_validation-16.0.1.0.5.1-py3-none-any.whl
+[2023-07-02 07:19:21] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/52/86/009bfef76fb3859f7d77eb9bc1898046a30eb15dab586ae5f0d123b7b765/odoo_addon_base_tier_validation-16.0.1.0.5.1-py3-none-any.whl
+[2023-07-02 07:19:21] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: executing diffoscope
+[2023-07-02 07:19:21] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_tier_validation-16.0.1.0.5-py3-none-any.whl.zip tmp/odoo_addon_base_tier_validation-16.0.1.0.5.1-py3-none-any.whl.zip --markdown 20230702/o/odoo-addon-base-tier-validation/16.0.1.0.5-16.0.1.0.5.1/diff.md --exclude *.pyd
+[2023-07-02 07:19:21] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: executing diffoscope
+[2023-07-02 07:19:21] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_tier_validation-16.0.1.0.5-py3-none-any.whl.zip tmp/odoo_addon_base_tier_validation-16.0.1.0.5.1-py3-none-any.whl.zip --markdown 20230702/o/odoo-addon-base-tier-validation/16.0.1.0.5-16.0.1.0.5.1/diff.md --exclude *.pyd
+[2023-07-02 07:19:21] INFO root fetch - processPackages [odoo-addon-announcement]: Downloading https://files.pythonhosted.org/packages/8d/0e/07ad5bd2475fec3d57f677a50303517914333fa968b4ee3b2a1b3949677f/odoo_addon_announcement-15.0.1.1.0.1-py3-none-any.whl
+[2023-07-02 07:19:21] INFO root fetch - processPackages [ypricemagic]: Remove: archive file [/home/abi/fetcher/tmp/ypricemagic-2.5.3.tar.gz]
+[2023-07-02 07:19:21] INFO root fetch - processPackages [ypricemagic]: Remove: archive file [/home/abi/fetcher/tmp/ypricemagic-2.5.4.tar.gz]
+[2023-07-02 07:19:21] INFO root fetch - processPackages [ypricemagic]: Start processing: sortd
+[2023-07-02 07:19:21] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
+[2023-07-02 07:19:21] INFO root fetch - processPackages [sweep]: Downloading https://files.pythonhosted.org/packages/d7/28/7efe0cfe970d4d44bc51fc8b6221a8b6bb67d14b0801f5a15e6f8534a61c/sweep-2.0.1.0-py3.10.egg
+[2023-07-02 07:19:21] INFO root fetch - processPackages [odoo-addon-announcement]: executing diffoscope
+[2023-07-02 07:19:21] INFO root fetch - processPackages [odoo-addon-announcement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_announcement-15.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_announcement-15.0.1.1.0.1-py3-none-any.whl.zip --markdown 20230702/o/odoo-addon-announcement/15.0.1.1.0-15.0.1.1.0.1/diff.md --exclude *.pyd
+[2023-07-02 07:19:21] INFO root fetch - processPackages [sortd]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-02 07:19:21] INFO root fetch - processPackages [sweep]: executing diffoscope
+[2023-07-02 07:19:21] INFO root fetch - processPackages [sweep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweep-2.0.0.2-py3.10.egg tmp/sweep-2.0.1.0-py3.10.egg --markdown 20230702/s/sweep/2.0.0.2-2.0.1.0/diff.md --exclude *.pyd
+[2023-07-02 07:19:21] INFO root fetch - processPackages [odoo14-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_tier_validation-14.0.2.9.3.dev1-py3-none-any.whl.zip]
+[2023-07-02 07:19:21] INFO root fetch - processPackages [odoo14-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_tier_validation-14.0.2.9.3.dev2-py3-none-any.whl.zip]
+[2023-07-02 07:19:21] INFO root fetch - processPackages [odoo14-addon-base-tier-validation]: Start processing: pystools
+[2023-07-02 07:19:21] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-tier-validation]: success
+[2023-07-02 07:19:21] INFO root fetch - processPackages [sortd]: Downloading https://files.pythonhosted.org/packages/7f/a9/c1dd83c4fe7c9e587322ca93555cde1c834af3901c15857ca7cfe2fc379d/sortd-1.2.2.tar.gz
+[2023-07-02 07:19:21] INFO root fetch - processPackages [pystools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 07:19:21] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz]
+[2023-07-02 07:19:21] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz]
+[2023-07-02 07:19:21] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Start processing: odoo-addon-mass-mailing-list-dynamic
+[2023-07-02 07:19:21] INFO root fetch - main [MainThread]: End processing [pytest-homeassistant-custom-component]: success
+[2023-07-02 07:19:21] INFO root fetch - processPackages [odoo-addon-mass-mailing-list-dynamic]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2023-07-02 07:19:21] INFO root fetch - processPackages [sortd]: Downloading https://files.pythonhosted.org/packages/d7/7e/561a3c5046f98b8de2672b4c52a8ed04402e6c5ff8ab33ccee5ea94d4b98/sortd-1.2.3.tar.gz
+[2023-07-02 07:19:21] INFO root fetch - processPackages [sortd]: executing diffoscope
+[2023-07-02 07:19:21] INFO root fetch - processPackages [sortd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sortd-1.2.2.tar.gz tmp/sortd-1.2.3.tar.gz --markdown 20230702/s/sortd/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-02 07:19:21] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/d3/f1/f6fef6b574bd57970579f257d2f3b2adf9f6b87b20d9dc2c11e18d2a4a47/pystools-0.0.8.tar.gz
+[2023-07-02 07:19:21] INFO root fetch - processPackages [odoo-addon-mass-mailing-list-dynamic]: Downloading https://files.pythonhosted.org/packages/a8/c1/b19c302f9bd5b09f3f7c8d168c0aef826fed4337644eaca61de532994e2a/odoo_addon_mass_mailing_list_dynamic-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-02 07:19:21] INFO root fetch - processPackages [TDhelper]: Remove: archive file [/home/abi/fetcher/tmp/TDhelper-2.6.4.tar.gz]
+[2023-07-02 07:19:21] INFO root fetch - processPackages [TDhelper]: Remove: archive file [/home/abi/fetcher/tmp/TDhelper-2.6.5.tar.gz]
+[2023-07-02 07:19:21] INFO root fetch - processPackages [TDhelper]: Start processing: PSNAWP
+[2023-07-02 07:19:21] INFO root fetch - main [MainThread]: End processing [TDhelper]: success
+[2023-07-02 07:19:21] INFO root fetch - processPackages [PSNAWP]: New version: [1.3.0] Old Version: [1.2.3]
+[2023-07-02 07:19:22] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/9b/5a/9f2cf38e22565c5aa2ecb7be3dbecb7a44f7d23efbd86fd532eacd613f62/pystools-0.0.9.tar.gz
+[2023-07-02 07:19:22] INFO root fetch - processPackages [PSNAWP]: Downloading https://files.pythonhosted.org/packages/e4/29/f6fdd142312dd7263c00376ebfafe14268280ae4a6ad549610d4f4d49227/PSNAWP-1.2.3.tar.gz
+[2023-07-02 07:19:22] INFO root fetch - processPackages [pystools]: executing diffoscope
+[2023-07-02 07:19:22] INFO root fetch - processPackages [pystools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystools-0.0.8.tar.gz tmp/pystools-0.0.9.tar.gz --markdown 20230702/p/pystools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 07:19:22] INFO root fetch - processPackages [odoo-addon-mass-mailing-list-dynamic]: Downloading https://files.pythonhosted.org/packages/8b/b9/8f116921d5a4f5e9cd9fe570a4a1c3cdf028698709d7c609ea49a91c9ef7/odoo_addon_mass_mailing_list_dynamic-16.0.1.0.0.5-py3-none-any.whl
+[2023-07-02 07:19:22] INFO root fetch - processPackages [odoo-addon-mass-mailing-list-dynamic]: executing diffoscope
+[2023-07-02 07:19:22] INFO root fetch - processPackages [odoo-addon-mass-mailing-list-dynamic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mass_mailing_list_dynamic-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_mass_mailing_list_dynamic-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230702/o/odoo-addon-mass-mailing-list-dynamic/16.0.1.0.0.4-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-07-02 07:19:22] INFO root fetch - processPackages [PSNAWP]: Downloading https://files.pythonhosted.org/packages/de/7e/b074468172cea2e77cfa8d561041e045082377114810aab76aee1f1afaae/PSNAWP-1.3.0.tar.gz
+[2023-07-02 07:19:22] INFO root fetch - processPackages [PSNAWP]: executing diffoscope
+[2023-07-02 07:19:22] INFO root fetch - processPackages [PSNAWP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PSNAWP-1.2.3.tar.gz tmp/PSNAWP-1.3.0.tar.gz --markdown 20230702/P/PSNAWP/1.2.3-1.3.0/diff.md --exclude *.pyd
+[2023-07-02 07:19:22] INFO root fetch - processPackages [odoo-addon-announcement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_announcement-15.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-02 07:19:22] INFO root fetch - processPackages [odoo-addon-announcement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_announcement-15.0.1.1.0.1-py3-none-any.whl.zip]
+[2023-07-02 07:19:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-announcement]: success
+[2023-07-02 07:19:23] INFO root fetch - processPackages [sweep]: Remove: archive file [/home/abi/fetcher/tmp/sweep-2.0.0.2-py3.10.egg]
+[2023-07-02 07:19:23] INFO root fetch - processPackages [sweep]: Remove: archive file [/home/abi/fetcher/tmp/sweep-2.0.1.0-py3.10.egg]
+[2023-07-02 07:19:23] INFO root fetch - main [MainThread]: End processing [sweep]: success
+[2023-07-02 07:19:23] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_tier_validation-16.0.1.0.5-py3-none-any.whl.zip]
+[2023-07-02 07:19:23] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_tier_validation-16.0.1.0.5.1-py3-none-any.whl.zip]
+[2023-07-02 07:19:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-tier-validation]: success
+[2023-07-02 07:19:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-tier-validation]: success
+[2023-07-02 07:19:23] INFO root fetch - processPackages [sortd]: Remove: archive file [/home/abi/fetcher/tmp/sortd-1.2.2.tar.gz]
+[2023-07-02 07:19:23] INFO root fetch - processPackages [sortd]: Remove: archive file [/home/abi/fetcher/tmp/sortd-1.2.3.tar.gz]
+[2023-07-02 07:19:23] INFO root fetch - main [MainThread]: End processing [sortd]: success
+[2023-07-02 07:19:23] INFO root fetch - processPackages [non-local-detector]: Remove: archive file [/home/abi/fetcher/tmp/non_local_detector-0.2.2.dev0.tar.gz]
+[2023-07-02 07:19:23] INFO root fetch - processPackages [non-local-detector]: Remove: archive file [/home/abi/fetcher/tmp/non_local_detector-0.2.3.dev0.tar.gz]
+[2023-07-02 07:19:23] INFO root fetch - main [MainThread]: End processing [non-local-detector]: success
+[2023-07-02 07:19:23] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.8.tar.gz]
+[2023-07-02 07:19:23] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.9.tar.gz]
+[2023-07-02 07:19:23] INFO root fetch - main [MainThread]: End processing [pystools]: success
+[2023-07-02 07:19:23] INFO root fetch - processPackages [odoo-addon-mass-mailing-list-dynamic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mass_mailing_list_dynamic-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-02 07:19:23] INFO root fetch - processPackages [odoo-addon-mass-mailing-list-dynamic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mass_mailing_list_dynamic-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-07-02 07:19:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-mass-mailing-list-dynamic]: success
+[2023-07-02 07:19:24] INFO root fetch - processPackages [PSNAWP]: Remove: archive file [/home/abi/fetcher/tmp/PSNAWP-1.2.3.tar.gz]
+[2023-07-02 07:19:24] INFO root fetch - processPackages [PSNAWP]: Remove: archive file [/home/abi/fetcher/tmp/PSNAWP-1.3.0.tar.gz]
+[2023-07-02 07:19:24] INFO root fetch - main [MainThread]: End processing [PSNAWP]: success
+[2023-07-02 07:19:51] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230630-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-02 07:19:51] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230701-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-02 07:19:51] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-07-02 07:19:51] INFO root fetch - main [MainThread]: Store serial: [18726543]
