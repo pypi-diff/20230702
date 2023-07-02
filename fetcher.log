@@ -843,3 +843,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 01:56:06] INFO root fetch - processPackages [xenosite-fragment]: Remove: archive file [/home/abi/fetcher/tmp/xenosite-fragment-0a9.tar.gz]
 [2023-07-02 01:56:06] INFO root fetch - main [MainThread]: End processing [xenosite-fragment]: success
 [2023-07-02 01:56:06] INFO root fetch - main [MainThread]: Store serial: [18725116]
+[2023-07-02 02:01:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18725116]
+[2023-07-02 02:01:15] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-02 02:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unbelievaboat
+[2023-07-02 02:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: molano
+[2023-07-02 02:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: headless
+[2023-07-02 02:01:15] INFO root fetch - processPackages [headless]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-07-02 02:01:15] INFO root fetch - processPackages [unbelievaboat]: New version: [1.1.0] Old Version: [1.0.6]
+[2023-07-02 02:01:15] INFO root fetch - processPackages [molano]: New version: [1.0.0a9] Old Version: [1.0.0a6]
+[2023-07-02 02:01:15] INFO root fetch - processPackages [headless]: Downloading https://files.pythonhosted.org/packages/01/29/f491c1a0644d9df25cc0746859c9830d9b3f44d290ebd1e5de7b756b2490/headless-2.0.0a8.tar.gz
+[2023-07-02 02:01:15] INFO root fetch - processPackages [unbelievaboat]: Downloading https://files.pythonhosted.org/packages/c9/b8/e396069b167f661bde61cf3d2a3c19f0026150faad30dacfb3fc45b68869/unbelievaboat-1.0.6.tar.gz
+[2023-07-02 02:01:15] INFO root fetch - processPackages [molano]: Downloading https://files.pythonhosted.org/packages/cf/84/e37efd7b93813804cbf27f927bb2a5d924e9c7544cee017145344ebb2f14/molano-1.0.0a6.tar.gz
+[2023-07-02 02:01:15] INFO root fetch - processPackages [headless]: Downloading https://files.pythonhosted.org/packages/db/4e/49b62296a404c0b751546e8c9091d5f19f25932fffbf24e6927b8888f3d2/headless-2.0.0a9.tar.gz
+[2023-07-02 02:01:15] INFO root fetch - processPackages [headless]: executing diffoscope
+[2023-07-02 02:01:15] INFO root fetch - processPackages [headless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/headless-2.0.0a8.tar.gz tmp/headless-2.0.0a9.tar.gz --markdown 20230702/h/headless/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-07-02 02:01:15] INFO root fetch - processPackages [unbelievaboat]: Downloading https://files.pythonhosted.org/packages/77/8d/df1066fcb48252eddda2c29e624d7f54a135ea4ed74a13e6928b75dc9a63/unbelievaboat-1.1.0.tar.gz
+[2023-07-02 02:01:15] INFO root fetch - processPackages [unbelievaboat]: executing diffoscope
+[2023-07-02 02:01:15] INFO root fetch - processPackages [unbelievaboat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unbelievaboat-1.0.6.tar.gz tmp/unbelievaboat-1.1.0.tar.gz --markdown 20230702/u/unbelievaboat/1.0.6-1.1.0/diff.md --exclude *.pyd
+[2023-07-02 02:01:15] INFO root fetch - processPackages [molano]: Downloading https://files.pythonhosted.org/packages/b9/cd/dde39b077eaa0feea200a2ce07ac39c3530e122096121c9a35fa2bf1de81/molano-1.0.0a9.tar.gz
+[2023-07-02 02:01:15] INFO root fetch - processPackages [molano]: executing diffoscope
+[2023-07-02 02:01:15] INFO root fetch - processPackages [molano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molano-1.0.0a6.tar.gz tmp/molano-1.0.0a9.tar.gz --markdown 20230702/m/molano/1.0.0a6-1.0.0a9/diff.md --exclude *.pyd
+[2023-07-02 02:01:16] INFO root fetch - processPackages [unbelievaboat]: Remove: archive file [/home/abi/fetcher/tmp/unbelievaboat-1.0.6.tar.gz]
+[2023-07-02 02:01:16] INFO root fetch - processPackages [unbelievaboat]: Remove: archive file [/home/abi/fetcher/tmp/unbelievaboat-1.1.0.tar.gz]
+[2023-07-02 02:01:16] INFO root fetch - main [MainThread]: End processing [unbelievaboat]: success
+[2023-07-02 02:01:16] INFO root fetch - processPackages [molano]: Remove: archive file [/home/abi/fetcher/tmp/molano-1.0.0a6.tar.gz]
+[2023-07-02 02:01:16] INFO root fetch - processPackages [molano]: Remove: archive file [/home/abi/fetcher/tmp/molano-1.0.0a9.tar.gz]
+[2023-07-02 02:01:16] INFO root fetch - main [MainThread]: End processing [molano]: success
+[2023-07-02 02:01:17] INFO root fetch - processPackages [headless]: Remove: archive file [/home/abi/fetcher/tmp/headless-2.0.0a8.tar.gz]
+[2023-07-02 02:01:17] INFO root fetch - processPackages [headless]: Remove: archive file [/home/abi/fetcher/tmp/headless-2.0.0a9.tar.gz]
+[2023-07-02 02:01:17] INFO root fetch - main [MainThread]: End processing [headless]: success
+[2023-07-02 02:01:17] INFO root fetch - main [MainThread]: Store serial: [18725123]
