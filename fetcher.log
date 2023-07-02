@@ -4923,3 +4923,29 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 08:01:42] INFO root fetch - processPackages [approvaltests]: Remove: archive file [/home/abi/fetcher/tmp/approvaltests-8.3.0.tar.gz]
 [2023-07-02 08:01:42] INFO root fetch - main [MainThread]: End processing [approvaltests]: success
 [2023-07-02 08:01:42] INFO root fetch - main [MainThread]: Store serial: [18726634]
+[2023-07-02 08:06:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726634]
+[2023-07-02 08:06:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-02 08:06:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli
+[2023-07-02 08:06:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aramgg-poro
+[2023-07-02 08:06:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mathpad
+[2023-07-02 08:06:51] INFO root fetch - processPackages [mathpad]: New version: [2.0.0] Old Version: [1.2.0]
+[2023-07-02 08:06:51] INFO root fetch - processPackages [certora-cli]: New version: [4.3.1] Old Version: [4.0.6]
+[2023-07-02 08:06:51] INFO root fetch - processPackages [aramgg-poro]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-02 08:06:51] INFO root fetch - processPackages [aramgg-poro]: Downloading https://files.pythonhosted.org/packages/95/3f/a2d1a0ed51825e191407e6614533e8a3865b37a61502a87fd3648c47b597/aramgg-poro-0.0.3.tar.gz
+[2023-07-02 08:06:51] INFO root fetch - processPackages [mathpad]: Downloading https://files.pythonhosted.org/packages/92/5c/8b3c366e0da06ed84343c2114bf37d9cf1dbe5c6dcda6bb5ba9056c443a9/mathpad-1.2.0.tar.gz
+[2023-07-02 08:06:51] INFO root fetch - processPackages [certora-cli]: Downloading https://files.pythonhosted.org/packages/55/07/910713bfcd202f845250dbd69dcec7e8a8a52f10c9b5fe54e3aa874ebbf8/certora-cli-4.0.6.tar.gz
+[2023-07-02 08:06:51] INFO root fetch - processPackages [aramgg-poro]: Downloading https://files.pythonhosted.org/packages/7c/bc/ac1063a7f266294f435bcffccaa8496498aeef347e82a00b6181aec2c6c7/aramgg-poro-0.0.4.tar.gz
+[2023-07-02 08:06:51] WARNING root fetch - processPackages [certora-cli]: Skipping package: exceeds size limit 38976711>=10485760
+[2023-07-02 08:06:51] INFO root fetch - main [MainThread]: End processing [certora-cli] error
+[2023-07-02 08:06:51] INFO root fetch - processPackages [aramgg-poro]: executing diffoscope
+[2023-07-02 08:06:51] INFO root fetch - processPackages [aramgg-poro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aramgg-poro-0.0.3.tar.gz tmp/aramgg-poro-0.0.4.tar.gz --markdown 20230702/a/aramgg-poro/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-02 08:06:51] INFO root fetch - processPackages [mathpad]: Downloading https://files.pythonhosted.org/packages/bc/d9/bc1367a3812adc93ea975773e7d0ba8e93a783c423b2e4078eb57fe87073/mathpad-2.0.0.tar.gz
+[2023-07-02 08:06:51] INFO root fetch - processPackages [mathpad]: executing diffoscope
+[2023-07-02 08:06:51] INFO root fetch - processPackages [mathpad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathpad-1.2.0.tar.gz tmp/mathpad-2.0.0.tar.gz --markdown 20230702/m/mathpad/1.2.0-2.0.0/diff.md --exclude *.pyd
+[2023-07-02 08:06:52] INFO root fetch - processPackages [aramgg-poro]: Remove: archive file [/home/abi/fetcher/tmp/aramgg-poro-0.0.3.tar.gz]
+[2023-07-02 08:06:52] INFO root fetch - processPackages [aramgg-poro]: Remove: archive file [/home/abi/fetcher/tmp/aramgg-poro-0.0.4.tar.gz]
+[2023-07-02 08:06:52] INFO root fetch - main [MainThread]: End processing [aramgg-poro]: success
+[2023-07-02 08:06:52] INFO root fetch - processPackages [mathpad]: Remove: archive file [/home/abi/fetcher/tmp/mathpad-1.2.0.tar.gz]
+[2023-07-02 08:06:52] INFO root fetch - processPackages [mathpad]: Remove: archive file [/home/abi/fetcher/tmp/mathpad-2.0.0.tar.gz]
+[2023-07-02 08:06:52] INFO root fetch - main [MainThread]: End processing [mathpad]: success
+[2023-07-02 08:06:52] INFO root fetch - main [MainThread]: Store serial: [18726643]
