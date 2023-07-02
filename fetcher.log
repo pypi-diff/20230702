@@ -4973,3 +4973,27 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 08:12:07] INFO root fetch - processPackages [photoshop-python-api]: Remove: archive file [/home/abi/fetcher/tmp/photoshop_python_api-0.9.0.tar.gz]
 [2023-07-02 08:12:07] INFO root fetch - main [MainThread]: End processing [photoshop-python-api]: success
 [2023-07-02 08:12:07] INFO root fetch - main [MainThread]: Store serial: [18726653]
+[2023-07-02 08:17:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726653]
+[2023-07-02 08:17:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-02 08:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyg-nightly
+[2023-07-02 08:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: namespace-mahdimir
+[2023-07-02 08:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AileenTestFirstAttempt
+[2023-07-02 08:17:17] WARNING root fetch - processPackages [AileenTestFirstAttempt]: Skipping, unable to determine old version
+[2023-07-02 08:17:17] INFO root fetch - main [MainThread]: End processing [AileenTestFirstAttempt] error
+[2023-07-02 08:17:17] INFO root fetch - processPackages [namespace-mahdimir]: New version: [0.0.2] Old Version: [0.0.0]
+[2023-07-02 08:17:17] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230702] Old Version: [2.4.0.dev20230701]
+[2023-07-02 08:17:17] INFO root fetch - processPackages [namespace-mahdimir]: Downloading https://files.pythonhosted.org/packages/7d/69/9bd04feac5b3bfc437864adeed0a8c9a692664443a7ebcbdf060a958e3c8/namespace_mahdimir-0.0.0.tar.gz
+[2023-07-02 08:17:17] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/3c/4f/e78c31f9a82e46a68d0eb47b24fb459479798fb91b48df0874f4fb04db24/pyg_nightly-2.4.0.dev20230701.tar.gz
+[2023-07-02 08:17:17] INFO root fetch - processPackages [namespace-mahdimir]: Downloading https://files.pythonhosted.org/packages/4f/d2/9e2cfc7af1923709173cb1a4a32c80d278452ea1622c4e53a536cb81c82e/namespace_mahdimir-0.0.2.tar.gz
+[2023-07-02 08:17:17] INFO root fetch - processPackages [namespace-mahdimir]: executing diffoscope
+[2023-07-02 08:17:17] INFO root fetch - processPackages [namespace-mahdimir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namespace_mahdimir-0.0.0.tar.gz tmp/namespace_mahdimir-0.0.2.tar.gz --markdown 20230702/n/namespace-mahdimir/0.0.0-0.0.2/diff.md --exclude *.pyd
+[2023-07-02 08:17:18] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/cb/d3/90c4d409d0992a39cda3576829c0ca164f3607fec5f3d80f43b30a5a6e47/pyg_nightly-2.4.0.dev20230702.tar.gz
+[2023-07-02 08:17:18] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-07-02 08:17:18] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230701.tar.gz tmp/pyg_nightly-2.4.0.dev20230702.tar.gz --markdown 20230702/p/pyg-nightly/2.4.0.dev20230701-2.4.0.dev20230702/diff.md --exclude *.pyd
+[2023-07-02 08:17:18] INFO root fetch - processPackages [namespace-mahdimir]: Remove: archive file [/home/abi/fetcher/tmp/namespace_mahdimir-0.0.0.tar.gz]
+[2023-07-02 08:17:18] INFO root fetch - processPackages [namespace-mahdimir]: Remove: archive file [/home/abi/fetcher/tmp/namespace_mahdimir-0.0.2.tar.gz]
+[2023-07-02 08:17:18] INFO root fetch - main [MainThread]: End processing [namespace-mahdimir]: success
+[2023-07-02 08:17:24] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230701.tar.gz]
+[2023-07-02 08:17:24] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230702.tar.gz]
+[2023-07-02 08:17:24] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-07-02 08:17:24] INFO root fetch - main [MainThread]: Store serial: [18726667]
