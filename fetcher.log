@@ -7219,3 +7219,30 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 11:51:57] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.48.1.tar.gz]
 [2023-07-02 11:51:57] INFO root fetch - main [MainThread]: End processing [lamindb_setup]: success
 [2023-07-02 11:51:57] INFO root fetch - main [MainThread]: Store serial: [18727644]
+[2023-07-02 11:57:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18727644]
+[2023-07-02 11:57:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-02 11:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lnschema_core
+[2023-07-02 11:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: discord-ansi-messages
+[2023-07-02 11:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mostats
+[2023-07-02 11:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: veleslibrary
+[2023-07-02 11:57:05] INFO root fetch - processPackages [lnschema_core]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-02 11:57:05] WARNING root fetch - processPackages [discord-ansi-messages]: Skipping, unable to determine old version
+[2023-07-02 11:57:05] INFO root fetch - main [MainThread]: End processing [discord-ansi-messages] error
+[2023-07-02 11:57:05] INFO root fetch - processPackages [veleslibrary]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-07-02 11:57:06] WARNING root fetch - processPackages [mostats]: Skipping, unable to determine old version
+[2023-07-02 11:57:06] INFO root fetch - main [MainThread]: End processing [mostats] error
+[2023-07-02 11:57:06] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/7a/53/1459e32f6943488250f623718aeb560351a142d81c57a5fc8ef6b0dd1680/lnschema_core-0.8.1.tar.gz
+[2023-07-02 11:57:06] INFO root fetch - processPackages [veleslibrary]: Downloading https://files.pythonhosted.org/packages/7b/3b/99183aec02c95e9de6bc29f6a776c0680d7e6e837506c25b2e4847fc4459/veleslibrary-0.0.0.tar.gz
+[2023-07-02 11:57:06] INFO root fetch - processPackages [veleslibrary]: Downloading https://files.pythonhosted.org/packages/da/c4/d41745a58742c7645839787187f8da6b3156f252a44871796515c22764c8/veleslibrary-0.1.0.tar.gz
+[2023-07-02 11:57:06] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/39/cd/cc4d91db21934f66692bedcbdb15fc2c82698c7cc9d0288133e8fa2f5cee/lnschema_core-0.9.0.tar.gz
+[2023-07-02 11:57:06] INFO root fetch - processPackages [veleslibrary]: executing diffoscope
+[2023-07-02 11:57:06] INFO root fetch - processPackages [veleslibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veleslibrary-0.0.0.tar.gz tmp/veleslibrary-0.1.0.tar.gz --markdown 20230702/v/veleslibrary/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-07-02 11:57:06] INFO root fetch - processPackages [lnschema_core]: executing diffoscope
+[2023-07-02 11:57:06] INFO root fetch - processPackages [lnschema_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_core-0.8.1.tar.gz tmp/lnschema_core-0.9.0.tar.gz --markdown 20230702/l/lnschema_core/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-02 11:57:07] INFO root fetch - processPackages [veleslibrary]: Remove: archive file [/home/abi/fetcher/tmp/veleslibrary-0.0.0.tar.gz]
+[2023-07-02 11:57:07] INFO root fetch - processPackages [veleslibrary]: Remove: archive file [/home/abi/fetcher/tmp/veleslibrary-0.1.0.tar.gz]
+[2023-07-02 11:57:07] INFO root fetch - main [MainThread]: End processing [veleslibrary]: success
+[2023-07-02 11:57:07] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.8.1.tar.gz]
+[2023-07-02 11:57:07] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.9.0.tar.gz]
+[2023-07-02 11:57:07] INFO root fetch - main [MainThread]: End processing [lnschema_core]: success
+[2023-07-02 11:57:07] INFO root fetch - main [MainThread]: Store serial: [18727657]
