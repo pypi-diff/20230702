@@ -2102,3 +2102,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 03:29:06] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
 [2023-07-02 03:29:06] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
 [2023-07-02 03:29:06] INFO root fetch - main [MainThread]: Store serial: [18725583]
+[2023-07-02 03:34:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18725583]
+[2023-07-02 03:34:15] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-02 03:34:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyagrum-nightly
+[2023-07-02 03:34:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sweetrpg-api-core
+[2023-07-02 03:34:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sweetrpg-web-core
+[2023-07-02 03:34:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fast-pagerank
+[2023-07-02 03:34:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pp-project-pkg
+[2023-07-02 03:34:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gitbetter
+[2023-07-02 03:34:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpt-index
+[2023-07-02 03:34:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: llama-index
+[2023-07-02 03:34:15] INFO root fetch - processPackages [pp-project-pkg]: New version: [1.0.202307020131] Old Version: [1.0.202307011948]
+[2023-07-02 03:34:15] INFO root fetch - processPackages [sweetrpg-api-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-02 03:34:15] INFO root fetch - processPackages [fast-pagerank]: New version: [1.0.0] Old Version: [0.0.4]
+[2023-07-02 03:34:15] INFO root fetch - processPackages [sweetrpg-web-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-02 03:34:15] INFO root fetch - processPackages [sweetrpg-api-core]: Downloading https://files.pythonhosted.org/packages/5d/9d/2398efc534be1a806373637db31588bc65727faee8d3d4ad1e210310552e/sweetrpg-api-core-0.0.98.tar.gz
+[2023-07-02 03:34:15] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/90/19/538b8f12b3c18d82783ad51e67b44e147d543102def3d4dae227dc14e295/pp_project_pkg-1.0.202307011948-py3-none-any.whl
+[2023-07-02 03:34:15] INFO root fetch - processPackages [gitbetter]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-07-02 03:34:15] INFO root fetch - processPackages [gpt-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-02 03:34:15] INFO root fetch - processPackages [llama-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-02 03:34:15] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/10/78/7e4ec24c92190fa564c9ba8a1797ccda0c7472064d109da37e0d283f94d2/sweetrpg-web-core-0.0.98.tar.gz
+[2023-07-02 03:34:15] INFO root fetch - processPackages [sweetrpg-api-core]: Downloading https://files.pythonhosted.org/packages/bf/6c/3cd8f95074a8f63967790523ccf02ffe9aef45c9c675b0a443c0371e8e04/sweetrpg-api-core-0.0.99.tar.gz
+[2023-07-02 03:34:15] INFO root fetch - processPackages [fast-pagerank]: Downloading https://files.pythonhosted.org/packages/ce/39/e14837c543a3f385aa02933b1d07c8ca5f30f9c81cfd8b49a95ba2357872/fast-pagerank-0.0.4.tar.gz
+[2023-07-02 03:34:15] INFO root fetch - processPackages [sweetrpg-api-core]: executing diffoscope
+[2023-07-02 03:34:15] INFO root fetch - processPackages [sweetrpg-api-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-api-core-0.0.98.tar.gz tmp/sweetrpg-api-core-0.0.99.tar.gz --markdown 20230702/s/sweetrpg-api-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-02 03:34:15] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/bd/15/72a761101e501277066578a42896229ae4a254ecf7602e2e15f38b35310d/sweetrpg-web-core-0.0.99.tar.gz
+[2023-07-02 03:34:15] INFO root fetch - processPackages [gitbetter]: Downloading https://files.pythonhosted.org/packages/d9/fc/e007e37d03fb71b9b2bb49c698a54b3a1753413351e2a6dda61ae3e3551f/gitbetter-2.1.0.tar.gz
+[2023-07-02 03:34:15] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/39/ed/965dee00b18d04a9e723c02a028442b257e1b226780861f81ac52cd324ba/gpt_index-0.6.8.tar.gz
+[2023-07-02 03:34:15] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.8.3.dev202306121686326557] Old Version: [1.8.3.dev202306111686326557]
+[2023-07-02 03:34:15] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/f3/a4/8fcac26c887b38aa528079ee4a511159fe89337c438c32c575ef70afe1dc/llama_index-0.6.8.tar.gz
+[2023-07-02 03:34:15] INFO root fetch - processPackages [sweetrpg-web-core]: executing diffoscope
+[2023-07-02 03:34:15] INFO root fetch - processPackages [sweetrpg-web-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-web-core-0.0.98.tar.gz tmp/sweetrpg-web-core-0.0.99.tar.gz --markdown 20230702/s/sweetrpg-web-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-02 03:34:15] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/80/a1/a594b4c88ff9a64b956514f45cc6b391d11e8a127181cf496c78b1cd1e17/pp_project_pkg-1.0.202307020131-py3-none-any.whl
+[2023-07-02 03:34:15] INFO root fetch - processPackages [pp-project-pkg]: executing diffoscope
+[2023-07-02 03:34:15] INFO root fetch - processPackages [pp-project-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pp_project_pkg-1.0.202307011948-py3-none-any.whl.zip tmp/pp_project_pkg-1.0.202307020131-py3-none-any.whl.zip --markdown 20230702/p/pp-project-pkg/1.0.202307011948-1.0.202307020131/diff.md --exclude *.pyd
+[2023-07-02 03:34:15] INFO root fetch - processPackages [gitbetter]: Downloading https://files.pythonhosted.org/packages/da/17/bad69a653d2d4ce46234914b0b411f0ce3a45057387cb06025e0f6492450/gitbetter-2.1.1.tar.gz
+[2023-07-02 03:34:15] INFO root fetch - processPackages [fast-pagerank]: Downloading https://files.pythonhosted.org/packages/c8/8e/0618b4ca14b12515627305c14c43884798ae95481d05f293b5313ae4edd7/fast-pagerank-1.0.0.tar.gz
+[2023-07-02 03:34:15] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/07/46/270b8b245feb59d5f249e10ced72a02b0db3ac8b574dbdc1c90e197d19b0/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl
+[2023-07-02 03:34:15] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/9c/96/62b5a23720114f0ce0f6331a1c6f89c27b66d44db7187a5632221f0d6f27/llama_index-0.6.9.tar.gz
+[2023-07-02 03:34:15] INFO root fetch - processPackages [gitbetter]: executing diffoscope
+[2023-07-02 03:34:15] INFO root fetch - processPackages [gitbetter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitbetter-2.1.0.tar.gz tmp/gitbetter-2.1.1.tar.gz --markdown 20230702/g/gitbetter/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-07-02 03:34:15] INFO root fetch - processPackages [fast-pagerank]: executing diffoscope
+[2023-07-02 03:34:15] INFO root fetch - processPackages [fast-pagerank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast-pagerank-0.0.4.tar.gz tmp/fast-pagerank-1.0.0.tar.gz --markdown 20230702/f/fast-pagerank/0.0.4-1.0.0/diff.md --exclude *.pyd
+[2023-07-02 03:34:15] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/fd/af/29feddbce0290a3ddaa8adad399a5fa0c83d3d4d9637bf47751161c55d5c/gpt_index-0.6.9.tar.gz
+[2023-07-02 03:34:16] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-07-02 03:34:16] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.6.8.tar.gz tmp/llama_index-0.6.9.tar.gz --markdown 20230702/l/llama-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-02 03:34:16] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-07-02 03:34:16] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.6.8.tar.gz tmp/gpt_index-0.6.9.tar.gz --markdown 20230702/g/gpt-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-02 03:34:16] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.98.tar.gz]
+[2023-07-02 03:34:16] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.99.tar.gz]
+[2023-07-02 03:34:16] INFO root fetch - main [MainThread]: End processing [sweetrpg-web-core]: success
+[2023-07-02 03:34:16] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202307011948-py3-none-any.whl.zip]
+[2023-07-02 03:34:16] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202307020131-py3-none-any.whl.zip]
+[2023-07-02 03:34:16] INFO root fetch - main [MainThread]: End processing [pp-project-pkg]: success
+[2023-07-02 03:34:16] INFO root fetch - processPackages [sweetrpg-api-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-api-core-0.0.98.tar.gz]
+[2023-07-02 03:34:16] INFO root fetch - processPackages [sweetrpg-api-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-api-core-0.0.99.tar.gz]
+[2023-07-02 03:34:16] INFO root fetch - main [MainThread]: End processing [sweetrpg-api-core]: success
+[2023-07-02 03:34:17] INFO root fetch - processPackages [fast-pagerank]: Remove: archive file [/home/abi/fetcher/tmp/fast-pagerank-0.0.4.tar.gz]
+[2023-07-02 03:34:17] INFO root fetch - processPackages [fast-pagerank]: Remove: archive file [/home/abi/fetcher/tmp/fast-pagerank-1.0.0.tar.gz]
+[2023-07-02 03:34:17] INFO root fetch - main [MainThread]: End processing [fast-pagerank]: success
+[2023-07-02 03:34:17] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/c0/d4/20a48d2f9b4e252fe76b5a7e22de84caa21e8f08934645676fb47376de73/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl
+[2023-07-02 03:34:18] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-07-02 03:34:18] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip --markdown 20230702/p/pyagrum-nightly/1.8.3.dev202306111686326557-1.8.3.dev202306121686326557/diff.md --exclude *.pyd
+[2023-07-02 03:34:19] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.6.8.tar.gz]
+[2023-07-02 03:34:19] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.6.9.tar.gz]
+[2023-07-02 03:34:19] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-07-02 03:34:19] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.6.8.tar.gz]
+[2023-07-02 03:34:19] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.6.9.tar.gz]
+[2023-07-02 03:34:19] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-07-02 03:34:20] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-07-02 03:34:20] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-07-02 03:34:20] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-07-02 03:34:20] INFO root fetch - processPackages [gitbetter]: Remove: archive file [/home/abi/fetcher/tmp/gitbetter-2.1.0.tar.gz]
+[2023-07-02 03:34:20] INFO root fetch - processPackages [gitbetter]: Remove: archive file [/home/abi/fetcher/tmp/gitbetter-2.1.1.tar.gz]
+[2023-07-02 03:34:20] INFO root fetch - main [MainThread]: End processing [gitbetter]: success
+[2023-07-02 03:34:20] INFO root fetch - main [MainThread]: Store serial: [18725628]
