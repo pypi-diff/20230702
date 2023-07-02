@@ -4884,3 +4884,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 07:56:32] INFO root fetch - processPackages [irisml-tasks-training]: Remove: archive file [/home/abi/fetcher/tmp/irisml-tasks-training-0.0.9.tar.gz]
 [2023-07-02 07:56:32] INFO root fetch - main [MainThread]: End processing [irisml-tasks-training]: success
 [2023-07-02 07:56:32] INFO root fetch - main [MainThread]: Store serial: [18726623]
+[2023-07-02 08:01:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726623]
+[2023-07-02 08:01:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-02 08:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: superagi-tools
+[2023-07-02 08:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: approval-utilities
+[2023-07-02 08:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: approvaltests
+[2023-07-02 08:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: approvaltests-minimal
+[2023-07-02 08:01:40] INFO root fetch - processPackages [superagi-tools]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-02 08:01:40] INFO root fetch - processPackages [approval-utilities]: New version: [8.3.0] Old Version: [8.2.5]
+[2023-07-02 08:01:40] INFO root fetch - processPackages [approvaltests-minimal]: New version: [8.3.0] Old Version: [8.2.5]
+[2023-07-02 08:01:40] INFO root fetch - processPackages [approvaltests]: New version: [8.3.0] Old Version: [8.2.5]
+[2023-07-02 08:01:40] INFO root fetch - processPackages [superagi-tools]: Downloading https://files.pythonhosted.org/packages/27/08/0d44034a43a5ce986607dbc897ca08f2d75b79a36b74efd421b9aedde09f/superagi_tools-1.0.2.tar.gz
+[2023-07-02 08:01:40] INFO root fetch - processPackages [approval-utilities]: Downloading https://files.pythonhosted.org/packages/aa/c4/302b2c4be6a5d114a6ea657e267ce9e6c2773f1776e221ab5f65799149ef/approval_utilities-8.2.5.tar.gz
+[2023-07-02 08:01:40] INFO root fetch - processPackages [approvaltests]: Downloading https://files.pythonhosted.org/packages/50/af/16032614256ff4d3656feac1955a73dfe1351869a28497a8d9a001fcd3c3/approvaltests-8.2.5.tar.gz
+[2023-07-02 08:01:40] INFO root fetch - processPackages [approvaltests-minimal]: Downloading https://files.pythonhosted.org/packages/71/56/c3e9af65ba331a47cff5adc6c35ea06fd4107573ec4d91b2f302949cc3dd/approvaltests-minimal-8.2.5.tar.gz
+[2023-07-02 08:01:41] INFO root fetch - processPackages [superagi-tools]: Downloading https://files.pythonhosted.org/packages/27/d9/63126a5f050504596fa7bbea95f822861f187656c01ff5e5efb951c72955/superagi_tools-1.0.3.tar.gz
+[2023-07-02 08:01:41] INFO root fetch - processPackages [superagi-tools]: executing diffoscope
+[2023-07-02 08:01:41] INFO root fetch - processPackages [superagi-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superagi_tools-1.0.2.tar.gz tmp/superagi_tools-1.0.3.tar.gz --markdown 20230702/s/superagi-tools/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-02 08:01:41] INFO root fetch - processPackages [approvaltests]: Downloading https://files.pythonhosted.org/packages/07/b7/21fe876914197cb6718a9ed229ba7e729143d165fc01bf5c258018d4fdea/approvaltests-8.3.0.tar.gz
+[2023-07-02 08:01:41] INFO root fetch - processPackages [approval-utilities]: Downloading https://files.pythonhosted.org/packages/10/42/ad94445b1f34e7dc120a550191136183328522dfd2b595748221591887f8/approval_utilities-8.3.0.tar.gz
+[2023-07-02 08:01:41] INFO root fetch - processPackages [approvaltests-minimal]: Downloading https://files.pythonhosted.org/packages/3d/a0/804313cd5fc29991fbea09e3acf6df1280b629cf35a1c0e4c887baeff98b/approvaltests-minimal-8.3.0.tar.gz
+[2023-07-02 08:01:41] INFO root fetch - processPackages [approvaltests-minimal]: executing diffoscope
+[2023-07-02 08:01:41] INFO root fetch - processPackages [approvaltests-minimal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/approvaltests-minimal-8.2.5.tar.gz tmp/approvaltests-minimal-8.3.0.tar.gz --markdown 20230702/a/approvaltests-minimal/8.2.5-8.3.0/diff.md --exclude *.pyd
+[2023-07-02 08:01:41] INFO root fetch - processPackages [approvaltests]: executing diffoscope
+[2023-07-02 08:01:41] INFO root fetch - processPackages [approvaltests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/approvaltests-8.2.5.tar.gz tmp/approvaltests-8.3.0.tar.gz --markdown 20230702/a/approvaltests/8.2.5-8.3.0/diff.md --exclude *.pyd
+[2023-07-02 08:01:41] INFO root fetch - processPackages [approval-utilities]: executing diffoscope
+[2023-07-02 08:01:41] INFO root fetch - processPackages [approval-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/approval_utilities-8.2.5.tar.gz tmp/approval_utilities-8.3.0.tar.gz --markdown 20230702/a/approval-utilities/8.2.5-8.3.0/diff.md --exclude *.pyd
+[2023-07-02 08:01:42] INFO root fetch - processPackages [superagi-tools]: Remove: archive file [/home/abi/fetcher/tmp/superagi_tools-1.0.2.tar.gz]
+[2023-07-02 08:01:42] INFO root fetch - processPackages [superagi-tools]: Remove: archive file [/home/abi/fetcher/tmp/superagi_tools-1.0.3.tar.gz]
+[2023-07-02 08:01:42] INFO root fetch - main [MainThread]: End processing [superagi-tools]: success
+[2023-07-02 08:01:42] INFO root fetch - processPackages [approval-utilities]: Remove: archive file [/home/abi/fetcher/tmp/approval_utilities-8.2.5.tar.gz]
+[2023-07-02 08:01:42] INFO root fetch - processPackages [approval-utilities]: Remove: archive file [/home/abi/fetcher/tmp/approval_utilities-8.3.0.tar.gz]
+[2023-07-02 08:01:42] INFO root fetch - main [MainThread]: End processing [approval-utilities]: success
+[2023-07-02 08:01:42] INFO root fetch - processPackages [approvaltests-minimal]: Remove: archive file [/home/abi/fetcher/tmp/approvaltests-minimal-8.2.5.tar.gz]
+[2023-07-02 08:01:42] INFO root fetch - processPackages [approvaltests-minimal]: Remove: archive file [/home/abi/fetcher/tmp/approvaltests-minimal-8.3.0.tar.gz]
+[2023-07-02 08:01:42] INFO root fetch - main [MainThread]: End processing [approvaltests-minimal]: success
+[2023-07-02 08:01:42] INFO root fetch - processPackages [approvaltests]: Remove: archive file [/home/abi/fetcher/tmp/approvaltests-8.2.5.tar.gz]
+[2023-07-02 08:01:42] INFO root fetch - processPackages [approvaltests]: Remove: archive file [/home/abi/fetcher/tmp/approvaltests-8.3.0.tar.gz]
+[2023-07-02 08:01:42] INFO root fetch - main [MainThread]: End processing [approvaltests]: success
+[2023-07-02 08:01:42] INFO root fetch - main [MainThread]: Store serial: [18726634]
