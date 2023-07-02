@@ -13087,3 +13087,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 19:11:55] INFO root fetch - processPackages [socialgene]: Remove: archive file [/home/abi/fetcher/tmp/socialgene-0.1.9.tar.gz]
 [2023-07-02 19:11:55] INFO root fetch - main [MainThread]: End processing [socialgene]: success
 [2023-07-02 19:11:55] INFO root fetch - main [MainThread]: Store serial: [18730254]
+[2023-07-02 19:17:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18730254]
+[2023-07-02 19:17:05] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-02 19:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mend-ignore-alerts
+[2023-07-02 19:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dagtimers
+[2023-07-02 19:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-tbase-post-product
+[2023-07-02 19:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: m23
+[2023-07-02 19:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: adv2099m4
+[2023-07-02 19:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: target-permutation-importances
+[2023-07-02 19:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fauxpy
+[2023-07-02 19:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ormlite
+[2023-07-02 19:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wxmplot
+[2023-07-02 19:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jvc-projector-remote-improved2
+[2023-07-02 19:17:05] INFO root fetch - processPackages [target-permutation-importances]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-02 19:17:05] INFO root fetch - processPackages [django-tbase-post-product]: New version: [2023.7.316883179] Old Version: [2023.7.216883125]
+[2023-07-02 19:17:05] INFO root fetch - processPackages [ormlite]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-02 19:17:05] INFO root fetch - processPackages [jvc-projector-remote-improved2]: New version: [3.7.2] Old Version: [3.7.0]
+[2023-07-02 19:17:05] INFO root fetch - processPackages [m23]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-07-02 19:17:05] WARNING root fetch - processPackages [dagtimers]: Skipping, unable to determine old version
+[2023-07-02 19:17:05] WARNING root fetch - processPackages [adv2099m4]: Skipping, unable to determine old version
+[2023-07-02 19:17:05] INFO root fetch - main [MainThread]: End processing [dagtimers] error
+[2023-07-02 19:17:05] INFO root fetch - processPackages [mend-ignore-alerts]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-02 19:17:05] INFO root fetch - main [MainThread]: End processing [adv2099m4] error
+[2023-07-02 19:17:05] WARNING root fetch - processPackages [fauxpy]: Skipping, unable to determine old version
+[2023-07-02 19:17:05] INFO root fetch - main [MainThread]: End processing [fauxpy] error
+[2023-07-02 19:17:05] INFO root fetch - processPackages [wxmplot]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-07-02 19:17:05] INFO root fetch - processPackages [django-tbase-post-product]: Downloading https://files.pythonhosted.org/packages/40/cc/7bb19fa3aaea8a10efc40f1726538b7855c4f616983f55b9431483b2de76/django_tbase_post_product-2023.7.216883125.tar.gz
+[2023-07-02 19:17:05] INFO root fetch - processPackages [ormlite]: Downloading https://files.pythonhosted.org/packages/19/6e/d6f5824c246fb5f65d4c2e360f0500ead07904fc0275375fa361a27979a5/ormlite-0.0.1-py3-none-any.whl
+[2023-07-02 19:17:06] INFO root fetch - processPackages [target-permutation-importances]: Downloading https://files.pythonhosted.org/packages/54/1e/0942b9840f8f515fe134b2506c4c7d629c6c030eacd6f8bb038f7759b94d/target_permutation_importances-1.0.4.tar.gz
+[2023-07-02 19:17:06] INFO root fetch - processPackages [mend-ignore-alerts]: Downloading https://files.pythonhosted.org/packages/a4/04/0964d75aafad0447e1b3f3cb83e48926513a75a4ff446c44d4e05b616f07/mend_ignore_alerts-0.2.1-py3-none-any.whl
+[2023-07-02 19:17:06] INFO root fetch - processPackages [jvc-projector-remote-improved2]: Downloading https://files.pythonhosted.org/packages/39/c5/28d627d548d220f2635e2d5bbc9f2ded256a5724a356e88b7cd466c8f6f4/jvc_projector_remote_improved2-3.7.0.tar.gz
+[2023-07-02 19:17:06] INFO root fetch - processPackages [wxmplot]: Downloading https://files.pythonhosted.org/packages/69/ed/25da27a0916840102965e6e698b7707987755230bb19e37766d5e21414ba/wxmplot-0.9.6.tar.gz
+[2023-07-02 19:17:06] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/25/1b/1cd98c7359d0d7840ad83680e5f0bb5c3ad5d40ae326078dcec90b87590d/m23-1.9.3.tar.gz
+[2023-07-02 19:17:06] INFO root fetch - processPackages [django-tbase-post-product]: Downloading https://files.pythonhosted.org/packages/ff/de/1958c5d56f3d9a7f6c86603b8659eac85b1ec1f1bd73878160270e705290/django_tbase_post_product-2023.7.316883179.tar.gz
+[2023-07-02 19:17:06] INFO root fetch - processPackages [django-tbase-post-product]: executing diffoscope
+[2023-07-02 19:17:06] INFO root fetch - processPackages [django-tbase-post-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_tbase_post_product-2023.7.216883125.tar.gz tmp/django_tbase_post_product-2023.7.316883179.tar.gz --markdown 20230702/d/django-tbase-post-product/2023.7.216883125-2023.7.316883179/diff.md --exclude *.pyd
+[2023-07-02 19:17:06] INFO root fetch - processPackages [ormlite]: Downloading https://files.pythonhosted.org/packages/02/78/ee0bf509d7f13703d45c0bf9670e4489201fb92bb55bf3e41f718abb04fb/ormlite-0.0.2-py3-none-any.whl
+[2023-07-02 19:17:06] INFO root fetch - processPackages [target-permutation-importances]: Downloading https://files.pythonhosted.org/packages/02/d0/03487c1a18028673ee4bb0dba1c71c8f90c2892e0997f14ef7ab0a73cf9d/target_permutation_importances-1.0.5.tar.gz
+[2023-07-02 19:17:06] INFO root fetch - processPackages [mend-ignore-alerts]: Downloading https://files.pythonhosted.org/packages/48/db/26fd719056892274321d624affc757af95bed25e30b36e914bb6900510db/mend_ignore_alerts-0.2.2-py3-none-any.whl
+[2023-07-02 19:17:06] INFO root fetch - processPackages [target-permutation-importances]: executing diffoscope
+[2023-07-02 19:17:06] INFO root fetch - processPackages [target-permutation-importances]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/target_permutation_importances-1.0.4.tar.gz tmp/target_permutation_importances-1.0.5.tar.gz --markdown 20230702/t/target-permutation-importances/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-02 19:17:06] INFO root fetch - processPackages [ormlite]: executing diffoscope
+[2023-07-02 19:17:06] INFO root fetch - processPackages [ormlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ormlite-0.0.1-py3-none-any.whl.zip tmp/ormlite-0.0.2-py3-none-any.whl.zip --markdown 20230702/o/ormlite/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-02 19:17:06] INFO root fetch - processPackages [mend-ignore-alerts]: executing diffoscope
+[2023-07-02 19:17:06] INFO root fetch - processPackages [mend-ignore-alerts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mend_ignore_alerts-0.2.1-py3-none-any.whl.zip tmp/mend_ignore_alerts-0.2.2-py3-none-any.whl.zip --markdown 20230702/m/mend-ignore-alerts/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-02 19:17:06] INFO root fetch - processPackages [jvc-projector-remote-improved2]: Downloading https://files.pythonhosted.org/packages/14/4f/99445f5a4f242ebc7a7a21248a871a595190e340233866ea8183085fd145/jvc_projector_remote_improved2-3.7.2.tar.gz
+[2023-07-02 19:17:06] INFO root fetch - processPackages [jvc-projector-remote-improved2]: executing diffoscope
+[2023-07-02 19:17:06] INFO root fetch - processPackages [jvc-projector-remote-improved2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jvc_projector_remote_improved2-3.7.0.tar.gz tmp/jvc_projector_remote_improved2-3.7.2.tar.gz --markdown 20230702/j/jvc-projector-remote-improved2/3.7.0-3.7.2/diff.md --exclude *.pyd
+[2023-07-02 19:17:06] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/b7/73/ef1e5a9923185ad2d38db84efb87e8d93114907ae85cca94cb643e419634/m23-1.9.4.tar.gz
+[2023-07-02 19:17:07] INFO root fetch - processPackages [m23]: executing diffoscope
+[2023-07-02 19:17:07] INFO root fetch - processPackages [m23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m23-1.9.3.tar.gz tmp/m23-1.9.4.tar.gz --markdown 20230702/m/m23/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-07-02 19:17:07] INFO root fetch - processPackages [wxmplot]: Downloading https://files.pythonhosted.org/packages/e4/51/ffdaa73502d84fa023b264d90c483c48292baaeaee76792b4523936d260e/wxmplot-0.9.7.zip
+[2023-07-02 19:17:07] INFO root fetch - processPackages [target-permutation-importances]: Remove: archive file [/home/abi/fetcher/tmp/target_permutation_importances-1.0.4.tar.gz]
+[2023-07-02 19:17:07] INFO root fetch - processPackages [target-permutation-importances]: Remove: archive file [/home/abi/fetcher/tmp/target_permutation_importances-1.0.5.tar.gz]
+[2023-07-02 19:17:07] INFO root fetch - main [MainThread]: End processing [target-permutation-importances]: success
+[2023-07-02 19:17:07] INFO root fetch - processPackages [wxmplot]: executing diffoscope
+[2023-07-02 19:17:07] INFO root fetch - processPackages [wxmplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wxmplot-0.9.6.tar.gz tmp/wxmplot-0.9.7.zip --markdown 20230702/w/wxmplot/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-07-02 19:17:07] INFO root fetch - processPackages [mend-ignore-alerts]: Remove: archive file [/home/abi/fetcher/tmp/mend_ignore_alerts-0.2.1-py3-none-any.whl.zip]
+[2023-07-02 19:17:07] INFO root fetch - processPackages [mend-ignore-alerts]: Remove: archive file [/home/abi/fetcher/tmp/mend_ignore_alerts-0.2.2-py3-none-any.whl.zip]
+[2023-07-02 19:17:07] INFO root fetch - main [MainThread]: End processing [mend-ignore-alerts]: success
+[2023-07-02 19:17:07] INFO root fetch - processPackages [django-tbase-post-product]: Remove: archive file [/home/abi/fetcher/tmp/django_tbase_post_product-2023.7.216883125.tar.gz]
+[2023-07-02 19:17:07] INFO root fetch - processPackages [django-tbase-post-product]: Remove: archive file [/home/abi/fetcher/tmp/django_tbase_post_product-2023.7.316883179.tar.gz]
+[2023-07-02 19:17:07] INFO root fetch - main [MainThread]: End processing [django-tbase-post-product]: success
+[2023-07-02 19:17:07] INFO root fetch - processPackages [ormlite]: Remove: archive file [/home/abi/fetcher/tmp/ormlite-0.0.1-py3-none-any.whl.zip]
+[2023-07-02 19:17:07] INFO root fetch - processPackages [ormlite]: Remove: archive file [/home/abi/fetcher/tmp/ormlite-0.0.2-py3-none-any.whl.zip]
+[2023-07-02 19:17:07] INFO root fetch - main [MainThread]: End processing [ormlite]: success
+[2023-07-02 19:17:07] INFO root fetch - processPackages [jvc-projector-remote-improved2]: Remove: archive file [/home/abi/fetcher/tmp/jvc_projector_remote_improved2-3.7.0.tar.gz]
+[2023-07-02 19:17:07] INFO root fetch - processPackages [jvc-projector-remote-improved2]: Remove: archive file [/home/abi/fetcher/tmp/jvc_projector_remote_improved2-3.7.2.tar.gz]
+[2023-07-02 19:17:07] INFO root fetch - main [MainThread]: End processing [jvc-projector-remote-improved2]: success
+[2023-07-02 19:17:08] INFO root fetch - processPackages [wxmplot]: Remove: archive file [/home/abi/fetcher/tmp/wxmplot-0.9.6.tar.gz]
+[2023-07-02 19:17:08] INFO root fetch - processPackages [wxmplot]: Remove: archive file [/home/abi/fetcher/tmp/wxmplot-0.9.7.zip]
+[2023-07-02 19:17:08] INFO root fetch - main [MainThread]: End processing [wxmplot]: success
+[2023-07-02 19:17:09] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.9.3.tar.gz]
+[2023-07-02 19:17:09] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.9.4.tar.gz]
+[2023-07-02 19:17:09] INFO root fetch - main [MainThread]: End processing [m23]: success
+[2023-07-02 19:17:09] INFO root fetch - main [MainThread]: Store serial: [18730289]
