@@ -7607,3 +7607,153 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 12:33:29] INFO root fetch - processPackages [tfra-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfra_nightly-0.6.0.dev20230630020932-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip]
 [2023-07-02 12:33:29] INFO root fetch - main [MainThread]: End processing [tfra-nightly]: success
 [2023-07-02 12:33:29] INFO root fetch - main [MainThread]: Store serial: [18727849]
+[2023-07-02 12:38:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18727849]
+[2023-07-02 12:38:43] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-02 12:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: extract-office-content
+[2023-07-02 12:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coffeegrinder
+[2023-07-02 12:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: roodkcab
+[2023-07-02 12:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mdiocre
+[2023-07-02 12:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rmy
+[2023-07-02 12:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: foursight-core
+[2023-07-02 12:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lnschema_bionty
+[2023-07-02 12:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nb-log
+[2023-07-02 12:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: radioplayer-dataclasses
+[2023-07-02 12:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: foursight-cgap
+[2023-07-02 12:38:44] INFO root fetch - processPackages [extract-office-content]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-02 12:38:44] INFO root fetch - processPackages [coffeegrinder]: New version: [0.2.8] Old Version: [0.2.6]
+[2023-07-02 12:38:44] INFO root fetch - processPackages [nb-log]: New version: [9.0] Old Version: [8.8]
+[2023-07-02 12:38:44] INFO root fetch - processPackages [foursight-cgap]: New version: [3.5.0.2b2] Old Version: [3.5.0.2b1]
+[2023-07-02 12:38:44] INFO root fetch - processPackages [rmy]: New version: [0.3] Old Version: [0.1.3]
+[2023-07-02 12:38:44] WARNING root fetch - processPackages [roodkcab]: Skipping, unable to determine old version
+[2023-07-02 12:38:44] INFO root fetch - processPackages [roodkcab]: Start processing: foursight
+[2023-07-02 12:38:44] INFO root fetch - main [MainThread]: End processing [roodkcab] error
+[2023-07-02 12:38:44] INFO root fetch - processPackages [mdiocre]: New version: [3.5.3] Old Version: [3.5.2]
+[2023-07-02 12:38:44] INFO root fetch - processPackages [lnschema_bionty]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-02 12:38:44] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/af/9a/522e9787c89112c99951c736fdb2c1ade077c749ed68bf85ee4055f3b4a8/foursight_cgap-3.5.0.2b1.tar.gz
+[2023-07-02 12:38:44] INFO root fetch - processPackages [radioplayer-dataclasses]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-02 12:38:44] INFO root fetch - processPackages [nb-log]: Downloading https://files.pythonhosted.org/packages/36/7a/d9e052101e0e17d825ca21bc60530f55b794f49cebd0a0962046303af6ec/nb_log-8.8.tar.gz
+[2023-07-02 12:38:44] INFO root fetch - processPackages [foursight-core]: New version: [4.3.0.2b3] Old Version: [4.3.0.2b2]
+[2023-07-02 12:38:44] INFO root fetch - processPackages [foursight]: New version: [3.5.0.2b2] Old Version: [3.5.0.2b1]
+[2023-07-02 12:38:44] INFO root fetch - processPackages [extract-office-content]: Downloading https://files.pythonhosted.org/packages/21/48/7a61d5d5a385fb0ac82b7135d7970d1f34e5f9e270341cdd9a3313ac21b0/extract_office_content-0.0.5-py3-none-any.whl
+[2023-07-02 12:38:44] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/65/58/c27ba3e3a188fd3553c7843620327be2ef15705938a87b1591b2c34ee0e0/foursight_core-4.3.0.2b2.tar.gz
+[2023-07-02 12:38:44] INFO root fetch - processPackages [coffeegrinder]: Downloading https://files.pythonhosted.org/packages/9a/66/66e117a374c361c5fd913ec5d1e6e250deffed01c3e25c5feb3cf434a279/coffeegrinder-0.2.6.tar.gz
+[2023-07-02 12:38:44] INFO root fetch - processPackages [rmy]: Downloading https://files.pythonhosted.org/packages/88/31/eed1e31f9d5aaebf42a42200809d8a9de561485b6a1abfb14072d81d3f5a/rmy-0.1.3.tar.gz
+[2023-07-02 12:38:44] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/ee/ab/f8d334ee48801fcf1c8933ff5aaa146ae36f23f085623a4a11ff6139e26f/foursight-3.5.0.2b1.tar.gz
+[2023-07-02 12:38:44] INFO root fetch - processPackages [radioplayer-dataclasses]: Downloading https://files.pythonhosted.org/packages/e3/37/36b0a299d413c5d91b912c87c42b8fa7be1d0b93b6d24776e4c68e237d85/radioplayer_dataclasses-0.4.0.tar.gz
+[2023-07-02 12:38:44] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/12/bb/32a1cbaa73ee4f038a3540bbbf0b3d7e27f22edcdbd7d7c80667fef68afd/lnschema_bionty-0.8.1.tar.gz
+[2023-07-02 12:38:44] INFO root fetch - processPackages [mdiocre]: Downloading https://files.pythonhosted.org/packages/1a/1a/ead35561cb467cd7a1d847d57d13c87a52878b56cf22b4e14d785944fd04/mdiocre-3.5.2.tar.gz
+[2023-07-02 12:38:44] INFO root fetch - processPackages [nb-log]: Downloading https://files.pythonhosted.org/packages/eb/8b/15d8447ac65264e7741d1a45de73101f7734764a5d96e6279a645352cc89/nb_log-9.0.tar.gz
+[2023-07-02 12:38:44] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/52/57/40321b19958e04e506f53bc4d7e56cd0095f38c0c9a48185d38359cb37c1/foursight_cgap-3.5.0.2b2.tar.gz
+[2023-07-02 12:38:44] INFO root fetch - processPackages [extract-office-content]: Downloading https://files.pythonhosted.org/packages/ac/d5/768cf9ab18c6655739071daa37cede500a71e8e8ab213888e79c7ec79c4b/extract_office_content-0.0.6-py3-none-any.whl
+[2023-07-02 12:38:44] INFO root fetch - processPackages [foursight-cgap]: executing diffoscope
+[2023-07-02 12:38:44] INFO root fetch - processPackages [foursight-cgap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_cgap-3.5.0.2b1.tar.gz tmp/foursight_cgap-3.5.0.2b2.tar.gz --markdown 20230702/f/foursight-cgap/3.5.0.2b1-3.5.0.2b2/diff.md --exclude *.pyd
+[2023-07-02 12:38:44] INFO root fetch - processPackages [nb-log]: executing diffoscope
+[2023-07-02 12:38:44] INFO root fetch - processPackages [nb-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb_log-8.8.tar.gz tmp/nb_log-9.0.tar.gz --markdown 20230702/n/nb-log/8.8-9.0/diff.md --exclude *.pyd
+[2023-07-02 12:38:44] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/e4/72/2877210d5e0754e27b770730205bd955327db70114545de4320497ec9104/foursight_core-4.3.0.2b3.tar.gz
+[2023-07-02 12:38:44] INFO root fetch - processPackages [coffeegrinder]: Downloading https://files.pythonhosted.org/packages/07/6d/f58bf759a190b78d36ac7f516510b4a414218b084ef936920ca0002f31cc/coffeegrinder-0.2.8.tar.gz
+[2023-07-02 12:38:44] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/a3/c7/812e773d5c967efc6db2de75b0d1450361c833c54452a9b8dda47a104388/foursight-3.5.0.2b2.tar.gz
+[2023-07-02 12:38:44] INFO root fetch - processPackages [radioplayer-dataclasses]: Downloading https://files.pythonhosted.org/packages/c8/1a/c70ddae55b6dd1655434b84d0ffa3a8f0ca8e3b0e91d134e0f4b48330181/radioplayer_dataclasses-0.5.0.tar.gz
+[2023-07-02 12:38:44] INFO root fetch - processPackages [mdiocre]: Downloading https://files.pythonhosted.org/packages/4c/0b/7b8fced8c37d1da633554ea438b0cbd764987c30882501ba87a59490ccec/mdiocre-3.5.3.tar.gz
+[2023-07-02 12:38:44] INFO root fetch - processPackages [rmy]: Downloading https://files.pythonhosted.org/packages/fa/e3/f17621ba230ad14c84c5f1bbd561c01caab7b35b2e8bc0eefbc7f88b7985/rmy-0.3.tar.gz
+[2023-07-02 12:38:44] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/ed/64/d2babdba858b56f5825e7ac3e2d375cf42dcf278f3c6ad9daf179e40b556/lnschema_bionty-0.9.0.tar.gz
+[2023-07-02 12:38:44] INFO root fetch - processPackages [foursight-core]: executing diffoscope
+[2023-07-02 12:38:44] INFO root fetch - processPackages [foursight-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_core-4.3.0.2b2.tar.gz tmp/foursight_core-4.3.0.2b3.tar.gz --markdown 20230702/f/foursight-core/4.3.0.2b2-4.3.0.2b3/diff.md --exclude *.pyd
+[2023-07-02 12:38:44] INFO root fetch - processPackages [extract-office-content]: executing diffoscope
+[2023-07-02 12:38:44] INFO root fetch - processPackages [extract-office-content]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extract_office_content-0.0.5-py3-none-any.whl.zip tmp/extract_office_content-0.0.6-py3-none-any.whl.zip --markdown 20230702/e/extract-office-content/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-02 12:38:44] INFO root fetch - processPackages [radioplayer-dataclasses]: executing diffoscope
+[2023-07-02 12:38:44] INFO root fetch - processPackages [radioplayer-dataclasses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radioplayer_dataclasses-0.4.0.tar.gz tmp/radioplayer_dataclasses-0.5.0.tar.gz --markdown 20230702/r/radioplayer-dataclasses/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-02 12:38:44] INFO root fetch - processPackages [foursight]: executing diffoscope
+[2023-07-02 12:38:44] INFO root fetch - processPackages [foursight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight-3.5.0.2b1.tar.gz tmp/foursight-3.5.0.2b2.tar.gz --markdown 20230702/f/foursight/3.5.0.2b1-3.5.0.2b2/diff.md --exclude *.pyd
+[2023-07-02 12:38:44] INFO root fetch - processPackages [rmy]: executing diffoscope
+[2023-07-02 12:38:44] INFO root fetch - processPackages [rmy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rmy-0.1.3.tar.gz tmp/rmy-0.3.tar.gz --markdown 20230702/r/rmy/0.1.3-0.3/diff.md --exclude *.pyd
+[2023-07-02 12:38:44] INFO root fetch - processPackages [lnschema_bionty]: executing diffoscope
+[2023-07-02 12:38:44] INFO root fetch - processPackages [lnschema_bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_bionty-0.8.1.tar.gz tmp/lnschema_bionty-0.9.0.tar.gz --markdown 20230702/l/lnschema_bionty/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-02 12:38:44] INFO root fetch - processPackages [mdiocre]: executing diffoscope
+[2023-07-02 12:38:44] INFO root fetch - processPackages [mdiocre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdiocre-3.5.2.tar.gz tmp/mdiocre-3.5.3.tar.gz --markdown 20230702/m/mdiocre/3.5.2-3.5.3/diff.md --exclude *.pyd
+[2023-07-02 12:38:44] INFO root fetch - processPackages [coffeegrinder]: executing diffoscope
+[2023-07-02 12:38:44] INFO root fetch - processPackages [coffeegrinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coffeegrinder-0.2.6.tar.gz tmp/coffeegrinder-0.2.8.tar.gz --markdown 20230702/c/coffeegrinder/0.2.6-0.2.8/diff.md --exclude *.pyd
+[2023-07-02 12:38:46] INFO root fetch - processPackages [nb-log]: Remove: archive file [/home/abi/fetcher/tmp/nb_log-8.8.tar.gz]
+[2023-07-02 12:38:46] INFO root fetch - processPackages [nb-log]: Remove: archive file [/home/abi/fetcher/tmp/nb_log-9.0.tar.gz]
+[2023-07-02 12:38:46] INFO root fetch - processPackages [nb-log]: Start processing: pydflow
+[2023-07-02 12:38:46] INFO root fetch - main [MainThread]: End processing [nb-log]: success
+[2023-07-02 12:38:46] INFO root fetch - processPackages [rmy]: Remove: archive file [/home/abi/fetcher/tmp/rmy-0.1.3.tar.gz]
+[2023-07-02 12:38:46] INFO root fetch - processPackages [rmy]: Remove: archive file [/home/abi/fetcher/tmp/rmy-0.3.tar.gz]
+[2023-07-02 12:38:46] INFO root fetch - processPackages [rmy]: Start processing: footballmodels
+[2023-07-02 12:38:46] INFO root fetch - main [MainThread]: End processing [rmy]: success
+[2023-07-02 12:38:46] INFO root fetch - processPackages [pydflow]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-02 12:38:46] INFO root fetch - processPackages [radioplayer-dataclasses]: Remove: archive file [/home/abi/fetcher/tmp/radioplayer_dataclasses-0.4.0.tar.gz]
+[2023-07-02 12:38:46] INFO root fetch - processPackages [radioplayer-dataclasses]: Remove: archive file [/home/abi/fetcher/tmp/radioplayer_dataclasses-0.5.0.tar.gz]
+[2023-07-02 12:38:46] INFO root fetch - processPackages [radioplayer-dataclasses]: Start processing: bluecast
+[2023-07-02 12:38:46] INFO root fetch - main [MainThread]: End processing [radioplayer-dataclasses]: success
+[2023-07-02 12:38:46] INFO root fetch - processPackages [footballmodels]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-02 12:38:46] INFO root fetch - processPackages [mdiocre]: Remove: archive file [/home/abi/fetcher/tmp/mdiocre-3.5.2.tar.gz]
+[2023-07-02 12:38:46] INFO root fetch - processPackages [mdiocre]: Remove: archive file [/home/abi/fetcher/tmp/mdiocre-3.5.3.tar.gz]
+[2023-07-02 12:38:46] INFO root fetch - processPackages [mdiocre]: Start processing: funboost
+[2023-07-02 12:38:46] INFO root fetch - main [MainThread]: End processing [mdiocre]: success
+[2023-07-02 12:38:46] INFO root fetch - processPackages [funboost]: New version: [23.6] Old Version: [23.5]
+[2023-07-02 12:38:46] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.8.1.tar.gz]
+[2023-07-02 12:38:46] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.9.0.tar.gz]
+[2023-07-02 12:38:46] INFO root fetch - processPackages [lnschema_bionty]: Start processing: hyfi-template
+[2023-07-02 12:38:46] INFO root fetch - main [MainThread]: End processing [lnschema_bionty]: success
+[2023-07-02 12:38:46] INFO root fetch - processPackages [funboost]: Downloading https://files.pythonhosted.org/packages/12/c4/cf6b2e651fa4a377332ca5f7f8b7e9213d393c3ba66a4ebe542f1865f79e/funboost-23.5-py3-none-any.whl
+[2023-07-02 12:38:46] INFO root fetch - processPackages [bluecast]: New version: [0.7] Old Version: [0.5]
+[2023-07-02 12:38:46] INFO root fetch - processPackages [hyfi-template]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-02 12:38:46] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/33/96/a989d9cfcdb5dcb43d60a72640c59e2efb7fd053182742205b332006f813/pydflow-1.7.8.tar.gz
+[2023-07-02 12:38:46] INFO root fetch - processPackages [extract-office-content]: Remove: archive file [/home/abi/fetcher/tmp/extract_office_content-0.0.5-py3-none-any.whl.zip]
+[2023-07-02 12:38:46] INFO root fetch - processPackages [extract-office-content]: Remove: archive file [/home/abi/fetcher/tmp/extract_office_content-0.0.6-py3-none-any.whl.zip]
+[2023-07-02 12:38:46] INFO root fetch - processPackages [extract-office-content]: Start processing: sfdevtools
+[2023-07-02 12:38:46] INFO root fetch - main [MainThread]: End processing [extract-office-content]: success
+[2023-07-02 12:38:46] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/de/d2/3a18537d4af2f791ca4ac2c96432acb2b60bc28e0a3bde512d17945062bc/hyfi_template-0.3.8.tar.gz
+[2023-07-02 12:38:46] INFO root fetch - processPackages [footballmodels]: Downloading https://files.pythonhosted.org/packages/28/d4/b3ed5da5ebf54be1dc57736bbe326cc65e700f5234d3151cd507d102746b/footballmodels-0.0.1.tar.gz
+[2023-07-02 12:38:46] INFO root fetch - processPackages [bluecast]: Downloading https://files.pythonhosted.org/packages/5a/40/b6196481cb4ca084c4bd7cb2c719538e74ae6a4ff0c45363bb41ab65edaa/bluecast-0.5.tar.gz
+[2023-07-02 12:38:46] INFO root fetch - processPackages [funboost]: Downloading https://files.pythonhosted.org/packages/ab/38/c9a703467fe39ed81f0dc3b10b8476080f11d5316476722d3753ff29d875/funboost-23.6-py3-none-any.whl
+[2023-07-02 12:38:46] INFO root fetch - processPackages [funboost]: executing diffoscope
+[2023-07-02 12:38:46] INFO root fetch - processPackages [funboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funboost-23.5-py3-none-any.whl.zip tmp/funboost-23.6-py3-none-any.whl.zip --markdown 20230702/f/funboost/23.5-23.6/diff.md --exclude *.pyd
+[2023-07-02 12:38:46] INFO root fetch - processPackages [coffeegrinder]: Remove: archive file [/home/abi/fetcher/tmp/coffeegrinder-0.2.6.tar.gz]
+[2023-07-02 12:38:46] INFO root fetch - processPackages [coffeegrinder]: Remove: archive file [/home/abi/fetcher/tmp/coffeegrinder-0.2.8.tar.gz]
+[2023-07-02 12:38:46] INFO root fetch - main [MainThread]: End processing [coffeegrinder]: success
+[2023-07-02 12:38:46] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/52/9d/a59bbe37a7a9fecd2074109613b3d488a7d0e727283141375549eedf064e/hyfi_template-0.3.9.tar.gz
+[2023-07-02 12:38:46] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/9c/41/6c9bc72fde943869899725f55fade9f850f62ecbc6fa31e53b8fa79ae5a3/pydflow-1.7.9.tar.gz
+[2023-07-02 12:38:46] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.5.0.2b1.tar.gz]
+[2023-07-02 12:38:46] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.5.0.2b2.tar.gz]
+[2023-07-02 12:38:46] INFO root fetch - main [MainThread]: End processing [foursight-cgap]: success
+[2023-07-02 12:38:46] INFO root fetch - processPackages [footballmodels]: Downloading https://files.pythonhosted.org/packages/4a/a6/b6b9afe660dfb4fc084f8a98493a1d9272bf50ffbdb0ac5bc9b6641750a3/footballmodels-0.0.2.tar.gz
+[2023-07-02 12:38:46] INFO root fetch - processPackages [bluecast]: Downloading https://files.pythonhosted.org/packages/af/c8/b55e580449ff6007719e1ea70f7464fef7ee51046365067f31ddd36f6281/bluecast-0.7.tar.gz
+[2023-07-02 12:38:46] INFO root fetch - processPackages [hyfi-template]: executing diffoscope
+[2023-07-02 12:38:46] INFO root fetch - processPackages [hyfi-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi_template-0.3.8.tar.gz tmp/hyfi_template-0.3.9.tar.gz --markdown 20230702/h/hyfi-template/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-02 12:38:46] INFO root fetch - processPackages [footballmodels]: executing diffoscope
+[2023-07-02 12:38:46] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-07-02 12:38:46] INFO root fetch - processPackages [footballmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/footballmodels-0.0.1.tar.gz tmp/footballmodels-0.0.2.tar.gz --markdown 20230702/f/footballmodels/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-02 12:38:46] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.7.8.tar.gz tmp/pydflow-1.7.9.tar.gz --markdown 20230702/p/pydflow/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-02 12:38:46] INFO root fetch - processPackages [bluecast]: executing diffoscope
+[2023-07-02 12:38:46] INFO root fetch - processPackages [bluecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluecast-0.5.tar.gz tmp/bluecast-0.7.tar.gz --markdown 20230702/b/bluecast/0.5-0.7/diff.md --exclude *.pyd
+[2023-07-02 12:38:47] INFO root fetch - processPackages [hyfi-template]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_template-0.3.8.tar.gz]
+[2023-07-02 12:38:47] INFO root fetch - processPackages [hyfi-template]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_template-0.3.9.tar.gz]
+[2023-07-02 12:38:47] INFO root fetch - main [MainThread]: End processing [hyfi-template]: success
+[2023-07-02 12:38:47] INFO root fetch - processPackages [sfdevtools]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-02 12:38:48] INFO root fetch - processPackages [footballmodels]: Remove: archive file [/home/abi/fetcher/tmp/footballmodels-0.0.1.tar.gz]
+[2023-07-02 12:38:48] INFO root fetch - processPackages [footballmodels]: Remove: archive file [/home/abi/fetcher/tmp/footballmodels-0.0.2.tar.gz]
+[2023-07-02 12:38:48] INFO root fetch - main [MainThread]: End processing [footballmodels]: success
+[2023-07-02 12:38:48] INFO root fetch - processPackages [sfdevtools]: Downloading https://files.pythonhosted.org/packages/f0/c4/675f9a40d3ef99ca309673c8cd644b37c100d62a1dec1f2158933233be29/sfdevtools-1.8.0.tar.gz
+[2023-07-02 12:38:48] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.5.0.2b1.tar.gz]
+[2023-07-02 12:38:48] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.5.0.2b2.tar.gz]
+[2023-07-02 12:38:48] INFO root fetch - main [MainThread]: End processing [foursight]: success
+[2023-07-02 12:38:48] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.8.tar.gz]
+[2023-07-02 12:38:48] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.9.tar.gz]
+[2023-07-02 12:38:48] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-07-02 12:38:48] INFO root fetch - processPackages [sfdevtools]: Downloading https://files.pythonhosted.org/packages/69/af/e25d45567078c10c7540bf8ba0383fcb891bc2cf7f2312fe49fb0fbd2737/sfdevtools-1.9.0.tar.gz
+[2023-07-02 12:38:48] INFO root fetch - processPackages [bluecast]: Remove: archive file [/home/abi/fetcher/tmp/bluecast-0.5.tar.gz]
+[2023-07-02 12:38:48] INFO root fetch - processPackages [bluecast]: Remove: archive file [/home/abi/fetcher/tmp/bluecast-0.7.tar.gz]
+[2023-07-02 12:38:48] INFO root fetch - main [MainThread]: End processing [bluecast]: success
+[2023-07-02 12:38:48] INFO root fetch - processPackages [sfdevtools]: executing diffoscope
+[2023-07-02 12:38:48] INFO root fetch - processPackages [sfdevtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfdevtools-1.8.0.tar.gz tmp/sfdevtools-1.9.0.tar.gz --markdown 20230702/s/sfdevtools/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-02 12:38:49] INFO root fetch - processPackages [funboost]: Remove: archive file [/home/abi/fetcher/tmp/funboost-23.5-py3-none-any.whl.zip]
+[2023-07-02 12:38:49] INFO root fetch - processPackages [funboost]: Remove: archive file [/home/abi/fetcher/tmp/funboost-23.6-py3-none-any.whl.zip]
+[2023-07-02 12:38:49] INFO root fetch - main [MainThread]: End processing [funboost]: success
+[2023-07-02 12:38:49] INFO root fetch - processPackages [sfdevtools]: Remove: archive file [/home/abi/fetcher/tmp/sfdevtools-1.8.0.tar.gz]
+[2023-07-02 12:38:49] INFO root fetch - processPackages [sfdevtools]: Remove: archive file [/home/abi/fetcher/tmp/sfdevtools-1.9.0.tar.gz]
+[2023-07-02 12:38:49] INFO root fetch - main [MainThread]: End processing [sfdevtools]: success
+[2023-07-02 12:39:02] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.2b2.tar.gz]
+[2023-07-02 12:39:02] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.2b3.tar.gz]
+[2023-07-02 12:39:02] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
+[2023-07-02 12:39:02] INFO root fetch - main [MainThread]: Store serial: [18727912]
