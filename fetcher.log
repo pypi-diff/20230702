@@ -5597,3 +5597,27 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 09:32:00] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.1.9.tar.gz]
 [2023-07-02 09:32:00] INFO root fetch - main [MainThread]: End processing [sweepai]: success
 [2023-07-02 09:32:00] INFO root fetch - main [MainThread]: Store serial: [18726989]
+[2023-07-02 09:37:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726989]
+[2023-07-02 09:37:08] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-02 09:37:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: threemystic-cloud-client
+[2023-07-02 09:37:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ai4xde
+[2023-07-02 09:37:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ourlib
+[2023-07-02 09:37:09] INFO root fetch - processPackages [ourlib]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-02 09:37:09] INFO root fetch - processPackages [threemystic-cloud-client]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-02 09:37:09] WARNING root fetch - processPackages [ai4xde]: Skipping, unable to determine old version
+[2023-07-02 09:37:09] INFO root fetch - main [MainThread]: End processing [ai4xde] error
+[2023-07-02 09:37:09] INFO root fetch - processPackages [ourlib]: Downloading https://files.pythonhosted.org/packages/ab/78/22fe9c1122eb4a36f4f80be4bf8455244753dc0e23a87b1a39556ba57484/ourlib-0.1.2.tar.gz
+[2023-07-02 09:37:09] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/f5/06/0af670a9a7da8a289f8255afdb4a04f81eb95dce28f77015587dd12de08c/threemystic_cloud_client-0.1.1.tar.gz
+[2023-07-02 09:37:09] INFO root fetch - processPackages [ourlib]: Downloading https://files.pythonhosted.org/packages/f9/79/98a331dbaf22733e72f47eba6fb7c5ed0d458b2b444db0d7e64e32d28816/ourlib-0.1.3.tar.gz
+[2023-07-02 09:37:09] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/81/8f/563427ed39311ac8c640be1f022d625a3083994343296132c0a42093c058/threemystic_cloud_client-0.1.2.tar.gz
+[2023-07-02 09:37:09] INFO root fetch - processPackages [ourlib]: executing diffoscope
+[2023-07-02 09:37:09] INFO root fetch - processPackages [ourlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ourlib-0.1.2.tar.gz tmp/ourlib-0.1.3.tar.gz --markdown 20230702/o/ourlib/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-02 09:37:09] INFO root fetch - processPackages [threemystic-cloud-client]: executing diffoscope
+[2023-07-02 09:37:09] INFO root fetch - processPackages [threemystic-cloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_client-0.1.1.tar.gz tmp/threemystic_cloud_client-0.1.2.tar.gz --markdown 20230702/t/threemystic-cloud-client/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-02 09:37:10] INFO root fetch - processPackages [ourlib]: Remove: archive file [/home/abi/fetcher/tmp/ourlib-0.1.2.tar.gz]
+[2023-07-02 09:37:10] INFO root fetch - processPackages [ourlib]: Remove: archive file [/home/abi/fetcher/tmp/ourlib-0.1.3.tar.gz]
+[2023-07-02 09:37:10] INFO root fetch - main [MainThread]: End processing [ourlib]: success
+[2023-07-02 09:37:10] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.1.tar.gz]
+[2023-07-02 09:37:10] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.2.tar.gz]
+[2023-07-02 09:37:10] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-client]: success
+[2023-07-02 09:37:10] INFO root fetch - main [MainThread]: Store serial: [18727000]
