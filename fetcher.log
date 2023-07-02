@@ -10828,3 +10828,73 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 16:55:56] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-Fluent-Widgets-1.0.0.tar.gz]
 [2023-07-02 16:55:56] INFO root fetch - main [MainThread]: End processing [PySide6-Fluent-Widgets]: success
 [2023-07-02 16:55:56] INFO root fetch - main [MainThread]: Store serial: [18729238]
+[2023-07-02 17:01:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18729238]
+[2023-07-02 17:01:08] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-02 17:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: target-permutation-importances
+[2023-07-02 17:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: memotools
+[2023-07-02 17:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: engression
+[2023-07-02 17:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cellworld
+[2023-07-02 17:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ccxt
+[2023-07-02 17:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fast-webflow
+[2023-07-02 17:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyroFork-dev
+[2023-07-02 17:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cellworld
+[2023-07-02 17:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: speed-benchmark
+[2023-07-02 17:01:08] WARNING root fetch - processPackages [engression]: Skipping, unable to determine old version
+[2023-07-02 17:01:08] INFO root fetch - main [MainThread]: End processing [engression] error
+[2023-07-02 17:01:08] WARNING root fetch - processPackages [memotools]: Skipping, unable to determine old version
+[2023-07-02 17:01:08] INFO root fetch - main [MainThread]: End processing [memotools] error
+[2023-07-02 17:01:08] INFO root fetch - processPackages [target-permutation-importances]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-02 17:01:08] INFO root fetch - processPackages [fast-webflow]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-02 17:01:08] INFO root fetch - processPackages [PyroFork-dev]: New version: [2.2.3.dev202307021458] Old Version: [2.2.3.dev202307011315]
+[2023-07-02 17:01:08] INFO root fetch - processPackages [cellworld]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-02 17:01:08] INFO root fetch - processPackages [cellworld]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-02 17:01:08] INFO root fetch - processPackages [ccxt]: New version: [4.0.4] Old Version: [4.0.3]
+[2023-07-02 17:01:08] INFO root fetch - processPackages [speed-benchmark]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-02 17:01:08] INFO root fetch - processPackages [fast-webflow]: Downloading https://files.pythonhosted.org/packages/d3/d0/5b646885bfaeb7ba6e613a090eccffd0f214fb8790427e014183ea166d84/fast-webflow-0.3.0.tar.gz
+[2023-07-02 17:01:08] INFO root fetch - processPackages [cellworld]: Downloading https://files.pythonhosted.org/packages/5b/48/37c208bf9f17c56f039db252d8343184a4a55191496e7d6fc9880261bc31/cellworld-0.0.98.tar.gz
+[2023-07-02 17:01:08] INFO root fetch - processPackages [cellworld]: Downloading https://files.pythonhosted.org/packages/5b/48/37c208bf9f17c56f039db252d8343184a4a55191496e7d6fc9880261bc31/cellworld-0.0.98.tar.gz
+[2023-07-02 17:01:08] INFO root fetch - processPackages [target-permutation-importances]: Downloading https://files.pythonhosted.org/packages/f3/99/6d7796f5e1c0b85eb1d21e086ae3e4ac394af8f2ea8be7740e8d005d131f/target_permutation_importances-1.0.1.tar.gz
+[2023-07-02 17:01:08] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/be/43/4af25cfafb207b47d248bf35f34bce35d0431178169effbc8c84980820ae/ccxt-4.0.3.tar.gz
+[2023-07-02 17:01:08] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/52/66/425fff7d667eb9184bc50eda31a275f0f7b2f87e9024ea4568518ffd9be2/PyroFork-dev-2.2.3.dev202307011315.tar.gz
+[2023-07-02 17:01:08] INFO root fetch - processPackages [cellworld]: Downloading https://files.pythonhosted.org/packages/ef/23/3c6f38892cfa3ebc3c34a2cf3e74549ede81266641f0969285913d8e199b/cellworld-0.0.99.tar.gz
+[2023-07-02 17:01:08] INFO root fetch - processPackages [cellworld]: Downloading https://files.pythonhosted.org/packages/ef/23/3c6f38892cfa3ebc3c34a2cf3e74549ede81266641f0969285913d8e199b/cellworld-0.0.99.tar.gz
+[2023-07-02 17:01:08] INFO root fetch - processPackages [speed-benchmark]: Downloading https://files.pythonhosted.org/packages/a7/de/c6179a3f5b8e03842a5571b1f83ed8bfd85b33a1790f763ddc89482f6cbc/speed-benchmark-1.0.2.tar.gz
+[2023-07-02 17:01:09] INFO root fetch - processPackages [fast-webflow]: Downloading https://files.pythonhosted.org/packages/c6/d6/be0a63ec5c76f400d076a7f003cabc4ba82f8bca739d85fda9e48798a0ef/fast-webflow-0.3.1.tar.gz
+[2023-07-02 17:01:09] INFO root fetch - processPackages [cellworld]: executing diffoscope
+[2023-07-02 17:01:09] INFO root fetch - processPackages [cellworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellworld-0.0.98.tar.gz tmp/cellworld-0.0.99.tar.gz --markdown 20230702/c/cellworld/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-02 17:01:09] INFO root fetch - processPackages [target-permutation-importances]: Downloading https://files.pythonhosted.org/packages/28/67/e6d7891bedd33e620e104236064deec5b019f1267ae14cdb36152b5356de/target_permutation_importances-1.0.2.tar.gz
+[2023-07-02 17:01:09] INFO root fetch - processPackages [cellworld]: executing diffoscope
+[2023-07-02 17:01:09] INFO root fetch - processPackages [cellworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellworld-0.0.98.tar.gz tmp/cellworld-0.0.99.tar.gz --markdown 20230702/c/cellworld/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-02 17:01:09] INFO root fetch - processPackages [fast-webflow]: executing diffoscope
+[2023-07-02 17:01:09] INFO root fetch - processPackages [fast-webflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast-webflow-0.3.0.tar.gz tmp/fast-webflow-0.3.1.tar.gz --markdown 20230702/f/fast-webflow/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-02 17:01:09] INFO root fetch - processPackages [target-permutation-importances]: executing diffoscope
+[2023-07-02 17:01:09] INFO root fetch - processPackages [target-permutation-importances]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/target_permutation_importances-1.0.1.tar.gz tmp/target_permutation_importances-1.0.2.tar.gz --markdown 20230702/t/target-permutation-importances/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-02 17:01:09] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/2d/d0/c305809206d4791ead255db1e5b39cfc011374da533d813bb6832b7afee7/PyroFork-dev-2.2.3.dev202307021458.tar.gz
+[2023-07-02 17:01:09] INFO root fetch - processPackages [speed-benchmark]: Downloading https://files.pythonhosted.org/packages/16/8a/114dbfdd079e9b914897d6de0d95c122fd29241447fec64f554f6f04db26/speed-benchmark-1.0.3.tar.gz
+[2023-07-02 17:01:09] INFO root fetch - processPackages [PyroFork-dev]: executing diffoscope
+[2023-07-02 17:01:09] INFO root fetch - processPackages [PyroFork-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-dev-2.2.3.dev202307011315.tar.gz tmp/PyroFork-dev-2.2.3.dev202307021458.tar.gz --markdown 20230702/P/PyroFork-dev/2.2.3.dev202307011315-2.2.3.dev202307021458/diff.md --exclude *.pyd
+[2023-07-02 17:01:09] INFO root fetch - processPackages [speed-benchmark]: executing diffoscope
+[2023-07-02 17:01:09] INFO root fetch - processPackages [speed-benchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speed-benchmark-1.0.2.tar.gz tmp/speed-benchmark-1.0.3.tar.gz --markdown 20230702/s/speed-benchmark/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-02 17:01:09] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/c6/74/966c3c518b8e917a331cc55ab89c9c5b2f78877f7112731735b33eec9c41/ccxt-4.0.4.tar.gz
+[2023-07-02 17:01:09] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-07-02 17:01:09] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.0.3.tar.gz tmp/ccxt-4.0.4.tar.gz --markdown 20230702/c/ccxt/4.0.3-4.0.4/diff.md --exclude *.pyd
+[2023-07-02 17:01:10] INFO root fetch - processPackages [cellworld]: Remove: archive file [/home/abi/fetcher/tmp/cellworld-0.0.98.tar.gz]
+[2023-07-02 17:01:10] INFO root fetch - processPackages [cellworld]: Remove: archive file [/home/abi/fetcher/tmp/cellworld-0.0.99.tar.gz]
+[2023-07-02 17:01:10] INFO root fetch - main [MainThread]: End processing [cellworld]: success
+[2023-07-02 17:01:10] INFO root fetch - processPackages [target-permutation-importances]: Remove: archive file [/home/abi/fetcher/tmp/target_permutation_importances-1.0.1.tar.gz]
+[2023-07-02 17:01:10] INFO root fetch - processPackages [target-permutation-importances]: Remove: archive file [/home/abi/fetcher/tmp/target_permutation_importances-1.0.2.tar.gz]
+[2023-07-02 17:01:10] INFO root fetch - main [MainThread]: End processing [target-permutation-importances]: success
+[2023-07-02 17:01:10] INFO root fetch - processPackages [fast-webflow]: Remove: archive file [/home/abi/fetcher/tmp/fast-webflow-0.3.0.tar.gz]
+[2023-07-02 17:01:10] INFO root fetch - processPackages [fast-webflow]: Remove: archive file [/home/abi/fetcher/tmp/fast-webflow-0.3.1.tar.gz]
+[2023-07-02 17:01:10] INFO root fetch - main [MainThread]: End processing [fast-webflow]: success
+[2023-07-02 17:01:10] INFO root fetch - main [MainThread]: End processing [cellworld]: success
+[2023-07-02 17:01:10] INFO root fetch - processPackages [speed-benchmark]: Remove: archive file [/home/abi/fetcher/tmp/speed-benchmark-1.0.2.tar.gz]
+[2023-07-02 17:01:10] INFO root fetch - processPackages [speed-benchmark]: Remove: archive file [/home/abi/fetcher/tmp/speed-benchmark-1.0.3.tar.gz]
+[2023-07-02 17:01:10] INFO root fetch - main [MainThread]: End processing [speed-benchmark]: success
+[2023-07-02 17:01:13] INFO root fetch - processPackages [PyroFork-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-dev-2.2.3.dev202307011315.tar.gz]
+[2023-07-02 17:01:13] INFO root fetch - processPackages [PyroFork-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-dev-2.2.3.dev202307021458.tar.gz]
+[2023-07-02 17:01:13] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
+[2023-07-02 17:01:32] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.3.tar.gz]
+[2023-07-02 17:01:32] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.4.tar.gz]
+[2023-07-02 17:01:32] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-07-02 17:01:32] INFO root fetch - main [MainThread]: Store serial: [18729268]
