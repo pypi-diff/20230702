@@ -4819,3 +4819,15 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 07:40:58] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2023-07-02 07:40:58] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-07-02 07:40:58] INFO root fetch - main [MainThread]: Store serial: [18726596]
+[2023-07-02 07:46:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726596]
+[2023-07-02 07:46:06] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-02 07:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyHB
+[2023-07-02 07:46:06] INFO root fetch - processPackages [pyHB]: New version: [0.3] Old Version: [0.2]
+[2023-07-02 07:46:07] INFO root fetch - processPackages [pyHB]: Downloading https://files.pythonhosted.org/packages/78/05/54ed3fbe38bcd6b49cbcb05f656ddff7414790a9f47936af708025375cc0/pyHB-0.2.tar.gz
+[2023-07-02 07:46:07] INFO root fetch - processPackages [pyHB]: Downloading https://files.pythonhosted.org/packages/87/f4/b3d1df451830be4fcf5d4106e9c8235c99e1b58a9912133e81cfb30795d4/pyHB-0.3.tar.gz
+[2023-07-02 07:46:07] INFO root fetch - processPackages [pyHB]: executing diffoscope
+[2023-07-02 07:46:07] INFO root fetch - processPackages [pyHB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyHB-0.2.tar.gz tmp/pyHB-0.3.tar.gz --markdown 20230702/p/pyHB/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-02 07:46:08] INFO root fetch - processPackages [pyHB]: Remove: archive file [/home/abi/fetcher/tmp/pyHB-0.2.tar.gz]
+[2023-07-02 07:46:08] INFO root fetch - processPackages [pyHB]: Remove: archive file [/home/abi/fetcher/tmp/pyHB-0.3.tar.gz]
+[2023-07-02 07:46:08] INFO root fetch - main [MainThread]: End processing [pyHB]: success
+[2023-07-02 07:46:08] INFO root fetch - main [MainThread]: Store serial: [18726600]
