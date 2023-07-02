@@ -5645,3 +5645,96 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 09:42:23] INFO root fetch - processPackages [classiq]: Remove: archive file [/home/abi/fetcher/tmp/classiq-0.9.3-py3-none-any.whl.zip]
 [2023-07-02 09:42:23] INFO root fetch - main [MainThread]: End processing [classiq]: success
 [2023-07-02 09:42:23] INFO root fetch - main [MainThread]: Store serial: [18727012]
+[2023-07-02 09:47:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18727012]
+[2023-07-02 09:47:31] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-02 09:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stigg-api-client
+[2023-07-02 09:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stigg-api-client-v2
+[2023-07-02 09:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BlitzChain
+[2023-07-02 09:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pinject-design
+[2023-07-02 09:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: threemystic-cloud-data-client
+[2023-07-02 09:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pycatsearch
+[2023-07-02 09:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: idoctorai
+[2023-07-02 09:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: giteasy
+[2023-07-02 09:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: keras-nightly
+[2023-07-02 09:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyzjr
+[2023-07-02 09:47:31] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [0.471.0] Old Version: [0.470.0]
+[2023-07-02 09:47:31] INFO root fetch - processPackages [stigg-api-client]: New version: [0.5.0] Old Version: [0.471.0]
+[2023-07-02 09:47:31] INFO root fetch - processPackages [idoctorai]: New version: [0.6.1] Old Version: [0.5.1]
+[2023-07-02 09:47:31] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-02 09:47:31] INFO root fetch - processPackages [pycatsearch]: New version: [5.1.9.2] Old Version: [5.1.8]
+[2023-07-02 09:47:31] INFO root fetch - processPackages [BlitzChain]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-02 09:47:31] INFO root fetch - processPackages [pinject-design]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 09:47:31] INFO root fetch - processPackages [giteasy]: New version: [9.5.0] Old Version: [9.4.0]
+[2023-07-02 09:47:31] INFO root fetch - processPackages [pyzjr]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-02 09:47:31] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-07-02 09:47:31] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/5f/f2/6f47beb8ae7800164b86a0ca180efa5ad86edb3b1419d97531dddcc0c026/pinject-design-0.1.8.tar.gz
+[2023-07-02 09:47:31] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-07-02 09:47:31] INFO root fetch - processPackages [pyzjr]: Downloading https://files.pythonhosted.org/packages/30/1e/d30ffdcd282f75916e089664f5a7825fbffe8e1b6025e846886b85bdd9bc/pyzjr-0.0.2.tar.gz
+[2023-07-02 09:47:31] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/46/28/59e6f945415c43ef3f639cec38cfa590bd80a24180ff8cc37c3794b22988/stigg_api_client-0.471.0.tar.gz
+[2023-07-02 09:47:31] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/93/65/452d940f0c0c62d864f0e61bab0818c0018017e2a7e72a71283953d4d3bd/threemystic_cloud_data_client-0.1.1.tar.gz
+[2023-07-02 09:47:31] INFO root fetch - processPackages [BlitzChain]: Downloading https://files.pythonhosted.org/packages/ff/5e/1eeeeee7e4a35c1fb45b2be31d4c0a6b7d7974b310d6da33be71869d3e5a/BlitzChain-0.2.7.tar.gz
+[2023-07-02 09:47:31] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/54/56/0d7c2a232ff26bd16de79479d6ae621dcb10f2fd32e379cdc2ee313a9924/stigg_api_client_v2-0.470.0.tar.gz
+[2023-07-02 09:47:31] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/52/12/a13d2115034630043d98ad1bf73e273115201ee763cd0fd21c61df995b87/pinject-design-0.1.9.tar.gz
+[2023-07-02 09:47:31] INFO root fetch - processPackages [pycatsearch]: Downloading https://files.pythonhosted.org/packages/b2/94/80d10b88b271acc0eaf5ef789d9d2880a8eb3c5d5de7222016dbe8a58738/pycatsearch-5.1.8.tar.gz
+[2023-07-02 09:47:31] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/40/b2/76938a79a269dd2546fc7ccee3d7f0e40fd3a631dca40c1d5d9e6d7be579/idoctorai-0.5.1.tar.gz
+[2023-07-02 09:47:31] INFO root fetch - processPackages [giteasy]: Downloading https://files.pythonhosted.org/packages/66/b9/4586043ff127d036ccd1570583aeb17c1f22ad8e6731e3954cce09c9dd06/giteasy-9.4.0.tar.gz
+[2023-07-02 09:47:31] INFO root fetch - processPackages [pinject-design]: executing diffoscope
+[2023-07-02 09:47:31] INFO root fetch - processPackages [pinject-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinject-design-0.1.8.tar.gz tmp/pinject-design-0.1.9.tar.gz --markdown 20230702/p/pinject-design/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 09:47:31] INFO root fetch - processPackages [pyzjr]: Downloading https://files.pythonhosted.org/packages/82/18/a8232999e47c90a183d7fd9e1d1954f2d1917ac11c4d0e38e11d124f2184/pyzjr-0.0.3.tar.gz
+[2023-07-02 09:47:31] INFO root fetch - processPackages [pyzjr]: executing diffoscope
+[2023-07-02 09:47:31] INFO root fetch - processPackages [pyzjr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyzjr-0.0.2.tar.gz tmp/pyzjr-0.0.3.tar.gz --markdown 20230702/p/pyzjr/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-02 09:47:32] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/1b/47/c05caa2d0df65fb85978a672ba095dfd6fe7fcdfe1cfbda6c61c5d26294d/stigg_api_client_v2-0.471.0.tar.gz
+[2023-07-02 09:47:32] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/66/5a/557e0985dcc745bfc1b8c866b5d7438832afebac071b09d3311eed9d0186/threemystic_cloud_data_client-0.1.2.tar.gz
+[2023-07-02 09:47:32] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/b0/0b/c360771c9766d6a5b46febf53e75df0826074bab1def2e110cc918fa80a6/idoctorai-0.6.1.tar.gz
+[2023-07-02 09:47:32] INFO root fetch - processPackages [BlitzChain]: Downloading https://files.pythonhosted.org/packages/b9/8f/253ddd2a190e0dc4f6b12d10c18ebf529b19fc10e07a9d8afb72bcfdc910/BlitzChain-0.2.8.tar.gz
+[2023-07-02 09:47:32] INFO root fetch - processPackages [pycatsearch]: Downloading https://files.pythonhosted.org/packages/f6/51/efb3c4c7e644df5f1446f46d63cfc5abc8c5ea789b0f5b037bab2e6e66c6/pycatsearch-5.1.9.2.tar.gz
+[2023-07-02 09:47:32] INFO root fetch - processPackages [idoctorai]: executing diffoscope
+[2023-07-02 09:47:32] INFO root fetch - processPackages [idoctorai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idoctorai-0.5.1.tar.gz tmp/idoctorai-0.6.1.tar.gz --markdown 20230702/i/idoctorai/0.5.1-0.6.1/diff.md --exclude *.pyd
+[2023-07-02 09:47:32] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-07-02 09:47:32] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.1.tar.gz tmp/threemystic_cloud_data_client-0.1.2.tar.gz --markdown 20230702/t/threemystic-cloud-data-client/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-02 09:47:32] INFO root fetch - processPackages [pycatsearch]: executing diffoscope
+[2023-07-02 09:47:32] INFO root fetch - processPackages [pycatsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycatsearch-5.1.8.tar.gz tmp/pycatsearch-5.1.9.2.tar.gz --markdown 20230702/p/pycatsearch/5.1.8-5.1.9.2/diff.md --exclude *.pyd
+[2023-07-02 09:47:32] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/6f/d2/ae3138d8e73b06a33bdd8d29d234ac4387d7bf23217c13b557d497089bbf/stigg_api_client-0.5.0.tar.gz
+[2023-07-02 09:47:32] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2023-07-02 09:47:32] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-0.470.0.tar.gz tmp/stigg_api_client_v2-0.471.0.tar.gz --markdown 20230702/s/stigg-api-client-v2/0.470.0-0.471.0/diff.md --exclude *.pyd
+[2023-07-02 09:47:32] INFO root fetch - processPackages [giteasy]: Downloading https://files.pythonhosted.org/packages/98/b1/980c507857bedbfd239977a5a8ed67e69ae362fd0b13f01d6189b108f8ff/giteasy-9.5.0.tar.gz
+[2023-07-02 09:47:32] INFO root fetch - processPackages [BlitzChain]: executing diffoscope
+[2023-07-02 09:47:32] INFO root fetch - processPackages [BlitzChain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BlitzChain-0.2.7.tar.gz tmp/BlitzChain-0.2.8.tar.gz --markdown 20230702/B/BlitzChain/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-02 09:47:32] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-07-02 09:47:32] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.471.0.tar.gz tmp/stigg_api_client-0.5.0.tar.gz --markdown 20230702/s/stigg-api-client/0.471.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-02 09:47:32] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-07-02 09:47:32] INFO root fetch - processPackages [giteasy]: executing diffoscope
+[2023-07-02 09:47:32] INFO root fetch - processPackages [giteasy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giteasy-9.4.0.tar.gz tmp/giteasy-9.5.0.tar.gz --markdown 20230702/g/giteasy/9.4.0-9.5.0/diff.md --exclude *.pyd
+[2023-07-02 09:47:32] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-07-02 09:47:32] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230702/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-07-02 09:47:33] INFO root fetch - processPackages [pyzjr]: Remove: archive file [/home/abi/fetcher/tmp/pyzjr-0.0.2.tar.gz]
+[2023-07-02 09:47:33] INFO root fetch - processPackages [pyzjr]: Remove: archive file [/home/abi/fetcher/tmp/pyzjr-0.0.3.tar.gz]
+[2023-07-02 09:47:33] INFO root fetch - main [MainThread]: End processing [pyzjr]: success
+[2023-07-02 09:47:33] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject-design-0.1.8.tar.gz]
+[2023-07-02 09:47:33] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject-design-0.1.9.tar.gz]
+[2023-07-02 09:47:33] INFO root fetch - main [MainThread]: End processing [pinject-design]: success
+[2023-07-02 09:47:33] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.1.tar.gz]
+[2023-07-02 09:47:33] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.2.tar.gz]
+[2023-07-02 09:47:33] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
+[2023-07-02 09:47:33] INFO root fetch - processPackages [pycatsearch]: Remove: archive file [/home/abi/fetcher/tmp/pycatsearch-5.1.8.tar.gz]
+[2023-07-02 09:47:33] INFO root fetch - processPackages [pycatsearch]: Remove: archive file [/home/abi/fetcher/tmp/pycatsearch-5.1.9.2.tar.gz]
+[2023-07-02 09:47:33] INFO root fetch - main [MainThread]: End processing [pycatsearch]: success
+[2023-07-02 09:47:33] INFO root fetch - processPackages [BlitzChain]: Remove: archive file [/home/abi/fetcher/tmp/BlitzChain-0.2.7.tar.gz]
+[2023-07-02 09:47:33] INFO root fetch - processPackages [BlitzChain]: Remove: archive file [/home/abi/fetcher/tmp/BlitzChain-0.2.8.tar.gz]
+[2023-07-02 09:47:33] INFO root fetch - main [MainThread]: End processing [BlitzChain]: success
+[2023-07-02 09:47:33] INFO root fetch - processPackages [giteasy]: Remove: archive file [/home/abi/fetcher/tmp/giteasy-9.4.0.tar.gz]
+[2023-07-02 09:47:33] INFO root fetch - processPackages [giteasy]: Remove: archive file [/home/abi/fetcher/tmp/giteasy-9.5.0.tar.gz]
+[2023-07-02 09:47:33] INFO root fetch - main [MainThread]: End processing [giteasy]: success
+[2023-07-02 09:47:34] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.5.1.tar.gz]
+[2023-07-02 09:47:34] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.6.1.tar.gz]
+[2023-07-02 09:47:34] INFO root fetch - main [MainThread]: End processing [idoctorai]: success
+[2023-07-02 09:47:34] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.471.0.tar.gz]
+[2023-07-02 09:47:34] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.5.0.tar.gz]
+[2023-07-02 09:47:34] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-07-02 09:47:35] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.470.0.tar.gz]
+[2023-07-02 09:47:35] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.471.0.tar.gz]
+[2023-07-02 09:47:35] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2023-07-02 09:47:41] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-07-02 09:47:41] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-07-02 09:47:41] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-07-02 09:47:41] INFO root fetch - main [MainThread]: Store serial: [18727040]
