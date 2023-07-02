@@ -5549,3 +5549,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 09:26:48] INFO root fetch - processPackages [icepool]: Remove: archive file [/home/abi/fetcher/tmp/icepool-0.9.0.tar.gz]
 [2023-07-02 09:26:48] INFO root fetch - main [MainThread]: End processing [icepool]: success
 [2023-07-02 09:26:48] INFO root fetch - main [MainThread]: Store serial: [18726975]
+[2023-07-02 09:31:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726975]
+[2023-07-02 09:31:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-02 09:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dxsp
+[2023-07-02 09:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tracker-exporter
+[2023-07-02 09:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nlpashto
+[2023-07-02 09:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyzjr
+[2023-07-02 09:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sweepai
+[2023-07-02 09:31:58] INFO root fetch - processPackages [pyzjr]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-02 09:31:58] INFO root fetch - processPackages [tracker-exporter]: New version: [0.1.18] Old Version: [0.1.17]
+[2023-07-02 09:31:58] INFO root fetch - processPackages [sweepai]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 09:31:58] INFO root fetch - processPackages [nlpashto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 09:31:58] INFO root fetch - processPackages [dxsp]: New version: [3.0.3] Old Version: [3.0.2]
+[2023-07-02 09:31:58] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/27/ca/475b581b75fe7c8e41015f0a388da8650b29553bc6d803b43dbe78720725/sweepai-0.1.8.tar.gz
+[2023-07-02 09:31:58] INFO root fetch - processPackages [pyzjr]: Downloading https://files.pythonhosted.org/packages/30/1e/d30ffdcd282f75916e089664f5a7825fbffe8e1b6025e846886b85bdd9bc/pyzjr-0.0.2.tar.gz
+[2023-07-02 09:31:58] INFO root fetch - processPackages [tracker-exporter]: Downloading https://files.pythonhosted.org/packages/17/d4/6d5c2727bbeb0cfefe6e9e0de0baf85889a01f5eab88bda8575b6845abf7/tracker-exporter-0.1.17.tar.gz
+[2023-07-02 09:31:58] INFO root fetch - processPackages [nlpashto]: Downloading https://files.pythonhosted.org/packages/db/2e/a9ef012d7323462bbefcbbe86583ceb7cf7c1902e05c2e70a94a61f96eca/nlpashto-0.0.8.tar.gz
+[2023-07-02 09:31:58] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/49/97/20237a3358dbf59c441232caa9a454a2864cbd557bf46db8853b234ae49b/dxsp-3.0.2.tar.gz
+[2023-07-02 09:31:58] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/95/bf/23fc51bb9a04118d723216f9ef4f4acab507671893b504968965974a6207/sweepai-0.1.9.tar.gz
+[2023-07-02 09:31:58] INFO root fetch - processPackages [sweepai]: executing diffoscope
+[2023-07-02 09:31:58] INFO root fetch - processPackages [sweepai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweepai-0.1.8.tar.gz tmp/sweepai-0.1.9.tar.gz --markdown 20230702/s/sweepai/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 09:31:58] INFO root fetch - processPackages [pyzjr]: Downloading https://files.pythonhosted.org/packages/82/18/a8232999e47c90a183d7fd9e1d1954f2d1917ac11c4d0e38e11d124f2184/pyzjr-0.0.3.tar.gz
+[2023-07-02 09:31:58] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/d8/7d/4257e93a76392b9e64f97e98120e9b32553b1febc1f64fcda14997fbdf5b/dxsp-3.0.3.tar.gz
+[2023-07-02 09:31:58] INFO root fetch - processPackages [pyzjr]: executing diffoscope
+[2023-07-02 09:31:58] INFO root fetch - processPackages [pyzjr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyzjr-0.0.2.tar.gz tmp/pyzjr-0.0.3.tar.gz --markdown 20230702/p/pyzjr/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-02 09:31:59] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-07-02 09:31:59] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-3.0.2.tar.gz tmp/dxsp-3.0.3.tar.gz --markdown 20230702/d/dxsp/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2023-07-02 09:31:59] INFO root fetch - processPackages [tracker-exporter]: Downloading https://files.pythonhosted.org/packages/bb/9c/c68715d3a1869700f7d0571cf691ffa31cc57829c4684e2d2b8bee02c410/tracker-exporter-0.1.18.tar.gz
+[2023-07-02 09:31:59] INFO root fetch - processPackages [nlpashto]: Downloading https://files.pythonhosted.org/packages/a3/aa/3ca4c97176bc429943965b77429fbd3e13f291e91f81be2205fdf26ad90b/nlpashto-0.0.9.tar.gz
+[2023-07-02 09:31:59] INFO root fetch - processPackages [tracker-exporter]: executing diffoscope
+[2023-07-02 09:31:59] INFO root fetch - processPackages [tracker-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracker-exporter-0.1.17.tar.gz tmp/tracker-exporter-0.1.18.tar.gz --markdown 20230702/t/tracker-exporter/0.1.17-0.1.18/diff.md --exclude *.pyd
+[2023-07-02 09:31:59] INFO root fetch - processPackages [nlpashto]: executing diffoscope
+[2023-07-02 09:31:59] INFO root fetch - processPackages [nlpashto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlpashto-0.0.8.tar.gz tmp/nlpashto-0.0.9.tar.gz --markdown 20230702/n/nlpashto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 09:31:59] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-3.0.2.tar.gz]
+[2023-07-02 09:31:59] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-3.0.3.tar.gz]
+[2023-07-02 09:31:59] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-07-02 09:32:00] INFO root fetch - processPackages [pyzjr]: Remove: archive file [/home/abi/fetcher/tmp/pyzjr-0.0.2.tar.gz]
+[2023-07-02 09:32:00] INFO root fetch - processPackages [pyzjr]: Remove: archive file [/home/abi/fetcher/tmp/pyzjr-0.0.3.tar.gz]
+[2023-07-02 09:32:00] INFO root fetch - main [MainThread]: End processing [pyzjr]: success
+[2023-07-02 09:32:00] INFO root fetch - processPackages [tracker-exporter]: Remove: archive file [/home/abi/fetcher/tmp/tracker-exporter-0.1.17.tar.gz]
+[2023-07-02 09:32:00] INFO root fetch - processPackages [tracker-exporter]: Remove: archive file [/home/abi/fetcher/tmp/tracker-exporter-0.1.18.tar.gz]
+[2023-07-02 09:32:00] INFO root fetch - main [MainThread]: End processing [tracker-exporter]: success
+[2023-07-02 09:32:00] INFO root fetch - processPackages [nlpashto]: Remove: archive file [/home/abi/fetcher/tmp/nlpashto-0.0.8.tar.gz]
+[2023-07-02 09:32:00] INFO root fetch - processPackages [nlpashto]: Remove: archive file [/home/abi/fetcher/tmp/nlpashto-0.0.9.tar.gz]
+[2023-07-02 09:32:00] INFO root fetch - main [MainThread]: End processing [nlpashto]: success
+[2023-07-02 09:32:00] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.1.8.tar.gz]
+[2023-07-02 09:32:00] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.1.9.tar.gz]
+[2023-07-02 09:32:00] INFO root fetch - main [MainThread]: End processing [sweepai]: success
+[2023-07-02 09:32:00] INFO root fetch - main [MainThread]: Store serial: [18726989]
