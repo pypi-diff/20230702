@@ -13742,3 +13742,53 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-02 19:53:35] INFO root fetch - processPackages [pyfermions]: Remove: archive file [/home/abi/fetcher/tmp/pyfermions-1.4.tar.gz]
 [2023-07-02 19:53:35] INFO root fetch - main [MainThread]: End processing [pyfermions]: success
 [2023-07-02 19:53:35] INFO root fetch - main [MainThread]: Store serial: [18730464]
+[2023-07-02 19:58:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18730464]
+[2023-07-02 19:58:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-02 19:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-spark-gpt
+[2023-07-02 19:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ptarcade
+[2023-07-02 19:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyGauss-Binomial
+[2023-07-02 19:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sigmaepsilon.core
+[2023-07-02 19:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlrun
+[2023-07-02 19:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyruvate
+[2023-07-02 19:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: IOTAILibrary
+[2023-07-02 19:58:48] WARNING root fetch - processPackages [PyGauss-Binomial]: Skipping, unable to determine old version
+[2023-07-02 19:58:48] INFO root fetch - main [MainThread]: End processing [PyGauss-Binomial] error
+[2023-07-02 19:58:48] INFO root fetch - processPackages [ptarcade]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-02 19:58:48] INFO root fetch - processPackages [IOTAILibrary]: New version: [0.0.0.3] Old Version: [0.0.0.2]
+[2023-07-02 19:58:48] WARNING root fetch - processPackages [sigmaepsilon.core]: Skipping, unable to determine old version
+[2023-07-02 19:58:48] INFO root fetch - processPackages [pyruvate]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-02 19:58:48] INFO root fetch - main [MainThread]: End processing [sigmaepsilon.core] error
+[2023-07-02 19:58:48] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-02 19:58:48] INFO root fetch - processPackages [mlrun]: New version: [1.4.0rc9] Old Version: [1.4.0rc8]
+[2023-07-02 19:58:48] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Downloading https://files.pythonhosted.org/packages/a9/d0/68bddead421a585d80a7828e9a824a9850ceb5cc184b512dee41c0f1358d/nonebot_plugin_spark_gpt-1.0.5.tar.gz
+[2023-07-02 19:58:48] INFO root fetch - processPackages [ptarcade]: Downloading https://files.pythonhosted.org/packages/22/9c/c385dbade2ebeb69e9916b4918a064e4c7c7bb705663049d9f19620f5b20/ptarcade-0.1.2.tar.gz
+[2023-07-02 19:58:48] INFO root fetch - processPackages [pyruvate]: Downloading https://files.pythonhosted.org/packages/08/1b/bb830b74aee69d29f01458cf7203aa8824306ca0ebcaba3862d8fdfad133/pyruvate-1.2.1.tar.gz
+[2023-07-02 19:58:48] WARNING root fetch - processPackages [nonebot-plugin-spark-gpt]: Skipping package: exceeds size limit 15020561>=10485760
+[2023-07-02 19:58:48] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-spark-gpt] error
+[2023-07-02 19:58:48] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/53/ab/c4b6cba1b681d59d469058b913e88a639eebd1952ee11b561f5fd2dc06f6/mlrun-1.4.0rc8-py3-none-any.whl
+[2023-07-02 19:58:48] INFO root fetch - processPackages [IOTAILibrary]: Downloading https://files.pythonhosted.org/packages/9f/b0/577133408fc63abf9aef9c94154820408a24d4200ebc52623d7a2032889a/IOTAILibrary-0.0.0.2-py3-none-any.whl
+[2023-07-02 19:58:48] INFO root fetch - processPackages [ptarcade]: Downloading https://files.pythonhosted.org/packages/fe/2b/943c911e6486af09ae832aabf26785779a451afad124858468642938895a/ptarcade-0.1.3.tar.gz
+[2023-07-02 19:58:48] INFO root fetch - processPackages [pyruvate]: Downloading https://files.pythonhosted.org/packages/36/7b/1f61bbb94ce211f9b914d4edf2ad3149eac1af5ca1fe4c0a0be6c95439a7/pyruvate-1.2.2.tar.gz
+[2023-07-02 19:58:48] INFO root fetch - processPackages [ptarcade]: executing diffoscope
+[2023-07-02 19:58:48] INFO root fetch - processPackages [ptarcade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptarcade-0.1.2.tar.gz tmp/ptarcade-0.1.3.tar.gz --markdown 20230702/p/ptarcade/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-02 19:58:48] INFO root fetch - processPackages [IOTAILibrary]: Downloading https://files.pythonhosted.org/packages/1e/a8/ce23402c6f04cb75f93276b728009f6e2add5e01cf7e0e69093518ca6dec/IOTAILibrary-0.0.0.3-py3-none-any.whl
+[2023-07-02 19:58:48] INFO root fetch - processPackages [pyruvate]: executing diffoscope
+[2023-07-02 19:58:48] INFO root fetch - processPackages [pyruvate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyruvate-1.2.1.tar.gz tmp/pyruvate-1.2.2.tar.gz --markdown 20230702/p/pyruvate/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-02 19:58:49] INFO root fetch - processPackages [IOTAILibrary]: executing diffoscope
+[2023-07-02 19:58:49] INFO root fetch - processPackages [IOTAILibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IOTAILibrary-0.0.0.2-py3-none-any.whl.zip tmp/IOTAILibrary-0.0.0.3-py3-none-any.whl.zip --markdown 20230702/I/IOTAILibrary/0.0.0.2-0.0.0.3/diff.md --exclude *.pyd
+[2023-07-02 19:58:49] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/eb/ad/9f5f871fcad9f8cb844bb52b41819c7f2f0813f9ea4390a2c38a5ed6f6b9/mlrun-1.4.0rc9-py3-none-any.whl
+[2023-07-02 19:58:49] INFO root fetch - processPackages [mlrun]: executing diffoscope
+[2023-07-02 19:58:49] INFO root fetch - processPackages [mlrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun-1.4.0rc8-py3-none-any.whl.zip tmp/mlrun-1.4.0rc9-py3-none-any.whl.zip --markdown 20230702/m/mlrun/1.4.0rc8-1.4.0rc9/diff.md --exclude *.pyd
+[2023-07-02 19:58:49] INFO root fetch - processPackages [ptarcade]: Remove: archive file [/home/abi/fetcher/tmp/ptarcade-0.1.2.tar.gz]
+[2023-07-02 19:58:49] INFO root fetch - processPackages [ptarcade]: Remove: archive file [/home/abi/fetcher/tmp/ptarcade-0.1.3.tar.gz]
+[2023-07-02 19:58:49] INFO root fetch - main [MainThread]: End processing [ptarcade]: success
+[2023-07-02 19:58:50] INFO root fetch - processPackages [pyruvate]: Remove: archive file [/home/abi/fetcher/tmp/pyruvate-1.2.1.tar.gz]
+[2023-07-02 19:58:50] INFO root fetch - processPackages [pyruvate]: Remove: archive file [/home/abi/fetcher/tmp/pyruvate-1.2.2.tar.gz]
+[2023-07-02 19:58:50] INFO root fetch - main [MainThread]: End processing [pyruvate]: success
+[2023-07-02 19:58:50] INFO root fetch - processPackages [IOTAILibrary]: Remove: archive file [/home/abi/fetcher/tmp/IOTAILibrary-0.0.0.2-py3-none-any.whl.zip]
+[2023-07-02 19:58:50] INFO root fetch - processPackages [IOTAILibrary]: Remove: archive file [/home/abi/fetcher/tmp/IOTAILibrary-0.0.0.3-py3-none-any.whl.zip]
+[2023-07-02 19:58:50] INFO root fetch - main [MainThread]: End processing [IOTAILibrary]: success
+[2023-07-02 19:58:56] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.4.0rc8-py3-none-any.whl.zip]
+[2023-07-02 19:58:56] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.4.0rc9-py3-none-any.whl.zip]
+[2023-07-02 19:58:56] INFO root fetch - main [MainThread]: End processing [mlrun]: success
+[2023-07-02 19:58:56] INFO root fetch - main [MainThread]: Store serial: [18730497]
