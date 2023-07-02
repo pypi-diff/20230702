@@ -8108,3 +8108,75 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 13:23:00] INFO root fetch - processPackages [enrichsdk]: Remove: archive file [/home/abi/fetcher/tmp/enrichsdk-4.8.4.tar.gz]
 [2023-07-02 13:23:00] INFO root fetch - main [MainThread]: End processing [enrichsdk]: success
 [2023-07-02 13:23:00] INFO root fetch - main [MainThread]: Store serial: [18728114]
+[2023-07-02 13:28:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18728114]
+[2023-07-02 13:28:08] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-02 13:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: funfluid
+[2023-07-02 13:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchtnt-nightly
+[2023-07-02 13:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mik-py
+[2023-07-02 13:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: htagweb
+[2023-07-02 13:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libmonty-tools
+[2023-07-02 13:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchrl-nightly
+[2023-07-02 13:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tb-nightly
+[2023-07-02 13:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vertez
+[2023-07-02 13:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: blacksheep
+[2023-07-02 13:28:09] INFO root fetch - processPackages [htagweb]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-02 13:28:09] INFO root fetch - processPackages [mik-py]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-07-02 13:28:09] INFO root fetch - processPackages [funfluid]: New version: [202307021923] Old Version: [202307021904]
+[2023-07-02 13:28:09] WARNING root fetch - processPackages [libmonty-tools]: Skipping, unable to determine old version
+[2023-07-02 13:28:09] INFO root fetch - main [MainThread]: End processing [libmonty-tools] error
+[2023-07-02 13:28:09] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-07-02 13:28:09] WARNING root fetch - processPackages [vertez]: Skipping, unable to determine old version
+[2023-07-02 13:28:09] INFO root fetch - main [MainThread]: End processing [vertez] error
+[2023-07-02 13:28:09] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.7.2] Old Version: [2023.7.1]
+[2023-07-02 13:28:09] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-07-02 13:28:09] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.7.2] Old Version: [2023.6.9]
+[2023-07-02 13:28:09] INFO root fetch - processPackages [funfluid]: Downloading https://files.pythonhosted.org/packages/b8/05/4888516968536042978d5dada33a5e42c08bf812e7e2c64d49d1099f6b74/funfluid-202307021904.tar.gz
+[2023-07-02 13:28:09] INFO root fetch - processPackages [mik-py]: Downloading https://files.pythonhosted.org/packages/23/04/5073061f7291325a83fea24f76fdf900282f901bb89906dd363d3ae995fa/mik_py-0.0.2.tar.gz
+[2023-07-02 13:28:09] INFO root fetch - processPackages [htagweb]: Downloading https://files.pythonhosted.org/packages/43/f3/0eb2ad6f94995626efeda29aed2f947f636931a790a23150d28a97b08c55/htagweb-0.0.1.tar.gz
+[2023-07-02 13:28:09] INFO root fetch - processPackages [blacksheep]: New version: [2.0a8] Old Version: [2.0a7]
+[2023-07-02 13:28:09] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/29/3a/9802e718afe29ceb6c15ad8e3382cc76fc76f0e1975fd060b3f40632987d/torchtnt-nightly-2023.7.1.tar.gz
+[2023-07-02 13:28:09] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/b9/46/ce016b773818b01f9d3047ba111687f8b14fc64ca46b82b77f62c661e902/torchrl_nightly-2023.6.9-cp39-cp39-win_amd64.whl
+[2023-07-02 13:28:09] INFO root fetch - processPackages [funfluid]: Downloading https://files.pythonhosted.org/packages/b1/b3/af7719573ae000f242ea5268ad74ccbe8fac8060ed953195b52f1bc7facc/funfluid-202307021923.tar.gz
+[2023-07-02 13:28:09] INFO root fetch - processPackages [htagweb]: Downloading https://files.pythonhosted.org/packages/44/1a/5dd529125524aca5746e9dc3a4cad6ae10e62726b181bc0466de235bac96/htagweb-0.0.2.tar.gz
+[2023-07-02 13:28:09] INFO root fetch - processPackages [mik-py]: Downloading https://files.pythonhosted.org/packages/71/e1/434f957122d0a3ae663224a55a964fae686acea2fb574a0c6fa92c06289c/mik_py-0.0.4.tar.gz
+[2023-07-02 13:28:09] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-07-02 13:28:09] INFO root fetch - processPackages [funfluid]: executing diffoscope
+[2023-07-02 13:28:09] INFO root fetch - processPackages [funfluid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funfluid-202307021904.tar.gz tmp/funfluid-202307021923.tar.gz --markdown 20230702/f/funfluid/202307021904-202307021923/diff.md --exclude *.pyd
+[2023-07-02 13:28:09] INFO root fetch - processPackages [htagweb]: executing diffoscope
+[2023-07-02 13:28:09] INFO root fetch - processPackages [htagweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htagweb-0.0.1.tar.gz tmp/htagweb-0.0.2.tar.gz --markdown 20230702/h/htagweb/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-02 13:28:09] INFO root fetch - processPackages [mik-py]: executing diffoscope
+[2023-07-02 13:28:09] INFO root fetch - processPackages [mik-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mik_py-0.0.2.tar.gz tmp/mik_py-0.0.4.tar.gz --markdown 20230702/m/mik-py/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-07-02 13:28:09] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/ab/c4/7333bfb6c15fd418f43a1171f43113a4118b486aab558cdc8b0d9e11ce2d/torchtnt-nightly-2023.7.2.tar.gz
+[2023-07-02 13:28:09] INFO root fetch - processPackages [blacksheep]: Downloading https://files.pythonhosted.org/packages/7a/df/e7a3d6358a100adce42f8dcfb97f15461a5ce362efb951b0758ec5b35ae8/blacksheep-2.0a7.tar.gz
+[2023-07-02 13:28:09] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-07-02 13:28:09] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230702/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-07-02 13:28:09] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/2a/87/d75424029b92d2a9716242b3013d11e9ed5f5f324fce00c663e34ab057a0/torchrl_nightly-2023.7.2-cp39-cp39-macosx_11_0_x86_64.whl
+[2023-07-02 13:28:09] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-07-02 13:28:09] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.7.1.tar.gz tmp/torchtnt-nightly-2023.7.2.tar.gz --markdown 20230702/t/torchtnt-nightly/2023.7.1-2023.7.2/diff.md --exclude *.pyd
+[2023-07-02 13:28:10] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-07-02 13:28:10] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.6.9-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.7.2-cp39-cp39-macosx_11_0_x86_64.whl.zip --markdown 20230702/t/torchrl-nightly/2023.6.9-2023.7.2/diff.md --exclude *.pyd
+[2023-07-02 13:28:10] INFO root fetch - processPackages [blacksheep]: Downloading https://files.pythonhosted.org/packages/3e/8b/17a434bfe75f51cb543e9d6a5ab29b035dc8e14f99ab81b553452b65473c/blacksheep-2.0a8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-02 13:28:10] INFO root fetch - processPackages [htagweb]: Remove: archive file [/home/abi/fetcher/tmp/htagweb-0.0.1.tar.gz]
+[2023-07-02 13:28:10] INFO root fetch - processPackages [htagweb]: Remove: archive file [/home/abi/fetcher/tmp/htagweb-0.0.2.tar.gz]
+[2023-07-02 13:28:10] INFO root fetch - main [MainThread]: End processing [htagweb]: success
+[2023-07-02 13:28:10] INFO root fetch - processPackages [mik-py]: Remove: archive file [/home/abi/fetcher/tmp/mik_py-0.0.2.tar.gz]
+[2023-07-02 13:28:10] INFO root fetch - processPackages [mik-py]: Remove: archive file [/home/abi/fetcher/tmp/mik_py-0.0.4.tar.gz]
+[2023-07-02 13:28:10] INFO root fetch - main [MainThread]: End processing [mik-py]: success
+[2023-07-02 13:28:10] INFO root fetch - processPackages [funfluid]: Remove: archive file [/home/abi/fetcher/tmp/funfluid-202307021904.tar.gz]
+[2023-07-02 13:28:10] INFO root fetch - processPackages [funfluid]: Remove: archive file [/home/abi/fetcher/tmp/funfluid-202307021923.tar.gz]
+[2023-07-02 13:28:10] INFO root fetch - main [MainThread]: End processing [funfluid]: success
+[2023-07-02 13:28:11] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.1.tar.gz]
+[2023-07-02 13:28:11] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.2.tar.gz]
+[2023-07-02 13:28:11] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-07-02 13:28:13] INFO root fetch - processPackages [blacksheep]: executing diffoscope
+[2023-07-02 13:28:13] INFO root fetch - processPackages [blacksheep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blacksheep-2.0a7.tar.gz tmp/blacksheep-2.0a8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230702/b/blacksheep/2.0a7-2.0a8/diff.md --exclude *.pyd
+[2023-07-02 13:28:13] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-07-02 13:28:13] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-07-02 13:28:13] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-07-02 13:28:14] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.6.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-02 13:28:14] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.2-cp39-cp39-macosx_11_0_x86_64.whl.zip]
+[2023-07-02 13:28:14] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-07-02 13:28:15] INFO root fetch - processPackages [blacksheep]: Remove: archive file [/home/abi/fetcher/tmp/blacksheep-2.0a7.tar.gz]
+[2023-07-02 13:28:15] INFO root fetch - processPackages [blacksheep]: Remove: archive file [/home/abi/fetcher/tmp/blacksheep-2.0a8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-02 13:28:15] INFO root fetch - main [MainThread]: End processing [blacksheep]: success
+[2023-07-02 13:28:15] INFO root fetch - main [MainThread]: Store serial: [18728154]
