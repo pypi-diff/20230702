@@ -16790,3 +16790,43 @@ AssertionError: tmp/Cliente-0.0.4-py3.10.egg does not exist
 [2023-07-02 23:41:17] INFO root fetch - processPackages [aleksis-app-paweljong]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_app_paweljong-2.0.dev1.tar.gz]
 [2023-07-02 23:41:17] INFO root fetch - main [MainThread]: End processing [aleksis-app-paweljong]: success
 [2023-07-02 23:41:17] INFO root fetch - main [MainThread]: Store serial: [18731668]
+[2023-07-02 23:46:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18731668]
+[2023-07-02 23:46:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-02 23:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rest-api-supporter
+[2023-07-02 23:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: naters-utils
+[2023-07-02 23:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-openupgrade-scripts
+[2023-07-02 23:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rest-api-supporter
+[2023-07-02 23:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: melon-scheduler
+[2023-07-02 23:46:26] WARNING root fetch - processPackages [naters-utils]: Skipping, unable to determine old version
+[2023-07-02 23:46:26] INFO root fetch - main [MainThread]: End processing [naters-utils] error
+[2023-07-02 23:46:26] INFO root fetch - processPackages [rest-api-supporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 23:46:26] INFO root fetch - processPackages [melon-scheduler]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-02 23:46:26] INFO root fetch - processPackages [rest-api-supporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 23:46:26] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: New version: [16.0.1.0.3.6] Old Version: [16.0.1.0.3.5]
+[2023-07-02 23:46:26] INFO root fetch - processPackages [melon-scheduler]: Downloading https://files.pythonhosted.org/packages/ad/41/833a31653ccae717ee29b80967fa69ba65f786132e5070ba28d60f97b0d2/melon_scheduler-0.1.5.tar.gz
+[2023-07-02 23:46:26] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/47/ec/51493bfc4f19e8c43a602477703b89c0d4a8f04da5799301d6246786eab6/odoo_addon_openupgrade_scripts-16.0.1.0.3.5-py3-none-any.whl
+[2023-07-02 23:46:26] INFO root fetch - processPackages [rest-api-supporter]: Downloading https://files.pythonhosted.org/packages/f4/16/0c2fc27776d8257953b960eea527e7f83b54019b51fbb132e634d73c5c0e/rest-api-supporter-0.0.8.tar.gz
+[2023-07-02 23:46:26] INFO root fetch - processPackages [rest-api-supporter]: Downloading https://files.pythonhosted.org/packages/f4/16/0c2fc27776d8257953b960eea527e7f83b54019b51fbb132e634d73c5c0e/rest-api-supporter-0.0.8.tar.gz
+[2023-07-02 23:46:26] INFO root fetch - processPackages [melon-scheduler]: Downloading https://files.pythonhosted.org/packages/43/dd/2d00607f73902c9e5f98ec72c27bba1b976b37a443576b8b76b14efe4079/melon_scheduler-0.1.6.tar.gz
+[2023-07-02 23:46:26] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/28/d9/ba44bf90324844bd90aed25f66fe8348dc9eeb33be5d481df93ce599fc2f/odoo_addon_openupgrade_scripts-16.0.1.0.3.6-py3-none-any.whl
+[2023-07-02 23:46:26] INFO root fetch - processPackages [melon-scheduler]: executing diffoscope
+[2023-07-02 23:46:26] INFO root fetch - processPackages [melon-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/melon_scheduler-0.1.5.tar.gz tmp/melon_scheduler-0.1.6.tar.gz --markdown 20230702/m/melon-scheduler/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-02 23:46:26] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: executing diffoscope
+[2023-07-02 23:46:26] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.5-py3-none-any.whl.zip tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.6-py3-none-any.whl.zip --markdown 20230702/o/odoo-addon-openupgrade-scripts/16.0.1.0.3.5-16.0.1.0.3.6/diff.md --exclude *.pyd
+[2023-07-02 23:46:26] INFO root fetch - processPackages [rest-api-supporter]: Downloading https://files.pythonhosted.org/packages/35/47/76da32bcf0507aa9dbf370e1c9e91408c29a80232299067f97883d4ef255/rest-api-supporter-0.0.9.tar.gz
+[2023-07-02 23:46:26] INFO root fetch - processPackages [rest-api-supporter]: Downloading https://files.pythonhosted.org/packages/35/47/76da32bcf0507aa9dbf370e1c9e91408c29a80232299067f97883d4ef255/rest-api-supporter-0.0.9.tar.gz
+[2023-07-02 23:46:26] INFO root fetch - processPackages [rest-api-supporter]: executing diffoscope
+[2023-07-02 23:46:26] INFO root fetch - processPackages [rest-api-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rest-api-supporter-0.0.8.tar.gz tmp/rest-api-supporter-0.0.9.tar.gz --markdown 20230702/r/rest-api-supporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 23:46:27] INFO root fetch - processPackages [rest-api-supporter]: executing diffoscope
+[2023-07-02 23:46:27] INFO root fetch - processPackages [rest-api-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rest-api-supporter-0.0.8.tar.gz tmp/rest-api-supporter-0.0.9.tar.gz --markdown 20230702/r/rest-api-supporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 23:46:27] INFO root fetch - processPackages [rest-api-supporter]: Remove: archive file [/home/abi/fetcher/tmp/rest-api-supporter-0.0.8.tar.gz]
+[2023-07-02 23:46:27] INFO root fetch - processPackages [rest-api-supporter]: Remove: archive file [/home/abi/fetcher/tmp/rest-api-supporter-0.0.9.tar.gz]
+[2023-07-02 23:46:27] INFO root fetch - main [MainThread]: End processing [rest-api-supporter]: success
+[2023-07-02 23:46:27] INFO root fetch - main [MainThread]: End processing [rest-api-supporter]: success
+[2023-07-02 23:46:32] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.5-py3-none-any.whl.zip]
+[2023-07-02 23:46:32] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.6-py3-none-any.whl.zip]
+[2023-07-02 23:46:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
+[2023-07-02 23:47:21] INFO root fetch - processPackages [melon-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/melon_scheduler-0.1.5.tar.gz]
+[2023-07-02 23:47:21] INFO root fetch - processPackages [melon-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/melon_scheduler-0.1.6.tar.gz]
+[2023-07-02 23:47:21] INFO root fetch - main [MainThread]: End processing [melon-scheduler]: success
+[2023-07-02 23:47:21] INFO root fetch - main [MainThread]: Store serial: [18731687]
