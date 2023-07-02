@@ -9105,3 +9105,107 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 14:43:10] INFO root fetch - processPackages [gaphas]: Remove: archive file [/home/abi/fetcher/tmp/gaphas-3.9.2.tar.gz]
 [2023-07-02 14:43:10] INFO root fetch - main [MainThread]: End processing [gaphas]: success
 [2023-07-02 14:43:10] INFO root fetch - main [MainThread]: Store serial: [18728524]
+[2023-07-02 14:48:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18728524]
+[2023-07-02 14:48:19] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-02 14:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tensorcircuit-nightly
+[2023-07-02 14:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ib-insync
+[2023-07-02 14:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: EduStatTests
+[2023-07-02 14:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gaphor
+[2023-07-02 14:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: climalysis
+[2023-07-02 14:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kaiju-redis
+[2023-07-02 14:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SimuConvert
+[2023-07-02 14:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: blizzardwarcraftapi
+[2023-07-02 14:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mbc-unicode-input
+[2023-07-02 14:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dxsp
+[2023-07-02 14:48:19] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2023-07-02 14:48:19] INFO root fetch - processPackages [SimuConvert]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-02 14:48:19] INFO root fetch - processPackages [dxsp]: New version: [3.1.0] Old Version: [3.0.3]
+[2023-07-02 14:48:19] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2023-07-02 14:48:19] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/d8/7d/4257e93a76392b9e64f97e98120e9b32553b1febc1f64fcda14997fbdf5b/dxsp-3.0.3.tar.gz
+[2023-07-02 14:48:19] WARNING root fetch - processPackages [EduStatTests]: Skipping, unable to determine old version
+[2023-07-02 14:48:19] INFO root fetch - processPackages [EduStatTests]: Start processing: luma.lcd
+[2023-07-02 14:48:19] INFO root fetch - main [MainThread]: End processing [EduStatTests] error
+[2023-07-02 14:48:19] INFO root fetch - processPackages [SimuConvert]: Downloading https://files.pythonhosted.org/packages/d1/d0/4a8fc8335225a973df9aeb0db0132c4e71d9d2332126850d1036bf37d75f/SimuConvert-0.0.0.tar.gz
+[2023-07-02 14:48:19] INFO root fetch - processPackages [kaiju-redis]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-07-02 14:48:19] INFO root fetch - processPackages [gaphor]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-07-02 14:48:19] INFO root fetch - processPackages [ib-insync]: New version: [0.9.9] Old Version: [0.9.86]
+[2023-07-02 14:48:19] WARNING root fetch - processPackages [mbc-unicode-input]: Skipping, unable to determine old version
+[2023-07-02 14:48:19] INFO root fetch - processPackages [mbc-unicode-input]: Start processing: cnstd
+[2023-07-02 14:48:19] INFO root fetch - main [MainThread]: End processing [mbc-unicode-input] error
+[2023-07-02 14:48:19] INFO root fetch - processPackages [climalysis]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-02 14:48:19] INFO root fetch - processPackages [blizzardwarcraftapi]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-02 14:48:19] INFO root fetch - processPackages [cnstd]: New version: [1.2.3.1] Old Version: [1.2.3]
+[2023-07-02 14:48:19] INFO root fetch - processPackages [SimuConvert]: Downloading https://files.pythonhosted.org/packages/05/45/bc2b4e077833b78153c885e9667c78a769b988090957bdf241bbd74ff1f2/SimuConvert-0.0.1.tar.gz
+[2023-07-02 14:48:19] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/19/69/f975964ba0b9638c6158be2b0ff8d80bea5f6c035f22880ad880d018ff03/dxsp-3.1.0.tar.gz
+[2023-07-02 14:48:19] INFO root fetch - processPackages [luma.lcd]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-07-02 14:48:19] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-07-02 14:48:19] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-3.0.3.tar.gz tmp/dxsp-3.1.0.tar.gz --markdown 20230702/d/dxsp/3.0.3-3.1.0/diff.md --exclude *.pyd
+[2023-07-02 14:48:19] INFO root fetch - processPackages [ib-insync]: Downloading https://files.pythonhosted.org/packages/55/bb/733d5c81c8c2f54e90898afc7ff3a99f4d53619e6917c848833f9cc1ab56/ib_insync-0.9.86.tar.gz
+[2023-07-02 14:48:19] INFO root fetch - processPackages [cnstd]: Downloading https://files.pythonhosted.org/packages/4d/e4/3f8b0efb29417a9f10f4cb8ab7e333b4ffce33d4dfa84d280e4343417c9d/cnstd-1.2.3.tar.gz
+[2023-07-02 14:48:19] INFO root fetch - processPackages [SimuConvert]: executing diffoscope
+[2023-07-02 14:48:19] INFO root fetch - processPackages [climalysis]: Downloading https://files.pythonhosted.org/packages/32/d0/bad2777a70fd495d986ec139fc2e6fc68e9d2276ebcd240865c3f50fdc73/climalysis-0.0.1.tar.gz
+[2023-07-02 14:48:19] INFO root fetch - processPackages [SimuConvert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SimuConvert-0.0.0.tar.gz tmp/SimuConvert-0.0.1.tar.gz --markdown 20230702/S/SimuConvert/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-02 14:48:19] INFO root fetch - processPackages [kaiju-redis]: Downloading https://files.pythonhosted.org/packages/e2/a6/40b4f17391b0cae71176e8a58d0ca234bc9ba5dfce846719d3540f37d569/kaiju_redis-2.1.3-py3-none-any.whl
+[2023-07-02 14:48:19] INFO root fetch - processPackages [gaphor]: Downloading https://files.pythonhosted.org/packages/e1/05/90c1ad0f606bce93a48d91ddc271ce70e76329a5d75c6db6433a2a1fd963/gaphor-2.9.1.tar.gz
+[2023-07-02 14:48:19] INFO root fetch - processPackages [blizzardwarcraftapi]: Downloading https://files.pythonhosted.org/packages/2e/21/0c9f6190f9d8f5fa19d28fc4a812b3b19f4761060fc9468e56c27496e5ec/blizzardwarcraftapi-0.2.3.tar.gz
+[2023-07-02 14:48:19] INFO root fetch - processPackages [cnstd]: Downloading https://files.pythonhosted.org/packages/39/6b/6f572dcaf5426e897b1bf82832473b4f19691b7954015ebc1b452f68364d/cnstd-1.2.3.1.tar.gz
+[2023-07-02 14:48:19] INFO root fetch - processPackages [luma.lcd]: Downloading https://files.pythonhosted.org/packages/21/e0/51f9b70f303db513b0cc4e4a6dcd83aecdd7f932ef2bb02c909d904b66f3/luma.lcd-2.8.0.tar.gz
+[2023-07-02 14:48:19] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2023-07-02 14:48:19] INFO root fetch - processPackages [kaiju-redis]: Downloading https://files.pythonhosted.org/packages/7d/dd/908a85500e5860961a0455b9c8ad3aca1d69149237da4d28c112d8415b7a/kaiju_redis-2.1.4-py3-none-any.whl
+[2023-07-02 14:48:19] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-07-02 14:48:19] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20230702/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/diff.md --exclude *.pyd
+[2023-07-02 14:48:19] INFO root fetch - processPackages [climalysis]: Downloading https://files.pythonhosted.org/packages/04/27/6b7ef7199b71b9b07229b33f4d477393cd4f20267eedea8e79ea958a4dab/climalysis-0.0.2.tar.gz
+[2023-07-02 14:48:19] INFO root fetch - processPackages [cnstd]: executing diffoscope
+[2023-07-02 14:48:19] INFO root fetch - processPackages [cnstd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnstd-1.2.3.tar.gz tmp/cnstd-1.2.3.1.tar.gz --markdown 20230702/c/cnstd/1.2.3-1.2.3.1/diff.md --exclude *.pyd
+[2023-07-02 14:48:19] INFO root fetch - processPackages [blizzardwarcraftapi]: Downloading https://files.pythonhosted.org/packages/8f/e9/1770f3814570abd8b857a2abbf1033f9801fee7b4d55276655d2d5d7151f/blizzardwarcraftapi-0.2.4.tar.gz
+[2023-07-02 14:48:19] INFO root fetch - processPackages [ib-insync]: Downloading https://files.pythonhosted.org/packages/d0/32/dd705a2c2febb7e6810f80b793184c05c8a8a2c31e72f23ccaf8e9bbaada/ib_insync-0.9.9-py3-none-any.whl
+[2023-07-02 14:48:19] INFO root fetch - processPackages [kaiju-redis]: executing diffoscope
+[2023-07-02 14:48:19] INFO root fetch - processPackages [kaiju-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaiju_redis-2.1.3-py3-none-any.whl.zip tmp/kaiju_redis-2.1.4-py3-none-any.whl.zip --markdown 20230702/k/kaiju-redis/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-07-02 14:48:19] INFO root fetch - processPackages [climalysis]: executing diffoscope
+[2023-07-02 14:48:19] INFO root fetch - processPackages [climalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climalysis-0.0.1.tar.gz tmp/climalysis-0.0.2.tar.gz --markdown 20230702/c/climalysis/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-02 14:48:19] INFO root fetch - processPackages [blizzardwarcraftapi]: executing diffoscope
+[2023-07-02 14:48:19] INFO root fetch - processPackages [blizzardwarcraftapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blizzardwarcraftapi-0.2.3.tar.gz tmp/blizzardwarcraftapi-0.2.4.tar.gz --markdown 20230702/b/blizzardwarcraftapi/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-02 14:48:20] INFO root fetch - processPackages [ib-insync]: executing diffoscope
+[2023-07-02 14:48:20] INFO root fetch - processPackages [ib-insync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ib_insync-0.9.86.tar.gz tmp/ib_insync-0.9.9-py3-none-any.whl.zip --markdown 20230702/i/ib-insync/0.9.86-0.9.9/diff.md --exclude *.pyd
+[2023-07-02 14:48:20] WARNING root fetch - processPackages [luma.lcd]: Skipping package: exceeds size limit 12139899>=10485760
+[2023-07-02 14:48:20] INFO root fetch - processPackages [luma.lcd]: Start processing: manticore
+[2023-07-02 14:48:20] INFO root fetch - main [MainThread]: End processing [luma.lcd] error
+[2023-07-02 14:48:20] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230701] Old Version: [0.3.8.dev230630]
+[2023-07-02 14:48:20] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/3b/96/aa0b5b7b27adc21fc7443f93e2230e370179dce5f8ddb42c83185d2799ec/manticore-0.3.8.dev230630.tar.gz
+[2023-07-02 14:48:20] INFO root fetch - processPackages [gaphor]: Downloading https://files.pythonhosted.org/packages/37/ad/c5079ad568ff279c0469364f4ab40d0c37418d6c55c91804896bf551f07d/gaphor-2.9.2.tar.gz
+[2023-07-02 14:48:20] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/c5/ee/6f7d2943f0a4c01486db71f3ee1d705d17350f3c5fe7e61579f0ffa5f091/manticore-0.3.8.dev230701.tar.gz
+[2023-07-02 14:48:20] INFO root fetch - processPackages [gaphor]: executing diffoscope
+[2023-07-02 14:48:20] INFO root fetch - processPackages [gaphor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaphor-2.9.1.tar.gz tmp/gaphor-2.9.2.tar.gz --markdown 20230702/g/gaphor/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-07-02 14:48:20] INFO root fetch - processPackages [SimuConvert]: Remove: archive file [/home/abi/fetcher/tmp/SimuConvert-0.0.0.tar.gz]
+[2023-07-02 14:48:20] INFO root fetch - processPackages [SimuConvert]: Remove: archive file [/home/abi/fetcher/tmp/SimuConvert-0.0.1.tar.gz]
+[2023-07-02 14:48:20] INFO root fetch - main [MainThread]: End processing [SimuConvert]: success
+[2023-07-02 14:48:20] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-07-02 14:48:20] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230630.tar.gz tmp/manticore-0.3.8.dev230701.tar.gz --markdown 20230702/m/manticore/0.3.8.dev230630-0.3.8.dev230701/diff.md --exclude *.pyd
+[2023-07-02 14:48:20] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-3.0.3.tar.gz]
+[2023-07-02 14:48:20] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-3.1.0.tar.gz]
+[2023-07-02 14:48:20] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-07-02 14:48:21] INFO root fetch - processPackages [kaiju-redis]: Remove: archive file [/home/abi/fetcher/tmp/kaiju_redis-2.1.3-py3-none-any.whl.zip]
+[2023-07-02 14:48:21] INFO root fetch - processPackages [kaiju-redis]: Remove: archive file [/home/abi/fetcher/tmp/kaiju_redis-2.1.4-py3-none-any.whl.zip]
+[2023-07-02 14:48:21] INFO root fetch - main [MainThread]: End processing [kaiju-redis]: success
+[2023-07-02 14:48:21] INFO root fetch - processPackages [ib-insync]: Remove: archive file [/home/abi/fetcher/tmp/ib_insync-0.9.86.tar.gz]
+[2023-07-02 14:48:21] INFO root fetch - processPackages [ib-insync]: Remove: archive file [/home/abi/fetcher/tmp/ib_insync-0.9.9-py3-none-any.whl.zip]
+[2023-07-02 14:48:21] INFO root fetch - main [MainThread]: End processing [ib-insync]: success
+[2023-07-02 14:48:21] INFO root fetch - processPackages [climalysis]: Remove: archive file [/home/abi/fetcher/tmp/climalysis-0.0.1.tar.gz]
+[2023-07-02 14:48:21] INFO root fetch - processPackages [climalysis]: Remove: archive file [/home/abi/fetcher/tmp/climalysis-0.0.2.tar.gz]
+[2023-07-02 14:48:21] INFO root fetch - main [MainThread]: End processing [climalysis]: success
+[2023-07-02 14:48:21] INFO root fetch - processPackages [cnstd]: Remove: archive file [/home/abi/fetcher/tmp/cnstd-1.2.3.tar.gz]
+[2023-07-02 14:48:21] INFO root fetch - processPackages [cnstd]: Remove: archive file [/home/abi/fetcher/tmp/cnstd-1.2.3.1.tar.gz]
+[2023-07-02 14:48:21] INFO root fetch - main [MainThread]: End processing [cnstd]: success
+[2023-07-02 14:48:21] INFO root fetch - processPackages [blizzardwarcraftapi]: Remove: archive file [/home/abi/fetcher/tmp/blizzardwarcraftapi-0.2.3.tar.gz]
+[2023-07-02 14:48:21] INFO root fetch - processPackages [blizzardwarcraftapi]: Remove: archive file [/home/abi/fetcher/tmp/blizzardwarcraftapi-0.2.4.tar.gz]
+[2023-07-02 14:48:21] INFO root fetch - main [MainThread]: End processing [blizzardwarcraftapi]: success
+[2023-07-02 14:48:22] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230630.tar.gz]
+[2023-07-02 14:48:22] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230701.tar.gz]
+[2023-07-02 14:48:22] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-07-02 14:48:24] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2023-07-02 14:48:24] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2023-07-02 14:48:24] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-07-02 14:48:34] INFO root fetch - processPackages [gaphor]: Remove: archive file [/home/abi/fetcher/tmp/gaphor-2.9.1.tar.gz]
+[2023-07-02 14:48:34] INFO root fetch - processPackages [gaphor]: Remove: archive file [/home/abi/fetcher/tmp/gaphor-2.9.2.tar.gz]
+[2023-07-02 14:48:34] INFO root fetch - main [MainThread]: End processing [gaphor]: success
+[2023-07-02 14:48:34] INFO root fetch - main [MainThread]: Store serial: [18728569]
