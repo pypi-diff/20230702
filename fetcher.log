@@ -12302,3 +12302,57 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 18:11:58] INFO root fetch - main [MainThread]: End processing [pylyzer]: success
 [2023-07-02 18:12:35] INFO root fetch - main [MainThread]: End processing [armonik]: success
 [2023-07-02 18:12:35] INFO root fetch - main [MainThread]: Store serial: [18729911]
+[2023-07-02 18:17:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18729911]
+[2023-07-02 18:17:55] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-02 18:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cellworld
+[2023-07-02 18:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: target-permutation-importances
+[2023-07-02 18:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yid-langchain-extensions
+[2023-07-02 18:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: usure
+[2023-07-02 18:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mend-ignore-alerts
+[2023-07-02 18:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: medit
+[2023-07-02 18:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hatena-cli
+[2023-07-02 18:17:55] INFO root fetch - processPackages [target-permutation-importances]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-02 18:17:55] INFO root fetch - processPackages [cellworld]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-02 18:17:55] INFO root fetch - processPackages [mend-ignore-alerts]: New version: [0.2] Old Version: [0.1]
+[2023-07-02 18:17:55] WARNING root fetch - processPackages [hatena-cli]: Skipping, unable to determine old version
+[2023-07-02 18:17:55] INFO root fetch - processPackages [medit]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-02 18:17:55] INFO root fetch - main [MainThread]: End processing [hatena-cli] error
+[2023-07-02 18:17:55] WARNING root fetch - processPackages [usure]: Skipping, unable to determine old version
+[2023-07-02 18:17:55] INFO root fetch - main [MainThread]: End processing [usure] error
+[2023-07-02 18:17:55] INFO root fetch - processPackages [yid-langchain-extensions]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-02 18:17:55] INFO root fetch - processPackages [target-permutation-importances]: Downloading https://files.pythonhosted.org/packages/28/67/e6d7891bedd33e620e104236064deec5b019f1267ae14cdb36152b5356de/target_permutation_importances-1.0.2.tar.gz
+[2023-07-02 18:17:55] INFO root fetch - processPackages [cellworld]: Downloading https://files.pythonhosted.org/packages/5b/48/37c208bf9f17c56f039db252d8343184a4a55191496e7d6fc9880261bc31/cellworld-0.0.98.tar.gz
+[2023-07-02 18:17:55] INFO root fetch - processPackages [medit]: Downloading https://files.pythonhosted.org/packages/64/e0/6fc9427ec46662b6d2316c6f2254870484b9fb28b6a4fd1493a4c6c39f3f/medit-0.0.3.tar.gz
+[2023-07-02 18:17:56] INFO root fetch - processPackages [mend-ignore-alerts]: Downloading https://files.pythonhosted.org/packages/55/9c/537beaf937d36ba2b201a086e501018f7a4629995d5e549ecec79fab8df9/mend_ignore_alerts-0.1-py3-none-any.whl
+[2023-07-02 18:17:56] INFO root fetch - processPackages [yid-langchain-extensions]: Downloading https://files.pythonhosted.org/packages/3b/ad/5a14d2e0db79c4c9e25625b1b4d6b4abf5e8bf7fb0bb06ba3461611b3181/yid_langchain_extensions-0.4.8.tar.gz
+[2023-07-02 18:17:56] INFO root fetch - processPackages [cellworld]: Downloading https://files.pythonhosted.org/packages/ef/23/3c6f38892cfa3ebc3c34a2cf3e74549ede81266641f0969285913d8e199b/cellworld-0.0.99.tar.gz
+[2023-07-02 18:17:56] INFO root fetch - processPackages [target-permutation-importances]: Downloading https://files.pythonhosted.org/packages/84/76/d3f0297100f8b51c21d1d83c2acd5ffb50005eea93b85eb01cb4eae1a3d8/target_permutation_importances-1.0.3.tar.gz
+[2023-07-02 18:17:56] INFO root fetch - processPackages [cellworld]: executing diffoscope
+[2023-07-02 18:17:56] INFO root fetch - processPackages [cellworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellworld-0.0.98.tar.gz tmp/cellworld-0.0.99.tar.gz --markdown 20230702/c/cellworld/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-02 18:17:56] INFO root fetch - processPackages [medit]: Downloading https://files.pythonhosted.org/packages/27/a4/5e260c932d37780c5c2972bbfa62cb32570996066af6eba5d840a6037b24/medit-0.0.4.tar.gz
+[2023-07-02 18:17:56] INFO root fetch - processPackages [mend-ignore-alerts]: Downloading https://files.pythonhosted.org/packages/63/e0/8ca92ca28470512baa333098e2d2863be1edc74bc5331651730986894e04/mend_ignore_alerts-0.2-py3-none-any.whl
+[2023-07-02 18:17:56] INFO root fetch - processPackages [medit]: executing diffoscope
+[2023-07-02 18:17:56] INFO root fetch - processPackages [medit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medit-0.0.3.tar.gz tmp/medit-0.0.4.tar.gz --markdown 20230702/m/medit/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-02 18:17:56] INFO root fetch - processPackages [yid-langchain-extensions]: Downloading https://files.pythonhosted.org/packages/72/ba/67d200561c62c1dbd583ac75ded2fb95737bee8f62900d9aaf0aeda17ef8/yid_langchain_extensions-0.4.9.tar.gz
+[2023-07-02 18:17:56] INFO root fetch - processPackages [target-permutation-importances]: executing diffoscope
+[2023-07-02 18:17:56] INFO root fetch - processPackages [target-permutation-importances]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/target_permutation_importances-1.0.2.tar.gz tmp/target_permutation_importances-1.0.3.tar.gz --markdown 20230702/t/target-permutation-importances/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-02 18:17:56] INFO root fetch - processPackages [mend-ignore-alerts]: executing diffoscope
+[2023-07-02 18:17:56] INFO root fetch - processPackages [mend-ignore-alerts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mend_ignore_alerts-0.1-py3-none-any.whl.zip tmp/mend_ignore_alerts-0.2-py3-none-any.whl.zip --markdown 20230702/m/mend-ignore-alerts/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-02 18:17:56] INFO root fetch - processPackages [yid-langchain-extensions]: executing diffoscope
+[2023-07-02 18:17:56] INFO root fetch - processPackages [yid-langchain-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yid_langchain_extensions-0.4.8.tar.gz tmp/yid_langchain_extensions-0.4.9.tar.gz --markdown 20230702/y/yid-langchain-extensions/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-02 18:17:56] ERROR root fetch - processPackages [target-permutation-importances]: Diffoscope failed: Error: error creating container storage: the container name "angry_thompson" is already in use by "3f1648f839fd262fe905cc8ab278ab2c296951aa997f4728e72722a5b59c2deb". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-07-02 18:17:56] INFO root fetch - main [MainThread]: End processing [target-permutation-importances] error
+[2023-07-02 18:17:57] INFO root fetch - processPackages [cellworld]: Remove: archive file [/home/abi/fetcher/tmp/cellworld-0.0.98.tar.gz]
+[2023-07-02 18:17:57] INFO root fetch - processPackages [cellworld]: Remove: archive file [/home/abi/fetcher/tmp/cellworld-0.0.99.tar.gz]
+[2023-07-02 18:17:57] INFO root fetch - main [MainThread]: End processing [cellworld]: success
+[2023-07-02 18:17:57] INFO root fetch - processPackages [mend-ignore-alerts]: Remove: archive file [/home/abi/fetcher/tmp/mend_ignore_alerts-0.1-py3-none-any.whl.zip]
+[2023-07-02 18:17:57] INFO root fetch - processPackages [mend-ignore-alerts]: Remove: archive file [/home/abi/fetcher/tmp/mend_ignore_alerts-0.2-py3-none-any.whl.zip]
+[2023-07-02 18:17:57] INFO root fetch - main [MainThread]: End processing [mend-ignore-alerts]: success
+[2023-07-02 18:17:57] INFO root fetch - processPackages [medit]: Remove: archive file [/home/abi/fetcher/tmp/medit-0.0.3.tar.gz]
+[2023-07-02 18:17:57] INFO root fetch - processPackages [medit]: Remove: archive file [/home/abi/fetcher/tmp/medit-0.0.4.tar.gz]
+[2023-07-02 18:17:57] INFO root fetch - main [MainThread]: End processing [medit]: success
+[2023-07-02 18:17:57] INFO root fetch - processPackages [yid-langchain-extensions]: Remove: archive file [/home/abi/fetcher/tmp/yid_langchain_extensions-0.4.8.tar.gz]
+[2023-07-02 18:17:57] INFO root fetch - processPackages [yid-langchain-extensions]: Remove: archive file [/home/abi/fetcher/tmp/yid_langchain_extensions-0.4.9.tar.gz]
+[2023-07-02 18:17:57] INFO root fetch - main [MainThread]: End processing [yid-langchain-extensions]: success
+[2023-07-02 18:17:57] INFO root fetch - main [MainThread]: Store serial: [18729938]
