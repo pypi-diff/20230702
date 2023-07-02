@@ -4423,3 +4423,48 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 07:05:59] INFO root fetch - processPackages [terra-classic-sdk]: Remove: archive file [/home/abi/fetcher/tmp/terra_classic_sdk-2.0.8.1.tar.gz]
 [2023-07-02 07:05:59] INFO root fetch - main [MainThread]: End processing [terra-classic-sdk]: success
 [2023-07-02 07:05:59] INFO root fetch - main [MainThread]: Store serial: [18726468]
+[2023-07-02 07:11:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726468]
+[2023-07-02 07:11:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-02 07:11:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: multi-model-server
+[2023-07-02 07:11:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dask-cuda
+[2023-07-02 07:11:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tflite-model-maker-nightly
+[2023-07-02 07:11:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: micropython-modbus
+[2023-07-02 07:11:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ez-a-sync
+[2023-07-02 07:11:08] INFO root fetch - processPackages [micropython-modbus]: New version: [2.3.5] Old Version: [2.3.4]
+[2023-07-02 07:11:08] INFO root fetch - processPackages [ez-a-sync]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-02 07:11:08] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.9b20230601] Old Version: [1.1.9]
+[2023-07-02 07:11:08] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202307010509] Old Version: [0.4.3.dev202306300510]
+[2023-07-02 07:11:09] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230702] Old Version: [23.8.0a230701]
+[2023-07-02 07:11:09] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/34/87/d0dac8dc812501931891fb373f74fe7f2b3861df51b993145aba0ccf8f19/tflite-model-maker-nightly-0.4.3.dev202306300510.tar.gz
+[2023-07-02 07:11:09] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/ca/36/6fe2f803b769d22016bc33cce4f22d1561330309ed960f4f9dd1a8f2179a/dask-cuda-23.8.0a230701.tar.gz
+[2023-07-02 07:11:09] INFO root fetch - processPackages [micropython-modbus]: Downloading https://files.pythonhosted.org/packages/4d/aa/64276072014962b2343596ffe9c37164d4b5e3dc746926a85fdc4e76b895/micropython-modbus-2.3.4.tar.gz
+[2023-07-02 07:11:09] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/eb/44/6de3ab5703a0f67ba1af144b88ae55734031407db5bb53448730d5785fdc/ez-a-sync-0.1.9.tar.gz
+[2023-07-02 07:11:09] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-07-02 07:11:09] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.9-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.9b20230601-py2.py3-none-any.whl.zip --markdown 20230702/m/multi-model-server/1.1.9-1.1.9b20230601/diff.md --exclude *.pyd
+[2023-07-02 07:11:09] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/3a/20/e59c5ee2bb76324de82641dda80757788c4da3ea7ed08413b9107abb903b/dask-cuda-23.8.0a230702.tar.gz
+[2023-07-02 07:11:09] INFO root fetch - processPackages [micropython-modbus]: Downloading https://files.pythonhosted.org/packages/30/16/e421e80e6476be4e238608c9c1157ce3c74d410ae58c4e9ef5b3aaf24dcf/micropython-modbus-2.3.5.tar.gz
+[2023-07-02 07:11:09] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/db/3b/8856b661d31c9a2794039f0bbe8876d9ed1823de9553f49a76808a79279b/ez-a-sync-0.2.0.tar.gz
+[2023-07-02 07:11:09] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/b5/46/4e740f3b4263f36dce3ff51d8ba994386acd241af7f3cd9658ecd3d2c528/tflite-model-maker-nightly-0.4.3.dev202307010509.tar.gz
+[2023-07-02 07:11:09] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-07-02 07:11:09] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230701.tar.gz tmp/dask-cuda-23.8.0a230702.tar.gz --markdown 20230702/d/dask-cuda/23.8.0a230701-23.8.0a230702/diff.md --exclude *.pyd
+[2023-07-02 07:11:09] INFO root fetch - processPackages [micropython-modbus]: executing diffoscope
+[2023-07-02 07:11:09] INFO root fetch - processPackages [micropython-modbus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-modbus-2.3.4.tar.gz tmp/micropython-modbus-2.3.5.tar.gz --markdown 20230702/m/micropython-modbus/2.3.4-2.3.5/diff.md --exclude *.pyd
+[2023-07-02 07:11:09] INFO root fetch - processPackages [ez-a-sync]: executing diffoscope
+[2023-07-02 07:11:09] INFO root fetch - processPackages [ez-a-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez-a-sync-0.1.9.tar.gz tmp/ez-a-sync-0.2.0.tar.gz --markdown 20230702/e/ez-a-sync/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-02 07:11:09] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-07-02 07:11:09] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202306300510.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202307010509.tar.gz --markdown 20230702/t/tflite-model-maker-nightly/0.4.3.dev202306300510-0.4.3.dev202307010509/diff.md --exclude *.pyd
+[2023-07-02 07:11:10] INFO root fetch - processPackages [micropython-modbus]: Remove: archive file [/home/abi/fetcher/tmp/micropython-modbus-2.3.4.tar.gz]
+[2023-07-02 07:11:10] INFO root fetch - processPackages [micropython-modbus]: Remove: archive file [/home/abi/fetcher/tmp/micropython-modbus-2.3.5.tar.gz]
+[2023-07-02 07:11:10] INFO root fetch - main [MainThread]: End processing [micropython-modbus]: success
+[2023-07-02 07:11:10] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230701.tar.gz]
+[2023-07-02 07:11:10] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230702.tar.gz]
+[2023-07-02 07:11:10] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-07-02 07:11:10] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.1.9.tar.gz]
+[2023-07-02 07:11:10] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.2.0.tar.gz]
+[2023-07-02 07:11:10] INFO root fetch - main [MainThread]: End processing [ez-a-sync]: success
+[2023-07-02 07:11:12] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306300510.tar.gz]
+[2023-07-02 07:11:12] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202307010509.tar.gz]
+[2023-07-02 07:11:12] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-07-02 07:14:09] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
+[2023-07-02 07:14:09] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
+[2023-07-02 07:14:09] INFO root fetch - main [MainThread]: Store serial: [18726481]
