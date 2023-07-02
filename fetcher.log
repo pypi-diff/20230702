@@ -5738,3 +5738,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 09:47:41] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
 [2023-07-02 09:47:41] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-07-02 09:47:41] INFO root fetch - main [MainThread]: Store serial: [18727040]
+[2023-07-02 09:52:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18727040]
+[2023-07-02 09:52:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-02 09:52:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: singlecase
+[2023-07-02 09:52:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: threemystic-cmdb
+[2023-07-02 09:52:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymudclient
+[2023-07-02 09:52:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: namespace-mahdimir
+[2023-07-02 09:52:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-nightly-cpu
+[2023-07-02 09:52:49] INFO root fetch - processPackages [namespace-mahdimir]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-02 09:52:49] INFO root fetch - processPackages [threemystic-cmdb]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-02 09:52:49] INFO root fetch - processPackages [singlecase]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-02 09:52:49] INFO root fetch - processPackages [pymudclient]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-02 09:52:49] INFO root fetch - processPackages [namespace-mahdimir]: Downloading https://files.pythonhosted.org/packages/4f/d2/9e2cfc7af1923709173cb1a4a32c80d278452ea1622c4e53a536cb81c82e/namespace_mahdimir-0.0.2.tar.gz
+[2023-07-02 09:52:49] INFO root fetch - processPackages [pymudclient]: Downloading https://files.pythonhosted.org/packages/5d/e5/a02779ffab3c0504b6b8f752fa97e38245e3de765588630cf6310120212e/pymudclient-0.4.0.tar.gz
+[2023-07-02 09:52:49] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230702] Old Version: [2.14.0.dev20230701]
+[2023-07-02 09:52:49] INFO root fetch - processPackages [threemystic-cmdb]: Downloading https://files.pythonhosted.org/packages/60/68/873bea3bb71cd96882a30874f15f25f718c4dbbbcc2a94601f9dc1216525/threemystic_cmdb-0.1.1.tar.gz
+[2023-07-02 09:52:49] INFO root fetch - processPackages [singlecase]: Downloading https://files.pythonhosted.org/packages/d2/a7/31773992ee318b31523b89fb3e7b5737b865c8a079660089d6e559b61213/singlecase-0.1.0.tar.gz
+[2023-07-02 09:52:50] INFO root fetch - processPackages [namespace-mahdimir]: Downloading https://files.pythonhosted.org/packages/dc/53/37e615028199a9785bed59bd92c67e7a60482e286b98af64dba180570a41/namespace_mahdimir-0.0.3.tar.gz
+[2023-07-02 09:52:50] INFO root fetch - processPackages [namespace-mahdimir]: executing diffoscope
+[2023-07-02 09:52:50] INFO root fetch - processPackages [namespace-mahdimir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namespace_mahdimir-0.0.2.tar.gz tmp/namespace_mahdimir-0.0.3.tar.gz --markdown 20230702/n/namespace-mahdimir/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-02 09:52:50] INFO root fetch - processPackages [pymudclient]: Downloading https://files.pythonhosted.org/packages/94/20/908a98b5823ed11f8d0ae63f20fa0729032fd417bcef6d681f85660a3823/pymudclient-0.5.0.tar.gz
+[2023-07-02 09:52:50] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/ec/ae/99c9ad2254320cb3da3df9a0530bbf00a68de4adb4343a8458e5e2f0043b/tf_nightly_cpu-2.14.0.dev20230701-cp39-cp39-win_amd64.whl
+[2023-07-02 09:52:50] INFO root fetch - processPackages [pymudclient]: executing diffoscope
+[2023-07-02 09:52:50] INFO root fetch - processPackages [pymudclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymudclient-0.4.0.tar.gz tmp/pymudclient-0.5.0.tar.gz --markdown 20230702/p/pymudclient/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-02 09:52:50] INFO root fetch - processPackages [threemystic-cmdb]: Downloading https://files.pythonhosted.org/packages/c7/3e/a51a0cd5a799f301dd6fc7d0838e938640f266adcb654f1748077275553f/threemystic_cmdb-0.1.2.tar.gz
+[2023-07-02 09:52:50] INFO root fetch - processPackages [threemystic-cmdb]: executing diffoscope
+[2023-07-02 09:52:50] INFO root fetch - processPackages [threemystic-cmdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cmdb-0.1.1.tar.gz tmp/threemystic_cmdb-0.1.2.tar.gz --markdown 20230702/t/threemystic-cmdb/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-02 09:52:50] INFO root fetch - processPackages [singlecase]: Downloading https://files.pythonhosted.org/packages/8c/07/0e3ce7a8065ced052c4d66f862a68b26294970e84f426923a12374a5be2e/singlecase-0.2.0.tar.gz
+[2023-07-02 09:52:50] INFO root fetch - processPackages [singlecase]: executing diffoscope
+[2023-07-02 09:52:50] INFO root fetch - processPackages [singlecase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/singlecase-0.1.0.tar.gz tmp/singlecase-0.2.0.tar.gz --markdown 20230702/s/singlecase/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-02 09:52:50] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/ff/4e/3a9578c16542000dbbd150d861ed4b80d2e2f0a4d710686d695385b81400/tf_nightly_cpu-2.14.0.dev20230702-cp39-cp39-win_amd64.whl
+[2023-07-02 09:52:50] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-07-02 09:52:50] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230701-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230702-cp39-cp39-win_amd64.whl.zip --markdown 20230702/t/tf-nightly-cpu/2.14.0.dev20230701-2.14.0.dev20230702/diff.md --exclude *.pyd
+[2023-07-02 09:52:51] INFO root fetch - processPackages [namespace-mahdimir]: Remove: archive file [/home/abi/fetcher/tmp/namespace_mahdimir-0.0.2.tar.gz]
+[2023-07-02 09:52:51] INFO root fetch - processPackages [namespace-mahdimir]: Remove: archive file [/home/abi/fetcher/tmp/namespace_mahdimir-0.0.3.tar.gz]
+[2023-07-02 09:52:51] INFO root fetch - main [MainThread]: End processing [namespace-mahdimir]: success
+[2023-07-02 09:52:51] INFO root fetch - processPackages [pymudclient]: Remove: archive file [/home/abi/fetcher/tmp/pymudclient-0.4.0.tar.gz]
+[2023-07-02 09:52:51] INFO root fetch - processPackages [pymudclient]: Remove: archive file [/home/abi/fetcher/tmp/pymudclient-0.5.0.tar.gz]
+[2023-07-02 09:52:51] INFO root fetch - main [MainThread]: End processing [pymudclient]: success
+[2023-07-02 09:52:51] INFO root fetch - processPackages [threemystic-cmdb]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cmdb-0.1.1.tar.gz]
+[2023-07-02 09:52:51] INFO root fetch - processPackages [threemystic-cmdb]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cmdb-0.1.2.tar.gz]
+[2023-07-02 09:52:51] INFO root fetch - main [MainThread]: End processing [threemystic-cmdb]: success
+[2023-07-02 09:52:51] INFO root fetch - processPackages [singlecase]: Remove: archive file [/home/abi/fetcher/tmp/singlecase-0.1.0.tar.gz]
+[2023-07-02 09:52:51] INFO root fetch - processPackages [singlecase]: Remove: archive file [/home/abi/fetcher/tmp/singlecase-0.2.0.tar.gz]
+[2023-07-02 09:52:51] INFO root fetch - main [MainThread]: End processing [singlecase]: success
+[2023-07-02 09:52:51] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230701-cp39-cp39-win_amd64.whl.zip]
+[2023-07-02 09:52:51] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230702-cp39-cp39-win_amd64.whl.zip]
+[2023-07-02 09:52:51] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-07-02 09:52:51] INFO root fetch - main [MainThread]: Store serial: [18727058]
