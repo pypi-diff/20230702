@@ -6054,3 +6054,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 10:20:48] INFO root fetch - processPackages [couchbed]: Remove: archive file [/home/abi/fetcher/tmp/couchbed-0.2.0.tar.gz]
 [2023-07-02 10:20:48] INFO root fetch - main [MainThread]: End processing [couchbed]: success
 [2023-07-02 10:20:48] INFO root fetch - main [MainThread]: Store serial: [18727197]
+[2023-07-02 10:25:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18727197]
+[2023-07-02 10:25:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-02 10:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pywa
+[2023-07-02 10:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-model-optimization-nightly
+[2023-07-02 10:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bioversions
+[2023-07-02 10:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydicts
+[2023-07-02 10:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: interaction-devkit
+[2023-07-02 10:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lambda-handler
+[2023-07-02 10:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nb-log
+[2023-07-02 10:25:58] INFO root fetch - processPackages [pywa]: New version: [0.0.1rc13] Old Version: [0.0.1rc12]
+[2023-07-02 10:25:58] INFO root fetch - processPackages [lambda-handler]: New version: [2.0.0a2] Old Version: [2.0.0a1]
+[2023-07-02 10:25:58] INFO root fetch - processPackages [pydicts]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-02 10:25:58] WARNING root fetch - processPackages [interaction-devkit]: Skipping, unable to determine old version
+[2023-07-02 10:25:58] INFO root fetch - main [MainThread]: End processing [interaction-devkit] error
+[2023-07-02 10:25:58] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-07-02 10:25:58] INFO root fetch - processPackages [tf-model-optimization-nightly]: New version: [0.7.5.dev20230701] Old Version: [0.7.5.dev20230626]
+[2023-07-02 10:25:58] INFO root fetch - processPackages [lambda-handler]: Downloading https://files.pythonhosted.org/packages/07/fa/a448fa23106408f4c75a1036bb10c6218a4e67ef01637963bbc5fae4993e/lambda_handler-2.0.0a1.tar.gz
+[2023-07-02 10:25:58] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/d6/c4/bbaaf28bbc50d8ddc8f21871fdee927b5c32371137ef77f87d32ed774890/tf_model_optimization_nightly-0.7.5.dev20230626-py2.py3-none-any.whl
+[2023-07-02 10:25:58] INFO root fetch - processPackages [nb-log]: New version: [9.0] Old Version: [8.8]
+[2023-07-02 10:25:58] INFO root fetch - processPackages [pywa]: Downloading https://files.pythonhosted.org/packages/37/7c/ddee7e8b08a4662e87d2de3e71a23c4469292106cda1eb4dd1fe448c1c87/pywa-0.0.1rc12-py3-none-any.whl
+[2023-07-02 10:25:58] INFO root fetch - processPackages [lambda-handler]: Downloading https://files.pythonhosted.org/packages/72/76/4549d850648e518a129c179c5016faa81cfaa760e0e34417f71b24e84cc6/lambda_handler-2.0.0a2.tar.gz
+[2023-07-02 10:25:58] INFO root fetch - processPackages [pydicts]: Downloading https://files.pythonhosted.org/packages/39/42/1c2ffa4d8293e308ce19d70fcc26b632ed0705297ed648b2f386015c2483/pydicts-0.5.0.tar.gz
+[2023-07-02 10:25:58] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2023-07-02 10:25:58] INFO root fetch - processPackages [lambda-handler]: executing diffoscope
+[2023-07-02 10:25:58] INFO root fetch - processPackages [lambda-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambda_handler-2.0.0a1.tar.gz tmp/lambda_handler-2.0.0a2.tar.gz --markdown 20230702/l/lambda-handler/2.0.0a1-2.0.0a2/diff.md --exclude *.pyd
+[2023-07-02 10:25:58] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/60/aa/87c3f680865755914be0fcb2c4ff7dbd57a2f1e312cca722625665b2be4b/tf_model_optimization_nightly-0.7.5.dev20230701-py2.py3-none-any.whl
+[2023-07-02 10:25:58] INFO root fetch - processPackages [nb-log]: Downloading https://files.pythonhosted.org/packages/36/7a/d9e052101e0e17d825ca21bc60530f55b794f49cebd0a0962046303af6ec/nb_log-8.8.tar.gz
+[2023-07-02 10:25:59] INFO root fetch - processPackages [pywa]: Downloading https://files.pythonhosted.org/packages/e7/a2/8614ad474c51ef56bb7208e4e62da07d0c74455022fdcab6f2e67fada143/pywa-0.0.1rc13-py3-none-any.whl
+[2023-07-02 10:25:59] INFO root fetch - processPackages [tf-model-optimization-nightly]: executing diffoscope
+[2023-07-02 10:25:59] INFO root fetch - processPackages [tf-model-optimization-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_model_optimization_nightly-0.7.5.dev20230626-py2.py3-none-any.whl.zip tmp/tf_model_optimization_nightly-0.7.5.dev20230701-py2.py3-none-any.whl.zip --markdown 20230702/t/tf-model-optimization-nightly/0.7.5.dev20230626-0.7.5.dev20230701/diff.md --exclude *.pyd
+[2023-07-02 10:25:59] INFO root fetch - processPackages [pydicts]: Downloading https://files.pythonhosted.org/packages/45/9d/9afd16f89434d2ad76507066299569672850b49280d169dbd78a517c3e97/pydicts-0.6.0.tar.gz
+[2023-07-02 10:25:59] INFO root fetch - processPackages [pywa]: executing diffoscope
+[2023-07-02 10:25:59] INFO root fetch - processPackages [pywa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywa-0.0.1rc12-py3-none-any.whl.zip tmp/pywa-0.0.1rc13-py3-none-any.whl.zip --markdown 20230702/p/pywa/0.0.1rc12-0.0.1rc13/diff.md --exclude *.pyd
+[2023-07-02 10:25:59] INFO root fetch - processPackages [nb-log]: Downloading https://files.pythonhosted.org/packages/eb/8b/15d8447ac65264e7741d1a45de73101f7734764a5d96e6279a645352cc89/nb_log-9.0.tar.gz
+[2023-07-02 10:25:59] INFO root fetch - processPackages [pydicts]: executing diffoscope
+[2023-07-02 10:25:59] INFO root fetch - processPackages [pydicts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydicts-0.5.0.tar.gz tmp/pydicts-0.6.0.tar.gz --markdown 20230702/p/pydicts/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-02 10:25:59] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2023-07-02 10:25:59] INFO root fetch - processPackages [nb-log]: executing diffoscope
+[2023-07-02 10:25:59] INFO root fetch - processPackages [nb-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb_log-8.8.tar.gz tmp/nb_log-9.0.tar.gz --markdown 20230702/n/nb-log/8.8-9.0/diff.md --exclude *.pyd
+[2023-07-02 10:25:59] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2023-07-02 10:25:59] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20230702/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-07-02 10:25:59] INFO root fetch - processPackages [lambda-handler]: Remove: archive file [/home/abi/fetcher/tmp/lambda_handler-2.0.0a1.tar.gz]
+[2023-07-02 10:25:59] INFO root fetch - processPackages [lambda-handler]: Remove: archive file [/home/abi/fetcher/tmp/lambda_handler-2.0.0a2.tar.gz]
+[2023-07-02 10:25:59] INFO root fetch - main [MainThread]: End processing [lambda-handler]: success
+[2023-07-02 10:26:00] INFO root fetch - processPackages [pywa]: Remove: archive file [/home/abi/fetcher/tmp/pywa-0.0.1rc12-py3-none-any.whl.zip]
+[2023-07-02 10:26:00] INFO root fetch - processPackages [pywa]: Remove: archive file [/home/abi/fetcher/tmp/pywa-0.0.1rc13-py3-none-any.whl.zip]
+[2023-07-02 10:26:00] INFO root fetch - main [MainThread]: End processing [pywa]: success
+[2023-07-02 10:26:00] INFO root fetch - processPackages [pydicts]: Remove: archive file [/home/abi/fetcher/tmp/pydicts-0.5.0.tar.gz]
+[2023-07-02 10:26:00] INFO root fetch - processPackages [pydicts]: Remove: archive file [/home/abi/fetcher/tmp/pydicts-0.6.0.tar.gz]
+[2023-07-02 10:26:00] INFO root fetch - main [MainThread]: End processing [pydicts]: success
+[2023-07-02 10:26:00] INFO root fetch - processPackages [nb-log]: Remove: archive file [/home/abi/fetcher/tmp/nb_log-8.8.tar.gz]
+[2023-07-02 10:26:00] INFO root fetch - processPackages [nb-log]: Remove: archive file [/home/abi/fetcher/tmp/nb_log-9.0.tar.gz]
+[2023-07-02 10:26:00] INFO root fetch - main [MainThread]: End processing [nb-log]: success
+[2023-07-02 10:26:00] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230626-py2.py3-none-any.whl.zip]
+[2023-07-02 10:26:00] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230701-py2.py3-none-any.whl.zip]
+[2023-07-02 10:26:00] INFO root fetch - main [MainThread]: End processing [tf-model-optimization-nightly]: success
+[2023-07-02 10:26:19] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2023-07-02 10:26:19] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2023-07-02 10:26:19] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2023-07-02 10:26:19] INFO root fetch - main [MainThread]: Store serial: [18727216]
