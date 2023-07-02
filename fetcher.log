@@ -5012,3 +5012,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 08:22:39] INFO root fetch - processPackages [gramex]: Remove: archive file [/home/abi/fetcher/tmp/gramex-1.92.0.tar.gz]
 [2023-07-02 08:22:39] INFO root fetch - main [MainThread]: End processing [gramex]: success
 [2023-07-02 08:22:39] INFO root fetch - main [MainThread]: Store serial: [18726675]
+[2023-07-02 08:27:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726675]
+[2023-07-02 08:27:47] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-02 08:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ag-llama-api
+[2023-07-02 08:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: igz-mgmt
+[2023-07-02 08:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fake-bpy-module-latest
+[2023-07-02 08:27:47] INFO root fetch - processPackages [ag-llama-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 08:27:47] INFO root fetch - processPackages [igz-mgmt]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 08:27:47] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230702] Old Version: [20230701]
+[2023-07-02 08:27:47] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/e7/db/6c93bb8ec9653fafd298258240710b4768345a45843013bc715cf9e658f7/ag_llama_api-0.0.8.tar.gz
+[2023-07-02 08:27:47] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/4a/f6/051d3b235fbe544bd4828711c2326c56027a3b0eaea2fcf96f3d75c1e8d0/fake-bpy-module-latest-20230701.tar.gz
+[2023-07-02 08:27:47] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/0e/45/5ce146425eb4c54590e514bf53d436ec8eb7cbeee70953b613dcd4e56824/ag_llama_api-0.0.9.tar.gz
+[2023-07-02 08:27:47] INFO root fetch - processPackages [igz-mgmt]: Downloading https://files.pythonhosted.org/packages/dd/0a/4b8cdebae0ba4f69e87717b86709097fdb566a76b0a0ed9e787e274609bf/igz_mgmt-0.0.8.tar.gz
+[2023-07-02 08:27:47] INFO root fetch - processPackages [ag-llama-api]: executing diffoscope
+[2023-07-02 08:27:47] INFO root fetch - processPackages [ag-llama-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ag_llama_api-0.0.8.tar.gz tmp/ag_llama_api-0.0.9.tar.gz --markdown 20230702/a/ag-llama-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 08:27:47] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/38/ac/461f28769580c1bf34cb262b53300204d4e29363b9ef2f352db748b5636d/fake-bpy-module-latest-20230702.tar.gz
+[2023-07-02 08:27:48] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-07-02 08:27:48] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230701.tar.gz tmp/fake-bpy-module-latest-20230702.tar.gz --markdown 20230702/f/fake-bpy-module-latest/20230701-20230702/diff.md --exclude *.pyd
+[2023-07-02 08:27:48] INFO root fetch - processPackages [igz-mgmt]: Downloading https://files.pythonhosted.org/packages/88/f6/e31fa7d0e92be8b0d4e951018a39e7b94ccd8b20530fcfb7a24af952560a/igz_mgmt-0.0.9.tar.gz
+[2023-07-02 08:27:48] INFO root fetch - processPackages [igz-mgmt]: executing diffoscope
+[2023-07-02 08:27:48] INFO root fetch - processPackages [igz-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/igz_mgmt-0.0.8.tar.gz tmp/igz_mgmt-0.0.9.tar.gz --markdown 20230702/i/igz-mgmt/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 08:27:48] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.8.tar.gz]
+[2023-07-02 08:27:48] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.9.tar.gz]
+[2023-07-02 08:27:48] INFO root fetch - main [MainThread]: End processing [ag-llama-api]: success
+[2023-07-02 08:27:49] INFO root fetch - processPackages [igz-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/igz_mgmt-0.0.8.tar.gz]
+[2023-07-02 08:27:49] INFO root fetch - processPackages [igz-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/igz_mgmt-0.0.9.tar.gz]
+[2023-07-02 08:27:49] INFO root fetch - main [MainThread]: End processing [igz-mgmt]: success
+[2023-07-02 08:27:54] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230701.tar.gz]
+[2023-07-02 08:27:54] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230702.tar.gz]
+[2023-07-02 08:27:54] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-07-02 08:27:54] INFO root fetch - main [MainThread]: Store serial: [18726684]
