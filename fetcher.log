@@ -11094,3 +11094,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 17:12:45] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.9.tar.gz]
 [2023-07-02 17:12:45] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-rds]: success
 [2023-07-02 17:12:45] INFO root fetch - main [MainThread]: Store serial: [18729337]
+[2023-07-02 17:17:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18729337]
+[2023-07-02 17:17:57] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-02 17:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: speech-collator
+[2023-07-02 17:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: meth
+[2023-07-02 17:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-rds20140815-py2
+[2023-07-02 17:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hyko-sdk
+[2023-07-02 17:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pop-create-idem
+[2023-07-02 17:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-rds20140815
+[2023-07-02 17:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hnhm
+[2023-07-02 17:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: katalytic-maths
+[2023-07-02 17:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyddm
+[2023-07-02 17:17:57] INFO root fetch - processPackages [speech-collator]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 17:17:57] INFO root fetch - processPackages [hyko-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 17:17:57] INFO root fetch - processPackages [meth]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-07-02 17:17:57] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-02 17:17:57] INFO root fetch - processPackages [pop-create-idem]: New version: [4.1.1] Old Version: [4.1.0]
+[2023-07-02 17:17:57] INFO root fetch - processPackages [alibabacloud-rds20140815]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-07-02 17:17:57] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/f8/1b/02137db3d93571c0867cacae818eb8136e59f81d7b8eeee650eb74521728/hyko_sdk-0.1.8.tar.gz
+[2023-07-02 17:17:57] INFO root fetch - processPackages [hnhm]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-02 17:17:57] INFO root fetch - processPackages [katalytic-maths]: New version: [0.2.2] Old Version: [0.2.0]
+[2023-07-02 17:17:58] INFO root fetch - processPackages [pyddm]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-07-02 17:17:58] INFO root fetch - processPackages [speech-collator]: Downloading https://files.pythonhosted.org/packages/f9/a4/349d7a91853a0ead03fafab1d6fee405085858bdb0911f8dce640ca538ce/speech_collator-0.1.8.tar.gz
+[2023-07-02 17:17:58] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/18/dd/0fc13fe8ada91f69ab17997d640fbdeff420217e7e2dc38f5e85178a4187/hyko_sdk-0.1.9.tar.gz
+[2023-07-02 17:17:58] INFO root fetch - processPackages [meth]: Downloading https://files.pythonhosted.org/packages/85/ad/e6c3ac12f0c097f4554b30da25b0b7750339b925ec8242cea31b9c9d5370/meth-1.0.1.tar.gz
+[2023-07-02 17:17:58] INFO root fetch - processPackages [hyko-sdk]: executing diffoscope
+[2023-07-02 17:17:58] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/33/d5/3d04feab37e2e91f0ec71db61152cd8e112abd61d0159c5d81e91188f092/alibabacloud_rds20140815_py2-1.1.1.tar.gz
+[2023-07-02 17:17:58] INFO root fetch - processPackages [hyko-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyko_sdk-0.1.8.tar.gz tmp/hyko_sdk-0.1.9.tar.gz --markdown 20230702/h/hyko-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 17:17:58] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/42/64/2fa81ef5c946542fd4ad43e274ec619c8fde9d9b150438a4a5e1c5e29e27/alibabacloud_rds20140815-2.2.0.tar.gz
+[2023-07-02 17:17:58] INFO root fetch - processPackages [hnhm]: Downloading https://files.pythonhosted.org/packages/bb/30/889772341539e2524016f2be24e97199ee0f2e69e579aa446ad78dd1cac6/hnhm-0.0.7.tar.gz
+[2023-07-02 17:17:58] INFO root fetch - processPackages [katalytic-maths]: Downloading https://files.pythonhosted.org/packages/79/17/64074f787580d3268ae17c4b42b4ef5c2423ad49798560860ce01eb2a4b7/katalytic-maths-0.2.0.tar.gz
+[2023-07-02 17:17:58] INFO root fetch - processPackages [pop-create-idem]: Downloading https://files.pythonhosted.org/packages/58/00/06c7f203bb687492563f58d197bfddd8a1b5b0825a355646282c19cf04d5/pop-create-idem-4.1.0.tar.gz
+[2023-07-02 17:17:58] INFO root fetch - processPackages [pyddm]: Downloading https://files.pythonhosted.org/packages/c7/bf/daf63a8495254e03d9080f909aeea139bbcf3a05a8726b4cb8276e3b99b3/pyddm-0.6.1.tar.gz
+[2023-07-02 17:17:58] INFO root fetch - processPackages [meth]: Downloading https://files.pythonhosted.org/packages/26/07/7dc1278093098ad6abf526c2239120063d388883e9f1a503dea62488c1e2/meth-1.1.0.tar.gz
+[2023-07-02 17:17:58] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/67/09/df5f4bd55bf405213997a5c9296f0442b7cbaf27c86c1ffad924d46befa1/alibabacloud_rds20140815-2.2.1.tar.gz
+[2023-07-02 17:17:58] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/e6/14/d88d469cb41d2fd38e9780c0d1454ad4dc0fb57eb83997e3a67099eab186/alibabacloud_rds20140815_py2-1.1.2.tar.gz
+[2023-07-02 17:17:58] INFO root fetch - processPackages [pop-create-idem]: Downloading https://files.pythonhosted.org/packages/24/a5/b4dfb2af6934030ebb898bb71b574d0c701bdd97b3490b28f3b5aa552367/pop-create-idem-4.1.1.tar.gz
+[2023-07-02 17:17:58] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: executing diffoscope
+[2023-07-02 17:17:58] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815_py2-1.1.1.tar.gz tmp/alibabacloud_rds20140815_py2-1.1.2.tar.gz --markdown 20230702/a/alibabacloud-rds20140815-py2/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-02 17:17:58] INFO root fetch - processPackages [alibabacloud-rds20140815]: executing diffoscope
+[2023-07-02 17:17:58] INFO root fetch - processPackages [alibabacloud-rds20140815]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815-2.2.0.tar.gz tmp/alibabacloud_rds20140815-2.2.1.tar.gz --markdown 20230702/a/alibabacloud-rds20140815/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-07-02 17:17:58] INFO root fetch - processPackages [katalytic-maths]: Downloading https://files.pythonhosted.org/packages/0b/1f/5e4f67d6894573db82c228f79e3376f4dc0d4125b81075a3db9ba23253d7/katalytic_maths-0.2.2.tar.gz
+[2023-07-02 17:17:58] INFO root fetch - processPackages [meth]: executing diffoscope
+[2023-07-02 17:17:58] INFO root fetch - processPackages [meth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meth-1.0.1.tar.gz tmp/meth-1.1.0.tar.gz --markdown 20230702/m/meth/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-07-02 17:17:58] INFO root fetch - processPackages [pop-create-idem]: executing diffoscope
+[2023-07-02 17:17:58] INFO root fetch - processPackages [pop-create-idem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pop-create-idem-4.1.0.tar.gz tmp/pop-create-idem-4.1.1.tar.gz --markdown 20230702/p/pop-create-idem/4.1.0-4.1.1/diff.md --exclude *.pyd
+[2023-07-02 17:17:58] INFO root fetch - processPackages [pyddm]: Downloading https://files.pythonhosted.org/packages/14/50/422e34af6fc01951f9ad046d5ffd2ad716e96f98581aa922c9669ad244d0/pyddm-0.7.0-cp37-cp37m-win32.whl
+[2023-07-02 17:17:58] INFO root fetch - processPackages [hnhm]: Downloading https://files.pythonhosted.org/packages/81/0b/3c9666b1132b8815d74af22ca04ff023583b6b721dcb21e78532550e9734/hnhm-0.0.8.tar.gz
+[2023-07-02 17:17:58] INFO root fetch - processPackages [katalytic-maths]: executing diffoscope
+[2023-07-02 17:17:58] INFO root fetch - processPackages [katalytic-maths]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/katalytic-maths-0.2.0.tar.gz tmp/katalytic_maths-0.2.2.tar.gz --markdown 20230702/k/katalytic-maths/0.2.0-0.2.2/diff.md --exclude *.pyd
+[2023-07-02 17:17:58] INFO root fetch - processPackages [pyddm]: executing diffoscope
+[2023-07-02 17:17:58] INFO root fetch - processPackages [pyddm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyddm-0.6.1.tar.gz tmp/pyddm-0.7.0-cp37-cp37m-win32.whl.zip --markdown 20230702/p/pyddm/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-07-02 17:17:58] INFO root fetch - processPackages [hnhm]: executing diffoscope
+[2023-07-02 17:17:58] INFO root fetch - processPackages [hnhm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hnhm-0.0.7.tar.gz tmp/hnhm-0.0.8.tar.gz --markdown 20230702/h/hnhm/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-02 17:17:59] INFO root fetch - processPackages [speech-collator]: Downloading https://files.pythonhosted.org/packages/18/27/fbb01f45afd2b0552d6465d8c14c2152df6bafce27c3646e68863232584a/speech_collator-0.1.9.tar.gz
+[2023-07-02 17:17:59] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.8.tar.gz]
+[2023-07-02 17:17:59] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.9.tar.gz]
+[2023-07-02 17:17:59] INFO root fetch - main [MainThread]: End processing [hyko-sdk]: success
+[2023-07-02 17:17:59] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-1.1.1.tar.gz]
+[2023-07-02 17:17:59] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-1.1.2.tar.gz]
+[2023-07-02 17:17:59] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815-py2]: success
+[2023-07-02 17:17:59] INFO root fetch - processPackages [pyddm]: Remove: archive file [/home/abi/fetcher/tmp/pyddm-0.6.1.tar.gz]
+[2023-07-02 17:17:59] INFO root fetch - processPackages [pyddm]: Remove: archive file [/home/abi/fetcher/tmp/pyddm-0.7.0-cp37-cp37m-win32.whl.zip]
+[2023-07-02 17:17:59] INFO root fetch - main [MainThread]: End processing [pyddm]: success
+[2023-07-02 17:18:00] INFO root fetch - processPackages [katalytic-maths]: Remove: archive file [/home/abi/fetcher/tmp/katalytic-maths-0.2.0.tar.gz]
+[2023-07-02 17:18:00] INFO root fetch - processPackages [katalytic-maths]: Remove: archive file [/home/abi/fetcher/tmp/katalytic_maths-0.2.2.tar.gz]
+[2023-07-02 17:18:00] INFO root fetch - main [MainThread]: End processing [katalytic-maths]: success
+[2023-07-02 17:18:00] INFO root fetch - processPackages [pop-create-idem]: Remove: archive file [/home/abi/fetcher/tmp/pop-create-idem-4.1.0.tar.gz]
+[2023-07-02 17:18:00] INFO root fetch - processPackages [pop-create-idem]: Remove: archive file [/home/abi/fetcher/tmp/pop-create-idem-4.1.1.tar.gz]
+[2023-07-02 17:18:00] INFO root fetch - main [MainThread]: End processing [pop-create-idem]: success
+[2023-07-02 17:18:00] INFO root fetch - processPackages [hnhm]: Remove: archive file [/home/abi/fetcher/tmp/hnhm-0.0.7.tar.gz]
+[2023-07-02 17:18:00] INFO root fetch - processPackages [hnhm]: Remove: archive file [/home/abi/fetcher/tmp/hnhm-0.0.8.tar.gz]
+[2023-07-02 17:18:00] INFO root fetch - main [MainThread]: End processing [hnhm]: success
+[2023-07-02 17:18:00] INFO root fetch - processPackages [speech-collator]: executing diffoscope
+[2023-07-02 17:18:00] INFO root fetch - processPackages [speech-collator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speech_collator-0.1.8.tar.gz tmp/speech_collator-0.1.9.tar.gz --markdown 20230702/s/speech-collator/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 17:18:01] INFO root fetch - processPackages [speech-collator]: Remove: archive file [/home/abi/fetcher/tmp/speech_collator-0.1.8.tar.gz]
+[2023-07-02 17:18:01] INFO root fetch - processPackages [speech-collator]: Remove: archive file [/home/abi/fetcher/tmp/speech_collator-0.1.9.tar.gz]
+[2023-07-02 17:18:01] INFO root fetch - main [MainThread]: End processing [speech-collator]: success
+[2023-07-02 17:18:03] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.2.0.tar.gz]
+[2023-07-02 17:18:03] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.2.1.tar.gz]
+[2023-07-02 17:18:03] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815]: success
+[2023-07-02 17:18:53] INFO root fetch - processPackages [meth]: Remove: archive file [/home/abi/fetcher/tmp/meth-1.0.1.tar.gz]
+[2023-07-02 17:18:53] INFO root fetch - processPackages [meth]: Remove: archive file [/home/abi/fetcher/tmp/meth-1.1.0.tar.gz]
+[2023-07-02 17:18:53] INFO root fetch - main [MainThread]: End processing [meth]: success
+[2023-07-02 17:18:53] INFO root fetch - main [MainThread]: Store serial: [18729439]
