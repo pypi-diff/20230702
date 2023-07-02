@@ -10634,3 +10634,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 16:40:17] INFO root fetch - processPackages [modbus2mqtt]: Remove: archive file [/home/abi/fetcher/tmp/modbus2mqtt-0.67.tar.gz]
 [2023-07-02 16:40:17] INFO root fetch - main [MainThread]: End processing [modbus2mqtt]: success
 [2023-07-02 16:40:17] INFO root fetch - main [MainThread]: Store serial: [18729162]
+[2023-07-02 16:45:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18729162]
+[2023-07-02 16:45:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-02 16:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: e-qsl
+[2023-07-02 16:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: srt-equalizer
+[2023-07-02 16:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: work-login-lib
+[2023-07-02 16:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlit-chatbox
+[2023-07-02 16:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pywinstyles
+[2023-07-02 16:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wisedata
+[2023-07-02 16:45:26] INFO root fetch - processPackages [e-qsl]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 16:45:26] WARNING root fetch - processPackages [work-login-lib]: Skipping, unable to determine old version
+[2023-07-02 16:45:26] INFO root fetch - main [MainThread]: End processing [work-login-lib] error
+[2023-07-02 16:45:26] INFO root fetch - processPackages [wisedata]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-02 16:45:26] INFO root fetch - processPackages [streamlit-chatbox]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-02 16:45:26] INFO root fetch - processPackages [srt-equalizer]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-02 16:45:26] INFO root fetch - processPackages [pywinstyles]: New version: [1.3] Old Version: [1.2]
+[2023-07-02 16:45:26] INFO root fetch - processPackages [wisedata]: Downloading https://files.pythonhosted.org/packages/75/85/81c6287e74416455f6fa70948e45be3c77a4b65e3e910819fcfdcf4eb3a4/wisedata-1.0.6.tar.gz
+[2023-07-02 16:45:26] INFO root fetch - processPackages [pywinstyles]: Downloading https://files.pythonhosted.org/packages/44/e1/5b218efe88d44d3a359ede3942e8004463770cc308c72328ee81d8f1059b/pywinstyles-1.2.tar.gz
+[2023-07-02 16:45:26] INFO root fetch - processPackages [e-qsl]: Downloading https://files.pythonhosted.org/packages/1d/e4/f98965ad46a5e52221c2dcd82f071628344eaebbb5dda2e663e2f69749cc/e-qsl-0.1.8.tar.gz
+[2023-07-02 16:45:26] INFO root fetch - processPackages [srt-equalizer]: Downloading https://files.pythonhosted.org/packages/35/1c/b694605ec1b4236e318f79c479409e8ee6c134056a3ed5e2bd8e4a72d2ef/srt_equalizer-0.1.3.tar.gz
+[2023-07-02 16:45:26] INFO root fetch - processPackages [streamlit-chatbox]: Downloading https://files.pythonhosted.org/packages/26/92/8afcfaf8aa2b73bc21e3a3bb252d498ec31bb5ce97892bdff85f064c78c9/streamlit_chatbox-0.2.1-py3-none-any.whl
+[2023-07-02 16:45:26] INFO root fetch - processPackages [wisedata]: Downloading https://files.pythonhosted.org/packages/30/3d/39648257ceae1441bcb4db10fe2543422299097da07ffc3eb352bd424725/wisedata-1.0.7.tar.gz
+[2023-07-02 16:45:26] INFO root fetch - processPackages [pywinstyles]: Downloading https://files.pythonhosted.org/packages/5f/23/5753c5dfb7885ae0c0f739b6a6c940510cdc117eddf01fd0c81223360562/pywinstyles-1.3.tar.gz
+[2023-07-02 16:45:26] INFO root fetch - processPackages [wisedata]: executing diffoscope
+[2023-07-02 16:45:26] INFO root fetch - processPackages [wisedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wisedata-1.0.6.tar.gz tmp/wisedata-1.0.7.tar.gz --markdown 20230702/w/wisedata/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-02 16:45:26] INFO root fetch - processPackages [srt-equalizer]: Downloading https://files.pythonhosted.org/packages/38/4c/95714be3d9b776fe16af83956dcd1f470475887f5cbdb5bf6d2af1a7bc93/srt_equalizer-0.1.4.tar.gz
+[2023-07-02 16:45:26] INFO root fetch - processPackages [e-qsl]: Downloading https://files.pythonhosted.org/packages/53/3b/0affc5c6730054741a521330a3878a5d86a23d03e6c4b7b6222c10bf04b1/e-qsl-0.1.9.tar.gz
+[2023-07-02 16:45:26] INFO root fetch - processPackages [streamlit-chatbox]: Downloading https://files.pythonhosted.org/packages/92/f8/6e86938ea7cfe36aee02ab2d088e5de4a6f93dcc1a50a22c73188b2c2353/streamlit_chatbox-0.2.2-py3-none-any.whl
+[2023-07-02 16:45:26] INFO root fetch - processPackages [pywinstyles]: executing diffoscope
+[2023-07-02 16:45:26] INFO root fetch - processPackages [pywinstyles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywinstyles-1.2.tar.gz tmp/pywinstyles-1.3.tar.gz --markdown 20230702/p/pywinstyles/1.2-1.3/diff.md --exclude *.pyd
+[2023-07-02 16:45:26] INFO root fetch - processPackages [srt-equalizer]: executing diffoscope
+[2023-07-02 16:45:26] INFO root fetch - processPackages [srt-equalizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/srt_equalizer-0.1.3.tar.gz tmp/srt_equalizer-0.1.4.tar.gz --markdown 20230702/s/srt-equalizer/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-02 16:45:26] INFO root fetch - processPackages [streamlit-chatbox]: executing diffoscope
+[2023-07-02 16:45:26] INFO root fetch - processPackages [streamlit-chatbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_chatbox-0.2.1-py3-none-any.whl.zip tmp/streamlit_chatbox-0.2.2-py3-none-any.whl.zip --markdown 20230702/s/streamlit-chatbox/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-02 16:45:27] INFO root fetch - processPackages [e-qsl]: executing diffoscope
+[2023-07-02 16:45:27] INFO root fetch - processPackages [e-qsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e-qsl-0.1.8.tar.gz tmp/e-qsl-0.1.9.tar.gz --markdown 20230702/e/e-qsl/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 16:45:27] INFO root fetch - processPackages [wisedata]: Remove: archive file [/home/abi/fetcher/tmp/wisedata-1.0.6.tar.gz]
+[2023-07-02 16:45:27] INFO root fetch - processPackages [wisedata]: Remove: archive file [/home/abi/fetcher/tmp/wisedata-1.0.7.tar.gz]
+[2023-07-02 16:45:27] INFO root fetch - main [MainThread]: End processing [wisedata]: success
+[2023-07-02 16:45:27] INFO root fetch - processPackages [streamlit-chatbox]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chatbox-0.2.1-py3-none-any.whl.zip]
+[2023-07-02 16:45:27] INFO root fetch - processPackages [streamlit-chatbox]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chatbox-0.2.2-py3-none-any.whl.zip]
+[2023-07-02 16:45:27] INFO root fetch - main [MainThread]: End processing [streamlit-chatbox]: success
+[2023-07-02 16:45:28] INFO root fetch - processPackages [srt-equalizer]: Remove: archive file [/home/abi/fetcher/tmp/srt_equalizer-0.1.3.tar.gz]
+[2023-07-02 16:45:28] INFO root fetch - processPackages [srt-equalizer]: Remove: archive file [/home/abi/fetcher/tmp/srt_equalizer-0.1.4.tar.gz]
+[2023-07-02 16:45:28] INFO root fetch - main [MainThread]: End processing [srt-equalizer]: success
+[2023-07-02 16:45:28] INFO root fetch - processPackages [pywinstyles]: Remove: archive file [/home/abi/fetcher/tmp/pywinstyles-1.2.tar.gz]
+[2023-07-02 16:45:28] INFO root fetch - processPackages [pywinstyles]: Remove: archive file [/home/abi/fetcher/tmp/pywinstyles-1.3.tar.gz]
+[2023-07-02 16:45:28] INFO root fetch - main [MainThread]: End processing [pywinstyles]: success
+[2023-07-02 16:45:28] INFO root fetch - processPackages [e-qsl]: Remove: archive file [/home/abi/fetcher/tmp/e-qsl-0.1.8.tar.gz]
+[2023-07-02 16:45:28] INFO root fetch - processPackages [e-qsl]: Remove: archive file [/home/abi/fetcher/tmp/e-qsl-0.1.9.tar.gz]
+[2023-07-02 16:45:28] INFO root fetch - main [MainThread]: End processing [e-qsl]: success
+[2023-07-02 16:45:28] INFO root fetch - main [MainThread]: Store serial: [18729178]
