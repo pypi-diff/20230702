@@ -8016,3 +8016,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 13:07:13] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.2b5.tar.gz]
 [2023-07-02 13:07:13] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
 [2023-07-02 13:07:13] INFO root fetch - main [MainThread]: Store serial: [18728061]
+[2023-07-02 13:12:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18728061]
+[2023-07-02 13:12:23] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-02 13:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: acdh-baserow-pyutils
+[2023-07-02 13:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: geofixit-demo
+[2023-07-02 13:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: medisynth
+[2023-07-02 13:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: 1stcaptcha
+[2023-07-02 13:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: salabim
+[2023-07-02 13:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gpt-functions
+[2023-07-02 13:12:23] WARNING root fetch - processPackages [medisynth]: Skipping, unable to determine old version
+[2023-07-02 13:12:23] INFO root fetch - main [MainThread]: End processing [medisynth] error
+[2023-07-02 13:12:23] INFO root fetch - processPackages [acdh-baserow-pyutils]: New version: [0.5] Old Version: [0.4.1]
+[2023-07-02 13:12:23] WARNING root fetch - processPackages [1stcaptcha]: Skipping, unable to determine old version
+[2023-07-02 13:12:23] INFO root fetch - main [MainThread]: End processing [1stcaptcha] error
+[2023-07-02 13:12:23] WARNING root fetch - processPackages [geofixit-demo]: Skipping, unable to determine old version
+[2023-07-02 13:12:23] INFO root fetch - main [MainThread]: End processing [geofixit-demo] error
+[2023-07-02 13:12:23] WARNING root fetch - processPackages [gpt-functions]: Skipping, unable to determine old version
+[2023-07-02 13:12:23] INFO root fetch - main [MainThread]: End processing [gpt-functions] error
+[2023-07-02 13:12:23] INFO root fetch - processPackages [salabim]: New version: [23.2.0] Old Version: [23.1.4]
+[2023-07-02 13:12:23] INFO root fetch - processPackages [acdh-baserow-pyutils]: Downloading https://files.pythonhosted.org/packages/d2/08/3c469abdd6e4fec789c6f523ad92dcb91f6c5e8d065d96691f36e5fc6a9f/acdh_baserow_pyutils-0.4.1.tar.gz
+[2023-07-02 13:12:23] INFO root fetch - processPackages [salabim]: Downloading https://files.pythonhosted.org/packages/f1/16/01c8e0dc54ee8b6ec4331e3b36f25c3714c0899a41bc3dda1155af1b6b9f/salabim-23.1.4.tar.gz
+[2023-07-02 13:12:23] INFO root fetch - processPackages [acdh-baserow-pyutils]: Downloading https://files.pythonhosted.org/packages/a9/bf/d91ef3db7cc22aa708350bb814bc084a5c8364956617a02469b98579bc3c/acdh_baserow_pyutils-0.5.tar.gz
+[2023-07-02 13:12:24] INFO root fetch - processPackages [acdh-baserow-pyutils]: executing diffoscope
+[2023-07-02 13:12:24] INFO root fetch - processPackages [acdh-baserow-pyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acdh_baserow_pyutils-0.4.1.tar.gz tmp/acdh_baserow_pyutils-0.5.tar.gz --markdown 20230702/a/acdh-baserow-pyutils/0.4.1-0.5/diff.md --exclude *.pyd
+[2023-07-02 13:12:24] INFO root fetch - processPackages [salabim]: Downloading https://files.pythonhosted.org/packages/96/44/a2665c5430de6243c68493fc89b7ae2af4969efedc40e40d7c07b1be1fe1/salabim-23.2.0.tar.gz
+[2023-07-02 13:12:24] INFO root fetch - processPackages [salabim]: executing diffoscope
+[2023-07-02 13:12:24] INFO root fetch - processPackages [salabim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salabim-23.1.4.tar.gz tmp/salabim-23.2.0.tar.gz --markdown 20230702/s/salabim/23.1.4-23.2.0/diff.md --exclude *.pyd
+[2023-07-02 13:12:25] INFO root fetch - processPackages [acdh-baserow-pyutils]: Remove: archive file [/home/abi/fetcher/tmp/acdh_baserow_pyutils-0.4.1.tar.gz]
+[2023-07-02 13:12:25] INFO root fetch - processPackages [acdh-baserow-pyutils]: Remove: archive file [/home/abi/fetcher/tmp/acdh_baserow_pyutils-0.5.tar.gz]
+[2023-07-02 13:12:25] INFO root fetch - main [MainThread]: End processing [acdh-baserow-pyutils]: success
+[2023-07-02 13:12:26] INFO root fetch - processPackages [salabim]: Remove: archive file [/home/abi/fetcher/tmp/salabim-23.1.4.tar.gz]
+[2023-07-02 13:12:26] INFO root fetch - processPackages [salabim]: Remove: archive file [/home/abi/fetcher/tmp/salabim-23.2.0.tar.gz]
+[2023-07-02 13:12:26] INFO root fetch - main [MainThread]: End processing [salabim]: success
+[2023-07-02 13:12:26] INFO root fetch - main [MainThread]: Store serial: [18728086]
