@@ -8952,3 +8952,81 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 14:31:55] INFO root fetch - processPackages [jupyterlab-courselevels]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_courselevels-0.4.2-py3-none-any.whl.zip]
 [2023-07-02 14:31:55] INFO root fetch - main [MainThread]: End processing [jupyterlab-courselevels]: success
 [2023-07-02 14:31:55] INFO root fetch - main [MainThread]: Store serial: [18728463]
+[2023-07-02 14:36:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18728463]
+[2023-07-02 14:37:03] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-02 14:37:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pelican-myst-reader
+[2023-07-02 14:37:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: projen
+[2023-07-02 14:37:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: upstash-ratelimit
+[2023-07-02 14:37:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: strcolored
+[2023-07-02 14:37:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: port-ocean
+[2023-07-02 14:37:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nvfuser-cu121
+[2023-07-02 14:37:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kaiju-tools
+[2023-07-02 14:37:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nvfuser-cu118
+[2023-07-02 14:37:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nvfuser-cu117
+[2023-07-02 14:37:04] INFO root fetch - processPackages [upstash-ratelimit]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-02 14:37:04] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-02 14:37:04] INFO root fetch - processPackages [projen]: New version: [0.71.99] Old Version: [0.71.98]
+[2023-07-02 14:37:04] INFO root fetch - processPackages [nvfuser-cu117]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-02 14:37:04] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/4b/cd/4c428ce97d9be97932eb85eb49ce89f8833a6daf4081080607d7a4dd07d9/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-02 14:37:04] INFO root fetch - processPackages [pelican-myst-reader]: New version: [1.3.0b1] Old Version: [1.2.0b1]
+[2023-07-02 14:37:04] INFO root fetch - processPackages [upstash-ratelimit]: Downloading https://files.pythonhosted.org/packages/74/52/29f2c96307d791c5023800d68d6fc0468190a0a26830ed2d7ec5a75ffdb9/upstash_ratelimit-0.3.0.tar.gz
+[2023-07-02 14:37:04] INFO root fetch - processPackages [port-ocean]: New version: [0.1.0.dev4] Old Version: [0.1.0.dev3]
+[2023-07-02 14:37:04] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e6/32/7b9177419a0f336c70af7f165826714344a50cfd40e5990d888982c6ac99/projen-0.71.98.tar.gz
+[2023-07-02 14:37:04] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/97/5f/a04da4d60f1816efafaa93531502bc7956df43f23ed210d62d175d8ae006/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-02 14:37:04] WARNING root fetch - processPackages [strcolored]: Skipping, unable to determine old version
+[2023-07-02 14:37:04] INFO root fetch - main [MainThread]: End processing [strcolored] error
+[2023-07-02 14:37:04] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-02 14:37:04] INFO root fetch - processPackages [kaiju-tools]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-02 14:37:04] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/b3/bf/667bd4aad6c776a5e62ad2f63da6dd5bb51f013f1ff3284d04efbf109991/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-02 14:37:04] INFO root fetch - processPackages [upstash-ratelimit]: Downloading https://files.pythonhosted.org/packages/13/51/8e51e5f12cdb40076422a1a089bb638435912017c7a81377988505f7d1af/upstash_ratelimit-0.3.1.tar.gz
+[2023-07-02 14:37:04] INFO root fetch - processPackages [pelican-myst-reader]: Downloading https://files.pythonhosted.org/packages/8b/c9/d9b2d5d9b04f8bded6efd4ffc34949514958715f14d01d13636deaa80bce/pelican_myst_reader-1.2.0b1.tar.gz
+[2023-07-02 14:37:04] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/44/cc/3c9584a27a1765468118d658bef338c55d06eb3a4c2d702e9efc6df1d2f1/port_ocean-0.1.0.dev3.tar.gz
+[2023-07-02 14:37:04] INFO root fetch - processPackages [upstash-ratelimit]: executing diffoscope
+[2023-07-02 14:37:04] INFO root fetch - processPackages [upstash-ratelimit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upstash_ratelimit-0.3.0.tar.gz tmp/upstash_ratelimit-0.3.1.tar.gz --markdown 20230702/u/upstash-ratelimit/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-02 14:37:04] INFO root fetch - processPackages [kaiju-tools]: Downloading https://files.pythonhosted.org/packages/fc/fb/51c409204079b4fbfcf14189c2517a5aaf9cab716314b21b6fd4de9abdaa/kaiju_tools-2.1.8-py3-none-any.whl
+[2023-07-02 14:37:04] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/74/50/be3d462491ae9f70d80293010b36c2a163fbf4cce3cab00d4fd749c345ce/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-02 14:37:04] INFO root fetch - processPackages [nvfuser-cu117]: executing diffoscope
+[2023-07-02 14:37:04] INFO root fetch - processPackages [nvfuser-cu117]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230702/n/nvfuser-cu117/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-02 14:37:04] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/6c/3e/fc156a2a3a39d79c16e0997bcd4b87d4e6def4a85790a1b2dce2a1372153/port_ocean-0.1.0.dev4.tar.gz
+[2023-07-02 14:37:04] INFO root fetch - processPackages [pelican-myst-reader]: Downloading https://files.pythonhosted.org/packages/f6/1a/c8a94d93d1935470c3f781527bfa93fbfca686026ee1888c285f16c07b3c/pelican_myst_reader-1.3.0b1.tar.gz
+[2023-07-02 14:37:04] INFO root fetch - processPackages [kaiju-tools]: Downloading https://files.pythonhosted.org/packages/f2/cf/6f2a6dc5ff557eb993cf847a3949041b6f123a30d63f46ae00d145985b69/kaiju_tools-2.1.9-py3-none-any.whl
+[2023-07-02 14:37:04] INFO root fetch - processPackages [kaiju-tools]: executing diffoscope
+[2023-07-02 14:37:04] INFO root fetch - processPackages [kaiju-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaiju_tools-2.1.8-py3-none-any.whl.zip tmp/kaiju_tools-2.1.9-py3-none-any.whl.zip --markdown 20230702/k/kaiju-tools/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-02 14:37:04] INFO root fetch - processPackages [pelican-myst-reader]: executing diffoscope
+[2023-07-02 14:37:04] INFO root fetch - processPackages [pelican-myst-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pelican_myst_reader-1.2.0b1.tar.gz tmp/pelican_myst_reader-1.3.0b1.tar.gz --markdown 20230702/p/pelican-myst-reader/1.2.0b1-1.3.0b1/diff.md --exclude *.pyd
+[2023-07-02 14:37:04] INFO root fetch - processPackages [port-ocean]: executing diffoscope
+[2023-07-02 14:37:04] INFO root fetch - processPackages [port-ocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/port_ocean-0.1.0.dev3.tar.gz tmp/port_ocean-0.1.0.dev4.tar.gz --markdown 20230702/p/port-ocean/0.1.0.dev3-0.1.0.dev4/diff.md --exclude *.pyd
+[2023-07-02 14:37:04] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/21/a6/caf5451fda5ceed9de3dfadecf33e65b6279d0a5dfa4350206da3da20fac/projen-0.71.99.tar.gz
+[2023-07-02 14:37:05] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/05/3d/6c84b5f07a9f69349df1b20f64065b4cbd84158521710f47bb31051a8ee9/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-02 14:37:05] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-07-02 14:37:05] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.98.tar.gz tmp/projen-0.71.99.tar.gz --markdown 20230702/p/projen/0.71.98-0.71.99/diff.md --exclude *.pyd
+[2023-07-02 14:37:05] INFO root fetch - processPackages [upstash-ratelimit]: Remove: archive file [/home/abi/fetcher/tmp/upstash_ratelimit-0.3.0.tar.gz]
+[2023-07-02 14:37:05] INFO root fetch - processPackages [upstash-ratelimit]: Remove: archive file [/home/abi/fetcher/tmp/upstash_ratelimit-0.3.1.tar.gz]
+[2023-07-02 14:37:05] INFO root fetch - main [MainThread]: End processing [upstash-ratelimit]: success
+[2023-07-02 14:37:05] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/b4/43/b31a00b4452d0b5904b6a1613a4dc7aa7a262ccdc4d4f61614f466008980/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-02 14:37:05] INFO root fetch - processPackages [pelican-myst-reader]: Remove: archive file [/home/abi/fetcher/tmp/pelican_myst_reader-1.2.0b1.tar.gz]
+[2023-07-02 14:37:05] INFO root fetch - processPackages [pelican-myst-reader]: Remove: archive file [/home/abi/fetcher/tmp/pelican_myst_reader-1.3.0b1.tar.gz]
+[2023-07-02 14:37:05] INFO root fetch - main [MainThread]: End processing [pelican-myst-reader]: success
+[2023-07-02 14:37:06] INFO root fetch - processPackages [kaiju-tools]: Remove: archive file [/home/abi/fetcher/tmp/kaiju_tools-2.1.8-py3-none-any.whl.zip]
+[2023-07-02 14:37:06] INFO root fetch - processPackages [kaiju-tools]: Remove: archive file [/home/abi/fetcher/tmp/kaiju_tools-2.1.9-py3-none-any.whl.zip]
+[2023-07-02 14:37:06] INFO root fetch - main [MainThread]: End processing [kaiju-tools]: success
+[2023-07-02 14:37:06] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.1.0.dev3.tar.gz]
+[2023-07-02 14:37:06] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.1.0.dev4.tar.gz]
+[2023-07-02 14:37:06] INFO root fetch - main [MainThread]: End processing [port-ocean]: success
+[2023-07-02 14:37:06] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2023-07-02 14:37:06] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230702/n/nvfuser-cu121/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-02 14:37:07] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.98.tar.gz]
+[2023-07-02 14:37:07] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
+[2023-07-02 14:37:07] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-07-02 14:37:07] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2023-07-02 14:37:07] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230702/n/nvfuser-cu118/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-02 14:37:09] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-02 14:37:09] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-02 14:37:09] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2023-07-02 14:37:10] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-02 14:37:10] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-02 14:37:10] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2023-07-02 14:37:58] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-02 14:37:58] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-02 14:37:58] INFO root fetch - main [MainThread]: End processing [nvfuser-cu117]: success
+[2023-07-02 14:37:58] INFO root fetch - main [MainThread]: Store serial: [18728489]
