@@ -11716,3 +11716,155 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 17:55:35] INFO root fetch - processPackages [jafdecs]: Remove: archive file [/home/abi/fetcher/tmp/jafdecs-0.1.0a2.tar.gz]
 [2023-07-02 17:55:35] INFO root fetch - main [MainThread]: End processing [jafdecs]: success
 [2023-07-02 17:55:35] INFO root fetch - main [MainThread]: Store serial: [18729695]
+[2023-07-02 18:00:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18729695]
+[2023-07-02 18:00:44] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-02 18:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jafdecs
+[2023-07-02 18:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: txt2ebook
+[2023-07-02 18:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openplugin-py
+[2023-07-02 18:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: griffe
+[2023-07-02 18:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: QuNet
+[2023-07-02 18:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyrepresent
+[2023-07-02 18:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: komfovent-api
+[2023-07-02 18:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: multilogue
+[2023-07-02 18:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: geolms
+[2023-07-02 18:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aicli
+[2023-07-02 18:00:44] INFO root fetch - processPackages [jafdecs]: New version: [0.1.0a2] Old Version: [0.1.0a0]
+[2023-07-02 18:00:44] INFO root fetch - processPackages [txt2ebook]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 18:00:44] WARNING root fetch - processPackages [multilogue]: Skipping, unable to determine old version
+[2023-07-02 18:00:44] INFO root fetch - processPackages [griffe]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-02 18:00:44] INFO root fetch - processPackages [multilogue]: Start processing: django-safe-filefield
+[2023-07-02 18:00:44] WARNING root fetch - processPackages [geolms]: Skipping, unable to determine old version
+[2023-07-02 18:00:44] INFO root fetch - main [MainThread]: End processing [multilogue] error
+[2023-07-02 18:00:44] INFO root fetch - processPackages [geolms]: Start processing: ra2mix
+[2023-07-02 18:00:44] INFO root fetch - processPackages [komfovent-api]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-02 18:00:44] INFO root fetch - processPackages [pyrepresent]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-02 18:00:44] INFO root fetch - main [MainThread]: End processing [geolms] error
+[2023-07-02 18:00:44] INFO root fetch - processPackages [openplugin-py]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-02 18:00:44] INFO root fetch - processPackages [QuNet]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-02 18:00:44] INFO root fetch - processPackages [aicli]: New version: [99.0.202307021558] Old Version: [99.0.202306271611]
+[2023-07-02 18:00:44] INFO root fetch - processPackages [django-safe-filefield]: New version: [1.0.0] Old Version: [0.3.1]
+[2023-07-02 18:00:44] INFO root fetch - processPackages [ra2mix]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-02 18:00:44] INFO root fetch - processPackages [pyrepresent]: Downloading https://files.pythonhosted.org/packages/c0/fb/62f0df4e2b55afdc3d6f5e1a2caa448799a50b0902e76ea40b0db31baba9/pyrepresent-0.2.0.tar.gz
+[2023-07-02 18:00:44] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/d5/ed/08e3812ae99f48d271d226b77d4a7da9cf1105ce195a4687389eb1e2d646/QuNet-0.0.98-py3-none-any.whl
+[2023-07-02 18:00:44] INFO root fetch - processPackages [ra2mix]: Downloading https://files.pythonhosted.org/packages/2a/0d/8b424344cb9fefb3927e34bea753c220d8ff7141118fa2c06433a7f42072/ra2mix-0.0.4.tar.gz
+[2023-07-02 18:00:44] INFO root fetch - processPackages [komfovent-api]: Downloading https://files.pythonhosted.org/packages/d4/91/1ffa3b6ef988924ad8f77fec25743e17a18184d8e244bfbd7deeae4e2077/komfovent-api-0.0.1.tar.gz
+[2023-07-02 18:00:44] INFO root fetch - processPackages [griffe]: Downloading https://files.pythonhosted.org/packages/32/dd/bc07e7e6b53772e9c44c34a18ca7e4ceb99b58bfb2c2f72f7913e3f0d303/griffe-0.8.0.tar.gz
+[2023-07-02 18:00:44] INFO root fetch - processPackages [django-safe-filefield]: Downloading https://files.pythonhosted.org/packages/87/cf/c01912dea2c865efef73b70c1593511ca731712e5ad5195bf1686d3700e9/django-safe-filefield-0.3.1.tar.gz
+[2023-07-02 18:00:44] INFO root fetch - processPackages [openplugin-py]: Downloading https://files.pythonhosted.org/packages/1a/24/7d802ce2ea526def6c207dd79e4c26f0985781e4e22276b548cd9d1772cd/openplugin-py-0.0.1.tar.gz
+[2023-07-02 18:00:44] INFO root fetch - processPackages [aicli]: Downloading https://files.pythonhosted.org/packages/b4/53/7c2c720c03d487340ee1e9fb98e5e248a5f82cda9cfbb8910a0b306e75e8/aicli-99.0.202306271611-py3-none-any.whl
+[2023-07-02 18:00:44] INFO root fetch - processPackages [txt2ebook]: Downloading https://files.pythonhosted.org/packages/7c/c4/d60a564f3da745273bfa35e59033388d7e8d9e9554261bd419d45d8071c7/txt2ebook-0.1.8.tar.gz
+[2023-07-02 18:00:44] INFO root fetch - processPackages [jafdecs]: Downloading https://files.pythonhosted.org/packages/e6/ad/ee4856afd4e8419397be2636cfbf09cfd6b0718d0436083a8154629ceb59/jafdecs-0.1.0a0.tar.gz
+[2023-07-02 18:00:44] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/e0/80/c34810051dcacd44f750dc59c5f982f9a679cbb6caaccd0aad3288430f3e/QuNet-0.0.99-py3-none-any.whl
+[2023-07-02 18:00:44] INFO root fetch - processPackages [ra2mix]: Downloading https://files.pythonhosted.org/packages/21/a7/43a1df6f9059b4c6ec6fb02b27a5df256a0c0d04d192b07f575c5a8afbf3/ra2mix-0.0.5.tar.gz
+[2023-07-02 18:00:44] INFO root fetch - processPackages [pyrepresent]: Downloading https://files.pythonhosted.org/packages/08/43/0c885bab1e77b303c45fe2eb28fa64151c26946a66c213b4d575857a1d70/pyrepresent-0.2.1.tar.gz
+[2023-07-02 18:00:44] INFO root fetch - processPackages [komfovent-api]: Downloading https://files.pythonhosted.org/packages/52/fd/934e39dabcf357571fc091a59fa0c86a2b6f1b9dbcd8a92c17a654a1a9f1/komfovent-api-0.0.2.tar.gz
+[2023-07-02 18:00:44] INFO root fetch - processPackages [pyrepresent]: executing diffoscope
+[2023-07-02 18:00:44] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-07-02 18:00:44] INFO root fetch - processPackages [pyrepresent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrepresent-0.2.0.tar.gz tmp/pyrepresent-0.2.1.tar.gz --markdown 20230702/p/pyrepresent/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-02 18:00:44] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.98-py3-none-any.whl.zip tmp/QuNet-0.0.99-py3-none-any.whl.zip --markdown 20230702/Q/QuNet/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-02 18:00:44] INFO root fetch - processPackages [ra2mix]: executing diffoscope
+[2023-07-02 18:00:44] INFO root fetch - processPackages [ra2mix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ra2mix-0.0.4.tar.gz tmp/ra2mix-0.0.5.tar.gz --markdown 20230702/r/ra2mix/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-02 18:00:44] INFO root fetch - processPackages [openplugin-py]: Downloading https://files.pythonhosted.org/packages/d0/d7/bb09f86ccb14e2a2b28540a6a41b18b40e15a40fba79fdad3e2c590b43e4/openplugin-py-0.0.2.tar.gz
+[2023-07-02 18:00:44] INFO root fetch - processPackages [django-safe-filefield]: Downloading https://files.pythonhosted.org/packages/15/ef/eb5db1212eafb23e2cd6cea51c4a8c333c7ae402f2805dd268222815e3d5/django-safe-filefield-1.0.0.tar.gz
+[2023-07-02 18:00:44] INFO root fetch - processPackages [komfovent-api]: executing diffoscope
+[2023-07-02 18:00:44] INFO root fetch - processPackages [komfovent-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/komfovent-api-0.0.1.tar.gz tmp/komfovent-api-0.0.2.tar.gz --markdown 20230702/k/komfovent-api/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-02 18:00:45] INFO root fetch - processPackages [aicli]: Downloading https://files.pythonhosted.org/packages/e8/34/828b007f9d8a8e021d8d19c4f8d810fcb4a010ac8fbdf45e0fbf12e72533/aicli-99.0.202307021558-py3-none-any.whl
+[2023-07-02 18:00:45] INFO root fetch - processPackages [jafdecs]: Downloading https://files.pythonhosted.org/packages/7c/6f/368ffedc93cacffe4a611f8bc283503fe123273a22400c858d5ca9f4e9d6/jafdecs-0.1.0a2.tar.gz
+[2023-07-02 18:00:45] INFO root fetch - processPackages [txt2ebook]: Downloading https://files.pythonhosted.org/packages/2a/b8/8ad395f87b8f7685da9b3f389de9870183f09446c9f0624dfed431e3b9b8/txt2ebook-0.1.9.tar.gz
+[2023-07-02 18:00:45] INFO root fetch - processPackages [openplugin-py]: executing diffoscope
+[2023-07-02 18:00:45] INFO root fetch - processPackages [openplugin-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openplugin-py-0.0.1.tar.gz tmp/openplugin-py-0.0.2.tar.gz --markdown 20230702/o/openplugin-py/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-02 18:00:45] INFO root fetch - processPackages [django-safe-filefield]: executing diffoscope
+[2023-07-02 18:00:45] INFO root fetch - processPackages [django-safe-filefield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-safe-filefield-0.3.1.tar.gz tmp/django-safe-filefield-1.0.0.tar.gz --markdown 20230702/d/django-safe-filefield/0.3.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-02 18:00:45] INFO root fetch - processPackages [griffe]: Downloading https://files.pythonhosted.org/packages/97/67/6905162d0aeccc0a65143c6fda9d6510d04561725f6df7df71457a053c3d/griffe-0.9.0.tar.gz
+[2023-07-02 18:00:45] INFO root fetch - processPackages [jafdecs]: executing diffoscope
+[2023-07-02 18:00:45] INFO root fetch - processPackages [jafdecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jafdecs-0.1.0a0.tar.gz tmp/jafdecs-0.1.0a2.tar.gz --markdown 20230702/j/jafdecs/0.1.0a0-0.1.0a2/diff.md --exclude *.pyd
+[2023-07-02 18:00:45] INFO root fetch - processPackages [txt2ebook]: executing diffoscope
+[2023-07-02 18:00:45] INFO root fetch - processPackages [txt2ebook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/txt2ebook-0.1.8.tar.gz tmp/txt2ebook-0.1.9.tar.gz --markdown 20230702/t/txt2ebook/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 18:00:45] INFO root fetch - processPackages [aicli]: executing diffoscope
+[2023-07-02 18:00:45] INFO root fetch - processPackages [aicli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicli-99.0.202306271611-py3-none-any.whl.zip tmp/aicli-99.0.202307021558-py3-none-any.whl.zip --markdown 20230702/a/aicli/99.0.202306271611-99.0.202307021558/diff.md --exclude *.pyd
+[2023-07-02 18:00:45] INFO root fetch - processPackages [griffe]: executing diffoscope
+[2023-07-02 18:00:45] INFO root fetch - processPackages [griffe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griffe-0.8.0.tar.gz tmp/griffe-0.9.0.tar.gz --markdown 20230702/g/griffe/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-02 18:00:46] INFO root fetch - processPackages [pyrepresent]: Remove: archive file [/home/abi/fetcher/tmp/pyrepresent-0.2.0.tar.gz]
+[2023-07-02 18:00:46] INFO root fetch - processPackages [pyrepresent]: Remove: archive file [/home/abi/fetcher/tmp/pyrepresent-0.2.1.tar.gz]
+[2023-07-02 18:00:46] INFO root fetch - processPackages [pyrepresent]: Start processing: python-redex
+[2023-07-02 18:00:46] INFO root fetch - main [MainThread]: End processing [pyrepresent]: success
+[2023-07-02 18:00:46] INFO root fetch - processPackages [python-redex]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-02 18:00:46] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.98-py3-none-any.whl.zip]
+[2023-07-02 18:00:46] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.99-py3-none-any.whl.zip]
+[2023-07-02 18:00:46] INFO root fetch - processPackages [QuNet]: Start processing: django-tbase-theme-tailwind
+[2023-07-02 18:00:46] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-07-02 18:00:46] INFO root fetch - processPackages [django-safe-filefield]: Remove: archive file [/home/abi/fetcher/tmp/django-safe-filefield-0.3.1.tar.gz]
+[2023-07-02 18:00:46] INFO root fetch - processPackages [django-safe-filefield]: Remove: archive file [/home/abi/fetcher/tmp/django-safe-filefield-1.0.0.tar.gz]
+[2023-07-02 18:00:46] INFO root fetch - processPackages [django-safe-filefield]: Start processing: weewx
+[2023-07-02 18:00:46] INFO root fetch - main [MainThread]: End processing [django-safe-filefield]: success
+[2023-07-02 18:00:46] INFO root fetch - processPackages [django-tbase-theme-tailwind]: New version: [2023.7.216883135] Old Version: [2023.5.2716851343]
+[2023-07-02 18:00:46] INFO root fetch - processPackages [weewx]: New version: [5.0.0b7] Old Version: [5.0.0b6]
+[2023-07-02 18:00:46] INFO root fetch - processPackages [python-redex]: Downloading https://files.pythonhosted.org/packages/1d/e9/521a90c6d8869d7755b570a4474dd860911179dcd7bbf055a062632976cd/python_redex-0.0.1.tar.gz
+[2023-07-02 18:00:46] INFO root fetch - processPackages [ra2mix]: Remove: archive file [/home/abi/fetcher/tmp/ra2mix-0.0.4.tar.gz]
+[2023-07-02 18:00:46] INFO root fetch - processPackages [ra2mix]: Remove: archive file [/home/abi/fetcher/tmp/ra2mix-0.0.5.tar.gz]
+[2023-07-02 18:00:46] INFO root fetch - processPackages [ra2mix]: Start processing: simpm
+[2023-07-02 18:00:46] INFO root fetch - main [MainThread]: End processing [ra2mix]: success
+[2023-07-02 18:00:46] INFO root fetch - processPackages [komfovent-api]: Remove: archive file [/home/abi/fetcher/tmp/komfovent-api-0.0.1.tar.gz]
+[2023-07-02 18:00:46] INFO root fetch - processPackages [komfovent-api]: Remove: archive file [/home/abi/fetcher/tmp/komfovent-api-0.0.2.tar.gz]
+[2023-07-02 18:00:46] INFO root fetch - processPackages [komfovent-api]: Start processing: lamindb
+[2023-07-02 18:00:46] INFO root fetch - main [MainThread]: End processing [komfovent-api]: success
+[2023-07-02 18:00:46] INFO root fetch - processPackages [simpm]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-02 18:00:46] INFO root fetch - processPackages [jafdecs]: Remove: archive file [/home/abi/fetcher/tmp/jafdecs-0.1.0a0.tar.gz]
+[2023-07-02 18:00:46] INFO root fetch - processPackages [jafdecs]: Remove: archive file [/home/abi/fetcher/tmp/jafdecs-0.1.0a2.tar.gz]
+[2023-07-02 18:00:46] INFO root fetch - processPackages [jafdecs]: Start processing: rosetta-ce
+[2023-07-02 18:00:46] INFO root fetch - main [MainThread]: End processing [jafdecs]: success
+[2023-07-02 18:00:46] INFO root fetch - processPackages [lamindb]: New version: [0.9.6] Old Version: [0.9.4]
+[2023-07-02 18:00:46] INFO root fetch - processPackages [rosetta-ce]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-07-02 18:00:46] INFO root fetch - processPackages [django-tbase-theme-tailwind]: Downloading https://files.pythonhosted.org/packages/d3/f9/0c23bc812a95aef8f148eeaf5a0caa2c09b783e5866e4ef0e5ae1138e9a9/django_tbase_theme_tailwind-2023.5.2716851343.tar.gz
+[2023-07-02 18:00:46] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/45/5c/de35ec6f0b9d60cad15b3d4c89a4830cbd28fa35a0af1ce230297edba228/rosetta-ce-1.4.1.tar.gz
+[2023-07-02 18:00:46] INFO root fetch - processPackages [weewx]: Downloading https://files.pythonhosted.org/packages/6c/98/16dea025efed442821b65d68c35fb4a2836c6944264dd4998c1caa691dbc/weewx-5.0.0b7.tar.gz
+[2023-07-02 18:00:46] INFO root fetch - processPackages [openplugin-py]: Remove: archive file [/home/abi/fetcher/tmp/openplugin-py-0.0.1.tar.gz]
+[2023-07-02 18:00:46] INFO root fetch - processPackages [openplugin-py]: Remove: archive file [/home/abi/fetcher/tmp/openplugin-py-0.0.2.tar.gz]
+[2023-07-02 18:00:46] INFO root fetch - main [MainThread]: End processing [openplugin-py]: success
+[2023-07-02 18:00:46] INFO root fetch - processPackages [python-redex]: Downloading https://files.pythonhosted.org/packages/f1/3e/d98dda42e557ca76917c266a40e3ff04a99ef61c62dac9ad7d0b22224d86/python_redex-0.0.2.tar.gz
+[2023-07-02 18:00:46] INFO root fetch - processPackages [txt2ebook]: Remove: archive file [/home/abi/fetcher/tmp/txt2ebook-0.1.8.tar.gz]
+[2023-07-02 18:00:46] INFO root fetch - processPackages [txt2ebook]: Remove: archive file [/home/abi/fetcher/tmp/txt2ebook-0.1.9.tar.gz]
+[2023-07-02 18:00:46] INFO root fetch - main [MainThread]: End processing [txt2ebook]: success
+[2023-07-02 18:00:46] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/15/74/34148a2f59ec5fafeee3ffbc599388444e1e8d22d525c0b2e244aa151fef/lamindb-0.9.4.tar.gz
+[2023-07-02 18:00:47] INFO root fetch - processPackages [simpm]: Downloading https://files.pythonhosted.org/packages/ca/a6/b85ff76e715d0a7d33bcd5cb5f1ab613bfa603c0bf04ee7b4f0161449e1b/simpm-2.0.1.tar.gz
+[2023-07-02 18:00:47] INFO root fetch - processPackages [weewx]: executing diffoscope
+[2023-07-02 18:00:47] INFO root fetch - processPackages [weewx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weewx-5.0.0b6.tar.gz tmp/weewx-5.0.0b7.tar.gz --markdown 20230702/w/weewx/5.0.0b6-5.0.0b7/diff.md --exclude *.pyd
+[2023-07-02 18:00:47] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/36/0a/2b5aba07e205468016a76a7580b4ed7adf42bab6cd806bb7a01848d0357f/rosetta-ce-1.4.2.tar.gz
+[2023-07-02 18:00:47] INFO root fetch - processPackages [aicli]: Remove: archive file [/home/abi/fetcher/tmp/aicli-99.0.202306271611-py3-none-any.whl.zip]
+[2023-07-02 18:00:47] INFO root fetch - processPackages [aicli]: Remove: archive file [/home/abi/fetcher/tmp/aicli-99.0.202307021558-py3-none-any.whl.zip]
+[2023-07-02 18:00:47] INFO root fetch - main [MainThread]: End processing [aicli]: success
+[2023-07-02 18:00:47] INFO root fetch - processPackages [python-redex]: executing diffoscope
+[2023-07-02 18:00:47] INFO root fetch - processPackages [python-redex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_redex-0.0.1.tar.gz tmp/python_redex-0.0.2.tar.gz --markdown 20230702/p/python-redex/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-02 18:00:47] INFO root fetch - processPackages [django-tbase-theme-tailwind]: Downloading https://files.pythonhosted.org/packages/20/95/878af4dda9e422ec96dc8a4f880d0553fc9e215877d8abffe81c9d219365/django_tbase_theme_tailwind-2023.7.216883135.tar.gz
+[2023-07-02 18:00:47] INFO root fetch - processPackages [rosetta-ce]: executing diffoscope
+[2023-07-02 18:00:47] INFO root fetch - processPackages [rosetta-ce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosetta-ce-1.4.1.tar.gz tmp/rosetta-ce-1.4.2.tar.gz --markdown 20230702/r/rosetta-ce/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-07-02 18:00:47] INFO root fetch - processPackages [simpm]: Downloading https://files.pythonhosted.org/packages/af/c5/6a69b7150e63147791bfd2fdbc28828c054b98762b34b2a02f11633759b4/simpm-2.0.2.tar.gz
+[2023-07-02 18:00:47] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/a8/dd/da42b7dd3f39064fda6a4977c93f1a040eefa69ef3a3cefd7b4b8d13efb6/lamindb-0.9.6.tar.gz
+[2023-07-02 18:00:47] INFO root fetch - processPackages [django-tbase-theme-tailwind]: executing diffoscope
+[2023-07-02 18:00:47] INFO root fetch - processPackages [django-tbase-theme-tailwind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_tbase_theme_tailwind-2023.5.2716851343.tar.gz tmp/django_tbase_theme_tailwind-2023.7.216883135.tar.gz --markdown 20230702/d/django-tbase-theme-tailwind/2023.5.2716851343-2023.7.216883135/diff.md --exclude *.pyd
+[2023-07-02 18:00:47] INFO root fetch - processPackages [simpm]: executing diffoscope
+[2023-07-02 18:00:47] INFO root fetch - processPackages [simpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpm-2.0.1.tar.gz tmp/simpm-2.0.2.tar.gz --markdown 20230702/s/simpm/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-02 18:00:47] INFO root fetch - processPackages [lamindb]: executing diffoscope
+[2023-07-02 18:00:47] INFO root fetch - processPackages [lamindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb-0.9.4.tar.gz tmp/lamindb-0.9.6.tar.gz --markdown 20230702/l/lamindb/0.9.4-0.9.6/diff.md --exclude *.pyd
+[2023-07-02 18:00:47] INFO root fetch - processPackages [griffe]: Remove: archive file [/home/abi/fetcher/tmp/griffe-0.8.0.tar.gz]
+[2023-07-02 18:00:47] INFO root fetch - processPackages [griffe]: Remove: archive file [/home/abi/fetcher/tmp/griffe-0.9.0.tar.gz]
+[2023-07-02 18:00:47] INFO root fetch - main [MainThread]: End processing [griffe]: success
+[2023-07-02 18:00:48] INFO root fetch - processPackages [python-redex]: Remove: archive file [/home/abi/fetcher/tmp/python_redex-0.0.1.tar.gz]
+[2023-07-02 18:00:48] INFO root fetch - processPackages [python-redex]: Remove: archive file [/home/abi/fetcher/tmp/python_redex-0.0.2.tar.gz]
+[2023-07-02 18:00:48] INFO root fetch - main [MainThread]: End processing [python-redex]: success
+[2023-07-02 18:00:48] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.4.1.tar.gz]
+[2023-07-02 18:00:48] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.4.2.tar.gz]
+[2023-07-02 18:00:48] INFO root fetch - main [MainThread]: End processing [rosetta-ce]: success
+[2023-07-02 18:00:48] INFO root fetch - processPackages [simpm]: Remove: archive file [/home/abi/fetcher/tmp/simpm-2.0.1.tar.gz]
+[2023-07-02 18:00:48] INFO root fetch - processPackages [simpm]: Remove: archive file [/home/abi/fetcher/tmp/simpm-2.0.2.tar.gz]
+[2023-07-02 18:00:48] INFO root fetch - main [MainThread]: End processing [simpm]: success
+[2023-07-02 18:00:48] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.4.tar.gz]
+[2023-07-02 18:00:48] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.6.tar.gz]
+[2023-07-02 18:00:48] INFO root fetch - main [MainThread]: End processing [lamindb]: success
+[2023-07-02 18:00:50] INFO root fetch - processPackages [django-tbase-theme-tailwind]: Remove: archive file [/home/abi/fetcher/tmp/django_tbase_theme_tailwind-2023.5.2716851343.tar.gz]
+[2023-07-02 18:00:50] INFO root fetch - processPackages [django-tbase-theme-tailwind]: Remove: archive file [/home/abi/fetcher/tmp/django_tbase_theme_tailwind-2023.7.216883135.tar.gz]
+[2023-07-02 18:00:50] INFO root fetch - main [MainThread]: End processing [django-tbase-theme-tailwind]: success
+[2023-07-02 18:00:54] INFO root fetch - processPackages [weewx]: Remove: archive file [/home/abi/fetcher/tmp/weewx-5.0.0b6.tar.gz]
+[2023-07-02 18:00:54] INFO root fetch - processPackages [weewx]: Remove: archive file [/home/abi/fetcher/tmp/weewx-5.0.0b7.tar.gz]
+[2023-07-02 18:00:54] INFO root fetch - main [MainThread]: End processing [weewx]: success
+[2023-07-02 18:00:54] INFO root fetch - main [MainThread]: Store serial: [18729750]
