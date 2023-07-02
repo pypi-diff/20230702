@@ -4012,3 +4012,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 06:08:45] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.9.tar.gz]
 [2023-07-02 06:08:45] INFO root fetch - main [MainThread]: End processing [ag-llama-api]: success
 [2023-07-02 06:08:45] INFO root fetch - main [MainThread]: Store serial: [18726310]
+[2023-07-02 06:13:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726310]
+[2023-07-02 06:13:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-02 06:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycaret
+[2023-07-02 06:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastq2folder
+[2023-07-02 06:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zephony
+[2023-07-02 06:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: magnum-cluster-api
+[2023-07-02 06:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: basictdf
+[2023-07-02 06:13:54] INFO root fetch - processPackages [fastq2folder]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-02 06:13:54] INFO root fetch - processPackages [pycaret]: New version: [3.0.4] Old Version: [3.0.3]
+[2023-07-02 06:13:54] INFO root fetch - processPackages [zephony]: New version: [0.9.1] Old Version: [0.8.1]
+[2023-07-02 06:13:54] INFO root fetch - processPackages [magnum-cluster-api]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-02 06:13:54] WARNING root fetch - processPackages [basictdf]: Skipping, unable to determine old version
+[2023-07-02 06:13:54] INFO root fetch - main [MainThread]: End processing [basictdf] error
+[2023-07-02 06:13:54] INFO root fetch - processPackages [fastq2folder]: Downloading https://files.pythonhosted.org/packages/fb/28/30309c8280ad908050dbf444ece0d222e4b38c84054085ade8b630e168e9/fastq2folder-1.0.4.tar.gz
+[2023-07-02 06:13:54] INFO root fetch - processPackages [zephony]: Downloading https://files.pythonhosted.org/packages/25/fc/2c8476b699dbf95d4bb27f4b9ef0f67ea923406f77570aae30d0a99459aa/zephony-0.8.1.tar.gz
+[2023-07-02 06:13:54] INFO root fetch - processPackages [pycaret]: Downloading https://files.pythonhosted.org/packages/35/44/4d3404daa891418b5dd0d6a038d4334159c71bd9f608f5294d05081d6617/pycaret-3.0.3-py3-none-any.whl
+[2023-07-02 06:13:54] INFO root fetch - processPackages [magnum-cluster-api]: Downloading https://files.pythonhosted.org/packages/76/9f/9450912413e47bc469f345255294a44e98627006f9837e03f53cd15c5534/magnum_cluster_api-0.7.1.tar.gz
+[2023-07-02 06:13:54] INFO root fetch - processPackages [pycaret]: Downloading https://files.pythonhosted.org/packages/f5/4b/2002980b046ac396618dfc152d384b812a78182b776ca77fe0ae5f80deac/pycaret-3.0.4-py3-none-any.whl
+[2023-07-02 06:13:54] INFO root fetch - processPackages [magnum-cluster-api]: Downloading https://files.pythonhosted.org/packages/25/02/69162025eab6403b58045091211dcf9bb77813af6b458b06b4a51148afc8/magnum_cluster_api-0.7.2.tar.gz
+[2023-07-02 06:13:54] INFO root fetch - processPackages [fastq2folder]: Downloading https://files.pythonhosted.org/packages/f6/9f/b58ccc01437ea30b7e05f09e95d27bc56ad441320d220ba2cc5dcadc12eb/fastq2folder-1.0.5.tar.gz
+[2023-07-02 06:13:54] INFO root fetch - processPackages [pycaret]: executing diffoscope
+[2023-07-02 06:13:54] INFO root fetch - processPackages [pycaret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycaret-3.0.3-py3-none-any.whl.zip tmp/pycaret-3.0.4-py3-none-any.whl.zip --markdown 20230702/p/pycaret/3.0.3-3.0.4/diff.md --exclude *.pyd
+[2023-07-02 06:13:54] INFO root fetch - processPackages [zephony]: Downloading https://files.pythonhosted.org/packages/35/3c/05ea992af0402117582743352f4731daf63ced4594fe71f3aa7cda19cc44/zephony-0.9.1.tar.gz
+[2023-07-02 06:13:54] INFO root fetch - processPackages [magnum-cluster-api]: executing diffoscope
+[2023-07-02 06:13:54] INFO root fetch - processPackages [magnum-cluster-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magnum_cluster_api-0.7.1.tar.gz tmp/magnum_cluster_api-0.7.2.tar.gz --markdown 20230702/m/magnum-cluster-api/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-02 06:13:54] INFO root fetch - processPackages [fastq2folder]: executing diffoscope
+[2023-07-02 06:13:54] INFO root fetch - processPackages [fastq2folder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastq2folder-1.0.4.tar.gz tmp/fastq2folder-1.0.5.tar.gz --markdown 20230702/f/fastq2folder/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-02 06:13:55] INFO root fetch - processPackages [zephony]: executing diffoscope
+[2023-07-02 06:13:55] INFO root fetch - processPackages [zephony]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zephony-0.8.1.tar.gz tmp/zephony-0.9.1.tar.gz --markdown 20230702/z/zephony/0.8.1-0.9.1/diff.md --exclude *.pyd
+[2023-07-02 06:13:55] INFO root fetch - processPackages [fastq2folder]: Remove: archive file [/home/abi/fetcher/tmp/fastq2folder-1.0.4.tar.gz]
+[2023-07-02 06:13:55] INFO root fetch - processPackages [fastq2folder]: Remove: archive file [/home/abi/fetcher/tmp/fastq2folder-1.0.5.tar.gz]
+[2023-07-02 06:13:55] INFO root fetch - main [MainThread]: End processing [fastq2folder]: success
+[2023-07-02 06:13:56] INFO root fetch - processPackages [magnum-cluster-api]: Remove: archive file [/home/abi/fetcher/tmp/magnum_cluster_api-0.7.1.tar.gz]
+[2023-07-02 06:13:56] INFO root fetch - processPackages [magnum-cluster-api]: Remove: archive file [/home/abi/fetcher/tmp/magnum_cluster_api-0.7.2.tar.gz]
+[2023-07-02 06:13:56] INFO root fetch - main [MainThread]: End processing [magnum-cluster-api]: success
+[2023-07-02 06:13:56] INFO root fetch - processPackages [zephony]: Remove: archive file [/home/abi/fetcher/tmp/zephony-0.8.1.tar.gz]
+[2023-07-02 06:13:56] INFO root fetch - processPackages [zephony]: Remove: archive file [/home/abi/fetcher/tmp/zephony-0.9.1.tar.gz]
+[2023-07-02 06:13:56] INFO root fetch - main [MainThread]: End processing [zephony]: success
+[2023-07-02 06:13:56] INFO root fetch - processPackages [pycaret]: Remove: archive file [/home/abi/fetcher/tmp/pycaret-3.0.3-py3-none-any.whl.zip]
+[2023-07-02 06:13:56] INFO root fetch - processPackages [pycaret]: Remove: archive file [/home/abi/fetcher/tmp/pycaret-3.0.4-py3-none-any.whl.zip]
+[2023-07-02 06:13:56] INFO root fetch - main [MainThread]: End processing [pycaret]: success
+[2023-07-02 06:13:56] INFO root fetch - main [MainThread]: Store serial: [18726327]
