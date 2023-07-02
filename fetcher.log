@@ -15678,3 +15678,70 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 22:12:24] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.7.tar.gz]
 [2023-07-02 22:12:24] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
 [2023-07-02 22:12:24] INFO root fetch - main [MainThread]: Store serial: [18731218]
+[2023-07-02 22:17:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18731218]
+[2023-07-02 22:17:33] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-02 22:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edc-constants
+[2023-07-02 22:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-base-field-deprecated
+[2023-07-02 22:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jam-ai
+[2023-07-02 22:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chainsaddiction
+[2023-07-02 22:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chainsaddiction
+[2023-07-02 22:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: automation-utilities
+[2023-07-02 22:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: queenbee
+[2023-07-02 22:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lollms
+[2023-07-02 22:17:33] INFO root fetch - processPackages [lollms]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-02 22:17:33] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/55/8e/c10a453677812ff66a65c459737c99f6b99cc00da8cc2e27f3a1f924faa0/lollms-2.1.8.tar.gz
+[2023-07-02 22:17:33] INFO root fetch - processPackages [edc-constants]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-02 22:17:33] WARNING root fetch - processPackages [odoo-addon-base-field-deprecated]: Skipping, unable to determine old version
+[2023-07-02 22:17:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-field-deprecated] error
+[2023-07-02 22:17:33] INFO root fetch - processPackages [jam-ai]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-02 22:17:33] INFO root fetch - processPackages [queenbee]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-02 22:17:33] INFO root fetch - processPackages [automation-utilities]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-07-02 22:17:33] INFO root fetch - processPackages [chainsaddiction]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-02 22:17:33] INFO root fetch - processPackages [chainsaddiction]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-02 22:17:33] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/6a/83/7745db4a743155e7a857ec418630027696e10e7fb67dfd6805a2496bdb64/lollms-2.1.9.tar.gz
+[2023-07-02 22:17:33] INFO root fetch - processPackages [jam-ai]: Downloading https://files.pythonhosted.org/packages/ec/dd/c41ac7e1af5508312f91754bb5ff5737c7b8b1ebf3ecb1d87c7127b986a7/jam_ai-0.1.7.tar.gz
+[2023-07-02 22:17:33] INFO root fetch - processPackages [lollms]: executing diffoscope
+[2023-07-02 22:17:33] INFO root fetch - processPackages [edc-constants]: Downloading https://files.pythonhosted.org/packages/e1/6e/b8edf4ad6fa5549d1b7e98a9cf2c8b4dc3242215cb886aaef19b64a9ccf9/edc_constants-0.3.8-py3-none-any.whl
+[2023-07-02 22:17:33] INFO root fetch - processPackages [lollms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms-2.1.8.tar.gz tmp/lollms-2.1.9.tar.gz --markdown 20230702/l/lollms/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-02 22:17:33] INFO root fetch - processPackages [chainsaddiction]: Downloading https://files.pythonhosted.org/packages/79/65/c597e254ca5c38be66cd7ae27d8fd864650676ea86126cb7b6d71734fc70/chainsaddiction-0.2.2.tar.gz
+[2023-07-02 22:17:33] INFO root fetch - processPackages [automation-utilities]: Downloading https://files.pythonhosted.org/packages/7d/27/dc86446201b529b0ac1140d259c23c5aea45cc4af193b0f09c1fb9b0eb6f/automation-utilities-1.3.3.tar.gz
+[2023-07-02 22:17:33] INFO root fetch - processPackages [chainsaddiction]: Downloading https://files.pythonhosted.org/packages/79/65/c597e254ca5c38be66cd7ae27d8fd864650676ea86126cb7b6d71734fc70/chainsaddiction-0.2.2.tar.gz
+[2023-07-02 22:17:33] INFO root fetch - processPackages [queenbee]: Downloading https://files.pythonhosted.org/packages/b4/ae/2a03486e5f3d1034ba9c115532d06f6bd3c5be3d75e0961cda7da03cb3ee/queenbee-1.8.0.tar.gz
+[2023-07-02 22:17:33] INFO root fetch - processPackages [automation-utilities]: Downloading https://files.pythonhosted.org/packages/95/cb/951ea76d9da11d360a5cebed252a88df9ebcc1566bd0913c0c8ca5b9eba7/automation-utilities-1.3.4.tar.gz
+[2023-07-02 22:17:33] INFO root fetch - processPackages [jam-ai]: Downloading https://files.pythonhosted.org/packages/d9/3f/4d544023e78db4af89786a5d6b84b7d83d4bf02ce88ef1162acdb23cd28c/jam_ai-0.1.8.tar.gz
+[2023-07-02 22:17:33] INFO root fetch - processPackages [edc-constants]: Downloading https://files.pythonhosted.org/packages/a5/d1/9988cdbdb1f2e472539d91e620b2b13a958a8e477c1da4b977ad8aa7e185/edc_constants-0.3.9-py3-none-any.whl
+[2023-07-02 22:17:33] INFO root fetch - processPackages [automation-utilities]: executing diffoscope
+[2023-07-02 22:17:33] INFO root fetch - processPackages [automation-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation-utilities-1.3.3.tar.gz tmp/automation-utilities-1.3.4.tar.gz --markdown 20230702/a/automation-utilities/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-07-02 22:17:33] INFO root fetch - processPackages [chainsaddiction]: Downloading https://files.pythonhosted.org/packages/09/d9/c7825c3782ac301e655d663aa0d0cf355431608ecc2696e022e5bf3fc88b/chainsaddiction-0.2.3.tar.gz
+[2023-07-02 22:17:33] INFO root fetch - processPackages [chainsaddiction]: Downloading https://files.pythonhosted.org/packages/09/d9/c7825c3782ac301e655d663aa0d0cf355431608ecc2696e022e5bf3fc88b/chainsaddiction-0.2.3.tar.gz
+[2023-07-02 22:17:33] INFO root fetch - processPackages [queenbee]: Downloading https://files.pythonhosted.org/packages/ec/3b/d336f46971c2b27bf9bd555531b34e0083ac60675c63d634c954953af95e/queenbee-1.9.0.tar.gz
+[2023-07-02 22:17:33] INFO root fetch - processPackages [jam-ai]: executing diffoscope
+[2023-07-02 22:17:33] INFO root fetch - processPackages [jam-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jam_ai-0.1.7.tar.gz tmp/jam_ai-0.1.8.tar.gz --markdown 20230702/j/jam-ai/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-02 22:17:34] INFO root fetch - processPackages [edc-constants]: executing diffoscope
+[2023-07-02 22:17:34] INFO root fetch - processPackages [edc-constants]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_constants-0.3.8-py3-none-any.whl.zip tmp/edc_constants-0.3.9-py3-none-any.whl.zip --markdown 20230702/e/edc-constants/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-02 22:17:34] INFO root fetch - processPackages [chainsaddiction]: executing diffoscope
+[2023-07-02 22:17:34] INFO root fetch - processPackages [chainsaddiction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainsaddiction-0.2.2.tar.gz tmp/chainsaddiction-0.2.3.tar.gz --markdown 20230702/c/chainsaddiction/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-02 22:17:34] INFO root fetch - processPackages [queenbee]: executing diffoscope
+[2023-07-02 22:17:34] INFO root fetch - processPackages [queenbee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/queenbee-1.8.0.tar.gz tmp/queenbee-1.9.0.tar.gz --markdown 20230702/q/queenbee/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-02 22:17:34] INFO root fetch - processPackages [chainsaddiction]: executing diffoscope
+[2023-07-02 22:17:34] INFO root fetch - processPackages [chainsaddiction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainsaddiction-0.2.2.tar.gz tmp/chainsaddiction-0.2.3.tar.gz --markdown 20230702/c/chainsaddiction/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-02 22:17:35] INFO root fetch - processPackages [automation-utilities]: Remove: archive file [/home/abi/fetcher/tmp/automation-utilities-1.3.3.tar.gz]
+[2023-07-02 22:17:35] INFO root fetch - processPackages [automation-utilities]: Remove: archive file [/home/abi/fetcher/tmp/automation-utilities-1.3.4.tar.gz]
+[2023-07-02 22:17:35] INFO root fetch - main [MainThread]: End processing [automation-utilities]: success
+[2023-07-02 22:17:35] INFO root fetch - processPackages [jam-ai]: Remove: archive file [/home/abi/fetcher/tmp/jam_ai-0.1.7.tar.gz]
+[2023-07-02 22:17:35] INFO root fetch - processPackages [jam-ai]: Remove: archive file [/home/abi/fetcher/tmp/jam_ai-0.1.8.tar.gz]
+[2023-07-02 22:17:35] INFO root fetch - main [MainThread]: End processing [jam-ai]: success
+[2023-07-02 22:17:35] INFO root fetch - processPackages [edc-constants]: Remove: archive file [/home/abi/fetcher/tmp/edc_constants-0.3.8-py3-none-any.whl.zip]
+[2023-07-02 22:17:35] INFO root fetch - processPackages [edc-constants]: Remove: archive file [/home/abi/fetcher/tmp/edc_constants-0.3.9-py3-none-any.whl.zip]
+[2023-07-02 22:17:35] INFO root fetch - main [MainThread]: End processing [edc-constants]: success
+[2023-07-02 22:17:35] INFO root fetch - processPackages [queenbee]: Remove: archive file [/home/abi/fetcher/tmp/queenbee-1.8.0.tar.gz]
+[2023-07-02 22:17:35] INFO root fetch - processPackages [queenbee]: Remove: archive file [/home/abi/fetcher/tmp/queenbee-1.9.0.tar.gz]
+[2023-07-02 22:17:35] INFO root fetch - main [MainThread]: End processing [queenbee]: success
+[2023-07-02 22:17:36] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.8.tar.gz]
+[2023-07-02 22:17:36] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.9.tar.gz]
+[2023-07-02 22:17:36] INFO root fetch - main [MainThread]: End processing [lollms]: success
+[2023-07-02 22:17:36] INFO root fetch - processPackages [chainsaddiction]: Remove: archive file [/home/abi/fetcher/tmp/chainsaddiction-0.2.2.tar.gz]
+[2023-07-02 22:17:36] INFO root fetch - processPackages [chainsaddiction]: Remove: archive file [/home/abi/fetcher/tmp/chainsaddiction-0.2.3.tar.gz]
+[2023-07-02 22:17:36] INFO root fetch - main [MainThread]: End processing [chainsaddiction]: success
+[2023-07-02 22:17:37] INFO root fetch - main [MainThread]: End processing [chainsaddiction]: success
+[2023-07-02 22:17:37] INFO root fetch - main [MainThread]: Store serial: [18731264]
