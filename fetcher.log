@@ -6196,3 +6196,56 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 10:31:34] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2023-07-02 10:31:34] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-07-02 10:31:34] INFO root fetch - main [MainThread]: Store serial: [18727248]
+[2023-07-02 10:36:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18727248]
+[2023-07-02 10:36:43] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-02 10:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bgstools
+[2023-07-02 10:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lazysdk
+[2023-07-02 10:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-unfold
+[2023-07-02 10:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyobo
+[2023-07-02 10:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: authomize-rest-api-client
+[2023-07-02 10:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scReGAT
+[2023-07-02 10:36:43] INFO root fetch - processPackages [bgstools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 10:36:43] INFO root fetch - processPackages [authomize-rest-api-client]: New version: [4.3.1] Old Version: [4.3.0]
+[2023-07-02 10:36:43] INFO root fetch - processPackages [scReGAT]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-02 10:36:43] INFO root fetch - processPackages [lazysdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 10:36:43] INFO root fetch - processPackages [pyobo]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-02 10:36:43] INFO root fetch - processPackages [django-unfold]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-07-02 10:36:43] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/38/6e/873c1f710606f91c4d8dd01b66a600b8f53828c838a79ba123c316f77c05/lazysdk-0.1.8.tar.gz
+[2023-07-02 10:36:43] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/a3/d9/0f2b579fbbb29225abec7da824c3d2177fa751c84913339da89e8d0b4f89/bgstools-0.1.8.tar.gz
+[2023-07-02 10:36:43] INFO root fetch - processPackages [authomize-rest-api-client]: Downloading https://files.pythonhosted.org/packages/c8/bd/b567241ac58cbdd769b5ff57a74b242f528b907a7d3a1a08bd2d239ae73c/authomize-rest-api-client-4.3.0.tar.gz
+[2023-07-02 10:36:43] INFO root fetch - processPackages [scReGAT]: Downloading https://files.pythonhosted.org/packages/12/0b/302bdebeab774610951a502c1a1f09f5b725e8bce4ab7f2868369675b9cb/scReGAT-0.0.3.tar.gz
+[2023-07-02 10:36:43] INFO root fetch - processPackages [django-unfold]: Downloading https://files.pythonhosted.org/packages/08/df/e592444b81e805a4eb6d28ff2a42aa5ba57d20f44d1b538f40774bfcd67a/django_unfold-0.6.7.tar.gz
+[2023-07-02 10:36:43] INFO root fetch - processPackages [pyobo]: Downloading https://files.pythonhosted.org/packages/6d/c9/a43a268d9307c3e7a14a6d47e60dbc9dce1830841ec1cbe751458a96e030/pyobo-0.9.0.tar.gz
+[2023-07-02 10:36:43] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/56/f7/82feafe86145b2d6d28587748503b8e9a4aaab1142447bc3345f6b0683e6/lazysdk-0.1.9.tar.gz
+[2023-07-02 10:36:43] WARNING root fetch - processPackages [pyobo]: Skipping package: exceeds size limit 23108791>=10485760
+[2023-07-02 10:36:43] INFO root fetch - main [MainThread]: End processing [pyobo] error
+[2023-07-02 10:36:43] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/0a/3c/638191cc7a3a6135dbf58e2857b29d83bacba72ac3e579510aae9606e202/bgstools-0.1.9.tar.gz
+[2023-07-02 10:36:43] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2023-07-02 10:36:43] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.8.tar.gz tmp/lazysdk-0.1.9.tar.gz --markdown 20230702/l/lazysdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 10:36:43] INFO root fetch - processPackages [bgstools]: executing diffoscope
+[2023-07-02 10:36:43] INFO root fetch - processPackages [bgstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgstools-0.1.8.tar.gz tmp/bgstools-0.1.9.tar.gz --markdown 20230702/b/bgstools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 10:36:43] INFO root fetch - processPackages [authomize-rest-api-client]: Downloading https://files.pythonhosted.org/packages/ea/7f/9041a3810bb58a688d2c352ad47d8ed947bf1ed206df9b07dcf13e0f464e/authomize-rest-api-client-4.3.1.tar.gz
+[2023-07-02 10:36:43] INFO root fetch - processPackages [scReGAT]: Downloading https://files.pythonhosted.org/packages/fb/c0/9b74442dd08c1c4447c2431ac8d3fd1d04543a85bd0a358e5fdc1fd432bb/scReGAT-0.0.4.tar.gz
+[2023-07-02 10:36:43] INFO root fetch - processPackages [django-unfold]: Downloading https://files.pythonhosted.org/packages/28/b5/262b97ef0d65c2a1b8b0848bdfb70c73d2beaa6599889d98906cd4eb53dd/django_unfold-0.6.8.tar.gz
+[2023-07-02 10:36:43] INFO root fetch - processPackages [authomize-rest-api-client]: executing diffoscope
+[2023-07-02 10:36:43] INFO root fetch - processPackages [authomize-rest-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authomize-rest-api-client-4.3.0.tar.gz tmp/authomize-rest-api-client-4.3.1.tar.gz --markdown 20230702/a/authomize-rest-api-client/4.3.0-4.3.1/diff.md --exclude *.pyd
+[2023-07-02 10:36:43] INFO root fetch - processPackages [scReGAT]: executing diffoscope
+[2023-07-02 10:36:43] INFO root fetch - processPackages [scReGAT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scReGAT-0.0.3.tar.gz tmp/scReGAT-0.0.4.tar.gz --markdown 20230702/s/scReGAT/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-02 10:36:43] INFO root fetch - processPackages [django-unfold]: executing diffoscope
+[2023-07-02 10:36:43] INFO root fetch - processPackages [django-unfold]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_unfold-0.6.7.tar.gz tmp/django_unfold-0.6.8.tar.gz --markdown 20230702/d/django-unfold/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-07-02 10:36:44] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.8.tar.gz]
+[2023-07-02 10:36:44] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.9.tar.gz]
+[2023-07-02 10:36:44] INFO root fetch - main [MainThread]: End processing [bgstools]: success
+[2023-07-02 10:36:44] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.8.tar.gz]
+[2023-07-02 10:36:44] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.9.tar.gz]
+[2023-07-02 10:36:44] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2023-07-02 10:36:44] INFO root fetch - processPackages [scReGAT]: Remove: archive file [/home/abi/fetcher/tmp/scReGAT-0.0.3.tar.gz]
+[2023-07-02 10:36:44] INFO root fetch - processPackages [scReGAT]: Remove: archive file [/home/abi/fetcher/tmp/scReGAT-0.0.4.tar.gz]
+[2023-07-02 10:36:44] INFO root fetch - main [MainThread]: End processing [scReGAT]: success
+[2023-07-02 10:36:44] INFO root fetch - processPackages [authomize-rest-api-client]: Remove: archive file [/home/abi/fetcher/tmp/authomize-rest-api-client-4.3.0.tar.gz]
+[2023-07-02 10:36:44] INFO root fetch - processPackages [authomize-rest-api-client]: Remove: archive file [/home/abi/fetcher/tmp/authomize-rest-api-client-4.3.1.tar.gz]
+[2023-07-02 10:36:44] INFO root fetch - main [MainThread]: End processing [authomize-rest-api-client]: success
+[2023-07-02 10:36:45] INFO root fetch - processPackages [django-unfold]: Remove: archive file [/home/abi/fetcher/tmp/django_unfold-0.6.7.tar.gz]
+[2023-07-02 10:36:45] INFO root fetch - processPackages [django-unfold]: Remove: archive file [/home/abi/fetcher/tmp/django_unfold-0.6.8.tar.gz]
+[2023-07-02 10:36:45] INFO root fetch - main [MainThread]: End processing [django-unfold]: success
+[2023-07-02 10:36:45] INFO root fetch - main [MainThread]: Store serial: [18727268]
