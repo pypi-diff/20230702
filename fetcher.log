@@ -4054,3 +4054,21 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 06:13:56] INFO root fetch - processPackages [pycaret]: Remove: archive file [/home/abi/fetcher/tmp/pycaret-3.0.4-py3-none-any.whl.zip]
 [2023-07-02 06:13:56] INFO root fetch - main [MainThread]: End processing [pycaret]: success
 [2023-07-02 06:13:56] INFO root fetch - main [MainThread]: Store serial: [18726327]
+[2023-07-02 06:19:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726327]
+[2023-07-02 06:19:06] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-02 06:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mewplayer
+[2023-07-02 06:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reliableGPT
+[2023-07-02 06:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hep-ml-lab
+[2023-07-02 06:19:06] WARNING root fetch - processPackages [hep-ml-lab]: Skipping, unable to determine old version
+[2023-07-02 06:19:06] INFO root fetch - main [MainThread]: End processing [hep-ml-lab] error
+[2023-07-02 06:19:06] INFO root fetch - processPackages [reliableGPT]: New version: [0.2.957] Old Version: [0.2.956]
+[2023-07-02 06:19:06] WARNING root fetch - processPackages [mewplayer]: Skipping, unable to determine old version
+[2023-07-02 06:19:06] INFO root fetch - main [MainThread]: End processing [mewplayer] error
+[2023-07-02 06:19:06] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/c2/44/3862c8b027a074668581519d8701c7022602c2925f1f5086450de9152e07/reliableGPT-0.2.956.tar.gz
+[2023-07-02 06:19:06] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/92/73/1c0e3575fd98fff046da07679db700bfc8b11736e0fded31d5ede3da1b40/reliableGPT-0.2.957.tar.gz
+[2023-07-02 06:19:06] INFO root fetch - processPackages [reliableGPT]: executing diffoscope
+[2023-07-02 06:19:06] INFO root fetch - processPackages [reliableGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliableGPT-0.2.956.tar.gz tmp/reliableGPT-0.2.957.tar.gz --markdown 20230702/r/reliableGPT/0.2.956-0.2.957/diff.md --exclude *.pyd
+[2023-07-02 06:19:08] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.956.tar.gz]
+[2023-07-02 06:19:08] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.957.tar.gz]
+[2023-07-02 06:19:08] INFO root fetch - main [MainThread]: End processing [reliableGPT]: success
+[2023-07-02 06:19:08] INFO root fetch - main [MainThread]: Store serial: [18726343]
