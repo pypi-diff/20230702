@@ -1839,3 +1839,20 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 02:55:06] INFO root fetch - processPackages [HFODetector]: Remove: archive file [/home/abi/fetcher/tmp/HFODetector-0.0.9.tar.gz]
 [2023-07-02 02:55:06] INFO root fetch - main [MainThread]: End processing [HFODetector]: success
 [2023-07-02 02:55:06] INFO root fetch - main [MainThread]: Store serial: [18725494]
+[2023-07-02 03:00:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18725494]
+[2023-07-02 03:00:16] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-02 03:00:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-comprehend-s3olap
+[2023-07-02 03:00:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SwiftyPy
+[2023-07-02 03:00:16] INFO root fetch - processPackages [SwiftyPy]: New version: [7.1] Old Version: [5.1]
+[2023-07-02 03:00:16] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-02 03:00:16] INFO root fetch - processPackages [SwiftyPy]: Downloading https://files.pythonhosted.org/packages/7d/64/d51336486c4467fa0d6a4289520842f68be476acfe3f3f7490fdbfa8ac92/SwiftyPy-5.1.tar.gz
+[2023-07-02 03:00:16] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-07-02 03:00:17] INFO root fetch - processPackages [SwiftyPy]: Downloading https://files.pythonhosted.org/packages/5b/b0/a5f7e2ca8bee2a453925f00e09ff46be431b5547a108fae8e5597bec7b04/SwiftyPy-7.1.tar.gz
+[2023-07-02 03:00:17] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-07-02 03:00:17] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-07-02 03:00:17] INFO root fetch - processPackages [SwiftyPy]: executing diffoscope
+[2023-07-02 03:00:17] INFO root fetch - processPackages [SwiftyPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SwiftyPy-5.1.tar.gz tmp/SwiftyPy-7.1.tar.gz --markdown 20230702/S/SwiftyPy/5.1-7.1/diff.md --exclude *.pyd
+[2023-07-02 03:01:07] INFO root fetch - processPackages [SwiftyPy]: Remove: archive file [/home/abi/fetcher/tmp/SwiftyPy-5.1.tar.gz]
+[2023-07-02 03:01:07] INFO root fetch - processPackages [SwiftyPy]: Remove: archive file [/home/abi/fetcher/tmp/SwiftyPy-7.1.tar.gz]
+[2023-07-02 03:01:07] INFO root fetch - main [MainThread]: End processing [SwiftyPy]: success
+[2023-07-02 03:01:07] INFO root fetch - main [MainThread]: Store serial: [18725500]
