@@ -10898,3 +10898,88 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 17:01:32] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.4.tar.gz]
 [2023-07-02 17:01:32] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-07-02 17:01:32] INFO root fetch - main [MainThread]: Store serial: [18729268]
+[2023-07-02 17:06:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18729268]
+[2023-07-02 17:06:44] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-02 17:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: notebook_setup
+[2023-07-02 17:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wisedata
+[2023-07-02 17:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mdsubsampler
+[2023-07-02 17:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mqt.bench
+[2023-07-02 17:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: koap
+[2023-07-02 17:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydwm1001
+[2023-07-02 17:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tensorflow-text-nightly
+[2023-07-02 17:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mbc-unicode-input
+[2023-07-02 17:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wisedata
+[2023-07-02 17:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: veloadmin
+[2023-07-02 17:06:44] INFO root fetch - processPackages [mqt.bench]: New version: [1.0.0] Old Version: [0.4.4]
+[2023-07-02 17:06:44] INFO root fetch - processPackages [pydwm1001]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-02 17:06:44] WARNING root fetch - processPackages [koap]: Skipping, unable to determine old version
+[2023-07-02 17:06:44] INFO root fetch - main [MainThread]: End processing [koap] error
+[2023-07-02 17:06:44] INFO root fetch - processPackages [veloadmin]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-02 17:06:44] INFO root fetch - processPackages [mdsubsampler]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-02 17:06:44] INFO root fetch - processPackages [wisedata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-02 17:06:44] INFO root fetch - processPackages [wisedata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-02 17:06:44] INFO root fetch - processPackages [notebook_setup]: New version: [1.1] Old Version: [1.0]
+[2023-07-02 17:06:44] INFO root fetch - processPackages [mbc-unicode-input]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-02 17:06:44] INFO root fetch - processPackages [tensorflow-text-nightly]: New version: [2.14.0.dev20230701] Old Version: [2.14.0.dev20230630]
+[2023-07-02 17:06:44] INFO root fetch - processPackages [pydwm1001]: Downloading https://files.pythonhosted.org/packages/fb/1e/1b0a4aba4499bdc0e15999f2a678b266ae64111927e65a22c08785aaae46/pydwm1001-0.8.0.tar.gz
+[2023-07-02 17:06:44] INFO root fetch - processPackages [pydwm1001]: Downloading https://files.pythonhosted.org/packages/79/63/570a1874310ed0391afe36f62c27a79cff711273ec9fa3bda10bb9bd5424/pydwm1001-0.9.0.tar.gz
+[2023-07-02 17:06:44] INFO root fetch - processPackages [wisedata]: Downloading https://files.pythonhosted.org/packages/59/7e/51c9ee099c7c9091a95758b6bd96fc272734c2bdd6a563a498351b7f3659/wisedata-1.0.8.tar.gz
+[2023-07-02 17:06:44] INFO root fetch - processPackages [wisedata]: Downloading https://files.pythonhosted.org/packages/59/7e/51c9ee099c7c9091a95758b6bd96fc272734c2bdd6a563a498351b7f3659/wisedata-1.0.8.tar.gz
+[2023-07-02 17:06:44] INFO root fetch - processPackages [veloadmin]: Downloading https://files.pythonhosted.org/packages/9b/83/04b686d6c1bb049408275bca18df607d8154041586c7ce6e967d3bf3278f/veloadmin-1.0.1.tar.gz
+[2023-07-02 17:06:44] INFO root fetch - processPackages [mdsubsampler]: Downloading https://files.pythonhosted.org/packages/af/2e/61cc7326cc2b52277b53805a029cfec83c621046b661dff9df060fa7aaa6/mdsubsampler-0.0.1.tar.gz
+[2023-07-02 17:06:44] INFO root fetch - processPackages [notebook_setup]: Downloading https://files.pythonhosted.org/packages/be/28/4bad762b4cea333ae6e0c81cf8f0f1db6e24179cdac5e599e1ba4920e106/notebook_setup-1.0.tar.gz
+[2023-07-02 17:06:44] INFO root fetch - processPackages [mqt.bench]: Downloading https://files.pythonhosted.org/packages/3d/9b/943c238b05301c6164a5e18aa2da3387b4d6617a982d727a451746d2acae/mqt.bench-0.4.4.tar.gz
+[2023-07-02 17:06:44] INFO root fetch - processPackages [pydwm1001]: executing diffoscope
+[2023-07-02 17:06:44] INFO root fetch - processPackages [pydwm1001]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydwm1001-0.8.0.tar.gz tmp/pydwm1001-0.9.0.tar.gz --markdown 20230702/p/pydwm1001/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-02 17:06:44] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/24/c7/c6c34b72a8aea791bceb1811ac08a0c336ce699509f2e068198f9b052594/tensorflow_text_nightly-2.14.0.dev20230630-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-02 17:06:44] INFO root fetch - processPackages [mbc-unicode-input]: Downloading https://files.pythonhosted.org/packages/3e/eb/ccf64079fb6bc4c8f267ebfbedc5e804bb29d5891ee4c1db8c1ebe7eab01/mbc_unicode_input-0.1.0.tar.gz
+[2023-07-02 17:06:45] INFO root fetch - processPackages [wisedata]: Downloading https://files.pythonhosted.org/packages/4b/95/3ebedc58284018ea58e831ba692e4b928ad5e2298c32954b2204837d4033/wisedata-1.0.9.tar.gz
+[2023-07-02 17:06:45] INFO root fetch - processPackages [wisedata]: Downloading https://files.pythonhosted.org/packages/4b/95/3ebedc58284018ea58e831ba692e4b928ad5e2298c32954b2204837d4033/wisedata-1.0.9.tar.gz
+[2023-07-02 17:06:45] INFO root fetch - processPackages [notebook_setup]: Downloading https://files.pythonhosted.org/packages/e1/39/9c5073657d5c3f0405a6def4ee277f9e718c763ee18d5e4372e617f45fcf/notebook_setup-1.1.tar.gz
+[2023-07-02 17:06:45] INFO root fetch - processPackages [veloadmin]: Downloading https://files.pythonhosted.org/packages/7d/92/69426a77265676eabd144dbad9699a894578f66ea27f204dd4ce49539d1c/veloadmin-1.0.2.tar.gz
+[2023-07-02 17:06:45] INFO root fetch - processPackages [notebook_setup]: executing diffoscope
+[2023-07-02 17:06:45] INFO root fetch - processPackages [notebook_setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notebook_setup-1.0.tar.gz tmp/notebook_setup-1.1.tar.gz --markdown 20230702/n/notebook_setup/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-02 17:06:45] INFO root fetch - processPackages [veloadmin]: executing diffoscope
+[2023-07-02 17:06:45] INFO root fetch - processPackages [veloadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veloadmin-1.0.1.tar.gz tmp/veloadmin-1.0.2.tar.gz --markdown 20230702/v/veloadmin/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-02 17:06:45] INFO root fetch - processPackages [mbc-unicode-input]: Downloading https://files.pythonhosted.org/packages/5c/4b/8bea4cdee926c396287a549d335013136ecef42ce3de3006ea56923aec50/mbc_unicode_input-0.2.0.tar.gz
+[2023-07-02 17:06:45] INFO root fetch - processPackages [wisedata]: executing diffoscope
+[2023-07-02 17:06:45] INFO root fetch - processPackages [wisedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wisedata-1.0.8.tar.gz tmp/wisedata-1.0.9.tar.gz --markdown 20230702/w/wisedata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-02 17:06:45] INFO root fetch - processPackages [wisedata]: executing diffoscope
+[2023-07-02 17:06:45] INFO root fetch - processPackages [wisedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wisedata-1.0.8.tar.gz tmp/wisedata-1.0.9.tar.gz --markdown 20230702/w/wisedata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-02 17:06:45] INFO root fetch - processPackages [mdsubsampler]: Downloading https://files.pythonhosted.org/packages/00/fe/0ac3c0e4a463df083056b1d78e843dc2b003d6830f41d86da154de6987a5/mdsubsampler-0.0.2.tar.gz
+[2023-07-02 17:06:45] INFO root fetch - processPackages [mqt.bench]: Downloading https://files.pythonhosted.org/packages/48/80/b8b3f528edf77d48e014e6182dd9333e664e5532beac30705ba73c09cb13/mqt.bench-1.0.0.tar.gz
+[2023-07-02 17:06:45] INFO root fetch - processPackages [mbc-unicode-input]: executing diffoscope
+[2023-07-02 17:06:45] INFO root fetch - processPackages [mbc-unicode-input]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbc_unicode_input-0.1.0.tar.gz tmp/mbc_unicode_input-0.2.0.tar.gz --markdown 20230702/m/mbc-unicode-input/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-02 17:06:45] INFO root fetch - processPackages [mdsubsampler]: executing diffoscope
+[2023-07-02 17:06:45] INFO root fetch - processPackages [mdsubsampler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdsubsampler-0.0.1.tar.gz tmp/mdsubsampler-0.0.2.tar.gz --markdown 20230702/m/mdsubsampler/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-02 17:06:45] INFO root fetch - processPackages [mqt.bench]: executing diffoscope
+[2023-07-02 17:06:45] INFO root fetch - processPackages [mqt.bench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mqt.bench-0.4.4.tar.gz tmp/mqt.bench-1.0.0.tar.gz --markdown 20230702/m/mqt.bench/0.4.4-1.0.0/diff.md --exclude *.pyd
+[2023-07-02 17:06:45] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/3e/84/20995c1c484202026e3f32befdf0cb6cdb898e25d8b03788d3788bb008e0/tensorflow_text_nightly-2.14.0.dev20230701-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-02 17:06:46] INFO root fetch - processPackages [pydwm1001]: Remove: archive file [/home/abi/fetcher/tmp/pydwm1001-0.8.0.tar.gz]
+[2023-07-02 17:06:46] INFO root fetch - processPackages [pydwm1001]: Remove: archive file [/home/abi/fetcher/tmp/pydwm1001-0.9.0.tar.gz]
+[2023-07-02 17:06:46] INFO root fetch - main [MainThread]: End processing [pydwm1001]: success
+[2023-07-02 17:06:46] INFO root fetch - processPackages [notebook_setup]: Remove: archive file [/home/abi/fetcher/tmp/notebook_setup-1.0.tar.gz]
+[2023-07-02 17:06:46] INFO root fetch - processPackages [notebook_setup]: Remove: archive file [/home/abi/fetcher/tmp/notebook_setup-1.1.tar.gz]
+[2023-07-02 17:06:46] INFO root fetch - main [MainThread]: End processing [notebook_setup]: success
+[2023-07-02 17:06:46] INFO root fetch - processPackages [veloadmin]: Remove: archive file [/home/abi/fetcher/tmp/veloadmin-1.0.1.tar.gz]
+[2023-07-02 17:06:46] INFO root fetch - processPackages [veloadmin]: Remove: archive file [/home/abi/fetcher/tmp/veloadmin-1.0.2.tar.gz]
+[2023-07-02 17:06:46] INFO root fetch - main [MainThread]: End processing [veloadmin]: success
+[2023-07-02 17:06:46] INFO root fetch - processPackages [wisedata]: Remove: archive file [/home/abi/fetcher/tmp/wisedata-1.0.8.tar.gz]
+[2023-07-02 17:06:46] INFO root fetch - processPackages [wisedata]: Remove: archive file [/home/abi/fetcher/tmp/wisedata-1.0.9.tar.gz]
+[2023-07-02 17:06:46] INFO root fetch - main [MainThread]: End processing [wisedata]: success
+[2023-07-02 17:06:46] INFO root fetch - processPackages [mbc-unicode-input]: Remove: archive file [/home/abi/fetcher/tmp/mbc_unicode_input-0.1.0.tar.gz]
+[2023-07-02 17:06:46] INFO root fetch - processPackages [mbc-unicode-input]: Remove: archive file [/home/abi/fetcher/tmp/mbc_unicode_input-0.2.0.tar.gz]
+[2023-07-02 17:06:46] INFO root fetch - main [MainThread]: End processing [mbc-unicode-input]: success
+[2023-07-02 17:06:46] INFO root fetch - main [MainThread]: End processing [wisedata]: success
+[2023-07-02 17:06:47] INFO root fetch - processPackages [mdsubsampler]: Remove: archive file [/home/abi/fetcher/tmp/mdsubsampler-0.0.1.tar.gz]
+[2023-07-02 17:06:47] INFO root fetch - processPackages [mdsubsampler]: Remove: archive file [/home/abi/fetcher/tmp/mdsubsampler-0.0.2.tar.gz]
+[2023-07-02 17:06:47] INFO root fetch - main [MainThread]: End processing [mdsubsampler]: success
+[2023-07-02 17:06:47] INFO root fetch - processPackages [tensorflow-text-nightly]: executing diffoscope
+[2023-07-02 17:06:47] INFO root fetch - processPackages [tensorflow-text-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_text_nightly-2.14.0.dev20230630-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tensorflow_text_nightly-2.14.0.dev20230701-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230702/t/tensorflow-text-nightly/2.14.0.dev20230630-2.14.0.dev20230701/diff.md --exclude *.pyd
+[2023-07-02 17:06:47] INFO root fetch - processPackages [mqt.bench]: Remove: archive file [/home/abi/fetcher/tmp/mqt.bench-0.4.4.tar.gz]
+[2023-07-02 17:06:47] INFO root fetch - processPackages [mqt.bench]: Remove: archive file [/home/abi/fetcher/tmp/mqt.bench-1.0.0.tar.gz]
+[2023-07-02 17:06:47] INFO root fetch - main [MainThread]: End processing [mqt.bench]: success
+[2023-07-02 17:07:26] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.14.0.dev20230630-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-02 17:07:26] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.14.0.dev20230701-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-02 17:07:26] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
+[2023-07-02 17:07:26] INFO root fetch - main [MainThread]: Store serial: [18729300]
