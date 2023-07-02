@@ -16699,3 +16699,27 @@ AssertionError: tmp/Cliente-0.0.4-py3.10.egg does not exist
 [2023-07-02 23:30:54] INFO root fetch - processPackages [pypdf]: Remove: archive file [/home/abi/fetcher/tmp/pypdf-3.9.1.tar.gz]
 [2023-07-02 23:30:54] INFO root fetch - main [MainThread]: End processing [pypdf]: success
 [2023-07-02 23:30:54] INFO root fetch - main [MainThread]: Store serial: [18731624]
+[2023-07-02 23:35:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18731624]
+[2023-07-02 23:36:03] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-02 23:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sisaptools
+[2023-07-02 23:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: testpoetry2
+[2023-07-02 23:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smol-dev
+[2023-07-02 23:36:04] INFO root fetch - processPackages [sisaptools]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-02 23:36:04] INFO root fetch - processPackages [testpoetry2]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-02 23:36:04] ERROR root fetch - processPackages [smol-dev]: Unable to get metadata: No such project 'smol-dev'
+[2023-07-02 23:36:04] INFO root fetch - main [MainThread]: End processing [smol-dev] error
+[2023-07-02 23:36:04] INFO root fetch - processPackages [sisaptools]: Downloading https://files.pythonhosted.org/packages/96/02/9b4bfd32347388e1847764a78c7a71ec5021f029c567f97a40ad392fbada/sisaptools-1.9.8.tar.gz
+[2023-07-02 23:36:04] INFO root fetch - processPackages [testpoetry2]: Downloading https://files.pythonhosted.org/packages/59/68/aaa14c2d358405caf85d7f200ef030132fc510da7c67ee52e3855c08c4d9/testpoetry2-0.1.5.tar.gz
+[2023-07-02 23:36:04] INFO root fetch - processPackages [sisaptools]: Downloading https://files.pythonhosted.org/packages/fa/b7/9ed03e2a5a0fab512a4b6a72bcb2957691b047981b21811a85b006208ce0/sisaptools-1.9.9.tar.gz
+[2023-07-02 23:36:04] INFO root fetch - processPackages [testpoetry2]: Downloading https://files.pythonhosted.org/packages/79/1c/4389558f72c0e053c7c3bbbf7c3344eeb4592c387675cd3bafad5c0fbf1a/testpoetry2-0.1.6.tar.gz
+[2023-07-02 23:36:04] INFO root fetch - processPackages [sisaptools]: executing diffoscope
+[2023-07-02 23:36:04] INFO root fetch - processPackages [sisaptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sisaptools-1.9.8.tar.gz tmp/sisaptools-1.9.9.tar.gz --markdown 20230702/s/sisaptools/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-02 23:36:04] INFO root fetch - processPackages [testpoetry2]: executing diffoscope
+[2023-07-02 23:36:04] INFO root fetch - processPackages [testpoetry2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testpoetry2-0.1.5.tar.gz tmp/testpoetry2-0.1.6.tar.gz --markdown 20230702/t/testpoetry2/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-02 23:36:05] INFO root fetch - processPackages [sisaptools]: Remove: archive file [/home/abi/fetcher/tmp/sisaptools-1.9.8.tar.gz]
+[2023-07-02 23:36:05] INFO root fetch - processPackages [sisaptools]: Remove: archive file [/home/abi/fetcher/tmp/sisaptools-1.9.9.tar.gz]
+[2023-07-02 23:36:05] INFO root fetch - main [MainThread]: End processing [sisaptools]: success
+[2023-07-02 23:36:05] INFO root fetch - processPackages [testpoetry2]: Remove: archive file [/home/abi/fetcher/tmp/testpoetry2-0.1.5.tar.gz]
+[2023-07-02 23:36:05] INFO root fetch - processPackages [testpoetry2]: Remove: archive file [/home/abi/fetcher/tmp/testpoetry2-0.1.6.tar.gz]
+[2023-07-02 23:36:05] INFO root fetch - main [MainThread]: End processing [testpoetry2]: success
+[2023-07-02 23:36:05] INFO root fetch - main [MainThread]: Store serial: [18731635]
