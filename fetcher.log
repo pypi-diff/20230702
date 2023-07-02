@@ -3487,3 +3487,66 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 04:55:57] INFO root fetch - processPackages [trio]: Remove: archive file [/home/abi/fetcher/tmp/trio-0.9.0.tar.gz]
 [2023-07-02 04:55:57] INFO root fetch - main [MainThread]: End processing [trio]: success
 [2023-07-02 04:55:57] INFO root fetch - main [MainThread]: Store serial: [18726068]
+[2023-07-02 05:01:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726068]
+[2023-07-02 05:01:06] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-02 05:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydeepchainmap
+[2023-07-02 05:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pretty-tables
+[2023-07-02 05:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-nightly
+[2023-07-02 05:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aitemplates
+[2023-07-02 05:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iam-actions
+[2023-07-02 05:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coffeegrinder
+[2023-07-02 05:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-connector-ecommerce
+[2023-07-02 05:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aitemplates
+[2023-07-02 05:01:06] WARNING root fetch - processPackages [pydeepchainmap]: Skipping, unable to determine old version
+[2023-07-02 05:01:06] INFO root fetch - main [MainThread]: End processing [pydeepchainmap] error
+[2023-07-02 05:01:06] INFO root fetch - processPackages [aitemplates]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 05:01:06] INFO root fetch - processPackages [pretty-tables]: New version: [3.0.0] Old Version: [2.0.3]
+[2023-07-02 05:01:06] INFO root fetch - processPackages [aitemplates]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 05:01:06] INFO root fetch - processPackages [coffeegrinder]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-02 05:01:06] INFO root fetch - processPackages [odoo-addon-connector-ecommerce]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.6]
+[2023-07-02 05:01:06] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230702] Old Version: [1.2.20230701]
+[2023-07-02 05:01:06] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/f5/f7/ab70c37b8e6e15a915e083a0952a4bc0edf56633ecf53f70e0a526db4ab4/iam_actions-1.2.20230701.tar.gz
+[2023-07-02 05:01:06] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-07-02 05:01:06] INFO root fetch - processPackages [pretty-tables]: Downloading https://files.pythonhosted.org/packages/f7/d6/327794663b3c94127da65714639d66029b7acf152bc63a2fe7976c068614/pretty-tables-2.0.3.tar.gz
+[2023-07-02 05:01:06] INFO root fetch - processPackages [coffeegrinder]: Downloading https://files.pythonhosted.org/packages/e1/80/b6635d3bff590940e2bdc3e7dbded1f07b5e620a0242d56decbab54efcee/coffeegrinder-0.2.5.tar.gz
+[2023-07-02 05:01:06] INFO root fetch - processPackages [odoo-addon-connector-ecommerce]: Downloading https://files.pythonhosted.org/packages/75/6f/85258edb7ad79440e8feffc1880e17c9d647194e0fac8f85541b94150e39/odoo_addon_connector_ecommerce-16.0.1.0.0.6-py3-none-any.whl
+[2023-07-02 05:01:06] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-07-02 05:01:06] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/bf/a3/647edd632afcef5b75064168e5d8812dde2ea7cee08bcd36e38d8b2edbeb/iam_actions-1.2.20230702.tar.gz
+[2023-07-02 05:01:06] INFO root fetch - processPackages [pretty-tables]: Downloading https://files.pythonhosted.org/packages/11/ee/7773be7ccf9118af0a1519cbd2ee9cc4b6980e410d7ac6e26057d98d748c/pretty-tables-3.0.0.tar.gz
+[2023-07-02 05:01:06] INFO root fetch - processPackages [coffeegrinder]: Downloading https://files.pythonhosted.org/packages/9a/66/66e117a374c361c5fd913ec5d1e6e250deffed01c3e25c5feb3cf434a279/coffeegrinder-0.2.6.tar.gz
+[2023-07-02 05:01:06] INFO root fetch - processPackages [aitemplates]: executing diffoscope
+[2023-07-02 05:01:06] INFO root fetch - processPackages [aitemplates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aitemplates-0.1.8.tar.gz tmp/aitemplates-0.1.9.tar.gz --markdown 20230702/a/aitemplates/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 05:01:06] INFO root fetch - processPackages [aitemplates]: executing diffoscope
+[2023-07-02 05:01:06] INFO root fetch - processPackages [aitemplates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aitemplates-0.1.8.tar.gz tmp/aitemplates-0.1.9.tar.gz --markdown 20230702/a/aitemplates/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 05:01:07] INFO root fetch - processPackages [odoo-addon-connector-ecommerce]: Downloading https://files.pythonhosted.org/packages/6c/ca/63d9e2321712c42fef042f3e70c2becf313641d6f312fc391ccd0966351c/odoo_addon_connector_ecommerce-16.0.1.0.0.7-py3-none-any.whl
+[2023-07-02 05:01:07] INFO root fetch - processPackages [pretty-tables]: executing diffoscope
+[2023-07-02 05:01:07] INFO root fetch - processPackages [pretty-tables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretty-tables-2.0.3.tar.gz tmp/pretty-tables-3.0.0.tar.gz --markdown 20230702/p/pretty-tables/2.0.3-3.0.0/diff.md --exclude *.pyd
+[2023-07-02 05:01:07] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-07-02 05:01:07] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230701.tar.gz tmp/iam_actions-1.2.20230702.tar.gz --markdown 20230702/i/iam-actions/1.2.20230701-1.2.20230702/diff.md --exclude *.pyd
+[2023-07-02 05:01:07] INFO root fetch - processPackages [coffeegrinder]: executing diffoscope
+[2023-07-02 05:01:07] INFO root fetch - processPackages [coffeegrinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coffeegrinder-0.2.5.tar.gz tmp/coffeegrinder-0.2.6.tar.gz --markdown 20230702/c/coffeegrinder/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-02 05:01:07] INFO root fetch - processPackages [odoo-addon-connector-ecommerce]: executing diffoscope
+[2023-07-02 05:01:07] INFO root fetch - processPackages [odoo-addon-connector-ecommerce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_connector_ecommerce-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_connector_ecommerce-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20230702/o/odoo-addon-connector-ecommerce/16.0.1.0.0.6-16.0.1.0.0.7/diff.md --exclude *.pyd
+[2023-07-02 05:01:07] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-07-02 05:01:07] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-07-02 05:01:07] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230702/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-07-02 05:01:08] INFO root fetch - processPackages [aitemplates]: Remove: archive file [/home/abi/fetcher/tmp/aitemplates-0.1.8.tar.gz]
+[2023-07-02 05:01:08] INFO root fetch - processPackages [aitemplates]: Remove: archive file [/home/abi/fetcher/tmp/aitemplates-0.1.9.tar.gz]
+[2023-07-02 05:01:08] INFO root fetch - main [MainThread]: End processing [aitemplates]: success
+[2023-07-02 05:01:08] INFO root fetch - main [MainThread]: End processing [aitemplates]: success
+[2023-07-02 05:01:08] INFO root fetch - processPackages [pretty-tables]: Remove: archive file [/home/abi/fetcher/tmp/pretty-tables-2.0.3.tar.gz]
+[2023-07-02 05:01:08] INFO root fetch - processPackages [pretty-tables]: Remove: archive file [/home/abi/fetcher/tmp/pretty-tables-3.0.0.tar.gz]
+[2023-07-02 05:01:08] INFO root fetch - main [MainThread]: End processing [pretty-tables]: success
+[2023-07-02 05:01:08] INFO root fetch - processPackages [odoo-addon-connector-ecommerce]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_connector_ecommerce-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-07-02 05:01:08] INFO root fetch - processPackages [odoo-addon-connector-ecommerce]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_connector_ecommerce-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-07-02 05:01:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-connector-ecommerce]: success
+[2023-07-02 05:01:08] INFO root fetch - processPackages [coffeegrinder]: Remove: archive file [/home/abi/fetcher/tmp/coffeegrinder-0.2.5.tar.gz]
+[2023-07-02 05:01:08] INFO root fetch - processPackages [coffeegrinder]: Remove: archive file [/home/abi/fetcher/tmp/coffeegrinder-0.2.6.tar.gz]
+[2023-07-02 05:01:08] INFO root fetch - main [MainThread]: End processing [coffeegrinder]: success
+[2023-07-02 05:01:09] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230701.tar.gz]
+[2023-07-02 05:01:09] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230702.tar.gz]
+[2023-07-02 05:01:09] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-07-02 05:01:18] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz]
+[2023-07-02 05:01:18] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
+[2023-07-02 05:01:18] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-07-02 05:01:18] INFO root fetch - main [MainThread]: Store serial: [18726093]
