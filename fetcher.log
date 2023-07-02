@@ -16830,3 +16830,51 @@ AssertionError: tmp/Cliente-0.0.4-py3.10.egg does not exist
 [2023-07-02 23:47:21] INFO root fetch - processPackages [melon-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/melon_scheduler-0.1.6.tar.gz]
 [2023-07-02 23:47:21] INFO root fetch - main [MainThread]: End processing [melon-scheduler]: success
 [2023-07-02 23:47:21] INFO root fetch - main [MainThread]: Store serial: [18731687]
+[2023-07-02 23:52:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18731687]
+[2023-07-02 23:52:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-02 23:52:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sweepai
+[2023-07-02 23:52:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: supy
+[2023-07-02 23:52:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: absplit
+[2023-07-02 23:52:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rest-api-supporter
+[2023-07-02 23:52:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-portfolio-index
+[2023-07-02 23:52:30] INFO root fetch - processPackages [absplit]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-07-02 23:52:30] INFO root fetch - processPackages [supy]: New version: [2023.7.2.dev0] Old Version: [2023.6.5.dev0]
+[2023-07-02 23:52:30] INFO root fetch - processPackages [rest-api-supporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 23:52:30] INFO root fetch - processPackages [sweepai]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-02 23:52:30] INFO root fetch - processPackages [py-portfolio-index]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 23:52:30] INFO root fetch - processPackages [absplit]: Downloading https://files.pythonhosted.org/packages/81/28/0b0c49eb8256278194b044696676b9e0d0378a0d0d9cdd8dee06d4bf7aad/absplit-1.4.1.tar.gz
+[2023-07-02 23:52:30] INFO root fetch - processPackages [rest-api-supporter]: Downloading https://files.pythonhosted.org/packages/f4/16/0c2fc27776d8257953b960eea527e7f83b54019b51fbb132e634d73c5c0e/rest-api-supporter-0.0.8.tar.gz
+[2023-07-02 23:52:30] INFO root fetch - processPackages [supy]: Downloading https://files.pythonhosted.org/packages/16/1e/f441faaeaa1d23829d9691c1cb6a920f98c05088e419e77d595ef955f5b1/supy-2023.6.5.dev0-cp39-cp39-win_amd64.whl
+[2023-07-02 23:52:30] INFO root fetch - processPackages [py-portfolio-index]: Downloading https://files.pythonhosted.org/packages/56/47/1136551b0e963bbc2d3d3fce66043142f2f536a88a5e5918b3bae66b9480/py-portfolio-index-0.0.8.tar.gz
+[2023-07-02 23:52:30] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/0b/19/1014284cdc40b55d4cee21dfb19dda692ccf9c23c205b8dcadade8f0143f/sweepai-0.2.0.tar.gz
+[2023-07-02 23:52:30] INFO root fetch - processPackages [rest-api-supporter]: Downloading https://files.pythonhosted.org/packages/35/47/76da32bcf0507aa9dbf370e1c9e91408c29a80232299067f97883d4ef255/rest-api-supporter-0.0.9.tar.gz
+[2023-07-02 23:52:30] INFO root fetch - processPackages [rest-api-supporter]: executing diffoscope
+[2023-07-02 23:52:30] INFO root fetch - processPackages [rest-api-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rest-api-supporter-0.0.8.tar.gz tmp/rest-api-supporter-0.0.9.tar.gz --markdown 20230702/r/rest-api-supporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 23:52:30] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/ec/e2/56df1871421a28ad652bcd30a41ecf9ea1a1b0e6edbaf0bfae312a68bec4/sweepai-0.2.1.tar.gz
+[2023-07-02 23:52:30] INFO root fetch - processPackages [py-portfolio-index]: Downloading https://files.pythonhosted.org/packages/35/d9/e930790cd08eb7aba472719eb95421a6b5ed634f852f1eb262a0430147f6/py-portfolio-index-0.0.9.tar.gz
+[2023-07-02 23:52:30] INFO root fetch - processPackages [py-portfolio-index]: executing diffoscope
+[2023-07-02 23:52:30] INFO root fetch - processPackages [py-portfolio-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-portfolio-index-0.0.8.tar.gz tmp/py-portfolio-index-0.0.9.tar.gz --markdown 20230702/p/py-portfolio-index/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 23:52:31] INFO root fetch - processPackages [sweepai]: executing diffoscope
+[2023-07-02 23:52:31] INFO root fetch - processPackages [sweepai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweepai-0.2.0.tar.gz tmp/sweepai-0.2.1.tar.gz --markdown 20230702/s/sweepai/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-02 23:52:31] INFO root fetch - processPackages [absplit]: Downloading https://files.pythonhosted.org/packages/9b/44/e8f5506dd392629f4e14acb906e1eaf503367c7361e88805ebf047130db3/absplit-1.4.2.tar.gz
+[2023-07-02 23:52:31] INFO root fetch - processPackages [absplit]: executing diffoscope
+[2023-07-02 23:52:31] INFO root fetch - processPackages [absplit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/absplit-1.4.1.tar.gz tmp/absplit-1.4.2.tar.gz --markdown 20230702/a/absplit/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-07-02 23:52:31] INFO root fetch - processPackages [supy]: Downloading https://files.pythonhosted.org/packages/7c/0f/889640d53d255cd8dde9a85d61f27c90ea7708a754baffc74c9c44b1b810/supy-2023.7.2.dev0-cp39-cp39-win_amd64.whl
+[2023-07-02 23:52:31] INFO root fetch - processPackages [supy]: executing diffoscope
+[2023-07-02 23:52:31] INFO root fetch - processPackages [supy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supy-2023.6.5.dev0-cp39-cp39-win_amd64.whl.zip tmp/supy-2023.7.2.dev0-cp39-cp39-win_amd64.whl.zip --markdown 20230702/s/supy/2023.6.5.dev0-2023.7.2.dev0/diff.md --exclude *.pyd
+[2023-07-02 23:52:31] INFO root fetch - processPackages [rest-api-supporter]: Remove: archive file [/home/abi/fetcher/tmp/rest-api-supporter-0.0.8.tar.gz]
+[2023-07-02 23:52:31] INFO root fetch - processPackages [rest-api-supporter]: Remove: archive file [/home/abi/fetcher/tmp/rest-api-supporter-0.0.9.tar.gz]
+[2023-07-02 23:52:31] INFO root fetch - main [MainThread]: End processing [rest-api-supporter]: success
+[2023-07-02 23:52:32] INFO root fetch - processPackages [absplit]: Remove: archive file [/home/abi/fetcher/tmp/absplit-1.4.1.tar.gz]
+[2023-07-02 23:52:32] INFO root fetch - processPackages [absplit]: Remove: archive file [/home/abi/fetcher/tmp/absplit-1.4.2.tar.gz]
+[2023-07-02 23:52:32] INFO root fetch - main [MainThread]: End processing [absplit]: success
+[2023-07-02 23:52:32] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.2.0.tar.gz]
+[2023-07-02 23:52:32] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.2.1.tar.gz]
+[2023-07-02 23:52:32] INFO root fetch - main [MainThread]: End processing [sweepai]: success
+[2023-07-02 23:52:32] INFO root fetch - processPackages [py-portfolio-index]: Remove: archive file [/home/abi/fetcher/tmp/py-portfolio-index-0.0.8.tar.gz]
+[2023-07-02 23:52:32] INFO root fetch - processPackages [py-portfolio-index]: Remove: archive file [/home/abi/fetcher/tmp/py-portfolio-index-0.0.9.tar.gz]
+[2023-07-02 23:52:32] INFO root fetch - main [MainThread]: End processing [py-portfolio-index]: success
+[2023-07-02 23:52:35] INFO root fetch - processPackages [supy]: Remove: archive file [/home/abi/fetcher/tmp/supy-2023.6.5.dev0-cp39-cp39-win_amd64.whl.zip]
+[2023-07-02 23:52:35] INFO root fetch - processPackages [supy]: Remove: archive file [/home/abi/fetcher/tmp/supy-2023.7.2.dev0-cp39-cp39-win_amd64.whl.zip]
+[2023-07-02 23:52:35] INFO root fetch - main [MainThread]: End processing [supy]: success
+[2023-07-02 23:52:35] INFO root fetch - main [MainThread]: Store serial: [18731713]
