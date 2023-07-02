@@ -3771,3 +3771,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 05:37:39] INFO root fetch - processPackages [pymod112]: Remove: archive file [/home/abi/fetcher/tmp/pymod112-0.1.1.tar.gz]
 [2023-07-02 05:37:39] INFO root fetch - main [MainThread]: End processing [pymod112]: success
 [2023-07-02 05:37:39] INFO root fetch - main [MainThread]: Store serial: [18726204]
+[2023-07-02 05:42:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726204]
+[2023-07-02 05:42:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-02 05:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mathkit
+[2023-07-02 05:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spark-quality-rules-tools
+[2023-07-02 05:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-br-zip
+[2023-07-02 05:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-l10n-br-currency-rate-update
+[2023-07-02 05:42:47] INFO root fetch - processPackages [odoo-addon-l10n-br-currency-rate-update]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.6]
+[2023-07-02 05:42:47] INFO root fetch - processPackages [spark-quality-rules-tools]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-02 05:42:47] INFO root fetch - processPackages [odoo-addon-l10n-br-zip]: New version: [16.0.2.0.0.5] Old Version: [16.0.2.0.0.4]
+[2023-07-02 05:42:47] INFO root fetch - processPackages [mathkit]: New version: [0.9.3] Old Version: [0.9.1]
+[2023-07-02 05:42:47] INFO root fetch - processPackages [odoo-addon-l10n-br-zip]: Downloading https://files.pythonhosted.org/packages/70/c3/5e2b4575bf8ac9c206cb855e7e413cc479bfb202ce86b9bdcf8b01ebdefe/odoo_addon_l10n_br_zip-16.0.2.0.0.4-py3-none-any.whl
+[2023-07-02 05:42:47] INFO root fetch - processPackages [mathkit]: Downloading https://files.pythonhosted.org/packages/82/4a/39ec38f747fc51d9ec09c3828f16d6081f89435e95b11a0938a48a8387d0/mathkit-0.9.1.tar.gz
+[2023-07-02 05:42:47] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/f4/c5/e9440098c39fab77b7f7f2febfc54dabb3bfddcfa3d25d230281f0b6e369/spark_quality_rules_tools-0.4.0.tar.gz
+[2023-07-02 05:42:47] INFO root fetch - processPackages [odoo-addon-l10n-br-currency-rate-update]: Downloading https://files.pythonhosted.org/packages/30/67/d1f387381094714a65e992f8db4310d254a2b7f35a563fc371c92976f240/odoo_addon_l10n_br_currency_rate_update-16.0.1.0.0.6-py3-none-any.whl
+[2023-07-02 05:42:47] INFO root fetch - processPackages [mathkit]: Downloading https://files.pythonhosted.org/packages/d1/5f/3dd5791ac4fbed47e3e036f3f95886ceb1a9ef2f12df8d1a0c0d52d48d0d/mathkit-0.9.3.tar.gz
+[2023-07-02 05:42:47] INFO root fetch - processPackages [odoo-addon-l10n-br-zip]: Downloading https://files.pythonhosted.org/packages/15/83/974909087f2d0215e6d86326165f28f47c40e1395f391c92b56d30ff85c7/odoo_addon_l10n_br_zip-16.0.2.0.0.5-py3-none-any.whl
+[2023-07-02 05:42:47] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/e5/c1/2106bb2fbfb535cab230b8002b1e244f025686e880cf8e456cbfc9b4e7ce/spark_quality_rules_tools-0.4.1.tar.gz
+[2023-07-02 05:42:47] INFO root fetch - processPackages [mathkit]: executing diffoscope
+[2023-07-02 05:42:47] INFO root fetch - processPackages [mathkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathkit-0.9.1.tar.gz tmp/mathkit-0.9.3.tar.gz --markdown 20230702/m/mathkit/0.9.1-0.9.3/diff.md --exclude *.pyd
+[2023-07-02 05:42:47] INFO root fetch - processPackages [odoo-addon-l10n-br-currency-rate-update]: Downloading https://files.pythonhosted.org/packages/c7/72/5111c852283d5d4141d2d70e150e620c9ed10ec1cb853afe2bf177476f90/odoo_addon_l10n_br_currency_rate_update-16.0.1.0.0.7-py3-none-any.whl
+[2023-07-02 05:42:47] INFO root fetch - processPackages [odoo-addon-l10n-br-zip]: executing diffoscope
+[2023-07-02 05:42:47] INFO root fetch - processPackages [odoo-addon-l10n-br-zip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_br_zip-16.0.2.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_l10n_br_zip-16.0.2.0.0.5-py3-none-any.whl.zip --markdown 20230702/o/odoo-addon-l10n-br-zip/16.0.2.0.0.4-16.0.2.0.0.5/diff.md --exclude *.pyd
+[2023-07-02 05:42:47] INFO root fetch - processPackages [spark-quality-rules-tools]: executing diffoscope
+[2023-07-02 05:42:47] INFO root fetch - processPackages [spark-quality-rules-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_quality_rules_tools-0.4.0.tar.gz tmp/spark_quality_rules_tools-0.4.1.tar.gz --markdown 20230702/s/spark-quality-rules-tools/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-02 05:42:48] INFO root fetch - processPackages [odoo-addon-l10n-br-currency-rate-update]: executing diffoscope
+[2023-07-02 05:42:48] INFO root fetch - processPackages [odoo-addon-l10n-br-currency-rate-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_br_currency_rate_update-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_l10n_br_currency_rate_update-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20230702/o/odoo-addon-l10n-br-currency-rate-update/16.0.1.0.0.6-16.0.1.0.0.7/diff.md --exclude *.pyd
+[2023-07-02 05:42:48] INFO root fetch - processPackages [mathkit]: Remove: archive file [/home/abi/fetcher/tmp/mathkit-0.9.1.tar.gz]
+[2023-07-02 05:42:48] INFO root fetch - processPackages [mathkit]: Remove: archive file [/home/abi/fetcher/tmp/mathkit-0.9.3.tar.gz]
+[2023-07-02 05:42:48] INFO root fetch - main [MainThread]: End processing [mathkit]: success
+[2023-07-02 05:42:48] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.4.0.tar.gz]
+[2023-07-02 05:42:48] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.4.1.tar.gz]
+[2023-07-02 05:42:48] INFO root fetch - main [MainThread]: End processing [spark-quality-rules-tools]: success
+[2023-07-02 05:42:49] INFO root fetch - processPackages [odoo-addon-l10n-br-currency-rate-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_br_currency_rate_update-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-07-02 05:42:49] INFO root fetch - processPackages [odoo-addon-l10n-br-currency-rate-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_br_currency_rate_update-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-07-02 05:42:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-br-currency-rate-update]: success
+[2023-07-02 05:42:49] INFO root fetch - processPackages [odoo-addon-l10n-br-zip]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_br_zip-16.0.2.0.0.4-py3-none-any.whl.zip]
+[2023-07-02 05:42:49] INFO root fetch - processPackages [odoo-addon-l10n-br-zip]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_br_zip-16.0.2.0.0.5-py3-none-any.whl.zip]
+[2023-07-02 05:42:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-br-zip]: success
+[2023-07-02 05:42:49] INFO root fetch - main [MainThread]: Store serial: [18726214]
