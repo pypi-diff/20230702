@@ -9816,3 +9816,77 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 15:32:01] INFO root fetch - processPackages [odoo-addon-auth-admin-passkey]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_admin_passkey-16.0.1.0.0.3-py3-none-any.whl.zip]
 [2023-07-02 15:32:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-auth-admin-passkey]: success
 [2023-07-02 15:32:01] INFO root fetch - main [MainThread]: Store serial: [18728829]
+[2023-07-02 15:37:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18728829]
+[2023-07-02 15:37:11] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-02 15:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-base-user-show-email
+[2023-07-02 15:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cognite-pygen
+[2023-07-02 15:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-nightly-intel
+[2023-07-02 15:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pip-audit
+[2023-07-02 15:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eventstore-grpc
+[2023-07-02 15:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: veloadmin
+[2023-07-02 15:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yat-geo-db
+[2023-07-02 15:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: similarity-check
+[2023-07-02 15:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: perte
+[2023-07-02 15:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torchility
+[2023-07-02 15:37:11] WARNING root fetch - processPackages [odoo-addon-base-user-show-email]: Skipping, unable to determine old version
+[2023-07-02 15:37:11] INFO root fetch - processPackages [odoo-addon-base-user-show-email]: Start processing: VeloWeb
+[2023-07-02 15:37:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-user-show-email] error
+[2023-07-02 15:37:11] INFO root fetch - processPackages [cognite-pygen]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-02 15:37:11] INFO root fetch - processPackages [eventstore-grpc]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-02 15:37:11] INFO root fetch - processPackages [yat-geo-db]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-02 15:37:11] WARNING root fetch - processPackages [veloadmin]: Skipping, unable to determine old version
+[2023-07-02 15:37:11] INFO root fetch - main [MainThread]: End processing [veloadmin] error
+[2023-07-02 15:37:11] WARNING root fetch - processPackages [perte]: Skipping, unable to determine old version
+[2023-07-02 15:37:11] INFO root fetch - main [MainThread]: End processing [perte] error
+[2023-07-02 15:37:11] INFO root fetch - processPackages [similarity-check]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 15:37:11] INFO root fetch - processPackages [pip-audit]: New version: [2.6.0] Old Version: [2.5.6]
+[2023-07-02 15:37:11] WARNING root fetch - processPackages [VeloWeb]: Skipping, unable to determine old version
+[2023-07-02 15:37:11] INFO root fetch - main [MainThread]: End processing [VeloWeb] error
+[2023-07-02 15:37:11] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.14.0.dev20230701] Old Version: [2.14.0.dev20230630]
+[2023-07-02 15:37:11] INFO root fetch - processPackages [torchility]: New version: [0.7.5] Old Version: [0.7.3]
+[2023-07-02 15:37:11] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/a4/62/a9157431063dcbb38429b0c3f264081422ad198f8bbed0fc2e647d6783a5/tf_nightly_intel-2.14.0.dev20230630-cp39-cp39-win_amd64.whl
+[2023-07-02 15:37:11] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 183368236>=10485760
+[2023-07-02 15:37:11] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-07-02 15:37:11] INFO root fetch - processPackages [cognite-pygen]: Downloading https://files.pythonhosted.org/packages/00/1d/45e130588e398bb316a98f0e6793ef0d61220b74c7d14db5213e3f9f977e/cognite_pygen-0.9.0.tar.gz
+[2023-07-02 15:37:11] INFO root fetch - processPackages [eventstore-grpc]: Downloading https://files.pythonhosted.org/packages/a2/e5/589e06fb23a6a58140cba72e41c8faabeac3b7e056a0aef9fd9e47993ff5/eventstore_grpc-0.1.0.tar.gz
+[2023-07-02 15:37:11] INFO root fetch - processPackages [pip-audit]: Downloading https://files.pythonhosted.org/packages/f9/b0/4a1062fdfca2335cc5b00eec5a597036f1ff2cd9bdeacbc3e76ac4097a62/pip_audit-2.5.6.tar.gz
+[2023-07-02 15:37:11] INFO root fetch - processPackages [yat-geo-db]: Downloading https://files.pythonhosted.org/packages/ef/f1/0ce2c708ec85627085d3e9041246aff728beef010a5e75d09b466c373b1c/yat_geo_db-1.1.0.tar.gz
+[2023-07-02 15:37:11] INFO root fetch - processPackages [torchility]: Downloading https://files.pythonhosted.org/packages/c8/f7/d13ece2dea2ab75b8794fd375a35bd24f466d81fd1e5d21e1b93e8a8538f/torchility-0.7.3.tar.gz
+[2023-07-02 15:37:11] INFO root fetch - processPackages [similarity-check]: Downloading https://files.pythonhosted.org/packages/47/f6/fc1009c9031761a94ac0ae5a7dfc7254b62971316fa5314b9211e2aa53a5/similarity_check-0.1.8.tar.gz
+[2023-07-02 15:37:11] INFO root fetch - processPackages [eventstore-grpc]: Downloading https://files.pythonhosted.org/packages/48/27/579a2dca92faaecc667d0edfdd09087418299214a16d79570673967ecfdc/eventstore_grpc-0.1.1.tar.gz
+[2023-07-02 15:37:12] INFO root fetch - processPackages [yat-geo-db]: Downloading https://files.pythonhosted.org/packages/e6/bd/b09e978509ffdef6368febe9e85470ec267ad02c51555cec4080536ff2d8/yat_geo_db-1.1.1.tar.gz
+[2023-07-02 15:37:12] INFO root fetch - processPackages [eventstore-grpc]: executing diffoscope
+[2023-07-02 15:37:12] INFO root fetch - processPackages [eventstore-grpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventstore_grpc-0.1.0.tar.gz tmp/eventstore_grpc-0.1.1.tar.gz --markdown 20230702/e/eventstore-grpc/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-02 15:37:12] INFO root fetch - processPackages [pip-audit]: Downloading https://files.pythonhosted.org/packages/54/08/c5b8ba48daa8cd154d60351b85f2bf7c92b099c241a483d1a0b092258aff/pip_audit-2.6.0.tar.gz
+[2023-07-02 15:37:12] INFO root fetch - processPackages [yat-geo-db]: executing diffoscope
+[2023-07-02 15:37:12] INFO root fetch - processPackages [yat-geo-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yat_geo_db-1.1.0.tar.gz tmp/yat_geo_db-1.1.1.tar.gz --markdown 20230702/y/yat-geo-db/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-02 15:37:12] INFO root fetch - processPackages [torchility]: Downloading https://files.pythonhosted.org/packages/6a/85/972c16b904e2d3321d11952134cba678fce1143f416850af307b7d1a17db/torchility-0.7.5.tar.gz
+[2023-07-02 15:37:12] INFO root fetch - processPackages [pip-audit]: executing diffoscope
+[2023-07-02 15:37:12] INFO root fetch - processPackages [pip-audit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip_audit-2.5.6.tar.gz tmp/pip_audit-2.6.0.tar.gz --markdown 20230702/p/pip-audit/2.5.6-2.6.0/diff.md --exclude *.pyd
+[2023-07-02 15:37:12] INFO root fetch - processPackages [similarity-check]: Downloading https://files.pythonhosted.org/packages/e9/9d/a95257af3c825e652bae11503da869b2e6cb7c61059286c4870d43ec65f0/similarity_check-0.1.9.tar.gz
+[2023-07-02 15:37:12] INFO root fetch - processPackages [torchility]: executing diffoscope
+[2023-07-02 15:37:12] INFO root fetch - processPackages [torchility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchility-0.7.3.tar.gz tmp/torchility-0.7.5.tar.gz --markdown 20230702/t/torchility/0.7.3-0.7.5/diff.md --exclude *.pyd
+[2023-07-02 15:37:12] INFO root fetch - processPackages [cognite-pygen]: Downloading https://files.pythonhosted.org/packages/ce/02/7ecd0882d447246a79ac11eff331b1c4e7890eb9fd3e85568a959aef9aa9/cognite_pygen-0.9.1.tar.gz
+[2023-07-02 15:37:12] INFO root fetch - processPackages [cognite-pygen]: executing diffoscope
+[2023-07-02 15:37:12] INFO root fetch - processPackages [cognite-pygen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_pygen-0.9.0.tar.gz tmp/cognite_pygen-0.9.1.tar.gz --markdown 20230702/c/cognite-pygen/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-02 15:37:12] INFO root fetch - processPackages [similarity-check]: executing diffoscope
+[2023-07-02 15:37:12] INFO root fetch - processPackages [similarity-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/similarity_check-0.1.8.tar.gz tmp/similarity_check-0.1.9.tar.gz --markdown 20230702/s/similarity-check/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 15:37:13] INFO root fetch - processPackages [torchility]: Remove: archive file [/home/abi/fetcher/tmp/torchility-0.7.3.tar.gz]
+[2023-07-02 15:37:13] INFO root fetch - processPackages [torchility]: Remove: archive file [/home/abi/fetcher/tmp/torchility-0.7.5.tar.gz]
+[2023-07-02 15:37:13] INFO root fetch - main [MainThread]: End processing [torchility]: success
+[2023-07-02 15:37:13] INFO root fetch - processPackages [similarity-check]: Remove: archive file [/home/abi/fetcher/tmp/similarity_check-0.1.8.tar.gz]
+[2023-07-02 15:37:13] INFO root fetch - processPackages [similarity-check]: Remove: archive file [/home/abi/fetcher/tmp/similarity_check-0.1.9.tar.gz]
+[2023-07-02 15:37:13] INFO root fetch - main [MainThread]: End processing [similarity-check]: success
+[2023-07-02 15:37:13] INFO root fetch - processPackages [pip-audit]: Remove: archive file [/home/abi/fetcher/tmp/pip_audit-2.5.6.tar.gz]
+[2023-07-02 15:37:13] INFO root fetch - processPackages [pip-audit]: Remove: archive file [/home/abi/fetcher/tmp/pip_audit-2.6.0.tar.gz]
+[2023-07-02 15:37:13] INFO root fetch - main [MainThread]: End processing [pip-audit]: success
+[2023-07-02 15:37:13] INFO root fetch - processPackages [yat-geo-db]: Remove: archive file [/home/abi/fetcher/tmp/yat_geo_db-1.1.0.tar.gz]
+[2023-07-02 15:37:13] INFO root fetch - processPackages [yat-geo-db]: Remove: archive file [/home/abi/fetcher/tmp/yat_geo_db-1.1.1.tar.gz]
+[2023-07-02 15:37:13] INFO root fetch - main [MainThread]: End processing [yat-geo-db]: success
+[2023-07-02 15:37:13] INFO root fetch - processPackages [eventstore-grpc]: Remove: archive file [/home/abi/fetcher/tmp/eventstore_grpc-0.1.0.tar.gz]
+[2023-07-02 15:37:13] INFO root fetch - processPackages [eventstore-grpc]: Remove: archive file [/home/abi/fetcher/tmp/eventstore_grpc-0.1.1.tar.gz]
+[2023-07-02 15:37:13] INFO root fetch - main [MainThread]: End processing [eventstore-grpc]: success
+[2023-07-02 15:37:13] INFO root fetch - processPackages [cognite-pygen]: Remove: archive file [/home/abi/fetcher/tmp/cognite_pygen-0.9.0.tar.gz]
+[2023-07-02 15:37:13] INFO root fetch - processPackages [cognite-pygen]: Remove: archive file [/home/abi/fetcher/tmp/cognite_pygen-0.9.1.tar.gz]
+[2023-07-02 15:37:13] INFO root fetch - main [MainThread]: End processing [cognite-pygen]: success
+[2023-07-02 15:37:13] INFO root fetch - main [MainThread]: Store serial: [18728869]
