@@ -8180,3 +8180,92 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 13:28:15] INFO root fetch - processPackages [blacksheep]: Remove: archive file [/home/abi/fetcher/tmp/blacksheep-2.0a8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-02 13:28:15] INFO root fetch - main [MainThread]: End processing [blacksheep]: success
 [2023-07-02 13:28:15] INFO root fetch - main [MainThread]: Store serial: [18728154]
+[2023-07-02 13:33:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18728154]
+[2023-07-02 13:33:24] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-02 13:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchserve-nightly
+[2023-07-02 13:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-model-archiver-nightly
+[2023-07-02 13:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torch-workflow-archiver-nightly
+[2023-07-02 13:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odxtools
+[2023-07-02 13:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: foursight-core
+[2023-07-02 13:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: foursight-cgap
+[2023-07-02 13:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: foursight
+[2023-07-02 13:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: robotframework-browser
+[2023-07-02 13:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: funfluid
+[2023-07-02 13:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: libmonty
+[2023-07-02 13:33:24] INFO root fetch - processPackages [odxtools]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-07-02 13:33:24] INFO root fetch - processPackages [funfluid]: New version: [202307021930] Old Version: [202307021923]
+[2023-07-02 13:33:24] INFO root fetch - processPackages [robotframework-browser]: New version: [9.0.2] Old Version: [9.0.1]
+[2023-07-02 13:33:24] INFO root fetch - processPackages [libmonty]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-07-02 13:33:24] INFO root fetch - processPackages [foursight-cgap]: New version: [3.5.0.2b6] Old Version: [3.5.0.2b5]
+[2023-07-02 13:33:24] INFO root fetch - processPackages [foursight]: New version: [3.5.0.2b6] Old Version: [3.5.0.2b5]
+[2023-07-02 13:33:24] INFO root fetch - processPackages [foursight-core]: New version: [4.3.0.2b6] Old Version: [4.3.0.2b5]
+[2023-07-02 13:33:24] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.7.2] Old Version: [2023.7.1]
+[2023-07-02 13:33:25] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.7.2] Old Version: [2023.7.1]
+[2023-07-02 13:33:25] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.7.2] Old Version: [2023.7.1]
+[2023-07-02 13:33:25] INFO root fetch - processPackages [funfluid]: Downloading https://files.pythonhosted.org/packages/b1/b3/af7719573ae000f242ea5268ad74ccbe8fac8060ed953195b52f1bc7facc/funfluid-202307021923.tar.gz
+[2023-07-02 13:33:25] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/78/61/0773950f952853d36c5de7f66aff525d6684d99f22738a38cce3a5b5fd9d/foursight_core-4.3.0.2b5.tar.gz
+[2023-07-02 13:33:25] INFO root fetch - processPackages [robotframework-browser]: Downloading https://files.pythonhosted.org/packages/c7/d2/62113ec1f0fc7df63c2554cd7da97407ec2cc6f1be18645f8f132e811c67/robotframework-browser-9.0.1.tar.gz
+[2023-07-02 13:33:25] INFO root fetch - processPackages [odxtools]: Downloading https://files.pythonhosted.org/packages/4c/ad/39902409efc52053b0ea92185bac5ff144fe27935b7199b27cf7c4c76aee/odxtools-4.0.1.tar.gz
+[2023-07-02 13:33:25] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/26/c7/9f9b712453dffe34922fe79edb7b69645c1bbd5edd62a6d4335b3d9bd87d/foursight_cgap-3.5.0.2b5.tar.gz
+[2023-07-02 13:33:25] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/76/c7/af008e602db5144722294d832ca88fa1410a51465ce7087a83300c12c9ae/foursight-3.5.0.2b5.tar.gz
+[2023-07-02 13:33:25] INFO root fetch - processPackages [libmonty]: Downloading https://files.pythonhosted.org/packages/ac/b3/25068e65d5b8b74891ecc2da2e830ccf37a0597fc52194ba97ffcc2a417b/libmonty-0.0.3.tar.gz
+[2023-07-02 13:33:25] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/ae/71/bfdad283cda63b04908a331acd121c4b280f863a8f71c3472faedb1550f4/torch_workflow_archiver_nightly-2023.7.1-py3-none-any.whl
+[2023-07-02 13:33:25] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/20/09/7282f1264fe77b07fbcf8e8e5b3f3ad5b4b635e772bd823fe6c7d8caba1c/torchserve_nightly-2023.7.1-py3-none-any.whl
+[2023-07-02 13:33:25] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/5a/49/36a793e75bd6f29d1bd5e51a5ef9af2c89b5bf0c359017601bc4f55201c9/torch_model_archiver_nightly-2023.7.1-py3-none-any.whl
+[2023-07-02 13:33:25] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23750171>=10485760
+[2023-07-02 13:33:25] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-07-02 13:33:25] INFO root fetch - processPackages [funfluid]: Downloading https://files.pythonhosted.org/packages/c2/b1/58173c59a177c37a9d99b10c3192422e014dbe0d8db3299e24e96c87c76f/funfluid-202307021930.tar.gz
+[2023-07-02 13:33:25] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/7e/98/5e4a2398892f4b0d93f1b5374e3eca267f41bc6cfd3a413b9e52be0522e5/foursight-3.5.0.2b6.tar.gz
+[2023-07-02 13:33:25] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/64/b4/ccdf0031ed0cc891e581ea20b02cb1535f3577a2942e7938f8e39a9266c4/foursight_core-4.3.0.2b6.tar.gz
+[2023-07-02 13:33:25] INFO root fetch - processPackages [funfluid]: executing diffoscope
+[2023-07-02 13:33:25] INFO root fetch - processPackages [funfluid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funfluid-202307021923.tar.gz tmp/funfluid-202307021930.tar.gz --markdown 20230702/f/funfluid/202307021923-202307021930/diff.md --exclude *.pyd
+[2023-07-02 13:33:25] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/a2/d4/c1d0c20b60297a376ad5df2dcf1ba2582a27f4b2e91bbcdac5d1be350508/foursight_cgap-3.5.0.2b6.tar.gz
+[2023-07-02 13:33:25] INFO root fetch - processPackages [odxtools]: Downloading https://files.pythonhosted.org/packages/8a/4a/078f18155821fc5e7bc937859834f178b914cf20e33b59736b9c49fdaf90/odxtools-4.0.2.tar.gz
+[2023-07-02 13:33:25] INFO root fetch - processPackages [libmonty]: Downloading https://files.pythonhosted.org/packages/f1/0c/81886704e8a7acf025acbe67693e585808960e34a4f140ae99e19a54c3c3/libmonty-0.1.0.tar.gz
+[2023-07-02 13:33:25] INFO root fetch - processPackages [robotframework-browser]: Downloading https://files.pythonhosted.org/packages/be/8d/390a87957941e7175ae2631504ea65babd8e9f6420115642184816aa59c5/robotframework-browser-9.0.2.tar.gz
+[2023-07-02 13:33:25] INFO root fetch - processPackages [foursight]: executing diffoscope
+[2023-07-02 13:33:25] INFO root fetch - processPackages [foursight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight-3.5.0.2b5.tar.gz tmp/foursight-3.5.0.2b6.tar.gz --markdown 20230702/f/foursight/3.5.0.2b5-3.5.0.2b6/diff.md --exclude *.pyd
+[2023-07-02 13:33:25] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/3b/5f/9daee4eb6c950b300758a97bb4b3f3caf99f62dcc6a00b021a919a43defd/torch_model_archiver_nightly-2023.7.2-py3-none-any.whl
+[2023-07-02 13:33:25] INFO root fetch - processPackages [foursight-cgap]: executing diffoscope
+[2023-07-02 13:33:25] INFO root fetch - processPackages [foursight-cgap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_cgap-3.5.0.2b5.tar.gz tmp/foursight_cgap-3.5.0.2b6.tar.gz --markdown 20230702/f/foursight-cgap/3.5.0.2b5-3.5.0.2b6/diff.md --exclude *.pyd
+[2023-07-02 13:33:25] INFO root fetch - processPackages [odxtools]: executing diffoscope
+[2023-07-02 13:33:25] INFO root fetch - processPackages [odxtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odxtools-4.0.1.tar.gz tmp/odxtools-4.0.2.tar.gz --markdown 20230702/o/odxtools/4.0.1-4.0.2/diff.md --exclude *.pyd
+[2023-07-02 13:33:25] INFO root fetch - processPackages [libmonty]: executing diffoscope
+[2023-07-02 13:33:25] INFO root fetch - processPackages [libmonty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libmonty-0.0.3.tar.gz tmp/libmonty-0.1.0.tar.gz --markdown 20230702/l/libmonty/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-07-02 13:33:25] INFO root fetch - processPackages [foursight-core]: executing diffoscope
+[2023-07-02 13:33:25] INFO root fetch - processPackages [foursight-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_core-4.3.0.2b5.tar.gz tmp/foursight_core-4.3.0.2b6.tar.gz --markdown 20230702/f/foursight-core/4.3.0.2b5-4.3.0.2b6/diff.md --exclude *.pyd
+[2023-07-02 13:33:25] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/b2/07/e2a34ec3fc019514e7ef0c3071aea9916b0255a7e7fc26ccf44d38003a60/torch_workflow_archiver_nightly-2023.7.2-py3-none-any.whl
+[2023-07-02 13:33:25] INFO root fetch - processPackages [robotframework-browser]: executing diffoscope
+[2023-07-02 13:33:25] INFO root fetch - processPackages [robotframework-browser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-browser-9.0.1.tar.gz tmp/robotframework-browser-9.0.2.tar.gz --markdown 20230702/r/robotframework-browser/9.0.1-9.0.2/diff.md --exclude *.pyd
+[2023-07-02 13:33:25] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-07-02 13:33:25] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.7.1-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.7.2-py3-none-any.whl.zip --markdown 20230702/t/torch-model-archiver-nightly/2023.7.1-2023.7.2/diff.md --exclude *.pyd
+[2023-07-02 13:33:25] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-07-02 13:33:25] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.7.1-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.7.2-py3-none-any.whl.zip --markdown 20230702/t/torch-workflow-archiver-nightly/2023.7.1-2023.7.2/diff.md --exclude *.pyd
+[2023-07-02 13:33:27] INFO root fetch - processPackages [funfluid]: Remove: archive file [/home/abi/fetcher/tmp/funfluid-202307021923.tar.gz]
+[2023-07-02 13:33:27] INFO root fetch - processPackages [funfluid]: Remove: archive file [/home/abi/fetcher/tmp/funfluid-202307021930.tar.gz]
+[2023-07-02 13:33:27] INFO root fetch - main [MainThread]: End processing [funfluid]: success
+[2023-07-02 13:33:27] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.5.0.2b5.tar.gz]
+[2023-07-02 13:33:27] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.5.0.2b6.tar.gz]
+[2023-07-02 13:33:27] INFO root fetch - main [MainThread]: End processing [foursight-cgap]: success
+[2023-07-02 13:33:27] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.1-py3-none-any.whl.zip]
+[2023-07-02 13:33:27] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.2-py3-none-any.whl.zip]
+[2023-07-02 13:33:27] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-07-02 13:33:27] INFO root fetch - processPackages [libmonty]: Remove: archive file [/home/abi/fetcher/tmp/libmonty-0.0.3.tar.gz]
+[2023-07-02 13:33:27] INFO root fetch - processPackages [libmonty]: Remove: archive file [/home/abi/fetcher/tmp/libmonty-0.1.0.tar.gz]
+[2023-07-02 13:33:27] INFO root fetch - main [MainThread]: End processing [libmonty]: success
+[2023-07-02 13:33:27] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.5.0.2b5.tar.gz]
+[2023-07-02 13:33:27] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.5.0.2b6.tar.gz]
+[2023-07-02 13:33:27] INFO root fetch - main [MainThread]: End processing [foursight]: success
+[2023-07-02 13:33:27] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.1-py3-none-any.whl.zip]
+[2023-07-02 13:33:27] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.2-py3-none-any.whl.zip]
+[2023-07-02 13:33:27] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-07-02 13:33:27] INFO root fetch - processPackages [robotframework-browser]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-browser-9.0.1.tar.gz]
+[2023-07-02 13:33:27] INFO root fetch - processPackages [robotframework-browser]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-browser-9.0.2.tar.gz]
+[2023-07-02 13:33:27] INFO root fetch - main [MainThread]: End processing [robotframework-browser]: success
+[2023-07-02 13:33:27] INFO root fetch - processPackages [odxtools]: Remove: archive file [/home/abi/fetcher/tmp/odxtools-4.0.1.tar.gz]
+[2023-07-02 13:33:27] INFO root fetch - processPackages [odxtools]: Remove: archive file [/home/abi/fetcher/tmp/odxtools-4.0.2.tar.gz]
+[2023-07-02 13:33:27] INFO root fetch - main [MainThread]: End processing [odxtools]: success
+[2023-07-02 13:33:42] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.2b5.tar.gz]
+[2023-07-02 13:33:42] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.2b6.tar.gz]
+[2023-07-02 13:33:42] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
+[2023-07-02 13:33:42] INFO root fetch - main [MainThread]: Store serial: [18728191]
