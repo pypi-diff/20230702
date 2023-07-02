@@ -16561,3 +16561,57 @@ AssertionError: tmp/Cliente-0.0.4-py3.10.egg does not exist
 [2023-07-02 23:10:05] INFO root fetch - processPackages [pciSeq]: Remove: archive file [/home/abi/fetcher/tmp/pciSeq-0.0.52rc0.dev0-py3-none-any.whl.zip]
 [2023-07-02 23:10:05] INFO root fetch - main [MainThread]: End processing [pciSeq]: success
 [2023-07-02 23:10:05] INFO root fetch - main [MainThread]: Store serial: [18731571]
+[2023-07-02 23:15:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18731571]
+[2023-07-02 23:15:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-02 23:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alienpy
+[2023-07-02 23:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gdb-tools
+[2023-07-02 23:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycolonies
+[2023-07-02 23:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: face-rhythm
+[2023-07-02 23:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: intecomm-edc
+[2023-07-02 23:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyrift
+[2023-07-02 23:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-redex
+[2023-07-02 23:15:15] INFO root fetch - processPackages [python-redex]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-02 23:15:15] WARNING root fetch - processPackages [face-rhythm]: Skipping, unable to determine old version
+[2023-07-02 23:15:15] INFO root fetch - main [MainThread]: End processing [face-rhythm] error
+[2023-07-02 23:15:15] INFO root fetch - processPackages [python-redex]: Downloading https://files.pythonhosted.org/packages/2b/de/34066b118fd88bf1f3bc10828ce7516fbfbd190d6d0aef3fe367f629c580/python_redex-0.0.6.tar.gz
+[2023-07-02 23:15:15] INFO root fetch - processPackages [pycolonies]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-02 23:15:15] INFO root fetch - processPackages [gdb-tools]: New version: [1.5] Old Version: [1.4]
+[2023-07-02 23:15:15] WARNING root fetch - processPackages [pyrift]: Skipping, unable to determine old version
+[2023-07-02 23:15:15] INFO root fetch - main [MainThread]: End processing [pyrift] error
+[2023-07-02 23:15:15] INFO root fetch - processPackages [intecomm-edc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 23:15:15] INFO root fetch - processPackages [alienpy]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-07-02 23:15:15] INFO root fetch - processPackages [gdb-tools]: Downloading https://files.pythonhosted.org/packages/82/fe/048f779be0f7169f5906ca2ba171ead2a98c94565d77b14819d091e05fab/gdb-tools-1.4.tar.gz
+[2023-07-02 23:15:15] INFO root fetch - processPackages [python-redex]: Downloading https://files.pythonhosted.org/packages/76/43/3afe14259a0b9617aaa7d3dfb210fa40a99983cf5a9d0928ab572d1bd769/python_redex-0.0.7.tar.gz
+[2023-07-02 23:15:15] INFO root fetch - processPackages [pycolonies]: Downloading https://files.pythonhosted.org/packages/84/b9/0d4fdf628202cc70b5d2c273fc59ec5c4855201f7a6aa186718ddde04d68/pycolonies-1.0.4-py3-none-any.whl
+[2023-07-02 23:15:15] INFO root fetch - processPackages [intecomm-edc]: Downloading https://files.pythonhosted.org/packages/da/f0/9548929a437af2527d196c8f58001aa53a4c972387197713ccc8fc8c3093/intecomm-edc-0.1.8.tar.gz
+[2023-07-02 23:15:15] INFO root fetch - processPackages [alienpy]: Downloading https://files.pythonhosted.org/packages/c8/46/b0fec0d0985b301866a84266bbfa923a6b4c55727bce09a6cdfa35fc0c0a/alienpy-1.5.1.tar.gz
+[2023-07-02 23:15:15] INFO root fetch - processPackages [python-redex]: executing diffoscope
+[2023-07-02 23:15:15] INFO root fetch - processPackages [python-redex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_redex-0.0.6.tar.gz tmp/python_redex-0.0.7.tar.gz --markdown 20230702/p/python-redex/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-02 23:15:15] INFO root fetch - processPackages [gdb-tools]: Downloading https://files.pythonhosted.org/packages/11/9d/b9664d9108e09e095e3a232c69cc7e58771b3a8abc4f1da4b31a6e2c8be4/gdb-tools-1.5.tar.gz
+[2023-07-02 23:15:15] INFO root fetch - processPackages [pycolonies]: Downloading https://files.pythonhosted.org/packages/20/65/6bf9b9932d1aa073f24699d947a385bc194bbe166b1c2e79f0c6e60273ec/pycolonies-1.0.5-py3-none-any.whl
+[2023-07-02 23:15:15] INFO root fetch - processPackages [gdb-tools]: executing diffoscope
+[2023-07-02 23:15:15] INFO root fetch - processPackages [gdb-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdb-tools-1.4.tar.gz tmp/gdb-tools-1.5.tar.gz --markdown 20230702/g/gdb-tools/1.4-1.5/diff.md --exclude *.pyd
+[2023-07-02 23:15:15] INFO root fetch - processPackages [alienpy]: Downloading https://files.pythonhosted.org/packages/bd/3f/ac4e9626b9a7b00aae5f9ec685e039b87aa3cd899dc96422ac71248d5d60/alienpy-1.5.2.tar.gz
+[2023-07-02 23:15:15] INFO root fetch - processPackages [pycolonies]: executing diffoscope
+[2023-07-02 23:15:15] INFO root fetch - processPackages [pycolonies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycolonies-1.0.4-py3-none-any.whl.zip tmp/pycolonies-1.0.5-py3-none-any.whl.zip --markdown 20230702/p/pycolonies/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-02 23:15:15] INFO root fetch - processPackages [intecomm-edc]: Downloading https://files.pythonhosted.org/packages/3c/c4/5d66f454c202fb25cafb15878ef119f2f40e92abb71f90eda7a667e098d0/intecomm-edc-0.1.9.tar.gz
+[2023-07-02 23:15:15] INFO root fetch - processPackages [alienpy]: executing diffoscope
+[2023-07-02 23:15:15] INFO root fetch - processPackages [alienpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alienpy-1.5.1.tar.gz tmp/alienpy-1.5.2.tar.gz --markdown 20230702/a/alienpy/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-07-02 23:15:15] INFO root fetch - processPackages [intecomm-edc]: executing diffoscope
+[2023-07-02 23:15:15] INFO root fetch - processPackages [intecomm-edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-edc-0.1.8.tar.gz tmp/intecomm-edc-0.1.9.tar.gz --markdown 20230702/i/intecomm-edc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 23:15:16] INFO root fetch - processPackages [python-redex]: Remove: archive file [/home/abi/fetcher/tmp/python_redex-0.0.6.tar.gz]
+[2023-07-02 23:15:16] INFO root fetch - processPackages [python-redex]: Remove: archive file [/home/abi/fetcher/tmp/python_redex-0.0.7.tar.gz]
+[2023-07-02 23:15:16] INFO root fetch - main [MainThread]: End processing [python-redex]: success
+[2023-07-02 23:15:16] INFO root fetch - processPackages [pycolonies]: Remove: archive file [/home/abi/fetcher/tmp/pycolonies-1.0.4-py3-none-any.whl.zip]
+[2023-07-02 23:15:16] INFO root fetch - processPackages [pycolonies]: Remove: archive file [/home/abi/fetcher/tmp/pycolonies-1.0.5-py3-none-any.whl.zip]
+[2023-07-02 23:15:16] INFO root fetch - main [MainThread]: End processing [pycolonies]: success
+[2023-07-02 23:15:17] INFO root fetch - processPackages [alienpy]: Remove: archive file [/home/abi/fetcher/tmp/alienpy-1.5.1.tar.gz]
+[2023-07-02 23:15:17] INFO root fetch - processPackages [alienpy]: Remove: archive file [/home/abi/fetcher/tmp/alienpy-1.5.2.tar.gz]
+[2023-07-02 23:15:17] INFO root fetch - main [MainThread]: End processing [alienpy]: success
+[2023-07-02 23:15:17] INFO root fetch - processPackages [gdb-tools]: Remove: archive file [/home/abi/fetcher/tmp/gdb-tools-1.4.tar.gz]
+[2023-07-02 23:15:17] INFO root fetch - processPackages [gdb-tools]: Remove: archive file [/home/abi/fetcher/tmp/gdb-tools-1.5.tar.gz]
+[2023-07-02 23:15:17] INFO root fetch - main [MainThread]: End processing [gdb-tools]: success
+[2023-07-02 23:15:20] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.1.8.tar.gz]
+[2023-07-02 23:15:20] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.1.9.tar.gz]
+[2023-07-02 23:15:20] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
+[2023-07-02 23:15:20] INFO root fetch - main [MainThread]: Store serial: [18731591]
