@@ -2516,3 +2516,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 03:52:56] INFO root fetch - processPackages [vcorelib]: Remove: archive file [/home/abi/fetcher/tmp/vcorelib-2.2.2.tar.gz]
 [2023-07-02 03:52:56] INFO root fetch - main [MainThread]: End processing [vcorelib]: success
 [2023-07-02 03:52:56] INFO root fetch - main [MainThread]: Store serial: [18725748]
+[2023-07-02 03:58:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18725748]
+[2023-07-02 03:58:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-02 03:58:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fiftyone-location
+[2023-07-02 03:58:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: weather-command
+[2023-07-02 03:58:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dasida
+[2023-07-02 03:58:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rtorrent-rpc
+[2023-07-02 03:58:05] INFO root fetch - processPackages [fiftyone-location]: New version: [4.4.3.0] Old Version: [4.4.2.0]
+[2023-07-02 03:58:05] INFO root fetch - processPackages [dasida]: New version: [2023.7.1] Old Version: [0.0.1]
+[2023-07-02 03:58:05] INFO root fetch - processPackages [rtorrent-rpc]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-02 03:58:05] INFO root fetch - processPackages [weather-command]: New version: [6.1.3] Old Version: [6.1.2]
+[2023-07-02 03:58:05] INFO root fetch - processPackages [dasida]: Downloading https://files.pythonhosted.org/packages/35/98/fff0174e91bf18a5ba095c39f687a1cb257f287494daa9aad72b5370a845/dasida-0.0.1.tar.gz
+[2023-07-02 03:58:05] INFO root fetch - processPackages [fiftyone-location]: Downloading https://files.pythonhosted.org/packages/aa/1b/c67c50e361b3eb63319c11608f0d9a0fae7f2413d7a9aeccfb7f828f8069/fiftyone_location-4.4.2.0.tar.gz
+[2023-07-02 03:58:05] INFO root fetch - processPackages [weather-command]: Downloading https://files.pythonhosted.org/packages/15/68/ee20b2ae7a03940ca197fadc6e0ce5fe18ea7d06c3bbda3aa7994df57b86/weather_command-6.1.2.tar.gz
+[2023-07-02 03:58:05] INFO root fetch - processPackages [rtorrent-rpc]: Downloading https://files.pythonhosted.org/packages/45/7b/60634e29a298dbda27b57c910b88184b8e5349a18dc6c39da472b7ee7a6b/rtorrent_rpc-0.0.7.tar.gz
+[2023-07-02 03:58:06] INFO root fetch - processPackages [fiftyone-location]: Downloading https://files.pythonhosted.org/packages/dc/46/9466c76c82ab23eb48eea4b50804c99b00fd6a7d0be76f6adaf54709e280/fiftyone_location-4.4.3.0.tar.gz
+[2023-07-02 03:58:06] INFO root fetch - processPackages [fiftyone-location]: executing diffoscope
+[2023-07-02 03:58:06] INFO root fetch - processPackages [fiftyone-location]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_location-4.4.2.0.tar.gz tmp/fiftyone_location-4.4.3.0.tar.gz --markdown 20230702/f/fiftyone-location/4.4.2.0-4.4.3.0/diff.md --exclude *.pyd
+[2023-07-02 03:58:06] INFO root fetch - processPackages [rtorrent-rpc]: Downloading https://files.pythonhosted.org/packages/64/ea/3f07ece75734d22e88aab87f53c7c3edd6158c5bd971af8e321d0b54ec9f/rtorrent_rpc-0.0.8.tar.gz
+[2023-07-02 03:58:06] INFO root fetch - processPackages [dasida]: Downloading https://files.pythonhosted.org/packages/22/80/2dadcdaa4f0c15fecbc59a494db5f77f534a2e95b4759051d398146f2145/dasida-2023.7.1.tar.gz
+[2023-07-02 03:58:06] INFO root fetch - processPackages [weather-command]: Downloading https://files.pythonhosted.org/packages/01/c4/fc08393a43a21672c300bceb7b3f4df793958394197ddecc33987b79ac11/weather_command-6.1.3.tar.gz
+[2023-07-02 03:58:06] INFO root fetch - processPackages [rtorrent-rpc]: executing diffoscope
+[2023-07-02 03:58:06] INFO root fetch - processPackages [rtorrent-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtorrent_rpc-0.0.7.tar.gz tmp/rtorrent_rpc-0.0.8.tar.gz --markdown 20230702/r/rtorrent-rpc/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-02 03:58:06] INFO root fetch - processPackages [weather-command]: executing diffoscope
+[2023-07-02 03:58:06] INFO root fetch - processPackages [weather-command]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weather_command-6.1.2.tar.gz tmp/weather_command-6.1.3.tar.gz --markdown 20230702/w/weather-command/6.1.2-6.1.3/diff.md --exclude *.pyd
+[2023-07-02 03:58:06] INFO root fetch - processPackages [dasida]: executing diffoscope
+[2023-07-02 03:58:06] INFO root fetch - processPackages [dasida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dasida-0.0.1.tar.gz tmp/dasida-2023.7.1.tar.gz --markdown 20230702/d/dasida/0.0.1-2023.7.1/diff.md --exclude *.pyd
+[2023-07-02 03:58:07] INFO root fetch - processPackages [fiftyone-location]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_location-4.4.2.0.tar.gz]
+[2023-07-02 03:58:07] INFO root fetch - processPackages [fiftyone-location]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_location-4.4.3.0.tar.gz]
+[2023-07-02 03:58:07] INFO root fetch - main [MainThread]: End processing [fiftyone-location]: success
+[2023-07-02 03:58:07] INFO root fetch - processPackages [rtorrent-rpc]: Remove: archive file [/home/abi/fetcher/tmp/rtorrent_rpc-0.0.7.tar.gz]
+[2023-07-02 03:58:07] INFO root fetch - processPackages [rtorrent-rpc]: Remove: archive file [/home/abi/fetcher/tmp/rtorrent_rpc-0.0.8.tar.gz]
+[2023-07-02 03:58:07] INFO root fetch - main [MainThread]: End processing [rtorrent-rpc]: success
+[2023-07-02 03:58:07] INFO root fetch - processPackages [weather-command]: Remove: archive file [/home/abi/fetcher/tmp/weather_command-6.1.2.tar.gz]
+[2023-07-02 03:58:07] INFO root fetch - processPackages [weather-command]: Remove: archive file [/home/abi/fetcher/tmp/weather_command-6.1.3.tar.gz]
+[2023-07-02 03:58:07] INFO root fetch - main [MainThread]: End processing [weather-command]: success
+[2023-07-02 03:58:07] INFO root fetch - processPackages [dasida]: Remove: archive file [/home/abi/fetcher/tmp/dasida-0.0.1.tar.gz]
+[2023-07-02 03:58:07] INFO root fetch - processPackages [dasida]: Remove: archive file [/home/abi/fetcher/tmp/dasida-2023.7.1.tar.gz]
+[2023-07-02 03:58:07] INFO root fetch - main [MainThread]: End processing [dasida]: success
+[2023-07-02 03:58:07] INFO root fetch - main [MainThread]: Store serial: [18725759]
