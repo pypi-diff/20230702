@@ -5454,3 +5454,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 09:16:26] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject-design-0.1.9.tar.gz]
 [2023-07-02 09:16:26] INFO root fetch - main [MainThread]: End processing [pinject-design]: success
 [2023-07-02 09:16:26] INFO root fetch - main [MainThread]: Store serial: [18726942]
+[2023-07-02 09:21:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726942]
+[2023-07-02 09:21:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-02 09:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ourlib
+[2023-07-02 09:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: promemoria
+[2023-07-02 09:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pythresh
+[2023-07-02 09:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pinject-design
+[2023-07-02 09:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-office
+[2023-07-02 09:21:35] INFO root fetch - processPackages [pinject-design]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 09:21:35] INFO root fetch - processPackages [ourlib]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-02 09:21:35] INFO root fetch - processPackages [pythresh]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-02 09:21:35] INFO root fetch - processPackages [promemoria]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-02 09:21:35] INFO root fetch - processPackages [python-office]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-02 09:21:35] INFO root fetch - processPackages [ourlib]: Downloading https://files.pythonhosted.org/packages/63/3f/9c6c70ced1331c0a4faf31340fe815be5eccae23fbe935e0bbc6ce38e082/ourlib-0.1.1.tar.gz
+[2023-07-02 09:21:35] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/5f/f2/6f47beb8ae7800164b86a0ca180efa5ad86edb3b1419d97531dddcc0c026/pinject-design-0.1.8.tar.gz
+[2023-07-02 09:21:35] INFO root fetch - processPackages [python-office]: Downloading https://files.pythonhosted.org/packages/b1/23/a62fc7f451324a6e6b183285cc18313c5ded64e4f951c197413b082d3f00/python-office-0.3.8.tar.gz
+[2023-07-02 09:21:35] INFO root fetch - processPackages [pythresh]: Downloading https://files.pythonhosted.org/packages/3c/51/f7768f50ed84c221fb145f961d873f54ad6d6fc92cbdf7ad7e2f99643bbd/pythresh-0.3.1.tar.gz
+[2023-07-02 09:21:35] INFO root fetch - processPackages [promemoria]: Downloading https://files.pythonhosted.org/packages/f9/65/e191f21747cc10217dc90db5d6d66181b74dc7c7c0882a70ce0cb9d8f897/promemoria-1.0.0.tar.gz
+[2023-07-02 09:21:35] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/52/12/a13d2115034630043d98ad1bf73e273115201ee763cd0fd21c61df995b87/pinject-design-0.1.9.tar.gz
+[2023-07-02 09:21:35] INFO root fetch - processPackages [pinject-design]: executing diffoscope
+[2023-07-02 09:21:35] INFO root fetch - processPackages [pinject-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinject-design-0.1.8.tar.gz tmp/pinject-design-0.1.9.tar.gz --markdown 20230702/p/pinject-design/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 09:21:35] INFO root fetch - processPackages [ourlib]: Downloading https://files.pythonhosted.org/packages/ab/78/22fe9c1122eb4a36f4f80be4bf8455244753dc0e23a87b1a39556ba57484/ourlib-0.1.2.tar.gz
+[2023-07-02 09:21:35] INFO root fetch - processPackages [ourlib]: executing diffoscope
+[2023-07-02 09:21:35] INFO root fetch - processPackages [ourlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ourlib-0.1.1.tar.gz tmp/ourlib-0.1.2.tar.gz --markdown 20230702/o/ourlib/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-02 09:21:35] INFO root fetch - processPackages [promemoria]: Downloading https://files.pythonhosted.org/packages/c5/ac/5d2f54661292852ffd780f57a9448063c2a3261caf2b0e4f6b9f89ce0544/promemoria-1.1.0.tar.gz
+[2023-07-02 09:21:35] INFO root fetch - processPackages [pythresh]: Downloading https://files.pythonhosted.org/packages/01/f3/832d18d606cac8a670e6d62a5f99a604b9d9c9f6dc0001e27c5fb57fd3d8/pythresh-0.3.2.tar.gz
+[2023-07-02 09:21:35] INFO root fetch - processPackages [python-office]: Downloading https://files.pythonhosted.org/packages/a0/4b/8c1321ca1c46528f1ae915930236489a848570a99176d11dd06a886d5e9a/python-office-0.3.9.tar.gz
+[2023-07-02 09:21:35] INFO root fetch - processPackages [promemoria]: executing diffoscope
+[2023-07-02 09:21:35] INFO root fetch - processPackages [promemoria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promemoria-1.0.0.tar.gz tmp/promemoria-1.1.0.tar.gz --markdown 20230702/p/promemoria/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-02 09:21:35] INFO root fetch - processPackages [pythresh]: executing diffoscope
+[2023-07-02 09:21:35] INFO root fetch - processPackages [pythresh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythresh-0.3.1.tar.gz tmp/pythresh-0.3.2.tar.gz --markdown 20230702/p/pythresh/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-02 09:21:35] INFO root fetch - processPackages [python-office]: executing diffoscope
+[2023-07-02 09:21:35] INFO root fetch - processPackages [python-office]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-office-0.3.8.tar.gz tmp/python-office-0.3.9.tar.gz --markdown 20230702/p/python-office/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-02 09:21:36] INFO root fetch - processPackages [ourlib]: Remove: archive file [/home/abi/fetcher/tmp/ourlib-0.1.1.tar.gz]
+[2023-07-02 09:21:36] INFO root fetch - processPackages [ourlib]: Remove: archive file [/home/abi/fetcher/tmp/ourlib-0.1.2.tar.gz]
+[2023-07-02 09:21:36] INFO root fetch - main [MainThread]: End processing [ourlib]: success
+[2023-07-02 09:21:36] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject-design-0.1.8.tar.gz]
+[2023-07-02 09:21:36] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject-design-0.1.9.tar.gz]
+[2023-07-02 09:21:36] INFO root fetch - main [MainThread]: End processing [pinject-design]: success
+[2023-07-02 09:21:36] INFO root fetch - processPackages [promemoria]: Remove: archive file [/home/abi/fetcher/tmp/promemoria-1.0.0.tar.gz]
+[2023-07-02 09:21:36] INFO root fetch - processPackages [promemoria]: Remove: archive file [/home/abi/fetcher/tmp/promemoria-1.1.0.tar.gz]
+[2023-07-02 09:21:36] INFO root fetch - main [MainThread]: End processing [promemoria]: success
+[2023-07-02 09:21:37] INFO root fetch - processPackages [python-office]: Remove: archive file [/home/abi/fetcher/tmp/python-office-0.3.8.tar.gz]
+[2023-07-02 09:21:37] INFO root fetch - processPackages [python-office]: Remove: archive file [/home/abi/fetcher/tmp/python-office-0.3.9.tar.gz]
+[2023-07-02 09:21:37] INFO root fetch - main [MainThread]: End processing [python-office]: success
+[2023-07-02 09:21:37] INFO root fetch - processPackages [pythresh]: Remove: archive file [/home/abi/fetcher/tmp/pythresh-0.3.1.tar.gz]
+[2023-07-02 09:21:37] INFO root fetch - processPackages [pythresh]: Remove: archive file [/home/abi/fetcher/tmp/pythresh-0.3.2.tar.gz]
+[2023-07-02 09:21:37] INFO root fetch - main [MainThread]: End processing [pythresh]: success
+[2023-07-02 09:21:37] INFO root fetch - main [MainThread]: Store serial: [18726957]
