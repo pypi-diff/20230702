@@ -13002,3 +13002,88 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 19:06:40] INFO root fetch - processPackages [speech-collator]: Remove: archive file [/home/abi/fetcher/tmp/speech_collator-0.1.9.tar.gz]
 [2023-07-02 19:06:40] INFO root fetch - main [MainThread]: End processing [speech-collator]: success
 [2023-07-02 19:06:40] INFO root fetch - main [MainThread]: Store serial: [18730225]
+[2023-07-02 19:11:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18730225]
+[2023-07-02 19:11:50] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-02 19:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: talkytrend
+[2023-07-02 19:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: socialgene
+[2023-07-02 19:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aporia
+[2023-07-02 19:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ormlite
+[2023-07-02 19:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gs-netsuite-api
+[2023-07-02 19:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: julienne
+[2023-07-02 19:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: plutous
+[2023-07-02 19:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: terminal-agent-x
+[2023-07-02 19:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: target-permutation-importances
+[2023-07-02 19:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyyeti
+[2023-07-02 19:11:50] INFO root fetch - processPackages [socialgene]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 19:11:50] WARNING root fetch - processPackages [ormlite]: Skipping, unable to determine old version
+[2023-07-02 19:11:50] INFO root fetch - main [MainThread]: End processing [ormlite] error
+[2023-07-02 19:11:50] INFO root fetch - processPackages [talkytrend]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-07-02 19:11:50] INFO root fetch - processPackages [plutous]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 19:11:50] INFO root fetch - processPackages [gs-netsuite-api]: New version: [1.2.0] Old Version: [1.1.3]
+[2023-07-02 19:11:51] INFO root fetch - processPackages [target-permutation-importances]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-02 19:11:51] INFO root fetch - processPackages [aporia]: New version: [3.1.0] Old Version: [3.0.0a19]
+[2023-07-02 19:11:51] INFO root fetch - processPackages [julienne]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-02 19:11:51] INFO root fetch - processPackages [terminal-agent-x]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-02 19:11:51] INFO root fetch - processPackages [pyyeti]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-02 19:11:51] INFO root fetch - processPackages [target-permutation-importances]: executing diffoscope
+[2023-07-02 19:11:51] INFO root fetch - processPackages [target-permutation-importances]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/target_permutation_importances-1.0.2.tar.gz tmp/target_permutation_importances-1.0.3.tar.gz --markdown 20230702/t/target-permutation-importances/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-02 19:11:51] INFO root fetch - processPackages [aporia]: Downloading https://files.pythonhosted.org/packages/5f/e0/14db45334ef64657891aee9c7289052ebe7787b2f45ba031fee566422946/aporia-3.0.0a19.tar.gz
+[2023-07-02 19:11:51] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/51/c1/ee9e562e200fabd095519f398d71d56eaecfd54b3cfb63e0bb4d6d985a6b/talkytrend-1.5.3.tar.gz
+[2023-07-02 19:11:51] INFO root fetch - processPackages [gs-netsuite-api]: Downloading https://files.pythonhosted.org/packages/e0/cf/01e406283289d8b7b6176f6391910f4fa53e520f8ebace1bb443d53bac75/gs-netsuite-api-1.1.3.tar.gz
+[2023-07-02 19:11:51] INFO root fetch - processPackages [socialgene]: Downloading https://files.pythonhosted.org/packages/d4/4d/ad3a9e7e88dff1a5367aed7e8ec4b8c2a490b11c4f3454786cebbe3ddac9/socialgene-0.1.8.tar.gz
+[2023-07-02 19:11:51] INFO root fetch - processPackages [julienne]: Downloading https://files.pythonhosted.org/packages/06/24/3e2a76892ff51f21a9bb324c27a77a01322750ea8271c2013e1b53211302/julienne-0.8.0.tar.gz
+[2023-07-02 19:11:51] INFO root fetch - processPackages [plutous]: Downloading https://files.pythonhosted.org/packages/7b/87/46b01464a031b3864589f4a2f515085b798f18797f8b387d7b906381ae01/plutous-0.0.8.tar.gz
+[2023-07-02 19:11:51] INFO root fetch - processPackages [terminal-agent-x]: Downloading https://files.pythonhosted.org/packages/0c/cd/a934b4da2cb64f098a5bcb131748f03c473b11db082d2a178fd1b88bf366/terminal-agent-x-0.1.4.tar.gz
+[2023-07-02 19:11:51] INFO root fetch - processPackages [pyyeti]: Downloading https://files.pythonhosted.org/packages/b5/fe/3f52d148b243808d4ee287b4291c2c54fd7554dbe74f1ba4b7388da7f249/pyyeti-1.2.8.tar.gz
+[2023-07-02 19:11:51] INFO root fetch - processPackages [aporia]: Downloading https://files.pythonhosted.org/packages/e8/ad/eda6da21f63abc91a322b80a3935563f26a253ec95a46f5b2200c7e4a865/aporia-3.1.0.tar.gz
+[2023-07-02 19:11:51] INFO root fetch - processPackages [aporia]: executing diffoscope
+[2023-07-02 19:11:51] INFO root fetch - processPackages [aporia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aporia-3.0.0a19.tar.gz tmp/aporia-3.1.0.tar.gz --markdown 20230702/a/aporia/3.0.0a19-3.1.0/diff.md --exclude *.pyd
+[2023-07-02 19:11:51] INFO root fetch - processPackages [socialgene]: Downloading https://files.pythonhosted.org/packages/22/01/8bc71a513bf54f285b2a74abcf697bd53cb96915007802ea4e9210204642/socialgene-0.1.9.tar.gz
+[2023-07-02 19:11:51] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/52/b4/1e3b3da61d55408986c9537ca0a66e7084698802dfa12ef8c5cf8c9c4cee/talkytrend-1.5.4.tar.gz
+[2023-07-02 19:11:51] INFO root fetch - processPackages [gs-netsuite-api]: Downloading https://files.pythonhosted.org/packages/2f/9d/fd60cc161a1fe9ced9a0cc07048d554f0b6c62b8538a8e56aaaf7560393d/gs-netsuite-api-1.2.0.tar.gz
+[2023-07-02 19:11:51] INFO root fetch - processPackages [talkytrend]: executing diffoscope
+[2023-07-02 19:11:51] INFO root fetch - processPackages [talkytrend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytrend-1.5.3.tar.gz tmp/talkytrend-1.5.4.tar.gz --markdown 20230702/t/talkytrend/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-07-02 19:11:51] INFO root fetch - processPackages [socialgene]: executing diffoscope
+[2023-07-02 19:11:51] INFO root fetch - processPackages [socialgene]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socialgene-0.1.8.tar.gz tmp/socialgene-0.1.9.tar.gz --markdown 20230702/s/socialgene/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 19:11:51] INFO root fetch - processPackages [gs-netsuite-api]: executing diffoscope
+[2023-07-02 19:11:51] INFO root fetch - processPackages [gs-netsuite-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs-netsuite-api-1.1.3.tar.gz tmp/gs-netsuite-api-1.2.0.tar.gz --markdown 20230702/g/gs-netsuite-api/1.1.3-1.2.0/diff.md --exclude *.pyd
+[2023-07-02 19:11:51] INFO root fetch - processPackages [julienne]: Downloading https://files.pythonhosted.org/packages/87/58/c0930082961e1ee0828a8cdbc12e0a6528032e03241fc0fd05cd6f002f1a/julienne-0.8.1.tar.gz
+[2023-07-02 19:11:51] INFO root fetch - processPackages [plutous]: Downloading https://files.pythonhosted.org/packages/54/c3/3478de94362c23cfcaeae6b671240a12c457a692e0f09d11529ad56a320b/plutous-0.0.9.tar.gz
+[2023-07-02 19:11:51] INFO root fetch - processPackages [terminal-agent-x]: Downloading https://files.pythonhosted.org/packages/60/53/a429693dd48d59e5e37b5f8dfd309befa67ad5a587e2ca3440fe4dda625a/terminal-agent-x-0.1.5.tar.gz
+[2023-07-02 19:11:51] INFO root fetch - processPackages [julienne]: executing diffoscope
+[2023-07-02 19:11:51] INFO root fetch - processPackages [julienne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/julienne-0.8.0.tar.gz tmp/julienne-0.8.1.tar.gz --markdown 20230702/j/julienne/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-02 19:11:51] INFO root fetch - processPackages [pyyeti]: Downloading https://files.pythonhosted.org/packages/ae/73/600c022fbf6cc1bc04c43081b484a6c5e9380bc8de4bb28105ed3270d008/pyyeti-1.2.9.tar.gz
+[2023-07-02 19:11:51] INFO root fetch - processPackages [plutous]: executing diffoscope
+[2023-07-02 19:11:51] INFO root fetch - processPackages [plutous]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous-0.0.8.tar.gz tmp/plutous-0.0.9.tar.gz --markdown 20230702/p/plutous/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 19:11:51] INFO root fetch - processPackages [terminal-agent-x]: executing diffoscope
+[2023-07-02 19:11:51] INFO root fetch - processPackages [terminal-agent-x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terminal-agent-x-0.1.4.tar.gz tmp/terminal-agent-x-0.1.5.tar.gz --markdown 20230702/t/terminal-agent-x/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-02 19:11:51] INFO root fetch - processPackages [pyyeti]: executing diffoscope
+[2023-07-02 19:11:51] INFO root fetch - processPackages [pyyeti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyyeti-1.2.8.tar.gz tmp/pyyeti-1.2.9.tar.gz --markdown 20230702/p/pyyeti/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-02 19:11:52] INFO root fetch - processPackages [target-permutation-importances]: Remove: archive file [/home/abi/fetcher/tmp/target_permutation_importances-1.0.2.tar.gz]
+[2023-07-02 19:11:52] INFO root fetch - processPackages [target-permutation-importances]: Remove: archive file [/home/abi/fetcher/tmp/target_permutation_importances-1.0.3.tar.gz]
+[2023-07-02 19:11:52] INFO root fetch - main [MainThread]: End processing [target-permutation-importances]: success
+[2023-07-02 19:11:52] INFO root fetch - processPackages [aporia]: Remove: archive file [/home/abi/fetcher/tmp/aporia-3.0.0a19.tar.gz]
+[2023-07-02 19:11:52] INFO root fetch - processPackages [aporia]: Remove: archive file [/home/abi/fetcher/tmp/aporia-3.1.0.tar.gz]
+[2023-07-02 19:11:52] INFO root fetch - main [MainThread]: End processing [aporia]: success
+[2023-07-02 19:11:52] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.5.3.tar.gz]
+[2023-07-02 19:11:52] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.5.4.tar.gz]
+[2023-07-02 19:11:52] INFO root fetch - main [MainThread]: End processing [talkytrend]: success
+[2023-07-02 19:11:52] INFO root fetch - processPackages [plutous]: Remove: archive file [/home/abi/fetcher/tmp/plutous-0.0.8.tar.gz]
+[2023-07-02 19:11:52] INFO root fetch - processPackages [plutous]: Remove: archive file [/home/abi/fetcher/tmp/plutous-0.0.9.tar.gz]
+[2023-07-02 19:11:52] INFO root fetch - main [MainThread]: End processing [plutous]: success
+[2023-07-02 19:11:53] INFO root fetch - processPackages [terminal-agent-x]: Remove: archive file [/home/abi/fetcher/tmp/terminal-agent-x-0.1.4.tar.gz]
+[2023-07-02 19:11:53] INFO root fetch - processPackages [terminal-agent-x]: Remove: archive file [/home/abi/fetcher/tmp/terminal-agent-x-0.1.5.tar.gz]
+[2023-07-02 19:11:53] INFO root fetch - main [MainThread]: End processing [terminal-agent-x]: success
+[2023-07-02 19:11:53] INFO root fetch - processPackages [julienne]: Remove: archive file [/home/abi/fetcher/tmp/julienne-0.8.0.tar.gz]
+[2023-07-02 19:11:53] INFO root fetch - processPackages [julienne]: Remove: archive file [/home/abi/fetcher/tmp/julienne-0.8.1.tar.gz]
+[2023-07-02 19:11:53] INFO root fetch - main [MainThread]: End processing [julienne]: success
+[2023-07-02 19:11:53] INFO root fetch - processPackages [pyyeti]: Remove: archive file [/home/abi/fetcher/tmp/pyyeti-1.2.8.tar.gz]
+[2023-07-02 19:11:53] INFO root fetch - processPackages [pyyeti]: Remove: archive file [/home/abi/fetcher/tmp/pyyeti-1.2.9.tar.gz]
+[2023-07-02 19:11:53] INFO root fetch - main [MainThread]: End processing [pyyeti]: success
+[2023-07-02 19:11:54] INFO root fetch - processPackages [gs-netsuite-api]: Remove: archive file [/home/abi/fetcher/tmp/gs-netsuite-api-1.1.3.tar.gz]
+[2023-07-02 19:11:54] INFO root fetch - processPackages [gs-netsuite-api]: Remove: archive file [/home/abi/fetcher/tmp/gs-netsuite-api-1.2.0.tar.gz]
+[2023-07-02 19:11:54] INFO root fetch - main [MainThread]: End processing [gs-netsuite-api]: success
+[2023-07-02 19:11:55] INFO root fetch - processPackages [socialgene]: Remove: archive file [/home/abi/fetcher/tmp/socialgene-0.1.8.tar.gz]
+[2023-07-02 19:11:55] INFO root fetch - processPackages [socialgene]: Remove: archive file [/home/abi/fetcher/tmp/socialgene-0.1.9.tar.gz]
+[2023-07-02 19:11:55] INFO root fetch - main [MainThread]: End processing [socialgene]: success
+[2023-07-02 19:11:55] INFO root fetch - main [MainThread]: Store serial: [18730254]
