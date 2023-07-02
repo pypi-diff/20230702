@@ -10251,3 +10251,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 16:09:01] INFO root fetch - processPackages [pyrosimple]: Remove: archive file [/home/abi/fetcher/tmp/pyrosimple-2.9.0.tar.gz]
 [2023-07-02 16:09:01] INFO root fetch - main [MainThread]: End processing [pyrosimple]: success
 [2023-07-02 16:09:01] INFO root fetch - main [MainThread]: Store serial: [18729018]
+[2023-07-02 16:14:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18729018]
+[2023-07-02 16:14:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-02 16:14:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-graphql-mapper
+[2023-07-02 16:14:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fschat
+[2023-07-02 16:14:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lacdkeras
+[2023-07-02 16:14:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reytool
+[2023-07-02 16:14:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aicoder
+[2023-07-02 16:14:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FacebookAdsLibrary
+[2023-07-02 16:14:10] INFO root fetch - processPackages [py-graphql-mapper]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-02 16:14:10] INFO root fetch - processPackages [aicoder]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-02 16:14:10] INFO root fetch - processPackages [lacdkeras]: New version: [1.0.0.3] Old Version: [1.0.0.2]
+[2023-07-02 16:14:10] INFO root fetch - processPackages [fschat]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-02 16:14:10] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-07-02 16:14:10] WARNING root fetch - processPackages [FacebookAdsLibrary]: Skipping, unable to determine old version
+[2023-07-02 16:14:10] INFO root fetch - main [MainThread]: End processing [FacebookAdsLibrary] error
+[2023-07-02 16:14:10] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/90/4c/80d57cccc87268b0def2342a6907427bef7c259c41eee546829d3d3c197c/aicoder-0.2.1-py3-none-any.whl
+[2023-07-02 16:14:10] INFO root fetch - processPackages [py-graphql-mapper]: Downloading https://files.pythonhosted.org/packages/c7/ea/847cd26c0285e604066c616e9f97b78bed38693349756c9fbe640b5c49d8/py-graphql-mapper-1.1.0.tar.gz
+[2023-07-02 16:14:11] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-07-02 16:14:11] INFO root fetch - processPackages [fschat]: Downloading https://files.pythonhosted.org/packages/87/62/b4da7a5a785f37c352f8353cd89801af7ae84d326d5f4edc3084d11032dd/fschat-0.2.8.tar.gz
+[2023-07-02 16:14:11] INFO root fetch - processPackages [lacdkeras]: Downloading https://files.pythonhosted.org/packages/a9/d2/df06cc32bdaae8d782f06f6511e2f5155a6ee262e9769eb11b0fb03a7cc8/lacdkeras-1.0.0.2.tar.gz
+[2023-07-02 16:14:11] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/a4/f5/f1385bb16759f1577b93dbb7a9cac4ebc7b4aa0e1436c94ac5c8efca3811/aicoder-0.2.2-py3-none-any.whl
+[2023-07-02 16:14:11] INFO root fetch - processPackages [py-graphql-mapper]: Downloading https://files.pythonhosted.org/packages/a8/be/489db24db1385c136a3c2b77e952c66225642769b57bbc09434e7d6c092a/py-graphql-mapper-1.1.1.tar.gz
+[2023-07-02 16:14:11] INFO root fetch - processPackages [aicoder]: executing diffoscope
+[2023-07-02 16:14:11] INFO root fetch - processPackages [aicoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicoder-0.2.1-py3-none-any.whl.zip tmp/aicoder-0.2.2-py3-none-any.whl.zip --markdown 20230702/a/aicoder/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-02 16:14:11] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-07-02 16:14:11] INFO root fetch - processPackages [py-graphql-mapper]: executing diffoscope
+[2023-07-02 16:14:11] INFO root fetch - processPackages [py-graphql-mapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-graphql-mapper-1.1.0.tar.gz tmp/py-graphql-mapper-1.1.1.tar.gz --markdown 20230702/p/py-graphql-mapper/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-02 16:14:11] INFO root fetch - processPackages [lacdkeras]: Downloading https://files.pythonhosted.org/packages/ed/37/0a908b220b468dcf66018b4e75868a6bd7a3544ebd63e24a8bb257136b0c/lacdkeras-1.0.0.3.tar.gz
+[2023-07-02 16:14:11] INFO root fetch - processPackages [fschat]: Downloading https://files.pythonhosted.org/packages/c1/b0/505c6a4e83ac92e1871d446b70a468976b4ccdcfd047b5ebd73e5d37ba8b/fschat-0.2.9.tar.gz
+[2023-07-02 16:14:11] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-07-02 16:14:11] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230702/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-07-02 16:14:11] INFO root fetch - processPackages [lacdkeras]: executing diffoscope
+[2023-07-02 16:14:11] INFO root fetch - processPackages [lacdkeras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lacdkeras-1.0.0.2.tar.gz tmp/lacdkeras-1.0.0.3.tar.gz --markdown 20230702/l/lacdkeras/1.0.0.2-1.0.0.3/diff.md --exclude *.pyd
+[2023-07-02 16:14:11] INFO root fetch - processPackages [fschat]: executing diffoscope
+[2023-07-02 16:14:11] INFO root fetch - processPackages [fschat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fschat-0.2.8.tar.gz tmp/fschat-0.2.9.tar.gz --markdown 20230702/f/fschat/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-02 16:14:12] INFO root fetch - processPackages [lacdkeras]: Remove: archive file [/home/abi/fetcher/tmp/lacdkeras-1.0.0.2.tar.gz]
+[2023-07-02 16:14:12] INFO root fetch - processPackages [lacdkeras]: Remove: archive file [/home/abi/fetcher/tmp/lacdkeras-1.0.0.3.tar.gz]
+[2023-07-02 16:14:12] INFO root fetch - main [MainThread]: End processing [lacdkeras]: success
+[2023-07-02 16:14:12] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.2.1-py3-none-any.whl.zip]
+[2023-07-02 16:14:12] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.2.2-py3-none-any.whl.zip]
+[2023-07-02 16:14:12] INFO root fetch - main [MainThread]: End processing [aicoder]: success
+[2023-07-02 16:14:12] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-07-02 16:14:12] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-07-02 16:14:12] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-07-02 16:14:12] INFO root fetch - processPackages [py-graphql-mapper]: Remove: archive file [/home/abi/fetcher/tmp/py-graphql-mapper-1.1.0.tar.gz]
+[2023-07-02 16:14:12] INFO root fetch - processPackages [py-graphql-mapper]: Remove: archive file [/home/abi/fetcher/tmp/py-graphql-mapper-1.1.1.tar.gz]
+[2023-07-02 16:14:12] INFO root fetch - main [MainThread]: End processing [py-graphql-mapper]: success
+[2023-07-02 16:14:13] INFO root fetch - processPackages [fschat]: Remove: archive file [/home/abi/fetcher/tmp/fschat-0.2.8.tar.gz]
+[2023-07-02 16:14:13] INFO root fetch - processPackages [fschat]: Remove: archive file [/home/abi/fetcher/tmp/fschat-0.2.9.tar.gz]
+[2023-07-02 16:14:13] INFO root fetch - main [MainThread]: End processing [fschat]: success
+[2023-07-02 16:14:13] INFO root fetch - main [MainThread]: Store serial: [18729035]
