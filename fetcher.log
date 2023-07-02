@@ -3873,3 +3873,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 05:53:11] INFO root fetch - processPackages [Blockthon]: Remove: archive file [/home/abi/fetcher/tmp/Blockthon-4.9.9.tar.gz]
 [2023-07-02 05:53:11] INFO root fetch - main [MainThread]: End processing [Blockthon]: success
 [2023-07-02 05:53:11] INFO root fetch - main [MainThread]: Store serial: [18726249]
+[2023-07-02 05:58:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726249]
+[2023-07-02 05:58:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-02 05:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tastytrade-sdk
+[2023-07-02 05:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easy-tpp
+[2023-07-02 05:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Blockthon
+[2023-07-02 05:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pandas-xlwt
+[2023-07-02 05:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flexible-lp
+[2023-07-02 05:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: non-local-detector
+[2023-07-02 05:58:20] INFO root fetch - processPackages [Blockthon]: New version: [5.3.6] Old Version: [4.9.9]
+[2023-07-02 05:58:20] INFO root fetch - processPackages [non-local-detector]: New version: [0.2.1.dev0] Old Version: [0.2.0.dev0]
+[2023-07-02 05:58:20] INFO root fetch - processPackages [flexible-lp]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-02 05:58:20] WARNING root fetch - processPackages [pandas-xlwt]: Skipping, unable to determine old version
+[2023-07-02 05:58:20] INFO root fetch - processPackages [easy-tpp]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-02 05:58:20] INFO root fetch - main [MainThread]: End processing [pandas-xlwt] error
+[2023-07-02 05:58:20] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.0.dev1] Old Version: [0.0.4a0.dev79]
+[2023-07-02 05:58:20] INFO root fetch - processPackages [non-local-detector]: Downloading https://files.pythonhosted.org/packages/d6/9c/f32bc1cedb5c515ca38fe6f5f62fb7e260b4b3fb516e951942b527cb86e0/non_local_detector-0.2.0.dev0.tar.gz
+[2023-07-02 05:58:20] INFO root fetch - processPackages [flexible-lp]: Downloading https://files.pythonhosted.org/packages/07/17/847fc4f50887b025db1d8a6808b3a987402e3afb74c502fcddcc8ca60164/flexible_lp-0.0.3.tar.gz
+[2023-07-02 05:58:20] INFO root fetch - processPackages [Blockthon]: Downloading https://files.pythonhosted.org/packages/b8/27/19fd7a843e032b30efdbeba7b0bca9d92bd878de873852684b69a49fb2c0/Blockthon-4.9.9.tar.gz
+[2023-07-02 05:58:20] INFO root fetch - processPackages [easy-tpp]: Downloading https://files.pythonhosted.org/packages/5c/1b/b900775e6b932d2c10c58e9751f12091bfe4856cae6faf50bab1a9942085/easy_tpp-0.0.3.tar.gz
+[2023-07-02 05:58:20] INFO root fetch - processPackages [tastytrade-sdk]: Downloading https://files.pythonhosted.org/packages/20/e2/9525c475d78ddb8f55f4a1bae496297a76dbb150ee89dcbba20c6ae9c070/tastytrade_sdk-0.0.4a0.dev79.tar.gz
+[2023-07-02 05:58:20] INFO root fetch - processPackages [non-local-detector]: Downloading https://files.pythonhosted.org/packages/d3/b2/8ca894f7f1d1df7bd623c8549fdfb87fb6f2c9d14c67b3dc540e178579c0/non_local_detector-0.2.1.dev0.tar.gz
+[2023-07-02 05:58:20] INFO root fetch - processPackages [flexible-lp]: Downloading https://files.pythonhosted.org/packages/cb/3c/d03ea71dd327fa5f3e0c47f3fdd3e5f2bbf8a4f98ae2cd64c9ac9001d540/flexible_lp-0.0.4.tar.gz
+[2023-07-02 05:58:20] INFO root fetch - processPackages [non-local-detector]: executing diffoscope
+[2023-07-02 05:58:20] INFO root fetch - processPackages [Blockthon]: Downloading https://files.pythonhosted.org/packages/b8/d5/86e99815b822ca895917c7db976e8ea1f9756c4488babe0a04bf2b7abd3e/Blockthon-5.3.6.tar.gz
+[2023-07-02 05:58:20] INFO root fetch - processPackages [non-local-detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/non_local_detector-0.2.0.dev0.tar.gz tmp/non_local_detector-0.2.1.dev0.tar.gz --markdown 20230702/n/non-local-detector/0.2.0.dev0-0.2.1.dev0/diff.md --exclude *.pyd
+[2023-07-02 05:58:20] INFO root fetch - processPackages [easy-tpp]: Downloading https://files.pythonhosted.org/packages/af/c2/619e52fd5a81d946213f9160af46ec66b8348ae780ba0454624caf61ba78/easy_tpp-0.0.4.tar.gz
+[2023-07-02 05:58:20] INFO root fetch - processPackages [Blockthon]: executing diffoscope
+[2023-07-02 05:58:20] INFO root fetch - processPackages [Blockthon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Blockthon-4.9.9.tar.gz tmp/Blockthon-5.3.6.tar.gz --markdown 20230702/B/Blockthon/4.9.9-5.3.6/diff.md --exclude *.pyd
+[2023-07-02 05:58:20] INFO root fetch - processPackages [easy-tpp]: executing diffoscope
+[2023-07-02 05:58:20] INFO root fetch - processPackages [easy-tpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_tpp-0.0.3.tar.gz tmp/easy_tpp-0.0.4.tar.gz --markdown 20230702/e/easy-tpp/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-02 05:58:20] INFO root fetch - processPackages [flexible-lp]: executing diffoscope
+[2023-07-02 05:58:20] INFO root fetch - processPackages [flexible-lp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flexible_lp-0.0.3.tar.gz tmp/flexible_lp-0.0.4.tar.gz --markdown 20230702/f/flexible-lp/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-02 05:58:21] INFO root fetch - processPackages [tastytrade-sdk]: Downloading https://files.pythonhosted.org/packages/d9/6a/51b8c369e61b319b379822ac9e7f57bdaa4e98bf2333a5dc6ccfa464be59/tastytrade-sdk-0.0.dev1.tar.gz
+[2023-07-02 05:58:21] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-07-02 05:58:21] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.0.4a0.dev79.tar.gz tmp/tastytrade-sdk-0.0.dev1.tar.gz --markdown 20230702/t/tastytrade-sdk/0.0.4a0.dev79-0.0.dev1/diff.md --exclude *.pyd
+[2023-07-02 05:58:21] INFO root fetch - processPackages [Blockthon]: Remove: archive file [/home/abi/fetcher/tmp/Blockthon-4.9.9.tar.gz]
+[2023-07-02 05:58:21] INFO root fetch - processPackages [Blockthon]: Remove: archive file [/home/abi/fetcher/tmp/Blockthon-5.3.6.tar.gz]
+[2023-07-02 05:58:21] INFO root fetch - main [MainThread]: End processing [Blockthon]: success
+[2023-07-02 05:58:21] INFO root fetch - processPackages [flexible-lp]: Remove: archive file [/home/abi/fetcher/tmp/flexible_lp-0.0.3.tar.gz]
+[2023-07-02 05:58:21] INFO root fetch - processPackages [flexible-lp]: Remove: archive file [/home/abi/fetcher/tmp/flexible_lp-0.0.4.tar.gz]
+[2023-07-02 05:58:21] INFO root fetch - main [MainThread]: End processing [flexible-lp]: success
+[2023-07-02 05:58:22] INFO root fetch - processPackages [easy-tpp]: Remove: archive file [/home/abi/fetcher/tmp/easy_tpp-0.0.3.tar.gz]
+[2023-07-02 05:58:22] INFO root fetch - processPackages [easy-tpp]: Remove: archive file [/home/abi/fetcher/tmp/easy_tpp-0.0.4.tar.gz]
+[2023-07-02 05:58:22] INFO root fetch - main [MainThread]: End processing [easy-tpp]: success
+[2023-07-02 05:58:22] INFO root fetch - processPackages [tastytrade-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade_sdk-0.0.4a0.dev79.tar.gz]
+[2023-07-02 05:58:22] INFO root fetch - processPackages [tastytrade-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade-sdk-0.0.dev1.tar.gz]
+[2023-07-02 05:58:22] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-07-02 05:58:22] INFO root fetch - processPackages [non-local-detector]: Remove: archive file [/home/abi/fetcher/tmp/non_local_detector-0.2.0.dev0.tar.gz]
+[2023-07-02 05:58:22] INFO root fetch - processPackages [non-local-detector]: Remove: archive file [/home/abi/fetcher/tmp/non_local_detector-0.2.1.dev0.tar.gz]
+[2023-07-02 05:58:22] INFO root fetch - main [MainThread]: End processing [non-local-detector]: success
+[2023-07-02 05:58:22] INFO root fetch - main [MainThread]: Store serial: [18726268]
