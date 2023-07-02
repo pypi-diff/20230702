@@ -8919,3 +8919,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 14:26:44] INFO root fetch - processPackages [hkkang-utils]: Remove: archive file [/home/abi/fetcher/tmp/hkkang_utils-0.2.1.tar.gz]
 [2023-07-02 14:26:44] INFO root fetch - main [MainThread]: End processing [hkkang-utils]: success
 [2023-07-02 14:26:44] INFO root fetch - main [MainThread]: Store serial: [18728448]
+[2023-07-02 14:31:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18728448]
+[2023-07-02 14:31:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-02 14:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SimuConvert
+[2023-07-02 14:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: melon-scheduler
+[2023-07-02 14:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: EduStatTests
+[2023-07-02 14:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyterlab-courselevels
+[2023-07-02 14:31:53] INFO root fetch - processPackages [melon-scheduler]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-02 14:31:53] WARNING root fetch - processPackages [EduStatTests]: Skipping, unable to determine old version
+[2023-07-02 14:31:53] INFO root fetch - main [MainThread]: End processing [EduStatTests] error
+[2023-07-02 14:31:53] INFO root fetch - processPackages [SimuConvert]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-02 14:31:53] INFO root fetch - processPackages [melon-scheduler]: Downloading https://files.pythonhosted.org/packages/ec/3d/0179feefa3c279c6e9a6a00802288f5092c5df6c37061a6516f3d2028abf/melon_scheduler-0.1.3.tar.gz
+[2023-07-02 14:31:53] INFO root fetch - processPackages [jupyterlab-courselevels]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-02 14:31:53] INFO root fetch - processPackages [melon-scheduler]: Downloading https://files.pythonhosted.org/packages/54/e5/4b689c6fa6d8ae53e6eeea5b90d9036b9a004b7412a97df170d61087877f/melon_scheduler-0.1.4.tar.gz
+[2023-07-02 14:31:53] INFO root fetch - processPackages [SimuConvert]: Downloading https://files.pythonhosted.org/packages/d1/d0/4a8fc8335225a973df9aeb0db0132c4e71d9d2332126850d1036bf37d75f/SimuConvert-0.0.0.tar.gz
+[2023-07-02 14:31:53] INFO root fetch - processPackages [jupyterlab-courselevels]: Downloading https://files.pythonhosted.org/packages/1a/59/6a5c50e3f1c4bec7b340ba7e1d2b97f5d67e32a8474cdfd440fd4a40edc7/jupyterlab_courselevels-0.4.1.tar.gz
+[2023-07-02 14:31:53] INFO root fetch - processPackages [melon-scheduler]: executing diffoscope
+[2023-07-02 14:31:53] INFO root fetch - processPackages [melon-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/melon_scheduler-0.1.3.tar.gz tmp/melon_scheduler-0.1.4.tar.gz --markdown 20230702/m/melon-scheduler/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-02 14:31:53] INFO root fetch - processPackages [SimuConvert]: Downloading https://files.pythonhosted.org/packages/05/45/bc2b4e077833b78153c885e9667c78a769b988090957bdf241bbd74ff1f2/SimuConvert-0.0.1.tar.gz
+[2023-07-02 14:31:53] INFO root fetch - processPackages [jupyterlab-courselevels]: Downloading https://files.pythonhosted.org/packages/57/8c/c97ac042029a18765523ab3c8ed416314ad1a71a8e0cb12e159e269653cc/jupyterlab_courselevels-0.4.2-py3-none-any.whl
+[2023-07-02 14:31:54] INFO root fetch - processPackages [SimuConvert]: executing diffoscope
+[2023-07-02 14:31:54] INFO root fetch - processPackages [SimuConvert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SimuConvert-0.0.0.tar.gz tmp/SimuConvert-0.0.1.tar.gz --markdown 20230702/S/SimuConvert/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-02 14:31:54] INFO root fetch - processPackages [jupyterlab-courselevels]: executing diffoscope
+[2023-07-02 14:31:54] INFO root fetch - processPackages [jupyterlab-courselevels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_courselevels-0.4.1.tar.gz tmp/jupyterlab_courselevels-0.4.2-py3-none-any.whl.zip --markdown 20230702/j/jupyterlab-courselevels/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-02 14:31:54] INFO root fetch - processPackages [melon-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/melon_scheduler-0.1.3.tar.gz]
+[2023-07-02 14:31:54] INFO root fetch - processPackages [melon-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/melon_scheduler-0.1.4.tar.gz]
+[2023-07-02 14:31:54] INFO root fetch - main [MainThread]: End processing [melon-scheduler]: success
+[2023-07-02 14:31:55] INFO root fetch - processPackages [SimuConvert]: Remove: archive file [/home/abi/fetcher/tmp/SimuConvert-0.0.0.tar.gz]
+[2023-07-02 14:31:55] INFO root fetch - processPackages [SimuConvert]: Remove: archive file [/home/abi/fetcher/tmp/SimuConvert-0.0.1.tar.gz]
+[2023-07-02 14:31:55] INFO root fetch - main [MainThread]: End processing [SimuConvert]: success
+[2023-07-02 14:31:55] INFO root fetch - processPackages [jupyterlab-courselevels]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_courselevels-0.4.1.tar.gz]
+[2023-07-02 14:31:55] INFO root fetch - processPackages [jupyterlab-courselevels]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_courselevels-0.4.2-py3-none-any.whl.zip]
+[2023-07-02 14:31:55] INFO root fetch - main [MainThread]: End processing [jupyterlab-courselevels]: success
+[2023-07-02 14:31:55] INFO root fetch - main [MainThread]: Store serial: [18728463]
