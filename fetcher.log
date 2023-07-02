@@ -15360,3 +15360,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 21:50:31] INFO root fetch - processPackages [aleksis-app-tezor]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_app_tezor-2.0.dev2.tar.gz]
 [2023-07-02 21:50:31] INFO root fetch - main [MainThread]: End processing [aleksis-app-tezor]: success
 [2023-07-02 21:50:31] INFO root fetch - main [MainThread]: Store serial: [18731072]
+[2023-07-02 21:55:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18731072]
+[2023-07-02 21:55:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-02 21:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: non-local-detector
+[2023-07-02 21:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fablab
+[2023-07-02 21:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SantorinAI
+[2023-07-02 21:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yid-langchain-extensions
+[2023-07-02 21:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oarepo-cli
+[2023-07-02 21:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ttcal
+[2023-07-02 21:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: OptiCommPy
+[2023-07-02 21:55:40] INFO root fetch - processPackages [non-local-detector]: New version: [0.2.4.dev0] Old Version: [0.2.3.dev0]
+[2023-07-02 21:55:40] INFO root fetch - processPackages [yid-langchain-extensions]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-02 21:55:40] INFO root fetch - processPackages [SantorinAI]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-02 21:55:40] INFO root fetch - processPackages [oarepo-cli]: New version: [11.1.7] Old Version: [11.1.6]
+[2023-07-02 21:55:40] INFO root fetch - processPackages [fablab]: New version: [0.0.2] Old Version: [0.0.0]
+[2023-07-02 21:55:40] INFO root fetch - processPackages [ttcal]: New version: [2.0.4] Old Version: [2.0.1]
+[2023-07-02 21:55:40] INFO root fetch - processPackages [OptiCommPy]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-02 21:55:40] INFO root fetch - processPackages [SantorinAI]: Downloading https://files.pythonhosted.org/packages/1d/60/5f0b69857e95e55477f16a3548cb5dfa32e49e782e04d63df12597559569/SantorinAI-1.3.2.tar.gz
+[2023-07-02 21:55:41] INFO root fetch - processPackages [yid-langchain-extensions]: Downloading https://files.pythonhosted.org/packages/3b/ad/5a14d2e0db79c4c9e25625b1b4d6b4abf5e8bf7fb0bb06ba3461611b3181/yid_langchain_extensions-0.4.8.tar.gz
+[2023-07-02 21:55:41] INFO root fetch - processPackages [non-local-detector]: Downloading https://files.pythonhosted.org/packages/00/69/9737f88cb03b94546803315545b91777fac5f34e02d476063df11c6a79c0/non_local_detector-0.2.3.dev0.tar.gz
+[2023-07-02 21:55:41] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/49/3a/22ba3474cf82b0f0cb199bdbd61c5952b8cb51c7c5e003fa6a8f3fa9cee3/oarepo-cli-11.1.6.tar.gz
+[2023-07-02 21:55:41] INFO root fetch - processPackages [OptiCommPy]: Downloading https://files.pythonhosted.org/packages/e9/60/b1fb9cb92aa063ba9acde66afed64a19c2671c5428a779f32a885a92ac15/OptiCommPy-0.3.0.tar.gz
+[2023-07-02 21:55:41] INFO root fetch - processPackages [fablab]: Downloading https://files.pythonhosted.org/packages/25/93/280898f77845693c10c88e0da94a122331d749198e5820a2071dd959b7b4/fablab-0.0.0.tar.gz
+[2023-07-02 21:55:41] INFO root fetch - processPackages [yid-langchain-extensions]: Downloading https://files.pythonhosted.org/packages/72/ba/67d200561c62c1dbd583ac75ded2fb95737bee8f62900d9aaf0aeda17ef8/yid_langchain_extensions-0.4.9.tar.gz
+[2023-07-02 21:55:41] INFO root fetch - processPackages [ttcal]: Downloading https://files.pythonhosted.org/packages/ba/48/68b9b16c49f206563cc308723173b5a01c6f91a030d4be2f785cb1b9f26c/ttcal-2.0.1.tar.gz
+[2023-07-02 21:55:41] INFO root fetch - processPackages [yid-langchain-extensions]: executing diffoscope
+[2023-07-02 21:55:41] INFO root fetch - processPackages [yid-langchain-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yid_langchain_extensions-0.4.8.tar.gz tmp/yid_langchain_extensions-0.4.9.tar.gz --markdown 20230702/y/yid-langchain-extensions/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-02 21:55:41] INFO root fetch - processPackages [SantorinAI]: Downloading https://files.pythonhosted.org/packages/01/bb/d5bfc30c0ae25c98a2eaef31fae2fc915b3d1ef09a2463117ed424356220/SantorinAI-1.3.3.tar.gz
+[2023-07-02 21:55:41] INFO root fetch - processPackages [non-local-detector]: Downloading https://files.pythonhosted.org/packages/2d/7a/b3c51988a9f313723cb23567fcb09f4cfe1ebd6328a9d0570568156d01a8/non_local_detector-0.2.4.dev0.tar.gz
+[2023-07-02 21:55:41] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/8d/78/28a0e4fb9aa548e59ea7ea246a0e2f931b4c8e04ecf7e138f6e62f6952e6/oarepo-cli-11.1.7.tar.gz
+[2023-07-02 21:55:41] INFO root fetch - processPackages [OptiCommPy]: Downloading https://files.pythonhosted.org/packages/22/8e/0d199787ae8b70424896701472aecad7b372d22fb30e5f26a01ee1e25dd3/OptiCommPy-0.4.0.tar.gz
+[2023-07-02 21:55:41] INFO root fetch - processPackages [SantorinAI]: executing diffoscope
+[2023-07-02 21:55:41] INFO root fetch - processPackages [SantorinAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SantorinAI-1.3.2.tar.gz tmp/SantorinAI-1.3.3.tar.gz --markdown 20230702/S/SantorinAI/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-02 21:55:41] INFO root fetch - processPackages [fablab]: Downloading https://files.pythonhosted.org/packages/a9/10/26f6789caa26ec1e61c5b6867aa3104792716d612ec2d7ac6d516bb0c4eb/fablab-0.0.2.tar.gz
+[2023-07-02 21:55:41] INFO root fetch - processPackages [OptiCommPy]: executing diffoscope
+[2023-07-02 21:55:41] INFO root fetch - processPackages [OptiCommPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OptiCommPy-0.3.0.tar.gz tmp/OptiCommPy-0.4.0.tar.gz --markdown 20230702/O/OptiCommPy/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-02 21:55:41] INFO root fetch - processPackages [ttcal]: Downloading https://files.pythonhosted.org/packages/59/8e/bb02da1afe5fe7649f40272e2344d5c99327ffedad664b17a6d8a7497249/ttcal-2.0.4.tar.gz
+[2023-07-02 21:55:41] INFO root fetch - processPackages [fablab]: executing diffoscope
+[2023-07-02 21:55:41] INFO root fetch - processPackages [fablab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fablab-0.0.0.tar.gz tmp/fablab-0.0.2.tar.gz --markdown 20230702/f/fablab/0.0.0-0.0.2/diff.md --exclude *.pyd
+[2023-07-02 21:55:41] INFO root fetch - processPackages [ttcal]: executing diffoscope
+[2023-07-02 21:55:41] INFO root fetch - processPackages [ttcal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttcal-2.0.1.tar.gz tmp/ttcal-2.0.4.tar.gz --markdown 20230702/t/ttcal/2.0.1-2.0.4/diff.md --exclude *.pyd
+[2023-07-02 21:55:41] INFO root fetch - processPackages [oarepo-cli]: executing diffoscope
+[2023-07-02 21:55:41] INFO root fetch - processPackages [oarepo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-cli-11.1.6.tar.gz tmp/oarepo-cli-11.1.7.tar.gz --markdown 20230702/o/oarepo-cli/11.1.6-11.1.7/diff.md --exclude *.pyd
+[2023-07-02 21:55:42] INFO root fetch - processPackages [non-local-detector]: executing diffoscope
+[2023-07-02 21:55:42] INFO root fetch - processPackages [non-local-detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/non_local_detector-0.2.3.dev0.tar.gz tmp/non_local_detector-0.2.4.dev0.tar.gz --markdown 20230702/n/non-local-detector/0.2.3.dev0-0.2.4.dev0/diff.md --exclude *.pyd
+[2023-07-02 21:55:42] INFO root fetch - processPackages [yid-langchain-extensions]: Remove: archive file [/home/abi/fetcher/tmp/yid_langchain_extensions-0.4.8.tar.gz]
+[2023-07-02 21:55:42] INFO root fetch - processPackages [yid-langchain-extensions]: Remove: archive file [/home/abi/fetcher/tmp/yid_langchain_extensions-0.4.9.tar.gz]
+[2023-07-02 21:55:42] INFO root fetch - main [MainThread]: End processing [yid-langchain-extensions]: success
+[2023-07-02 21:55:42] INFO root fetch - processPackages [OptiCommPy]: Remove: archive file [/home/abi/fetcher/tmp/OptiCommPy-0.3.0.tar.gz]
+[2023-07-02 21:55:42] INFO root fetch - processPackages [OptiCommPy]: Remove: archive file [/home/abi/fetcher/tmp/OptiCommPy-0.4.0.tar.gz]
+[2023-07-02 21:55:42] INFO root fetch - main [MainThread]: End processing [OptiCommPy]: success
+[2023-07-02 21:55:42] INFO root fetch - processPackages [SantorinAI]: Remove: archive file [/home/abi/fetcher/tmp/SantorinAI-1.3.2.tar.gz]
+[2023-07-02 21:55:42] INFO root fetch - processPackages [SantorinAI]: Remove: archive file [/home/abi/fetcher/tmp/SantorinAI-1.3.3.tar.gz]
+[2023-07-02 21:55:42] INFO root fetch - main [MainThread]: End processing [SantorinAI]: success
+[2023-07-02 21:55:42] INFO root fetch - processPackages [ttcal]: Remove: archive file [/home/abi/fetcher/tmp/ttcal-2.0.1.tar.gz]
+[2023-07-02 21:55:42] INFO root fetch - processPackages [ttcal]: Remove: archive file [/home/abi/fetcher/tmp/ttcal-2.0.4.tar.gz]
+[2023-07-02 21:55:42] INFO root fetch - main [MainThread]: End processing [ttcal]: success
+[2023-07-02 21:55:42] INFO root fetch - processPackages [fablab]: Remove: archive file [/home/abi/fetcher/tmp/fablab-0.0.0.tar.gz]
+[2023-07-02 21:55:42] INFO root fetch - processPackages [fablab]: Remove: archive file [/home/abi/fetcher/tmp/fablab-0.0.2.tar.gz]
+[2023-07-02 21:55:42] INFO root fetch - main [MainThread]: End processing [fablab]: success
+[2023-07-02 21:55:43] INFO root fetch - processPackages [non-local-detector]: Remove: archive file [/home/abi/fetcher/tmp/non_local_detector-0.2.3.dev0.tar.gz]
+[2023-07-02 21:55:43] INFO root fetch - processPackages [non-local-detector]: Remove: archive file [/home/abi/fetcher/tmp/non_local_detector-0.2.4.dev0.tar.gz]
+[2023-07-02 21:55:43] INFO root fetch - main [MainThread]: End processing [non-local-detector]: success
+[2023-07-02 21:55:47] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.6.tar.gz]
+[2023-07-02 21:55:47] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.7.tar.gz]
+[2023-07-02 21:55:47] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
+[2023-07-02 21:55:47] INFO root fetch - main [MainThread]: Store serial: [18731092]
