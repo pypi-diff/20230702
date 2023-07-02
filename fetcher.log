@@ -16151,3 +16151,207 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 22:43:59] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.5-py3-none-any.whl.zip]
 [2023-07-02 22:43:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
 [2023-07-02 22:43:59] INFO root fetch - main [MainThread]: Store serial: [18731437]
+[2023-07-02 22:49:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18731437]
+[2023-07-02 22:49:08] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-02 22:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: i8-terminal
+[2023-07-02 22:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: secapi-tl
+[2023-07-02 22:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: strawberry-graphql
+[2023-07-02 22:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bmsdna-lakeapi
+[2023-07-02 22:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DomFu
+[2023-07-02 22:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: semantic-text-splitter
+[2023-07-02 22:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Cliente
+[2023-07-02 22:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Cliente
+[2023-07-02 22:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Cliente
+[2023-07-02 22:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Cliente
+[2023-07-02 22:49:08] INFO root fetch - processPackages [DomFu]: New version: [1.4.1] Old Version: [1.4]
+[2023-07-02 22:49:08] INFO root fetch - processPackages [bmsdna-lakeapi]: New version: [0.9.4] Old Version: [0.9.2]
+[2023-07-02 22:49:08] INFO root fetch - processPackages [i8-terminal]: New version: [0.2.94] Old Version: [0.2.93]
+[2023-07-02 22:49:08] INFO root fetch - processPackages [Cliente]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-02 22:49:08] INFO root fetch - processPackages [Cliente]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-02 22:49:08] INFO root fetch - processPackages [secapi-tl]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-02 22:49:08] INFO root fetch - processPackages [semantic-text-splitter]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-02 22:49:08] INFO root fetch - processPackages [Cliente]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-02 22:49:08] INFO root fetch - processPackages [strawberry-graphql]: New version: [0.99.3] Old Version: [0.99.2]
+[2023-07-02 22:49:08] INFO root fetch - processPackages [Cliente]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-02 22:49:08] INFO root fetch - processPackages [DomFu]: Downloading https://files.pythonhosted.org/packages/51/61/a7ce9b4e97226a34a7789e4b26e80cf44a26f414157b4b085d1c3541a0fd/DomFu-1.4.tar.gz
+[2023-07-02 22:49:08] INFO root fetch - processPackages [i8-terminal]: Downloading https://files.pythonhosted.org/packages/82/a5/7985f33081143f04e9b2a154286c7d43b2a1e52fae6b67b91f9319d5db83/i8-terminal-0.2.93.tar.gz
+[2023-07-02 22:49:08] INFO root fetch - processPackages [Cliente]: Downloading https://files.pythonhosted.org/packages/35/e8/fe446d9e0153abe1e904c62b721427fff0003b5f174f4e6098650971e885/Cliente-0.0.4-py3.10.egg
+[2023-07-02 22:49:08] INFO root fetch - processPackages [Cliente]: Downloading https://files.pythonhosted.org/packages/35/e8/fe446d9e0153abe1e904c62b721427fff0003b5f174f4e6098650971e885/Cliente-0.0.4-py3.10.egg
+[2023-07-02 22:49:08] INFO root fetch - processPackages [Cliente]: Downloading https://files.pythonhosted.org/packages/35/e8/fe446d9e0153abe1e904c62b721427fff0003b5f174f4e6098650971e885/Cliente-0.0.4-py3.10.egg
+[2023-07-02 22:49:08] INFO root fetch - processPackages [Cliente]: Downloading https://files.pythonhosted.org/packages/35/e8/fe446d9e0153abe1e904c62b721427fff0003b5f174f4e6098650971e885/Cliente-0.0.4-py3.10.egg
+[2023-07-02 22:49:08] INFO root fetch - processPackages [secapi-tl]: Downloading https://files.pythonhosted.org/packages/d9/95/3c512ab0a3a1fff0a725ec51ce6951069e6c555ab88ff9719ad43638bf2f/secapi-tl-1.1.8.tar.gz
+[2023-07-02 22:49:08] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/8c/51/9d9af1e04ebfbe54b6de0a13c25a360a33fa3c02b4f0ce94f2b39ca2f074/bmsdna_lakeapi-0.9.2.tar.gz
+[2023-07-02 22:49:08] INFO root fetch - processPackages [semantic-text-splitter]: Downloading https://files.pythonhosted.org/packages/52/a1/3eee200f57717be4cec00b655bc25a184767eb061aff1cd6bd1c44a0c5ee/semantic_text_splitter-0.2.1.tar.gz
+[2023-07-02 22:49:08] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/dd/38/4efb20ccf1f04c0901e6d5de6eb222b8a9e74692ae34f6f4618b0f0cc8b3/strawberry-graphql-0.99.2.tar.gz
+[2023-07-02 22:49:08] INFO root fetch - processPackages [DomFu]: Downloading https://files.pythonhosted.org/packages/58/96/f59d855df88867e9a7555de1c8c22cc72e153465a390bf9acbd8d2b57330/DomFu-1.4.1.tar.gz
+[2023-07-02 22:49:08] INFO root fetch - processPackages [i8-terminal]: Downloading https://files.pythonhosted.org/packages/83/49/a3b1464e9c780b50fa485099837643743f3f68edfaf09715b9c798e05783/i8-terminal-0.2.94.tar.gz
+[2023-07-02 22:49:09] INFO root fetch - processPackages [DomFu]: executing diffoscope
+[2023-07-02 22:49:09] INFO root fetch - processPackages [DomFu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DomFu-1.4.tar.gz tmp/DomFu-1.4.1.tar.gz --markdown 20230702/D/DomFu/1.4-1.4.1/diff.md --exclude *.pyd
+[2023-07-02 22:49:09] INFO root fetch - processPackages [i8-terminal]: executing diffoscope
+[2023-07-02 22:49:09] INFO root fetch - processPackages [i8-terminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i8-terminal-0.2.93.tar.gz tmp/i8-terminal-0.2.94.tar.gz --markdown 20230702/i/i8-terminal/0.2.93-0.2.94/diff.md --exclude *.pyd
+[2023-07-02 22:49:09] INFO root fetch - processPackages [Cliente]: Downloading https://files.pythonhosted.org/packages/3e/de/502b59cea2dabeb13582fe8af0c1d5b3e280af85e5ffc94dcfa54c6aedb6/Cliente-0.0.5.tar.gz
+[2023-07-02 22:49:09] INFO root fetch - processPackages [Cliente]: Downloading https://files.pythonhosted.org/packages/3e/de/502b59cea2dabeb13582fe8af0c1d5b3e280af85e5ffc94dcfa54c6aedb6/Cliente-0.0.5.tar.gz
+[2023-07-02 22:49:09] INFO root fetch - processPackages [Cliente]: Downloading https://files.pythonhosted.org/packages/3e/de/502b59cea2dabeb13582fe8af0c1d5b3e280af85e5ffc94dcfa54c6aedb6/Cliente-0.0.5.tar.gz
+[2023-07-02 22:49:09] INFO root fetch - processPackages [Cliente]: Downloading https://files.pythonhosted.org/packages/3e/de/502b59cea2dabeb13582fe8af0c1d5b3e280af85e5ffc94dcfa54c6aedb6/Cliente-0.0.5.tar.gz
+[2023-07-02 22:49:09] INFO root fetch - processPackages [secapi-tl]: Downloading https://files.pythonhosted.org/packages/80/83/99fc96c467a56d028eabdea402bf22e1d9314d5b6b23a2b6045c812ef2a2/secapi-tl-1.1.9.tar.gz
+[2023-07-02 22:49:09] INFO root fetch - processPackages [semantic-text-splitter]: Downloading https://files.pythonhosted.org/packages/a7/5a/6eeb0369f2488d69b0bbb1dcfca116a405f6dccb89b2dea98e1947c1ef83/semantic_text_splitter-0.2.2.tar.gz
+[2023-07-02 22:49:09] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/7f/5f/eea3ac48f4f959f8520ef8fd9d0503362334694dc4a9e5d07013ca260af8/bmsdna_lakeapi-0.9.4.tar.gz
+[2023-07-02 22:49:09] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/e8/62/3a58fe3751e9dc961f72fbe825e32f12e9cd544dafd44bc5fdddb290b881/strawberry-graphql-0.99.3.tar.gz
+[2023-07-02 22:49:09] INFO root fetch - processPackages [Cliente]: executing diffoscope
+[2023-07-02 22:49:09] INFO root fetch - processPackages [Cliente]: executing diffoscope
+[2023-07-02 22:49:09] INFO root fetch - processPackages [Cliente]: executing diffoscope
+[2023-07-02 22:49:09] INFO root fetch - processPackages [Cliente]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Cliente-0.0.4-py3.10.egg tmp/Cliente-0.0.5.tar.gz --markdown 20230702/C/Cliente/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-02 22:49:09] INFO root fetch - processPackages [Cliente]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Cliente-0.0.4-py3.10.egg tmp/Cliente-0.0.5.tar.gz --markdown 20230702/C/Cliente/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-02 22:49:09] INFO root fetch - processPackages [Cliente]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Cliente-0.0.4-py3.10.egg tmp/Cliente-0.0.5.tar.gz --markdown 20230702/C/Cliente/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-02 22:49:09] INFO root fetch - processPackages [Cliente]: executing diffoscope
+[2023-07-02 22:49:09] INFO root fetch - processPackages [Cliente]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Cliente-0.0.4-py3.10.egg tmp/Cliente-0.0.5.tar.gz --markdown 20230702/C/Cliente/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-02 22:49:09] INFO root fetch - processPackages [bmsdna-lakeapi]: executing diffoscope
+[2023-07-02 22:49:09] INFO root fetch - processPackages [bmsdna-lakeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmsdna_lakeapi-0.9.2.tar.gz tmp/bmsdna_lakeapi-0.9.4.tar.gz --markdown 20230702/b/bmsdna-lakeapi/0.9.2-0.9.4/diff.md --exclude *.pyd
+[2023-07-02 22:49:09] INFO root fetch - processPackages [secapi-tl]: executing diffoscope
+[2023-07-02 22:49:09] INFO root fetch - processPackages [secapi-tl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secapi-tl-1.1.8.tar.gz tmp/secapi-tl-1.1.9.tar.gz --markdown 20230702/s/secapi-tl/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-02 22:49:09] INFO root fetch - processPackages [semantic-text-splitter]: executing diffoscope
+[2023-07-02 22:49:09] INFO root fetch - processPackages [semantic-text-splitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantic_text_splitter-0.2.1.tar.gz tmp/semantic_text_splitter-0.2.2.tar.gz --markdown 20230702/s/semantic-text-splitter/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-02 22:49:09] INFO root fetch - processPackages [strawberry-graphql]: executing diffoscope
+[2023-07-02 22:49:09] INFO root fetch - processPackages [strawberry-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry-graphql-0.99.2.tar.gz tmp/strawberry-graphql-0.99.3.tar.gz --markdown 20230702/s/strawberry-graphql/0.99.2-0.99.3/diff.md --exclude *.pyd
+[2023-07-02 22:49:10] INFO root fetch - processPackages [Cliente]: Remove: archive file [/home/abi/fetcher/tmp/Cliente-0.0.4-py3.10.egg]
+[2023-07-02 22:49:10] INFO root fetch - processPackages [Cliente]: Remove: archive file [/home/abi/fetcher/tmp/Cliente-0.0.5.tar.gz]
+[2023-07-02 22:49:10] INFO root fetch - processPackages [Cliente]: Start processing: liburlparser
+[2023-07-02 22:49:10] INFO root fetch - main [MainThread]: End processing [Cliente]: success
+[2023-07-02 22:49:10] INFO root fetch - processPackages [liburlparser]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-02 22:49:10] INFO root fetch - processPackages [liburlparser]: Downloading https://files.pythonhosted.org/packages/d3/3b/6be7a529321d82edf55bd12077e4bea81bea8543aa6490f2b1bfba6a3979/liburlparser-0.1.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-02 22:49:10] INFO root fetch - processPackages [bmsdna-lakeapi]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_lakeapi-0.9.2.tar.gz]
+[2023-07-02 22:49:10] INFO root fetch - processPackages [bmsdna-lakeapi]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_lakeapi-0.9.4.tar.gz]
+[2023-07-02 22:49:10] INFO root fetch - processPackages [bmsdna-lakeapi]: Start processing: Cliente
+[2023-07-02 22:49:10] INFO root fetch - main [MainThread]: End processing [bmsdna-lakeapi]: success
+[2023-07-02 22:49:10] INFO root fetch - processPackages [Cliente]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-02 22:49:10] INFO root fetch - processPackages [Cliente]: Downloading https://files.pythonhosted.org/packages/35/e8/fe446d9e0153abe1e904c62b721427fff0003b5f174f4e6098650971e885/Cliente-0.0.4-py3.10.egg
+[2023-07-02 22:49:10] ERROR root fetch - processPackages [Cliente]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/Cliente-0.0.4-py3.10.egg does not exist
+
+[2023-07-02 22:49:10] INFO root fetch - processPackages [Cliente]: Start processing: qmp
+[2023-07-02 22:49:10] INFO root fetch - main [MainThread]: End processing [Cliente] error
+[2023-07-02 22:49:10] INFO root fetch - processPackages [qmp]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-07-02 22:49:10] ERROR root fetch - processPackages [Cliente]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/Cliente-0.0.4-py3.10.egg does not exist
+
+[2023-07-02 22:49:10] INFO root fetch - processPackages [Cliente]: Start processing: tsai
+[2023-07-02 22:49:10] INFO root fetch - main [MainThread]: End processing [Cliente] error
+[2023-07-02 22:49:11] INFO root fetch - processPackages [tsai]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-07-02 22:49:11] INFO root fetch - processPackages [Cliente]: Downloading https://files.pythonhosted.org/packages/3e/de/502b59cea2dabeb13582fe8af0c1d5b3e280af85e5ffc94dcfa54c6aedb6/Cliente-0.0.5.tar.gz
+[2023-07-02 22:49:11] INFO root fetch - processPackages [liburlparser]: Downloading https://files.pythonhosted.org/packages/04/11/ac12c42606cf5a0b6e3c70ab66eb937a29033083801a30668f320a20083d/liburlparser-0.2.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-02 22:49:11] INFO root fetch - processPackages [DomFu]: Remove: archive file [/home/abi/fetcher/tmp/DomFu-1.4.tar.gz]
+[2023-07-02 22:49:11] INFO root fetch - processPackages [DomFu]: Remove: archive file [/home/abi/fetcher/tmp/DomFu-1.4.1.tar.gz]
+[2023-07-02 22:49:11] INFO root fetch - processPackages [DomFu]: Start processing: face-rhythm
+[2023-07-02 22:49:11] INFO root fetch - main [MainThread]: End processing [DomFu]: success
+[2023-07-02 22:49:11] INFO root fetch - processPackages [secapi-tl]: Remove: archive file [/home/abi/fetcher/tmp/secapi-tl-1.1.8.tar.gz]
+[2023-07-02 22:49:11] INFO root fetch - processPackages [secapi-tl]: Remove: archive file [/home/abi/fetcher/tmp/secapi-tl-1.1.9.tar.gz]
+[2023-07-02 22:49:11] INFO root fetch - processPackages [secapi-tl]: Start processing: spark-dummy-tools
+[2023-07-02 22:49:11] INFO root fetch - main [MainThread]: End processing [secapi-tl]: success
+[2023-07-02 22:49:11] ERROR root fetch - processPackages [Cliente]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/Cliente-0.0.4-py3.10.egg does not exist
+
+[2023-07-02 22:49:11] INFO root fetch - processPackages [Cliente]: Start processing: iza
+[2023-07-02 22:49:11] INFO root fetch - main [MainThread]: End processing [Cliente] error
+[2023-07-02 22:49:11] WARNING root fetch - processPackages [face-rhythm]: Skipping, unable to determine old version
+[2023-07-02 22:49:11] INFO root fetch - processPackages [Cliente]: executing diffoscope
+[2023-07-02 22:49:11] INFO root fetch - main [MainThread]: End processing [face-rhythm] error
+[2023-07-02 22:49:11] INFO root fetch - processPackages [Cliente]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Cliente-0.0.4-py3.10.egg tmp/Cliente-0.0.5.tar.gz --markdown 20230702/C/Cliente/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-02 22:49:11] INFO root fetch - processPackages [spark-dummy-tools]: New version: [0.3.5] Old Version: [0.3.0]
+[2023-07-02 22:49:11] INFO root fetch - processPackages [qmp]: Downloading https://files.pythonhosted.org/packages/1d/76/c169df57686813ca627e0e61ad5845fbf8ee2a062dcd4540bf2533e885cf/qmp-0.0.1.tar.gz
+[2023-07-02 22:49:11] INFO root fetch - processPackages [iza]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-02 22:49:11] INFO root fetch - processPackages [tsai]: Downloading https://files.pythonhosted.org/packages/6f/a1/75e13c89265c32d51db10bdf2d50b2a1ff8bf07f5fd62ec392ae57edd8c8/tsai-0.3.6.tar.gz
+[2023-07-02 22:49:11] INFO root fetch - processPackages [liburlparser]: executing diffoscope
+[2023-07-02 22:49:11] INFO root fetch - processPackages [liburlparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liburlparser-0.1.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/liburlparser-0.2.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230702/l/liburlparser/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-02 22:49:11] INFO root fetch - processPackages [spark-dummy-tools]: Downloading https://files.pythonhosted.org/packages/42/bc/ba201fd783732510c34f0e657fe92a8f3a758505a09ea3c2d1fcb33149a8/spark_dummy_tools-0.3.0.tar.gz
+[2023-07-02 22:49:11] INFO root fetch - processPackages [iza]: Downloading https://files.pythonhosted.org/packages/bb/e4/7d82bd9ca82b19d78408f21a9c4b4a304c1fc9f662e06c2faec83efe0979/iza-0.0.7.tar.gz
+[2023-07-02 22:49:11] INFO root fetch - processPackages [qmp]: Downloading https://files.pythonhosted.org/packages/ad/a2/73ffecc9eaf57bd5f0514a53fb5803e770985880d44fa1487f36936c484b/qmp-1.0.0.tar.gz
+[2023-07-02 22:49:11] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.2.tar.gz]
+[2023-07-02 22:49:11] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.3.tar.gz]
+[2023-07-02 22:49:11] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
+[2023-07-02 22:49:11] INFO root fetch - processPackages [spark-dummy-tools]: Downloading https://files.pythonhosted.org/packages/d1/7b/a384e054d874287fcf8aef6c5a9d48dad12cee2dd826ce47a366c8ea0b88/spark_dummy_tools-0.3.5.tar.gz
+[2023-07-02 22:49:11] INFO root fetch - processPackages [tsai]: Downloading https://files.pythonhosted.org/packages/e2/af/678ea04908c3aeaac5b7d75d69c7a2174c22d1825950bc6563b945b3e068/tsai-0.3.7.tar.gz
+[2023-07-02 22:49:11] INFO root fetch - processPackages [spark-dummy-tools]: executing diffoscope
+[2023-07-02 22:49:11] INFO root fetch - processPackages [spark-dummy-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_dummy_tools-0.3.0.tar.gz tmp/spark_dummy_tools-0.3.5.tar.gz --markdown 20230702/s/spark-dummy-tools/0.3.0-0.3.5/diff.md --exclude *.pyd
+[2023-07-02 22:49:11] INFO root fetch - processPackages [tsai]: executing diffoscope
+[2023-07-02 22:49:11] INFO root fetch - processPackages [tsai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsai-0.3.6.tar.gz tmp/tsai-0.3.7.tar.gz --markdown 20230702/t/tsai/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-07-02 22:49:11] INFO root fetch - processPackages [qmp]: executing diffoscope
+[2023-07-02 22:49:11] INFO root fetch - processPackages [qmp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qmp-0.0.1.tar.gz tmp/qmp-1.0.0.tar.gz --markdown 20230702/q/qmp/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-02 22:49:11] INFO root fetch - processPackages [iza]: Downloading https://files.pythonhosted.org/packages/56/45/c6f3c48f703c21cd01145c663486f051f3d98b12a1dd86e8b022af78f343/iza-0.0.8.tar.gz
+[2023-07-02 22:49:11] INFO root fetch - processPackages [iza]: executing diffoscope
+[2023-07-02 22:49:11] INFO root fetch - processPackages [iza]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iza-0.0.7.tar.gz tmp/iza-0.0.8.tar.gz --markdown 20230702/i/iza/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-02 22:49:12] INFO root fetch - processPackages [Cliente]: Remove: archive file [/home/abi/fetcher/tmp/Cliente-0.0.4-py3.10.egg]
+[2023-07-02 22:49:12] INFO root fetch - processPackages [Cliente]: Remove: archive file [/home/abi/fetcher/tmp/Cliente-0.0.5.tar.gz]
+[2023-07-02 22:49:12] INFO root fetch - main [MainThread]: End processing [Cliente]: success
+[2023-07-02 22:49:12] INFO root fetch - processPackages [i8-terminal]: Remove: archive file [/home/abi/fetcher/tmp/i8-terminal-0.2.93.tar.gz]
+[2023-07-02 22:49:12] INFO root fetch - processPackages [i8-terminal]: Remove: archive file [/home/abi/fetcher/tmp/i8-terminal-0.2.94.tar.gz]
+[2023-07-02 22:49:12] INFO root fetch - main [MainThread]: End processing [i8-terminal]: success
+[2023-07-02 22:49:12] INFO root fetch - processPackages [spark-dummy-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_dummy_tools-0.3.0.tar.gz]
+[2023-07-02 22:49:12] INFO root fetch - processPackages [spark-dummy-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_dummy_tools-0.3.5.tar.gz]
+[2023-07-02 22:49:12] INFO root fetch - main [MainThread]: End processing [spark-dummy-tools]: success
+[2023-07-02 22:49:12] INFO root fetch - processPackages [qmp]: Remove: archive file [/home/abi/fetcher/tmp/qmp-0.0.1.tar.gz]
+[2023-07-02 22:49:12] INFO root fetch - processPackages [qmp]: Remove: archive file [/home/abi/fetcher/tmp/qmp-1.0.0.tar.gz]
+[2023-07-02 22:49:12] INFO root fetch - main [MainThread]: End processing [qmp]: success
+[2023-07-02 22:49:12] INFO root fetch - processPackages [semantic-text-splitter]: Remove: archive file [/home/abi/fetcher/tmp/semantic_text_splitter-0.2.1.tar.gz]
+[2023-07-02 22:49:12] INFO root fetch - processPackages [semantic-text-splitter]: Remove: archive file [/home/abi/fetcher/tmp/semantic_text_splitter-0.2.2.tar.gz]
+[2023-07-02 22:49:12] INFO root fetch - main [MainThread]: End processing [semantic-text-splitter]: success
+[2023-07-02 22:49:13] INFO root fetch - processPackages [tsai]: Remove: archive file [/home/abi/fetcher/tmp/tsai-0.3.6.tar.gz]
+[2023-07-02 22:49:13] INFO root fetch - processPackages [tsai]: Remove: archive file [/home/abi/fetcher/tmp/tsai-0.3.7.tar.gz]
+[2023-07-02 22:49:13] INFO root fetch - main [MainThread]: End processing [tsai]: success
+[2023-07-02 22:49:13] INFO root fetch - processPackages [iza]: Remove: archive file [/home/abi/fetcher/tmp/iza-0.0.7.tar.gz]
+[2023-07-02 22:49:13] INFO root fetch - processPackages [iza]: Remove: archive file [/home/abi/fetcher/tmp/iza-0.0.8.tar.gz]
+[2023-07-02 22:49:13] INFO root fetch - main [MainThread]: End processing [iza]: success
+[2023-07-02 22:49:14] INFO root fetch - processPackages [liburlparser]: Remove: archive file [/home/abi/fetcher/tmp/liburlparser-0.1.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-02 22:49:14] INFO root fetch - processPackages [liburlparser]: Remove: archive file [/home/abi/fetcher/tmp/liburlparser-0.2.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-02 22:49:14] INFO root fetch - main [MainThread]: End processing [liburlparser]: success
+[2023-07-02 22:49:14] INFO root fetch - main [MainThread]: Store serial: [18731503]
