@@ -10044,3 +10044,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 15:42:31] INFO root fetch - processPackages [eradiate]: Remove: archive file [/home/abi/fetcher/tmp/eradiate-0.23.2rc4.tar.gz]
 [2023-07-02 15:42:31] INFO root fetch - main [MainThread]: End processing [eradiate]: success
 [2023-07-02 15:42:31] INFO root fetch - main [MainThread]: Store serial: [18728949]
+[2023-07-02 15:47:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18728949]
+[2023-07-02 15:47:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-02 15:47:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aleksis-app-paweljong
+[2023-07-02 15:47:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-base-sequence-option
+[2023-07-02 15:47:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spectrafit
+[2023-07-02 15:47:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: osom-work
+[2023-07-02 15:47:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SimuConvert
+[2023-07-02 15:47:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: perte
+[2023-07-02 15:47:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tracktolib
+[2023-07-02 15:47:40] INFO root fetch - processPackages [osom-work]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-02 15:47:40] INFO root fetch - processPackages [aleksis-app-paweljong]: New version: [2.0.dev0] Old Version: [1.9]
+[2023-07-02 15:47:40] INFO root fetch - processPackages [spectrafit]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2023-07-02 15:47:40] INFO root fetch - processPackages [odoo14-addon-base-sequence-option]: New version: [14.0.1.0.1.dev8] Old Version: [14.0.1.0.1.dev7]
+[2023-07-02 15:47:40] WARNING root fetch - processPackages [perte]: Skipping, unable to determine old version
+[2023-07-02 15:47:40] INFO root fetch - main [MainThread]: End processing [perte] error
+[2023-07-02 15:47:40] INFO root fetch - processPackages [SimuConvert]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-02 15:47:40] INFO root fetch - processPackages [aleksis-app-paweljong]: Downloading https://files.pythonhosted.org/packages/a4/da/2106847a7bde3073995ada9a3f5eb543ba9da39e7de39d1f9728c8d966dc/AlekSIS-App-Paweljong-1.9.tar.gz
+[2023-07-02 15:47:40] INFO root fetch - processPackages [tracktolib]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-02 15:47:40] INFO root fetch - processPackages [osom-work]: Downloading https://files.pythonhosted.org/packages/10/d6/4ac0e038e1eb955b2c7dd3aeadaeed2103a0aff1d8bbadbe23360f3a0111/osom_work-0.0.2-py3-none-any.whl
+[2023-07-02 15:47:40] INFO root fetch - processPackages [odoo14-addon-base-sequence-option]: Downloading https://files.pythonhosted.org/packages/56/0b/213d66ce97f0f6e714deb851c7fbbb7b10dd443f85d3a6a42837d197aab9/odoo14_addon_base_sequence_option-14.0.1.0.1.dev7-py3-none-any.whl
+[2023-07-02 15:47:40] INFO root fetch - processPackages [spectrafit]: Downloading https://files.pythonhosted.org/packages/6b/2a/41e9908ead4ca1e1d9d996de0c892d67d060119e8afe804904347a462817/spectrafit-1.0.0b1.tar.gz
+[2023-07-02 15:47:40] INFO root fetch - processPackages [aleksis-app-paweljong]: Downloading https://files.pythonhosted.org/packages/2e/f0/33decc2751eb9b338387f54e34be1c08e1e9f9709520a527c947e5cb4cdf/aleksis_app_paweljong-2.0.dev0.tar.gz
+[2023-07-02 15:47:40] INFO root fetch - processPackages [SimuConvert]: Downloading https://files.pythonhosted.org/packages/49/33/f22f28461c6169dfad1b423c54b18ab1aadf29d52bb793e667dc25474ca3/SimuConvert-0.0.2.tar.gz
+[2023-07-02 15:47:40] INFO root fetch - processPackages [aleksis-app-paweljong]: executing diffoscope
+[2023-07-02 15:47:40] INFO root fetch - processPackages [aleksis-app-paweljong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AlekSIS-App-Paweljong-1.9.tar.gz tmp/aleksis_app_paweljong-2.0.dev0.tar.gz --markdown 20230702/a/aleksis-app-paweljong/1.9-2.0.dev0/diff.md --exclude *.pyd
+[2023-07-02 15:47:40] INFO root fetch - processPackages [tracktolib]: Downloading https://files.pythonhosted.org/packages/ca/44/03028810ab82a338cfe518b77fd0803c0b98a0083a4dc029f328553fd0e9/tracktolib-0.9.0.tar.gz
+[2023-07-02 15:47:41] INFO root fetch - processPackages [osom-work]: Downloading https://files.pythonhosted.org/packages/81/2f/a84aba5a485262454c4678947e94ab2b93c66063a952119a32affc909df3/osom_work-0.0.3-py3-none-any.whl
+[2023-07-02 15:47:41] INFO root fetch - processPackages [osom-work]: executing diffoscope
+[2023-07-02 15:47:41] INFO root fetch - processPackages [osom-work]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osom_work-0.0.2-py3-none-any.whl.zip tmp/osom_work-0.0.3-py3-none-any.whl.zip --markdown 20230702/o/osom-work/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-02 15:47:41] INFO root fetch - processPackages [SimuConvert]: Downloading https://files.pythonhosted.org/packages/aa/36/29c8388ae0f51e5953426d48ec0e79dfda1b02a51d82aceb4aad8c2342f7/SimuConvert-0.0.3.tar.gz
+[2023-07-02 15:47:41] INFO root fetch - processPackages [spectrafit]: Downloading https://files.pythonhosted.org/packages/b0/e6/82afb2b07e68fd939709273d2e78209c65e2ecd4f15dfd661bf36a3c9604/spectrafit-1.0.0b2.tar.gz
+[2023-07-02 15:47:41] INFO root fetch - processPackages [odoo14-addon-base-sequence-option]: Downloading https://files.pythonhosted.org/packages/2d/9b/83b84c554e5e9aed3af0526b6057e8b99b03c34bbf4b3afb59f7fe51fbe7/odoo14_addon_base_sequence_option-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-07-02 15:47:41] INFO root fetch - processPackages [SimuConvert]: executing diffoscope
+[2023-07-02 15:47:41] INFO root fetch - processPackages [SimuConvert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SimuConvert-0.0.2.tar.gz tmp/SimuConvert-0.0.3.tar.gz --markdown 20230702/S/SimuConvert/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-02 15:47:41] INFO root fetch - processPackages [tracktolib]: Downloading https://files.pythonhosted.org/packages/70/3b/1dc011d0b72436ea27fc387d2fab8eb3e13d9e1b181081be662bacd0069b/tracktolib-0.9.1.tar.gz
+[2023-07-02 15:47:41] INFO root fetch - processPackages [spectrafit]: executing diffoscope
+[2023-07-02 15:47:41] INFO root fetch - processPackages [spectrafit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectrafit-1.0.0b1.tar.gz tmp/spectrafit-1.0.0b2.tar.gz --markdown 20230702/s/spectrafit/1.0.0b1-1.0.0b2/diff.md --exclude *.pyd
+[2023-07-02 15:47:41] INFO root fetch - processPackages [odoo14-addon-base-sequence-option]: executing diffoscope
+[2023-07-02 15:47:41] INFO root fetch - processPackages [odoo14-addon-base-sequence-option]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_sequence_option-14.0.1.0.1.dev7-py3-none-any.whl.zip tmp/odoo14_addon_base_sequence_option-14.0.1.0.1.dev8-py3-none-any.whl.zip --markdown 20230702/o/odoo14-addon-base-sequence-option/14.0.1.0.1.dev7-14.0.1.0.1.dev8/diff.md --exclude *.pyd
+[2023-07-02 15:47:41] INFO root fetch - processPackages [tracktolib]: executing diffoscope
+[2023-07-02 15:47:41] INFO root fetch - processPackages [tracktolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracktolib-0.9.0.tar.gz tmp/tracktolib-0.9.1.tar.gz --markdown 20230702/t/tracktolib/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-02 15:47:42] INFO root fetch - processPackages [osom-work]: Remove: archive file [/home/abi/fetcher/tmp/osom_work-0.0.2-py3-none-any.whl.zip]
+[2023-07-02 15:47:42] INFO root fetch - processPackages [osom-work]: Remove: archive file [/home/abi/fetcher/tmp/osom_work-0.0.3-py3-none-any.whl.zip]
+[2023-07-02 15:47:42] INFO root fetch - main [MainThread]: End processing [osom-work]: success
+[2023-07-02 15:47:42] INFO root fetch - processPackages [SimuConvert]: Remove: archive file [/home/abi/fetcher/tmp/SimuConvert-0.0.2.tar.gz]
+[2023-07-02 15:47:42] INFO root fetch - processPackages [SimuConvert]: Remove: archive file [/home/abi/fetcher/tmp/SimuConvert-0.0.3.tar.gz]
+[2023-07-02 15:47:42] INFO root fetch - main [MainThread]: End processing [SimuConvert]: success
+[2023-07-02 15:47:42] INFO root fetch - processPackages [odoo14-addon-base-sequence-option]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_sequence_option-14.0.1.0.1.dev7-py3-none-any.whl.zip]
+[2023-07-02 15:47:42] INFO root fetch - processPackages [odoo14-addon-base-sequence-option]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_sequence_option-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2023-07-02 15:47:42] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-sequence-option]: success
+[2023-07-02 15:47:42] INFO root fetch - processPackages [tracktolib]: Remove: archive file [/home/abi/fetcher/tmp/tracktolib-0.9.0.tar.gz]
+[2023-07-02 15:47:42] INFO root fetch - processPackages [tracktolib]: Remove: archive file [/home/abi/fetcher/tmp/tracktolib-0.9.1.tar.gz]
+[2023-07-02 15:47:42] INFO root fetch - main [MainThread]: End processing [tracktolib]: success
+[2023-07-02 15:47:42] INFO root fetch - processPackages [spectrafit]: Remove: archive file [/home/abi/fetcher/tmp/spectrafit-1.0.0b1.tar.gz]
+[2023-07-02 15:47:42] INFO root fetch - processPackages [spectrafit]: Remove: archive file [/home/abi/fetcher/tmp/spectrafit-1.0.0b2.tar.gz]
+[2023-07-02 15:47:42] INFO root fetch - main [MainThread]: End processing [spectrafit]: success
+[2023-07-02 15:47:42] INFO root fetch - processPackages [aleksis-app-paweljong]: Remove: archive file [/home/abi/fetcher/tmp/AlekSIS-App-Paweljong-1.9.tar.gz]
+[2023-07-02 15:47:42] INFO root fetch - processPackages [aleksis-app-paweljong]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_app_paweljong-2.0.dev0.tar.gz]
+[2023-07-02 15:47:42] INFO root fetch - main [MainThread]: End processing [aleksis-app-paweljong]: success
+[2023-07-02 15:47:42] INFO root fetch - main [MainThread]: Store serial: [18728971]
