@@ -8070,3 +8070,41 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 13:17:47] INFO root fetch - processPackages [JsMacrosAC]: Remove: archive file [/home/abi/fetcher/tmp/JsMacrosAC-1.8.5.8296535.tar.gz]
 [2023-07-02 13:17:47] INFO root fetch - main [MainThread]: End processing [JsMacrosAC]: success
 [2023-07-02 13:17:47] INFO root fetch - main [MainThread]: Store serial: [18728094]
+[2023-07-02 13:22:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18728094]
+[2023-07-02 13:22:57] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-02 13:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datasmoothie-tally-client
+[2023-07-02 13:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: enrichsdk
+[2023-07-02 13:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: assisted-ticket-search
+[2023-07-02 13:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: climalysis
+[2023-07-02 13:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-master
+[2023-07-02 13:22:57] INFO root fetch - processPackages [climalysis]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-02 13:22:57] WARNING root fetch - processPackages [assisted-ticket-search]: Skipping, unable to determine old version
+[2023-07-02 13:22:57] INFO root fetch - main [MainThread]: End processing [assisted-ticket-search] error
+[2023-07-02 13:22:57] INFO root fetch - processPackages [enrichsdk]: New version: [4.8.4] Old Version: [4.8.0]
+[2023-07-02 13:22:57] INFO root fetch - processPackages [datasmoothie-tally-client]: New version: [0.9] Old Version: [0.8]
+[2023-07-02 13:22:57] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230702.11.22.241820] Old Version: [20230701.10.24.396740]
+[2023-07-02 13:22:57] INFO root fetch - processPackages [datasmoothie-tally-client]: Downloading https://files.pythonhosted.org/packages/d7/68/356105358bdff146d508e5d4c1de9d38ace265bcd0df216d183416365909/datasmoothie-tally-client-0.8.tar.gz
+[2023-07-02 13:22:57] INFO root fetch - processPackages [enrichsdk]: Downloading https://files.pythonhosted.org/packages/85/16/f0894835192aaa7d98c3a802ab10906e20c63a510d4b76bf051adb951769/enrichsdk-4.8.0.tar.gz
+[2023-07-02 13:22:57] INFO root fetch - processPackages [climalysis]: Downloading https://files.pythonhosted.org/packages/3c/56/1f03bafbf92def19fbb83fa09e3e1b626989b83b583db313e275e50e3b80/climalysis-0.2.0.tar.gz
+[2023-07-02 13:22:57] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/01/67/5599e7e8bdf26fb739e5b098ccb40c531e9372d70702c3dacb183e153305/certora-cli-alpha-master-20230701.10.24.396740.tar.gz
+[2023-07-02 13:22:57] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 40611039>=10485760
+[2023-07-02 13:22:57] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-02 13:22:57] INFO root fetch - processPackages [datasmoothie-tally-client]: Downloading https://files.pythonhosted.org/packages/23/7f/f7ea96b8935288b32cccb162f69cb0fc463b4de937b3332214fa3eedc892/datasmoothie-tally-client-0.9.tar.gz
+[2023-07-02 13:22:57] INFO root fetch - processPackages [climalysis]: Downloading https://files.pythonhosted.org/packages/d0/1a/2f88adaaa779101495b779e34f3ff715ee7541b790f81b342bba03bf0f8c/climalysis-0.2.1.tar.gz
+[2023-07-02 13:22:57] INFO root fetch - processPackages [enrichsdk]: Downloading https://files.pythonhosted.org/packages/5d/93/f41c5b1ead74aa03785c1ef8a452153d25695cb920a71deccedc335e2935/enrichsdk-4.8.4.tar.gz
+[2023-07-02 13:22:57] INFO root fetch - processPackages [climalysis]: executing diffoscope
+[2023-07-02 13:22:57] INFO root fetch - processPackages [climalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climalysis-0.2.0.tar.gz tmp/climalysis-0.2.1.tar.gz --markdown 20230702/c/climalysis/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-02 13:22:57] INFO root fetch - processPackages [enrichsdk]: executing diffoscope
+[2023-07-02 13:22:57] INFO root fetch - processPackages [enrichsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enrichsdk-4.8.0.tar.gz tmp/enrichsdk-4.8.4.tar.gz --markdown 20230702/e/enrichsdk/4.8.0-4.8.4/diff.md --exclude *.pyd
+[2023-07-02 13:22:57] INFO root fetch - processPackages [datasmoothie-tally-client]: executing diffoscope
+[2023-07-02 13:22:57] INFO root fetch - processPackages [datasmoothie-tally-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasmoothie-tally-client-0.8.tar.gz tmp/datasmoothie-tally-client-0.9.tar.gz --markdown 20230702/d/datasmoothie-tally-client/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-02 13:22:58] INFO root fetch - processPackages [climalysis]: Remove: archive file [/home/abi/fetcher/tmp/climalysis-0.2.0.tar.gz]
+[2023-07-02 13:22:58] INFO root fetch - processPackages [climalysis]: Remove: archive file [/home/abi/fetcher/tmp/climalysis-0.2.1.tar.gz]
+[2023-07-02 13:22:58] INFO root fetch - main [MainThread]: End processing [climalysis]: success
+[2023-07-02 13:22:58] INFO root fetch - processPackages [datasmoothie-tally-client]: Remove: archive file [/home/abi/fetcher/tmp/datasmoothie-tally-client-0.8.tar.gz]
+[2023-07-02 13:22:58] INFO root fetch - processPackages [datasmoothie-tally-client]: Remove: archive file [/home/abi/fetcher/tmp/datasmoothie-tally-client-0.9.tar.gz]
+[2023-07-02 13:22:58] INFO root fetch - main [MainThread]: End processing [datasmoothie-tally-client]: success
+[2023-07-02 13:23:00] INFO root fetch - processPackages [enrichsdk]: Remove: archive file [/home/abi/fetcher/tmp/enrichsdk-4.8.0.tar.gz]
+[2023-07-02 13:23:00] INFO root fetch - processPackages [enrichsdk]: Remove: archive file [/home/abi/fetcher/tmp/enrichsdk-4.8.4.tar.gz]
+[2023-07-02 13:23:00] INFO root fetch - main [MainThread]: End processing [enrichsdk]: success
+[2023-07-02 13:23:00] INFO root fetch - main [MainThread]: Store serial: [18728114]
