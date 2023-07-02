@@ -11266,3 +11266,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 17:24:06] INFO root fetch - processPackages [curies]: Remove: archive file [/home/abi/fetcher/tmp/curies-0.5.6.tar.gz]
 [2023-07-02 17:24:06] INFO root fetch - main [MainThread]: End processing [curies]: success
 [2023-07-02 17:24:06] INFO root fetch - main [MainThread]: Store serial: [18729489]
+[2023-07-02 17:29:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18729489]
+[2023-07-02 17:29:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-02 17:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wisedata
+[2023-07-02 17:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: firenze
+[2023-07-02 17:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: heavylight
+[2023-07-02 17:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aicoder
+[2023-07-02 17:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydelorean
+[2023-07-02 17:29:15] INFO root fetch - processPackages [firenze]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-02 17:29:15] INFO root fetch - processPackages [aicoder]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-07-02 17:29:15] INFO root fetch - processPackages [heavylight]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-02 17:29:15] INFO root fetch - processPackages [wisedata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-02 17:29:15] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/a9/da/c6d1ddfec94472491beba9de614dbea81e5fc6a6342dcf78d96f8c7a1d10/aicoder-0.2.9-py3-none-any.whl
+[2023-07-02 17:29:15] INFO root fetch - processPackages [wisedata]: Downloading https://files.pythonhosted.org/packages/59/7e/51c9ee099c7c9091a95758b6bd96fc272734c2bdd6a563a498351b7f3659/wisedata-1.0.8.tar.gz
+[2023-07-02 17:29:15] INFO root fetch - processPackages [pydelorean]: New version: [0.3.1] Old Version: [0.2.1]
+[2023-07-02 17:29:15] INFO root fetch - processPackages [heavylight]: Downloading https://files.pythonhosted.org/packages/9c/8a/def61f9b255888b555e28dd1f265d3b25a81a3efa3a477897e00d0c1f379/heavylight-1.0.0.tar.gz
+[2023-07-02 17:29:15] INFO root fetch - processPackages [firenze]: Downloading https://files.pythonhosted.org/packages/24/c1/b28506de66448e745f613881ccc2a8bd11f9398afeaf64620848cf62fd88/firenze-0.1.2.tar.gz
+[2023-07-02 17:29:15] INFO root fetch - processPackages [wisedata]: Downloading https://files.pythonhosted.org/packages/4b/95/3ebedc58284018ea58e831ba692e4b928ad5e2298c32954b2204837d4033/wisedata-1.0.9.tar.gz
+[2023-07-02 17:29:15] INFO root fetch - processPackages [wisedata]: executing diffoscope
+[2023-07-02 17:29:15] INFO root fetch - processPackages [wisedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wisedata-1.0.8.tar.gz tmp/wisedata-1.0.9.tar.gz --markdown 20230702/w/wisedata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-02 17:29:15] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/fd/f0/7f85734dba3235c678acab4ec2540271cfd83ae061e510129f21c4d568d8/aicoder-0.3.0-py3-none-any.whl
+[2023-07-02 17:29:15] INFO root fetch - processPackages [pydelorean]: Downloading https://files.pythonhosted.org/packages/df/f1/95dc90114cb1d0051d599bd0db7886ab85e94acab5da9b8605aa5ba6c427/pydelorean-0.2.1.tar.gz
+[2023-07-02 17:29:15] INFO root fetch - processPackages [firenze]: Downloading https://files.pythonhosted.org/packages/0e/08/cf1157dd0a446a3e5b0fb02f734d9c9f48a7f1bd1b6521a83dd5a9508a35/firenze-0.1.3.tar.gz
+[2023-07-02 17:29:15] INFO root fetch - processPackages [heavylight]: Downloading https://files.pythonhosted.org/packages/e7/d5/9c53b770369e887d7a48b10492f0fb3af062fdc2124e065ee56621c7153c/heavylight-1.0.1.tar.gz
+[2023-07-02 17:29:15] INFO root fetch - processPackages [aicoder]: executing diffoscope
+[2023-07-02 17:29:15] INFO root fetch - processPackages [aicoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicoder-0.2.9-py3-none-any.whl.zip tmp/aicoder-0.3.0-py3-none-any.whl.zip --markdown 20230702/a/aicoder/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-07-02 17:29:15] INFO root fetch - processPackages [firenze]: executing diffoscope
+[2023-07-02 17:29:15] INFO root fetch - processPackages [firenze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firenze-0.1.2.tar.gz tmp/firenze-0.1.3.tar.gz --markdown 20230702/f/firenze/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-02 17:29:15] INFO root fetch - processPackages [heavylight]: executing diffoscope
+[2023-07-02 17:29:15] INFO root fetch - processPackages [heavylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heavylight-1.0.0.tar.gz tmp/heavylight-1.0.1.tar.gz --markdown 20230702/h/heavylight/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-02 17:29:15] INFO root fetch - processPackages [pydelorean]: Downloading https://files.pythonhosted.org/packages/40/a5/06ed915d503affc5c2a6725643fda64ea10c9a9f7e65805899f8e0d35deb/pydelorean-0.3.1.tar.gz
+[2023-07-02 17:29:16] INFO root fetch - processPackages [pydelorean]: executing diffoscope
+[2023-07-02 17:29:16] INFO root fetch - processPackages [pydelorean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydelorean-0.2.1.tar.gz tmp/pydelorean-0.3.1.tar.gz --markdown 20230702/p/pydelorean/0.2.1-0.3.1/diff.md --exclude *.pyd
+[2023-07-02 17:29:16] INFO root fetch - processPackages [wisedata]: Remove: archive file [/home/abi/fetcher/tmp/wisedata-1.0.8.tar.gz]
+[2023-07-02 17:29:16] INFO root fetch - processPackages [wisedata]: Remove: archive file [/home/abi/fetcher/tmp/wisedata-1.0.9.tar.gz]
+[2023-07-02 17:29:16] INFO root fetch - main [MainThread]: End processing [wisedata]: success
+[2023-07-02 17:29:16] INFO root fetch - processPackages [firenze]: Remove: archive file [/home/abi/fetcher/tmp/firenze-0.1.2.tar.gz]
+[2023-07-02 17:29:16] INFO root fetch - processPackages [firenze]: Remove: archive file [/home/abi/fetcher/tmp/firenze-0.1.3.tar.gz]
+[2023-07-02 17:29:16] INFO root fetch - main [MainThread]: End processing [firenze]: success
+[2023-07-02 17:29:16] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.2.9-py3-none-any.whl.zip]
+[2023-07-02 17:29:16] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.3.0-py3-none-any.whl.zip]
+[2023-07-02 17:29:16] INFO root fetch - main [MainThread]: End processing [aicoder]: success
+[2023-07-02 17:29:17] INFO root fetch - processPackages [heavylight]: Remove: archive file [/home/abi/fetcher/tmp/heavylight-1.0.0.tar.gz]
+[2023-07-02 17:29:17] INFO root fetch - processPackages [heavylight]: Remove: archive file [/home/abi/fetcher/tmp/heavylight-1.0.1.tar.gz]
+[2023-07-02 17:29:17] INFO root fetch - main [MainThread]: End processing [heavylight]: success
+[2023-07-02 17:29:17] INFO root fetch - processPackages [pydelorean]: Remove: archive file [/home/abi/fetcher/tmp/pydelorean-0.2.1.tar.gz]
+[2023-07-02 17:29:17] INFO root fetch - processPackages [pydelorean]: Remove: archive file [/home/abi/fetcher/tmp/pydelorean-0.3.1.tar.gz]
+[2023-07-02 17:29:17] INFO root fetch - main [MainThread]: End processing [pydelorean]: success
+[2023-07-02 17:29:17] INFO root fetch - main [MainThread]: Store serial: [18729502]
