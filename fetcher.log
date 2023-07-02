@@ -6524,3 +6524,64 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 10:58:37] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.4.0.tar.gz]
 [2023-07-02 10:58:37] INFO root fetch - main [MainThread]: End processing [rosetta-ce]: success
 [2023-07-02 10:58:37] INFO root fetch - main [MainThread]: Store serial: [18727364]
+[2023-07-02 11:03:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18727364]
+[2023-07-02 11:03:46] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-02 11:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bbrl-gymnasium
+[2023-07-02 11:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: temboz
+[2023-07-02 11:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-spark-gpt
+[2023-07-02 11:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spark-dataframe-tools
+[2023-07-02 11:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: polywrap-sys-config-bundle
+[2023-07-02 11:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: equilibrator-api
+[2023-07-02 11:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-oz-cli-by-os
+[2023-07-02 11:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: polywrap-web3-config-bundle
+[2023-07-02 11:03:46] INFO root fetch - processPackages [temboz]: New version: [4.9] Old Version: [4.8]
+[2023-07-02 11:03:46] INFO root fetch - processPackages [bbrl-gymnasium]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 11:03:46] INFO root fetch - processPackages [certora-cli-alpha-oz-cli-by-os]: New version: [20230702.9.1.737018] Old Version: [20230628.20.10.750292]
+[2023-07-02 11:03:46] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-02 11:03:46] INFO root fetch - processPackages [polywrap-sys-config-bundle]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2023-07-02 11:03:46] INFO root fetch - processPackages [equilibrator-api]: New version: [0.4.8b1] Old Version: [0.4.7]
+[2023-07-02 11:03:46] INFO root fetch - processPackages [spark-dataframe-tools]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-02 11:03:46] WARNING root fetch - processPackages [polywrap-web3-config-bundle]: Skipping, unable to determine old version
+[2023-07-02 11:03:46] INFO root fetch - main [MainThread]: End processing [polywrap-web3-config-bundle] error
+[2023-07-02 11:03:46] INFO root fetch - processPackages [bbrl-gymnasium]: Downloading https://files.pythonhosted.org/packages/82/f7/2faaeb185c299868c0e6d2bd92523a9c844276a2004c4a53d11f0ce51194/bbrl_gymnasium-0.1.8.tar.gz
+[2023-07-02 11:03:46] INFO root fetch - processPackages [certora-cli-alpha-oz-cli-by-os]: Downloading https://files.pythonhosted.org/packages/5e/05/c12f726b8c2f75402512b79c4e053ee87a086d591b765b6e69edcfd121da/certora-cli-alpha-oz-cli-by-os-20230628.20.10.750292.tar.gz
+[2023-07-02 11:03:46] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Downloading https://files.pythonhosted.org/packages/6f/d0/8ab153a107ef4622ed21de2bc771628906d70925ba473a01f473dfe51cfb/nonebot_plugin_spark_gpt-1.0.4.tar.gz
+[2023-07-02 11:03:46] INFO root fetch - processPackages [temboz]: Downloading https://files.pythonhosted.org/packages/e2/55/5f76dd54acabab7fd8702b04b4d2ce33a7efe7e6ec12e852f064c6c28321/temboz-4.8.tar.gz
+[2023-07-02 11:03:46] WARNING root fetch - processPackages [certora-cli-alpha-oz-cli-by-os]: Skipping package: exceeds size limit 37099705>=10485760
+[2023-07-02 11:03:46] INFO root fetch - processPackages [polywrap-sys-config-bundle]: Downloading https://files.pythonhosted.org/packages/ae/44/e249f6bfdbdd529ac1611fdc54dbcde686c124e7b1e6dd1246257a62eeb4/polywrap_sys_config_bundle-0.1.0a1.tar.gz
+[2023-07-02 11:03:46] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-oz-cli-by-os] error
+[2023-07-02 11:03:46] INFO root fetch - processPackages [spark-dataframe-tools]: Downloading https://files.pythonhosted.org/packages/5b/51/2593a89ae8d2d69617a6f1d646d8866c619b5240da5300d1ec06abdc4862/spark_dataframe_tools-0.2.0.tar.gz
+[2023-07-02 11:03:46] WARNING root fetch - processPackages [nonebot-plugin-spark-gpt]: Skipping package: exceeds size limit 11134661>=10485760
+[2023-07-02 11:03:46] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-spark-gpt] error
+[2023-07-02 11:03:46] INFO root fetch - processPackages [equilibrator-api]: Downloading https://files.pythonhosted.org/packages/15/fc/4024b4ba267b0ca33fc065f080e15530bb55c6e029f26c3f63478b27b983/equilibrator-api-0.4.7.tar.gz
+[2023-07-02 11:03:46] INFO root fetch - processPackages [bbrl-gymnasium]: Downloading https://files.pythonhosted.org/packages/25/f1/0d0c566099018fbee65b4b6cf54a26afb69f2048b5e40ec2cfda0b9e1aa6/bbrl_gymnasium-0.1.9.tar.gz
+[2023-07-02 11:03:46] INFO root fetch - processPackages [polywrap-sys-config-bundle]: Downloading https://files.pythonhosted.org/packages/44/c2/8856f21f56fc2ecceb931ec7d67e2b45085f58a4f7d4031e543586a0f469/polywrap_sys_config_bundle-0.1.0a2.tar.gz
+[2023-07-02 11:03:46] INFO root fetch - processPackages [equilibrator-api]: Downloading https://files.pythonhosted.org/packages/94/6a/1a0719d3288bde3d52a6c31f4fd0f97d7fc7e0e91674bb3626fb3a7dba0d/equilibrator-api-0.4.8b1.tar.gz
+[2023-07-02 11:03:46] INFO root fetch - processPackages [bbrl-gymnasium]: executing diffoscope
+[2023-07-02 11:03:46] INFO root fetch - processPackages [bbrl-gymnasium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbrl_gymnasium-0.1.8.tar.gz tmp/bbrl_gymnasium-0.1.9.tar.gz --markdown 20230702/b/bbrl-gymnasium/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 11:03:46] INFO root fetch - processPackages [spark-dataframe-tools]: Downloading https://files.pythonhosted.org/packages/7c/3b/2435ebb6e4a9c189becedb98786f99699ed4ba035ce12c71f4c4034f9acd/spark_dataframe_tools-0.3.0.tar.gz
+[2023-07-02 11:03:47] INFO root fetch - processPackages [polywrap-sys-config-bundle]: executing diffoscope
+[2023-07-02 11:03:47] INFO root fetch - processPackages [polywrap-sys-config-bundle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polywrap_sys_config_bundle-0.1.0a1.tar.gz tmp/polywrap_sys_config_bundle-0.1.0a2.tar.gz --markdown 20230702/p/polywrap-sys-config-bundle/0.1.0a1-0.1.0a2/diff.md --exclude *.pyd
+[2023-07-02 11:03:47] INFO root fetch - processPackages [equilibrator-api]: executing diffoscope
+[2023-07-02 11:03:47] INFO root fetch - processPackages [equilibrator-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/equilibrator-api-0.4.7.tar.gz tmp/equilibrator-api-0.4.8b1.tar.gz --markdown 20230702/e/equilibrator-api/0.4.7-0.4.8b1/diff.md --exclude *.pyd
+[2023-07-02 11:03:47] INFO root fetch - processPackages [spark-dataframe-tools]: executing diffoscope
+[2023-07-02 11:03:47] INFO root fetch - processPackages [spark-dataframe-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_dataframe_tools-0.2.0.tar.gz tmp/spark_dataframe_tools-0.3.0.tar.gz --markdown 20230702/s/spark-dataframe-tools/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-02 11:03:47] INFO root fetch - processPackages [temboz]: Downloading https://files.pythonhosted.org/packages/1b/7e/0a49978e18abbf63577347e3c0049de85a8db07033cb49601356f2d59ee3/temboz-4.9.tar.gz
+[2023-07-02 11:03:47] INFO root fetch - processPackages [temboz]: executing diffoscope
+[2023-07-02 11:03:47] INFO root fetch - processPackages [temboz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/temboz-4.8.tar.gz tmp/temboz-4.9.tar.gz --markdown 20230702/t/temboz/4.8-4.9/diff.md --exclude *.pyd
+[2023-07-02 11:03:48] INFO root fetch - processPackages [bbrl-gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/bbrl_gymnasium-0.1.8.tar.gz]
+[2023-07-02 11:03:48] INFO root fetch - processPackages [bbrl-gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/bbrl_gymnasium-0.1.9.tar.gz]
+[2023-07-02 11:03:48] INFO root fetch - main [MainThread]: End processing [bbrl-gymnasium]: success
+[2023-07-02 11:03:48] INFO root fetch - processPackages [spark-dataframe-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_dataframe_tools-0.2.0.tar.gz]
+[2023-07-02 11:03:48] INFO root fetch - processPackages [spark-dataframe-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_dataframe_tools-0.3.0.tar.gz]
+[2023-07-02 11:03:48] INFO root fetch - main [MainThread]: End processing [spark-dataframe-tools]: success
+[2023-07-02 11:03:48] INFO root fetch - processPackages [polywrap-sys-config-bundle]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_sys_config_bundle-0.1.0a1.tar.gz]
+[2023-07-02 11:03:48] INFO root fetch - processPackages [polywrap-sys-config-bundle]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_sys_config_bundle-0.1.0a2.tar.gz]
+[2023-07-02 11:03:48] INFO root fetch - main [MainThread]: End processing [polywrap-sys-config-bundle]: success
+[2023-07-02 11:03:53] INFO root fetch - processPackages [temboz]: Remove: archive file [/home/abi/fetcher/tmp/temboz-4.8.tar.gz]
+[2023-07-02 11:03:53] INFO root fetch - processPackages [temboz]: Remove: archive file [/home/abi/fetcher/tmp/temboz-4.9.tar.gz]
+[2023-07-02 11:03:53] INFO root fetch - main [MainThread]: End processing [temboz]: success
+[2023-07-02 11:04:41] INFO root fetch - processPackages [equilibrator-api]: Remove: archive file [/home/abi/fetcher/tmp/equilibrator-api-0.4.7.tar.gz]
+[2023-07-02 11:04:41] INFO root fetch - processPackages [equilibrator-api]: Remove: archive file [/home/abi/fetcher/tmp/equilibrator-api-0.4.8b1.tar.gz]
+[2023-07-02 11:04:41] INFO root fetch - main [MainThread]: End processing [equilibrator-api]: success
+[2023-07-02 11:04:41] INFO root fetch - main [MainThread]: Store serial: [18727392]
