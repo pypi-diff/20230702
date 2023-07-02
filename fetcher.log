@@ -7190,3 +7190,32 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 11:46:46] INFO root fetch - processPackages [cikuu]: Remove: archive file [/home/abi/fetcher/tmp/cikuu-2022.8.6.tar.gz]
 [2023-07-02 11:46:46] INFO root fetch - main [MainThread]: End processing [cikuu]: success
 [2023-07-02 11:46:46] INFO root fetch - main [MainThread]: Store serial: [18727627]
+[2023-07-02 11:51:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18727627]
+[2023-07-02 11:51:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-02 11:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mostats
+[2023-07-02 11:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bbrl
+[2023-07-02 11:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aws-vpclattice-prealpha
+[2023-07-02 11:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lamindb_setup
+[2023-07-02 11:51:54] WARNING root fetch - processPackages [mostats]: Skipping, unable to determine old version
+[2023-07-02 11:51:54] INFO root fetch - main [MainThread]: End processing [mostats] error
+[2023-07-02 11:51:54] INFO root fetch - processPackages [aws-vpclattice-prealpha]: New version: [0.4.8] Old Version: [0.0.5]
+[2023-07-02 11:51:54] INFO root fetch - processPackages [lamindb_setup]: New version: [0.48.1] Old Version: [0.48.0]
+[2023-07-02 11:51:54] INFO root fetch - processPackages [bbrl]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 11:51:54] INFO root fetch - processPackages [bbrl]: Downloading https://files.pythonhosted.org/packages/d7/e8/97d4e9c8c3e237255308ae545cb43a8d28b7e30c6aaf1032c434d4587efd/bbrl-0.1.8.tar.gz
+[2023-07-02 11:51:54] INFO root fetch - processPackages [aws-vpclattice-prealpha]: Downloading https://files.pythonhosted.org/packages/7c/ec/81375feaeef982d98a7b40ab2a588af6f9de7663d315fcf9bb91d04db551/aws-vpclattice-prealpha-0.0.5.tar.gz
+[2023-07-02 11:51:54] WARNING root fetch - processPackages [bbrl]: Skipping package: exceeds size limit 95850648>=10485760
+[2023-07-02 11:51:54] INFO root fetch - main [MainThread]: End processing [bbrl] error
+[2023-07-02 11:51:55] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/e1/6a/f22e23dc298dd796df8325c49816027760d02d7407983a92ef4a96a0a3e4/lamindb_setup-0.48.0.tar.gz
+[2023-07-02 11:51:55] INFO root fetch - processPackages [aws-vpclattice-prealpha]: Downloading https://files.pythonhosted.org/packages/e5/ac/135ec4e241c1ee3399f4990859860004c5ef9ce399df09d05d06e6d941a9/aws-vpclattice-prealpha-0.4.8.tar.gz
+[2023-07-02 11:51:55] INFO root fetch - processPackages [aws-vpclattice-prealpha]: executing diffoscope
+[2023-07-02 11:51:55] INFO root fetch - processPackages [aws-vpclattice-prealpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-vpclattice-prealpha-0.0.5.tar.gz tmp/aws-vpclattice-prealpha-0.4.8.tar.gz --markdown 20230702/a/aws-vpclattice-prealpha/0.0.5-0.4.8/diff.md --exclude *.pyd
+[2023-07-02 11:51:55] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/78/48/1cd15f7b622824f8be147b774848d2fd476cd970f7623263ff98cf6d110d/lamindb_setup-0.48.1.tar.gz
+[2023-07-02 11:51:55] INFO root fetch - processPackages [lamindb_setup]: executing diffoscope
+[2023-07-02 11:51:55] INFO root fetch - processPackages [lamindb_setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb_setup-0.48.0.tar.gz tmp/lamindb_setup-0.48.1.tar.gz --markdown 20230702/l/lamindb_setup/0.48.0-0.48.1/diff.md --exclude *.pyd
+[2023-07-02 11:51:56] INFO root fetch - processPackages [aws-vpclattice-prealpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-vpclattice-prealpha-0.0.5.tar.gz]
+[2023-07-02 11:51:56] INFO root fetch - processPackages [aws-vpclattice-prealpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-vpclattice-prealpha-0.4.8.tar.gz]
+[2023-07-02 11:51:56] INFO root fetch - main [MainThread]: End processing [aws-vpclattice-prealpha]: success
+[2023-07-02 11:51:57] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.48.0.tar.gz]
+[2023-07-02 11:51:57] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.48.1.tar.gz]
+[2023-07-02 11:51:57] INFO root fetch - main [MainThread]: End processing [lamindb_setup]: success
+[2023-07-02 11:51:57] INFO root fetch - main [MainThread]: Store serial: [18727644]
