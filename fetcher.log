@@ -16648,3 +16648,15 @@ AssertionError: tmp/Cliente-0.0.4-py3.10.egg does not exist
 [2023-07-02 23:20:31] INFO root fetch - processPackages [face-rhythm]: Remove: archive file [/home/abi/fetcher/tmp/face_rhythm-0.1.1.tar.gz]
 [2023-07-02 23:20:31] INFO root fetch - main [MainThread]: End processing [face-rhythm]: success
 [2023-07-02 23:20:31] INFO root fetch - main [MainThread]: Store serial: [18731604]
+[2023-07-02 23:25:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18731604]
+[2023-07-02 23:25:40] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-02 23:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atmoswing-vigicrues
+[2023-07-02 23:25:40] INFO root fetch - processPackages [atmoswing-vigicrues]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-02 23:25:40] INFO root fetch - processPackages [atmoswing-vigicrues]: Downloading https://files.pythonhosted.org/packages/f2/cb/64cffb345e26a6e4e4a44884a3801c173711d68f43d1a415d6f7353911a1/atmoswing-vigicrues-1.1.4.tar.gz
+[2023-07-02 23:25:41] INFO root fetch - processPackages [atmoswing-vigicrues]: Downloading https://files.pythonhosted.org/packages/f0/3a/b78c803e674c263d4ad75c32ab24104c03ac9b77689831a58e77f7538780/atmoswing-vigicrues-1.1.5.tar.gz
+[2023-07-02 23:25:41] INFO root fetch - processPackages [atmoswing-vigicrues]: executing diffoscope
+[2023-07-02 23:25:41] INFO root fetch - processPackages [atmoswing-vigicrues]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atmoswing-vigicrues-1.1.4.tar.gz tmp/atmoswing-vigicrues-1.1.5.tar.gz --markdown 20230702/a/atmoswing-vigicrues/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-02 23:25:42] INFO root fetch - processPackages [atmoswing-vigicrues]: Remove: archive file [/home/abi/fetcher/tmp/atmoswing-vigicrues-1.1.4.tar.gz]
+[2023-07-02 23:25:42] INFO root fetch - processPackages [atmoswing-vigicrues]: Remove: archive file [/home/abi/fetcher/tmp/atmoswing-vigicrues-1.1.5.tar.gz]
+[2023-07-02 23:25:42] INFO root fetch - main [MainThread]: End processing [atmoswing-vigicrues]: success
+[2023-07-02 23:25:42] INFO root fetch - main [MainThread]: Store serial: [18731607]
