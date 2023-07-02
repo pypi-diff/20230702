@@ -5502,3 +5502,50 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 09:21:37] INFO root fetch - processPackages [pythresh]: Remove: archive file [/home/abi/fetcher/tmp/pythresh-0.3.2.tar.gz]
 [2023-07-02 09:21:37] INFO root fetch - main [MainThread]: End processing [pythresh]: success
 [2023-07-02 09:21:37] INFO root fetch - main [MainThread]: Store serial: [18726957]
+[2023-07-02 09:26:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726957]
+[2023-07-02 09:26:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-02 09:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: icepool
+[2023-07-02 09:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydatawork
+[2023-07-02 09:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfq-nightly
+[2023-07-02 09:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aramgg-poro
+[2023-07-02 09:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: embedded-tools
+[2023-07-02 09:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: i3-sway-switch-window
+[2023-07-02 09:26:45] WARNING root fetch - processPackages [embedded-tools]: Skipping, unable to determine old version
+[2023-07-02 09:26:45] INFO root fetch - main [MainThread]: End processing [embedded-tools] error
+[2023-07-02 09:26:45] INFO root fetch - processPackages [aramgg-poro]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-02 09:26:45] INFO root fetch - processPackages [i3-sway-switch-window]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-02 09:26:45] INFO root fetch - processPackages [icepool]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-02 09:26:45] INFO root fetch - processPackages [pydatawork]: New version: [0.17.2.1] Old Version: [0.17.2.0]
+[2023-07-02 09:26:46] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230701] Old Version: [0.7.3.dev20230630]
+[2023-07-02 09:26:46] INFO root fetch - processPackages [i3-sway-switch-window]: Downloading https://files.pythonhosted.org/packages/c3/fb/2131f7a9e7f3cbdb977c331984419f7bb8f5383f9a0ebf3e8174ca0f6ad8/i3_sway_switch_window-0.2.0.tar.gz
+[2023-07-02 09:26:46] INFO root fetch - processPackages [aramgg-poro]: Downloading https://files.pythonhosted.org/packages/7c/bc/ac1063a7f266294f435bcffccaa8496498aeef347e82a00b6181aec2c6c7/aramgg-poro-0.0.4.tar.gz
+[2023-07-02 09:26:46] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/47/3f/56cbdddfc69e437b76d1cf522b3dc0f8cd2e1fdccc5d34047e389d0f5e1e/pydatawork-0.17.2.0.tar.gz
+[2023-07-02 09:26:46] INFO root fetch - processPackages [icepool]: Downloading https://files.pythonhosted.org/packages/94/88/20b99789579285e85ed1bc1b2de8bbdca61acab6696cc2621582ca9cd72e/icepool-0.8.0.tar.gz
+[2023-07-02 09:26:46] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/ad/ce/daa36bc350edda8e7124b0bf41c7a21dc2e634d3f8ed296ce418a1a9456d/tfq_nightly-0.7.3.dev20230630-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-02 09:26:46] INFO root fetch - processPackages [i3-sway-switch-window]: Downloading https://files.pythonhosted.org/packages/5f/b2/bd99baa275e4770517d961d6ddd42caab73a9232d4f1444f4ad638f2412f/i3_sway_switch_window-0.2.1.tar.gz
+[2023-07-02 09:26:46] INFO root fetch - processPackages [aramgg-poro]: Downloading https://files.pythonhosted.org/packages/53/ca/19efad535e1e452321395e2e83abac43d07965a56424952a46b72d1bf77e/aramgg-poro-0.0.5.tar.gz
+[2023-07-02 09:26:46] INFO root fetch - processPackages [aramgg-poro]: executing diffoscope
+[2023-07-02 09:26:46] INFO root fetch - processPackages [aramgg-poro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aramgg-poro-0.0.4.tar.gz tmp/aramgg-poro-0.0.5.tar.gz --markdown 20230702/a/aramgg-poro/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-02 09:26:46] INFO root fetch - processPackages [i3-sway-switch-window]: executing diffoscope
+[2023-07-02 09:26:46] INFO root fetch - processPackages [i3-sway-switch-window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i3_sway_switch_window-0.2.0.tar.gz tmp/i3_sway_switch_window-0.2.1.tar.gz --markdown 20230702/i/i3-sway-switch-window/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-02 09:26:46] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/01/95/438be5cbe4432d32885a923ec8085aa30e02a068fb8b10a5056c86e74e48/pydatawork-0.17.2.1.tar.gz
+[2023-07-02 09:26:46] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-07-02 09:26:46] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.17.2.0.tar.gz tmp/pydatawork-0.17.2.1.tar.gz --markdown 20230702/p/pydatawork/0.17.2.0-0.17.2.1/diff.md --exclude *.pyd
+[2023-07-02 09:26:46] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10822715>=10485760
+[2023-07-02 09:26:46] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-07-02 09:26:46] INFO root fetch - processPackages [icepool]: Downloading https://files.pythonhosted.org/packages/89/19/d048a9d0f7be7d936293f865a84bdffde2fd5b06a3b5773d75e376762197/icepool-0.9.0.tar.gz
+[2023-07-02 09:26:47] INFO root fetch - processPackages [icepool]: executing diffoscope
+[2023-07-02 09:26:47] INFO root fetch - processPackages [icepool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icepool-0.8.0.tar.gz tmp/icepool-0.9.0.tar.gz --markdown 20230702/i/icepool/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-02 09:26:47] INFO root fetch - processPackages [aramgg-poro]: Remove: archive file [/home/abi/fetcher/tmp/aramgg-poro-0.0.4.tar.gz]
+[2023-07-02 09:26:47] INFO root fetch - processPackages [aramgg-poro]: Remove: archive file [/home/abi/fetcher/tmp/aramgg-poro-0.0.5.tar.gz]
+[2023-07-02 09:26:47] INFO root fetch - main [MainThread]: End processing [aramgg-poro]: success
+[2023-07-02 09:26:47] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.17.2.0.tar.gz]
+[2023-07-02 09:26:47] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.17.2.1.tar.gz]
+[2023-07-02 09:26:47] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-07-02 09:26:47] INFO root fetch - processPackages [i3-sway-switch-window]: Remove: archive file [/home/abi/fetcher/tmp/i3_sway_switch_window-0.2.0.tar.gz]
+[2023-07-02 09:26:47] INFO root fetch - processPackages [i3-sway-switch-window]: Remove: archive file [/home/abi/fetcher/tmp/i3_sway_switch_window-0.2.1.tar.gz]
+[2023-07-02 09:26:47] INFO root fetch - main [MainThread]: End processing [i3-sway-switch-window]: success
+[2023-07-02 09:26:48] INFO root fetch - processPackages [icepool]: Remove: archive file [/home/abi/fetcher/tmp/icepool-0.8.0.tar.gz]
+[2023-07-02 09:26:48] INFO root fetch - processPackages [icepool]: Remove: archive file [/home/abi/fetcher/tmp/icepool-0.9.0.tar.gz]
+[2023-07-02 09:26:48] INFO root fetch - main [MainThread]: End processing [icepool]: success
+[2023-07-02 09:26:48] INFO root fetch - main [MainThread]: Store serial: [18726975]
