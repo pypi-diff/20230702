@@ -2585,3 +2585,24 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 04:08:27] INFO root fetch - processPackages [mapillary-tools]: Remove: archive file [/home/abi/fetcher/tmp/mapillary_tools-0.9.5.tar.gz]
 [2023-07-02 04:08:27] INFO root fetch - main [MainThread]: End processing [mapillary-tools]: success
 [2023-07-02 04:08:27] INFO root fetch - main [MainThread]: Store serial: [18725779]
+[2023-07-02 04:13:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18725779]
+[2023-07-02 04:13:36] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-02 04:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: JsMacrosAC
+[2023-07-02 04:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: meilisearch-tui
+[2023-07-02 04:13:36] INFO root fetch - processPackages [meilisearch-tui]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-02 04:13:36] INFO root fetch - processPackages [JsMacrosAC]: New version: [1.8.4.8263756] Old Version: [1.8.4.8260804]
+[2023-07-02 04:13:36] INFO root fetch - processPackages [JsMacrosAC]: Downloading https://files.pythonhosted.org/packages/81/be/8240905765353670455c82d54636efe9dad886832027f0dbb77d87b74e92/JsMacrosAC-1.8.4.8260804.tar.gz
+[2023-07-02 04:13:36] INFO root fetch - processPackages [meilisearch-tui]: Downloading https://files.pythonhosted.org/packages/b5/97/d060d03c50ce17b96a9c096d7bcce1a9ff73bb273dd9bb8573991ae24285/meilisearch_tui-0.8.0.tar.gz
+[2023-07-02 04:13:36] INFO root fetch - processPackages [JsMacrosAC]: Downloading https://files.pythonhosted.org/packages/46/cc/a26bd40a56b42bf97f9f9a1009ed5a4dd499c1ad96435d6f92515c01c957/JsMacrosAC-1.8.4.8263756.tar.gz
+[2023-07-02 04:13:36] INFO root fetch - processPackages [JsMacrosAC]: executing diffoscope
+[2023-07-02 04:13:36] INFO root fetch - processPackages [JsMacrosAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JsMacrosAC-1.8.4.8260804.tar.gz tmp/JsMacrosAC-1.8.4.8263756.tar.gz --markdown 20230702/J/JsMacrosAC/1.8.4.8260804-1.8.4.8263756/diff.md --exclude *.pyd
+[2023-07-02 04:13:36] INFO root fetch - processPackages [meilisearch-tui]: Downloading https://files.pythonhosted.org/packages/b1/4b/073602901ba299494508347fb0c73e29ef843cb11cc5f4376af1d9abe05f/meilisearch_tui-0.8.1.tar.gz
+[2023-07-02 04:13:36] INFO root fetch - processPackages [meilisearch-tui]: executing diffoscope
+[2023-07-02 04:13:36] INFO root fetch - processPackages [meilisearch-tui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meilisearch_tui-0.8.0.tar.gz tmp/meilisearch_tui-0.8.1.tar.gz --markdown 20230702/m/meilisearch-tui/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-02 04:13:37] INFO root fetch - processPackages [meilisearch-tui]: Remove: archive file [/home/abi/fetcher/tmp/meilisearch_tui-0.8.0.tar.gz]
+[2023-07-02 04:13:37] INFO root fetch - processPackages [meilisearch-tui]: Remove: archive file [/home/abi/fetcher/tmp/meilisearch_tui-0.8.1.tar.gz]
+[2023-07-02 04:13:37] INFO root fetch - main [MainThread]: End processing [meilisearch-tui]: success
+[2023-07-02 04:13:41] INFO root fetch - processPackages [JsMacrosAC]: Remove: archive file [/home/abi/fetcher/tmp/JsMacrosAC-1.8.4.8260804.tar.gz]
+[2023-07-02 04:13:41] INFO root fetch - processPackages [JsMacrosAC]: Remove: archive file [/home/abi/fetcher/tmp/JsMacrosAC-1.8.4.8263756.tar.gz]
+[2023-07-02 04:13:41] INFO root fetch - main [MainThread]: End processing [JsMacrosAC]: success
+[2023-07-02 04:13:41] INFO root fetch - main [MainThread]: Store serial: [18725787]
