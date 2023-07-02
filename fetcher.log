@@ -9235,3 +9235,88 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 14:53:48] INFO root fetch - processPackages [adao]: Remove: archive file [/home/abi/fetcher/tmp/adao-9.9.0.1.tar.gz]
 [2023-07-02 14:53:48] INFO root fetch - main [MainThread]: End processing [adao]: success
 [2023-07-02 14:53:48] INFO root fetch - main [MainThread]: Store serial: [18728579]
+[2023-07-02 14:58:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18728579]
+[2023-07-02 14:58:58] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-02 14:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-friesian
+[2023-07-02 14:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl
+[2023-07-02 14:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-dllib-spark2
+[2023-07-02 14:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moosez
+[2023-07-02 14:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llamabot
+[2023-07-02 14:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-orca-spark2
+[2023-07-02 14:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-friesian-spark2
+[2023-07-02 14:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-chronos-spark2
+[2023-07-02 14:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-spark2
+[2023-07-02 14:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: climalysis
+[2023-07-02 14:58:58] INFO root fetch - processPackages [bigdl-dllib-spark2]: New version: [2.4.0b20230702] Old Version: [2.4.0b20230701]
+[2023-07-02 14:58:58] INFO root fetch - processPackages [llamabot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 14:58:58] INFO root fetch - processPackages [bigdl-friesian]: New version: [2.4.0b20230702] Old Version: [2.4.0b20230701]
+[2023-07-02 14:58:58] INFO root fetch - processPackages [climalysis]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-02 14:58:58] INFO root fetch - processPackages [moosez]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-07-02 14:58:58] INFO root fetch - processPackages [bigdl]: New version: [2.4.0b20230702] Old Version: [2.4.0b20230701]
+[2023-07-02 14:58:58] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/31/05/7d4721877f2dde80d5bd40c84773d24b5486a794e78758d5c6c51a0e0ee0/llamabot-0.0.8.tar.gz
+[2023-07-02 14:58:58] INFO root fetch - processPackages [bigdl-orca-spark2]: New version: [2.4.0b20230702] Old Version: [2.4.0b20230701]
+[2023-07-02 14:58:58] INFO root fetch - processPackages [bigdl-friesian-spark2]: New version: [2.4.0b20230702] Old Version: [2.4.0b20230701]
+[2023-07-02 14:58:58] INFO root fetch - processPackages [climalysis]: Downloading https://files.pythonhosted.org/packages/32/d0/bad2777a70fd495d986ec139fc2e6fc68e9d2276ebcd240865c3f50fdc73/climalysis-0.0.1.tar.gz
+[2023-07-02 14:58:58] INFO root fetch - processPackages [bigdl-spark2]: New version: [2.4.0b20230702] Old Version: [2.4.0b20230701]
+[2023-07-02 14:58:58] INFO root fetch - processPackages [bigdl-chronos-spark2]: New version: [2.4.0b20230702] Old Version: [2.4.0b20230701]
+[2023-07-02 14:58:59] INFO root fetch - processPackages [bigdl-dllib-spark2]: Downloading https://files.pythonhosted.org/packages/56/0b/2d61f50d0c36bb8d51dc89e1cc7001915d4b0c27213ab16e7d0da1472a23/bigdl-dllib-spark2-2.4.0b20230701.tar.gz
+[2023-07-02 14:58:59] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/fe/47/c0131eb6cc84b6079961fbdc21c379f11124e3c0d71f4d1f247b9ddaf196/bigdl-2.4.0b20230701-py3-none-manylinux1_x86_64.whl
+[2023-07-02 14:58:59] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/eb/c4/3eae58722fabb1fd35ac1388b4943a207452d7f5102dab2e4326639b623e/moosez-2.1.7.tar.gz
+[2023-07-02 14:58:59] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/a2/a3/8a9b45b60dce519042c8cfe43c16ce3122fbc019c99bdf9a513b3cd1efb0/bigdl_friesian-2.4.0b20230701-py3-none-manylinux1_x86_64.whl
+[2023-07-02 14:58:59] INFO root fetch - processPackages [bigdl-orca-spark2]: Downloading https://files.pythonhosted.org/packages/7b/a5/cd63373d6f1d18378dc3d1572cd46b0d34120eb32a79f82886f83b04dfe5/bigdl_orca_spark2-2.4.0b20230701-py3-none-manylinux1_x86_64.whl
+[2023-07-02 14:58:59] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/8c/77/360013b912689bcadc9699ffbfd0c59717ab5c032c425ce8f661e39484f5/llamabot-0.0.9.tar.gz
+[2023-07-02 14:58:59] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/f6/0f/04374548fda8c375ef5b0c6ba0946c43e2c2390542296b97b07ca1dd1d91/bigdl_friesian_spark2-2.4.0b20230701-py3-none-manylinux1_x86_64.whl
+[2023-07-02 14:58:59] INFO root fetch - processPackages [climalysis]: Downloading https://files.pythonhosted.org/packages/04/27/6b7ef7199b71b9b07229b33f4d477393cd4f20267eedea8e79ea958a4dab/climalysis-0.0.2.tar.gz
+[2023-07-02 14:58:59] WARNING root fetch - processPackages [bigdl-dllib-spark2]: Skipping package: exceeds size limit 53638806>=10485760
+[2023-07-02 14:58:59] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/e4/ec/39ac71ed1df1ba237635c9481c367feee429617a663c842a7c1f2d8b7320/bigdl_spark2-2.4.0b20230701-py3-none-manylinux1_x86_64.whl
+[2023-07-02 14:58:59] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark2] error
+[2023-07-02 14:58:59] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/2e/c2/06d09dd00d50d8758d101637511bb422e77a3a4c9955a575a32ea8501504/bigdl_chronos_spark2-2.4.0b20230701-py3-none-manylinux1_x86_64.whl
+[2023-07-02 14:58:59] INFO root fetch - processPackages [llamabot]: executing diffoscope
+[2023-07-02 14:58:59] INFO root fetch - processPackages [llamabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamabot-0.0.8.tar.gz tmp/llamabot-0.0.9.tar.gz --markdown 20230702/l/llamabot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 14:58:59] INFO root fetch - processPackages [climalysis]: executing diffoscope
+[2023-07-02 14:58:59] INFO root fetch - processPackages [climalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climalysis-0.0.1.tar.gz tmp/climalysis-0.0.2.tar.gz --markdown 20230702/c/climalysis/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-02 14:58:59] WARNING root fetch - processPackages [bigdl-orca-spark2]: Skipping package: exceeds size limit 20369681>=10485760
+[2023-07-02 14:58:59] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark2] error
+[2023-07-02 14:58:59] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/c2/b9/9ba3e44254ad29decd7b08760b84b94f2989dea3bc65cac9ae71ea9f0357/moosez-2.1.8.tar.gz
+[2023-07-02 14:58:59] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/76/8a/1b7f192b76535f315e4521e2f634a843d78011194e29856d3862e8d34fbe/bigdl_friesian-2.4.0b20230702-py3-none-manylinux1_x86_64.whl
+[2023-07-02 14:58:59] INFO root fetch - processPackages [moosez]: executing diffoscope
+[2023-07-02 14:58:59] INFO root fetch - processPackages [moosez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moosez-2.1.7.tar.gz tmp/moosez-2.1.8.tar.gz --markdown 20230702/m/moosez/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-07-02 14:58:59] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/8a/91/c732c0fc02c2503634e0919ebdf34a08737720fc5bdb4b4229601b6cc839/bigdl-2.4.0b20230702-py3-none-manylinux1_x86_64.whl
+[2023-07-02 14:58:59] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/95/6b/f35806a418f7f65bc5846d022eef44074eae85e5db25368a6310d766bd08/bigdl_spark2-2.4.0b20230702-py3-none-manylinux1_x86_64.whl
+[2023-07-02 14:58:59] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/a7/c4/c26253f87d4b957efdf814321bff84dc68fb357c4fac73a9174bca64bed8/bigdl_friesian_spark2-2.4.0b20230702-py3-none-manylinux1_x86_64.whl
+[2023-07-02 14:58:59] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-07-02 14:58:59] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.4.0b20230701-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.4.0b20230702-py3-none-manylinux1_x86_64.whl.zip --markdown 20230702/b/bigdl/2.4.0b20230701-2.4.0b20230702/diff.md --exclude *.pyd
+[2023-07-02 14:58:59] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/05/fa/dca899942770e32eeb0a1603dcbe2423a822de30eaf3be611c3a686bbfe4/bigdl_chronos_spark2-2.4.0b20230702-py3-none-manylinux1_x86_64.whl
+[2023-07-02 14:58:59] INFO root fetch - processPackages [bigdl-friesian]: executing diffoscope
+[2023-07-02 14:58:59] INFO root fetch - processPackages [bigdl-friesian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian-2.4.0b20230701-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian-2.4.0b20230702-py3-none-manylinux1_x86_64.whl.zip --markdown 20230702/b/bigdl-friesian/2.4.0b20230701-2.4.0b20230702/diff.md --exclude *.pyd
+[2023-07-02 14:58:59] INFO root fetch - processPackages [bigdl-spark2]: executing diffoscope
+[2023-07-02 14:58:59] INFO root fetch - processPackages [bigdl-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark2-2.4.0b20230701-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark2-2.4.0b20230702-py3-none-manylinux1_x86_64.whl.zip --markdown 20230702/b/bigdl-spark2/2.4.0b20230701-2.4.0b20230702/diff.md --exclude *.pyd
+[2023-07-02 14:58:59] INFO root fetch - processPackages [bigdl-friesian-spark2]: executing diffoscope
+[2023-07-02 14:58:59] INFO root fetch - processPackages [bigdl-friesian-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark2-2.4.0b20230701-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark2-2.4.0b20230702-py3-none-manylinux1_x86_64.whl.zip --markdown 20230702/b/bigdl-friesian-spark2/2.4.0b20230701-2.4.0b20230702/diff.md --exclude *.pyd
+[2023-07-02 14:58:59] INFO root fetch - processPackages [bigdl-chronos-spark2]: executing diffoscope
+[2023-07-02 14:58:59] INFO root fetch - processPackages [bigdl-chronos-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark2-2.4.0b20230701-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark2-2.4.0b20230702-py3-none-manylinux1_x86_64.whl.zip --markdown 20230702/b/bigdl-chronos-spark2/2.4.0b20230701-2.4.0b20230702/diff.md --exclude *.pyd
+[2023-07-02 14:59:00] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.8.tar.gz]
+[2023-07-02 14:59:00] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.9.tar.gz]
+[2023-07-02 14:59:00] INFO root fetch - main [MainThread]: End processing [llamabot]: success
+[2023-07-02 14:59:00] INFO root fetch - processPackages [climalysis]: Remove: archive file [/home/abi/fetcher/tmp/climalysis-0.0.1.tar.gz]
+[2023-07-02 14:59:00] INFO root fetch - processPackages [climalysis]: Remove: archive file [/home/abi/fetcher/tmp/climalysis-0.0.2.tar.gz]
+[2023-07-02 14:59:00] INFO root fetch - main [MainThread]: End processing [climalysis]: success
+[2023-07-02 14:59:00] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.1.7.tar.gz]
+[2023-07-02 14:59:00] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.1.8.tar.gz]
+[2023-07-02 14:59:00] INFO root fetch - main [MainThread]: End processing [moosez]: success
+[2023-07-02 14:59:00] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230701-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-02 14:59:00] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230702-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-02 14:59:00] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-07-02 14:59:00] INFO root fetch - processPackages [bigdl-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark2-2.4.0b20230701-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-02 14:59:00] INFO root fetch - processPackages [bigdl-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark2-2.4.0b20230702-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-02 14:59:00] INFO root fetch - main [MainThread]: End processing [bigdl-spark2]: success
+[2023-07-02 14:59:01] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230701-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-02 14:59:01] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230702-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-02 14:59:01] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
+[2023-07-02 14:59:01] INFO root fetch - processPackages [bigdl-friesian-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark2-2.4.0b20230701-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-02 14:59:01] INFO root fetch - processPackages [bigdl-friesian-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark2-2.4.0b20230702-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-02 14:59:01] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark2]: success
+[2023-07-02 14:59:01] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230701-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-02 14:59:01] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230702-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-02 14:59:01] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
+[2023-07-02 14:59:01] INFO root fetch - main [MainThread]: Store serial: [18728606]
