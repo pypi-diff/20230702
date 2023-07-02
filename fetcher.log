@@ -10335,3 +10335,108 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 16:19:23] INFO root fetch - processPackages [inpost]: Remove: archive file [/home/abi/fetcher/tmp/inpost-0.1.5a1.tar.gz]
 [2023-07-02 16:19:23] INFO root fetch - main [MainThread]: End processing [inpost]: success
 [2023-07-02 16:19:23] INFO root fetch - main [MainThread]: Store serial: [18729049]
+[2023-07-02 16:24:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18729049]
+[2023-07-02 16:24:32] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-02 16:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llamabot
+[2023-07-02 16:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyQt-Fluent-Widgets
+[2023-07-02 16:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: taxpasta
+[2023-07-02 16:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: typing-extensions
+[2023-07-02 16:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: powerdns-secondary-cleaner
+[2023-07-02 16:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyngleton
+[2023-07-02 16:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pybw-comic
+[2023-07-02 16:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spanishconjugator
+[2023-07-02 16:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyCompGeomAlgorithms
+[2023-07-02 16:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-cloud-storages
+[2023-07-02 16:24:32] WARNING root fetch - processPackages [powerdns-secondary-cleaner]: Skipping, unable to determine old version
+[2023-07-02 16:24:32] INFO root fetch - processPackages [powerdns-secondary-cleaner]: Start processing: spanishconjugator
+[2023-07-02 16:24:32] INFO root fetch - main [MainThread]: End processing [powerdns-secondary-cleaner] error
+[2023-07-02 16:24:32] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: New version: [1.0.0] Old Version: [0.9.9]
+[2023-07-02 16:24:32] INFO root fetch - processPackages [pybw-comic]: New version: [23.7.2.2] Old Version: [23.7.2.1]
+[2023-07-02 16:24:32] INFO root fetch - processPackages [PyCompGeomAlgorithms]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-02 16:24:32] WARNING root fetch - processPackages [pyngleton]: Skipping, unable to determine old version
+[2023-07-02 16:24:32] INFO root fetch - processPackages [pyngleton]: Start processing: aicoder
+[2023-07-02 16:24:32] INFO root fetch - main [MainThread]: End processing [pyngleton] error
+[2023-07-02 16:24:32] INFO root fetch - processPackages [taxpasta]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-02 16:24:32] INFO root fetch - processPackages [typing-extensions]: New version: [4.7.1] Old Version: [4.7.0rc1]
+[2023-07-02 16:24:32] INFO root fetch - processPackages [llamabot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 16:24:32] INFO root fetch - processPackages [aicoder]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-02 16:24:32] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-02 16:24:32] INFO root fetch - processPackages [django-cloud-storages]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-02 16:24:32] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/90/4c/80d57cccc87268b0def2342a6907427bef7c259c41eee546829d3d3c197c/aicoder-0.2.1-py3-none-any.whl
+[2023-07-02 16:24:32] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/31/05/7d4721877f2dde80d5bd40c84773d24b5486a794e78758d5c6c51a0e0ee0/llamabot-0.0.8.tar.gz
+[2023-07-02 16:24:32] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-02 16:24:32] INFO root fetch - processPackages [PyCompGeomAlgorithms]: Downloading https://files.pythonhosted.org/packages/30/8b/6e606d2d9e9edf6afe4106b9fc0602f260f70fefce85a767acd72ddd9ce0/PyCompGeomAlgorithms-1.0.8.tar.gz
+[2023-07-02 16:24:32] INFO root fetch - processPackages [taxpasta]: Downloading https://files.pythonhosted.org/packages/d5/2a/5b9cba4579eb974fa5c97eadf9703ba5e775ace2a3f17cc946893524dcf3/taxpasta-0.3.0.tar.gz
+[2023-07-02 16:24:32] INFO root fetch - processPackages [pybw-comic]: Downloading https://files.pythonhosted.org/packages/f8/6d/11d421c499e4bf3678f139894bc0ded0bb027d838021acc81769ef047594/pybw_comic-23.7.2.1.tar.gz
+[2023-07-02 16:24:32] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/45/99/a53cc088804e0ed85b809c5b42b2034e732e7a4299763ed6c8e1fad1f470/PyQt-Fluent-Widgets-0.9.9.tar.gz
+[2023-07-02 16:24:32] INFO root fetch - processPackages [django-cloud-storages]: Downloading https://files.pythonhosted.org/packages/dd/c7/42519d703bc3d130953c1a146c68b06cb9a568e1a9c2e7cbfcc297da34e2/django_cloud_storages-1.1.4.tar.gz
+[2023-07-02 16:24:32] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-02 16:24:32] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-02 16:24:32] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/a4/f5/f1385bb16759f1577b93dbb7a9cac4ebc7b4aa0e1436c94ac5c8efca3811/aicoder-0.2.2-py3-none-any.whl
+[2023-07-02 16:24:32] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-02 16:24:32] INFO root fetch - processPackages [typing-extensions]: Downloading https://files.pythonhosted.org/packages/3c/8b/0111dd7d6c1478bf83baa1cab85c686426c7a6274119aceb2bd9d35395ad/typing_extensions-4.7.1.tar.gz
+[2023-07-02 16:24:33] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-02 16:24:33] INFO root fetch - processPackages [aicoder]: executing diffoscope
+[2023-07-02 16:24:33] INFO root fetch - processPackages [aicoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicoder-0.2.1-py3-none-any.whl.zip tmp/aicoder-0.2.2-py3-none-any.whl.zip --markdown 20230702/a/aicoder/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-02 16:24:33] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/8c/77/360013b912689bcadc9699ffbfd0c59717ab5c032c425ce8f661e39484f5/llamabot-0.0.9.tar.gz
+[2023-07-02 16:24:33] INFO root fetch - processPackages [PyCompGeomAlgorithms]: Downloading https://files.pythonhosted.org/packages/d0/1b/e234c6881824a409fad78e30a10c197a21e5e573aa247b66bbc6153e9ca0/PyCompGeomAlgorithms-1.0.9.tar.gz
+[2023-07-02 16:24:33] INFO root fetch - processPackages [django-cloud-storages]: Downloading https://files.pythonhosted.org/packages/56/d5/f00f72b25d1883cf8fa500cab1202a9cf26f73ffeef626a9dd298cfd7670/django_cloud_storages-1.1.5.tar.gz
+[2023-07-02 16:24:33] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-02 16:24:33] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230702/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-02 16:24:33] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-02 16:24:33] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230702/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-02 16:24:33] INFO root fetch - processPackages [llamabot]: executing diffoscope
+[2023-07-02 16:24:33] INFO root fetch - processPackages [llamabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamabot-0.0.8.tar.gz tmp/llamabot-0.0.9.tar.gz --markdown 20230702/l/llamabot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 16:24:33] INFO root fetch - processPackages [taxpasta]: Downloading https://files.pythonhosted.org/packages/c9/39/0c6c644a82a71add5677978bce52c5ff7020e0c043f4aed385842436ae9c/taxpasta-0.4.0.tar.gz
+[2023-07-02 16:24:33] INFO root fetch - processPackages [typing-extensions]: executing diffoscope
+[2023-07-02 16:24:33] INFO root fetch - processPackages [typing-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typing_extensions-4.7.0rc1.tar.gz tmp/typing_extensions-4.7.1.tar.gz --markdown 20230702/t/typing-extensions/4.7.0rc1-4.7.1/diff.md --exclude *.pyd
+[2023-07-02 16:24:33] INFO root fetch - processPackages [PyCompGeomAlgorithms]: executing diffoscope
+[2023-07-02 16:24:33] INFO root fetch - processPackages [PyCompGeomAlgorithms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyCompGeomAlgorithms-1.0.8.tar.gz tmp/PyCompGeomAlgorithms-1.0.9.tar.gz --markdown 20230702/P/PyCompGeomAlgorithms/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-02 16:24:33] INFO root fetch - processPackages [pybw-comic]: Downloading https://files.pythonhosted.org/packages/d1/e6/ad01f106f6459e1b9a4c8ece8e84e34199da2370081c77bae16469028177/pybw_comic-23.7.2.2.tar.gz
+[2023-07-02 16:24:33] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/e0/2f/36e7e18eb7542380adb2331057ca5c1406ae0b329364513670662ee2797a/PyQt-Fluent-Widgets-1.0.0.tar.gz
+[2023-07-02 16:24:33] INFO root fetch - processPackages [django-cloud-storages]: executing diffoscope
+[2023-07-02 16:24:33] INFO root fetch - processPackages [django-cloud-storages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cloud_storages-1.1.4.tar.gz tmp/django_cloud_storages-1.1.5.tar.gz --markdown 20230702/d/django-cloud-storages/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-02 16:24:33] INFO root fetch - processPackages [pybw-comic]: executing diffoscope
+[2023-07-02 16:24:33] INFO root fetch - processPackages [pybw-comic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybw_comic-23.7.2.1.tar.gz tmp/pybw_comic-23.7.2.2.tar.gz --markdown 20230702/p/pybw-comic/23.7.2.1-23.7.2.2/diff.md --exclude *.pyd
+[2023-07-02 16:24:33] INFO root fetch - processPackages [taxpasta]: executing diffoscope
+[2023-07-02 16:24:33] INFO root fetch - processPackages [taxpasta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taxpasta-0.3.0.tar.gz tmp/taxpasta-0.4.0.tar.gz --markdown 20230702/t/taxpasta/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-02 16:24:33] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: executing diffoscope
+[2023-07-02 16:24:33] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt-Fluent-Widgets-0.9.9.tar.gz tmp/PyQt-Fluent-Widgets-1.0.0.tar.gz --markdown 20230702/P/PyQt-Fluent-Widgets/0.9.9-1.0.0/diff.md --exclude *.pyd
+[2023-07-02 16:24:34] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.2.1-py3-none-any.whl.zip]
+[2023-07-02 16:24:34] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.2.2-py3-none-any.whl.zip]
+[2023-07-02 16:24:34] INFO root fetch - processPackages [aicoder]: Start processing: wisedata
+[2023-07-02 16:24:34] INFO root fetch - main [MainThread]: End processing [aicoder]: success
+[2023-07-02 16:24:34] INFO root fetch - processPackages [typing-extensions]: Remove: archive file [/home/abi/fetcher/tmp/typing_extensions-4.7.0rc1.tar.gz]
+[2023-07-02 16:24:34] INFO root fetch - processPackages [typing-extensions]: Remove: archive file [/home/abi/fetcher/tmp/typing_extensions-4.7.1.tar.gz]
+[2023-07-02 16:24:34] INFO root fetch - main [MainThread]: End processing [typing-extensions]: success
+[2023-07-02 16:24:34] INFO root fetch - processPackages [wisedata]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-02 16:24:34] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-02 16:24:34] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-02 16:24:34] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-02 16:24:34] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-02 16:24:34] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.8.tar.gz]
+[2023-07-02 16:24:34] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.9.tar.gz]
+[2023-07-02 16:24:34] INFO root fetch - main [MainThread]: End processing [llamabot]: success
+[2023-07-02 16:24:34] INFO root fetch - processPackages [wisedata]: Downloading https://files.pythonhosted.org/packages/75/85/81c6287e74416455f6fa70948e45be3c77a4b65e3e910819fcfdcf4eb3a4/wisedata-1.0.6.tar.gz
+[2023-07-02 16:24:34] INFO root fetch - processPackages [django-cloud-storages]: Remove: archive file [/home/abi/fetcher/tmp/django_cloud_storages-1.1.4.tar.gz]
+[2023-07-02 16:24:34] INFO root fetch - processPackages [django-cloud-storages]: Remove: archive file [/home/abi/fetcher/tmp/django_cloud_storages-1.1.5.tar.gz]
+[2023-07-02 16:24:34] INFO root fetch - main [MainThread]: End processing [django-cloud-storages]: success
+[2023-07-02 16:24:35] INFO root fetch - processPackages [PyCompGeomAlgorithms]: Remove: archive file [/home/abi/fetcher/tmp/PyCompGeomAlgorithms-1.0.8.tar.gz]
+[2023-07-02 16:24:35] INFO root fetch - processPackages [PyCompGeomAlgorithms]: Remove: archive file [/home/abi/fetcher/tmp/PyCompGeomAlgorithms-1.0.9.tar.gz]
+[2023-07-02 16:24:35] INFO root fetch - main [MainThread]: End processing [PyCompGeomAlgorithms]: success
+[2023-07-02 16:24:35] INFO root fetch - processPackages [wisedata]: Downloading https://files.pythonhosted.org/packages/30/3d/39648257ceae1441bcb4db10fe2543422299097da07ffc3eb352bd424725/wisedata-1.0.7.tar.gz
+[2023-07-02 16:24:35] INFO root fetch - processPackages [wisedata]: executing diffoscope
+[2023-07-02 16:24:35] INFO root fetch - processPackages [wisedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wisedata-1.0.6.tar.gz tmp/wisedata-1.0.7.tar.gz --markdown 20230702/w/wisedata/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-02 16:24:36] INFO root fetch - processPackages [pybw-comic]: Remove: archive file [/home/abi/fetcher/tmp/pybw_comic-23.7.2.1.tar.gz]
+[2023-07-02 16:24:36] INFO root fetch - processPackages [pybw-comic]: Remove: archive file [/home/abi/fetcher/tmp/pybw_comic-23.7.2.2.tar.gz]
+[2023-07-02 16:24:36] INFO root fetch - main [MainThread]: End processing [pybw-comic]: success
+[2023-07-02 16:24:36] INFO root fetch - processPackages [wisedata]: Remove: archive file [/home/abi/fetcher/tmp/wisedata-1.0.6.tar.gz]
+[2023-07-02 16:24:36] INFO root fetch - processPackages [wisedata]: Remove: archive file [/home/abi/fetcher/tmp/wisedata-1.0.7.tar.gz]
+[2023-07-02 16:24:36] INFO root fetch - main [MainThread]: End processing [wisedata]: success
+[2023-07-02 16:24:37] INFO root fetch - processPackages [taxpasta]: Remove: archive file [/home/abi/fetcher/tmp/taxpasta-0.3.0.tar.gz]
+[2023-07-02 16:24:37] INFO root fetch - processPackages [taxpasta]: Remove: archive file [/home/abi/fetcher/tmp/taxpasta-0.4.0.tar.gz]
+[2023-07-02 16:24:37] INFO root fetch - main [MainThread]: End processing [taxpasta]: success
+[2023-07-02 16:24:40] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt-Fluent-Widgets-0.9.9.tar.gz]
+[2023-07-02 16:24:40] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt-Fluent-Widgets-1.0.0.tar.gz]
+[2023-07-02 16:24:40] INFO root fetch - main [MainThread]: End processing [PyQt-Fluent-Widgets]: success
+[2023-07-02 16:24:40] INFO root fetch - main [MainThread]: Store serial: [18729093]
