@@ -1800,3 +1800,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 02:49:35] INFO root fetch - processPackages [SwiftyPy]: Remove: archive file [/home/abi/fetcher/tmp/SwiftyPy-5.1.tar.gz]
 [2023-07-02 02:49:35] INFO root fetch - main [MainThread]: End processing [SwiftyPy]: success
 [2023-07-02 02:49:35] INFO root fetch - main [MainThread]: Store serial: [18725483]
+[2023-07-02 02:55:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18725483]
+[2023-07-02 02:55:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-02 02:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: HFODetector
+[2023-07-02 02:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: empatches
+[2023-07-02 02:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sweepai
+[2023-07-02 02:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: diffant
+[2023-07-02 02:55:05] INFO root fetch - processPackages [HFODetector]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 02:55:05] INFO root fetch - processPackages [diffant]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-02 02:55:05] INFO root fetch - processPackages [empatches]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-02 02:55:05] INFO root fetch - processPackages [sweepai]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 02:55:05] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/27/ca/475b581b75fe7c8e41015f0a388da8650b29553bc6d803b43dbe78720725/sweepai-0.1.8.tar.gz
+[2023-07-02 02:55:05] INFO root fetch - processPackages [HFODetector]: Downloading https://files.pythonhosted.org/packages/58/09/ebc41e41966f5b69792e5f1950dbac2d4c9e6a65f933dc97e9bcbef6fd55/HFODetector-0.0.8.tar.gz
+[2023-07-02 02:55:05] INFO root fetch - processPackages [empatches]: Downloading https://files.pythonhosted.org/packages/ec/51/4fe10a20769e5264dddb019d1147b8ec908790c8488cbd1cc7212418f698/empatches-0.2.2.tar.gz
+[2023-07-02 02:55:05] INFO root fetch - processPackages [diffant]: Downloading https://files.pythonhosted.org/packages/e0/b4/cde8572100272f639450b62e869786fc304deb0dac5e9cb77b3064dbc01b/diffant-1.0.2.tar.gz
+[2023-07-02 02:55:05] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/95/bf/23fc51bb9a04118d723216f9ef4f4acab507671893b504968965974a6207/sweepai-0.1.9.tar.gz
+[2023-07-02 02:55:05] INFO root fetch - processPackages [empatches]: Downloading https://files.pythonhosted.org/packages/b7/0a/ca6a71668fdcd4f8908cb76052b56ce09a47eb13ade9f2baf519f1af9bfd/empatches-0.2.3.tar.gz
+[2023-07-02 02:55:05] INFO root fetch - processPackages [diffant]: Downloading https://files.pythonhosted.org/packages/cc/5b/2623eddbaf9b0ce6a16b1c7b77af1434f219aeab4c121e3756fd09b249b5/diffant-1.0.3.tar.gz
+[2023-07-02 02:55:05] INFO root fetch - processPackages [HFODetector]: Downloading https://files.pythonhosted.org/packages/c9/49/b2673be2b269753c9fdb004534c1d58d78006f780ab27240281a8dbc15e7/HFODetector-0.0.9.tar.gz
+[2023-07-02 02:55:05] INFO root fetch - processPackages [sweepai]: executing diffoscope
+[2023-07-02 02:55:05] INFO root fetch - processPackages [sweepai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweepai-0.1.8.tar.gz tmp/sweepai-0.1.9.tar.gz --markdown 20230702/s/sweepai/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 02:55:05] INFO root fetch - processPackages [empatches]: executing diffoscope
+[2023-07-02 02:55:05] INFO root fetch - processPackages [empatches]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/empatches-0.2.2.tar.gz tmp/empatches-0.2.3.tar.gz --markdown 20230702/e/empatches/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-02 02:55:05] INFO root fetch - processPackages [diffant]: executing diffoscope
+[2023-07-02 02:55:05] INFO root fetch - processPackages [diffant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffant-1.0.2.tar.gz tmp/diffant-1.0.3.tar.gz --markdown 20230702/d/diffant/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-02 02:55:05] INFO root fetch - processPackages [HFODetector]: executing diffoscope
+[2023-07-02 02:55:05] INFO root fetch - processPackages [HFODetector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HFODetector-0.0.8.tar.gz tmp/HFODetector-0.0.9.tar.gz --markdown 20230702/H/HFODetector/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 02:55:06] INFO root fetch - processPackages [empatches]: Remove: archive file [/home/abi/fetcher/tmp/empatches-0.2.2.tar.gz]
+[2023-07-02 02:55:06] INFO root fetch - processPackages [empatches]: Remove: archive file [/home/abi/fetcher/tmp/empatches-0.2.3.tar.gz]
+[2023-07-02 02:55:06] INFO root fetch - main [MainThread]: End processing [empatches]: success
+[2023-07-02 02:55:06] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.1.8.tar.gz]
+[2023-07-02 02:55:06] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.1.9.tar.gz]
+[2023-07-02 02:55:06] INFO root fetch - main [MainThread]: End processing [sweepai]: success
+[2023-07-02 02:55:06] INFO root fetch - processPackages [diffant]: Remove: archive file [/home/abi/fetcher/tmp/diffant-1.0.2.tar.gz]
+[2023-07-02 02:55:06] INFO root fetch - processPackages [diffant]: Remove: archive file [/home/abi/fetcher/tmp/diffant-1.0.3.tar.gz]
+[2023-07-02 02:55:06] INFO root fetch - main [MainThread]: End processing [diffant]: success
+[2023-07-02 02:55:06] INFO root fetch - processPackages [HFODetector]: Remove: archive file [/home/abi/fetcher/tmp/HFODetector-0.0.8.tar.gz]
+[2023-07-02 02:55:06] INFO root fetch - processPackages [HFODetector]: Remove: archive file [/home/abi/fetcher/tmp/HFODetector-0.0.9.tar.gz]
+[2023-07-02 02:55:06] INFO root fetch - main [MainThread]: End processing [HFODetector]: success
+[2023-07-02 02:55:06] INFO root fetch - main [MainThread]: Store serial: [18725494]
