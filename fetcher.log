@@ -6318,3 +6318,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 10:41:58] INFO root fetch - processPackages [investor8-sdk]: Remove: archive file [/home/abi/fetcher/tmp/investor8-sdk-1.1.98.tar.gz]
 [2023-07-02 10:41:58] INFO root fetch - main [MainThread]: End processing [investor8-sdk]: success
 [2023-07-02 10:41:58] INFO root fetch - main [MainThread]: Store serial: [18727293]
+[2023-07-02 10:47:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18727293]
+[2023-07-02 10:47:07] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-02 10:47:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amulet-map-editor
+[2023-07-02 10:47:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SafoneAPI
+[2023-07-02 10:47:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fast-webflow
+[2023-07-02 10:47:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bbrl-gymnasium
+[2023-07-02 10:47:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zfs-replicate
+[2023-07-02 10:47:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tfp-nightly
+[2023-07-02 10:47:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: notion-graph
+[2023-07-02 10:47:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datascience-cookiecutter
+[2023-07-02 10:47:07] INFO root fetch - processPackages [fast-webflow]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-02 10:47:07] INFO root fetch - processPackages [SafoneAPI]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-02 10:47:07] INFO root fetch - processPackages [datascience-cookiecutter]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-02 10:47:07] INFO root fetch - processPackages [zfs-replicate]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-07-02 10:47:07] INFO root fetch - processPackages [bbrl-gymnasium]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 10:47:07] INFO root fetch - processPackages [notion-graph]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-07-02 10:47:07] INFO root fetch - processPackages [amulet-map-editor]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-02 10:47:07] INFO root fetch - processPackages [bbrl-gymnasium]: Downloading https://files.pythonhosted.org/packages/82/f7/2faaeb185c299868c0e6d2bd92523a9c844276a2004c4a53d11f0ce51194/bbrl_gymnasium-0.1.8.tar.gz
+[2023-07-02 10:47:07] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-07-02 10:47:07] INFO root fetch - processPackages [SafoneAPI]: Downloading https://files.pythonhosted.org/packages/14/60/100f541b0714ea50eafd168a2e695f6bcf173e50ce02cdcbd13db7f6a192/SafoneAPI-1.0.8.tar.gz
+[2023-07-02 10:47:07] INFO root fetch - processPackages [datascience-cookiecutter]: Downloading https://files.pythonhosted.org/packages/0d/6c/7b7b5b09e02931fd4a8d2d2634f0cea571a42020662324cff54700da1a00/datascience_cookiecutter-0.1.2.tar.gz
+[2023-07-02 10:47:07] INFO root fetch - processPackages [notion-graph]: Downloading https://files.pythonhosted.org/packages/4b/4f/b5869498e356f0e74b7b9913ec287d6c381bd5af033229ce139086a20134/notion-graph-0.1.4.tar.gz
+[2023-07-02 10:47:07] INFO root fetch - processPackages [fast-webflow]: Downloading https://files.pythonhosted.org/packages/93/29/141e481d343088684c9c50463b13f537e4411765afdb7c968417ba0987b0/fast-webflow-0.2.2.tar.gz
+[2023-07-02 10:47:07] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-07-02 10:47:07] INFO root fetch - processPackages [zfs-replicate]: Downloading https://files.pythonhosted.org/packages/d1/8a/f4b4ed99c5089753695eaea576851c1947c1a4fe5ad9f8ae61b88d66a39b/zfs_replicate-2.2.0.tar.gz
+[2023-07-02 10:47:07] INFO root fetch - processPackages [amulet-map-editor]: Downloading https://files.pythonhosted.org/packages/3f/22/fe3c93fbda35d1cdacc4caca6d416247cf754bced7899f75801286234efd/amulet-map-editor-0.9.5.tar.gz
+[2023-07-02 10:47:07] INFO root fetch - processPackages [datascience-cookiecutter]: Downloading https://files.pythonhosted.org/packages/0c/9b/fe8f4ddb5231f9de1e44317beafe496328a0baeb6d6a849475d9848111e3/datascience_cookiecutter-0.1.3.tar.gz
+[2023-07-02 10:47:07] INFO root fetch - processPackages [notion-graph]: Downloading https://files.pythonhosted.org/packages/90/91/bf785ef055b4fd9ccc532f224fc0de851b589280505e7c76a0eefdeffd64/notion-graph-0.2.0.tar.gz
+[2023-07-02 10:47:07] INFO root fetch - processPackages [bbrl-gymnasium]: Downloading https://files.pythonhosted.org/packages/25/f1/0d0c566099018fbee65b4b6cf54a26afb69f2048b5e40ec2cfda0b9e1aa6/bbrl_gymnasium-0.1.9.tar.gz
+[2023-07-02 10:47:07] INFO root fetch - processPackages [SafoneAPI]: Downloading https://files.pythonhosted.org/packages/46/96/ce59fca22c5f72595a3481a42b0fbbb9592bb412f7b0916fbee2e6fb8c5b/SafoneAPI-1.0.9.tar.gz
+[2023-07-02 10:47:07] INFO root fetch - processPackages [datascience-cookiecutter]: executing diffoscope
+[2023-07-02 10:47:07] INFO root fetch - processPackages [datascience-cookiecutter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datascience_cookiecutter-0.1.2.tar.gz tmp/datascience_cookiecutter-0.1.3.tar.gz --markdown 20230702/d/datascience-cookiecutter/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-02 10:47:07] INFO root fetch - processPackages [notion-graph]: executing diffoscope
+[2023-07-02 10:47:07] INFO root fetch - processPackages [notion-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notion-graph-0.1.4.tar.gz tmp/notion-graph-0.2.0.tar.gz --markdown 20230702/n/notion-graph/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-07-02 10:47:07] INFO root fetch - processPackages [bbrl-gymnasium]: executing diffoscope
+[2023-07-02 10:47:07] INFO root fetch - processPackages [bbrl-gymnasium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbrl_gymnasium-0.1.8.tar.gz tmp/bbrl_gymnasium-0.1.9.tar.gz --markdown 20230702/b/bbrl-gymnasium/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 10:47:07] INFO root fetch - processPackages [fast-webflow]: Downloading https://files.pythonhosted.org/packages/94/a1/2e3f53fff43dcb292e826e52f856da8f6dfeb71212d461664f539034cdfd/fast-webflow-0.2.3.tar.gz
+[2023-07-02 10:47:07] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-07-02 10:47:07] INFO root fetch - processPackages [SafoneAPI]: executing diffoscope
+[2023-07-02 10:47:07] INFO root fetch - processPackages [SafoneAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SafoneAPI-1.0.8.tar.gz tmp/SafoneAPI-1.0.9.tar.gz --markdown 20230702/S/SafoneAPI/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-02 10:47:08] INFO root fetch - processPackages [zfs-replicate]: Downloading https://files.pythonhosted.org/packages/a7/82/c624e4249c008a704fb8a70833b44dc49341692df350818389dd988af3ae/zfs_replicate-2.2.1.tar.gz
+[2023-07-02 10:47:08] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-07-02 10:47:08] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230702/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-07-02 10:47:08] INFO root fetch - processPackages [amulet-map-editor]: Downloading https://files.pythonhosted.org/packages/3f/6c/53a1a90d5583a066d8244e345ab522afff85e8fd5acd593d8195f9fcb7b7/amulet-map-editor-0.9.6.tar.gz
+[2023-07-02 10:47:08] INFO root fetch - processPackages [fast-webflow]: executing diffoscope
+[2023-07-02 10:47:08] INFO root fetch - processPackages [fast-webflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast-webflow-0.2.2.tar.gz tmp/fast-webflow-0.2.3.tar.gz --markdown 20230702/f/fast-webflow/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-02 10:47:08] INFO root fetch - processPackages [zfs-replicate]: executing diffoscope
+[2023-07-02 10:47:08] INFO root fetch - processPackages [zfs-replicate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfs_replicate-2.2.0.tar.gz tmp/zfs_replicate-2.2.1.tar.gz --markdown 20230702/z/zfs-replicate/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-07-02 10:47:08] INFO root fetch - processPackages [amulet-map-editor]: executing diffoscope
+[2023-07-02 10:47:08] INFO root fetch - processPackages [amulet-map-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amulet-map-editor-0.9.5.tar.gz tmp/amulet-map-editor-0.9.6.tar.gz --markdown 20230702/a/amulet-map-editor/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-02 10:47:09] INFO root fetch - processPackages [datascience-cookiecutter]: Remove: archive file [/home/abi/fetcher/tmp/datascience_cookiecutter-0.1.2.tar.gz]
+[2023-07-02 10:47:09] INFO root fetch - processPackages [datascience-cookiecutter]: Remove: archive file [/home/abi/fetcher/tmp/datascience_cookiecutter-0.1.3.tar.gz]
+[2023-07-02 10:47:09] INFO root fetch - main [MainThread]: End processing [datascience-cookiecutter]: success
+[2023-07-02 10:47:09] INFO root fetch - processPackages [notion-graph]: Remove: archive file [/home/abi/fetcher/tmp/notion-graph-0.1.4.tar.gz]
+[2023-07-02 10:47:09] INFO root fetch - processPackages [notion-graph]: Remove: archive file [/home/abi/fetcher/tmp/notion-graph-0.2.0.tar.gz]
+[2023-07-02 10:47:09] INFO root fetch - main [MainThread]: End processing [notion-graph]: success
+[2023-07-02 10:47:09] INFO root fetch - processPackages [SafoneAPI]: Remove: archive file [/home/abi/fetcher/tmp/SafoneAPI-1.0.8.tar.gz]
+[2023-07-02 10:47:09] INFO root fetch - processPackages [SafoneAPI]: Remove: archive file [/home/abi/fetcher/tmp/SafoneAPI-1.0.9.tar.gz]
+[2023-07-02 10:47:09] INFO root fetch - main [MainThread]: End processing [SafoneAPI]: success
+[2023-07-02 10:47:09] INFO root fetch - processPackages [fast-webflow]: Remove: archive file [/home/abi/fetcher/tmp/fast-webflow-0.2.2.tar.gz]
+[2023-07-02 10:47:09] INFO root fetch - processPackages [fast-webflow]: Remove: archive file [/home/abi/fetcher/tmp/fast-webflow-0.2.3.tar.gz]
+[2023-07-02 10:47:09] INFO root fetch - main [MainThread]: End processing [fast-webflow]: success
+[2023-07-02 10:47:09] INFO root fetch - processPackages [bbrl-gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/bbrl_gymnasium-0.1.8.tar.gz]
+[2023-07-02 10:47:09] INFO root fetch - processPackages [bbrl-gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/bbrl_gymnasium-0.1.9.tar.gz]
+[2023-07-02 10:47:09] INFO root fetch - main [MainThread]: End processing [bbrl-gymnasium]: success
+[2023-07-02 10:47:09] INFO root fetch - processPackages [zfs-replicate]: Remove: archive file [/home/abi/fetcher/tmp/zfs_replicate-2.2.0.tar.gz]
+[2023-07-02 10:47:09] INFO root fetch - processPackages [zfs-replicate]: Remove: archive file [/home/abi/fetcher/tmp/zfs_replicate-2.2.1.tar.gz]
+[2023-07-02 10:47:09] INFO root fetch - main [MainThread]: End processing [zfs-replicate]: success
+[2023-07-02 10:47:13] INFO root fetch - processPackages [amulet-map-editor]: Remove: archive file [/home/abi/fetcher/tmp/amulet-map-editor-0.9.5.tar.gz]
+[2023-07-02 10:47:13] INFO root fetch - processPackages [amulet-map-editor]: Remove: archive file [/home/abi/fetcher/tmp/amulet-map-editor-0.9.6.tar.gz]
+[2023-07-02 10:47:13] INFO root fetch - main [MainThread]: End processing [amulet-map-editor]: success
+[2023-07-02 10:47:21] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-07-02 10:47:21] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-07-02 10:47:21] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-07-02 10:47:21] INFO root fetch - main [MainThread]: Store serial: [18727316]
