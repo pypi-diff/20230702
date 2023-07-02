@@ -14934,3 +14934,74 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 21:13:42] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.6.tar.gz]
 [2023-07-02 21:13:42] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
 [2023-07-02 21:13:42] INFO root fetch - main [MainThread]: Store serial: [18730886]
+[2023-07-02 21:18:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18730886]
+[2023-07-02 21:18:51] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-02 21:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spotPython
+[2023-07-02 21:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: katalytic-images
+[2023-07-02 21:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylibsdm
+[2023-07-02 21:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: upstash-redis
+[2023-07-02 21:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: powertools-oas-validator
+[2023-07-02 21:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: plutous-trade-crypto
+[2023-07-02 21:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: proteusPy
+[2023-07-02 21:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pittgoogle-client
+[2023-07-02 21:18:51] INFO root fetch - processPackages [spotPython]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-07-02 21:18:51] INFO root fetch - processPackages [powertools-oas-validator]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-02 21:18:51] INFO root fetch - processPackages [katalytic-images]: New version: [0.9.0] Old Version: [0.7.0]
+[2023-07-02 21:18:51] INFO root fetch - processPackages [pylibsdm]: New version: [1.0.0a0.dev2] Old Version: [1.0.0a0.dev1]
+[2023-07-02 21:18:51] INFO root fetch - processPackages [proteusPy]: New version: [0.67.dev0] Old Version: [0.66.dev0]
+[2023-07-02 21:18:51] INFO root fetch - processPackages [upstash-redis]: New version: [0.13.3] Old Version: [0.13.2]
+[2023-07-02 21:18:51] INFO root fetch - processPackages [plutous-trade-crypto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 21:18:51] INFO root fetch - processPackages [pylibsdm]: Downloading https://files.pythonhosted.org/packages/c0/b5/2a6f78fa3694c9eceeba1af7b69477e5e9642fc701f8be0d9e61a9000d42/pylibsdm-1.0.0a0.dev1.tar.gz
+[2023-07-02 21:18:51] INFO root fetch - processPackages [pittgoogle-client]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-02 21:18:51] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/e3/db/d32a1544d7f944ad8af411383551ea4aa42adfdd0f238ff44a5a3edaa00e/plutous_trade_crypto-0.0.8.tar.gz
+[2023-07-02 21:18:51] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/e0/e8/66abc5ef55725dff58c177d37db719ddbb6e37303ad19de0c22e9499aada/spotPython-0.2.7.tar.gz
+[2023-07-02 21:18:51] INFO root fetch - processPackages [powertools-oas-validator]: Downloading https://files.pythonhosted.org/packages/2d/52/3b023d121f977c317c8c94834000c48e1a382d6ca0f5ccff6b9e4a8fb70e/powertools_oas_validator-0.4.1.tar.gz
+[2023-07-02 21:18:51] INFO root fetch - processPackages [katalytic-images]: Downloading https://files.pythonhosted.org/packages/58/ff/29a33ecb683692a0a3e61b37fb7f27288672551408be407c92e29008381d/katalytic_images-0.7.0.tar.gz
+[2023-07-02 21:18:51] INFO root fetch - processPackages [upstash-redis]: Downloading https://files.pythonhosted.org/packages/1b/da/8f38c295ca18c11a5f1d2e95c9797a63f47894b7664c56f3eec63e0ca5c5/upstash_redis-0.13.2.tar.gz
+[2023-07-02 21:18:51] INFO root fetch - processPackages [proteusPy]: Downloading https://files.pythonhosted.org/packages/f7/46/584037e8a59a710aa1a4eb6e871416571d704c5d0d350e9fea45eedef0c7/proteusPy-0.66.dev0.tar.gz
+[2023-07-02 21:18:51] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/b4/a4/200ca398a36203e8bd51a034e50c51963506316cbf5e7a47866700accaee/plutous_trade_crypto-0.0.9.tar.gz
+[2023-07-02 21:18:51] INFO root fetch - processPackages [pittgoogle-client]: Downloading https://files.pythonhosted.org/packages/b4/56/50dd1b5511fcf45601eedfba76d5ac93eddf5940e5660406636c3956be55/pittgoogle_client-0.1.1.tar.gz
+[2023-07-02 21:18:51] INFO root fetch - processPackages [plutous-trade-crypto]: executing diffoscope
+[2023-07-02 21:18:51] INFO root fetch - processPackages [plutous-trade-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous_trade_crypto-0.0.8.tar.gz tmp/plutous_trade_crypto-0.0.9.tar.gz --markdown 20230702/p/plutous-trade-crypto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 21:18:51] WARNING root fetch - processPackages [proteusPy]: Skipping package: exceeds size limit 17781613>=10485760
+[2023-07-02 21:18:51] INFO root fetch - main [MainThread]: End processing [proteusPy] error
+[2023-07-02 21:18:51] INFO root fetch - processPackages [pylibsdm]: Downloading https://files.pythonhosted.org/packages/46/ae/5ba908011bab782f5be29ec928eedfb6ccf63349c2588d6e233c0e6f2b11/pylibsdm-1.0.0a0.dev2.tar.gz
+[2023-07-02 21:18:52] INFO root fetch - processPackages [powertools-oas-validator]: Downloading https://files.pythonhosted.org/packages/66/97/8517695310a15dcef017b575e60ffa00facc2e31f59ab35d10c48b141925/powertools_oas_validator-0.4.2.tar.gz
+[2023-07-02 21:18:52] INFO root fetch - processPackages [upstash-redis]: Downloading https://files.pythonhosted.org/packages/31/9e/59601ad02fada16a6c84cfce08a5ec29d5d969fe785c9cb14b8f76c4a1c2/upstash_redis-0.13.3.tar.gz
+[2023-07-02 21:18:52] INFO root fetch - processPackages [katalytic-images]: Downloading https://files.pythonhosted.org/packages/e5/8f/1b82550a5a537567aeb0bf854fbbf8100427d195d5d5a2000d5b10502bb1/katalytic_images-0.9.0.tar.gz
+[2023-07-02 21:18:52] INFO root fetch - processPackages [pylibsdm]: executing diffoscope
+[2023-07-02 21:18:52] INFO root fetch - processPackages [pylibsdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylibsdm-1.0.0a0.dev1.tar.gz tmp/pylibsdm-1.0.0a0.dev2.tar.gz --markdown 20230702/p/pylibsdm/1.0.0a0.dev1-1.0.0a0.dev2/diff.md --exclude *.pyd
+[2023-07-02 21:18:52] INFO root fetch - processPackages [upstash-redis]: executing diffoscope
+[2023-07-02 21:18:52] INFO root fetch - processPackages [upstash-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upstash_redis-0.13.2.tar.gz tmp/upstash_redis-0.13.3.tar.gz --markdown 20230702/u/upstash-redis/0.13.2-0.13.3/diff.md --exclude *.pyd
+[2023-07-02 21:18:52] INFO root fetch - processPackages [powertools-oas-validator]: executing diffoscope
+[2023-07-02 21:18:52] INFO root fetch - processPackages [powertools-oas-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powertools_oas_validator-0.4.1.tar.gz tmp/powertools_oas_validator-0.4.2.tar.gz --markdown 20230702/p/powertools-oas-validator/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-02 21:18:52] INFO root fetch - processPackages [katalytic-images]: executing diffoscope
+[2023-07-02 21:18:52] INFO root fetch - processPackages [katalytic-images]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/katalytic_images-0.7.0.tar.gz tmp/katalytic_images-0.9.0.tar.gz --markdown 20230702/k/katalytic-images/0.7.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-02 21:18:52] INFO root fetch - processPackages [pittgoogle-client]: Downloading https://files.pythonhosted.org/packages/be/40/b2fb212356edd67f0ed668719d6c5f523b1339299242997264379f627a59/pittgoogle_client-0.2.0.tar.gz
+[2023-07-02 21:18:52] INFO root fetch - processPackages [pittgoogle-client]: executing diffoscope
+[2023-07-02 21:18:52] INFO root fetch - processPackages [pittgoogle-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pittgoogle_client-0.1.1.tar.gz tmp/pittgoogle_client-0.2.0.tar.gz --markdown 20230702/p/pittgoogle-client/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-02 21:18:53] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.8.tar.gz]
+[2023-07-02 21:18:53] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.9.tar.gz]
+[2023-07-02 21:18:53] INFO root fetch - main [MainThread]: End processing [plutous-trade-crypto]: success
+[2023-07-02 21:18:53] INFO root fetch - processPackages [pylibsdm]: Remove: archive file [/home/abi/fetcher/tmp/pylibsdm-1.0.0a0.dev1.tar.gz]
+[2023-07-02 21:18:53] INFO root fetch - processPackages [pylibsdm]: Remove: archive file [/home/abi/fetcher/tmp/pylibsdm-1.0.0a0.dev2.tar.gz]
+[2023-07-02 21:18:53] INFO root fetch - main [MainThread]: End processing [pylibsdm]: success
+[2023-07-02 21:18:53] INFO root fetch - processPackages [powertools-oas-validator]: Remove: archive file [/home/abi/fetcher/tmp/powertools_oas_validator-0.4.1.tar.gz]
+[2023-07-02 21:18:53] INFO root fetch - processPackages [powertools-oas-validator]: Remove: archive file [/home/abi/fetcher/tmp/powertools_oas_validator-0.4.2.tar.gz]
+[2023-07-02 21:18:53] INFO root fetch - main [MainThread]: End processing [powertools-oas-validator]: success
+[2023-07-02 21:18:53] INFO root fetch - processPackages [katalytic-images]: Remove: archive file [/home/abi/fetcher/tmp/katalytic_images-0.7.0.tar.gz]
+[2023-07-02 21:18:53] INFO root fetch - processPackages [katalytic-images]: Remove: archive file [/home/abi/fetcher/tmp/katalytic_images-0.9.0.tar.gz]
+[2023-07-02 21:18:53] INFO root fetch - main [MainThread]: End processing [katalytic-images]: success
+[2023-07-02 21:18:53] INFO root fetch - processPackages [pittgoogle-client]: Remove: archive file [/home/abi/fetcher/tmp/pittgoogle_client-0.1.1.tar.gz]
+[2023-07-02 21:18:53] INFO root fetch - processPackages [pittgoogle-client]: Remove: archive file [/home/abi/fetcher/tmp/pittgoogle_client-0.2.0.tar.gz]
+[2023-07-02 21:18:53] INFO root fetch - main [MainThread]: End processing [pittgoogle-client]: success
+[2023-07-02 21:18:53] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/69/84/9402cf387c9dac34b67ddeb1b709382852df04dd7b304e52275a288c4f8c/spotPython-0.2.9.tar.gz
+[2023-07-02 21:18:53] INFO root fetch - processPackages [upstash-redis]: Remove: archive file [/home/abi/fetcher/tmp/upstash_redis-0.13.2.tar.gz]
+[2023-07-02 21:18:53] INFO root fetch - processPackages [upstash-redis]: Remove: archive file [/home/abi/fetcher/tmp/upstash_redis-0.13.3.tar.gz]
+[2023-07-02 21:18:53] INFO root fetch - main [MainThread]: End processing [upstash-redis]: success
+[2023-07-02 21:18:55] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-07-02 21:18:55] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.2.7.tar.gz tmp/spotPython-0.2.9.tar.gz --markdown 20230702/s/spotPython/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-07-02 21:19:08] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.7.tar.gz]
+[2023-07-02 21:19:08] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
+[2023-07-02 21:19:08] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-07-02 21:19:08] INFO root fetch - main [MainThread]: Store serial: [18730922]
