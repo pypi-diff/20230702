@@ -13655,3 +13655,29 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-02 19:43:11] INFO root fetch - processPackages [nonebot-plugin-homo-mathematician]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_homo_mathematician-0.0.5.tar.gz]
 [2023-07-02 19:43:11] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-homo-mathematician]: success
 [2023-07-02 19:43:11] INFO root fetch - main [MainThread]: Store serial: [18730431]
+[2023-07-02 19:48:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18730431]
+[2023-07-02 19:48:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-02 19:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kiam-astro
+[2023-07-02 19:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PJYoloVision
+[2023-07-02 19:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: krrsnkapi
+[2023-07-02 19:48:20] INFO root fetch - processPackages [krrsnkapi]: New version: [0.6] Old Version: [0.5]
+[2023-07-02 19:48:20] INFO root fetch - processPackages [PJYoloVision]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-02 19:48:20] INFO root fetch - processPackages [kiam-astro]: New version: [3.3.0] Old Version: [3.2.0]
+[2023-07-02 19:48:20] INFO root fetch - processPackages [krrsnkapi]: Downloading https://files.pythonhosted.org/packages/d2/63/88cf50637eca993bae8d1658d8be37b6d302dce73e81d73a4d7da27466b8/krrsnkapi-0.5.tar.gz
+[2023-07-02 19:48:20] INFO root fetch - processPackages [PJYoloVision]: Downloading https://files.pythonhosted.org/packages/fc/b7/bc055d70c1e16bf3372a9c99e7f319d017954768c8074537a4a0a95a7a87/PJYoloVision-0.0.0.tar.gz
+[2023-07-02 19:48:20] INFO root fetch - processPackages [kiam-astro]: Downloading https://files.pythonhosted.org/packages/dc/eb/4621f6009267550c52017dc7a62e0c4d57c09a94d38955acdbddf9dad579/kiam_astro-3.2.0.tar.gz
+[2023-07-02 19:48:20] WARNING root fetch - processPackages [kiam-astro]: Skipping package: exceeds size limit 30706591>=10485760
+[2023-07-02 19:48:20] INFO root fetch - main [MainThread]: End processing [kiam-astro] error
+[2023-07-02 19:48:20] INFO root fetch - processPackages [PJYoloVision]: Downloading https://files.pythonhosted.org/packages/56/bd/45f8f8d74b819bfe92c122484756003b51712e6769d830426f0d148a713e/PJYoloVision-0.0.1.tar.gz
+[2023-07-02 19:48:20] INFO root fetch - processPackages [krrsnkapi]: Downloading https://files.pythonhosted.org/packages/5c/87/03d7f14dd1ead9d619969002ffa79f23f2df8b43c16fd8e6e9c7d66a259a/krrsnkapi-0.6.tar.gz
+[2023-07-02 19:48:20] INFO root fetch - processPackages [krrsnkapi]: executing diffoscope
+[2023-07-02 19:48:20] INFO root fetch - processPackages [krrsnkapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krrsnkapi-0.5.tar.gz tmp/krrsnkapi-0.6.tar.gz --markdown 20230702/k/krrsnkapi/0.5-0.6/diff.md --exclude *.pyd
+[2023-07-02 19:48:20] INFO root fetch - processPackages [PJYoloVision]: executing diffoscope
+[2023-07-02 19:48:20] INFO root fetch - processPackages [PJYoloVision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PJYoloVision-0.0.0.tar.gz tmp/PJYoloVision-0.0.1.tar.gz --markdown 20230702/P/PJYoloVision/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-02 19:48:21] INFO root fetch - processPackages [krrsnkapi]: Remove: archive file [/home/abi/fetcher/tmp/krrsnkapi-0.5.tar.gz]
+[2023-07-02 19:48:21] INFO root fetch - processPackages [krrsnkapi]: Remove: archive file [/home/abi/fetcher/tmp/krrsnkapi-0.6.tar.gz]
+[2023-07-02 19:48:21] INFO root fetch - main [MainThread]: End processing [krrsnkapi]: success
+[2023-07-02 19:48:22] INFO root fetch - processPackages [PJYoloVision]: Remove: archive file [/home/abi/fetcher/tmp/PJYoloVision-0.0.0.tar.gz]
+[2023-07-02 19:48:22] INFO root fetch - processPackages [PJYoloVision]: Remove: archive file [/home/abi/fetcher/tmp/PJYoloVision-0.0.1.tar.gz]
+[2023-07-02 19:48:22] INFO root fetch - main [MainThread]: End processing [PJYoloVision]: success
+[2023-07-02 19:48:22] INFO root fetch - main [MainThread]: Store serial: [18730439]
