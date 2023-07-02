@@ -1327,3 +1327,159 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 02:22:38] INFO root fetch - processPackages [canvasxpress]: Remove: archive file [/home/abi/fetcher/tmp/canvasxpress-2023.7.2.1824.tar.gz]
 [2023-07-02 02:22:38] INFO root fetch - main [MainThread]: End processing [canvasxpress]: success
 [2023-07-02 02:22:38] INFO root fetch - main [MainThread]: Store serial: [18725312]
+[2023-07-02 02:27:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18725312]
+[2023-07-02 02:27:47] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-02 02:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-gitlab-runner
+[2023-07-02 02:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-budibase
+[2023-07-02 02:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s-valheim
+[2023-07-02 02:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: constructs
+[2023-07-02 02:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ssh-terminal-manager
+[2023-07-02 02:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdklabs.cdk-ethereum-node
+[2023-07-02 02:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-nag
+[2023-07-02 02:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdklabs.cdk-aws-sagemaker-role-manager
+[2023-07-02 02:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdklabs.cdk-validator-cfnguard
+[2023-07-02 02:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bosch-alarm-mode2
+[2023-07-02 02:27:47] INFO root fetch - processPackages [ssh-terminal-manager]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-02 02:27:47] INFO root fetch - processPackages [cdk-budibase]: New version: [0.0.93] Old Version: [0.0.92]
+[2023-07-02 02:27:47] INFO root fetch - processPackages [cdk8s-valheim]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-02 02:27:47] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-02 02:27:47] INFO root fetch - processPackages [cdklabs.cdk-aws-sagemaker-role-manager]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 02:27:47] INFO root fetch - processPackages [bosch-alarm-mode2]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-02 02:27:47] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 02:27:47] INFO root fetch - processPackages [cdk-nag]: New version: [2.9.7] Old Version: [2.9.6]
+[2023-07-02 02:27:47] INFO root fetch - processPackages [constructs]: New version: [3.4.99] Old Version: [3.4.98]
+[2023-07-02 02:27:47] INFO root fetch - processPackages [ssh-terminal-manager]: Downloading https://files.pythonhosted.org/packages/7e/0b/7771e2e1ebf7025b440b35f5e11e3a76c4199b56d94c474ccb269c85ceef/ssh_terminal_manager-0.0.2.tar.gz
+[2023-07-02 02:27:47] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-07-02 02:27:47] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Downloading https://files.pythonhosted.org/packages/ca/bf/82d7858f5b89f9588b018ab4ea93c6508a4508ce23569695827cdc5c3992/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz
+[2023-07-02 02:27:47] INFO root fetch - processPackages [cdklabs.cdk-aws-sagemaker-role-manager]: Downloading https://files.pythonhosted.org/packages/50/d6/9a0c44969b0f89944eb3ea8f3f076c16fd66df588ddcde849d9fa38efdbe/cdklabs.cdk-aws-sagemaker-role-manager-0.0.8.tar.gz
+[2023-07-02 02:27:47] INFO root fetch - processPackages [cdk8s-valheim]: Downloading https://files.pythonhosted.org/packages/85/d8/81574b6442b1b94620aa1985afe516b2e1e0688ce1267cb3ec360aabdcd1/cdk8s-valheim-0.0.98.tar.gz
+[2023-07-02 02:27:47] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/cc/9e/42fcb60135f8702a63c595cf14ae9fc2863d9553b468bd2ed93c62115a50/cdk-budibase-0.0.92.tar.gz
+[2023-07-02 02:27:47] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/d8/1a/417af84315b2d52f6063ccf2072677259777d28fb73cab91e17879faaa26/cdklabs.cdk-ethereum-node-0.0.98.tar.gz
+[2023-07-02 02:27:47] INFO root fetch - processPackages [bosch-alarm-mode2]: Downloading https://files.pythonhosted.org/packages/59/5e/7cbf2ad6d8f9b4667e432b6ebd8b4de668f4e0c416e097376b59d53cc31e/bosch_alarm_mode2-0.3.8.tar.gz
+[2023-07-02 02:27:47] INFO root fetch - processPackages [constructs]: Downloading https://files.pythonhosted.org/packages/e6/c8/05cf61f36e0e0457efb63d90051ef801f55cf0db4e5f92c27a28a57c5501/constructs-3.4.98.tar.gz
+[2023-07-02 02:27:48] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/26/bc/b8768e307b8d360b78f45303ac30baa4232637f372296203b0005cd07cd4/cdk-nag-2.9.6.tar.gz
+[2023-07-02 02:27:48] INFO root fetch - processPackages [cdklabs.cdk-aws-sagemaker-role-manager]: Downloading https://files.pythonhosted.org/packages/71/17/ab8131f60f8d9a1f8cccdf6c064ec9872549f45bc2d55adcb658cff8550d/cdklabs.cdk-aws-sagemaker-role-manager-0.0.9.tar.gz
+[2023-07-02 02:27:48] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/00/40/016cdb2fb9e28fe1b601ce7542603c38b93a78a9a0d77a0309e559d58a1c/cdk-gitlab-runner-2.1.98.tar.gz
+[2023-07-02 02:27:48] INFO root fetch - processPackages [ssh-terminal-manager]: Downloading https://files.pythonhosted.org/packages/2c/55/a37e898df97b5af38169ce74faf98263e177d4f380a056bfed3fef7fd862/ssh_terminal_manager-0.0.3.tar.gz
+[2023-07-02 02:27:48] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/2d/d8/3fd98f927d9988f7c189f488b1829ac7aa7f855bf93f6030e3bed9af9a97/cdklabs.cdk-ethereum-node-0.0.99.tar.gz
+[2023-07-02 02:27:48] INFO root fetch - processPackages [cdklabs.cdk-aws-sagemaker-role-manager]: executing diffoscope
+[2023-07-02 02:27:48] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Downloading https://files.pythonhosted.org/packages/87/72/a3d8003ada4028ea6518698c5f3ee208044ed9363e979c066104afb06a6a/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz
+[2023-07-02 02:27:48] INFO root fetch - processPackages [cdklabs.cdk-aws-sagemaker-role-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-aws-sagemaker-role-manager-0.0.8.tar.gz tmp/cdklabs.cdk-aws-sagemaker-role-manager-0.0.9.tar.gz --markdown 20230702/c/cdklabs.cdk-aws-sagemaker-role-manager/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 02:27:48] INFO root fetch - processPackages [cdk8s-valheim]: Downloading https://files.pythonhosted.org/packages/ce/27/b660a37e9470f74e7b0d5c589710b82fcbfc01ec4796630a81d2dabb9e17/cdk8s-valheim-0.0.99.tar.gz
+[2023-07-02 02:27:48] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/d3/76/496652e666f97b2f866e6ff1e3c844067fcfa92109e2ba8588031cd9c4ce/cdk-budibase-0.0.93.tar.gz
+[2023-07-02 02:27:48] INFO root fetch - processPackages [bosch-alarm-mode2]: Downloading https://files.pythonhosted.org/packages/84/e7/a45d441636d4387b2da27858b0346c247762861434e8cb8a86ddc2b0660f/bosch_alarm_mode2-0.3.9.tar.gz
+[2023-07-02 02:27:48] INFO root fetch - processPackages [constructs]: Downloading https://files.pythonhosted.org/packages/0a/98/a9a1408d0c31908cc2c2129ea9ab047e19bc2d51b19406637848339f5c37/constructs-3.4.99.tar.gz
+[2023-07-02 02:27:48] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: executing diffoscope
+[2023-07-02 02:27:48] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz --markdown 20230702/c/cdklabs.cdk-ethereum-node/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-02 02:27:48] INFO root fetch - processPackages [ssh-terminal-manager]: executing diffoscope
+[2023-07-02 02:27:48] INFO root fetch - processPackages [ssh-terminal-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_terminal_manager-0.0.2.tar.gz tmp/ssh_terminal_manager-0.0.3.tar.gz --markdown 20230702/s/ssh-terminal-manager/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-02 02:27:48] INFO root fetch - processPackages [cdk8s-valheim]: executing diffoscope
+[2023-07-02 02:27:48] INFO root fetch - processPackages [cdk8s-valheim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-valheim-0.0.98.tar.gz tmp/cdk8s-valheim-0.0.99.tar.gz --markdown 20230702/c/cdk8s-valheim/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-02 02:27:48] INFO root fetch - processPackages [bosch-alarm-mode2]: executing diffoscope
+[2023-07-02 02:27:48] INFO root fetch - processPackages [bosch-alarm-mode2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosch_alarm_mode2-0.3.8.tar.gz tmp/bosch_alarm_mode2-0.3.9.tar.gz --markdown 20230702/b/bosch-alarm-mode2/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-02 02:27:48] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: executing diffoscope
+[2023-07-02 02:27:48] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz tmp/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz --markdown 20230702/c/cdklabs.cdk-validator-cfnguard/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 02:27:48] INFO root fetch - processPackages [constructs]: executing diffoscope
+[2023-07-02 02:27:48] INFO root fetch - processPackages [constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constructs-3.4.98.tar.gz tmp/constructs-3.4.99.tar.gz --markdown 20230702/c/constructs/3.4.98-3.4.99/diff.md --exclude *.pyd
+[2023-07-02 02:27:48] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/71/78/6a2d0c627f1033774d5be3d2faca465e0bc0b07cf97cec491c795775999a/cdk-nag-2.9.7.tar.gz
+[2023-07-02 02:27:48] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/89/96/8e14acbbed72ce7cf16a2f829e722ff9189610a1fe440e7d52bb6185d401/cdk-gitlab-runner-2.1.99.tar.gz
+[2023-07-02 02:27:48] INFO root fetch - processPackages [cdk-budibase]: executing diffoscope
+[2023-07-02 02:27:48] INFO root fetch - processPackages [cdk-budibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-budibase-0.0.92.tar.gz tmp/cdk-budibase-0.0.93.tar.gz --markdown 20230702/c/cdk-budibase/0.0.92-0.0.93/diff.md --exclude *.pyd
+[2023-07-02 02:27:48] INFO root fetch - processPackages [cdk-nag]: executing diffoscope
+[2023-07-02 02:27:48] INFO root fetch - processPackages [cdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-nag-2.9.6.tar.gz tmp/cdk-nag-2.9.7.tar.gz --markdown 20230702/c/cdk-nag/2.9.6-2.9.7/diff.md --exclude *.pyd
+[2023-07-02 02:27:48] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2023-07-02 02:27:48] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.1.98.tar.gz tmp/cdk-gitlab-runner-2.1.99.tar.gz --markdown 20230702/c/cdk-gitlab-runner/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-07-02 02:27:49] INFO root fetch - processPackages [ssh-terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/ssh_terminal_manager-0.0.2.tar.gz]
+[2023-07-02 02:27:49] INFO root fetch - processPackages [ssh-terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/ssh_terminal_manager-0.0.3.tar.gz]
+[2023-07-02 02:27:49] INFO root fetch - processPackages [ssh-terminal-manager]: Start processing: sweepai
+[2023-07-02 02:27:49] INFO root fetch - main [MainThread]: End processing [ssh-terminal-manager]: success
+[2023-07-02 02:27:49] INFO root fetch - processPackages [sweepai]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 02:27:49] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz]
+[2023-07-02 02:27:49] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz]
+[2023-07-02 02:27:49] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Start processing: JsMacrosAC
+[2023-07-02 02:27:49] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-ethereum-node]: success
+[2023-07-02 02:27:49] INFO root fetch - processPackages [JsMacrosAC]: New version: [1.8.4.8257505] Old Version: [1.8.3.5434464]
+[2023-07-02 02:27:49] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/27/ca/475b581b75fe7c8e41015f0a388da8650b29553bc6d803b43dbe78720725/sweepai-0.1.8.tar.gz
+[2023-07-02 02:27:49] INFO root fetch - processPackages [constructs]: Remove: archive file [/home/abi/fetcher/tmp/constructs-3.4.98.tar.gz]
+[2023-07-02 02:27:49] INFO root fetch - processPackages [constructs]: Remove: archive file [/home/abi/fetcher/tmp/constructs-3.4.99.tar.gz]
+[2023-07-02 02:27:49] INFO root fetch - processPackages [constructs]: Start processing: cdk8s
+[2023-07-02 02:27:49] INFO root fetch - main [MainThread]: End processing [constructs]: success
+[2023-07-02 02:27:49] INFO root fetch - processPackages [bosch-alarm-mode2]: Remove: archive file [/home/abi/fetcher/tmp/bosch_alarm_mode2-0.3.8.tar.gz]
+[2023-07-02 02:27:49] INFO root fetch - processPackages [bosch-alarm-mode2]: Remove: archive file [/home/abi/fetcher/tmp/bosch_alarm_mode2-0.3.9.tar.gz]
+[2023-07-02 02:27:49] INFO root fetch - processPackages [bosch-alarm-mode2]: Start processing: cdk-aurora-globaldatabase
+[2023-07-02 02:27:49] INFO root fetch - main [MainThread]: End processing [bosch-alarm-mode2]: success
+[2023-07-02 02:27:50] INFO root fetch - processPackages [cdk8s]: New version: [2.7.91] Old Version: [2.7.90]
+[2023-07-02 02:27:50] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.92.tar.gz]
+[2023-07-02 02:27:50] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.93.tar.gz]
+[2023-07-02 02:27:50] INFO root fetch - processPackages [cdk-budibase]: Start processing: funcOAI
+[2023-07-02 02:27:50] INFO root fetch - main [MainThread]: End processing [cdk-budibase]: success
+[2023-07-02 02:27:50] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-02 02:27:50] INFO root fetch - processPackages [funcOAI]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-02 02:27:50] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.1.98.tar.gz]
+[2023-07-02 02:27:50] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.1.99.tar.gz]
+[2023-07-02 02:27:50] INFO root fetch - processPackages [cdk-gitlab-runner]: Start processing: cdk-tweet-queue
+[2023-07-02 02:27:50] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2023-07-02 02:27:50] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/b2/d4/9cf2b2666ac68550b4581f7a82e94c22342df025cc5076ea72b6f13cd23d/cdk8s-2.7.90.tar.gz
+[2023-07-02 02:27:50] INFO root fetch - processPackages [cdk-tweet-queue]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-02 02:27:50] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2023-07-02 02:27:50] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/95/bf/23fc51bb9a04118d723216f9ef4f4acab507671893b504968965974a6207/sweepai-0.1.9.tar.gz
+[2023-07-02 02:27:50] INFO root fetch - processPackages [JsMacrosAC]: Downloading https://files.pythonhosted.org/packages/ce/bd/fe3518bdb2d0b6d6ff2f071cd73b0c23b264604d8afec9990037e7683881/JsMacrosAC-1.8.3.5434464.tar.gz
+[2023-07-02 02:27:50] INFO root fetch - processPackages [cdk8s-valheim]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-valheim-0.0.98.tar.gz]
+[2023-07-02 02:27:50] INFO root fetch - processPackages [cdk8s-valheim]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-valheim-0.0.99.tar.gz]
+[2023-07-02 02:27:50] INFO root fetch - processPackages [cdk8s-valheim]: Start processing: cdk8s-plus-24
+[2023-07-02 02:27:50] INFO root fetch - main [MainThread]: End processing [cdk8s-valheim]: success
+[2023-07-02 02:27:50] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-07-02 02:27:50] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.6.tar.gz]
+[2023-07-02 02:27:50] INFO root fetch - processPackages [sweepai]: executing diffoscope
+[2023-07-02 02:27:50] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.7.tar.gz]
+[2023-07-02 02:27:50] INFO root fetch - processPackages [sweepai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweepai-0.1.8.tar.gz tmp/sweepai-0.1.9.tar.gz --markdown 20230702/s/sweepai/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 02:27:50] INFO root fetch - processPackages [funcOAI]: Downloading https://files.pythonhosted.org/packages/c5/5b/0f7ee89719561d91c97ffd21d6affb8e87567bfce93c0bce73431f1395c2/funcOAI-0.0.2.tar.gz
+[2023-07-02 02:27:50] INFO root fetch - main [MainThread]: End processing [cdk-nag]: success
+[2023-07-02 02:27:50] INFO root fetch - processPackages [cdklabs.cdk-aws-sagemaker-role-manager]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-aws-sagemaker-role-manager-0.0.8.tar.gz]
+[2023-07-02 02:27:50] INFO root fetch - processPackages [cdklabs.cdk-aws-sagemaker-role-manager]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-aws-sagemaker-role-manager-0.0.9.tar.gz]
+[2023-07-02 02:27:50] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-aws-sagemaker-role-manager]: success
+[2023-07-02 02:27:50] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2023-07-02 02:27:50] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/73/d5/49a8dc44e72e5db18c0f19520eb82a0010e697d0f43ab159152c33791aa7/cdk8s-plus-24-2.8.8.tar.gz
+[2023-07-02 02:27:50] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/f2/a9/33fbe548cea174e015412108a563be3bbbdacbb6982d1ef6bf71d4abb509/cdk-tweet-queue-2.0.98.tar.gz
+[2023-07-02 02:27:50] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/01/38/6593fcc79f47835b58d56937ddbee074b8ce6404ffd859e313447afabc67/cdk8s-2.7.91.tar.gz
+[2023-07-02 02:27:50] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2023-07-02 02:27:50] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20230702/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-02 02:27:50] INFO root fetch - processPackages [JsMacrosAC]: Downloading https://files.pythonhosted.org/packages/d2/51/7c0ec7252fd2155b1518bb2cdc0474e7b128b8269c663fbd51922c54c4b6/JsMacrosAC-1.8.4.8257505.tar.gz
+[2023-07-02 02:27:50] INFO root fetch - processPackages [funcOAI]: Downloading https://files.pythonhosted.org/packages/02/8b/8a1b7939dd8d2fc70d7caed420ea9b7d4cb15f63f9b9d65238e2e27a60fd/funcOAI-0.0.3.tar.gz
+[2023-07-02 02:27:50] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/a4/eb/7fc3f17d6eb6750041a6b336906ad566e6b538954d0cd6fe7880f54bf206/cdk8s-plus-24-2.8.9.tar.gz
+[2023-07-02 02:27:50] INFO root fetch - processPackages [JsMacrosAC]: executing diffoscope
+[2023-07-02 02:27:50] INFO root fetch - processPackages [JsMacrosAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JsMacrosAC-1.8.3.5434464.tar.gz tmp/JsMacrosAC-1.8.4.8257505.tar.gz --markdown 20230702/J/JsMacrosAC/1.8.3.5434464-1.8.4.8257505/diff.md --exclude *.pyd
+[2023-07-02 02:27:50] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-07-02 02:27:50] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.7.90.tar.gz tmp/cdk8s-2.7.91.tar.gz --markdown 20230702/c/cdk8s/2.7.90-2.7.91/diff.md --exclude *.pyd
+[2023-07-02 02:27:50] INFO root fetch - processPackages [funcOAI]: executing diffoscope
+[2023-07-02 02:27:50] INFO root fetch - processPackages [funcOAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcOAI-0.0.2.tar.gz tmp/funcOAI-0.0.3.tar.gz --markdown 20230702/f/funcOAI/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-02 02:27:50] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/b9/df/ffba41b66fc7796cb2c763da82c2012cc28d0708e1dcb7775c98d3d9e491/cdk-tweet-queue-2.0.99.tar.gz
+[2023-07-02 02:27:50] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-07-02 02:27:50] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.8.8.tar.gz tmp/cdk8s-plus-24-2.8.9.tar.gz --markdown 20230702/c/cdk8s-plus-24/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-07-02 02:27:50] INFO root fetch - processPackages [cdk-tweet-queue]: executing diffoscope
+[2023-07-02 02:27:50] INFO root fetch - processPackages [cdk-tweet-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-tweet-queue-2.0.98.tar.gz tmp/cdk-tweet-queue-2.0.99.tar.gz --markdown 20230702/c/cdk-tweet-queue/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-02 02:27:51] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz]
+[2023-07-02 02:27:51] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz]
+[2023-07-02 02:27:51] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-validator-cfnguard]: success
+[2023-07-02 02:27:51] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.90.tar.gz]
+[2023-07-02 02:27:51] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.91.tar.gz]
+[2023-07-02 02:27:51] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-07-02 02:27:51] INFO root fetch - processPackages [funcOAI]: Remove: archive file [/home/abi/fetcher/tmp/funcOAI-0.0.2.tar.gz]
+[2023-07-02 02:27:51] INFO root fetch - processPackages [funcOAI]: Remove: archive file [/home/abi/fetcher/tmp/funcOAI-0.0.3.tar.gz]
+[2023-07-02 02:27:51] INFO root fetch - main [MainThread]: End processing [funcOAI]: success
+[2023-07-02 02:27:52] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.98.tar.gz]
+[2023-07-02 02:27:52] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.99.tar.gz]
+[2023-07-02 02:27:52] INFO root fetch - main [MainThread]: End processing [cdk-tweet-queue]: success
+[2023-07-02 02:27:52] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.8.tar.gz]
+[2023-07-02 02:27:52] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.9.tar.gz]
+[2023-07-02 02:27:52] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-07-02 02:27:52] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2023-07-02 02:27:52] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2023-07-02 02:27:52] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2023-07-02 02:27:53] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.1.8.tar.gz]
+[2023-07-02 02:27:53] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.1.9.tar.gz]
+[2023-07-02 02:27:53] INFO root fetch - main [MainThread]: End processing [sweepai]: success
+[2023-07-02 02:27:58] INFO root fetch - processPackages [JsMacrosAC]: Remove: archive file [/home/abi/fetcher/tmp/JsMacrosAC-1.8.3.5434464.tar.gz]
+[2023-07-02 02:27:58] INFO root fetch - processPackages [JsMacrosAC]: Remove: archive file [/home/abi/fetcher/tmp/JsMacrosAC-1.8.4.8257505.tar.gz]
+[2023-07-02 02:27:58] INFO root fetch - main [MainThread]: End processing [JsMacrosAC]: success
+[2023-07-02 02:27:58] INFO root fetch - main [MainThread]: Store serial: [18725367]
