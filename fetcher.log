@@ -5042,3 +5042,27 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 08:27:54] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230702.tar.gz]
 [2023-07-02 08:27:54] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-07-02 08:27:54] INFO root fetch - main [MainThread]: Store serial: [18726684]
+[2023-07-02 08:32:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726684]
+[2023-07-02 08:33:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-02 08:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sniimapp
+[2023-07-02 08:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spark-quality-rules-tools
+[2023-07-02 08:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygittesting
+[2023-07-02 08:33:04] INFO root fetch - processPackages [spark-quality-rules-tools]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-02 08:33:04] INFO root fetch - processPackages [sniimapp]: New version: [0.0.32] Old Version: [0.0.31]
+[2023-07-02 08:33:04] WARNING root fetch - processPackages [pygittesting]: Skipping, unable to determine old version
+[2023-07-02 08:33:04] INFO root fetch - main [MainThread]: End processing [pygittesting] error
+[2023-07-02 08:33:04] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/e5/c1/2106bb2fbfb535cab230b8002b1e244f025686e880cf8e456cbfc9b4e7ce/spark_quality_rules_tools-0.4.1.tar.gz
+[2023-07-02 08:33:04] INFO root fetch - processPackages [sniimapp]: Downloading https://files.pythonhosted.org/packages/4e/74/0fbbcc34b78c53f687955be7553b08b38beaeb1b2409e9c07ee6dfee6741/sniimapp-0.0.31.tar.gz
+[2023-07-02 08:33:04] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/ff/1f/ebdfcf21de6a86529b6d3a6a33151d251170562f58d827576f7ac8484ee1/spark_quality_rules_tools-0.4.2.tar.gz
+[2023-07-02 08:33:04] INFO root fetch - processPackages [spark-quality-rules-tools]: executing diffoscope
+[2023-07-02 08:33:04] INFO root fetch - processPackages [spark-quality-rules-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_quality_rules_tools-0.4.1.tar.gz tmp/spark_quality_rules_tools-0.4.2.tar.gz --markdown 20230702/s/spark-quality-rules-tools/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-02 08:33:04] INFO root fetch - processPackages [sniimapp]: Downloading https://files.pythonhosted.org/packages/56/f0/46d9ed591f50b2b946ca5dc52c3128388359ab7744c19b5a4dec4c9244d3/sniimapp-0.0.32.tar.gz
+[2023-07-02 08:33:04] INFO root fetch - processPackages [sniimapp]: executing diffoscope
+[2023-07-02 08:33:04] INFO root fetch - processPackages [sniimapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sniimapp-0.0.31.tar.gz tmp/sniimapp-0.0.32.tar.gz --markdown 20230702/s/sniimapp/0.0.31-0.0.32/diff.md --exclude *.pyd
+[2023-07-02 08:33:05] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.4.1.tar.gz]
+[2023-07-02 08:33:05] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.4.2.tar.gz]
+[2023-07-02 08:33:05] INFO root fetch - main [MainThread]: End processing [spark-quality-rules-tools]: success
+[2023-07-02 08:33:05] INFO root fetch - processPackages [sniimapp]: Remove: archive file [/home/abi/fetcher/tmp/sniimapp-0.0.31.tar.gz]
+[2023-07-02 08:33:05] INFO root fetch - processPackages [sniimapp]: Remove: archive file [/home/abi/fetcher/tmp/sniimapp-0.0.32.tar.gz]
+[2023-07-02 08:33:05] INFO root fetch - main [MainThread]: End processing [sniimapp]: success
+[2023-07-02 08:33:05] INFO root fetch - main [MainThread]: Store serial: [18726695]
