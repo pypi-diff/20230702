@@ -13605,3 +13605,32 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-02 19:32:50] INFO root fetch - processPackages [KoiLang]: Remove: archive file [/home/abi/fetcher/tmp/KoiLang-1.1.1.tar.gz]
 [2023-07-02 19:32:50] INFO root fetch - main [MainThread]: End processing [KoiLang]: success
 [2023-07-02 19:32:50] INFO root fetch - main [MainThread]: Store serial: [18730409]
+[2023-07-02 19:37:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18730409]
+[2023-07-02 19:37:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-02 19:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Mostats
+[2023-07-02 19:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edc-offstudy
+[2023-07-02 19:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-redex
+[2023-07-02 19:37:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langtest
+[2023-07-02 19:37:59] INFO root fetch - processPackages [edc-offstudy]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-02 19:37:59] INFO root fetch - processPackages [langtest]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2023-07-02 19:37:59] INFO root fetch - processPackages [python-redex]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-02 19:37:59] INFO root fetch - processPackages [python-redex]: Downloading https://files.pythonhosted.org/packages/2b/de/34066b118fd88bf1f3bc10828ce7516fbfbd190d6d0aef3fe367f629c580/python_redex-0.0.6.tar.gz
+[2023-07-02 19:37:59] WARNING root fetch - processPackages [Mostats]: Skipping, unable to determine old version
+[2023-07-02 19:37:59] INFO root fetch - main [MainThread]: End processing [Mostats] error
+[2023-07-02 19:37:59] INFO root fetch - processPackages [langtest]: Downloading https://files.pythonhosted.org/packages/90/7f/58d212a2922d829d48b6bb855052d0bb039bf69ea9b76c53ce7b9fe76d97/langtest-1.0.0rc1.tar.gz
+[2023-07-02 19:37:59] INFO root fetch - processPackages [edc-offstudy]: Downloading https://files.pythonhosted.org/packages/57/af/87cfa4f986ae6562b4a0ce1daeb617c81d34e9b68fcb66c6362f4ba27cb4/edc_offstudy-0.3.8-py3-none-any.whl
+[2023-07-02 19:37:59] WARNING root fetch - processPackages [langtest]: Skipping package: exceeds size limit 59564157>=10485760
+[2023-07-02 19:37:59] INFO root fetch - main [MainThread]: End processing [langtest] error
+[2023-07-02 19:37:59] INFO root fetch - processPackages [python-redex]: Downloading https://files.pythonhosted.org/packages/76/43/3afe14259a0b9617aaa7d3dfb210fa40a99983cf5a9d0928ab572d1bd769/python_redex-0.0.7.tar.gz
+[2023-07-02 19:37:59] INFO root fetch - processPackages [python-redex]: executing diffoscope
+[2023-07-02 19:37:59] INFO root fetch - processPackages [python-redex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_redex-0.0.6.tar.gz tmp/python_redex-0.0.7.tar.gz --markdown 20230702/p/python-redex/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-02 19:37:59] INFO root fetch - processPackages [edc-offstudy]: Downloading https://files.pythonhosted.org/packages/ff/f0/94595ad2bf3fec15ce4be8d760ae5891973a1725e203b8fe2567273919a1/edc_offstudy-0.3.9-py3-none-any.whl
+[2023-07-02 19:37:59] INFO root fetch - processPackages [edc-offstudy]: executing diffoscope
+[2023-07-02 19:37:59] INFO root fetch - processPackages [edc-offstudy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_offstudy-0.3.8-py3-none-any.whl.zip tmp/edc_offstudy-0.3.9-py3-none-any.whl.zip --markdown 20230702/e/edc-offstudy/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-02 19:38:00] INFO root fetch - processPackages [python-redex]: Remove: archive file [/home/abi/fetcher/tmp/python_redex-0.0.6.tar.gz]
+[2023-07-02 19:38:00] INFO root fetch - processPackages [python-redex]: Remove: archive file [/home/abi/fetcher/tmp/python_redex-0.0.7.tar.gz]
+[2023-07-02 19:38:00] INFO root fetch - main [MainThread]: End processing [python-redex]: success
+[2023-07-02 19:38:01] INFO root fetch - processPackages [edc-offstudy]: Remove: archive file [/home/abi/fetcher/tmp/edc_offstudy-0.3.8-py3-none-any.whl.zip]
+[2023-07-02 19:38:01] INFO root fetch - processPackages [edc-offstudy]: Remove: archive file [/home/abi/fetcher/tmp/edc_offstudy-0.3.9-py3-none-any.whl.zip]
+[2023-07-02 19:38:01] INFO root fetch - main [MainThread]: End processing [edc-offstudy]: success
+[2023-07-02 19:38:01] INFO root fetch - main [MainThread]: Store serial: [18730425]
