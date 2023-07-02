@@ -5093,3 +5093,66 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 08:38:16] INFO root fetch - processPackages [sniimapp]: Remove: archive file [/home/abi/fetcher/tmp/sniimapp-0.0.33.tar.gz]
 [2023-07-02 08:38:16] INFO root fetch - main [MainThread]: End processing [sniimapp]: success
 [2023-07-02 08:38:16] INFO root fetch - main [MainThread]: Store serial: [18726712]
+[2023-07-02 08:43:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726712]
+[2023-07-02 08:43:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-02 08:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tonic
+[2023-07-02 08:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: htagweb
+[2023-07-02 08:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nwebclient
+[2023-07-02 08:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mpservice
+[2023-07-02 08:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: refiner
+[2023-07-02 08:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jinaai
+[2023-07-02 08:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pybi-next
+[2023-07-02 08:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pygittesting
+[2023-07-02 08:43:24] ERROR root fetch - processPackages [htagweb]: Unable to get metadata: No such project 'htagweb'
+[2023-07-02 08:43:24] INFO root fetch - main [MainThread]: End processing [htagweb] error
+[2023-07-02 08:43:24] INFO root fetch - processPackages [jinaai]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-02 08:43:24] INFO root fetch - processPackages [tonic]: New version: [1.3.2] Old Version: [1.2.8.dev8]
+[2023-07-02 08:43:24] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-02 08:43:24] WARNING root fetch - processPackages [refiner]: Skipping, unable to determine old version
+[2023-07-02 08:43:24] INFO root fetch - main [MainThread]: End processing [refiner] error
+[2023-07-02 08:43:24] INFO root fetch - processPackages [pygittesting]: New version: [0.2.2] Old Version: [0.1]
+[2023-07-02 08:43:24] INFO root fetch - processPackages [mpservice]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2023-07-02 08:43:24] INFO root fetch - processPackages [pybi-next]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-02 08:43:24] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/a4/76/0caf3e54fc1b0c685c01abdb7deb283a4e0ab62467df218edf79256efe6d/mpservice-0.9.9.tar.gz
+[2023-07-02 08:43:24] INFO root fetch - processPackages [pygittesting]: Downloading https://files.pythonhosted.org/packages/23/78/5e86a2fb8d3ddfee3b69c67307e0c0e5e839470b7027a25413cb577a17ac/pygittesting-0.1.tar.gz
+[2023-07-02 08:43:24] INFO root fetch - processPackages [tonic]: Downloading https://files.pythonhosted.org/packages/b4/ee/779ed113c266a04ed3947b18f3e66d8d57410acc2a230acfa42f7395116a/tonic-1.2.8.dev8.tar.gz
+[2023-07-02 08:43:25] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-02 08:43:25] INFO root fetch - processPackages [pybi-next]: Downloading https://files.pythonhosted.org/packages/95/5f/31a3999637cb1a2556870c755b1dc2b87d914de61bc5e048d0e46f9f72cb/pybi-next-0.4.8.tar.gz
+[2023-07-02 08:43:25] INFO root fetch - processPackages [jinaai]: Downloading https://files.pythonhosted.org/packages/b5/04/08c0603e232442ec3b12a7b39dad5a0f5a81b44e4e8958883b9332517472/jinaai-0.2.0.tar.gz
+[2023-07-02 08:43:25] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/62/83/992eb812676a1d5b8ffbc5c9ba7e1bd57f82c86ae5c8a0e509834c8df031/mpservice-0.9.9.post1.tar.gz
+[2023-07-02 08:43:25] INFO root fetch - processPackages [mpservice]: executing diffoscope
+[2023-07-02 08:43:25] INFO root fetch - processPackages [mpservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpservice-0.9.9.tar.gz tmp/mpservice-0.9.9.post1.tar.gz --markdown 20230702/m/mpservice/0.9.9-0.9.9.post1/diff.md --exclude *.pyd
+[2023-07-02 08:43:25] INFO root fetch - processPackages [jinaai]: Downloading https://files.pythonhosted.org/packages/65/34/8b2049cfec002c7f5e58d193e3bdbfb901304c269bd40611d0e9318c2116/jinaai-0.2.1.tar.gz
+[2023-07-02 08:43:25] INFO root fetch - processPackages [jinaai]: executing diffoscope
+[2023-07-02 08:43:25] INFO root fetch - processPackages [jinaai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinaai-0.2.0.tar.gz tmp/jinaai-0.2.1.tar.gz --markdown 20230702/j/jinaai/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-02 08:43:25] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-02 08:43:25] INFO root fetch - processPackages [pygittesting]: Downloading https://files.pythonhosted.org/packages/7c/cb/91b3c3c77bc760e59966a524584da3ee0007937d7a79b425bac553ac295e/pygittesting-0.2.2.tar.gz
+[2023-07-02 08:43:25] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-02 08:43:25] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230702/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-02 08:43:25] INFO root fetch - processPackages [pygittesting]: executing diffoscope
+[2023-07-02 08:43:25] INFO root fetch - processPackages [pygittesting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygittesting-0.1.tar.gz tmp/pygittesting-0.2.2.tar.gz --markdown 20230702/p/pygittesting/0.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-02 08:43:25] INFO root fetch - processPackages [pybi-next]: Downloading https://files.pythonhosted.org/packages/e1/25/5603567c18ea82933931cbaae53c0ffa5e7221b8df4d5165910f3e4f76e8/pybi-next-0.4.9.tar.gz
+[2023-07-02 08:43:25] INFO root fetch - processPackages [tonic]: Downloading https://files.pythonhosted.org/packages/5d/4c/cf722d9169dbf238b6fccf089892d22ebdf1235e37cab4039c9957e2644f/tonic-1.3.2.tar.gz
+[2023-07-02 08:43:26] INFO root fetch - processPackages [pybi-next]: executing diffoscope
+[2023-07-02 08:43:26] INFO root fetch - processPackages [pybi-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybi-next-0.4.8.tar.gz tmp/pybi-next-0.4.9.tar.gz --markdown 20230702/p/pybi-next/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-02 08:43:26] INFO root fetch - processPackages [tonic]: executing diffoscope
+[2023-07-02 08:43:26] INFO root fetch - processPackages [tonic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tonic-1.2.8.dev8.tar.gz tmp/tonic-1.3.2.tar.gz --markdown 20230702/t/tonic/1.2.8.dev8-1.3.2/diff.md --exclude *.pyd
+[2023-07-02 08:43:26] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.tar.gz]
+[2023-07-02 08:43:26] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.post1.tar.gz]
+[2023-07-02 08:43:26] INFO root fetch - main [MainThread]: End processing [mpservice]: success
+[2023-07-02 08:43:26] INFO root fetch - processPackages [jinaai]: Remove: archive file [/home/abi/fetcher/tmp/jinaai-0.2.0.tar.gz]
+[2023-07-02 08:43:26] INFO root fetch - processPackages [jinaai]: Remove: archive file [/home/abi/fetcher/tmp/jinaai-0.2.1.tar.gz]
+[2023-07-02 08:43:26] INFO root fetch - main [MainThread]: End processing [jinaai]: success
+[2023-07-02 08:43:26] INFO root fetch - processPackages [pygittesting]: Remove: archive file [/home/abi/fetcher/tmp/pygittesting-0.1.tar.gz]
+[2023-07-02 08:43:26] INFO root fetch - processPackages [pygittesting]: Remove: archive file [/home/abi/fetcher/tmp/pygittesting-0.2.2.tar.gz]
+[2023-07-02 08:43:26] INFO root fetch - main [MainThread]: End processing [pygittesting]: success
+[2023-07-02 08:43:26] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-02 08:43:26] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-02 08:43:26] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-02 08:43:28] INFO root fetch - processPackages [tonic]: Remove: archive file [/home/abi/fetcher/tmp/tonic-1.2.8.dev8.tar.gz]
+[2023-07-02 08:43:28] INFO root fetch - processPackages [tonic]: Remove: archive file [/home/abi/fetcher/tmp/tonic-1.3.2.tar.gz]
+[2023-07-02 08:43:28] INFO root fetch - main [MainThread]: End processing [tonic]: success
+[2023-07-02 08:43:33] INFO root fetch - processPackages [pybi-next]: Remove: archive file [/home/abi/fetcher/tmp/pybi-next-0.4.8.tar.gz]
+[2023-07-02 08:43:33] INFO root fetch - processPackages [pybi-next]: Remove: archive file [/home/abi/fetcher/tmp/pybi-next-0.4.9.tar.gz]
+[2023-07-02 08:43:33] INFO root fetch - main [MainThread]: End processing [pybi-next]: success
+[2023-07-02 08:43:33] INFO root fetch - main [MainThread]: Store serial: [18726742]
