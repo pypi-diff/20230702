@@ -1937,3 +1937,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 03:13:29] INFO root fetch - processPackages [SwiftyPy]: Remove: archive file [/home/abi/fetcher/tmp/SwiftyPy-8.2.tar.gz]
 [2023-07-02 03:13:29] INFO root fetch - main [MainThread]: End processing [SwiftyPy]: success
 [2023-07-02 03:13:29] INFO root fetch - main [MainThread]: Store serial: [18725529]
+[2023-07-02 03:18:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18725529]
+[2023-07-02 03:18:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-02 03:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aemcmc-nightly
+[2023-07-02 03:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adata
+[2023-07-02 03:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-layer-curl
+[2023-07-02 03:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cihai-cli
+[2023-07-02 03:18:38] INFO root fetch - processPackages [adata]: New version: [0.0.9b0] Old Version: [0.0.8b0]
+[2023-07-02 03:18:38] INFO root fetch - processPackages [cihai-cli]: New version: [0.9.0a1] Old Version: [0.9.0a0]
+[2023-07-02 03:18:38] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230701] Old Version: [0.0.8.dev20230630]
+[2023-07-02 03:18:38] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-02 03:18:38] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/9d/16/3fc6403e7c1d8d456e4d54064f526e95b3f8af555614431e8cacca0c71a9/aemcmc-nightly-0.0.8.dev20230630.tar.gz
+[2023-07-02 03:18:38] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-07-02 03:18:38] INFO root fetch - processPackages [adata]: Downloading https://files.pythonhosted.org/packages/66/fd/d3c9b9a7b2572489cc2001d80eeca95b9e231b8b8c1d6f582fe0e62853c5/adata-0.0.8b0.tar.gz
+[2023-07-02 03:18:38] INFO root fetch - processPackages [cihai-cli]: Downloading https://files.pythonhosted.org/packages/d2/4c/75ccfa9c6b8fb30de3cba09cf54a8c9f6f9f2f38a9cea4b854a81c25cc79/cihai-cli-0.9.0a0.tar.gz
+[2023-07-02 03:18:38] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-07-02 03:18:38] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/dd/8a/df51c31661d04637db33473c25f926b52a9b0ad578f2d15a9a1d65bfb611/aemcmc-nightly-0.0.8.dev20230701.tar.gz
+[2023-07-02 03:18:39] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-07-02 03:18:39] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230702/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-02 03:18:39] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-07-02 03:18:39] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230630.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230701.tar.gz --markdown 20230702/a/aemcmc-nightly/0.0.8.dev20230630-0.0.8.dev20230701/diff.md --exclude *.pyd
+[2023-07-02 03:18:39] INFO root fetch - processPackages [cihai-cli]: Downloading https://files.pythonhosted.org/packages/0b/b5/e89b0b6924ecd0d5a3cb77abed8ec4b18fefbae25d67658b915c13d1bf35/cihai-cli-0.9.0a1.tar.gz
+[2023-07-02 03:18:39] INFO root fetch - processPackages [cihai-cli]: executing diffoscope
+[2023-07-02 03:18:39] INFO root fetch - processPackages [cihai-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cihai-cli-0.9.0a0.tar.gz tmp/cihai-cli-0.9.0a1.tar.gz --markdown 20230702/c/cihai-cli/0.9.0a0-0.9.0a1/diff.md --exclude *.pyd
+[2023-07-02 03:18:39] INFO root fetch - processPackages [adata]: Downloading https://files.pythonhosted.org/packages/a8/b4/65647d57045b6c7d198901b3c90bec97ada894e04e9504c736ca433399c0/adata-0.0.9b0.tar.gz
+[2023-07-02 03:18:39] INFO root fetch - processPackages [adata]: executing diffoscope
+[2023-07-02 03:18:39] INFO root fetch - processPackages [adata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adata-0.0.8b0.tar.gz tmp/adata-0.0.9b0.tar.gz --markdown 20230702/a/adata/0.0.8b0-0.0.9b0/diff.md --exclude *.pyd
+[2023-07-02 03:18:40] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230630.tar.gz]
+[2023-07-02 03:18:40] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230701.tar.gz]
+[2023-07-02 03:18:40] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-07-02 03:18:40] INFO root fetch - processPackages [cihai-cli]: Remove: archive file [/home/abi/fetcher/tmp/cihai-cli-0.9.0a0.tar.gz]
+[2023-07-02 03:18:40] INFO root fetch - processPackages [cihai-cli]: Remove: archive file [/home/abi/fetcher/tmp/cihai-cli-0.9.0a1.tar.gz]
+[2023-07-02 03:18:40] INFO root fetch - main [MainThread]: End processing [cihai-cli]: success
+[2023-07-02 03:18:40] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-07-02 03:18:40] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-07-02 03:18:40] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-07-02 03:18:40] INFO root fetch - processPackages [adata]: Remove: archive file [/home/abi/fetcher/tmp/adata-0.0.8b0.tar.gz]
+[2023-07-02 03:18:40] INFO root fetch - processPackages [adata]: Remove: archive file [/home/abi/fetcher/tmp/adata-0.0.9b0.tar.gz]
+[2023-07-02 03:18:40] INFO root fetch - main [MainThread]: End processing [adata]: success
+[2023-07-02 03:18:40] INFO root fetch - main [MainThread]: Store serial: [18725540]
