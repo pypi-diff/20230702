@@ -5786,3 +5786,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 09:52:51] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230702-cp39-cp39-win_amd64.whl.zip]
 [2023-07-02 09:52:51] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
 [2023-07-02 09:52:51] INFO root fetch - main [MainThread]: Store serial: [18727058]
+[2023-07-02 09:57:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18727058]
+[2023-07-02 09:58:00] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-02 09:58:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tvdcn
+[2023-07-02 09:58:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bioregistry
+[2023-07-02 09:58:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aws-vpclattice-prealpha
+[2023-07-02 09:58:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hashbeaf
+[2023-07-02 09:58:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bakorder
+[2023-07-02 09:58:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydis-core
+[2023-07-02 09:58:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aramgg-poro
+[2023-07-02 09:58:00] INFO root fetch - processPackages [pydis-core]: New version: [9.9.2] Old Version: [9.9.1]
+[2023-07-02 09:58:00] WARNING root fetch - processPackages [bakorder]: Skipping, unable to determine old version
+[2023-07-02 09:58:00] INFO root fetch - main [MainThread]: End processing [bakorder] error
+[2023-07-02 09:58:00] INFO root fetch - processPackages [aramgg-poro]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-02 09:58:00] WARNING root fetch - processPackages [aws-vpclattice-prealpha]: Skipping, unable to determine old version
+[2023-07-02 09:58:00] INFO root fetch - main [MainThread]: End processing [aws-vpclattice-prealpha] error
+[2023-07-02 09:58:00] INFO root fetch - processPackages [tvdcn]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-02 09:58:00] WARNING root fetch - processPackages [hashbeaf]: Skipping, unable to determine old version
+[2023-07-02 09:58:00] INFO root fetch - main [MainThread]: End processing [hashbeaf] error
+[2023-07-02 09:58:00] INFO root fetch - processPackages [bioregistry]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-02 09:58:00] INFO root fetch - processPackages [aramgg-poro]: Downloading https://files.pythonhosted.org/packages/53/ca/19efad535e1e452321395e2e83abac43d07965a56424952a46b72d1bf77e/aramgg-poro-0.0.5.tar.gz
+[2023-07-02 09:58:00] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/4e/f6/973ccd4316a05888c3eb85264c9bad233e8f486e3bd1d3ed06d5c5e3504c/bioregistry-0.9.8.tar.gz
+[2023-07-02 09:58:00] INFO root fetch - processPackages [pydis-core]: Downloading https://files.pythonhosted.org/packages/e0/56/d1758074f0c10712e4ab309c1b0ebc09d0c54bb0844a79092c7989f02881/pydis_core-9.9.1.tar.gz
+[2023-07-02 09:58:00] INFO root fetch - processPackages [tvdcn]: Downloading https://files.pythonhosted.org/packages/c6/fe/c05708ce8c3346a4618e606c28fd716bc3053a2ce7572bd48f31b8fe87bf/tvdcn-0.3.0.tar.gz
+[2023-07-02 09:58:00] INFO root fetch - processPackages [aramgg-poro]: Downloading https://files.pythonhosted.org/packages/d1/05/88ce4640032e06a190eb698c7b6ea656be2291f5edee104a94ed9c0143ec/aramgg-poro-0.0.6.tar.gz
+[2023-07-02 09:58:00] INFO root fetch - processPackages [pydis-core]: Downloading https://files.pythonhosted.org/packages/96/ea/24086af09e4ddbaadef214cb3eec448b6fa50a23542bbe2b74922d9f0f38/pydis_core-9.9.2.tar.gz
+[2023-07-02 09:58:00] INFO root fetch - processPackages [tvdcn]: Downloading https://files.pythonhosted.org/packages/25/46/7a84611a33731817445ed1e09e320328ddb9d0fc8699eda50b9248407ea2/tvdcn-0.3.1.tar.gz
+[2023-07-02 09:58:00] INFO root fetch - processPackages [aramgg-poro]: executing diffoscope
+[2023-07-02 09:58:00] INFO root fetch - processPackages [aramgg-poro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aramgg-poro-0.0.5.tar.gz tmp/aramgg-poro-0.0.6.tar.gz --markdown 20230702/a/aramgg-poro/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-02 09:58:00] INFO root fetch - processPackages [pydis-core]: executing diffoscope
+[2023-07-02 09:58:00] INFO root fetch - processPackages [pydis-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydis_core-9.9.1.tar.gz tmp/pydis_core-9.9.2.tar.gz --markdown 20230702/p/pydis-core/9.9.1-9.9.2/diff.md --exclude *.pyd
+[2023-07-02 09:58:00] INFO root fetch - processPackages [tvdcn]: executing diffoscope
+[2023-07-02 09:58:00] INFO root fetch - processPackages [tvdcn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tvdcn-0.3.0.tar.gz tmp/tvdcn-0.3.1.tar.gz --markdown 20230702/t/tvdcn/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-02 09:58:00] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/5b/a2/66d69f3acb3d998356aaa7ccffe5395fb3221c2f99dd12100c6abf1826b4/bioregistry-0.9.9.tar.gz
+[2023-07-02 09:58:01] INFO root fetch - processPackages [aramgg-poro]: Remove: archive file [/home/abi/fetcher/tmp/aramgg-poro-0.0.5.tar.gz]
+[2023-07-02 09:58:01] INFO root fetch - processPackages [aramgg-poro]: Remove: archive file [/home/abi/fetcher/tmp/aramgg-poro-0.0.6.tar.gz]
+[2023-07-02 09:58:01] INFO root fetch - main [MainThread]: End processing [aramgg-poro]: success
+[2023-07-02 09:58:01] INFO root fetch - processPackages [pydis-core]: Remove: archive file [/home/abi/fetcher/tmp/pydis_core-9.9.1.tar.gz]
+[2023-07-02 09:58:01] INFO root fetch - processPackages [pydis-core]: Remove: archive file [/home/abi/fetcher/tmp/pydis_core-9.9.2.tar.gz]
+[2023-07-02 09:58:01] INFO root fetch - main [MainThread]: End processing [pydis-core]: success
+[2023-07-02 09:58:02] INFO root fetch - processPackages [tvdcn]: Remove: archive file [/home/abi/fetcher/tmp/tvdcn-0.3.0.tar.gz]
+[2023-07-02 09:58:02] INFO root fetch - processPackages [tvdcn]: Remove: archive file [/home/abi/fetcher/tmp/tvdcn-0.3.1.tar.gz]
+[2023-07-02 09:58:02] INFO root fetch - main [MainThread]: End processing [tvdcn]: success
+[2023-07-02 09:58:02] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-07-02 09:58:02] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.8.tar.gz tmp/bioregistry-0.9.9.tar.gz --markdown 20230702/b/bioregistry/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-02 10:00:01] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.8.tar.gz]
+[2023-07-02 10:00:01] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.9.tar.gz]
+[2023-07-02 10:00:01] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-07-02 10:00:01] INFO root fetch - main [MainThread]: Store serial: [18727097]
