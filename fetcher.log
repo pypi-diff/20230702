@@ -13980,3 +13980,175 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-02 20:14:36] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.3.tar.gz]
 [2023-07-02 20:14:36] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
 [2023-07-02 20:14:36] INFO root fetch - main [MainThread]: Store serial: [18730574]
+[2023-07-02 20:19:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18730574]
+[2023-07-02 20:19:46] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-02 20:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datascience-cookiecutter
+[2023-07-02 20:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bec-ipython-client
+[2023-07-02 20:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bec-lib
+[2023-07-02 20:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bec-scan-server
+[2023-07-02 20:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bec-device-server
+[2023-07-02 20:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bec-scan-bundler
+[2023-07-02 20:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bec-file-writer
+[2023-07-02 20:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bec-dap
+[2023-07-02 20:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: datascience-cookiecutter
+[2023-07-02 20:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyObfuscator
+[2023-07-02 20:19:46] INFO root fetch - processPackages [datascience-cookiecutter]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-02 20:19:46] INFO root fetch - processPackages [bec-scan-server]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-02 20:19:46] INFO root fetch - processPackages [bec-file-writer]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-02 20:19:46] INFO root fetch - processPackages [bec-lib]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-02 20:19:46] INFO root fetch - processPackages [bec-device-server]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-02 20:19:46] INFO root fetch - processPackages [bec-scan-bundler]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-02 20:19:46] INFO root fetch - processPackages [bec-ipython-client]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-02 20:19:46] INFO root fetch - processPackages [datascience-cookiecutter]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-02 20:19:46] INFO root fetch - processPackages [PyObfuscator]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-02 20:19:46] INFO root fetch - processPackages [bec-dap]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-02 20:19:46] INFO root fetch - processPackages [datascience-cookiecutter]: Downloading https://files.pythonhosted.org/packages/c9/04/d3d81f11b960fcc174b94092a6ad0d9aadd69a5c00393bb675a0f34bae95/datascience_cookiecutter-0.3.1.tar.gz
+[2023-07-02 20:19:46] INFO root fetch - processPackages [datascience-cookiecutter]: Downloading https://files.pythonhosted.org/packages/c9/04/d3d81f11b960fcc174b94092a6ad0d9aadd69a5c00393bb675a0f34bae95/datascience_cookiecutter-0.3.1.tar.gz
+[2023-07-02 20:19:46] INFO root fetch - processPackages [bec-device-server]: Downloading https://files.pythonhosted.org/packages/be/3e/d6d4e97c19d0b56cd716d9094330921f439582b504439a70b4ad4dd1787d/bec_device_server-0.8.0.tar.gz
+[2023-07-02 20:19:46] INFO root fetch - processPackages [bec-file-writer]: Downloading https://files.pythonhosted.org/packages/f4/7c/5439dcc834622af84b9584984d8bbf9986078fa0edd43ce4607d23802bef/bec_file_writer-0.8.0.tar.gz
+[2023-07-02 20:19:46] INFO root fetch - processPackages [bec-scan-bundler]: Downloading https://files.pythonhosted.org/packages/51/28/8522b28f6ef042851206e772e95b42c134d623c2d3310e3ae2b074a6d8e6/bec_scan_bundler-0.8.0.tar.gz
+[2023-07-02 20:19:46] INFO root fetch - processPackages [bec-scan-server]: Downloading https://files.pythonhosted.org/packages/46/e2/0317c175c38545532631dd13c7c44f9f705ba543455b058d28d7e14f6d6b/bec_scan_server-0.8.0.tar.gz
+[2023-07-02 20:19:46] INFO root fetch - processPackages [bec-dap]: Downloading https://files.pythonhosted.org/packages/88/66/b915275595020a2e1ea1a0c54e92599b351c181fece1389b2f8900b0c233/bec_dap-0.8.0.tar.gz
+[2023-07-02 20:19:46] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/68/62/fc9736244d3f266567e5e992bb6683e769696474932a6080a663cd1cb445/bec_ipython_client-0.8.0.tar.gz
+[2023-07-02 20:19:46] INFO root fetch - processPackages [PyObfuscator]: Downloading https://files.pythonhosted.org/packages/e6/f7/c9ee35cf4f66c47f3381119724176d9f5dc2d69c848bacceec7a5f23460b/PyObfuscator-0.1.1.tar.gz
+[2023-07-02 20:19:46] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/5f/e7/38b4274216f7f6e939f911d9744dfed5fb4c0efe347a379d11cb65314ba9/bec_lib-0.8.0.tar.gz
+[2023-07-02 20:19:46] INFO root fetch - processPackages [datascience-cookiecutter]: Downloading https://files.pythonhosted.org/packages/6b/0e/5c2df25f93dc2b07c654b2b398abb38d2629e7e2055b94a228729ff1feec/datascience_cookiecutter-0.3.2.tar.gz
+[2023-07-02 20:19:46] INFO root fetch - processPackages [datascience-cookiecutter]: Downloading https://files.pythonhosted.org/packages/6b/0e/5c2df25f93dc2b07c654b2b398abb38d2629e7e2055b94a228729ff1feec/datascience_cookiecutter-0.3.2.tar.gz
+[2023-07-02 20:19:46] INFO root fetch - processPackages [bec-scan-bundler]: Downloading https://files.pythonhosted.org/packages/2d/37/e194ed2db2bd0b7dc7228efbb5413c1afc377cb4f7c7985b9d51924e5ebb/bec_scan_bundler-0.8.1.tar.gz
+[2023-07-02 20:19:46] INFO root fetch - processPackages [bec-dap]: Downloading https://files.pythonhosted.org/packages/10/30/ab5d64c978d0a77356ca1f167206cf0daf69c4dffabdb21b8ad4add4b428/bec_dap-0.8.1.tar.gz
+[2023-07-02 20:19:46] INFO root fetch - processPackages [bec-device-server]: Downloading https://files.pythonhosted.org/packages/0c/e8/ad5a801ade8740b56c55ba1169abac27d659d9a67ae5f4c802c620053709/bec_device_server-0.8.1.tar.gz
+[2023-07-02 20:19:46] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/80/fe/8c2c2f98b809c31116bc8c47fcb5cea9d23082b34d92f36eba71ea549614/bec_lib-0.8.1.tar.gz
+[2023-07-02 20:19:46] INFO root fetch - processPackages [bec-scan-server]: Downloading https://files.pythonhosted.org/packages/d6/50/c15582a8b7ecf67924a83d9a50ede4aaaab9faef5a2a7889ece253448e99/bec_scan_server-0.8.1.tar.gz
+[2023-07-02 20:19:46] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/ad/5e/5f926bcaf6f8987e49163ddece4aa983eb2533a2f3fa490971c71e9cf83a/bec_ipython_client-0.8.1.tar.gz
+[2023-07-02 20:19:46] INFO root fetch - processPackages [bec-file-writer]: Downloading https://files.pythonhosted.org/packages/a7/fc/e8561c8e1d64fab04319b3634b05e58399813e55cbe77acb8acffaa00ca7/bec_file_writer-0.8.1.tar.gz
+[2023-07-02 20:19:46] INFO root fetch - processPackages [PyObfuscator]: Downloading https://files.pythonhosted.org/packages/b5/49/6d8f48b63dfe1c5fac470666a2a08bcdd06d5f2db990b212113bbe93a3d8/PyObfuscator-0.1.2.tar.gz
+[2023-07-02 20:19:46] INFO root fetch - processPackages [bec-dap]: executing diffoscope
+[2023-07-02 20:19:46] INFO root fetch - processPackages [bec-dap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_dap-0.8.0.tar.gz tmp/bec_dap-0.8.1.tar.gz --markdown 20230702/b/bec-dap/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-02 20:19:46] INFO root fetch - processPackages [bec-scan-bundler]: executing diffoscope
+[2023-07-02 20:19:47] INFO root fetch - processPackages [bec-scan-bundler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_scan_bundler-0.8.0.tar.gz tmp/bec_scan_bundler-0.8.1.tar.gz --markdown 20230702/b/bec-scan-bundler/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-02 20:19:47] INFO root fetch - processPackages [datascience-cookiecutter]: executing diffoscope
+[2023-07-02 20:19:47] INFO root fetch - processPackages [datascience-cookiecutter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datascience_cookiecutter-0.3.1.tar.gz tmp/datascience_cookiecutter-0.3.2.tar.gz --markdown 20230702/d/datascience-cookiecutter/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-02 20:19:47] INFO root fetch - processPackages [datascience-cookiecutter]: executing diffoscope
+[2023-07-02 20:19:47] INFO root fetch - processPackages [datascience-cookiecutter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datascience_cookiecutter-0.3.1.tar.gz tmp/datascience_cookiecutter-0.3.2.tar.gz --markdown 20230702/d/datascience-cookiecutter/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-02 20:19:47] INFO root fetch - processPackages [bec-device-server]: executing diffoscope
+[2023-07-02 20:19:47] INFO root fetch - processPackages [bec-device-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_device_server-0.8.0.tar.gz tmp/bec_device_server-0.8.1.tar.gz --markdown 20230702/b/bec-device-server/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-02 20:19:47] INFO root fetch - processPackages [bec-lib]: executing diffoscope
+[2023-07-02 20:19:47] INFO root fetch - processPackages [bec-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_lib-0.8.0.tar.gz tmp/bec_lib-0.8.1.tar.gz --markdown 20230702/b/bec-lib/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-02 20:19:47] INFO root fetch - processPackages [bec-file-writer]: executing diffoscope
+[2023-07-02 20:19:47] INFO root fetch - processPackages [bec-file-writer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_file_writer-0.8.0.tar.gz tmp/bec_file_writer-0.8.1.tar.gz --markdown 20230702/b/bec-file-writer/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-02 20:19:47] INFO root fetch - processPackages [bec-ipython-client]: executing diffoscope
+[2023-07-02 20:19:47] INFO root fetch - processPackages [bec-ipython-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_ipython_client-0.8.0.tar.gz tmp/bec_ipython_client-0.8.1.tar.gz --markdown 20230702/b/bec-ipython-client/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-02 20:19:47] INFO root fetch - processPackages [bec-scan-server]: executing diffoscope
+[2023-07-02 20:19:47] INFO root fetch - processPackages [bec-scan-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_scan_server-0.8.0.tar.gz tmp/bec_scan_server-0.8.1.tar.gz --markdown 20230702/b/bec-scan-server/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-02 20:19:47] INFO root fetch - processPackages [PyObfuscator]: executing diffoscope
+[2023-07-02 20:19:47] INFO root fetch - processPackages [PyObfuscator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyObfuscator-0.1.1.tar.gz tmp/PyObfuscator-0.1.2.tar.gz --markdown 20230702/P/PyObfuscator/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-02 20:19:48] INFO root fetch - processPackages [bec-dap]: Remove: archive file [/home/abi/fetcher/tmp/bec_dap-0.8.0.tar.gz]
+[2023-07-02 20:19:48] INFO root fetch - processPackages [bec-dap]: Remove: archive file [/home/abi/fetcher/tmp/bec_dap-0.8.1.tar.gz]
+[2023-07-02 20:19:48] INFO root fetch - processPackages [bec-dap]: Start processing: NewFunctionsPYC
+[2023-07-02 20:19:48] INFO root fetch - main [MainThread]: End processing [bec-dap]: success
+[2023-07-02 20:19:48] INFO root fetch - processPackages [NewFunctionsPYC]: New version: [1.4.0b1] Old Version: [1.4.0b0]
+[2023-07-02 20:19:48] INFO root fetch - processPackages [bec-scan-bundler]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_bundler-0.8.0.tar.gz]
+[2023-07-02 20:19:48] INFO root fetch - processPackages [bec-scan-bundler]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_bundler-0.8.1.tar.gz]
+[2023-07-02 20:19:48] INFO root fetch - processPackages [bec-scan-bundler]: Start processing: pylibsdm
+[2023-07-02 20:19:48] INFO root fetch - main [MainThread]: End processing [bec-scan-bundler]: success
+[2023-07-02 20:19:48] INFO root fetch - processPackages [pylibsdm]: New version: [1.0.0a0.dev1] Old Version: [1.0.0a0.dev0]
+[2023-07-02 20:19:48] INFO root fetch - processPackages [NewFunctionsPYC]: Downloading https://files.pythonhosted.org/packages/78/24/23990715b5f1ee22028efb8ff92bde87f2a45ae40a79c6c43d5a8b7cf329/NewFunctionsPYC-1.4.0b0.tar.gz
+[2023-07-02 20:19:48] INFO root fetch - processPackages [datascience-cookiecutter]: Remove: archive file [/home/abi/fetcher/tmp/datascience_cookiecutter-0.3.1.tar.gz]
+[2023-07-02 20:19:48] INFO root fetch - processPackages [datascience-cookiecutter]: Remove: archive file [/home/abi/fetcher/tmp/datascience_cookiecutter-0.3.2.tar.gz]
+[2023-07-02 20:19:48] INFO root fetch - processPackages [datascience-cookiecutter]: Start processing: plutous-trade-crypto
+[2023-07-02 20:19:48] INFO root fetch - main [MainThread]: End processing [datascience-cookiecutter]: success
+[2023-07-02 20:19:48] INFO root fetch - processPackages [plutous-trade-crypto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 20:19:48] INFO root fetch - processPackages [bec-file-writer]: Remove: archive file [/home/abi/fetcher/tmp/bec_file_writer-0.8.0.tar.gz]
+[2023-07-02 20:19:48] INFO root fetch - processPackages [bec-file-writer]: Remove: archive file [/home/abi/fetcher/tmp/bec_file_writer-0.8.1.tar.gz]
+[2023-07-02 20:19:48] INFO root fetch - processPackages [bec-file-writer]: Start processing: nselib
+[2023-07-02 20:19:48] INFO root fetch - main [MainThread]: End processing [bec-file-writer]: success
+[2023-07-02 20:19:48] INFO root fetch - processPackages [nselib]: New version: [0.6] Old Version: [0.5]
+[2023-07-02 20:19:48] INFO root fetch - processPackages [pylibsdm]: Downloading https://files.pythonhosted.org/packages/c0/b7/5dffe1420218effbaf28f1f2084685fdc2b38dd88ba776baa6ffc0bd543e/pylibsdm-1.0.0a0.dev0.tar.gz
+[2023-07-02 20:19:48] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/e3/db/d32a1544d7f944ad8af411383551ea4aa42adfdd0f238ff44a5a3edaa00e/plutous_trade_crypto-0.0.8.tar.gz
+[2023-07-02 20:19:48] INFO root fetch - processPackages [datascience-cookiecutter]: Start processing: phxutils
+[2023-07-02 20:19:48] INFO root fetch - main [MainThread]: End processing [datascience-cookiecutter]: success
+[2023-07-02 20:19:48] INFO root fetch - processPackages [NewFunctionsPYC]: Downloading https://files.pythonhosted.org/packages/4d/e2/a9ff79b1eed79c79181726ffdef2e6463710a9764d0967915b25467958c9/NewFunctionsPYC-1.4.0b1.tar.gz
+[2023-07-02 20:19:48] INFO root fetch - processPackages [phxutils]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-02 20:19:48] INFO root fetch - processPackages [phxutils]: Downloading https://files.pythonhosted.org/packages/34/b2/ef698fe4474797b28af799b6e4bb8f6f68b6e0d07364f1653867bd90ce09/phxutils-1.1.8.tar.gz
+[2023-07-02 20:19:48] INFO root fetch - processPackages [bec-scan-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_server-0.8.0.tar.gz]
+[2023-07-02 20:19:48] INFO root fetch - processPackages [bec-scan-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_server-0.8.1.tar.gz]
+[2023-07-02 20:19:48] INFO root fetch - processPackages [bec-scan-server]: Start processing: oarepo-cli
+[2023-07-02 20:19:48] INFO root fetch - main [MainThread]: End processing [bec-scan-server]: success
+[2023-07-02 20:19:48] INFO root fetch - processPackages [bec-device-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_device_server-0.8.0.tar.gz]
+[2023-07-02 20:19:48] INFO root fetch - processPackages [bec-device-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_device_server-0.8.1.tar.gz]
+[2023-07-02 20:19:48] INFO root fetch - processPackages [bec-device-server]: Start processing: wvpy
+[2023-07-02 20:19:48] INFO root fetch - main [MainThread]: End processing [bec-device-server]: success
+[2023-07-02 20:19:48] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-0.8.0.tar.gz]
+[2023-07-02 20:19:48] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-0.8.1.tar.gz]
+[2023-07-02 20:19:48] INFO root fetch - processPackages [bec-lib]: Start processing: tradingcomdados
+[2023-07-02 20:19:48] INFO root fetch - main [MainThread]: End processing [bec-lib]: success
+[2023-07-02 20:19:48] INFO root fetch - processPackages [wvpy]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-02 20:19:48] INFO root fetch - processPackages [nselib]: Downloading https://files.pythonhosted.org/packages/fa/5d/9199994abeeb93c476a69d780b52ce0fe9883d562615c42bbda8e7cd2351/nselib-0.5.tar.gz
+[2023-07-02 20:19:48] INFO root fetch - processPackages [oarepo-cli]: New version: [11.1.5] Old Version: [11.1.4]
+[2023-07-02 20:19:48] INFO root fetch - processPackages [tradingcomdados]: New version: [1.2.1] Old Version: [1.1.1]
+[2023-07-02 20:19:48] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/b4/a4/200ca398a36203e8bd51a034e50c51963506316cbf5e7a47866700accaee/plutous_trade_crypto-0.0.9.tar.gz
+[2023-07-02 20:19:49] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-0.8.0.tar.gz]
+[2023-07-02 20:19:49] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-0.8.1.tar.gz]
+[2023-07-02 20:19:49] INFO root fetch - processPackages [bec-ipython-client]: Start processing: bmsdna-lakeapi
+[2023-07-02 20:19:49] INFO root fetch - main [MainThread]: End processing [bec-ipython-client]: success
+[2023-07-02 20:19:49] INFO root fetch - processPackages [pylibsdm]: Downloading https://files.pythonhosted.org/packages/c0/b5/2a6f78fa3694c9eceeba1af7b69477e5e9642fc701f8be0d9e61a9000d42/pylibsdm-1.0.0a0.dev1.tar.gz
+[2023-07-02 20:19:49] INFO root fetch - processPackages [NewFunctionsPYC]: executing diffoscope
+[2023-07-02 20:19:49] INFO root fetch - processPackages [NewFunctionsPYC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NewFunctionsPYC-1.4.0b0.tar.gz tmp/NewFunctionsPYC-1.4.0b1.tar.gz --markdown 20230702/N/NewFunctionsPYC/1.4.0b0-1.4.0b1/diff.md --exclude *.pyd
+[2023-07-02 20:19:49] INFO root fetch - processPackages [bmsdna-lakeapi]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-02 20:19:49] INFO root fetch - processPackages [phxutils]: Downloading https://files.pythonhosted.org/packages/73/b5/ab222f5eea91d62ca8ba37271ea9acc5fabc7920f2ee31f6e49f8010580a/phxutils-1.1.9.tar.gz
+[2023-07-02 20:19:49] INFO root fetch - processPackages [plutous-trade-crypto]: executing diffoscope
+[2023-07-02 20:19:49] INFO root fetch - processPackages [plutous-trade-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous_trade_crypto-0.0.8.tar.gz tmp/plutous_trade_crypto-0.0.9.tar.gz --markdown 20230702/p/plutous-trade-crypto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 20:19:49] INFO root fetch - processPackages [pylibsdm]: executing diffoscope
+[2023-07-02 20:19:49] INFO root fetch - processPackages [pylibsdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylibsdm-1.0.0a0.dev0.tar.gz tmp/pylibsdm-1.0.0a0.dev1.tar.gz --markdown 20230702/p/pylibsdm/1.0.0a0.dev0-1.0.0a0.dev1/diff.md --exclude *.pyd
+[2023-07-02 20:19:49] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/da/09/638fec017abdf30b7deed18c59d41cd5db32022815bf3f8b679284ad01fb/bmsdna_lakeapi-0.9.1.tar.gz
+[2023-07-02 20:19:49] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/b9/e0/ed42bd12354d66baba4967683175e7e4351f7183c2241f24aeda864e41aa/oarepo-cli-11.1.4.tar.gz
+[2023-07-02 20:19:49] INFO root fetch - processPackages [phxutils]: executing diffoscope
+[2023-07-02 20:19:49] INFO root fetch - processPackages [phxutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phxutils-1.1.8.tar.gz tmp/phxutils-1.1.9.tar.gz --markdown 20230702/p/phxutils/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-02 20:19:49] INFO root fetch - processPackages [wvpy]: Downloading https://files.pythonhosted.org/packages/75/a3/6c4d7b5f932e1f266081850f49aef26d1e744e2f99260c6b708bb5d12431/wvpy-0.4.1.tar.gz
+[2023-07-02 20:19:49] INFO root fetch - processPackages [tradingcomdados]: Downloading https://files.pythonhosted.org/packages/1a/ea/aedc9b97e120ebe34fd35a14ed45fa71dec010ad93633f2b8ac761a9a369/tradingcomdados-1.1.1.tar.gz
+[2023-07-02 20:19:49] INFO root fetch - processPackages [nselib]: Downloading https://files.pythonhosted.org/packages/39/10/54a6f6e3a99615df410cfc3181e9321d0c862ba03e2b5f54f6fcbfd913c1/nselib-0.6.tar.gz
+[2023-07-02 20:19:49] INFO root fetch - processPackages [nselib]: executing diffoscope
+[2023-07-02 20:19:49] INFO root fetch - processPackages [nselib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nselib-0.5.tar.gz tmp/nselib-0.6.tar.gz --markdown 20230702/n/nselib/0.5-0.6/diff.md --exclude *.pyd
+[2023-07-02 20:19:49] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/67/2f/c2b0ed980879a450cb788e3b91ebff7d95246ba19fd8d5183109141e9ffd/oarepo-cli-11.1.5.tar.gz
+[2023-07-02 20:19:49] INFO root fetch - processPackages [wvpy]: Downloading https://files.pythonhosted.org/packages/65/f5/a9dc2a6af36277551e1a3f03aaba04b9673b452055aeca3411a6484bc5a5/wvpy-0.4.2.tar.gz
+[2023-07-02 20:19:49] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/8c/51/9d9af1e04ebfbe54b6de0a13c25a360a33fa3c02b4f0ce94f2b39ca2f074/bmsdna_lakeapi-0.9.2.tar.gz
+[2023-07-02 20:19:49] INFO root fetch - processPackages [tradingcomdados]: Downloading https://files.pythonhosted.org/packages/d1/3b/0f771bf4e4d4fce4cd83505cb785106188714f8c9499af5c84ce9309366f/tradingcomdados-1.2.1.tar.gz
+[2023-07-02 20:19:49] INFO root fetch - processPackages [bmsdna-lakeapi]: executing diffoscope
+[2023-07-02 20:19:49] INFO root fetch - processPackages [bmsdna-lakeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmsdna_lakeapi-0.9.1.tar.gz tmp/bmsdna_lakeapi-0.9.2.tar.gz --markdown 20230702/b/bmsdna-lakeapi/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-02 20:19:49] INFO root fetch - processPackages [wvpy]: executing diffoscope
+[2023-07-02 20:19:49] INFO root fetch - processPackages [wvpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wvpy-0.4.1.tar.gz tmp/wvpy-0.4.2.tar.gz --markdown 20230702/w/wvpy/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-02 20:19:49] INFO root fetch - processPackages [tradingcomdados]: executing diffoscope
+[2023-07-02 20:19:49] INFO root fetch - processPackages [tradingcomdados]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tradingcomdados-1.1.1.tar.gz tmp/tradingcomdados-1.2.1.tar.gz --markdown 20230702/t/tradingcomdados/1.1.1-1.2.1/diff.md --exclude *.pyd
+[2023-07-02 20:19:49] INFO root fetch - processPackages [oarepo-cli]: executing diffoscope
+[2023-07-02 20:19:49] INFO root fetch - processPackages [oarepo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-cli-11.1.4.tar.gz tmp/oarepo-cli-11.1.5.tar.gz --markdown 20230702/o/oarepo-cli/11.1.4-11.1.5/diff.md --exclude *.pyd
+[2023-07-02 20:19:50] INFO root fetch - processPackages [phxutils]: Remove: archive file [/home/abi/fetcher/tmp/phxutils-1.1.8.tar.gz]
+[2023-07-02 20:19:50] INFO root fetch - processPackages [phxutils]: Remove: archive file [/home/abi/fetcher/tmp/phxutils-1.1.9.tar.gz]
+[2023-07-02 20:19:50] INFO root fetch - main [MainThread]: End processing [phxutils]: success
+[2023-07-02 20:19:50] INFO root fetch - processPackages [nselib]: Remove: archive file [/home/abi/fetcher/tmp/nselib-0.5.tar.gz]
+[2023-07-02 20:19:50] INFO root fetch - processPackages [nselib]: Remove: archive file [/home/abi/fetcher/tmp/nselib-0.6.tar.gz]
+[2023-07-02 20:19:50] INFO root fetch - main [MainThread]: End processing [nselib]: success
+[2023-07-02 20:19:50] INFO root fetch - processPackages [pylibsdm]: Remove: archive file [/home/abi/fetcher/tmp/pylibsdm-1.0.0a0.dev0.tar.gz]
+[2023-07-02 20:19:50] INFO root fetch - processPackages [pylibsdm]: Remove: archive file [/home/abi/fetcher/tmp/pylibsdm-1.0.0a0.dev1.tar.gz]
+[2023-07-02 20:19:50] INFO root fetch - main [MainThread]: End processing [pylibsdm]: success
+[2023-07-02 20:19:50] INFO root fetch - processPackages [NewFunctionsPYC]: Remove: archive file [/home/abi/fetcher/tmp/NewFunctionsPYC-1.4.0b0.tar.gz]
+[2023-07-02 20:19:50] INFO root fetch - processPackages [NewFunctionsPYC]: Remove: archive file [/home/abi/fetcher/tmp/NewFunctionsPYC-1.4.0b1.tar.gz]
+[2023-07-02 20:19:50] INFO root fetch - main [MainThread]: End processing [NewFunctionsPYC]: success
+[2023-07-02 20:19:50] INFO root fetch - processPackages [tradingcomdados]: Remove: archive file [/home/abi/fetcher/tmp/tradingcomdados-1.1.1.tar.gz]
+[2023-07-02 20:19:50] INFO root fetch - processPackages [tradingcomdados]: Remove: archive file [/home/abi/fetcher/tmp/tradingcomdados-1.2.1.tar.gz]
+[2023-07-02 20:19:50] INFO root fetch - main [MainThread]: End processing [tradingcomdados]: success
+[2023-07-02 20:19:51] INFO root fetch - processPackages [bmsdna-lakeapi]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_lakeapi-0.9.1.tar.gz]
+[2023-07-02 20:19:51] INFO root fetch - processPackages [bmsdna-lakeapi]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_lakeapi-0.9.2.tar.gz]
+[2023-07-02 20:19:51] INFO root fetch - main [MainThread]: End processing [bmsdna-lakeapi]: success
+[2023-07-02 20:19:51] INFO root fetch - processPackages [wvpy]: Remove: archive file [/home/abi/fetcher/tmp/wvpy-0.4.1.tar.gz]
+[2023-07-02 20:19:51] INFO root fetch - processPackages [wvpy]: Remove: archive file [/home/abi/fetcher/tmp/wvpy-0.4.2.tar.gz]
+[2023-07-02 20:19:51] INFO root fetch - main [MainThread]: End processing [wvpy]: success
+[2023-07-02 20:19:51] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.8.tar.gz]
+[2023-07-02 20:19:51] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.9.tar.gz]
+[2023-07-02 20:19:51] INFO root fetch - main [MainThread]: End processing [plutous-trade-crypto]: success
+[2023-07-02 20:19:51] INFO root fetch - processPackages [PyObfuscator]: Remove: archive file [/home/abi/fetcher/tmp/PyObfuscator-0.1.1.tar.gz]
+[2023-07-02 20:19:51] INFO root fetch - processPackages [PyObfuscator]: Remove: archive file [/home/abi/fetcher/tmp/PyObfuscator-0.1.2.tar.gz]
+[2023-07-02 20:19:51] INFO root fetch - main [MainThread]: End processing [PyObfuscator]: success
+[2023-07-02 20:19:53] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.4.tar.gz]
+[2023-07-02 20:19:53] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.5.tar.gz]
+[2023-07-02 20:19:53] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
+[2023-07-02 20:19:53] INFO root fetch - main [MainThread]: Store serial: [18730628]
