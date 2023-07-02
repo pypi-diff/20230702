@@ -13825,3 +13825,53 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-02 20:04:07] INFO root fetch - processPackages [jalali-calendar-cli]: Remove: archive file [/home/abi/fetcher/tmp/jalali_calendar_cli-0.1.6.tar.gz]
 [2023-07-02 20:04:07] INFO root fetch - main [MainThread]: End processing [jalali-calendar-cli]: success
 [2023-07-02 20:04:07] INFO root fetch - main [MainThread]: Store serial: [18730511]
+[2023-07-02 20:09:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18730511]
+[2023-07-02 20:09:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-02 20:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chinese-characters-words
+[2023-07-02 20:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rosetta-ce
+[2023-07-02 20:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libdnf5-shim
+[2023-07-02 20:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bmtk
+[2023-07-02 20:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: piperider-nightly
+[2023-07-02 20:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scannertesting
+[2023-07-02 20:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: canarypy-airflow-plugin
+[2023-07-02 20:09:16] INFO root fetch - processPackages [bmtk]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-02 20:09:16] WARNING root fetch - processPackages [scannertesting]: Skipping, unable to determine old version
+[2023-07-02 20:09:16] INFO root fetch - processPackages [libdnf5-shim]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-02 20:09:16] INFO root fetch - main [MainThread]: End processing [scannertesting] error
+[2023-07-02 20:09:16] INFO root fetch - processPackages [chinese-characters-words]: New version: [0.0.8] Old Version: [0.0.6]
+[2023-07-02 20:09:16] INFO root fetch - processPackages [rosetta-ce]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-07-02 20:09:16] WARNING root fetch - processPackages [canarypy-airflow-plugin]: Skipping, unable to determine old version
+[2023-07-02 20:09:16] INFO root fetch - main [MainThread]: End processing [canarypy-airflow-plugin] error
+[2023-07-02 20:09:16] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/36/0a/2b5aba07e205468016a76a7580b4ed7adf42bab6cd806bb7a01848d0357f/rosetta-ce-1.4.2.tar.gz
+[2023-07-02 20:09:16] INFO root fetch - processPackages [piperider-nightly]: New version: [0.9.0.20220921] Old Version: [0.9.0.20220920]
+[2023-07-02 20:09:16] INFO root fetch - processPackages [libdnf5-shim]: Downloading https://files.pythonhosted.org/packages/c2/2e/1525be53fc787196d5cc167fd5be0273426299011c9cb9a35bbae6cd087d/libdnf5_shim-0.0.1.tar.gz
+[2023-07-02 20:09:16] INFO root fetch - processPackages [bmtk]: Downloading https://files.pythonhosted.org/packages/3f/fe/5cbf79d56931548c9610d02f3315e292096018821bb8b88cbba31ac5b3d2/bmtk-1.0.7.tar.gz
+[2023-07-02 20:09:16] INFO root fetch - processPackages [chinese-characters-words]: Downloading https://files.pythonhosted.org/packages/9b/4d/646f9bb0920be02a5b3f33c24ff3da357a2a66587dddc890157734614d7c/chinese_characters_words-0.0.6.tar.gz
+[2023-07-02 20:09:16] INFO root fetch - processPackages [piperider-nightly]: Downloading https://files.pythonhosted.org/packages/ed/93/38dc4b24d947f1ec271781bdb47a50b77ff762d7a701730c6786ca4ec303/piperider-nightly-0.9.0.20220920.tar.gz
+[2023-07-02 20:09:16] WARNING root fetch - processPackages [chinese-characters-words]: Skipping package: exceeds size limit 10824453>=10485760
+[2023-07-02 20:09:16] INFO root fetch - main [MainThread]: End processing [chinese-characters-words] error
+[2023-07-02 20:09:16] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/7b/f7/fe52982f1829681fdb5fbd31a7e79d59bd5f40ce83d9f7b2443937071aa6/rosetta-ce-1.4.3.tar.gz
+[2023-07-02 20:09:16] INFO root fetch - processPackages [libdnf5-shim]: Downloading https://files.pythonhosted.org/packages/cf/e8/e8b59321241267602edc83ef1a79aec829ae27d7578087f5e9b7048ada8e/libdnf5_shim-0.1.0.tar.gz
+[2023-07-02 20:09:16] INFO root fetch - processPackages [rosetta-ce]: executing diffoscope
+[2023-07-02 20:09:16] INFO root fetch - processPackages [rosetta-ce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosetta-ce-1.4.2.tar.gz tmp/rosetta-ce-1.4.3.tar.gz --markdown 20230702/r/rosetta-ce/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-07-02 20:09:16] INFO root fetch - processPackages [bmtk]: Downloading https://files.pythonhosted.org/packages/a4/db/fcf274f5e1d79f495b9f7ec8cb497a5600fd8f48ecc69fe7cdd6bfab3bb6/bmtk-1.0.8.tar.gz
+[2023-07-02 20:09:16] INFO root fetch - processPackages [libdnf5-shim]: executing diffoscope
+[2023-07-02 20:09:16] INFO root fetch - processPackages [libdnf5-shim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libdnf5_shim-0.0.1.tar.gz tmp/libdnf5_shim-0.1.0.tar.gz --markdown 20230702/l/libdnf5-shim/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-02 20:09:16] INFO root fetch - processPackages [bmtk]: executing diffoscope
+[2023-07-02 20:09:16] INFO root fetch - processPackages [bmtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmtk-1.0.7.tar.gz tmp/bmtk-1.0.8.tar.gz --markdown 20230702/b/bmtk/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-02 20:09:17] INFO root fetch - processPackages [piperider-nightly]: Downloading https://files.pythonhosted.org/packages/a4/47/99354233feb8a6a201731f0992c5656ca2eb5728a26eae7fd09fc5e04b4c/piperider-nightly-0.9.0.20220921.tar.gz
+[2023-07-02 20:09:17] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.4.2.tar.gz]
+[2023-07-02 20:09:17] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.4.3.tar.gz]
+[2023-07-02 20:09:17] INFO root fetch - main [MainThread]: End processing [rosetta-ce]: success
+[2023-07-02 20:09:17] INFO root fetch - processPackages [libdnf5-shim]: Remove: archive file [/home/abi/fetcher/tmp/libdnf5_shim-0.0.1.tar.gz]
+[2023-07-02 20:09:17] INFO root fetch - processPackages [libdnf5-shim]: Remove: archive file [/home/abi/fetcher/tmp/libdnf5_shim-0.1.0.tar.gz]
+[2023-07-02 20:09:17] INFO root fetch - main [MainThread]: End processing [libdnf5-shim]: success
+[2023-07-02 20:09:18] INFO root fetch - processPackages [piperider-nightly]: executing diffoscope
+[2023-07-02 20:09:18] INFO root fetch - processPackages [piperider-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-nightly-0.9.0.20220920.tar.gz tmp/piperider-nightly-0.9.0.20220921.tar.gz --markdown 20230702/p/piperider-nightly/0.9.0.20220920-0.9.0.20220921/diff.md --exclude *.pyd
+[2023-07-02 20:09:20] INFO root fetch - processPackages [bmtk]: Remove: archive file [/home/abi/fetcher/tmp/bmtk-1.0.7.tar.gz]
+[2023-07-02 20:09:20] INFO root fetch - processPackages [bmtk]: Remove: archive file [/home/abi/fetcher/tmp/bmtk-1.0.8.tar.gz]
+[2023-07-02 20:09:20] INFO root fetch - main [MainThread]: End processing [bmtk]: success
+[2023-07-02 20:09:20] INFO root fetch - processPackages [piperider-nightly]: Remove: archive file [/home/abi/fetcher/tmp/piperider-nightly-0.9.0.20220920.tar.gz]
+[2023-07-02 20:09:20] INFO root fetch - processPackages [piperider-nightly]: Remove: archive file [/home/abi/fetcher/tmp/piperider-nightly-0.9.0.20220921.tar.gz]
+[2023-07-02 20:09:20] INFO root fetch - main [MainThread]: End processing [piperider-nightly]: success
+[2023-07-02 20:09:20] INFO root fetch - main [MainThread]: Store serial: [18730536]
