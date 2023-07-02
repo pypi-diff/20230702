@@ -12473,3 +12473,94 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 18:29:14] INFO root fetch - processPackages [django-jutil]: Remove: archive file [/home/abi/fetcher/tmp/django-jutil-3.9.9.tar.gz]
 [2023-07-02 18:29:14] INFO root fetch - main [MainThread]: End processing [django-jutil]: success
 [2023-07-02 18:29:14] INFO root fetch - main [MainThread]: Store serial: [18729990]
+[2023-07-02 18:34:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18729990]
+[2023-07-02 18:34:24] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-02 18:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: csup-analyzer
+[2023-07-02 18:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-jutil
+[2023-07-02 18:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oarepo-model-builder-ui
+[2023-07-02 18:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: headless
+[2023-07-02 18:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PJYoloVision
+[2023-07-02 18:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yanga
+[2023-07-02 18:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-redex
+[2023-07-02 18:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pdx
+[2023-07-02 18:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: feathub-nightly
+[2023-07-02 18:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pybfbc2stats
+[2023-07-02 18:34:25] INFO root fetch - processPackages [oarepo-model-builder-ui]: New version: [4.0.6] Old Version: [4.0.5]
+[2023-07-02 18:34:25] WARNING root fetch - processPackages [PJYoloVision]: Skipping, unable to determine old version
+[2023-07-02 18:34:25] INFO root fetch - processPackages [PJYoloVision]: Start processing: fastdatasets
+[2023-07-02 18:34:25] INFO root fetch - main [MainThread]: End processing [PJYoloVision] error
+[2023-07-02 18:34:25] INFO root fetch - processPackages [yanga]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-02 18:34:25] INFO root fetch - processPackages [pdx]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-02 18:34:25] INFO root fetch - processPackages [csup-analyzer]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-02 18:34:25] INFO root fetch - processPackages [python-redex]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-02 18:34:25] INFO root fetch - processPackages [pybfbc2stats]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-02 18:34:25] INFO root fetch - processPackages [headless]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-07-02 18:34:25] INFO root fetch - processPackages [feathub-nightly]: New version: [0.1.dev20230701] Old Version: [0.1.dev20230630]
+[2023-07-02 18:34:25] INFO root fetch - processPackages [django-jutil]: New version: [3.9.9] Old Version: [3.9.8]
+[2023-07-02 18:34:25] INFO root fetch - processPackages [python-redex]: Downloading https://files.pythonhosted.org/packages/f1/3e/d98dda42e557ca76917c266a40e3ff04a99ef61c62dac9ad7d0b22224d86/python_redex-0.0.2.tar.gz
+[2023-07-02 18:34:25] INFO root fetch - processPackages [django-jutil]: Downloading https://files.pythonhosted.org/packages/2e/e6/3fdcc7e3736b647cf3ab5609859c19dc656fb6ea44111d0c1c4b5a0f1478/django-jutil-3.9.8.tar.gz
+[2023-07-02 18:34:25] INFO root fetch - processPackages [headless]: Downloading https://files.pythonhosted.org/packages/01/29/f491c1a0644d9df25cc0746859c9830d9b3f44d290ebd1e5de7b756b2490/headless-2.0.0a8.tar.gz
+[2023-07-02 18:34:25] INFO root fetch - processPackages [fastdatasets]: New version: [0.9.8] Old Version: [0.9.7.post0]
+[2023-07-02 18:34:25] INFO root fetch - processPackages [oarepo-model-builder-ui]: Downloading https://files.pythonhosted.org/packages/76/9f/a5b7bd4981e5e532d039a15ef3e6aedc6b5bdc019efe99bb40bab42ff79f/oarepo-model-builder-ui-4.0.5.tar.gz
+[2023-07-02 18:34:25] INFO root fetch - processPackages [yanga]: Downloading https://files.pythonhosted.org/packages/bc/c1/b3a3e2795a39f1d1a72958f1c9434aa9a6f1d921d1b6f062404c97fd02ac/yanga-0.1.0.tar.gz
+[2023-07-02 18:34:25] INFO root fetch - processPackages [csup-analyzer]: Downloading https://files.pythonhosted.org/packages/90/11/da2405fe3b764e3009a32719bf4b3240e6e2b39700ca24595860bb6eb11b/csup_analyzer-0.1.1.tar.gz
+[2023-07-02 18:34:25] INFO root fetch - processPackages [pybfbc2stats]: Downloading https://files.pythonhosted.org/packages/e2/31/ac2bb69f606eebc8b826e82ee8fbe78f4ab745b0f1e06b81f3c88358c7b7/pybfbc2stats-0.3.8.tar.gz
+[2023-07-02 18:34:25] INFO root fetch - processPackages [feathub-nightly]: Downloading https://files.pythonhosted.org/packages/cc/49/a8be51b0e5d31057cf91c70ad6709f14e3bfed18d539b392c538545c950e/feathub_nightly-0.1.dev20230630-py3-none-any.whl
+[2023-07-02 18:34:25] INFO root fetch - processPackages [fastdatasets]: Downloading https://files.pythonhosted.org/packages/84/d0/f74a5dda34a2ac541f0a2dfe77dd747cba0954d0b9e8e94c161e28c2e188/fastdatasets-0.9.7.post0-py3-none-any.whl
+[2023-07-02 18:34:25] INFO root fetch - processPackages [headless]: Downloading https://files.pythonhosted.org/packages/db/4e/49b62296a404c0b751546e8c9091d5f19f25932fffbf24e6927b8888f3d2/headless-2.0.0a9.tar.gz
+[2023-07-02 18:34:25] WARNING root fetch - processPackages [feathub-nightly]: Skipping package: exceeds size limit 12210417>=10485760
+[2023-07-02 18:34:25] INFO root fetch - main [MainThread]: End processing [feathub-nightly] error
+[2023-07-02 18:34:25] INFO root fetch - processPackages [pdx]: Downloading https://files.pythonhosted.org/packages/b5/5b/0ae6ad4e7d061f2cfc917f4e496736dc5fb42010fc1eb1a4c85f1bc7f3e9/pdx-0.3.0.tar.gz
+[2023-07-02 18:34:25] INFO root fetch - processPackages [django-jutil]: Downloading https://files.pythonhosted.org/packages/c7/e1/8d217e76e40dfccf488f7ca6bf4ab4dd7d1df5694dbd9b81fe94c00d18fd/django-jutil-3.9.9.tar.gz
+[2023-07-02 18:34:25] INFO root fetch - processPackages [headless]: executing diffoscope
+[2023-07-02 18:34:25] INFO root fetch - processPackages [headless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/headless-2.0.0a8.tar.gz tmp/headless-2.0.0a9.tar.gz --markdown 20230702/h/headless/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-07-02 18:34:25] INFO root fetch - processPackages [python-redex]: Downloading https://files.pythonhosted.org/packages/d3/81/32b20b728886b632e4c941105e6298e6d830de36dae45f807c6a9281da34/python_redex-0.0.3.tar.gz
+[2023-07-02 18:34:25] INFO root fetch - processPackages [pdx]: executing diffoscope
+[2023-07-02 18:34:25] INFO root fetch - processPackages [pdx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdx-0.2.0.tar.gz tmp/pdx-0.3.0.tar.gz --markdown 20230702/p/pdx/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-02 18:34:25] INFO root fetch - processPackages [django-jutil]: executing diffoscope
+[2023-07-02 18:34:25] INFO root fetch - processPackages [django-jutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-jutil-3.9.8.tar.gz tmp/django-jutil-3.9.9.tar.gz --markdown 20230702/d/django-jutil/3.9.8-3.9.9/diff.md --exclude *.pyd
+[2023-07-02 18:34:25] INFO root fetch - processPackages [oarepo-model-builder-ui]: Downloading https://files.pythonhosted.org/packages/58/22/f3d30aa87936328f1cac2d46c01033377d1170a01ed31049cd357aeb94ce/oarepo-model-builder-ui-4.0.6.tar.gz
+[2023-07-02 18:34:25] INFO root fetch - processPackages [csup-analyzer]: Downloading https://files.pythonhosted.org/packages/3f/c0/03dacb9074713e310fc48c95469baede60582152781be6391c0e795370f9/csup_analyzer-0.1.2.tar.gz
+[2023-07-02 18:34:25] INFO root fetch - processPackages [python-redex]: executing diffoscope
+[2023-07-02 18:34:25] INFO root fetch - processPackages [python-redex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_redex-0.0.2.tar.gz tmp/python_redex-0.0.3.tar.gz --markdown 20230702/p/python-redex/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-02 18:34:25] INFO root fetch - processPackages [oarepo-model-builder-ui]: executing diffoscope
+[2023-07-02 18:34:25] INFO root fetch - processPackages [oarepo-model-builder-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-ui-4.0.5.tar.gz tmp/oarepo-model-builder-ui-4.0.6.tar.gz --markdown 20230702/o/oarepo-model-builder-ui/4.0.5-4.0.6/diff.md --exclude *.pyd
+[2023-07-02 18:34:25] INFO root fetch - processPackages [yanga]: Downloading https://files.pythonhosted.org/packages/d0/61/0ef3c1c0482bc604c33a9b888718e3d7b6eea035e846d228747d27428389/yanga-0.2.0.tar.gz
+[2023-07-02 18:34:25] INFO root fetch - processPackages [pybfbc2stats]: Downloading https://files.pythonhosted.org/packages/3a/b6/6744b7db6ff165e30bb8cd5ef02d4f7ec0a4f830eebcbc295d3bf16990c9/pybfbc2stats-0.3.9.tar.gz
+[2023-07-02 18:34:25] INFO root fetch - processPackages [csup-analyzer]: executing diffoscope
+[2023-07-02 18:34:25] INFO root fetch - processPackages [csup-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csup_analyzer-0.1.1.tar.gz tmp/csup_analyzer-0.1.2.tar.gz --markdown 20230702/c/csup-analyzer/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-02 18:34:25] INFO root fetch - processPackages [fastdatasets]: Downloading https://files.pythonhosted.org/packages/c4/47/fc16cfd67fdcb665dbecfa6881176135b56f865a4a36683c29a0a8bb7061/fastdatasets-0.9.8-py3-none-any.whl
+[2023-07-02 18:34:25] INFO root fetch - processPackages [yanga]: executing diffoscope
+[2023-07-02 18:34:25] INFO root fetch - processPackages [yanga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yanga-0.1.0.tar.gz tmp/yanga-0.2.0.tar.gz --markdown 20230702/y/yanga/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-02 18:34:25] INFO root fetch - processPackages [pybfbc2stats]: executing diffoscope
+[2023-07-02 18:34:25] INFO root fetch - processPackages [pybfbc2stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybfbc2stats-0.3.8.tar.gz tmp/pybfbc2stats-0.3.9.tar.gz --markdown 20230702/p/pybfbc2stats/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-02 18:34:25] INFO root fetch - processPackages [fastdatasets]: executing diffoscope
+[2023-07-02 18:34:25] INFO root fetch - processPackages [fastdatasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastdatasets-0.9.7.post0-py3-none-any.whl.zip tmp/fastdatasets-0.9.8-py3-none-any.whl.zip --markdown 20230702/f/fastdatasets/0.9.7.post0-0.9.8/diff.md --exclude *.pyd
+[2023-07-02 18:34:26] INFO root fetch - processPackages [pdx]: Remove: archive file [/home/abi/fetcher/tmp/pdx-0.2.0.tar.gz]
+[2023-07-02 18:34:26] INFO root fetch - processPackages [pdx]: Remove: archive file [/home/abi/fetcher/tmp/pdx-0.3.0.tar.gz]
+[2023-07-02 18:34:26] INFO root fetch - main [MainThread]: End processing [pdx]: success
+[2023-07-02 18:34:27] INFO root fetch - processPackages [python-redex]: Remove: archive file [/home/abi/fetcher/tmp/python_redex-0.0.2.tar.gz]
+[2023-07-02 18:34:27] INFO root fetch - processPackages [python-redex]: Remove: archive file [/home/abi/fetcher/tmp/python_redex-0.0.3.tar.gz]
+[2023-07-02 18:34:27] INFO root fetch - main [MainThread]: End processing [python-redex]: success
+[2023-07-02 18:34:27] INFO root fetch - processPackages [csup-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/csup_analyzer-0.1.1.tar.gz]
+[2023-07-02 18:34:27] INFO root fetch - processPackages [csup-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/csup_analyzer-0.1.2.tar.gz]
+[2023-07-02 18:34:27] INFO root fetch - main [MainThread]: End processing [csup-analyzer]: success
+[2023-07-02 18:34:27] INFO root fetch - processPackages [pybfbc2stats]: Remove: archive file [/home/abi/fetcher/tmp/pybfbc2stats-0.3.8.tar.gz]
+[2023-07-02 18:34:27] INFO root fetch - processPackages [pybfbc2stats]: Remove: archive file [/home/abi/fetcher/tmp/pybfbc2stats-0.3.9.tar.gz]
+[2023-07-02 18:34:27] INFO root fetch - main [MainThread]: End processing [pybfbc2stats]: success
+[2023-07-02 18:34:27] INFO root fetch - processPackages [yanga]: Remove: archive file [/home/abi/fetcher/tmp/yanga-0.1.0.tar.gz]
+[2023-07-02 18:34:27] INFO root fetch - processPackages [yanga]: Remove: archive file [/home/abi/fetcher/tmp/yanga-0.2.0.tar.gz]
+[2023-07-02 18:34:27] INFO root fetch - main [MainThread]: End processing [yanga]: success
+[2023-07-02 18:34:27] INFO root fetch - processPackages [oarepo-model-builder-ui]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-ui-4.0.5.tar.gz]
+[2023-07-02 18:34:27] INFO root fetch - processPackages [oarepo-model-builder-ui]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-ui-4.0.6.tar.gz]
+[2023-07-02 18:34:27] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder-ui]: success
+[2023-07-02 18:34:27] INFO root fetch - processPackages [fastdatasets]: Remove: archive file [/home/abi/fetcher/tmp/fastdatasets-0.9.7.post0-py3-none-any.whl.zip]
+[2023-07-02 18:34:27] INFO root fetch - processPackages [fastdatasets]: Remove: archive file [/home/abi/fetcher/tmp/fastdatasets-0.9.8-py3-none-any.whl.zip]
+[2023-07-02 18:34:27] INFO root fetch - main [MainThread]: End processing [fastdatasets]: success
+[2023-07-02 18:34:27] INFO root fetch - processPackages [django-jutil]: Remove: archive file [/home/abi/fetcher/tmp/django-jutil-3.9.8.tar.gz]
+[2023-07-02 18:34:27] INFO root fetch - processPackages [django-jutil]: Remove: archive file [/home/abi/fetcher/tmp/django-jutil-3.9.9.tar.gz]
+[2023-07-02 18:34:27] INFO root fetch - main [MainThread]: End processing [django-jutil]: success
+[2023-07-02 18:34:28] INFO root fetch - processPackages [headless]: Remove: archive file [/home/abi/fetcher/tmp/headless-2.0.0a8.tar.gz]
+[2023-07-02 18:34:28] INFO root fetch - processPackages [headless]: Remove: archive file [/home/abi/fetcher/tmp/headless-2.0.0a9.tar.gz]
+[2023-07-02 18:34:28] INFO root fetch - main [MainThread]: End processing [headless]: success
+[2023-07-02 18:34:28] INFO root fetch - main [MainThread]: Store serial: [18730020]
