@@ -6393,3 +6393,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 10:47:21] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2023-07-02 10:47:21] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-07-02 10:47:21] INFO root fetch - main [MainThread]: Store serial: [18727316]
+[2023-07-02 10:52:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18727316]
+[2023-07-02 10:52:29] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-02 10:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pozalabs-compose
+[2023-07-02 10:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bbrl-gymnasium
+[2023-07-02 10:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpt-index
+[2023-07-02 10:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llama-index
+[2023-07-02 10:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ourlib
+[2023-07-02 10:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: interaction-devkit
+[2023-07-02 10:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bgstools
+[2023-07-02 10:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deairequest
+[2023-07-02 10:52:29] INFO root fetch - processPackages [bgstools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 10:52:29] INFO root fetch - processPackages [deairequest]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 10:52:29] INFO root fetch - processPackages [ourlib]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-07-02 10:52:29] INFO root fetch - processPackages [bbrl-gymnasium]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 10:52:29] INFO root fetch - processPackages [pozalabs-compose]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-02 10:52:29] WARNING root fetch - processPackages [interaction-devkit]: Skipping, unable to determine old version
+[2023-07-02 10:52:29] INFO root fetch - processPackages [gpt-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-02 10:52:29] INFO root fetch - main [MainThread]: End processing [interaction-devkit] error
+[2023-07-02 10:52:29] INFO root fetch - processPackages [llama-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-02 10:52:29] INFO root fetch - processPackages [deairequest]: Downloading https://files.pythonhosted.org/packages/ba/1e/a7357f1ee6c0887a4a42e530b6861aeb02a0f6ca848a1e74f3ffbad7b0dc/deairequest-0.0.8.tar.gz
+[2023-07-02 10:52:29] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/a3/d9/0f2b579fbbb29225abec7da824c3d2177fa751c84913339da89e8d0b4f89/bgstools-0.1.8.tar.gz
+[2023-07-02 10:52:29] INFO root fetch - processPackages [bbrl-gymnasium]: Downloading https://files.pythonhosted.org/packages/82/f7/2faaeb185c299868c0e6d2bd92523a9c844276a2004c4a53d11f0ce51194/bbrl_gymnasium-0.1.8.tar.gz
+[2023-07-02 10:52:29] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/f3/a4/8fcac26c887b38aa528079ee4a511159fe89337c438c32c575ef70afe1dc/llama_index-0.6.8.tar.gz
+[2023-07-02 10:52:29] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/39/ed/965dee00b18d04a9e723c02a028442b257e1b226780861f81ac52cd324ba/gpt_index-0.6.8.tar.gz
+[2023-07-02 10:52:29] INFO root fetch - processPackages [ourlib]: Downloading https://files.pythonhosted.org/packages/f9/79/98a331dbaf22733e72f47eba6fb7c5ed0d458b2b444db0d7e64e32d28816/ourlib-0.1.3.tar.gz
+[2023-07-02 10:52:30] INFO root fetch - processPackages [pozalabs-compose]: Downloading https://files.pythonhosted.org/packages/06/b4/e38f9c7412983e6cae601fa8a4496d9dd3c15fe0e6bb19019457de2bf908/pozalabs-compose-0.9.0.tar.gz
+[2023-07-02 10:52:30] INFO root fetch - processPackages [bbrl-gymnasium]: Downloading https://files.pythonhosted.org/packages/25/f1/0d0c566099018fbee65b4b6cf54a26afb69f2048b5e40ec2cfda0b9e1aa6/bbrl_gymnasium-0.1.9.tar.gz
+[2023-07-02 10:52:30] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/0a/3c/638191cc7a3a6135dbf58e2857b29d83bacba72ac3e579510aae9606e202/bgstools-0.1.9.tar.gz
+[2023-07-02 10:52:30] INFO root fetch - processPackages [deairequest]: Downloading https://files.pythonhosted.org/packages/fe/6a/17a98fe8650785a2e2a0ed1fdd780e64cdee8f3a619be6b8d3456baeb877/deairequest-0.0.9.tar.gz
+[2023-07-02 10:52:30] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/fd/af/29feddbce0290a3ddaa8adad399a5fa0c83d3d4d9637bf47751161c55d5c/gpt_index-0.6.9.tar.gz
+[2023-07-02 10:52:30] INFO root fetch - processPackages [bgstools]: executing diffoscope
+[2023-07-02 10:52:30] INFO root fetch - processPackages [bgstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgstools-0.1.8.tar.gz tmp/bgstools-0.1.9.tar.gz --markdown 20230702/b/bgstools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 10:52:30] INFO root fetch - processPackages [bbrl-gymnasium]: executing diffoscope
+[2023-07-02 10:52:30] INFO root fetch - processPackages [bbrl-gymnasium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbrl_gymnasium-0.1.8.tar.gz tmp/bbrl_gymnasium-0.1.9.tar.gz --markdown 20230702/b/bbrl-gymnasium/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 10:52:30] INFO root fetch - processPackages [deairequest]: executing diffoscope
+[2023-07-02 10:52:30] INFO root fetch - processPackages [deairequest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deairequest-0.0.8.tar.gz tmp/deairequest-0.0.9.tar.gz --markdown 20230702/d/deairequest/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 10:52:30] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/9c/96/62b5a23720114f0ce0f6331a1c6f89c27b66d44db7187a5632221f0d6f27/llama_index-0.6.9.tar.gz
+[2023-07-02 10:52:30] INFO root fetch - processPackages [ourlib]: Downloading https://files.pythonhosted.org/packages/d3/cb/ed4ed6815921911b0abff44a2710d87397e906087e3e3d512098f34061d2/ourlib-0.2.0.tar.gz
+[2023-07-02 10:52:30] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-07-02 10:52:30] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.6.8.tar.gz tmp/gpt_index-0.6.9.tar.gz --markdown 20230702/g/gpt-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-02 10:52:30] INFO root fetch - processPackages [pozalabs-compose]: Downloading https://files.pythonhosted.org/packages/c4/33/dc52b783559ddc423af41ab2502f9d7749e2c4231db5f0f022fea65653c7/pozalabs-compose-0.9.1.tar.gz
+[2023-07-02 10:52:30] INFO root fetch - processPackages [ourlib]: executing diffoscope
+[2023-07-02 10:52:30] INFO root fetch - processPackages [ourlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ourlib-0.1.3.tar.gz tmp/ourlib-0.2.0.tar.gz --markdown 20230702/o/ourlib/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-07-02 10:52:30] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-07-02 10:52:30] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.6.8.tar.gz tmp/llama_index-0.6.9.tar.gz --markdown 20230702/l/llama-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-02 10:52:30] INFO root fetch - processPackages [pozalabs-compose]: executing diffoscope
+[2023-07-02 10:52:30] INFO root fetch - processPackages [pozalabs-compose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pozalabs-compose-0.9.0.tar.gz tmp/pozalabs-compose-0.9.1.tar.gz --markdown 20230702/p/pozalabs-compose/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-02 10:52:31] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.8.tar.gz]
+[2023-07-02 10:52:31] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.9.tar.gz]
+[2023-07-02 10:52:31] INFO root fetch - main [MainThread]: End processing [bgstools]: success
+[2023-07-02 10:52:31] INFO root fetch - processPackages [bbrl-gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/bbrl_gymnasium-0.1.8.tar.gz]
+[2023-07-02 10:52:31] INFO root fetch - processPackages [bbrl-gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/bbrl_gymnasium-0.1.9.tar.gz]
+[2023-07-02 10:52:31] INFO root fetch - main [MainThread]: End processing [bbrl-gymnasium]: success
+[2023-07-02 10:52:31] INFO root fetch - processPackages [ourlib]: Remove: archive file [/home/abi/fetcher/tmp/ourlib-0.1.3.tar.gz]
+[2023-07-02 10:52:31] INFO root fetch - processPackages [ourlib]: Remove: archive file [/home/abi/fetcher/tmp/ourlib-0.2.0.tar.gz]
+[2023-07-02 10:52:31] INFO root fetch - main [MainThread]: End processing [ourlib]: success
+[2023-07-02 10:52:31] INFO root fetch - processPackages [deairequest]: Remove: archive file [/home/abi/fetcher/tmp/deairequest-0.0.8.tar.gz]
+[2023-07-02 10:52:31] INFO root fetch - processPackages [deairequest]: Remove: archive file [/home/abi/fetcher/tmp/deairequest-0.0.9.tar.gz]
+[2023-07-02 10:52:31] INFO root fetch - main [MainThread]: End processing [deairequest]: success
+[2023-07-02 10:52:32] INFO root fetch - processPackages [pozalabs-compose]: Remove: archive file [/home/abi/fetcher/tmp/pozalabs-compose-0.9.0.tar.gz]
+[2023-07-02 10:52:32] INFO root fetch - processPackages [pozalabs-compose]: Remove: archive file [/home/abi/fetcher/tmp/pozalabs-compose-0.9.1.tar.gz]
+[2023-07-02 10:52:32] INFO root fetch - main [MainThread]: End processing [pozalabs-compose]: success
+[2023-07-02 10:52:33] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.6.8.tar.gz]
+[2023-07-02 10:52:33] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.6.9.tar.gz]
+[2023-07-02 10:52:33] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-07-02 10:52:33] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.6.8.tar.gz]
+[2023-07-02 10:52:33] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.6.9.tar.gz]
+[2023-07-02 10:52:33] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-07-02 10:52:33] INFO root fetch - main [MainThread]: Store serial: [18727344]
