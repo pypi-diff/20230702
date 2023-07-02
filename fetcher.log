@@ -10577,3 +10577,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 16:35:06] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/helios-opentelemetry-sdk-1.0.96.tar.gz]
 [2023-07-02 16:35:06] INFO root fetch - main [MainThread]: End processing [helios-opentelemetry-sdk]: success
 [2023-07-02 16:35:06] INFO root fetch - main [MainThread]: Store serial: [18729141]
+[2023-07-02 16:40:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18729141]
+[2023-07-02 16:40:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-02 16:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quart-auth
+[2023-07-02 16:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpt-functions
+[2023-07-02 16:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aicoder
+[2023-07-02 16:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: namespace-mahdimir
+[2023-07-02 16:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: watermark
+[2023-07-02 16:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyngleton
+[2023-07-02 16:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: modbus2mqtt
+[2023-07-02 16:40:15] INFO root fetch - processPackages [pyngleton]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-02 16:40:15] WARNING root fetch - processPackages [gpt-functions]: Skipping, unable to determine old version
+[2023-07-02 16:40:15] INFO root fetch - processPackages [namespace-mahdimir]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-02 16:40:15] INFO root fetch - main [MainThread]: End processing [gpt-functions] error
+[2023-07-02 16:40:15] INFO root fetch - processPackages [watermark]: New version: [2.4.3] Old Version: [2.4.2]
+[2023-07-02 16:40:15] INFO root fetch - processPackages [quart-auth]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-02 16:40:15] INFO root fetch - processPackages [aicoder]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-02 16:40:15] INFO root fetch - processPackages [pyngleton]: Downloading https://files.pythonhosted.org/packages/74/64/90554d8c91d7e549cc12e617b32cce176f2808ddb924d4266a9850529122/pyngleton-0.0.3-py3-none-any.whl
+[2023-07-02 16:40:15] INFO root fetch - processPackages [namespace-mahdimir]: Downloading https://files.pythonhosted.org/packages/6a/8e/d87993334e119a8a675c9af750f22bc550b46a743196dcba30cbeea3299a/namespace_mahdimir-0.1.1.tar.gz
+[2023-07-02 16:40:15] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/76/c2/eb690ce6f0ec829af6ebff95a78ecb0eddf80796e2e2a9394fc24f6efb74/aicoder-0.2.5-py3-none-any.whl
+[2023-07-02 16:40:15] INFO root fetch - processPackages [modbus2mqtt]: New version: [0.67] Old Version: [0.65]
+[2023-07-02 16:40:16] INFO root fetch - processPackages [watermark]: Downloading https://files.pythonhosted.org/packages/54/5d/142a73a17eb670a3f8eb74829cf968973965e1f711562ede9ec19183f3dd/watermark-2.4.2.tar.gz
+[2023-07-02 16:40:16] INFO root fetch - processPackages [quart-auth]: Downloading https://files.pythonhosted.org/packages/ec/06/19a63bfcc93782126985aa246da4cb6cca4586cd9e65a58157a42e1b8dfb/quart_auth-0.8.0.tar.gz
+[2023-07-02 16:40:16] INFO root fetch - processPackages [pyngleton]: Downloading https://files.pythonhosted.org/packages/95/3e/39619c26faa7a7062b86451518622c5fb66172e1f5b907293dff7c87248e/pyngleton-0.0.4.tar.gz
+[2023-07-02 16:40:16] INFO root fetch - processPackages [namespace-mahdimir]: Downloading https://files.pythonhosted.org/packages/9a/70/a4e6f9acba6c78d007bc143f6ed4349c5d3bdc2e8b0401f915570da47cbf/namespace_mahdimir-0.1.2.tar.gz
+[2023-07-02 16:40:16] WARNING root fetch - processPackages [pyngleton]: Skipping package: exceeds size limit 10609141>=10485760
+[2023-07-02 16:40:16] INFO root fetch - main [MainThread]: End processing [pyngleton] error
+[2023-07-02 16:40:16] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/dd/11/8f0e36e9614edb84bee65c7deae1666844245395ad6301f332d69e30ccb2/aicoder-0.2.6-py3-none-any.whl
+[2023-07-02 16:40:16] INFO root fetch - processPackages [modbus2mqtt]: Downloading https://files.pythonhosted.org/packages/4e/dc/c00171600b2663d1b4079ee828f549b51f988385523b80ddfd65266e7af3/modbus2mqtt-0.65.tar.gz
+[2023-07-02 16:40:16] INFO root fetch - processPackages [namespace-mahdimir]: executing diffoscope
+[2023-07-02 16:40:16] INFO root fetch - processPackages [namespace-mahdimir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namespace_mahdimir-0.1.1.tar.gz tmp/namespace_mahdimir-0.1.2.tar.gz --markdown 20230702/n/namespace-mahdimir/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-02 16:40:16] INFO root fetch - processPackages [aicoder]: executing diffoscope
+[2023-07-02 16:40:16] INFO root fetch - processPackages [aicoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicoder-0.2.5-py3-none-any.whl.zip tmp/aicoder-0.2.6-py3-none-any.whl.zip --markdown 20230702/a/aicoder/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-02 16:40:16] INFO root fetch - processPackages [watermark]: Downloading https://files.pythonhosted.org/packages/b8/9d/1ba6f8e632765164c7ba249c4e6d554a98e50e6ed898048b52dd85f6e16d/watermark-2.4.3.tar.gz
+[2023-07-02 16:40:16] INFO root fetch - processPackages [quart-auth]: Downloading https://files.pythonhosted.org/packages/41/b7/e961ec1281e1e14cc5ec9805c0ea9fa56d11ded94ed994f0a466dc5e1f91/quart_auth-0.9.0.tar.gz
+[2023-07-02 16:40:16] INFO root fetch - processPackages [watermark]: executing diffoscope
+[2023-07-02 16:40:16] INFO root fetch - processPackages [watermark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watermark-2.4.2.tar.gz tmp/watermark-2.4.3.tar.gz --markdown 20230702/w/watermark/2.4.2-2.4.3/diff.md --exclude *.pyd
+[2023-07-02 16:40:16] INFO root fetch - processPackages [modbus2mqtt]: Downloading https://files.pythonhosted.org/packages/82/cb/311836ecdd5a4d60e3d76e1e1e9d2c13969f3dbf107e0769c5f21f37803f/modbus2mqtt-0.67.tar.gz
+[2023-07-02 16:40:16] INFO root fetch - processPackages [quart-auth]: executing diffoscope
+[2023-07-02 16:40:16] INFO root fetch - processPackages [quart-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quart_auth-0.8.0.tar.gz tmp/quart_auth-0.9.0.tar.gz --markdown 20230702/q/quart-auth/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-02 16:40:16] INFO root fetch - processPackages [modbus2mqtt]: executing diffoscope
+[2023-07-02 16:40:16] INFO root fetch - processPackages [modbus2mqtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modbus2mqtt-0.65.tar.gz tmp/modbus2mqtt-0.67.tar.gz --markdown 20230702/m/modbus2mqtt/0.65-0.67/diff.md --exclude *.pyd
+[2023-07-02 16:40:17] INFO root fetch - processPackages [namespace-mahdimir]: Remove: archive file [/home/abi/fetcher/tmp/namespace_mahdimir-0.1.1.tar.gz]
+[2023-07-02 16:40:17] INFO root fetch - processPackages [namespace-mahdimir]: Remove: archive file [/home/abi/fetcher/tmp/namespace_mahdimir-0.1.2.tar.gz]
+[2023-07-02 16:40:17] INFO root fetch - main [MainThread]: End processing [namespace-mahdimir]: success
+[2023-07-02 16:40:17] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.2.5-py3-none-any.whl.zip]
+[2023-07-02 16:40:17] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.2.6-py3-none-any.whl.zip]
+[2023-07-02 16:40:17] INFO root fetch - main [MainThread]: End processing [aicoder]: success
+[2023-07-02 16:40:17] INFO root fetch - processPackages [watermark]: Remove: archive file [/home/abi/fetcher/tmp/watermark-2.4.2.tar.gz]
+[2023-07-02 16:40:17] INFO root fetch - processPackages [watermark]: Remove: archive file [/home/abi/fetcher/tmp/watermark-2.4.3.tar.gz]
+[2023-07-02 16:40:17] INFO root fetch - main [MainThread]: End processing [watermark]: success
+[2023-07-02 16:40:17] INFO root fetch - processPackages [quart-auth]: Remove: archive file [/home/abi/fetcher/tmp/quart_auth-0.8.0.tar.gz]
+[2023-07-02 16:40:17] INFO root fetch - processPackages [quart-auth]: Remove: archive file [/home/abi/fetcher/tmp/quart_auth-0.9.0.tar.gz]
+[2023-07-02 16:40:17] INFO root fetch - main [MainThread]: End processing [quart-auth]: success
+[2023-07-02 16:40:17] INFO root fetch - processPackages [modbus2mqtt]: Remove: archive file [/home/abi/fetcher/tmp/modbus2mqtt-0.65.tar.gz]
+[2023-07-02 16:40:17] INFO root fetch - processPackages [modbus2mqtt]: Remove: archive file [/home/abi/fetcher/tmp/modbus2mqtt-0.67.tar.gz]
+[2023-07-02 16:40:17] INFO root fetch - main [MainThread]: End processing [modbus2mqtt]: success
+[2023-07-02 16:40:17] INFO root fetch - main [MainThread]: Store serial: [18729162]
