@@ -9551,3 +9551,99 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 15:16:20] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
 [2023-07-02 15:16:20] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
 [2023-07-02 15:16:20] INFO root fetch - main [MainThread]: Store serial: [18728704]
+[2023-07-02 15:21:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18728704]
+[2023-07-02 15:21:29] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-02 15:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-sphinx
+[2023-07-02 15:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-auth-saml
+[2023-07-02 15:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyscrlink
+[2023-07-02 15:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aleksis-app-tezor
+[2023-07-02 15:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vyxal
+[2023-07-02 15:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-django
+[2023-07-02 15:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: effortlesshtml
+[2023-07-02 15:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-apl
+[2023-07-02 15:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sbcontrast
+[2023-07-02 15:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: thunno2
+[2023-07-02 15:21:29] INFO root fetch - processPackages [odoo-addon-auth-saml]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.3]
+[2023-07-02 15:21:29] INFO root fetch - processPackages [aleksis-app-tezor]: New version: [2.0.dev1] Old Version: [1.2.1.dev1]
+[2023-07-02 15:21:29] INFO root fetch - processPackages [pyscrlink]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-02 15:21:29] WARNING root fetch - processPackages [effortlesshtml]: Skipping, unable to determine old version
+[2023-07-02 15:21:29] INFO root fetch - processPackages [effortlesshtml]: Start processing: llamabot
+[2023-07-02 15:21:29] INFO root fetch - main [MainThread]: End processing [effortlesshtml] error
+[2023-07-02 15:21:29] INFO root fetch - processPackages [thunno2]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-07-02 15:21:29] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-02 15:21:29] INFO root fetch - processPackages [sbcontrast]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-02 15:21:29] INFO root fetch - processPackages [vyxal]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-07-02 15:21:29] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-02 15:21:29] INFO root fetch - processPackages [llamabot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 15:21:29] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.870] Old Version: [0.0.869]
+[2023-07-02 15:21:29] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/31/05/7d4721877f2dde80d5bd40c84773d24b5486a794e78758d5c6c51a0e0ee0/llamabot-0.0.8.tar.gz
+[2023-07-02 15:21:29] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-07-02 15:21:29] INFO root fetch - processPackages [odoo-addon-auth-saml]: Downloading https://files.pythonhosted.org/packages/31/6d/4e81ef590c31f40dcf3d1eaec4d282661696ebebf12996c506661baa849a/odoo_addon_auth_saml-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-02 15:21:29] INFO root fetch - processPackages [thunno2]: Downloading https://files.pythonhosted.org/packages/ed/77/92d50db601d2b214f825f5d445cd8338f98b0ed26de875a07a9285c64b01/thunno2-2.2.1.tar.gz
+[2023-07-02 15:21:29] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/ee/5f/d14a13e3841f88563a4d74f6999bed469166a4dbc6fe485d9383568be2eb/nbdev-apl-0.0.869.tar.gz
+[2023-07-02 15:21:29] INFO root fetch - processPackages [pyscrlink]: Downloading https://files.pythonhosted.org/packages/f4/dc/ee03467451854525b89c6f32d2319880c65254c231af5eb2761212329ead/pyscrlink-0.2.7.tar.gz
+[2023-07-02 15:21:29] INFO root fetch - processPackages [aleksis-app-tezor]: Downloading https://files.pythonhosted.org/packages/a6/fb/5dc9f6d1031e434f473d491cff03aac433762a816f13419d35747878ae51/aleksis_app_tezor-1.2.1.dev1.tar.gz
+[2023-07-02 15:21:29] INFO root fetch - processPackages [vyxal]: Downloading https://files.pythonhosted.org/packages/df/34/a9313887f0e45965697911af82da491ce6ab3d9b9692419bc9d28e55edae/vyxal-2.9.0.tar.gz
+[2023-07-02 15:21:29] INFO root fetch - processPackages [sbcontrast]: Downloading https://files.pythonhosted.org/packages/4e/bb/b987c1d12c29b5733d9d952ddc4a92ba42af2a76ad57b482276f6ab53f4b/sbcontrast-1.0.1.tar.gz
+[2023-07-02 15:21:29] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-07-02 15:21:29] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/8c/77/360013b912689bcadc9699ffbfd0c59717ab5c032c425ce8f661e39484f5/llamabot-0.0.9.tar.gz
+[2023-07-02 15:21:29] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-07-02 15:21:30] INFO root fetch - processPackages [llamabot]: executing diffoscope
+[2023-07-02 15:21:30] INFO root fetch - processPackages [llamabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamabot-0.0.8.tar.gz tmp/llamabot-0.0.9.tar.gz --markdown 20230702/l/llamabot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 15:21:30] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-07-02 15:21:30] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230702/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-02 15:21:30] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/c8/1c/859d7379e9ce05a699eb347697155bb29e62ff50189cc55dbb2c01cb60f7/nbdev-apl-0.0.870.tar.gz
+[2023-07-02 15:21:30] INFO root fetch - processPackages [odoo-addon-auth-saml]: Downloading https://files.pythonhosted.org/packages/7c/51/2f236d00a308c57e06c5da7193dc52cfb12e52eb749b20ad8e9e70087cca/odoo_addon_auth_saml-16.0.1.0.1-py3-none-any.whl
+[2023-07-02 15:21:30] INFO root fetch - processPackages [odoo-addon-auth-saml]: executing diffoscope
+[2023-07-02 15:21:30] INFO root fetch - processPackages [odoo-addon-auth-saml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_auth_saml-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_auth_saml-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230702/o/odoo-addon-auth-saml/16.0.1.0.0.3-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-07-02 15:21:30] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-07-02 15:21:30] INFO root fetch - processPackages [thunno2]: Downloading https://files.pythonhosted.org/packages/6c/a8/cf38c49476199cb64fe03c85d736ceb4ae2d13d3906e112b70441d7b2bd9/thunno2-2.2.2.tar.gz
+[2023-07-02 15:21:30] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-07-02 15:21:30] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.869.tar.gz tmp/nbdev-apl-0.0.870.tar.gz --markdown 20230702/n/nbdev-apl/0.0.869-0.0.870/diff.md --exclude *.pyd
+[2023-07-02 15:21:30] INFO root fetch - processPackages [pyscrlink]: Downloading https://files.pythonhosted.org/packages/60/ba/2f3a14de52c65aca9ecc43f75ba304557dfaffc1e5ae970bcddccfdfeb61/pyscrlink-0.2.8.tar.gz
+[2023-07-02 15:21:30] INFO root fetch - processPackages [sbcontrast]: Downloading https://files.pythonhosted.org/packages/12/4e/b47c89d6f0adfc0f387fcc142a5edd46966bbb1e16819e5a289a9f0113cf/sbcontrast-1.0.2.tar.gz
+[2023-07-02 15:21:30] INFO root fetch - processPackages [aleksis-app-tezor]: Downloading https://files.pythonhosted.org/packages/2b/ae/d11490b685e08edad9a47d96517017b8bc4f95c3fb16802ccefaa33ae2ac/aleksis_app_tezor-2.0.dev1.tar.gz
+[2023-07-02 15:21:30] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-07-02 15:21:30] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230702/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-02 15:21:30] INFO root fetch - processPackages [thunno2]: executing diffoscope
+[2023-07-02 15:21:30] INFO root fetch - processPackages [thunno2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thunno2-2.2.1.tar.gz tmp/thunno2-2.2.2.tar.gz --markdown 20230702/t/thunno2/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-07-02 15:21:30] INFO root fetch - processPackages [pyscrlink]: executing diffoscope
+[2023-07-02 15:21:30] INFO root fetch - processPackages [pyscrlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscrlink-0.2.7.tar.gz tmp/pyscrlink-0.2.8.tar.gz --markdown 20230702/p/pyscrlink/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-02 15:21:30] INFO root fetch - processPackages [sbcontrast]: executing diffoscope
+[2023-07-02 15:21:30] INFO root fetch - processPackages [sbcontrast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcontrast-1.0.1.tar.gz tmp/sbcontrast-1.0.2.tar.gz --markdown 20230702/s/sbcontrast/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-02 15:21:30] INFO root fetch - processPackages [vyxal]: Downloading https://files.pythonhosted.org/packages/50/63/1746c2cccb187042ae5cc09caa52fd1fb83b4e37b2533d5d7dbcf041841a/vyxal-2.9.1.tar.gz
+[2023-07-02 15:21:30] INFO root fetch - processPackages [aleksis-app-tezor]: executing diffoscope
+[2023-07-02 15:21:30] INFO root fetch - processPackages [aleksis-app-tezor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aleksis_app_tezor-1.2.1.dev1.tar.gz tmp/aleksis_app_tezor-2.0.dev1.tar.gz --markdown 20230702/a/aleksis-app-tezor/1.2.1.dev1-2.0.dev1/diff.md --exclude *.pyd
+[2023-07-02 15:21:30] INFO root fetch - processPackages [vyxal]: executing diffoscope
+[2023-07-02 15:21:30] INFO root fetch - processPackages [vyxal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vyxal-2.9.0.tar.gz tmp/vyxal-2.9.1.tar.gz --markdown 20230702/v/vyxal/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-07-02 15:21:31] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.8.tar.gz]
+[2023-07-02 15:21:31] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.9.tar.gz]
+[2023-07-02 15:21:31] INFO root fetch - main [MainThread]: End processing [llamabot]: success
+[2023-07-02 15:21:31] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.869.tar.gz]
+[2023-07-02 15:21:31] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.870.tar.gz]
+[2023-07-02 15:21:31] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-07-02 15:21:31] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-07-02 15:21:31] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-07-02 15:21:31] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-07-02 15:21:31] INFO root fetch - processPackages [odoo-addon-auth-saml]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_saml-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-02 15:21:31] INFO root fetch - processPackages [odoo-addon-auth-saml]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_saml-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-02 15:21:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-auth-saml]: success
+[2023-07-02 15:21:31] INFO root fetch - processPackages [pyscrlink]: Remove: archive file [/home/abi/fetcher/tmp/pyscrlink-0.2.7.tar.gz]
+[2023-07-02 15:21:31] INFO root fetch - processPackages [pyscrlink]: Remove: archive file [/home/abi/fetcher/tmp/pyscrlink-0.2.8.tar.gz]
+[2023-07-02 15:21:31] INFO root fetch - main [MainThread]: End processing [pyscrlink]: success
+[2023-07-02 15:21:31] INFO root fetch - processPackages [sbcontrast]: Remove: archive file [/home/abi/fetcher/tmp/sbcontrast-1.0.1.tar.gz]
+[2023-07-02 15:21:31] INFO root fetch - processPackages [sbcontrast]: Remove: archive file [/home/abi/fetcher/tmp/sbcontrast-1.0.2.tar.gz]
+[2023-07-02 15:21:31] INFO root fetch - main [MainThread]: End processing [sbcontrast]: success
+[2023-07-02 15:21:32] INFO root fetch - processPackages [thunno2]: Remove: archive file [/home/abi/fetcher/tmp/thunno2-2.2.1.tar.gz]
+[2023-07-02 15:21:32] INFO root fetch - processPackages [thunno2]: Remove: archive file [/home/abi/fetcher/tmp/thunno2-2.2.2.tar.gz]
+[2023-07-02 15:21:32] INFO root fetch - main [MainThread]: End processing [thunno2]: success
+[2023-07-02 15:21:32] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-07-02 15:21:32] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-07-02 15:21:32] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-07-02 15:21:33] INFO root fetch - processPackages [aleksis-app-tezor]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_app_tezor-1.2.1.dev1.tar.gz]
+[2023-07-02 15:21:33] INFO root fetch - processPackages [aleksis-app-tezor]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_app_tezor-2.0.dev1.tar.gz]
+[2023-07-02 15:21:33] INFO root fetch - main [MainThread]: End processing [aleksis-app-tezor]: success
+[2023-07-02 15:21:33] INFO root fetch - processPackages [vyxal]: Remove: archive file [/home/abi/fetcher/tmp/vyxal-2.9.0.tar.gz]
+[2023-07-02 15:21:33] INFO root fetch - processPackages [vyxal]: Remove: archive file [/home/abi/fetcher/tmp/vyxal-2.9.1.tar.gz]
+[2023-07-02 15:21:33] INFO root fetch - main [MainThread]: End processing [vyxal]: success
+[2023-07-02 15:21:33] INFO root fetch - main [MainThread]: Store serial: [18728742]
