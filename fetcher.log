@@ -3403,3 +3403,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 04:50:35] INFO root fetch - processPackages [watchmen-rest-doll]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_rest_doll-16.5.9.tar.gz]
 [2023-07-02 04:50:35] INFO root fetch - main [MainThread]: End processing [watchmen-rest-doll]: success
 [2023-07-02 04:50:35] INFO root fetch - main [MainThread]: Store serial: [18726046]
+[2023-07-02 04:55:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726046]
+[2023-07-02 04:55:52] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-02 04:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trio
+[2023-07-02 04:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-payment-purchase
+[2023-07-02 04:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-banking-sepa-direct-debit
+[2023-07-02 04:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-payment-order
+[2023-07-02 04:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-account-payment-mode
+[2023-07-02 04:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: woodchips
+[2023-07-02 04:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: igorwriter
+[2023-07-02 04:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: reliableGPT
+[2023-07-02 04:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-account-statement-import
+[2023-07-02 04:55:52] INFO root fetch - processPackages [odoo-addon-account-statement-import]: New version: [15.0.3.1.0.3] Old Version: [15.0.3.1.0.2]
+[2023-07-02 04:55:52] INFO root fetch - processPackages [odoo-addon-account-payment-purchase]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2023-07-02 04:55:52] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: New version: [16.0.1.2.0.1] Old Version: [16.0.1.2.0]
+[2023-07-02 04:55:52] INFO root fetch - processPackages [odoo-addon-account-payment-order]: New version: [16.0.1.1.1.3] Old Version: [16.0.1.1.1.2]
+[2023-07-02 04:55:52] INFO root fetch - processPackages [trio]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-02 04:55:52] INFO root fetch - processPackages [reliableGPT]: New version: [0.2.955] Old Version: [0.2.953]
+[2023-07-02 04:55:52] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-07-02 04:55:52] INFO root fetch - processPackages [woodchips]: New version: [1.0.0] Old Version: [0.2.4]
+[2023-07-02 04:55:52] INFO root fetch - processPackages [igorwriter]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-02 04:55:52] INFO root fetch - processPackages [igorwriter]: Downloading https://files.pythonhosted.org/packages/81/5a/8a12e2f3bbedd69d2bf687ef34c8e5b737e04dd698c1134dcfc8b90170ba/igorwriter-0.4.0.tar.gz
+[2023-07-02 04:55:52] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/74/dc/6fdb6561ed877c331ad7b0177e84657f8f7e1a90107ceaf53d171e9078b7/odoo_addon_account_payment_order-16.0.1.1.1.2-py3-none-any.whl
+[2023-07-02 04:55:52] INFO root fetch - processPackages [odoo-addon-account-payment-purchase]: Downloading https://files.pythonhosted.org/packages/86/db/730f7c393fa9eb39e2f130dada9f88e9097b06a8a14c4b33c1f084ba7817/odoo_addon_account_payment_purchase-16.0.1.0.0.7-py3-none-any.whl
+[2023-07-02 04:55:52] INFO root fetch - processPackages [odoo-addon-account-statement-import]: Downloading https://files.pythonhosted.org/packages/0b/a1/4fef06d00bf4bc5c7448d7e0a4e7983be6616d18bf6a62b2e4a604f9d4ab/odoo_addon_account_statement_import-15.0.3.1.0.2-py3-none-any.whl
+[2023-07-02 04:55:52] INFO root fetch - processPackages [trio]: Downloading https://files.pythonhosted.org/packages/e1/cb/ddabcabc9ffaa45f89535267f33a22780045c6f9c02dcd725cc7a2b01496/trio-0.8.0.tar.gz
+[2023-07-02 04:55:52] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/ae/b0/9a41c3455683b7842249d365082ede15968162218a77b367a35fd4a1dd3d/reliableGPT-0.2.953.tar.gz
+[2023-07-02 04:55:52] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: Downloading https://files.pythonhosted.org/packages/65/aa/ff531f158aecfea1641ba909db0162ba78a332be1e5dde27ed70776f8194/odoo_addon_account_payment_mode-16.0.1.2.0-py3-none-any.whl
+[2023-07-02 04:55:52] INFO root fetch - processPackages [woodchips]: Downloading https://files.pythonhosted.org/packages/55/b7/93984df87cc2cc1ae605482cddb8afa97abae01084ea1768566a03507210/woodchips-0.2.4.tar.gz
+[2023-07-02 04:55:52] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Downloading https://files.pythonhosted.org/packages/8b/1b/dcdf336b2af065a95c7f87939a1c50e28939f7e37a9ae70a69b12e5f5530/odoo_addon_account_banking_sepa_direct_debit-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-02 04:55:52] INFO root fetch - processPackages [igorwriter]: Downloading https://files.pythonhosted.org/packages/ee/cb/d5d87bdb15df14bc19bcf07aaf7633bf61002928821fbf83a2dcc229bc1a/igorwriter-0.4.1.tar.gz
+[2023-07-02 04:55:53] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/bc/60/34072c3e63de24c524d10927e5f675dd8aef3018d70d95bc91c3653f3a5c/odoo_addon_account_payment_order-16.0.1.1.1.3-py3-none-any.whl
+[2023-07-02 04:55:53] INFO root fetch - processPackages [igorwriter]: executing diffoscope
+[2023-07-02 04:55:53] INFO root fetch - processPackages [igorwriter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/igorwriter-0.4.0.tar.gz tmp/igorwriter-0.4.1.tar.gz --markdown 20230702/i/igorwriter/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-02 04:55:53] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Downloading https://files.pythonhosted.org/packages/c4/67/87fd9b51bdd554263d32edfefab3ec0b23602673b0783de9f1c53d72aca9/odoo_addon_account_banking_sepa_direct_debit-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-02 04:55:53] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/8b/06/69693c65151532f45f0af5d50c4171c3245189bf581e40b78b122333d8e9/reliableGPT-0.2.955.tar.gz
+[2023-07-02 04:55:53] INFO root fetch - processPackages [odoo-addon-account-statement-import]: Downloading https://files.pythonhosted.org/packages/48/37/16fbafccd51b1509900e12577c9ed51fca8c564c1e6f5dd9eb4aa9533614/odoo_addon_account_statement_import-15.0.3.1.0.3-py3-none-any.whl
+[2023-07-02 04:55:53] INFO root fetch - processPackages [odoo-addon-account-payment-purchase]: Downloading https://files.pythonhosted.org/packages/82/d1/0e778b95a3846a6f8a02b21d620f90652869fb74b632ce6447cdf82d88f9/odoo_addon_account_payment_purchase-16.0.1.0.0.8-py3-none-any.whl
+[2023-07-02 04:55:53] INFO root fetch - processPackages [trio]: Downloading https://files.pythonhosted.org/packages/69/70/d6f23892b898292736febebf4ead13cd0eb4df970dbf3498c7745c682835/trio-0.9.0.tar.gz
+[2023-07-02 04:55:53] INFO root fetch - processPackages [odoo-addon-account-payment-order]: executing diffoscope
+[2023-07-02 04:55:53] INFO root fetch - processPackages [odoo-addon-account-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_order-16.0.1.1.1.2-py3-none-any.whl.zip tmp/odoo_addon_account_payment_order-16.0.1.1.1.3-py3-none-any.whl.zip --markdown 20230702/o/odoo-addon-account-payment-order/16.0.1.1.1.2-16.0.1.1.1.3/diff.md --exclude *.pyd
+[2023-07-02 04:55:53] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: executing diffoscope
+[2023-07-02 04:55:53] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_sepa_direct_debit-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_banking_sepa_direct_debit-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230702/o/odoo-addon-account-banking-sepa-direct-debit/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-07-02 04:55:53] INFO root fetch - processPackages [reliableGPT]: executing diffoscope
+[2023-07-02 04:55:53] INFO root fetch - processPackages [reliableGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliableGPT-0.2.953.tar.gz tmp/reliableGPT-0.2.955.tar.gz --markdown 20230702/r/reliableGPT/0.2.953-0.2.955/diff.md --exclude *.pyd
+[2023-07-02 04:55:53] INFO root fetch - processPackages [odoo-addon-account-payment-purchase]: executing diffoscope
+[2023-07-02 04:55:53] INFO root fetch - processPackages [odoo-addon-account-payment-purchase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_purchase-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_account_payment_purchase-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20230702/o/odoo-addon-account-payment-purchase/16.0.1.0.0.7-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2023-07-02 04:55:53] INFO root fetch - processPackages [odoo-addon-account-statement-import]: executing diffoscope
+[2023-07-02 04:55:53] INFO root fetch - processPackages [woodchips]: Downloading https://files.pythonhosted.org/packages/a2/b7/81330431738c0a92cb0e716512b132c184058eef6d9d8ff0bc75b5ca21fb/woodchips-1.0.0.tar.gz
+[2023-07-02 04:55:53] INFO root fetch - processPackages [odoo-addon-account-statement-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_statement_import-15.0.3.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_statement_import-15.0.3.1.0.3-py3-none-any.whl.zip --markdown 20230702/o/odoo-addon-account-statement-import/15.0.3.1.0.2-15.0.3.1.0.3/diff.md --exclude *.pyd
+[2023-07-02 04:55:53] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: Downloading https://files.pythonhosted.org/packages/25/71/effa88c1aae6fa58705bd0f03f6971f6c13a6584139488a8f389c31087bb/odoo_addon_account_payment_mode-16.0.1.2.0.1-py3-none-any.whl
+[2023-07-02 04:55:53] INFO root fetch - processPackages [trio]: executing diffoscope
+[2023-07-02 04:55:53] INFO root fetch - processPackages [trio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trio-0.8.0.tar.gz tmp/trio-0.9.0.tar.gz --markdown 20230702/t/trio/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-02 04:55:53] INFO root fetch - processPackages [woodchips]: executing diffoscope
+[2023-07-02 04:55:53] INFO root fetch - processPackages [woodchips]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/woodchips-0.2.4.tar.gz tmp/woodchips-1.0.0.tar.gz --markdown 20230702/w/woodchips/0.2.4-1.0.0/diff.md --exclude *.pyd
+[2023-07-02 04:55:53] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: executing diffoscope
+[2023-07-02 04:55:53] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_mode-16.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_account_payment_mode-16.0.1.2.0.1-py3-none-any.whl.zip --markdown 20230702/o/odoo-addon-account-payment-mode/16.0.1.2.0-16.0.1.2.0.1/diff.md --exclude *.pyd
+[2023-07-02 04:55:54] INFO root fetch - processPackages [igorwriter]: Remove: archive file [/home/abi/fetcher/tmp/igorwriter-0.4.0.tar.gz]
+[2023-07-02 04:55:54] INFO root fetch - processPackages [igorwriter]: Remove: archive file [/home/abi/fetcher/tmp/igorwriter-0.4.1.tar.gz]
+[2023-07-02 04:55:54] INFO root fetch - main [MainThread]: End processing [igorwriter]: success
+[2023-07-02 04:55:54] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.953.tar.gz]
+[2023-07-02 04:55:54] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.955.tar.gz]
+[2023-07-02 04:55:54] INFO root fetch - main [MainThread]: End processing [reliableGPT]: success
+[2023-07-02 04:55:55] INFO root fetch - processPackages [woodchips]: Remove: archive file [/home/abi/fetcher/tmp/woodchips-0.2.4.tar.gz]
+[2023-07-02 04:55:55] INFO root fetch - processPackages [woodchips]: Remove: archive file [/home/abi/fetcher/tmp/woodchips-1.0.0.tar.gz]
+[2023-07-02 04:55:55] INFO root fetch - main [MainThread]: End processing [woodchips]: success
+[2023-07-02 04:55:55] INFO root fetch - processPackages [odoo-addon-account-payment-purchase]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_purchase-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-07-02 04:55:55] INFO root fetch - processPackages [odoo-addon-account-payment-purchase]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_purchase-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-07-02 04:55:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-purchase]: success
+[2023-07-02 04:55:55] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_mode-16.0.1.2.0-py3-none-any.whl.zip]
+[2023-07-02 04:55:55] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_mode-16.0.1.2.0.1-py3-none-any.whl.zip]
+[2023-07-02 04:55:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-mode]: success
+[2023-07-02 04:55:55] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_sepa_direct_debit-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-02 04:55:55] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_sepa_direct_debit-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-02 04:55:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-sepa-direct-debit]: success
+[2023-07-02 04:55:55] INFO root fetch - processPackages [odoo-addon-account-statement-import]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_import-15.0.3.1.0.2-py3-none-any.whl.zip]
+[2023-07-02 04:55:55] INFO root fetch - processPackages [odoo-addon-account-statement-import]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_import-15.0.3.1.0.3-py3-none-any.whl.zip]
+[2023-07-02 04:55:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-statement-import]: success
+[2023-07-02 04:55:55] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_order-16.0.1.1.1.2-py3-none-any.whl.zip]
+[2023-07-02 04:55:55] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_order-16.0.1.1.1.3-py3-none-any.whl.zip]
+[2023-07-02 04:55:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-order]: success
+[2023-07-02 04:55:57] INFO root fetch - processPackages [trio]: Remove: archive file [/home/abi/fetcher/tmp/trio-0.8.0.tar.gz]
+[2023-07-02 04:55:57] INFO root fetch - processPackages [trio]: Remove: archive file [/home/abi/fetcher/tmp/trio-0.9.0.tar.gz]
+[2023-07-02 04:55:57] INFO root fetch - main [MainThread]: End processing [trio]: success
+[2023-07-02 04:55:57] INFO root fetch - main [MainThread]: Store serial: [18726068]
