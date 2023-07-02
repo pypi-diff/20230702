@@ -5066,3 +5066,30 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 08:33:05] INFO root fetch - processPackages [sniimapp]: Remove: archive file [/home/abi/fetcher/tmp/sniimapp-0.0.32.tar.gz]
 [2023-07-02 08:33:05] INFO root fetch - main [MainThread]: End processing [sniimapp]: success
 [2023-07-02 08:33:05] INFO root fetch - main [MainThread]: Store serial: [18726695]
+[2023-07-02 08:38:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726695]
+[2023-07-02 08:38:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-02 08:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ourlib
+[2023-07-02 08:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: createpassword
+[2023-07-02 08:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sniimapp
+[2023-07-02 08:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: exampl-pyOPlen
+[2023-07-02 08:38:14] WARNING root fetch - processPackages [createpassword]: Skipping, unable to determine old version
+[2023-07-02 08:38:14] INFO root fetch - main [MainThread]: End processing [createpassword] error
+[2023-07-02 08:38:14] INFO root fetch - processPackages [sniimapp]: New version: [0.0.33] Old Version: [0.0.32]
+[2023-07-02 08:38:14] INFO root fetch - processPackages [ourlib]: New version: [0.1.1] Old Version: [0.0.1]
+[2023-07-02 08:38:14] WARNING root fetch - processPackages [exampl-pyOPlen]: Skipping, unable to determine old version
+[2023-07-02 08:38:14] INFO root fetch - main [MainThread]: End processing [exampl-pyOPlen] error
+[2023-07-02 08:38:14] INFO root fetch - processPackages [sniimapp]: Downloading https://files.pythonhosted.org/packages/56/f0/46d9ed591f50b2b946ca5dc52c3128388359ab7744c19b5a4dec4c9244d3/sniimapp-0.0.32.tar.gz
+[2023-07-02 08:38:14] INFO root fetch - processPackages [ourlib]: Downloading https://files.pythonhosted.org/packages/12/9d/8f067f56bfab8db1b61636072603e53f0cafc0419914eeeb9927529c5d28/ourlib-0.0.1.tar.gz
+[2023-07-02 08:38:14] INFO root fetch - processPackages [sniimapp]: Downloading https://files.pythonhosted.org/packages/93/27/573cceed6cc871f3273cfb27d844bf2988bde10558bd8f6dd572fe1a3360/sniimapp-0.0.33.tar.gz
+[2023-07-02 08:38:14] INFO root fetch - processPackages [ourlib]: Downloading https://files.pythonhosted.org/packages/63/3f/9c6c70ced1331c0a4faf31340fe815be5eccae23fbe935e0bbc6ce38e082/ourlib-0.1.1.tar.gz
+[2023-07-02 08:38:14] INFO root fetch - processPackages [ourlib]: executing diffoscope
+[2023-07-02 08:38:14] INFO root fetch - processPackages [ourlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ourlib-0.0.1.tar.gz tmp/ourlib-0.1.1.tar.gz --markdown 20230702/o/ourlib/0.0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-02 08:38:14] INFO root fetch - processPackages [sniimapp]: executing diffoscope
+[2023-07-02 08:38:14] INFO root fetch - processPackages [sniimapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sniimapp-0.0.32.tar.gz tmp/sniimapp-0.0.33.tar.gz --markdown 20230702/s/sniimapp/0.0.32-0.0.33/diff.md --exclude *.pyd
+[2023-07-02 08:38:15] INFO root fetch - processPackages [ourlib]: Remove: archive file [/home/abi/fetcher/tmp/ourlib-0.0.1.tar.gz]
+[2023-07-02 08:38:15] INFO root fetch - processPackages [ourlib]: Remove: archive file [/home/abi/fetcher/tmp/ourlib-0.1.1.tar.gz]
+[2023-07-02 08:38:15] INFO root fetch - main [MainThread]: End processing [ourlib]: success
+[2023-07-02 08:38:16] INFO root fetch - processPackages [sniimapp]: Remove: archive file [/home/abi/fetcher/tmp/sniimapp-0.0.32.tar.gz]
+[2023-07-02 08:38:16] INFO root fetch - processPackages [sniimapp]: Remove: archive file [/home/abi/fetcher/tmp/sniimapp-0.0.33.tar.gz]
+[2023-07-02 08:38:16] INFO root fetch - main [MainThread]: End processing [sniimapp]: success
+[2023-07-02 08:38:16] INFO root fetch - main [MainThread]: Store serial: [18726712]
