@@ -4072,3 +4072,18 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 06:19:08] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.957.tar.gz]
 [2023-07-02 06:19:08] INFO root fetch - main [MainThread]: End processing [reliableGPT]: success
 [2023-07-02 06:19:08] INFO root fetch - main [MainThread]: Store serial: [18726343]
+[2023-07-02 06:24:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726343]
+[2023-07-02 06:24:16] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-02 06:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: backup-warden
+[2023-07-02 06:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phonopy
+[2023-07-02 06:24:16] WARNING root fetch - processPackages [backup-warden]: Skipping, unable to determine old version
+[2023-07-02 06:24:16] INFO root fetch - main [MainThread]: End processing [backup-warden] error
+[2023-07-02 06:24:17] INFO root fetch - processPackages [phonopy]: New version: [2.9.3] Old Version: [2.9.2]
+[2023-07-02 06:24:17] INFO root fetch - processPackages [phonopy]: Downloading https://files.pythonhosted.org/packages/84/1e/3519305bf862954f9104c48532bf4dedf4690143de290d7ea7533bd8b8f5/phonopy-2.9.2.tar.gz
+[2023-07-02 06:24:19] INFO root fetch - processPackages [phonopy]: Downloading https://files.pythonhosted.org/packages/fa/5a/99dbd3cfcc12439b61db6acbe1bf3599e8e72f880e71f6c7cad350ff6c7a/phonopy-2.9.3.tar.gz
+[2023-07-02 06:24:20] INFO root fetch - processPackages [phonopy]: executing diffoscope
+[2023-07-02 06:24:20] INFO root fetch - processPackages [phonopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phonopy-2.9.2.tar.gz tmp/phonopy-2.9.3.tar.gz --markdown 20230702/p/phonopy/2.9.2-2.9.3/diff.md --exclude *.pyd
+[2023-07-02 06:24:27] INFO root fetch - processPackages [phonopy]: Remove: archive file [/home/abi/fetcher/tmp/phonopy-2.9.2.tar.gz]
+[2023-07-02 06:24:27] INFO root fetch - processPackages [phonopy]: Remove: archive file [/home/abi/fetcher/tmp/phonopy-2.9.3.tar.gz]
+[2023-07-02 06:24:27] INFO root fetch - main [MainThread]: End processing [phonopy]: success
+[2023-07-02 06:24:27] INFO root fetch - main [MainThread]: Store serial: [18726350]
