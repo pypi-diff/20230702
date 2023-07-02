@@ -1677,3 +1677,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 02:38:28] INFO root fetch - processPackages [cdktf-proxmox]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-proxmox-0.0.99.tar.gz]
 [2023-07-02 02:38:28] INFO root fetch - main [MainThread]: End processing [cdktf-proxmox]: success
 [2023-07-02 02:38:28] INFO root fetch - main [MainThread]: Store serial: [18725448]
+[2023-07-02 02:43:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18725448]
+[2023-07-02 02:43:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-02 02:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-plus-25
+[2023-07-02 02:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s-plus-26
+[2023-07-02 02:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-ecr-deployment
+[2023-07-02 02:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aeppl-nightly
+[2023-07-02 02:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdklabs.cdk-enterprise-iac
+[2023-07-02 02:43:36] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-07-02 02:43:36] INFO root fetch - processPackages [cdk-ecr-deployment]: New version: [2.5.6] Old Version: [2.5.5]
+[2023-07-02 02:43:36] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20230701] Old Version: [0.1.5.dev20230630]
+[2023-07-02 02:43:36] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-07-02 02:43:36] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-02 02:43:36] INFO root fetch - processPackages [cdk-ecr-deployment]: Downloading https://files.pythonhosted.org/packages/64/bf/1264153be589ef27e35f9c6dce5fa20c62679465383b177c27cb15215559/cdk-ecr-deployment-2.5.5.tar.gz
+[2023-07-02 02:43:36] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/6b/c4/ca78f2534fcd6fa938f5b5afdce2bc5d4b2e4aca2bd70a7a76993d55cb1a/cdk8s-plus-26-2.4.8.tar.gz
+[2023-07-02 02:43:36] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/26/1b/2d98082d5a50de544ac5b0df408479fcedd8e3cbc7361e0cb0e9f362a0af/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz
+[2023-07-02 02:43:36] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/97/9a/ce4cd3a88114e0b4597914e996519a03aea66a08a56e414de1b7ec106f96/aeppl-nightly-0.1.5.dev20230630.tar.gz
+[2023-07-02 02:43:37] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/19/05/30d98744c3813d678438d1f164dc4db8972da2ff34d40fc7d3a6492d5cc8/cdk8s-plus-25-2.8.8.tar.gz
+[2023-07-02 02:43:37] INFO root fetch - processPackages [cdk-ecr-deployment]: Downloading https://files.pythonhosted.org/packages/00/31/421538c00ab58bb86c2af0ece51b9158717b04501999bd689351ea5ae8f2/cdk-ecr-deployment-2.5.6.tar.gz
+[2023-07-02 02:43:37] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/35/d3/332b0af5f9af33fa4d8b65f393fe8689520792ddc56a6006291b65199c2a/aeppl-nightly-0.1.5.dev20230701.tar.gz
+[2023-07-02 02:43:37] INFO root fetch - processPackages [cdk-ecr-deployment]: executing diffoscope
+[2023-07-02 02:43:37] INFO root fetch - processPackages [cdk-ecr-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecr-deployment-2.5.5.tar.gz tmp/cdk-ecr-deployment-2.5.6.tar.gz --markdown 20230702/c/cdk-ecr-deployment/2.5.5-2.5.6/diff.md --exclude *.pyd
+[2023-07-02 02:43:37] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-07-02 02:43:37] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/79/f6/d6bb21b3e8c3f61cefbc6cfb377c23ba65b57440ab1bd217fa176e0b9df7/cdk8s-plus-25-2.8.9.tar.gz
+[2023-07-02 02:43:37] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/68/b7/1bc76974269d07601c13aaa5489dbaf5bfced52da0839a380231163281b2/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz
+[2023-07-02 02:43:37] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-07-02 02:43:37] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.8.tar.gz tmp/cdk8s-plus-25-2.8.9.tar.gz --markdown 20230702/c/cdk8s-plus-25/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-07-02 02:43:37] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2023-07-02 02:43:37] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.5.dev20230630.tar.gz tmp/aeppl-nightly-0.1.5.dev20230701.tar.gz --markdown 20230702/a/aeppl-nightly/0.1.5.dev20230630-0.1.5.dev20230701/diff.md --exclude *.pyd
+[2023-07-02 02:43:37] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: executing diffoscope
+[2023-07-02 02:43:37] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz --markdown 20230702/c/cdklabs.cdk-enterprise-iac/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-02 02:43:38] INFO root fetch - processPackages [cdk-ecr-deployment]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecr-deployment-2.5.5.tar.gz]
+[2023-07-02 02:43:38] INFO root fetch - processPackages [cdk-ecr-deployment]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecr-deployment-2.5.6.tar.gz]
+[2023-07-02 02:43:38] INFO root fetch - main [MainThread]: End processing [cdk-ecr-deployment]: success
+[2023-07-02 02:43:38] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-07-02 02:43:38] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.8.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230702/c/cdk8s-plus-26/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-07-02 02:43:38] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20230630.tar.gz]
+[2023-07-02 02:43:38] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20230701.tar.gz]
+[2023-07-02 02:43:38] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2023-07-02 02:43:38] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.8.tar.gz]
+[2023-07-02 02:43:38] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.9.tar.gz]
+[2023-07-02 02:43:38] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-07-02 02:43:39] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.8.tar.gz]
+[2023-07-02 02:43:39] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-07-02 02:43:39] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-07-02 02:43:40] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz]
+[2023-07-02 02:43:40] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz]
+[2023-07-02 02:43:40] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
+[2023-07-02 02:43:40] INFO root fetch - main [MainThread]: Store serial: [18725463]
