@@ -6462,3 +6462,65 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 10:52:33] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.6.9.tar.gz]
 [2023-07-02 10:52:33] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
 [2023-07-02 10:52:33] INFO root fetch - main [MainThread]: Store serial: [18727344]
+[2023-07-02 10:57:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18727344]
+[2023-07-02 10:57:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-02 10:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-chalk-it
+[2023-07-02 10:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: guan
+[2023-07-02 10:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ourlib
+[2023-07-02 10:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: igem-uploads
+[2023-07-02 10:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arcan
+[2023-07-02 10:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-yapi
+[2023-07-02 10:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rosetta-ce
+[2023-07-02 10:57:42] INFO root fetch - processPackages [ourlib]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-02 10:57:42] INFO root fetch - processPackages [py-chalk-it]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-02 10:57:42] INFO root fetch - processPackages [python-yapi]: New version: [0.1.1] Old Version: [0.1]
+[2023-07-02 10:57:42] INFO root fetch - processPackages [igem-uploads]: New version: [1.0.0] Old Version: [0.1.1]
+[2023-07-02 10:57:42] INFO root fetch - processPackages [arcan]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-07-02 10:57:42] INFO root fetch - processPackages [guan]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-02 10:57:42] INFO root fetch - processPackages [rosetta-ce]: New version: [1.4.0] Old Version: [1.3.9]
+[2023-07-02 10:57:42] INFO root fetch - processPackages [ourlib]: Downloading https://files.pythonhosted.org/packages/d3/cb/ed4ed6815921911b0abff44a2710d87397e906087e3e3d512098f34061d2/ourlib-0.2.0.tar.gz
+[2023-07-02 10:57:42] INFO root fetch - processPackages [igem-uploads]: Downloading https://files.pythonhosted.org/packages/7d/bf/f8c46b239a31891c16fb503a3cebdd3cae054bd7b13791c4b6649a707b84/igem-uploads-0.1.1.tar.gz
+[2023-07-02 10:57:42] INFO root fetch - processPackages [python-yapi]: Downloading https://files.pythonhosted.org/packages/8a/a8/f310881d27d47de0069a0dc741f4f730f3e1721df724a529660fb4b449f6/python-yapi-0.1.tar.gz
+[2023-07-02 10:57:42] INFO root fetch - processPackages [py-chalk-it]: Downloading https://files.pythonhosted.org/packages/9b/4e/5ae09c73bf777b4f2794e2f1429dac0173b06783f7c953f898635ed09770/py-chalk-it-0.3.0.tar.gz
+[2023-07-02 10:57:42] INFO root fetch - processPackages [guan]: Downloading https://files.pythonhosted.org/packages/2f/2f/64697ef1ce35181684112fb95641cbf3f56bca4e607502424176584c4e11/guan-0.0.98.tar.gz
+[2023-07-02 10:57:42] INFO root fetch - processPackages [arcan]: Downloading https://files.pythonhosted.org/packages/cd/68/4d4cffc94413cd23cfb5bc07ffb5cd56cedb44499aadeeaac95709c3dd7c/arcan-1.3.4.tar.gz
+[2023-07-02 10:57:42] WARNING root fetch - processPackages [py-chalk-it]: Skipping package: exceeds size limit 33405683>=10485760
+[2023-07-02 10:57:42] INFO root fetch - main [MainThread]: End processing [py-chalk-it] error
+[2023-07-02 10:57:42] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/85/46/629d0355ef68862b5efd119dcfebece2c035df3756ec5a4b2966766907a3/rosetta-ce-1.3.9.tar.gz
+[2023-07-02 10:57:42] INFO root fetch - processPackages [ourlib]: Downloading https://files.pythonhosted.org/packages/16/1e/880bd0d29219631709ebbcbfbefbed7cf5c8ec5179dc015de0470b14d7fc/ourlib-0.2.1.tar.gz
+[2023-07-02 10:57:42] INFO root fetch - processPackages [igem-uploads]: Downloading https://files.pythonhosted.org/packages/07/41/877ba892299f534106fdbd005945a23d586ea1c78dab3a6c630b39a507a2/igem-uploads-1.0.0.tar.gz
+[2023-07-02 10:57:42] INFO root fetch - processPackages [python-yapi]: Downloading https://files.pythonhosted.org/packages/f7/d5/3c6b0e6c3cd791f32f0c6fbcba3bca3bd526198ff69fbe3ac0485f56cc03/python-yapi-0.1.1.tar.gz
+[2023-07-02 10:57:42] INFO root fetch - processPackages [arcan]: Downloading https://files.pythonhosted.org/packages/74/f4/9b95f24489317fff1df3e30a51166fbe4dc43238e11d93d53ea20439e6ad/arcan-1.3.5.tar.gz
+[2023-07-02 10:57:42] INFO root fetch - processPackages [guan]: Downloading https://files.pythonhosted.org/packages/73/bf/798860b195a9284a0cfef1c9cbd178ef81cae8f027e0fad0295fa8cf0fd3/guan-0.0.99.tar.gz
+[2023-07-02 10:57:42] INFO root fetch - processPackages [igem-uploads]: executing diffoscope
+[2023-07-02 10:57:42] INFO root fetch - processPackages [igem-uploads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/igem-uploads-0.1.1.tar.gz tmp/igem-uploads-1.0.0.tar.gz --markdown 20230702/i/igem-uploads/0.1.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-02 10:57:42] INFO root fetch - processPackages [python-yapi]: executing diffoscope
+[2023-07-02 10:57:42] INFO root fetch - processPackages [python-yapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-yapi-0.1.tar.gz tmp/python-yapi-0.1.1.tar.gz --markdown 20230702/p/python-yapi/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-02 10:57:43] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/99/84/40fc9241c5a7f901ecb50a546a0c5688da3cda1196f9dafff780ee6dc10f/rosetta-ce-1.4.0.tar.gz
+[2023-07-02 10:57:43] INFO root fetch - processPackages [ourlib]: executing diffoscope
+[2023-07-02 10:57:43] INFO root fetch - processPackages [ourlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ourlib-0.2.0.tar.gz tmp/ourlib-0.2.1.tar.gz --markdown 20230702/o/ourlib/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-02 10:57:43] INFO root fetch - processPackages [arcan]: executing diffoscope
+[2023-07-02 10:57:43] INFO root fetch - processPackages [arcan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcan-1.3.4.tar.gz tmp/arcan-1.3.5.tar.gz --markdown 20230702/a/arcan/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-07-02 10:57:43] INFO root fetch - processPackages [rosetta-ce]: executing diffoscope
+[2023-07-02 10:57:43] INFO root fetch - processPackages [rosetta-ce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosetta-ce-1.3.9.tar.gz tmp/rosetta-ce-1.4.0.tar.gz --markdown 20230702/r/rosetta-ce/1.3.9-1.4.0/diff.md --exclude *.pyd
+[2023-07-02 10:57:43] INFO root fetch - processPackages [guan]: executing diffoscope
+[2023-07-02 10:57:43] INFO root fetch - processPackages [guan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guan-0.0.98.tar.gz tmp/guan-0.0.99.tar.gz --markdown 20230702/g/guan/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-02 10:57:44] INFO root fetch - processPackages [python-yapi]: Remove: archive file [/home/abi/fetcher/tmp/python-yapi-0.1.tar.gz]
+[2023-07-02 10:57:44] INFO root fetch - processPackages [python-yapi]: Remove: archive file [/home/abi/fetcher/tmp/python-yapi-0.1.1.tar.gz]
+[2023-07-02 10:57:44] INFO root fetch - main [MainThread]: End processing [python-yapi]: success
+[2023-07-02 10:57:44] INFO root fetch - processPackages [ourlib]: Remove: archive file [/home/abi/fetcher/tmp/ourlib-0.2.0.tar.gz]
+[2023-07-02 10:57:44] INFO root fetch - processPackages [ourlib]: Remove: archive file [/home/abi/fetcher/tmp/ourlib-0.2.1.tar.gz]
+[2023-07-02 10:57:44] INFO root fetch - main [MainThread]: End processing [ourlib]: success
+[2023-07-02 10:57:44] INFO root fetch - processPackages [arcan]: Remove: archive file [/home/abi/fetcher/tmp/arcan-1.3.4.tar.gz]
+[2023-07-02 10:57:44] INFO root fetch - processPackages [arcan]: Remove: archive file [/home/abi/fetcher/tmp/arcan-1.3.5.tar.gz]
+[2023-07-02 10:57:44] INFO root fetch - main [MainThread]: End processing [arcan]: success
+[2023-07-02 10:57:44] INFO root fetch - processPackages [igem-uploads]: Remove: archive file [/home/abi/fetcher/tmp/igem-uploads-0.1.1.tar.gz]
+[2023-07-02 10:57:44] INFO root fetch - processPackages [igem-uploads]: Remove: archive file [/home/abi/fetcher/tmp/igem-uploads-1.0.0.tar.gz]
+[2023-07-02 10:57:44] INFO root fetch - main [MainThread]: End processing [igem-uploads]: success
+[2023-07-02 10:57:44] INFO root fetch - processPackages [guan]: Remove: archive file [/home/abi/fetcher/tmp/guan-0.0.98.tar.gz]
+[2023-07-02 10:57:44] INFO root fetch - processPackages [guan]: Remove: archive file [/home/abi/fetcher/tmp/guan-0.0.99.tar.gz]
+[2023-07-02 10:57:44] INFO root fetch - main [MainThread]: End processing [guan]: success
+[2023-07-02 10:58:37] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.3.9.tar.gz]
+[2023-07-02 10:58:37] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.4.0.tar.gz]
+[2023-07-02 10:58:37] INFO root fetch - main [MainThread]: End processing [rosetta-ce]: success
+[2023-07-02 10:58:37] INFO root fetch - main [MainThread]: Store serial: [18727364]
