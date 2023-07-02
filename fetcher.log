@@ -15061,3 +15061,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 21:24:25] INFO root fetch - processPackages [humanloop]: Remove: archive file [/home/abi/fetcher/tmp/humanloop-0.4.9.tar.gz]
 [2023-07-02 21:24:25] INFO root fetch - main [MainThread]: End processing [humanloop]: success
 [2023-07-02 21:24:25] INFO root fetch - main [MainThread]: Store serial: [18730946]
+[2023-07-02 21:29:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18730946]
+[2023-07-02 21:29:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-02 21:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-report-qweb-element-page-visibility
+[2023-07-02 21:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-report-qweb-element-page-visibility
+[2023-07-02 21:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyint3d
+[2023-07-02 21:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edc-adverse-event
+[2023-07-02 21:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ipyvasp
+[2023-07-02 21:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ez-a-sync
+[2023-07-02 21:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gravitorch
+[2023-07-02 21:29:34] INFO root fetch - processPackages [odoo14-addon-report-qweb-element-page-visibility]: New version: [14.0.1.1.1] Old Version: [14.0.1.1.0]
+[2023-07-02 21:29:34] WARNING root fetch - processPackages [pyint3d]: Skipping, unable to determine old version
+[2023-07-02 21:29:34] INFO root fetch - main [MainThread]: End processing [pyint3d] error
+[2023-07-02 21:29:34] INFO root fetch - processPackages [ez-a-sync]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-02 21:29:34] INFO root fetch - processPackages [odoo-addon-report-qweb-element-page-visibility]: New version: [16.0.1.0.0.3] Old Version: [15.0.1.0.2]
+[2023-07-02 21:29:34] INFO root fetch - processPackages [edc-adverse-event]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-02 21:29:34] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/ab/de/ec781a0db85c4dea8c67171dcf08e86cffc51c70853c26ee2ee5c3d1e4af/ez-a-sync-0.4.0.tar.gz
+[2023-07-02 21:29:34] INFO root fetch - processPackages [edc-adverse-event]: Downloading https://files.pythonhosted.org/packages/aa/cc/60c44545ab1f1682384ca1da00d121b07fcba05a12b0d6021ae317e693d9/edc_adverse_event-0.3.8-py3-none-any.whl
+[2023-07-02 21:29:34] INFO root fetch - processPackages [gravitorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 21:29:35] INFO root fetch - processPackages [odoo-addon-report-qweb-element-page-visibility]: Downloading https://files.pythonhosted.org/packages/40/db/ade3ba806f023c3af75b096565e5c461ec2c5581f95d53453a8141f82d2a/odoo_addon_report_qweb_element_page_visibility-15.0.1.0.2-py3-none-any.whl
+[2023-07-02 21:29:35] INFO root fetch - processPackages [odoo14-addon-report-qweb-element-page-visibility]: Downloading https://files.pythonhosted.org/packages/80/9a/f61b32fe444d2d190ff601b44710a2311fb49926fdad2b1d97fd278e83c1/odoo14_addon_report_qweb_element_page_visibility-14.0.1.1.0-py3-none-any.whl
+[2023-07-02 21:29:35] INFO root fetch - processPackages [edc-adverse-event]: Downloading https://files.pythonhosted.org/packages/04/f0/b9f2b8c39c677c51359e09b0e2a6ec34dde4a98ad9ed7c6bb6f8cea26097/edc_adverse_event-0.3.9-py3-none-any.whl
+[2023-07-02 21:29:35] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/b1/99/06935dc00e7e7f0bdaa351e0d20800f62e1eb3a574ea3f34c23fef9575e0/ez-a-sync-0.5.0.tar.gz
+[2023-07-02 21:29:35] INFO root fetch - processPackages [gravitorch]: Downloading https://files.pythonhosted.org/packages/3c/eb/d596884cdb31e5198aa387878eb8ef895802e567d7d679b97f4a406e21ae/gravitorch-0.0.8.tar.gz
+[2023-07-02 21:29:35] INFO root fetch - processPackages [edc-adverse-event]: executing diffoscope
+[2023-07-02 21:29:35] INFO root fetch - processPackages [edc-adverse-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_adverse_event-0.3.8-py3-none-any.whl.zip tmp/edc_adverse_event-0.3.9-py3-none-any.whl.zip --markdown 20230702/e/edc-adverse-event/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-02 21:29:35] INFO root fetch - processPackages [ez-a-sync]: executing diffoscope
+[2023-07-02 21:29:35] INFO root fetch - processPackages [ez-a-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez-a-sync-0.4.0.tar.gz tmp/ez-a-sync-0.5.0.tar.gz --markdown 20230702/e/ez-a-sync/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-02 21:29:35] INFO root fetch - processPackages [odoo14-addon-report-qweb-element-page-visibility]: Downloading https://files.pythonhosted.org/packages/7c/16/bf0fbae0956728b96c61331bbec996380aa81795e688c777d8a2ed2dfd1f/odoo14_addon_report_qweb_element_page_visibility-14.0.1.1.1-py3-none-any.whl
+[2023-07-02 21:29:35] INFO root fetch - processPackages [odoo-addon-report-qweb-element-page-visibility]: Downloading https://files.pythonhosted.org/packages/05/03/d1862a635808e6d25626f4859e5af3b0ed19ae9cddd317eef6c7819f6063/odoo_addon_report_qweb_element_page_visibility-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-02 21:29:35] INFO root fetch - processPackages [odoo-addon-report-qweb-element-page-visibility]: executing diffoscope
+[2023-07-02 21:29:35] INFO root fetch - processPackages [odoo-addon-report-qweb-element-page-visibility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_report_qweb_element_page_visibility-15.0.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_report_qweb_element_page_visibility-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230702/o/odoo-addon-report-qweb-element-page-visibility/15.0.1.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-07-02 21:29:35] INFO root fetch - processPackages [odoo14-addon-report-qweb-element-page-visibility]: executing diffoscope
+[2023-07-02 21:29:35] INFO root fetch - processPackages [odoo14-addon-report-qweb-element-page-visibility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_report_qweb_element_page_visibility-14.0.1.1.0-py3-none-any.whl.zip tmp/odoo14_addon_report_qweb_element_page_visibility-14.0.1.1.1-py3-none-any.whl.zip --markdown 20230702/o/odoo14-addon-report-qweb-element-page-visibility/14.0.1.1.0-14.0.1.1.1/diff.md --exclude *.pyd
+[2023-07-02 21:29:35] INFO root fetch - processPackages [ipyvasp]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-02 21:29:35] INFO root fetch - processPackages [gravitorch]: Downloading https://files.pythonhosted.org/packages/d8/af/12bd29b316e1abfd4a89affc84ab78a2b03aaa0ebdf20315c6dc8c4c3886/gravitorch-0.0.9.tar.gz
+[2023-07-02 21:29:35] INFO root fetch - processPackages [ipyvasp]: Downloading https://files.pythonhosted.org/packages/2e/46/d5120dc6deeeda94257fe5ab82c5c82359a4a26077a711dd65c0ccbe01df/ipyvasp-0.3.0.tar.gz
+[2023-07-02 21:29:35] INFO root fetch - processPackages [gravitorch]: executing diffoscope
+[2023-07-02 21:29:35] INFO root fetch - processPackages [gravitorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravitorch-0.0.8.tar.gz tmp/gravitorch-0.0.9.tar.gz --markdown 20230702/g/gravitorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 21:29:35] INFO root fetch - processPackages [ipyvasp]: Downloading https://files.pythonhosted.org/packages/90/76/be4a850468a5449d7461baa0b711d26ed2ea608e20bf4cc4fc338e30359c/ipyvasp-0.4.0.tar.gz
+[2023-07-02 21:29:36] INFO root fetch - processPackages [ipyvasp]: executing diffoscope
+[2023-07-02 21:29:36] INFO root fetch - processPackages [ipyvasp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyvasp-0.3.0.tar.gz tmp/ipyvasp-0.4.0.tar.gz --markdown 20230702/i/ipyvasp/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-02 21:29:36] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.4.0.tar.gz]
+[2023-07-02 21:29:36] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.5.0.tar.gz]
+[2023-07-02 21:29:36] INFO root fetch - main [MainThread]: End processing [ez-a-sync]: success
+[2023-07-02 21:29:36] INFO root fetch - processPackages [odoo14-addon-report-qweb-element-page-visibility]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_report_qweb_element_page_visibility-14.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-02 21:29:36] INFO root fetch - processPackages [odoo14-addon-report-qweb-element-page-visibility]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_report_qweb_element_page_visibility-14.0.1.1.1-py3-none-any.whl.zip]
+[2023-07-02 21:29:36] INFO root fetch - main [MainThread]: End processing [odoo14-addon-report-qweb-element-page-visibility]: success
+[2023-07-02 21:29:36] INFO root fetch - processPackages [odoo-addon-report-qweb-element-page-visibility]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_report_qweb_element_page_visibility-15.0.1.0.2-py3-none-any.whl.zip]
+[2023-07-02 21:29:36] INFO root fetch - processPackages [odoo-addon-report-qweb-element-page-visibility]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_report_qweb_element_page_visibility-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-02 21:29:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-report-qweb-element-page-visibility]: success
+[2023-07-02 21:29:37] INFO root fetch - processPackages [edc-adverse-event]: Remove: archive file [/home/abi/fetcher/tmp/edc_adverse_event-0.3.8-py3-none-any.whl.zip]
+[2023-07-02 21:29:37] INFO root fetch - processPackages [edc-adverse-event]: Remove: archive file [/home/abi/fetcher/tmp/edc_adverse_event-0.3.9-py3-none-any.whl.zip]
+[2023-07-02 21:29:37] INFO root fetch - main [MainThread]: End processing [edc-adverse-event]: success
+[2023-07-02 21:29:37] INFO root fetch - processPackages [ipyvasp]: Remove: archive file [/home/abi/fetcher/tmp/ipyvasp-0.3.0.tar.gz]
+[2023-07-02 21:29:37] INFO root fetch - processPackages [ipyvasp]: Remove: archive file [/home/abi/fetcher/tmp/ipyvasp-0.4.0.tar.gz]
+[2023-07-02 21:29:37] INFO root fetch - main [MainThread]: End processing [ipyvasp]: success
+[2023-07-02 21:29:38] INFO root fetch - processPackages [gravitorch]: Remove: archive file [/home/abi/fetcher/tmp/gravitorch-0.0.8.tar.gz]
+[2023-07-02 21:29:38] INFO root fetch - processPackages [gravitorch]: Remove: archive file [/home/abi/fetcher/tmp/gravitorch-0.0.9.tar.gz]
+[2023-07-02 21:29:38] INFO root fetch - main [MainThread]: End processing [gravitorch]: success
+[2023-07-02 21:29:38] INFO root fetch - main [MainThread]: Store serial: [18730963]
