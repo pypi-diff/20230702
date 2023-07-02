@@ -1725,3 +1725,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 02:43:40] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz]
 [2023-07-02 02:43:40] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
 [2023-07-02 02:43:40] INFO root fetch - main [MainThread]: Store serial: [18725463]
+[2023-07-02 02:48:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18725463]
+[2023-07-02 02:48:49] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-02 02:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datasette-render-markdown
+[2023-07-02 02:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: state-machine-semaphore
+[2023-07-02 02:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfds-nightly
+[2023-07-02 02:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SwiftyPy
+[2023-07-02 02:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kubric-nightly
+[2023-07-02 02:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sweepai
+[2023-07-02 02:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: diambra-engine
+[2023-07-02 02:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: HFODetector
+[2023-07-02 02:48:49] INFO root fetch - processPackages [datasette-render-markdown]: New version: [2.2] Old Version: [2.1.1]
+[2023-07-02 02:48:49] INFO root fetch - processPackages [SwiftyPy]: New version: [5.1] Old Version: [4.1]
+[2023-07-02 02:48:49] INFO root fetch - processPackages [sweepai]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 02:48:49] INFO root fetch - processPackages [diambra-engine]: New version: [2.1.0rc9] Old Version: [2.1.0rc8]
+[2023-07-02 02:48:49] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-02 02:48:49] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.7.1] Old Version: [2023.6.9]
+[2023-07-02 02:48:49] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202307010045] Old Version: [4.9.2.dev202306300045]
+[2023-07-02 02:48:49] INFO root fetch - processPackages [SwiftyPy]: Downloading https://files.pythonhosted.org/packages/b0/3f/23566d40a29965d0a4d04d150481cd4920ab0055b51dd9cd6449a7256f21/SwiftyPy-4.1.tar.gz
+[2023-07-02 02:48:49] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2023-07-02 02:48:49] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/27/ca/475b581b75fe7c8e41015f0a388da8650b29553bc6d803b43dbe78720725/sweepai-0.1.8.tar.gz
+[2023-07-02 02:48:49] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/9c/d2/b15b52c4e9ef297c630d83b0ec5cf46fbcbef019d26045f5d4613c1491d7/kubric-nightly-2023.6.9.tar.gz
+[2023-07-02 02:48:49] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/39/5a/49a7ed34be7909c520abf8d10a91fc78a8dc6917515a2c049ac49bd331b4/tfds-nightly-4.9.2.dev202306300045.tar.gz
+[2023-07-02 02:48:49] INFO root fetch - processPackages [HFODetector]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 02:48:49] INFO root fetch - processPackages [diambra-engine]: Downloading https://files.pythonhosted.org/packages/bb/ba/b5ae2a99b8d1db307aec499c56c95eb4cfa5f76a7340cdbd49ed655d5fb2/diambra-engine-2.1.0rc8.tar.gz
+[2023-07-02 02:48:49] INFO root fetch - processPackages [datasette-render-markdown]: Downloading https://files.pythonhosted.org/packages/f1/1a/18bcd6ffa7d890800bfec3a13117cb8ee19ef92cf5ac2dc68f19324153fd/datasette-render-markdown-2.1.1.tar.gz
+[2023-07-02 02:48:49] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/95/bf/23fc51bb9a04118d723216f9ef4f4acab507671893b504968965974a6207/sweepai-0.1.9.tar.gz
+[2023-07-02 02:48:49] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2023-07-02 02:48:49] INFO root fetch - processPackages [sweepai]: executing diffoscope
+[2023-07-02 02:48:49] INFO root fetch - processPackages [sweepai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweepai-0.1.8.tar.gz tmp/sweepai-0.1.9.tar.gz --markdown 20230702/s/sweepai/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 02:48:49] INFO root fetch - processPackages [HFODetector]: Downloading https://files.pythonhosted.org/packages/58/09/ebc41e41966f5b69792e5f1950dbac2d4c9e6a65f933dc97e9bcbef6fd55/HFODetector-0.0.8.tar.gz
+[2023-07-02 02:48:49] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-07-02 02:48:49] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230702/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-02 02:48:49] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/1b/67/27400c114115ace3c7bade5a0bcabea2eb71a6b0f4bf11cd91a76ffcd795/kubric-nightly-2023.7.1.tar.gz
+[2023-07-02 02:48:49] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/ac/d2/a9621ed3c31d89b4d64b1ca15186793e193d73bd3ffdce02eebece1546d4/tfds-nightly-4.9.2.dev202307010045.tar.gz
+[2023-07-02 02:48:49] INFO root fetch - processPackages [SwiftyPy]: Downloading https://files.pythonhosted.org/packages/7d/64/d51336486c4467fa0d6a4289520842f68be476acfe3f3f7490fdbfa8ac92/SwiftyPy-5.1.tar.gz
+[2023-07-02 02:48:50] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-07-02 02:48:50] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.6.9.tar.gz tmp/kubric-nightly-2023.7.1.tar.gz --markdown 20230702/k/kubric-nightly/2023.6.9-2023.7.1/diff.md --exclude *.pyd
+[2023-07-02 02:48:50] INFO root fetch - processPackages [datasette-render-markdown]: Downloading https://files.pythonhosted.org/packages/63/66/bcdcc553dccfbc4053ef98c0984165a78993e20ef777aff7300cdf77fbe4/datasette-render-markdown-2.2.tar.gz
+[2023-07-02 02:48:50] INFO root fetch - processPackages [diambra-engine]: Downloading https://files.pythonhosted.org/packages/4b/33/1da34d2f2a44dd6ec8d777d9129a3744af4ae787eb69b9a118a82a7e3aea/diambra-engine-2.1.0rc9.tar.gz
+[2023-07-02 02:48:50] INFO root fetch - processPackages [SwiftyPy]: executing diffoscope
+[2023-07-02 02:48:50] INFO root fetch - processPackages [SwiftyPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SwiftyPy-4.1.tar.gz tmp/SwiftyPy-5.1.tar.gz --markdown 20230702/S/SwiftyPy/4.1-5.1/diff.md --exclude *.pyd
+[2023-07-02 02:48:50] INFO root fetch - processPackages [datasette-render-markdown]: executing diffoscope
+[2023-07-02 02:48:50] INFO root fetch - processPackages [datasette-render-markdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette-render-markdown-2.1.1.tar.gz tmp/datasette-render-markdown-2.2.tar.gz --markdown 20230702/d/datasette-render-markdown/2.1.1-2.2/diff.md --exclude *.pyd
+[2023-07-02 02:48:50] INFO root fetch - processPackages [HFODetector]: Downloading https://files.pythonhosted.org/packages/c9/49/b2673be2b269753c9fdb004534c1d58d78006f780ab27240281a8dbc15e7/HFODetector-0.0.9.tar.gz
+[2023-07-02 02:48:50] INFO root fetch - processPackages [diambra-engine]: executing diffoscope
+[2023-07-02 02:48:50] INFO root fetch - processPackages [diambra-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diambra-engine-2.1.0rc8.tar.gz tmp/diambra-engine-2.1.0rc9.tar.gz --markdown 20230702/d/diambra-engine/2.1.0rc8-2.1.0rc9/diff.md --exclude *.pyd
+[2023-07-02 02:48:50] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-07-02 02:48:50] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202306300045.tar.gz tmp/tfds-nightly-4.9.2.dev202307010045.tar.gz --markdown 20230702/t/tfds-nightly/4.9.2.dev202306300045-4.9.2.dev202307010045/diff.md --exclude *.pyd
+[2023-07-02 02:48:50] INFO root fetch - processPackages [HFODetector]: executing diffoscope
+[2023-07-02 02:48:50] INFO root fetch - processPackages [HFODetector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HFODetector-0.0.8.tar.gz tmp/HFODetector-0.0.9.tar.gz --markdown 20230702/H/HFODetector/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 02:48:51] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.1.8.tar.gz]
+[2023-07-02 02:48:51] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.1.9.tar.gz]
+[2023-07-02 02:48:51] INFO root fetch - main [MainThread]: End processing [sweepai]: success
+[2023-07-02 02:48:51] INFO root fetch - processPackages [datasette-render-markdown]: Remove: archive file [/home/abi/fetcher/tmp/datasette-render-markdown-2.1.1.tar.gz]
+[2023-07-02 02:48:51] INFO root fetch - processPackages [datasette-render-markdown]: Remove: archive file [/home/abi/fetcher/tmp/datasette-render-markdown-2.2.tar.gz]
+[2023-07-02 02:48:51] INFO root fetch - main [MainThread]: End processing [datasette-render-markdown]: success
+[2023-07-02 02:48:51] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.9.tar.gz]
+[2023-07-02 02:48:51] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.7.1.tar.gz]
+[2023-07-02 02:48:51] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-07-02 02:48:51] INFO root fetch - processPackages [diambra-engine]: Remove: archive file [/home/abi/fetcher/tmp/diambra-engine-2.1.0rc8.tar.gz]
+[2023-07-02 02:48:51] INFO root fetch - processPackages [diambra-engine]: Remove: archive file [/home/abi/fetcher/tmp/diambra-engine-2.1.0rc9.tar.gz]
+[2023-07-02 02:48:51] INFO root fetch - main [MainThread]: End processing [diambra-engine]: success
+[2023-07-02 02:48:51] INFO root fetch - processPackages [HFODetector]: Remove: archive file [/home/abi/fetcher/tmp/HFODetector-0.0.8.tar.gz]
+[2023-07-02 02:48:51] INFO root fetch - processPackages [HFODetector]: Remove: archive file [/home/abi/fetcher/tmp/HFODetector-0.0.9.tar.gz]
+[2023-07-02 02:48:51] INFO root fetch - main [MainThread]: End processing [HFODetector]: success
+[2023-07-02 02:48:52] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2023-07-02 02:48:52] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2023-07-02 02:48:52] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-07-02 02:49:01] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306300045.tar.gz]
+[2023-07-02 02:49:01] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307010045.tar.gz]
+[2023-07-02 02:49:01] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-07-02 02:49:35] INFO root fetch - processPackages [SwiftyPy]: Remove: archive file [/home/abi/fetcher/tmp/SwiftyPy-4.1.tar.gz]
+[2023-07-02 02:49:35] INFO root fetch - processPackages [SwiftyPy]: Remove: archive file [/home/abi/fetcher/tmp/SwiftyPy-5.1.tar.gz]
+[2023-07-02 02:49:35] INFO root fetch - main [MainThread]: End processing [SwiftyPy]: success
+[2023-07-02 02:49:35] INFO root fetch - main [MainThread]: Store serial: [18725483]
