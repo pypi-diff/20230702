@@ -4248,3 +4248,66 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 06:50:25] INFO root fetch - processPackages [sinabs]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-1.2.7.dev7.tar.gz]
 [2023-07-02 06:50:25] INFO root fetch - main [MainThread]: End processing [sinabs]: success
 [2023-07-02 06:50:25] INFO root fetch - main [MainThread]: Store serial: [18726410]
+[2023-07-02 06:55:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726410]
+[2023-07-02 06:55:34] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-02 06:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: foursight-cgap
+[2023-07-02 06:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: foursight
+[2023-07-02 06:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cryosieve
+[2023-07-02 06:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: terra-classic-sdk
+[2023-07-02 06:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-fastapi
+[2023-07-02 06:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: terra-classic-proto
+[2023-07-02 06:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: couchbed
+[2023-07-02 06:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: superagi-tools
+[2023-07-02 06:55:34] WARNING root fetch - processPackages [cryosieve]: Skipping, unable to determine old version
+[2023-07-02 06:55:34] INFO root fetch - main [MainThread]: End processing [cryosieve] error
+[2023-07-02 06:55:34] WARNING root fetch - processPackages [terra-classic-proto]: Skipping, unable to determine old version
+[2023-07-02 06:55:34] INFO root fetch - main [MainThread]: End processing [terra-classic-proto] error
+[2023-07-02 06:55:34] INFO root fetch - processPackages [foursight-cgap]: New version: [3.5.0.2b1] Old Version: [3.5.0.1b9]
+[2023-07-02 06:55:34] INFO root fetch - processPackages [couchbed]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-02 06:55:34] INFO root fetch - processPackages [foursight]: New version: [3.5.0.2b1] Old Version: [3.5.0.1b7]
+[2023-07-02 06:55:34] INFO root fetch - processPackages [superagi-tools]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-02 06:55:34] INFO root fetch - processPackages [terra-classic-sdk]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-07-02 06:55:34] INFO root fetch - processPackages [odoo-addon-fastapi]: New version: [16.0.0.0.4.2] Old Version: [16.0.0.0.4]
+[2023-07-02 06:55:34] INFO root fetch - processPackages [couchbed]: Downloading https://files.pythonhosted.org/packages/69/1e/20111ede26b69657f0be68297c2ce283aab2d28e7a60b98801c72b2ca5c7/couchbed-0.1.5.tar.gz
+[2023-07-02 06:55:34] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/6f/60/5e8c0240b92c1fb3c4b66b150c13ce65622fc18b4ec19714df5a8e764fb1/foursight_cgap-3.5.0.1b9.tar.gz
+[2023-07-02 06:55:34] INFO root fetch - processPackages [superagi-tools]: Downloading https://files.pythonhosted.org/packages/aa/1f/bf12f7f8767792a78cc9cfb999a1150a61e7493c6f1dae10192f16d1a8c8/superagi_tools-1.0.1.tar.gz
+[2023-07-02 06:55:34] INFO root fetch - processPackages [odoo-addon-fastapi]: Downloading https://files.pythonhosted.org/packages/cd/df/949267c96f1985c1ae2c2eaddd0dc35b49292727e7b6eae77c9375169617/odoo_addon_fastapi-16.0.0.0.4-py3-none-any.whl
+[2023-07-02 06:55:34] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/e3/da/681fe2629ec015ccf83f710f4559e0e91009d261b6e080df122b48329768/foursight-3.5.0.1b7.tar.gz
+[2023-07-02 06:55:34] INFO root fetch - processPackages [terra-classic-sdk]: Downloading https://files.pythonhosted.org/packages/d0/1b/6351228e4614376cdecaa8e83e02217fb60cd6a32dbe53875cd0d0b3d037/terra_classic_sdk-2.0.7.tar.gz
+[2023-07-02 06:55:34] INFO root fetch - processPackages [couchbed]: Downloading https://files.pythonhosted.org/packages/3c/af/c37c22d5d3bc813d6a2e3f79ba2071c0544ae79a4e3d0bd9991d83699b83/couchbed-0.1.6.tar.gz
+[2023-07-02 06:55:34] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/af/9a/522e9787c89112c99951c736fdb2c1ade077c749ed68bf85ee4055f3b4a8/foursight_cgap-3.5.0.2b1.tar.gz
+[2023-07-02 06:55:34] INFO root fetch - processPackages [couchbed]: executing diffoscope
+[2023-07-02 06:55:34] INFO root fetch - processPackages [couchbed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/couchbed-0.1.5.tar.gz tmp/couchbed-0.1.6.tar.gz --markdown 20230702/c/couchbed/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-02 06:55:34] INFO root fetch - processPackages [odoo-addon-fastapi]: Downloading https://files.pythonhosted.org/packages/73/5f/b9cd97f6d1c7762c1249d40f997f2f27af8cdcd244fce054072b7e5a7fe1/odoo_addon_fastapi-16.0.0.0.4.2-py3-none-any.whl
+[2023-07-02 06:55:34] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/ee/ab/f8d334ee48801fcf1c8933ff5aaa146ae36f23f085623a4a11ff6139e26f/foursight-3.5.0.2b1.tar.gz
+[2023-07-02 06:55:34] INFO root fetch - processPackages [superagi-tools]: Downloading https://files.pythonhosted.org/packages/27/08/0d44034a43a5ce986607dbc897ca08f2d75b79a36b74efd421b9aedde09f/superagi_tools-1.0.2.tar.gz
+[2023-07-02 06:55:34] INFO root fetch - processPackages [terra-classic-sdk]: Downloading https://files.pythonhosted.org/packages/b7/f5/b0881651d2d075c7900c702da2c439a3a1790e5d352510cd0225253411dd/terra_classic_sdk-2.0.8.tar.gz
+[2023-07-02 06:55:34] INFO root fetch - processPackages [foursight-cgap]: executing diffoscope
+[2023-07-02 06:55:34] INFO root fetch - processPackages [foursight-cgap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_cgap-3.5.0.1b9.tar.gz tmp/foursight_cgap-3.5.0.2b1.tar.gz --markdown 20230702/f/foursight-cgap/3.5.0.1b9-3.5.0.2b1/diff.md --exclude *.pyd
+[2023-07-02 06:55:34] INFO root fetch - processPackages [superagi-tools]: executing diffoscope
+[2023-07-02 06:55:34] INFO root fetch - processPackages [superagi-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superagi_tools-1.0.1.tar.gz tmp/superagi_tools-1.0.2.tar.gz --markdown 20230702/s/superagi-tools/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-02 06:55:34] INFO root fetch - processPackages [foursight]: executing diffoscope
+[2023-07-02 06:55:34] INFO root fetch - processPackages [foursight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight-3.5.0.1b7.tar.gz tmp/foursight-3.5.0.2b1.tar.gz --markdown 20230702/f/foursight/3.5.0.1b7-3.5.0.2b1/diff.md --exclude *.pyd
+[2023-07-02 06:55:34] INFO root fetch - processPackages [odoo-addon-fastapi]: executing diffoscope
+[2023-07-02 06:55:34] INFO root fetch - processPackages [odoo-addon-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fastapi-16.0.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_fastapi-16.0.0.0.4.2-py3-none-any.whl.zip --markdown 20230702/o/odoo-addon-fastapi/16.0.0.0.4-16.0.0.0.4.2/diff.md --exclude *.pyd
+[2023-07-02 06:55:34] INFO root fetch - processPackages [terra-classic-sdk]: executing diffoscope
+[2023-07-02 06:55:34] INFO root fetch - processPackages [terra-classic-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terra_classic_sdk-2.0.7.tar.gz tmp/terra_classic_sdk-2.0.8.tar.gz --markdown 20230702/t/terra-classic-sdk/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-07-02 06:55:35] INFO root fetch - processPackages [superagi-tools]: Remove: archive file [/home/abi/fetcher/tmp/superagi_tools-1.0.1.tar.gz]
+[2023-07-02 06:55:35] INFO root fetch - processPackages [superagi-tools]: Remove: archive file [/home/abi/fetcher/tmp/superagi_tools-1.0.2.tar.gz]
+[2023-07-02 06:55:35] INFO root fetch - main [MainThread]: End processing [superagi-tools]: success
+[2023-07-02 06:55:35] INFO root fetch - processPackages [couchbed]: Remove: archive file [/home/abi/fetcher/tmp/couchbed-0.1.5.tar.gz]
+[2023-07-02 06:55:35] INFO root fetch - processPackages [couchbed]: Remove: archive file [/home/abi/fetcher/tmp/couchbed-0.1.6.tar.gz]
+[2023-07-02 06:55:35] INFO root fetch - main [MainThread]: End processing [couchbed]: success
+[2023-07-02 06:55:36] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.5.0.1b9.tar.gz]
+[2023-07-02 06:55:36] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.5.0.2b1.tar.gz]
+[2023-07-02 06:55:36] INFO root fetch - main [MainThread]: End processing [foursight-cgap]: success
+[2023-07-02 06:55:36] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.5.0.1b7.tar.gz]
+[2023-07-02 06:55:36] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.5.0.2b1.tar.gz]
+[2023-07-02 06:55:36] INFO root fetch - main [MainThread]: End processing [foursight]: success
+[2023-07-02 06:55:36] INFO root fetch - processPackages [odoo-addon-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fastapi-16.0.0.0.4-py3-none-any.whl.zip]
+[2023-07-02 06:55:36] INFO root fetch - processPackages [odoo-addon-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fastapi-16.0.0.0.4.2-py3-none-any.whl.zip]
+[2023-07-02 06:55:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-fastapi]: success
+[2023-07-02 06:55:36] INFO root fetch - processPackages [terra-classic-sdk]: Remove: archive file [/home/abi/fetcher/tmp/terra_classic_sdk-2.0.7.tar.gz]
+[2023-07-02 06:55:36] INFO root fetch - processPackages [terra-classic-sdk]: Remove: archive file [/home/abi/fetcher/tmp/terra_classic_sdk-2.0.8.tar.gz]
+[2023-07-02 06:55:36] INFO root fetch - main [MainThread]: End processing [terra-classic-sdk]: success
+[2023-07-02 06:55:36] INFO root fetch - main [MainThread]: Store serial: [18726435]
