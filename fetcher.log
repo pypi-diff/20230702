@@ -9030,3 +9030,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 14:37:58] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-02 14:37:58] INFO root fetch - main [MainThread]: End processing [nvfuser-cu117]: success
 [2023-07-02 14:37:58] INFO root fetch - main [MainThread]: Store serial: [18728489]
+[2023-07-02 14:43:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18728489]
+[2023-07-02 14:43:07] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-02 14:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gaphas
+[2023-07-02 14:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ourlib
+[2023-07-02 14:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shyft
+[2023-07-02 14:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shyft.time-series
+[2023-07-02 14:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-dllib
+[2023-07-02 14:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jupyterlab-tpt
+[2023-07-02 14:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ns-asphalt9
+[2023-07-02 14:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oarepo-cli
+[2023-07-02 14:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: i3-sway-switch-window
+[2023-07-02 14:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kaiju-db
+[2023-07-02 14:43:07] INFO root fetch - processPackages [ourlib]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-02 14:43:07] INFO root fetch - processPackages [i3-sway-switch-window]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-02 14:43:07] INFO root fetch - processPackages [oarepo-cli]: New version: [11.1.0] Old Version: [11.0.8]
+[2023-07-02 14:43:07] INFO root fetch - processPackages [ourlib]: Downloading https://files.pythonhosted.org/packages/d3/cb/ed4ed6815921911b0abff44a2710d87397e906087e3e3d512098f34061d2/ourlib-0.2.0.tar.gz
+[2023-07-02 14:43:07] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/e6/3e/4471d2f6de859114e7b33494f9ae4f6101321c300c602caaa133c3e170fc/oarepo-cli-11.0.8.tar.gz
+[2023-07-02 14:43:07] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230702] Old Version: [2.4.0b20230701]
+[2023-07-02 14:43:07] INFO root fetch - processPackages [ns-asphalt9]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-02 14:43:07] WARNING root fetch - processPackages [jupyterlab-tpt]: Skipping, unable to determine old version
+[2023-07-02 14:43:07] INFO root fetch - main [MainThread]: End processing [jupyterlab-tpt] error
+[2023-07-02 14:43:07] INFO root fetch - processPackages [gaphas]: New version: [3.9.2] Old Version: [3.9.1]
+[2023-07-02 14:43:07] INFO root fetch - processPackages [kaiju-db]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-07-02 14:43:07] INFO root fetch - processPackages [shyft]: New version: [5.2.4] Old Version: [5.2.3]
+[2023-07-02 14:43:07] INFO root fetch - processPackages [shyft.time-series]: New version: [5.2.4] Old Version: [5.2.3]
+[2023-07-02 14:43:07] INFO root fetch - processPackages [i3-sway-switch-window]: Downloading https://files.pythonhosted.org/packages/c3/fb/2131f7a9e7f3cbdb977c331984419f7bb8f5383f9a0ebf3e8174ca0f6ad8/i3_sway_switch_window-0.2.0.tar.gz
+[2023-07-02 14:43:07] INFO root fetch - processPackages [ourlib]: Downloading https://files.pythonhosted.org/packages/16/1e/880bd0d29219631709ebbcbfbefbed7cf5c8ec5179dc015de0470b14d7fc/ourlib-0.2.1.tar.gz
+[2023-07-02 14:43:07] INFO root fetch - processPackages [gaphas]: Downloading https://files.pythonhosted.org/packages/fd/11/0574a6be87dfe4b0cae6b6f55559c1f51b49707882f1cc81ed9c4ecc762b/gaphas-3.9.1.tar.gz
+[2023-07-02 14:43:07] INFO root fetch - processPackages [ns-asphalt9]: Downloading https://files.pythonhosted.org/packages/5a/d0/569909823016ed72756d5958f9f292c72a06ac6455792cb75eb0aedb4979/ns_asphalt9-0.0.4.tar.gz
+[2023-07-02 14:43:08] INFO root fetch - processPackages [ourlib]: executing diffoscope
+[2023-07-02 14:43:08] INFO root fetch - processPackages [ourlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ourlib-0.2.0.tar.gz tmp/ourlib-0.2.1.tar.gz --markdown 20230702/o/ourlib/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-02 14:43:08] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/e4/19/9dcf6df5404b7f5b2b72c692b5bb5150cba8558b05bcdfb4928891e94fac/bigdl-dllib-2.4.0b20230701.tar.gz
+[2023-07-02 14:43:08] INFO root fetch - processPackages [kaiju-db]: Downloading https://files.pythonhosted.org/packages/ae/05/f4ee3e1867248bcb61c6a270bdb491b77d0d916d541b701479678ecffe2f/kaiju_db-2.1.5-py3-none-any.whl
+[2023-07-02 14:43:08] INFO root fetch - processPackages [shyft]: Downloading https://files.pythonhosted.org/packages/9e/43/fb5546f5ebfcb76b3fd7bc7e4af1a29f16604a1da9aba913116e3922c0ee/shyft-5.2.3-cp310-cp310-win_amd64.whl
+[2023-07-02 14:43:08] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/55/06/2c9369484ddc418705d861cbcb0013572c53cdeb9515307bd6fc20daaecc/oarepo-cli-11.1.0.tar.gz
+[2023-07-02 14:43:08] INFO root fetch - processPackages [shyft.time-series]: Downloading https://files.pythonhosted.org/packages/f5/b3/39243c788bf2eec6621d84bec162fa03b43ecd1c126a6d68425c5ce16bbb/shyft.time_series-5.2.3-cp310-cp310-win_amd64.whl
+[2023-07-02 14:43:08] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53638685>=10485760
+[2023-07-02 14:43:08] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-07-02 14:43:08] INFO root fetch - processPackages [i3-sway-switch-window]: Downloading https://files.pythonhosted.org/packages/5f/b2/bd99baa275e4770517d961d6ddd42caab73a9232d4f1444f4ad638f2412f/i3_sway_switch_window-0.2.1.tar.gz
+[2023-07-02 14:43:08] WARNING root fetch - processPackages [shyft.time-series]: Skipping package: exceeds size limit 22582909>=10485760
+[2023-07-02 14:43:08] INFO root fetch - main [MainThread]: End processing [shyft.time-series] error
+[2023-07-02 14:43:08] INFO root fetch - processPackages [i3-sway-switch-window]: executing diffoscope
+[2023-07-02 14:43:08] INFO root fetch - processPackages [i3-sway-switch-window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i3_sway_switch_window-0.2.0.tar.gz tmp/i3_sway_switch_window-0.2.1.tar.gz --markdown 20230702/i/i3-sway-switch-window/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-02 14:43:08] INFO root fetch - processPackages [oarepo-cli]: executing diffoscope
+[2023-07-02 14:43:08] INFO root fetch - processPackages [oarepo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-cli-11.0.8.tar.gz tmp/oarepo-cli-11.1.0.tar.gz --markdown 20230702/o/oarepo-cli/11.0.8-11.1.0/diff.md --exclude *.pyd
+[2023-07-02 14:43:08] INFO root fetch - processPackages [gaphas]: Downloading https://files.pythonhosted.org/packages/80/0f/dcc31633a6a03d83c3b22c03f01e1ad0a8bf2ec50ed567202709ebe43cee/gaphas-3.9.2.tar.gz
+[2023-07-02 14:43:08] INFO root fetch - processPackages [ns-asphalt9]: Downloading https://files.pythonhosted.org/packages/5b/c4/2012b45668238c31580906c24a2a5274a26caee6c57e0d3cab59238650b6/ns_asphalt9-0.0.5.tar.gz
+[2023-07-02 14:43:08] INFO root fetch - processPackages [kaiju-db]: Downloading https://files.pythonhosted.org/packages/c6/96/664b7f8e9e92cd423b6cfdbb62bb871d1bd1c7bc26040170c649a69e73b0/kaiju_db-2.1.6-py3-none-any.whl
+[2023-07-02 14:43:08] INFO root fetch - processPackages [gaphas]: executing diffoscope
+[2023-07-02 14:43:08] INFO root fetch - processPackages [gaphas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaphas-3.9.1.tar.gz tmp/gaphas-3.9.2.tar.gz --markdown 20230702/g/gaphas/3.9.1-3.9.2/diff.md --exclude *.pyd
+[2023-07-02 14:43:08] INFO root fetch - processPackages [ns-asphalt9]: executing diffoscope
+[2023-07-02 14:43:08] INFO root fetch - processPackages [ns-asphalt9]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ns_asphalt9-0.0.4.tar.gz tmp/ns_asphalt9-0.0.5.tar.gz --markdown 20230702/n/ns-asphalt9/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-02 14:43:08] INFO root fetch - processPackages [kaiju-db]: executing diffoscope
+[2023-07-02 14:43:08] INFO root fetch - processPackages [kaiju-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaiju_db-2.1.5-py3-none-any.whl.zip tmp/kaiju_db-2.1.6-py3-none-any.whl.zip --markdown 20230702/k/kaiju-db/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-07-02 14:43:08] WARNING root fetch - processPackages [shyft]: Skipping package: exceeds size limit 22583350>=10485760
+[2023-07-02 14:43:08] INFO root fetch - main [MainThread]: End processing [shyft] error
+[2023-07-02 14:43:09] INFO root fetch - processPackages [ourlib]: Remove: archive file [/home/abi/fetcher/tmp/ourlib-0.2.0.tar.gz]
+[2023-07-02 14:43:09] INFO root fetch - processPackages [ourlib]: Remove: archive file [/home/abi/fetcher/tmp/ourlib-0.2.1.tar.gz]
+[2023-07-02 14:43:09] INFO root fetch - main [MainThread]: End processing [ourlib]: success
+[2023-07-02 14:43:09] INFO root fetch - processPackages [i3-sway-switch-window]: Remove: archive file [/home/abi/fetcher/tmp/i3_sway_switch_window-0.2.0.tar.gz]
+[2023-07-02 14:43:09] INFO root fetch - processPackages [i3-sway-switch-window]: Remove: archive file [/home/abi/fetcher/tmp/i3_sway_switch_window-0.2.1.tar.gz]
+[2023-07-02 14:43:09] INFO root fetch - main [MainThread]: End processing [i3-sway-switch-window]: success
+[2023-07-02 14:43:09] INFO root fetch - processPackages [kaiju-db]: Remove: archive file [/home/abi/fetcher/tmp/kaiju_db-2.1.5-py3-none-any.whl.zip]
+[2023-07-02 14:43:09] INFO root fetch - processPackages [kaiju-db]: Remove: archive file [/home/abi/fetcher/tmp/kaiju_db-2.1.6-py3-none-any.whl.zip]
+[2023-07-02 14:43:09] INFO root fetch - main [MainThread]: End processing [kaiju-db]: success
+[2023-07-02 14:43:09] INFO root fetch - processPackages [ns-asphalt9]: Remove: archive file [/home/abi/fetcher/tmp/ns_asphalt9-0.0.4.tar.gz]
+[2023-07-02 14:43:09] INFO root fetch - processPackages [ns-asphalt9]: Remove: archive file [/home/abi/fetcher/tmp/ns_asphalt9-0.0.5.tar.gz]
+[2023-07-02 14:43:09] INFO root fetch - main [MainThread]: End processing [ns-asphalt9]: success
+[2023-07-02 14:43:10] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.0.8.tar.gz]
+[2023-07-02 14:43:10] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.0.tar.gz]
+[2023-07-02 14:43:10] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
+[2023-07-02 14:43:10] INFO root fetch - processPackages [gaphas]: Remove: archive file [/home/abi/fetcher/tmp/gaphas-3.9.1.tar.gz]
+[2023-07-02 14:43:10] INFO root fetch - processPackages [gaphas]: Remove: archive file [/home/abi/fetcher/tmp/gaphas-3.9.2.tar.gz]
+[2023-07-02 14:43:10] INFO root fetch - main [MainThread]: End processing [gaphas]: success
+[2023-07-02 14:43:10] INFO root fetch - main [MainThread]: Store serial: [18728524]
