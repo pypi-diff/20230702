@@ -12564,3 +12564,41 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 18:34:28] INFO root fetch - processPackages [headless]: Remove: archive file [/home/abi/fetcher/tmp/headless-2.0.0a9.tar.gz]
 [2023-07-02 18:34:28] INFO root fetch - main [MainThread]: End processing [headless]: success
 [2023-07-02 18:34:28] INFO root fetch - main [MainThread]: Store serial: [18730020]
+[2023-07-02 18:39:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18730020]
+[2023-07-02 18:39:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-02 18:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cpggen
+[2023-07-02 18:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-game-collection
+[2023-07-02 18:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: suisa-sendemeldung
+[2023-07-02 18:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mykit
+[2023-07-02 18:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: distshadi
+[2023-07-02 18:39:37] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-02 18:39:37] INFO root fetch - processPackages [cpggen]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-07-02 18:39:37] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/07/d0/ebcd6d9c3397c5a245c8e65834997b6b1974ee7084fa149409dca5eb7b1d/nonebot_plugin_game_collection-2.2.8.tar.gz
+[2023-07-02 18:39:37] INFO root fetch - processPackages [mykit]: New version: [5.0.1] Old Version: [4.1.0]
+[2023-07-02 18:39:37] INFO root fetch - processPackages [suisa-sendemeldung]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-02 18:39:37] WARNING root fetch - processPackages [distshadi]: Skipping, unable to determine old version
+[2023-07-02 18:39:37] INFO root fetch - main [MainThread]: End processing [distshadi] error
+[2023-07-02 18:39:37] INFO root fetch - processPackages [cpggen]: Downloading https://files.pythonhosted.org/packages/aa/07/132073577a3227511bb79cfed14a0b0677218fc865cfe686ef134003fcfd/cpggen-1.8.2.tar.gz
+[2023-07-02 18:39:37] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/26/57/8b244714216be7a805c6e5fc6ef4d0f4df429ea0c8cec347d68c2f87434c/nonebot_plugin_game_collection-2.2.9.tar.gz
+[2023-07-02 18:39:37] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-07-02 18:39:37] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.2.8.tar.gz tmp/nonebot_plugin_game_collection-2.2.9.tar.gz --markdown 20230702/n/nonebot-plugin-game-collection/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-02 18:39:37] INFO root fetch - processPackages [mykit]: Downloading https://files.pythonhosted.org/packages/32/37/de47128ce3302fb044191fe86fdae4587fc261c82ff66e1016cc860d6a01/mykit-4.1.0.tar.gz
+[2023-07-02 18:39:37] INFO root fetch - processPackages [suisa-sendemeldung]: Downloading https://files.pythonhosted.org/packages/89/7e/f09050729548a8e1531f01639f1d2056a176503efef1ce43f67aaba91efe/suisa_sendemeldung-0.9.1.tar.gz
+[2023-07-02 18:39:37] WARNING root fetch - processPackages [cpggen]: Skipping package: exceeds size limit 72488510>=10485760
+[2023-07-02 18:39:37] INFO root fetch - main [MainThread]: End processing [cpggen] error
+[2023-07-02 18:39:38] INFO root fetch - processPackages [mykit]: Downloading https://files.pythonhosted.org/packages/b0/c1/940c3b09ea8b0862b172d66fa953096d2a1bed161aa665fec285eda63179/mykit-5.0.1.tar.gz
+[2023-07-02 18:39:38] INFO root fetch - processPackages [suisa-sendemeldung]: Downloading https://files.pythonhosted.org/packages/d8/14/384be6dce5ce128664a9ee799f9be43b63883f1e9824f79c8e927f6d9402/suisa_sendemeldung-0.9.2.tar.gz
+[2023-07-02 18:39:38] INFO root fetch - processPackages [mykit]: executing diffoscope
+[2023-07-02 18:39:38] INFO root fetch - processPackages [mykit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mykit-4.1.0.tar.gz tmp/mykit-5.0.1.tar.gz --markdown 20230702/m/mykit/4.1.0-5.0.1/diff.md --exclude *.pyd
+[2023-07-02 18:39:38] INFO root fetch - processPackages [suisa-sendemeldung]: executing diffoscope
+[2023-07-02 18:39:38] INFO root fetch - processPackages [suisa-sendemeldung]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suisa_sendemeldung-0.9.1.tar.gz tmp/suisa_sendemeldung-0.9.2.tar.gz --markdown 20230702/s/suisa-sendemeldung/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-02 18:39:38] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.8.tar.gz]
+[2023-07-02 18:39:38] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.9.tar.gz]
+[2023-07-02 18:39:38] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-07-02 18:39:39] INFO root fetch - processPackages [suisa-sendemeldung]: Remove: archive file [/home/abi/fetcher/tmp/suisa_sendemeldung-0.9.1.tar.gz]
+[2023-07-02 18:39:39] INFO root fetch - processPackages [suisa-sendemeldung]: Remove: archive file [/home/abi/fetcher/tmp/suisa_sendemeldung-0.9.2.tar.gz]
+[2023-07-02 18:39:39] INFO root fetch - main [MainThread]: End processing [suisa-sendemeldung]: success
+[2023-07-02 18:39:39] INFO root fetch - processPackages [mykit]: Remove: archive file [/home/abi/fetcher/tmp/mykit-4.1.0.tar.gz]
+[2023-07-02 18:39:39] INFO root fetch - processPackages [mykit]: Remove: archive file [/home/abi/fetcher/tmp/mykit-5.0.1.tar.gz]
+[2023-07-02 18:39:39] INFO root fetch - main [MainThread]: End processing [mykit]: success
+[2023-07-02 18:39:39] INFO root fetch - main [MainThread]: Store serial: [18730038]
