@@ -14546,3 +14546,122 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-02 20:57:11] INFO root fetch - processPackages [roxbot]: Remove: archive file [/home/abi/fetcher/tmp/roxbot-0.4.0.tar.gz]
 [2023-07-02 20:57:11] INFO root fetch - main [MainThread]: End processing [roxbot]: success
 [2023-07-02 20:57:11] INFO root fetch - main [MainThread]: Store serial: [18730770]
+[2023-07-02 21:02:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18730770]
+[2023-07-02 21:02:19] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-02 21:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datawhispers
+[2023-07-02 21:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: poetry-bumpversion
+[2023-07-02 21:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-bootstrap-datepicker-plus
+[2023-07-02 21:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bec-ipython-client
+[2023-07-02 21:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bec-lib
+[2023-07-02 21:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bec-scan-server
+[2023-07-02 21:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bec-device-server
+[2023-07-02 21:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dupechecker
+[2023-07-02 21:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bec-scan-bundler
+[2023-07-02 21:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bec-file-writer
+[2023-07-02 21:02:19] INFO root fetch - processPackages [poetry-bumpversion]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-02 21:02:19] INFO root fetch - processPackages [bec-lib]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-02 21:02:19] INFO root fetch - processPackages [datawhispers]: New version: [0.2.8.1] Old Version: [0.2.8]
+[2023-07-02 21:02:19] INFO root fetch - processPackages [django-bootstrap-datepicker-plus]: New version: [5.0.4] Old Version: [5.0.3]
+[2023-07-02 21:02:19] INFO root fetch - processPackages [bec-scan-server]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-02 21:02:19] INFO root fetch - processPackages [bec-ipython-client]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-02 21:02:19] INFO root fetch - processPackages [bec-device-server]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-02 21:02:19] INFO root fetch - processPackages [dupechecker]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-02 21:02:19] INFO root fetch - processPackages [bec-scan-bundler]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-02 21:02:19] INFO root fetch - processPackages [bec-file-writer]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-02 21:02:19] INFO root fetch - processPackages [bec-scan-server]: Downloading https://files.pythonhosted.org/packages/d6/50/c15582a8b7ecf67924a83d9a50ede4aaaab9faef5a2a7889ece253448e99/bec_scan_server-0.8.1.tar.gz
+[2023-07-02 21:02:19] INFO root fetch - processPackages [bec-device-server]: Downloading https://files.pythonhosted.org/packages/0c/e8/ad5a801ade8740b56c55ba1169abac27d659d9a67ae5f4c802c620053709/bec_device_server-0.8.1.tar.gz
+[2023-07-02 21:02:19] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/80/fe/8c2c2f98b809c31116bc8c47fcb5cea9d23082b34d92f36eba71ea549614/bec_lib-0.8.1.tar.gz
+[2023-07-02 21:02:19] INFO root fetch - processPackages [bec-file-writer]: Downloading https://files.pythonhosted.org/packages/a7/fc/e8561c8e1d64fab04319b3634b05e58399813e55cbe77acb8acffaa00ca7/bec_file_writer-0.8.1.tar.gz
+[2023-07-02 21:02:19] INFO root fetch - processPackages [bec-scan-bundler]: Downloading https://files.pythonhosted.org/packages/2d/37/e194ed2db2bd0b7dc7228efbb5413c1afc377cb4f7c7985b9d51924e5ebb/bec_scan_bundler-0.8.1.tar.gz
+[2023-07-02 21:02:20] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/ad/5e/5f926bcaf6f8987e49163ddece4aa983eb2533a2f3fa490971c71e9cf83a/bec_ipython_client-0.8.1.tar.gz
+[2023-07-02 21:02:20] INFO root fetch - processPackages [datawhispers]: Downloading https://files.pythonhosted.org/packages/22/07/45d3837212e46d274b6737550be09ca63e812046fa45eea0079926456e31/datawhispers-0.2.8.tar.gz
+[2023-07-02 21:02:20] INFO root fetch - processPackages [dupechecker]: Downloading https://files.pythonhosted.org/packages/93/06/0328a33900e75383ae7013b288eed305c4de4c52d4881d1556ed9dc2c607/dupechecker-1.0.0.tar.gz
+[2023-07-02 21:02:20] INFO root fetch - processPackages [poetry-bumpversion]: Downloading https://files.pythonhosted.org/packages/1f/31/6381ce6ba139c687aa1846ad63352e3f1908b0a2c1a2418073e1feea6a68/poetry-bumpversion-0.3.0.tar.gz
+[2023-07-02 21:02:20] INFO root fetch - processPackages [django-bootstrap-datepicker-plus]: Downloading https://files.pythonhosted.org/packages/86/81/a0d8950d11a9bd19c77ea7985e01b25899813fca0ff5abe24edd2a5adde8/django_bootstrap_datepicker_plus-5.0.3.tar.gz
+[2023-07-02 21:02:20] INFO root fetch - processPackages [bec-scan-bundler]: Downloading https://files.pythonhosted.org/packages/99/64/c07bcbdee06d659300fd3aab810ef0c4b77166fe05efe1c8b6539a5cef2c/bec_scan_bundler-0.9.0.tar.gz
+[2023-07-02 21:02:20] INFO root fetch - processPackages [bec-device-server]: Downloading https://files.pythonhosted.org/packages/8c/82/b00dbfc3e1da5e74226c827d9a46e292d6c25debf6897532c809cc5b5e08/bec_device_server-0.9.0.tar.gz
+[2023-07-02 21:02:20] INFO root fetch - processPackages [bec-file-writer]: Downloading https://files.pythonhosted.org/packages/09/e0/fc1e5fc2423adb330cf93ba40f7528844c66d9b8f0dc290814295f1d97d9/bec_file_writer-0.9.0.tar.gz
+[2023-07-02 21:02:20] INFO root fetch - processPackages [bec-scan-server]: Downloading https://files.pythonhosted.org/packages/17/85/f651b8b2ea7c3003fdf43c62a3179ac1d3879c156064da3eb04633981bf1/bec_scan_server-0.9.0.tar.gz
+[2023-07-02 21:02:20] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/3f/ae/796e2eb7d31b3a166f0013faebe42e6c5441fe7250ed9aa4fdb949072b2b/bec_lib-0.9.0.tar.gz
+[2023-07-02 21:02:20] INFO root fetch - processPackages [datawhispers]: Downloading https://files.pythonhosted.org/packages/5a/61/74ed63c242044c46e9a97aa540c15cbb4512a199c059b054fcf0b4c085a9/datawhispers-0.2.8.1.tar.gz
+[2023-07-02 21:02:20] INFO root fetch - processPackages [bec-scan-bundler]: executing diffoscope
+[2023-07-02 21:02:20] INFO root fetch - processPackages [bec-scan-bundler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_scan_bundler-0.8.1.tar.gz tmp/bec_scan_bundler-0.9.0.tar.gz --markdown 20230702/b/bec-scan-bundler/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-02 21:02:20] INFO root fetch - processPackages [bec-device-server]: executing diffoscope
+[2023-07-02 21:02:20] INFO root fetch - processPackages [bec-device-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_device_server-0.8.1.tar.gz tmp/bec_device_server-0.9.0.tar.gz --markdown 20230702/b/bec-device-server/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-02 21:02:20] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/08/11/9b694b19c38e998780b677edce0cfce27c974c8a8f4d0ccd4dcf05285cd8/bec_ipython_client-0.9.0.tar.gz
+[2023-07-02 21:02:20] INFO root fetch - processPackages [bec-file-writer]: executing diffoscope
+[2023-07-02 21:02:20] INFO root fetch - processPackages [bec-file-writer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_file_writer-0.8.1.tar.gz tmp/bec_file_writer-0.9.0.tar.gz --markdown 20230702/b/bec-file-writer/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-02 21:02:20] INFO root fetch - processPackages [dupechecker]: Downloading https://files.pythonhosted.org/packages/40/4c/81ea9d1e940b1df96e4244f32f69dcbb36b73ba15b2a5d2df1ddf01a7a12/dupechecker-1.0.1.tar.gz
+[2023-07-02 21:02:20] INFO root fetch - processPackages [bec-scan-server]: executing diffoscope
+[2023-07-02 21:02:20] INFO root fetch - processPackages [bec-lib]: executing diffoscope
+[2023-07-02 21:02:20] INFO root fetch - processPackages [bec-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_lib-0.8.1.tar.gz tmp/bec_lib-0.9.0.tar.gz --markdown 20230702/b/bec-lib/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-02 21:02:20] INFO root fetch - processPackages [bec-scan-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_scan_server-0.8.1.tar.gz tmp/bec_scan_server-0.9.0.tar.gz --markdown 20230702/b/bec-scan-server/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-02 21:02:20] INFO root fetch - processPackages [bec-ipython-client]: executing diffoscope
+[2023-07-02 21:02:20] INFO root fetch - processPackages [bec-ipython-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_ipython_client-0.8.1.tar.gz tmp/bec_ipython_client-0.9.0.tar.gz --markdown 20230702/b/bec-ipython-client/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-02 21:02:20] INFO root fetch - processPackages [datawhispers]: executing diffoscope
+[2023-07-02 21:02:20] INFO root fetch - processPackages [datawhispers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawhispers-0.2.8.tar.gz tmp/datawhispers-0.2.8.1.tar.gz --markdown 20230702/d/datawhispers/0.2.8-0.2.8.1/diff.md --exclude *.pyd
+[2023-07-02 21:02:20] INFO root fetch - processPackages [poetry-bumpversion]: Downloading https://files.pythonhosted.org/packages/2c/9a/6cf5ee2d7d6deb7d7828bcc9369b9ae174f71a4ed9bc49b7a31b3297a4a1/poetry_bumpversion-0.3.1.tar.gz
+[2023-07-02 21:02:20] INFO root fetch - processPackages [django-bootstrap-datepicker-plus]: Downloading https://files.pythonhosted.org/packages/5e/f4/85d10276dafbf2599019578980c2f8f227d28cff1b95759cffe7169d28d3/django_bootstrap_datepicker_plus-5.0.4.tar.gz
+[2023-07-02 21:02:20] INFO root fetch - processPackages [dupechecker]: executing diffoscope
+[2023-07-02 21:02:20] INFO root fetch - processPackages [dupechecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dupechecker-1.0.0.tar.gz tmp/dupechecker-1.0.1.tar.gz --markdown 20230702/d/dupechecker/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-02 21:02:20] INFO root fetch - processPackages [poetry-bumpversion]: executing diffoscope
+[2023-07-02 21:02:20] INFO root fetch - processPackages [django-bootstrap-datepicker-plus]: executing diffoscope
+[2023-07-02 21:02:20] INFO root fetch - processPackages [poetry-bumpversion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry-bumpversion-0.3.0.tar.gz tmp/poetry_bumpversion-0.3.1.tar.gz --markdown 20230702/p/poetry-bumpversion/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-02 21:02:20] INFO root fetch - processPackages [django-bootstrap-datepicker-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_bootstrap_datepicker_plus-5.0.3.tar.gz tmp/django_bootstrap_datepicker_plus-5.0.4.tar.gz --markdown 20230702/d/django-bootstrap-datepicker-plus/5.0.3-5.0.4/diff.md --exclude *.pyd
+[2023-07-02 21:02:21] INFO root fetch - processPackages [bec-scan-bundler]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_bundler-0.8.1.tar.gz]
+[2023-07-02 21:02:21] INFO root fetch - processPackages [bec-scan-bundler]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_bundler-0.9.0.tar.gz]
+[2023-07-02 21:02:21] INFO root fetch - processPackages [bec-scan-bundler]: Start processing: bec-dap
+[2023-07-02 21:02:21] INFO root fetch - main [MainThread]: End processing [bec-scan-bundler]: success
+[2023-07-02 21:02:21] INFO root fetch - processPackages [bec-dap]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-02 21:02:21] INFO root fetch - processPackages [bec-dap]: Downloading https://files.pythonhosted.org/packages/10/30/ab5d64c978d0a77356ca1f167206cf0daf69c4dffabdb21b8ad4add4b428/bec_dap-0.8.1.tar.gz
+[2023-07-02 21:02:21] INFO root fetch - processPackages [bec-file-writer]: Remove: archive file [/home/abi/fetcher/tmp/bec_file_writer-0.8.1.tar.gz]
+[2023-07-02 21:02:21] INFO root fetch - processPackages [bec-file-writer]: Remove: archive file [/home/abi/fetcher/tmp/bec_file_writer-0.9.0.tar.gz]
+[2023-07-02 21:02:21] INFO root fetch - processPackages [bec-file-writer]: Start processing: RPQ-pytorch
+[2023-07-02 21:02:21] INFO root fetch - main [MainThread]: End processing [bec-file-writer]: success
+[2023-07-02 21:02:21] INFO root fetch - processPackages [RPQ-pytorch]: New version: [0.0.32] Old Version: [0.0.31]
+[2023-07-02 21:02:21] INFO root fetch - processPackages [bec-device-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_device_server-0.8.1.tar.gz]
+[2023-07-02 21:02:21] INFO root fetch - processPackages [bec-device-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_device_server-0.9.0.tar.gz]
+[2023-07-02 21:02:21] INFO root fetch - processPackages [bec-device-server]: Start processing: mbnk
+[2023-07-02 21:02:21] INFO root fetch - main [MainThread]: End processing [bec-device-server]: success
+[2023-07-02 21:02:22] INFO root fetch - processPackages [mbnk]: New version: [0.1.0a0] Old Version: [0.1.0]
+[2023-07-02 21:02:22] INFO root fetch - processPackages [bec-dap]: Downloading https://files.pythonhosted.org/packages/d5/ad/fa67349f971985990b90adbc4301334bb488e065b52d8b10d2bc5f79e5bd/bec_dap-0.9.0.tar.gz
+[2023-07-02 21:02:22] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-0.8.1.tar.gz]
+[2023-07-02 21:02:22] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-0.9.0.tar.gz]
+[2023-07-02 21:02:22] INFO root fetch - main [MainThread]: End processing [bec-ipython-client]: success
+[2023-07-02 21:02:22] INFO root fetch - processPackages [bec-dap]: executing diffoscope
+[2023-07-02 21:02:22] INFO root fetch - processPackages [bec-dap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_dap-0.8.1.tar.gz tmp/bec_dap-0.9.0.tar.gz --markdown 20230702/b/bec-dap/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-02 21:02:22] INFO root fetch - processPackages [mbnk]: Downloading https://files.pythonhosted.org/packages/8e/a0/d1d0af42121c6692d0cab2f13351e5213513c12fb7bc7e8509a1416bc597/mbnk-0.1.0.tar.gz
+[2023-07-02 21:02:22] INFO root fetch - processPackages [poetry-bumpversion]: Remove: archive file [/home/abi/fetcher/tmp/poetry-bumpversion-0.3.0.tar.gz]
+[2023-07-02 21:02:22] INFO root fetch - processPackages [poetry-bumpversion]: Remove: archive file [/home/abi/fetcher/tmp/poetry_bumpversion-0.3.1.tar.gz]
+[2023-07-02 21:02:22] INFO root fetch - main [MainThread]: End processing [poetry-bumpversion]: success
+[2023-07-02 21:02:22] INFO root fetch - processPackages [datawhispers]: Remove: archive file [/home/abi/fetcher/tmp/datawhispers-0.2.8.tar.gz]
+[2023-07-02 21:02:22] INFO root fetch - processPackages [datawhispers]: Remove: archive file [/home/abi/fetcher/tmp/datawhispers-0.2.8.1.tar.gz]
+[2023-07-02 21:02:22] INFO root fetch - main [MainThread]: End processing [datawhispers]: success
+[2023-07-02 21:02:22] INFO root fetch - processPackages [RPQ-pytorch]: Downloading https://files.pythonhosted.org/packages/93/63/2ed2cd398b2e324f850ec15cec56ff159df2862d48e9578936d42fc6bd85/RPQ-pytorch-0.0.32.tar.gz
+[2023-07-02 21:02:22] INFO root fetch - processPackages [mbnk]: Downloading https://files.pythonhosted.org/packages/84/1a/7af37ccee11e9f569277ef4094e94079c6512fd553efa1f24f27803f8eeb/mbnk-0.1.0a0.tar.gz
+[2023-07-02 21:02:22] INFO root fetch - processPackages [bec-scan-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_server-0.8.1.tar.gz]
+[2023-07-02 21:02:22] INFO root fetch - processPackages [bec-scan-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_server-0.9.0.tar.gz]
+[2023-07-02 21:02:22] INFO root fetch - main [MainThread]: End processing [bec-scan-server]: success
+[2023-07-02 21:02:22] INFO root fetch - processPackages [RPQ-pytorch]: executing diffoscope
+[2023-07-02 21:02:22] INFO root fetch - processPackages [RPQ-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RPQ-pytorch-0.0.31.tar.gz tmp/RPQ-pytorch-0.0.32.tar.gz --markdown 20230702/R/RPQ-pytorch/0.0.31-0.0.32/diff.md --exclude *.pyd
+[2023-07-02 21:02:22] INFO root fetch - processPackages [mbnk]: executing diffoscope
+[2023-07-02 21:02:22] INFO root fetch - processPackages [mbnk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbnk-0.1.0.tar.gz tmp/mbnk-0.1.0a0.tar.gz --markdown 20230702/m/mbnk/0.1.0-0.1.0a0/diff.md --exclude *.pyd
+[2023-07-02 21:02:22] INFO root fetch - processPackages [django-bootstrap-datepicker-plus]: Remove: archive file [/home/abi/fetcher/tmp/django_bootstrap_datepicker_plus-5.0.3.tar.gz]
+[2023-07-02 21:02:22] INFO root fetch - processPackages [django-bootstrap-datepicker-plus]: Remove: archive file [/home/abi/fetcher/tmp/django_bootstrap_datepicker_plus-5.0.4.tar.gz]
+[2023-07-02 21:02:22] INFO root fetch - main [MainThread]: End processing [django-bootstrap-datepicker-plus]: success
+[2023-07-02 21:02:22] INFO root fetch - processPackages [dupechecker]: Remove: archive file [/home/abi/fetcher/tmp/dupechecker-1.0.0.tar.gz]
+[2023-07-02 21:02:22] INFO root fetch - processPackages [dupechecker]: Remove: archive file [/home/abi/fetcher/tmp/dupechecker-1.0.1.tar.gz]
+[2023-07-02 21:02:22] INFO root fetch - main [MainThread]: End processing [dupechecker]: success
+[2023-07-02 21:02:22] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-0.8.1.tar.gz]
+[2023-07-02 21:02:22] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-0.9.0.tar.gz]
+[2023-07-02 21:02:22] INFO root fetch - main [MainThread]: End processing [bec-lib]: success
+[2023-07-02 21:02:23] INFO root fetch - processPackages [bec-dap]: Remove: archive file [/home/abi/fetcher/tmp/bec_dap-0.8.1.tar.gz]
+[2023-07-02 21:02:23] INFO root fetch - processPackages [bec-dap]: Remove: archive file [/home/abi/fetcher/tmp/bec_dap-0.9.0.tar.gz]
+[2023-07-02 21:02:23] INFO root fetch - main [MainThread]: End processing [bec-dap]: success
+[2023-07-02 21:02:23] INFO root fetch - processPackages [mbnk]: Remove: archive file [/home/abi/fetcher/tmp/mbnk-0.1.0.tar.gz]
+[2023-07-02 21:02:23] INFO root fetch - processPackages [mbnk]: Remove: archive file [/home/abi/fetcher/tmp/mbnk-0.1.0a0.tar.gz]
+[2023-07-02 21:02:23] INFO root fetch - main [MainThread]: End processing [mbnk]: success
+[2023-07-02 21:02:23] INFO root fetch - processPackages [RPQ-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/RPQ-pytorch-0.0.31.tar.gz]
+[2023-07-02 21:02:23] INFO root fetch - processPackages [RPQ-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/RPQ-pytorch-0.0.32.tar.gz]
+[2023-07-02 21:02:23] INFO root fetch - main [MainThread]: End processing [RPQ-pytorch]: success
+[2023-07-02 21:02:23] INFO root fetch - main [MainThread]: Store serial: [18730809]
