@@ -16615,3 +16615,36 @@ AssertionError: tmp/Cliente-0.0.4-py3.10.egg does not exist
 [2023-07-02 23:15:20] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.1.9.tar.gz]
 [2023-07-02 23:15:20] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
 [2023-07-02 23:15:20] INFO root fetch - main [MainThread]: Store serial: [18731591]
+[2023-07-02 23:20:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18731591]
+[2023-07-02 23:20:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-02 23:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: devopsvalidatecpf
+[2023-07-02 23:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mkdocs-typedoc
+[2023-07-02 23:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: face-rhythm
+[2023-07-02 23:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testpoetry2
+[2023-07-02 23:20:29] INFO root fetch - processPackages [face-rhythm]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-02 23:20:29] INFO root fetch - processPackages [devopsvalidatecpf]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-02 23:20:29] WARNING root fetch - processPackages [mkdocs-typedoc]: Skipping, unable to determine old version
+[2023-07-02 23:20:29] INFO root fetch - main [MainThread]: End processing [mkdocs-typedoc] error
+[2023-07-02 23:20:29] INFO root fetch - processPackages [testpoetry2]: New version: [0.1.5] Old Version: [0.1.0]
+[2023-07-02 23:20:29] INFO root fetch - processPackages [face-rhythm]: Downloading https://files.pythonhosted.org/packages/5a/99/706e953378ca997e9e54295cb2967ae25dd63fdab2b7d7be32253ef20b16/face_rhythm-0.1.0.tar.gz
+[2023-07-02 23:20:29] INFO root fetch - processPackages [devopsvalidatecpf]: Downloading https://files.pythonhosted.org/packages/6a/f1/a6b8b2bfb956f2bd3cdcf85e8361237edf4b0106485c4e1903778b72d861/devopsvalidatecpf-0.0.2.tar.gz
+[2023-07-02 23:20:30] INFO root fetch - processPackages [testpoetry2]: Downloading https://files.pythonhosted.org/packages/9b/8b/5608f861f5b9671c369b9d4eba8e8eb28826b941591fcd4957ddd52f0d5e/testpoetry2-0.1.0.tar.gz
+[2023-07-02 23:20:30] INFO root fetch - processPackages [face-rhythm]: Downloading https://files.pythonhosted.org/packages/9f/e7/e4ee25a3e18da139a03ff1123db9dbb1076a00859cf6cc8fabc55b9891cb/face_rhythm-0.1.1.tar.gz
+[2023-07-02 23:20:30] INFO root fetch - processPackages [devopsvalidatecpf]: Downloading https://files.pythonhosted.org/packages/28/b1/6562b4017bfaa4ec04d85945ab4024c65369102cb61f7e974ab181056c04/devopsvalidatecpf-0.0.3.tar.gz
+[2023-07-02 23:20:30] INFO root fetch - processPackages [face-rhythm]: executing diffoscope
+[2023-07-02 23:20:30] INFO root fetch - processPackages [face-rhythm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/face_rhythm-0.1.0.tar.gz tmp/face_rhythm-0.1.1.tar.gz --markdown 20230702/f/face-rhythm/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-02 23:20:30] INFO root fetch - processPackages [devopsvalidatecpf]: executing diffoscope
+[2023-07-02 23:20:30] INFO root fetch - processPackages [devopsvalidatecpf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devopsvalidatecpf-0.0.2.tar.gz tmp/devopsvalidatecpf-0.0.3.tar.gz --markdown 20230702/d/devopsvalidatecpf/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-02 23:20:30] INFO root fetch - processPackages [testpoetry2]: Downloading https://files.pythonhosted.org/packages/59/68/aaa14c2d358405caf85d7f200ef030132fc510da7c67ee52e3855c08c4d9/testpoetry2-0.1.5.tar.gz
+[2023-07-02 23:20:30] INFO root fetch - processPackages [testpoetry2]: executing diffoscope
+[2023-07-02 23:20:30] INFO root fetch - processPackages [testpoetry2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testpoetry2-0.1.0.tar.gz tmp/testpoetry2-0.1.5.tar.gz --markdown 20230702/t/testpoetry2/0.1.0-0.1.5/diff.md --exclude *.pyd
+[2023-07-02 23:20:31] INFO root fetch - processPackages [devopsvalidatecpf]: Remove: archive file [/home/abi/fetcher/tmp/devopsvalidatecpf-0.0.2.tar.gz]
+[2023-07-02 23:20:31] INFO root fetch - processPackages [devopsvalidatecpf]: Remove: archive file [/home/abi/fetcher/tmp/devopsvalidatecpf-0.0.3.tar.gz]
+[2023-07-02 23:20:31] INFO root fetch - main [MainThread]: End processing [devopsvalidatecpf]: success
+[2023-07-02 23:20:31] INFO root fetch - processPackages [testpoetry2]: Remove: archive file [/home/abi/fetcher/tmp/testpoetry2-0.1.0.tar.gz]
+[2023-07-02 23:20:31] INFO root fetch - processPackages [testpoetry2]: Remove: archive file [/home/abi/fetcher/tmp/testpoetry2-0.1.5.tar.gz]
+[2023-07-02 23:20:31] INFO root fetch - main [MainThread]: End processing [testpoetry2]: success
+[2023-07-02 23:20:31] INFO root fetch - processPackages [face-rhythm]: Remove: archive file [/home/abi/fetcher/tmp/face_rhythm-0.1.0.tar.gz]
+[2023-07-02 23:20:31] INFO root fetch - processPackages [face-rhythm]: Remove: archive file [/home/abi/fetcher/tmp/face_rhythm-0.1.1.tar.gz]
+[2023-07-02 23:20:31] INFO root fetch - main [MainThread]: End processing [face-rhythm]: success
+[2023-07-02 23:20:31] INFO root fetch - main [MainThread]: Store serial: [18731604]
