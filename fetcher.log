@@ -8736,3 +8736,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 14:11:07] INFO root fetch - processPackages [multikeyjwt]: Remove: archive file [/home/abi/fetcher/tmp/multikeyjwt-1.2.0.tar.gz]
 [2023-07-02 14:11:07] INFO root fetch - main [MainThread]: End processing [multikeyjwt]: success
 [2023-07-02 14:11:07] INFO root fetch - main [MainThread]: Store serial: [18728371]
+[2023-07-02 14:16:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18728371]
+[2023-07-02 14:16:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-02 14:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libmonty-hexdump
+[2023-07-02 14:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-user-trace
+[2023-07-02 14:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bridgecrew
+[2023-07-02 14:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: funfluid
+[2023-07-02 14:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-adapter-villa
+[2023-07-02 14:16:17] INFO root fetch - processPackages [funfluid]: New version: [202307022012] Old Version: [202307022010]
+[2023-07-02 14:16:17] INFO root fetch - processPackages [libmonty-hexdump]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-02 14:16:17] INFO root fetch - processPackages [django-user-trace]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-02 14:16:17] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-02 14:16:17] INFO root fetch - processPackages [nonebot-adapter-villa]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-07-02 14:16:17] INFO root fetch - processPackages [funfluid]: Downloading https://files.pythonhosted.org/packages/fb/e1/aec080e76d8fc515a905afc951a909d93094bd85d5b39e98618d8f07fb99/funfluid-202307022010.tar.gz
+[2023-07-02 14:16:17] INFO root fetch - processPackages [django-user-trace]: Downloading https://files.pythonhosted.org/packages/e5/33/a3d466e87701079614f4701876cb95f19b2903bcbac47f335c3fcefb6075/django_user_trace-1.0.0.tar.gz
+[2023-07-02 14:16:17] INFO root fetch - processPackages [libmonty-hexdump]: Downloading https://files.pythonhosted.org/packages/6b/98/3d3ac4913a7ceb42d7e06ba9055577c654cd5bd8ede9b2aa56ef50948e71/libmonty-hexdump-0.1.0.tar.gz
+[2023-07-02 14:16:17] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-07-02 14:16:17] INFO root fetch - processPackages [nonebot-adapter-villa]: Downloading https://files.pythonhosted.org/packages/42/15/8969cb170f63827fb75fc585808a92d46997518260f35eae469a53c41d45/nonebot_adapter_villa-0.4.2.tar.gz
+[2023-07-02 14:16:17] INFO root fetch - processPackages [django-user-trace]: Downloading https://files.pythonhosted.org/packages/98/69/89ec2d4d85523de13589c7b669c7dc4b08608cb49202ef717ff3224c366a/django_user_trace-1.1.0.tar.gz
+[2023-07-02 14:16:18] INFO root fetch - processPackages [libmonty-hexdump]: Downloading https://files.pythonhosted.org/packages/1d/ff/b00c5338537aeac91b556680bfaffe34a5d89ff76dcaf11e306e2ca9c793/libmonty-hexdump-0.1.1.tar.gz
+[2023-07-02 14:16:18] INFO root fetch - processPackages [funfluid]: Downloading https://files.pythonhosted.org/packages/19/69/88c6870310d56e806e6e8262668c0ad472c79f26d85512c1e2fff182ecb3/funfluid-202307022012.tar.gz
+[2023-07-02 14:16:18] INFO root fetch - processPackages [nonebot-adapter-villa]: Downloading https://files.pythonhosted.org/packages/5f/38/2b3353b14db8eb0b9f3134e12d07d253caa4a2921cd7e04d9bc7d33908c3/nonebot_adapter_villa-0.5.0.tar.gz
+[2023-07-02 14:16:18] INFO root fetch - processPackages [django-user-trace]: executing diffoscope
+[2023-07-02 14:16:18] INFO root fetch - processPackages [django-user-trace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_user_trace-1.0.0.tar.gz tmp/django_user_trace-1.1.0.tar.gz --markdown 20230702/d/django-user-trace/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-02 14:16:18] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-07-02 14:16:18] INFO root fetch - processPackages [libmonty-hexdump]: executing diffoscope
+[2023-07-02 14:16:18] INFO root fetch - processPackages [libmonty-hexdump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libmonty-hexdump-0.1.0.tar.gz tmp/libmonty-hexdump-0.1.1.tar.gz --markdown 20230702/l/libmonty-hexdump/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-02 14:16:18] INFO root fetch - processPackages [nonebot-adapter-villa]: executing diffoscope
+[2023-07-02 14:16:18] INFO root fetch - processPackages [nonebot-adapter-villa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_adapter_villa-0.4.2.tar.gz tmp/nonebot_adapter_villa-0.5.0.tar.gz --markdown 20230702/n/nonebot-adapter-villa/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-07-02 14:16:18] INFO root fetch - processPackages [funfluid]: executing diffoscope
+[2023-07-02 14:16:18] INFO root fetch - processPackages [funfluid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funfluid-202307022010.tar.gz tmp/funfluid-202307022012.tar.gz --markdown 20230702/f/funfluid/202307022010-202307022012/diff.md --exclude *.pyd
+[2023-07-02 14:16:18] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-07-02 14:16:18] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230702/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-02 14:16:19] INFO root fetch - processPackages [libmonty-hexdump]: Remove: archive file [/home/abi/fetcher/tmp/libmonty-hexdump-0.1.0.tar.gz]
+[2023-07-02 14:16:19] INFO root fetch - processPackages [libmonty-hexdump]: Remove: archive file [/home/abi/fetcher/tmp/libmonty-hexdump-0.1.1.tar.gz]
+[2023-07-02 14:16:19] INFO root fetch - main [MainThread]: End processing [libmonty-hexdump]: success
+[2023-07-02 14:16:19] INFO root fetch - processPackages [django-user-trace]: Remove: archive file [/home/abi/fetcher/tmp/django_user_trace-1.0.0.tar.gz]
+[2023-07-02 14:16:19] INFO root fetch - processPackages [django-user-trace]: Remove: archive file [/home/abi/fetcher/tmp/django_user_trace-1.1.0.tar.gz]
+[2023-07-02 14:16:19] INFO root fetch - main [MainThread]: End processing [django-user-trace]: success
+[2023-07-02 14:16:19] INFO root fetch - processPackages [funfluid]: Remove: archive file [/home/abi/fetcher/tmp/funfluid-202307022010.tar.gz]
+[2023-07-02 14:16:19] INFO root fetch - processPackages [funfluid]: Remove: archive file [/home/abi/fetcher/tmp/funfluid-202307022012.tar.gz]
+[2023-07-02 14:16:19] INFO root fetch - main [MainThread]: End processing [funfluid]: success
+[2023-07-02 14:16:19] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-07-02 14:16:19] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-07-02 14:16:19] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-07-02 14:16:19] INFO root fetch - processPackages [nonebot-adapter-villa]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_villa-0.4.2.tar.gz]
+[2023-07-02 14:16:19] INFO root fetch - processPackages [nonebot-adapter-villa]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_villa-0.5.0.tar.gz]
+[2023-07-02 14:16:19] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-villa]: success
+[2023-07-02 14:16:19] INFO root fetch - main [MainThread]: Store serial: [18728388]
