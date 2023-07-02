@@ -5936,3 +5936,52 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 10:10:26] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230702.tar.gz]
 [2023-07-02 10:10:26] INFO root fetch - main [MainThread]: End processing [pyglove]: success
 [2023-07-02 10:10:26] INFO root fetch - main [MainThread]: Store serial: [18727146]
+[2023-07-02 10:15:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18727146]
+[2023-07-02 10:15:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-02 10:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: argrelay
+[2023-07-02 10:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lambda-handler
+[2023-07-02 10:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aorta-sirius-dev
+[2023-07-02 10:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tldfinder
+[2023-07-02 10:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TDhelper
+[2023-07-02 10:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: polywrap-http-plugin
+[2023-07-02 10:15:35] INFO root fetch - processPackages [argrelay]: New version: [0.0.1.dev1] Old Version: [0.0.0.dev9]
+[2023-07-02 10:15:35] WARNING root fetch - processPackages [tldfinder]: Skipping, unable to determine old version
+[2023-07-02 10:15:35] INFO root fetch - main [MainThread]: End processing [tldfinder] error
+[2023-07-02 10:15:35] INFO root fetch - processPackages [TDhelper]: New version: [2.6.6] Old Version: [2.6.5]
+[2023-07-02 10:15:35] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-07-02 10:15:35] INFO root fetch - processPackages [lambda-handler]: New version: [2.0.0a1] Old Version: [1.2.1]
+[2023-07-02 10:15:35] INFO root fetch - processPackages [polywrap-http-plugin]: New version: [0.1.0a9] Old Version: [0.1.0a8]
+[2023-07-02 10:15:35] INFO root fetch - processPackages [TDhelper]: Downloading https://files.pythonhosted.org/packages/05/1d/498df1d67300456decd9f318d21284af537430956eec0ae28e685861cea9/TDhelper-2.6.5.tar.gz
+[2023-07-02 10:15:35] INFO root fetch - processPackages [lambda-handler]: Downloading https://files.pythonhosted.org/packages/5e/db/f5dded5d0b3161d85a98955ca62ab68cfd77fb3d91055d9dc331348a0bb2/lambda_handler-1.2.1.tar.gz
+[2023-07-02 10:15:35] WARNING root fetch - processPackages [argrelay]: fallback to get urls: [0.0.0.dev9]
+[2023-07-02 10:15:35] WARNING root fetch - processPackages [argrelay]: None
+[2023-07-02 10:15:35] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-07-02 10:15:35] WARNING root fetch - processPackages [argrelay]: None
+[2023-07-02 10:15:35] WARNING root fetch - processPackages [argrelay]: unable to get url for both version [0.0.0.dev9]
+[2023-07-02 10:15:35] WARNING root fetch - processPackages [argrelay]: None
+[2023-07-02 10:15:35] INFO root fetch - main [MainThread]: End processing [argrelay] error
+[2023-07-02 10:15:35] INFO root fetch - processPackages [TDhelper]: Downloading https://files.pythonhosted.org/packages/02/b0/0186afd9a96e9bb1483172daae7d5903a0bf792bef64f7075778986ec568/TDhelper-2.6.6.tar.gz
+[2023-07-02 10:15:35] INFO root fetch - processPackages [lambda-handler]: Downloading https://files.pythonhosted.org/packages/07/fa/a448fa23106408f4c75a1036bb10c6218a4e67ef01637963bbc5fae4993e/lambda_handler-2.0.0a1.tar.gz
+[2023-07-02 10:15:35] INFO root fetch - processPackages [TDhelper]: executing diffoscope
+[2023-07-02 10:15:35] INFO root fetch - processPackages [TDhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDhelper-2.6.5.tar.gz tmp/TDhelper-2.6.6.tar.gz --markdown 20230702/T/TDhelper/2.6.5-2.6.6/diff.md --exclude *.pyd
+[2023-07-02 10:15:35] INFO root fetch - processPackages [polywrap-http-plugin]: Downloading https://files.pythonhosted.org/packages/98/21/5ade06ba307ae567aa27b557379ddb61df654689b97f0919a7197f491957/polywrap_http_plugin-0.1.0a9.tar.gz
+[2023-07-02 10:15:35] INFO root fetch - processPackages [lambda-handler]: executing diffoscope
+[2023-07-02 10:15:35] INFO root fetch - processPackages [lambda-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambda_handler-1.2.1.tar.gz tmp/lambda_handler-2.0.0a1.tar.gz --markdown 20230702/l/lambda-handler/1.2.1-2.0.0a1/diff.md --exclude *.pyd
+[2023-07-02 10:15:35] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-07-02 10:15:35] INFO root fetch - processPackages [polywrap-http-plugin]: executing diffoscope
+[2023-07-02 10:15:35] INFO root fetch - processPackages [polywrap-http-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polywrap_http_plugin-0.1.0a8.tar.gz tmp/polywrap_http_plugin-0.1.0a9.tar.gz --markdown 20230702/p/polywrap-http-plugin/0.1.0a8-0.1.0a9/diff.md --exclude *.pyd
+[2023-07-02 10:15:35] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-07-02 10:15:35] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230702/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-02 10:15:36] INFO root fetch - processPackages [polywrap-http-plugin]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_http_plugin-0.1.0a8.tar.gz]
+[2023-07-02 10:15:36] INFO root fetch - processPackages [polywrap-http-plugin]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_http_plugin-0.1.0a9.tar.gz]
+[2023-07-02 10:15:36] INFO root fetch - main [MainThread]: End processing [polywrap-http-plugin]: success
+[2023-07-02 10:15:36] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-07-02 10:15:36] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-07-02 10:15:36] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-07-02 10:15:36] INFO root fetch - processPackages [lambda-handler]: Remove: archive file [/home/abi/fetcher/tmp/lambda_handler-1.2.1.tar.gz]
+[2023-07-02 10:15:36] INFO root fetch - processPackages [lambda-handler]: Remove: archive file [/home/abi/fetcher/tmp/lambda_handler-2.0.0a1.tar.gz]
+[2023-07-02 10:15:36] INFO root fetch - main [MainThread]: End processing [lambda-handler]: success
+[2023-07-02 10:15:37] INFO root fetch - processPackages [TDhelper]: Remove: archive file [/home/abi/fetcher/tmp/TDhelper-2.6.5.tar.gz]
+[2023-07-02 10:15:37] INFO root fetch - processPackages [TDhelper]: Remove: archive file [/home/abi/fetcher/tmp/TDhelper-2.6.6.tar.gz]
+[2023-07-02 10:15:37] INFO root fetch - main [MainThread]: End processing [TDhelper]: success
+[2023-07-02 10:15:37] INFO root fetch - main [MainThread]: Store serial: [18727172]
