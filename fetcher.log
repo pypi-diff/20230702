@@ -12674,3 +12674,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 18:44:51] INFO root fetch - processPackages [ome-types]: Remove: archive file [/home/abi/fetcher/tmp/ome_types-0.4.0a1.tar.gz]
 [2023-07-02 18:44:51] INFO root fetch - main [MainThread]: End processing [ome-types]: success
 [2023-07-02 18:44:51] INFO root fetch - main [MainThread]: Store serial: [18730091]
+[2023-07-02 18:49:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18730091]
+[2023-07-02 18:50:00] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-02 18:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyrepresent
+[2023-07-02 18:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yanga
+[2023-07-02 18:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aicoder
+[2023-07-02 18:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: auto-archiver
+[2023-07-02 18:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyphetools
+[2023-07-02 18:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-redex
+[2023-07-02 18:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Dans-Diffraction
+[2023-07-02 18:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rdap
+[2023-07-02 18:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-jutil
+[2023-07-02 18:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: adv2099m
+[2023-07-02 18:50:00] INFO root fetch - processPackages [pyrepresent]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-02 18:50:00] INFO root fetch - processPackages [auto-archiver]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-07-02 18:50:00] INFO root fetch - processPackages [yanga]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-02 18:50:00] INFO root fetch - processPackages [rdap]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-07-02 18:50:00] INFO root fetch - processPackages [Dans-Diffraction]: New version: [3.0.0] Old Version: [2.2.3]
+[2023-07-02 18:50:00] INFO root fetch - processPackages [python-redex]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-02 18:50:00] INFO root fetch - processPackages [django-jutil]: New version: [3.9.9] Old Version: [3.9.8]
+[2023-07-02 18:50:00] INFO root fetch - processPackages [aicoder]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-07-02 18:50:00] INFO root fetch - processPackages [pyphetools]: New version: [0.4.5] Old Version: [0.4.1]
+[2023-07-02 18:50:00] INFO root fetch - processPackages [pyrepresent]: Downloading https://files.pythonhosted.org/packages/08/43/0c885bab1e77b303c45fe2eb28fa64151c26946a66c213b4d575857a1d70/pyrepresent-0.2.1.tar.gz
+[2023-07-02 18:50:00] INFO root fetch - processPackages [yanga]: Downloading https://files.pythonhosted.org/packages/d0/61/0ef3c1c0482bc604c33a9b888718e3d7b6eea035e846d228747d27428389/yanga-0.2.0.tar.gz
+[2023-07-02 18:50:00] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/e0/f7/d96cd747126ac9a6958acff69f4b05dc5db2c8623c92c3dbe35cda224af9/aicoder-0.3.7-py3-none-any.whl
+[2023-07-02 18:50:00] WARNING root fetch - processPackages [adv2099m]: Skipping, unable to determine old version
+[2023-07-02 18:50:00] INFO root fetch - main [MainThread]: End processing [adv2099m] error
+[2023-07-02 18:50:00] INFO root fetch - processPackages [django-jutil]: Downloading https://files.pythonhosted.org/packages/2e/e6/3fdcc7e3736b647cf3ab5609859c19dc656fb6ea44111d0c1c4b5a0f1478/django-jutil-3.9.8.tar.gz
+[2023-07-02 18:50:01] INFO root fetch - processPackages [python-redex]: Downloading https://files.pythonhosted.org/packages/f1/42/ca6f641a5931f109d56359e1984db97b66414650d40803794444705e2cac/python_redex-0.0.5.tar.gz
+[2023-07-02 18:50:01] INFO root fetch - processPackages [rdap]: Downloading https://files.pythonhosted.org/packages/74/e8/8298f7d9053bd598250d625552ae01f101b62ac609b1871e7fd715aacb32/rdap-1.4.0.tar.gz
+[2023-07-02 18:50:01] INFO root fetch - processPackages [auto-archiver]: Downloading https://files.pythonhosted.org/packages/33/6a/05d49528e4a2f06ac3413008be94b5777a75f3f02cafeafca61256792b1c/auto_archiver-0.5.7.tar.gz
+[2023-07-02 18:50:01] INFO root fetch - processPackages [Dans-Diffraction]: Downloading https://files.pythonhosted.org/packages/3e/f6/30d29e34cc7489d87bba8cbc7ccc974c2c55b68dfba703c801565c4316a8/Dans_Diffraction-2.2.3.tar.gz
+[2023-07-02 18:50:01] INFO root fetch - processPackages [pyphetools]: Downloading https://files.pythonhosted.org/packages/90/16/73d7631ff0ffe55dc4110594d685bf51b4b53d798c0a9f3950f4e9343182/pyphetools-0.4.1.tar.gz
+[2023-07-02 18:50:01] INFO root fetch - processPackages [django-jutil]: Downloading https://files.pythonhosted.org/packages/c7/e1/8d217e76e40dfccf488f7ca6bf4ab4dd7d1df5694dbd9b81fe94c00d18fd/django-jutil-3.9.9.tar.gz
+[2023-07-02 18:50:01] INFO root fetch - processPackages [yanga]: Downloading https://files.pythonhosted.org/packages/bf/01/9d07ca4610b68151eab9bcae8ab0b9569b9da6150133c7b52943c140262d/yanga-0.2.1.tar.gz
+[2023-07-02 18:50:01] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/3c/04/f210d1c8853dba7c70add0a6485822f5541ab9ed32f18845ad64e15366e7/aicoder-0.3.8-py3-none-any.whl
+[2023-07-02 18:50:01] INFO root fetch - processPackages [django-jutil]: executing diffoscope
+[2023-07-02 18:50:01] INFO root fetch - processPackages [django-jutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-jutil-3.9.8.tar.gz tmp/django-jutil-3.9.9.tar.gz --markdown 20230702/d/django-jutil/3.9.8-3.9.9/diff.md --exclude *.pyd
+[2023-07-02 18:50:01] INFO root fetch - processPackages [pyrepresent]: Downloading https://files.pythonhosted.org/packages/1f/48/5575fc117018b5030e057676261d62becee842ddc8aa08cf7b6a8d52a6b4/pyrepresent-0.2.2.tar.gz
+[2023-07-02 18:50:01] INFO root fetch - processPackages [yanga]: executing diffoscope
+[2023-07-02 18:50:01] INFO root fetch - processPackages [yanga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yanga-0.2.0.tar.gz tmp/yanga-0.2.1.tar.gz --markdown 20230702/y/yanga/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-02 18:50:01] INFO root fetch - processPackages [python-redex]: Downloading https://files.pythonhosted.org/packages/2b/de/34066b118fd88bf1f3bc10828ce7516fbfbd190d6d0aef3fe367f629c580/python_redex-0.0.6.tar.gz
+[2023-07-02 18:50:01] INFO root fetch - processPackages [aicoder]: executing diffoscope
+[2023-07-02 18:50:01] INFO root fetch - processPackages [aicoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicoder-0.3.7-py3-none-any.whl.zip tmp/aicoder-0.3.8-py3-none-any.whl.zip --markdown 20230702/a/aicoder/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-07-02 18:50:01] INFO root fetch - processPackages [pyrepresent]: executing diffoscope
+[2023-07-02 18:50:01] INFO root fetch - processPackages [pyrepresent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrepresent-0.2.1.tar.gz tmp/pyrepresent-0.2.2.tar.gz --markdown 20230702/p/pyrepresent/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-02 18:50:01] INFO root fetch - processPackages [python-redex]: executing diffoscope
+[2023-07-02 18:50:01] INFO root fetch - processPackages [python-redex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_redex-0.0.5.tar.gz tmp/python_redex-0.0.6.tar.gz --markdown 20230702/p/python-redex/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-02 18:50:01] INFO root fetch - processPackages [rdap]: Downloading https://files.pythonhosted.org/packages/e5/a3/9c3cf68e757dbd6c5fcfc36dd222f28b34bf030a2644b676043f9042315e/rdap-1.5.0.tar.gz
+[2023-07-02 18:50:01] INFO root fetch - processPackages [pyphetools]: Downloading https://files.pythonhosted.org/packages/e4/83/65b6d2d0b80a229843ae61f3b6e25b6b4d3eed44fd2058b397e29fd4263b/pyphetools-0.4.5.tar.gz
+[2023-07-02 18:50:01] INFO root fetch - processPackages [rdap]: executing diffoscope
+[2023-07-02 18:50:01] INFO root fetch - processPackages [rdap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdap-1.4.0.tar.gz tmp/rdap-1.5.0.tar.gz --markdown 20230702/r/rdap/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-07-02 18:50:01] INFO root fetch - processPackages [pyphetools]: executing diffoscope
+[2023-07-02 18:50:01] INFO root fetch - processPackages [pyphetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyphetools-0.4.1.tar.gz tmp/pyphetools-0.4.5.tar.gz --markdown 20230702/p/pyphetools/0.4.1-0.4.5/diff.md --exclude *.pyd
+[2023-07-02 18:50:01] INFO root fetch - processPackages [auto-archiver]: Downloading https://files.pythonhosted.org/packages/b7/3f/56ff889adbece9c94eeff8aebe881f8edb8d2bf925e50f4a90c4a0e899ae/auto_archiver-0.5.8.tar.gz
+[2023-07-02 18:50:01] INFO root fetch - processPackages [auto-archiver]: executing diffoscope
+[2023-07-02 18:50:01] INFO root fetch - processPackages [auto-archiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_archiver-0.5.7.tar.gz tmp/auto_archiver-0.5.8.tar.gz --markdown 20230702/a/auto-archiver/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-07-02 18:50:02] INFO root fetch - processPackages [Dans-Diffraction]: Downloading https://files.pythonhosted.org/packages/53/cc/2862f720cb241197f538cd26ebb2a75e57eda6bd1af4cb316f9692bcd6b3/Dans_Diffraction-3.0.0.tar.gz
+[2023-07-02 18:50:02] INFO root fetch - processPackages [Dans-Diffraction]: executing diffoscope
+[2023-07-02 18:50:02] INFO root fetch - processPackages [Dans-Diffraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Dans_Diffraction-2.2.3.tar.gz tmp/Dans_Diffraction-3.0.0.tar.gz --markdown 20230702/D/Dans-Diffraction/2.2.3-3.0.0/diff.md --exclude *.pyd
+[2023-07-02 18:50:02] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.3.7-py3-none-any.whl.zip]
+[2023-07-02 18:50:02] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.3.8-py3-none-any.whl.zip]
+[2023-07-02 18:50:02] INFO root fetch - main [MainThread]: End processing [aicoder]: success
+[2023-07-02 18:50:02] INFO root fetch - processPackages [python-redex]: Remove: archive file [/home/abi/fetcher/tmp/python_redex-0.0.5.tar.gz]
+[2023-07-02 18:50:02] INFO root fetch - processPackages [python-redex]: Remove: archive file [/home/abi/fetcher/tmp/python_redex-0.0.6.tar.gz]
+[2023-07-02 18:50:02] INFO root fetch - main [MainThread]: End processing [python-redex]: success
+[2023-07-02 18:50:02] INFO root fetch - processPackages [pyrepresent]: Remove: archive file [/home/abi/fetcher/tmp/pyrepresent-0.2.1.tar.gz]
+[2023-07-02 18:50:02] INFO root fetch - processPackages [pyrepresent]: Remove: archive file [/home/abi/fetcher/tmp/pyrepresent-0.2.2.tar.gz]
+[2023-07-02 18:50:02] INFO root fetch - main [MainThread]: End processing [pyrepresent]: success
+[2023-07-02 18:50:03] INFO root fetch - processPackages [rdap]: Remove: archive file [/home/abi/fetcher/tmp/rdap-1.4.0.tar.gz]
+[2023-07-02 18:50:03] INFO root fetch - processPackages [rdap]: Remove: archive file [/home/abi/fetcher/tmp/rdap-1.5.0.tar.gz]
+[2023-07-02 18:50:03] INFO root fetch - main [MainThread]: End processing [rdap]: success
+[2023-07-02 18:50:03] INFO root fetch - processPackages [yanga]: Remove: archive file [/home/abi/fetcher/tmp/yanga-0.2.0.tar.gz]
+[2023-07-02 18:50:03] INFO root fetch - processPackages [yanga]: Remove: archive file [/home/abi/fetcher/tmp/yanga-0.2.1.tar.gz]
+[2023-07-02 18:50:03] INFO root fetch - main [MainThread]: End processing [yanga]: success
+[2023-07-02 18:50:03] INFO root fetch - processPackages [pyphetools]: Remove: archive file [/home/abi/fetcher/tmp/pyphetools-0.4.1.tar.gz]
+[2023-07-02 18:50:03] INFO root fetch - processPackages [pyphetools]: Remove: archive file [/home/abi/fetcher/tmp/pyphetools-0.4.5.tar.gz]
+[2023-07-02 18:50:03] INFO root fetch - main [MainThread]: End processing [pyphetools]: success
+[2023-07-02 18:50:04] INFO root fetch - processPackages [auto-archiver]: Remove: archive file [/home/abi/fetcher/tmp/auto_archiver-0.5.7.tar.gz]
+[2023-07-02 18:50:04] INFO root fetch - processPackages [auto-archiver]: Remove: archive file [/home/abi/fetcher/tmp/auto_archiver-0.5.8.tar.gz]
+[2023-07-02 18:50:04] INFO root fetch - main [MainThread]: End processing [auto-archiver]: success
+[2023-07-02 18:50:04] INFO root fetch - processPackages [django-jutil]: Remove: archive file [/home/abi/fetcher/tmp/django-jutil-3.9.8.tar.gz]
+[2023-07-02 18:50:04] INFO root fetch - processPackages [django-jutil]: Remove: archive file [/home/abi/fetcher/tmp/django-jutil-3.9.9.tar.gz]
+[2023-07-02 18:50:04] INFO root fetch - main [MainThread]: End processing [django-jutil]: success
+[2023-07-02 18:50:07] INFO root fetch - processPackages [Dans-Diffraction]: Remove: archive file [/home/abi/fetcher/tmp/Dans_Diffraction-2.2.3.tar.gz]
+[2023-07-02 18:50:07] INFO root fetch - processPackages [Dans-Diffraction]: Remove: archive file [/home/abi/fetcher/tmp/Dans_Diffraction-3.0.0.tar.gz]
+[2023-07-02 18:50:07] INFO root fetch - main [MainThread]: End processing [Dans-Diffraction]: success
+[2023-07-02 18:50:07] INFO root fetch - main [MainThread]: Store serial: [18730121]
