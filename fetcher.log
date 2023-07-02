@@ -14234,3 +14234,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-02 20:25:06] INFO root fetch - processPackages [pyTooling]: Remove: archive file [/home/abi/fetcher/tmp/pyTooling-5.0.0.tar.gz]
 [2023-07-02 20:25:06] INFO root fetch - main [MainThread]: End processing [pyTooling]: success
 [2023-07-02 20:25:06] INFO root fetch - main [MainThread]: Store serial: [18730654]
+[2023-07-02 20:30:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18730654]
+[2023-07-02 20:30:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-02 20:30:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: calculator123
+[2023-07-02 20:30:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: VideoEmotionRecognition
+[2023-07-02 20:30:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: versioned
+[2023-07-02 20:30:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-tfl
+[2023-07-02 20:30:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ocp-vscode
+[2023-07-02 20:30:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: graph-part
+[2023-07-02 20:30:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: phxutils
+[2023-07-02 20:30:16] INFO root fetch - processPackages [ocp-vscode]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-02 20:30:16] WARNING root fetch - processPackages [VideoEmotionRecognition]: Skipping, unable to determine old version
+[2023-07-02 20:30:16] INFO root fetch - main [MainThread]: End processing [VideoEmotionRecognition] error
+[2023-07-02 20:30:16] WARNING root fetch - processPackages [calculator123]: Skipping, unable to determine old version
+[2023-07-02 20:30:16] INFO root fetch - main [MainThread]: End processing [calculator123] error
+[2023-07-02 20:30:16] INFO root fetch - processPackages [phxutils]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-02 20:30:16] INFO root fetch - processPackages [py-tfl]: New version: [0.5.0] Old Version: [0.4.4]
+[2023-07-02 20:30:16] INFO root fetch - processPackages [versioned]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-02 20:30:16] INFO root fetch - processPackages [graph-part]: New version: [1.0.1] Old Version: [0.1.2]
+[2023-07-02 20:30:16] INFO root fetch - processPackages [ocp-vscode]: Downloading https://files.pythonhosted.org/packages/44/27/488183f1a2ba3b09e4db84534f30a0b1a9dd5046e8f8820616b2de3e1eaf/ocp_vscode-1.2.0.tar.gz
+[2023-07-02 20:30:16] INFO root fetch - processPackages [phxutils]: Downloading https://files.pythonhosted.org/packages/34/b2/ef698fe4474797b28af799b6e4bb8f6f68b6e0d07364f1653867bd90ce09/phxutils-1.1.8.tar.gz
+[2023-07-02 20:30:16] INFO root fetch - processPackages [py-tfl]: Downloading https://files.pythonhosted.org/packages/ad/0d/a95f5edfdc2d70344e4671d391d9f2255b075247af2a08acc0e8faa7c691/py_tfl-0.4.4.tar.gz
+[2023-07-02 20:30:16] INFO root fetch - processPackages [versioned]: Downloading https://files.pythonhosted.org/packages/eb/a1/f3c688f349fabecf49291b1953dc78e107755ddcde119eea3b3849a16af1/versioned-0.1.1.tar.gz
+[2023-07-02 20:30:16] INFO root fetch - processPackages [graph-part]: Downloading https://files.pythonhosted.org/packages/96/f5/62fd7254637e9d0c3fffeea9287e3f8221aabdf4feffc73164170f763426/graph-part-0.1.2.tar.gz
+[2023-07-02 20:30:16] INFO root fetch - processPackages [phxutils]: Downloading https://files.pythonhosted.org/packages/73/b5/ab222f5eea91d62ca8ba37271ea9acc5fabc7920f2ee31f6e49f8010580a/phxutils-1.1.9.tar.gz
+[2023-07-02 20:30:16] INFO root fetch - processPackages [ocp-vscode]: Downloading https://files.pythonhosted.org/packages/82/7e/e038fde044b786b9a24b35bd8bec00b5a4a626028a725eed792d8394371c/ocp_vscode-1.2.1.tar.gz
+[2023-07-02 20:30:16] INFO root fetch - processPackages [py-tfl]: Downloading https://files.pythonhosted.org/packages/c1/c0/3b86f5870de337fc91958582b1969da445ccb3aef365293039d168942051/py_tfl-0.5.0.tar.gz
+[2023-07-02 20:30:16] INFO root fetch - processPackages [phxutils]: executing diffoscope
+[2023-07-02 20:30:16] INFO root fetch - processPackages [phxutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phxutils-1.1.8.tar.gz tmp/phxutils-1.1.9.tar.gz --markdown 20230702/p/phxutils/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-02 20:30:16] INFO root fetch - processPackages [ocp-vscode]: executing diffoscope
+[2023-07-02 20:30:16] INFO root fetch - processPackages [ocp-vscode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocp_vscode-1.2.0.tar.gz tmp/ocp_vscode-1.2.1.tar.gz --markdown 20230702/o/ocp-vscode/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-02 20:30:16] INFO root fetch - processPackages [versioned]: Downloading https://files.pythonhosted.org/packages/6d/13/a92a02d7ff715012f33befd306f0c24f2eca14ed3dbdc63ac899c987e02d/versioned-0.1.2.tar.gz
+[2023-07-02 20:30:16] INFO root fetch - processPackages [py-tfl]: executing diffoscope
+[2023-07-02 20:30:16] INFO root fetch - processPackages [py-tfl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_tfl-0.4.4.tar.gz tmp/py_tfl-0.5.0.tar.gz --markdown 20230702/p/py-tfl/0.4.4-0.5.0/diff.md --exclude *.pyd
+[2023-07-02 20:30:16] INFO root fetch - processPackages [versioned]: executing diffoscope
+[2023-07-02 20:30:16] INFO root fetch - processPackages [versioned]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/versioned-0.1.1.tar.gz tmp/versioned-0.1.2.tar.gz --markdown 20230702/v/versioned/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-02 20:30:16] INFO root fetch - processPackages [graph-part]: Downloading https://files.pythonhosted.org/packages/bc/6f/4b212e6951dae664b22de81655efddff217047ea6ba0875c7fda254510dc/graph-part-1.0.1.tar.gz
+[2023-07-02 20:30:16] INFO root fetch - processPackages [graph-part]: executing diffoscope
+[2023-07-02 20:30:16] INFO root fetch - processPackages [graph-part]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graph-part-0.1.2.tar.gz tmp/graph-part-1.0.1.tar.gz --markdown 20230702/g/graph-part/0.1.2-1.0.1/diff.md --exclude *.pyd
+[2023-07-02 20:30:17] INFO root fetch - processPackages [phxutils]: Remove: archive file [/home/abi/fetcher/tmp/phxutils-1.1.8.tar.gz]
+[2023-07-02 20:30:17] INFO root fetch - processPackages [phxutils]: Remove: archive file [/home/abi/fetcher/tmp/phxutils-1.1.9.tar.gz]
+[2023-07-02 20:30:17] INFO root fetch - main [MainThread]: End processing [phxutils]: success
+[2023-07-02 20:30:17] INFO root fetch - processPackages [ocp-vscode]: Remove: archive file [/home/abi/fetcher/tmp/ocp_vscode-1.2.0.tar.gz]
+[2023-07-02 20:30:17] INFO root fetch - processPackages [ocp-vscode]: Remove: archive file [/home/abi/fetcher/tmp/ocp_vscode-1.2.1.tar.gz]
+[2023-07-02 20:30:17] INFO root fetch - main [MainThread]: End processing [ocp-vscode]: success
+[2023-07-02 20:30:17] INFO root fetch - processPackages [py-tfl]: Remove: archive file [/home/abi/fetcher/tmp/py_tfl-0.4.4.tar.gz]
+[2023-07-02 20:30:17] INFO root fetch - processPackages [py-tfl]: Remove: archive file [/home/abi/fetcher/tmp/py_tfl-0.5.0.tar.gz]
+[2023-07-02 20:30:17] INFO root fetch - main [MainThread]: End processing [py-tfl]: success
+[2023-07-02 20:30:17] INFO root fetch - processPackages [versioned]: Remove: archive file [/home/abi/fetcher/tmp/versioned-0.1.1.tar.gz]
+[2023-07-02 20:30:17] INFO root fetch - processPackages [versioned]: Remove: archive file [/home/abi/fetcher/tmp/versioned-0.1.2.tar.gz]
+[2023-07-02 20:30:17] INFO root fetch - main [MainThread]: End processing [versioned]: success
+[2023-07-02 20:31:11] INFO root fetch - processPackages [graph-part]: Remove: archive file [/home/abi/fetcher/tmp/graph-part-0.1.2.tar.gz]
+[2023-07-02 20:31:11] INFO root fetch - processPackages [graph-part]: Remove: archive file [/home/abi/fetcher/tmp/graph-part-1.0.1.tar.gz]
+[2023-07-02 20:31:11] INFO root fetch - main [MainThread]: End processing [graph-part]: success
+[2023-07-02 20:31:11] INFO root fetch - main [MainThread]: Store serial: [18730679]
