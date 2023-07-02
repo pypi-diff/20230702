@@ -3626,3 +3626,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 05:11:41] INFO root fetch - processPackages [odoo-addon-account-credit-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_credit_control-16.0.1.0.1.3-py3-none-any.whl.zip]
 [2023-07-02 05:11:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-credit-control]: success
 [2023-07-02 05:11:41] INFO root fetch - main [MainThread]: Store serial: [18726113]
+[2023-07-02 05:16:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726113]
+[2023-07-02 05:16:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-02 05:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spark-quality-rules-tools
+[2023-07-02 05:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alchemiscale
+[2023-07-02 05:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zood
+[2023-07-02 05:16:49] INFO root fetch - processPackages [spark-quality-rules-tools]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-07-02 05:16:49] INFO root fetch - processPackages [alchemiscale]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-02 05:16:49] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/da/0e/fcf7e6e87f9a3ef0dd7e4d33e82549f6e4eb2d13b630781ff3528bb44a53/spark_quality_rules_tools-0.3.9.tar.gz
+[2023-07-02 05:16:49] INFO root fetch - processPackages [zood]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-07-02 05:16:49] INFO root fetch - processPackages [alchemiscale]: Downloading https://files.pythonhosted.org/packages/3d/2f/ff8546e26d3b25dfdfe8f323c28cb1f4cd1f39b6bc88819dc9c9b5ce66c6/alchemiscale-0.1.2.tar.gz
+[2023-07-02 05:16:49] INFO root fetch - processPackages [zood]: Downloading https://files.pythonhosted.org/packages/5c/a7/cfb42c9f6699466a97f37f4d457ac6a7794ac7d557203d20153f1d7ce262/zood-0.7.5.tar.gz
+[2023-07-02 05:16:50] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/f4/c5/e9440098c39fab77b7f7f2febfc54dabb3bfddcfa3d25d230281f0b6e369/spark_quality_rules_tools-0.4.0.tar.gz
+[2023-07-02 05:16:50] INFO root fetch - processPackages [spark-quality-rules-tools]: executing diffoscope
+[2023-07-02 05:16:50] INFO root fetch - processPackages [spark-quality-rules-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_quality_rules_tools-0.3.9.tar.gz tmp/spark_quality_rules_tools-0.4.0.tar.gz --markdown 20230702/s/spark-quality-rules-tools/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-07-02 05:16:50] INFO root fetch - processPackages [alchemiscale]: Downloading https://files.pythonhosted.org/packages/26/fe/d5b09bf26c61cb466ea9af9df6e1328afbd65fd341b9bba02c968fe1ca82/alchemiscale-0.1.3.tar.gz
+[2023-07-02 05:16:50] INFO root fetch - processPackages [alchemiscale]: executing diffoscope
+[2023-07-02 05:16:50] INFO root fetch - processPackages [alchemiscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alchemiscale-0.1.2.tar.gz tmp/alchemiscale-0.1.3.tar.gz --markdown 20230702/a/alchemiscale/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-02 05:16:50] INFO root fetch - processPackages [zood]: Downloading https://files.pythonhosted.org/packages/0c/04/d1291d54e709f4aaaf28720d8f053823070e815d298927c3ee8e724f6d1d/zood-0.7.6.tar.gz
+[2023-07-02 05:16:50] INFO root fetch - processPackages [zood]: executing diffoscope
+[2023-07-02 05:16:50] INFO root fetch - processPackages [zood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zood-0.7.5.tar.gz tmp/zood-0.7.6.tar.gz --markdown 20230702/z/zood/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-07-02 05:16:51] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.3.9.tar.gz]
+[2023-07-02 05:16:51] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.4.0.tar.gz]
+[2023-07-02 05:16:51] INFO root fetch - main [MainThread]: End processing [spark-quality-rules-tools]: success
+[2023-07-02 05:16:51] INFO root fetch - processPackages [zood]: Remove: archive file [/home/abi/fetcher/tmp/zood-0.7.5.tar.gz]
+[2023-07-02 05:16:51] INFO root fetch - processPackages [zood]: Remove: archive file [/home/abi/fetcher/tmp/zood-0.7.6.tar.gz]
+[2023-07-02 05:16:51] INFO root fetch - main [MainThread]: End processing [zood]: success
+[2023-07-02 05:16:51] INFO root fetch - processPackages [alchemiscale]: Remove: archive file [/home/abi/fetcher/tmp/alchemiscale-0.1.2.tar.gz]
+[2023-07-02 05:16:51] INFO root fetch - processPackages [alchemiscale]: Remove: archive file [/home/abi/fetcher/tmp/alchemiscale-0.1.3.tar.gz]
+[2023-07-02 05:16:51] INFO root fetch - main [MainThread]: End processing [alchemiscale]: success
+[2023-07-02 05:16:51] INFO root fetch - main [MainThread]: Store serial: [18726148]
