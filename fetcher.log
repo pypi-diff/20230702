@@ -2738,3 +2738,48 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 04:24:07] INFO root fetch - processPackages [fiftyone-devicedetection-onpremise]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_devicedetection_onpremise-4.4.9.tar.gz]
 [2023-07-02 04:24:07] INFO root fetch - main [MainThread]: End processing [fiftyone-devicedetection-onpremise]: success
 [2023-07-02 04:24:07] INFO root fetch - main [MainThread]: Store serial: [18725818]
+[2023-07-02 04:29:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18725818]
+[2023-07-02 04:29:16] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-02 04:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vesninlib
+[2023-07-02 04:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tastytrade-sdk
+[2023-07-02 04:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mpservice
+[2023-07-02 04:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: calamanCy
+[2023-07-02 04:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: caproto-apps
+[2023-07-02 04:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lazylinks
+[2023-07-02 04:29:16] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.0.dev1] Old Version: [0.0.4a0.dev79]
+[2023-07-02 04:29:16] INFO root fetch - processPackages [mpservice]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2023-07-02 04:29:16] INFO root fetch - processPackages [caproto-apps]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-02 04:29:16] INFO root fetch - processPackages [calamanCy]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-02 04:29:16] WARNING root fetch - processPackages [lazylinks]: Skipping, unable to determine old version
+[2023-07-02 04:29:16] INFO root fetch - main [MainThread]: End processing [lazylinks] error
+[2023-07-02 04:29:16] WARNING root fetch - processPackages [vesninlib]: Skipping, unable to determine old version
+[2023-07-02 04:29:16] INFO root fetch - main [MainThread]: End processing [vesninlib] error
+[2023-07-02 04:29:16] INFO root fetch - processPackages [tastytrade-sdk]: Downloading https://files.pythonhosted.org/packages/20/e2/9525c475d78ddb8f55f4a1bae496297a76dbb150ee89dcbba20c6ae9c070/tastytrade_sdk-0.0.4a0.dev79.tar.gz
+[2023-07-02 04:29:16] INFO root fetch - processPackages [caproto-apps]: Downloading https://files.pythonhosted.org/packages/51/5d/d0290f99d4056bbe456079846391ffd7229984b71086cc7819022cbc27ea/caproto-apps-0.1.0.tar.gz
+[2023-07-02 04:29:16] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/a4/76/0caf3e54fc1b0c685c01abdb7deb283a4e0ab62467df218edf79256efe6d/mpservice-0.9.9.tar.gz
+[2023-07-02 04:29:17] INFO root fetch - processPackages [calamanCy]: Downloading https://files.pythonhosted.org/packages/63/06/364007f971294849b5eb78b5eab982ec35478bb2bf7b912c34588acf4a75/calamanCy-0.0.1.tar.gz
+[2023-07-02 04:29:17] INFO root fetch - processPackages [tastytrade-sdk]: Downloading https://files.pythonhosted.org/packages/d9/6a/51b8c369e61b319b379822ac9e7f57bdaa4e98bf2333a5dc6ccfa464be59/tastytrade-sdk-0.0.dev1.tar.gz
+[2023-07-02 04:29:17] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-07-02 04:29:17] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.0.4a0.dev79.tar.gz tmp/tastytrade-sdk-0.0.dev1.tar.gz --markdown 20230702/t/tastytrade-sdk/0.0.4a0.dev79-0.0.dev1/diff.md --exclude *.pyd
+[2023-07-02 04:29:17] INFO root fetch - processPackages [caproto-apps]: Downloading https://files.pythonhosted.org/packages/13/db/f545cec067683b0586c18aae47ec64d8c5f21fe1407643d4ed52f75640cd/caproto-apps-0.1.1.tar.gz
+[2023-07-02 04:29:17] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/62/83/992eb812676a1d5b8ffbc5c9ba7e1bd57f82c86ae5c8a0e509834c8df031/mpservice-0.9.9.post1.tar.gz
+[2023-07-02 04:29:17] INFO root fetch - processPackages [mpservice]: executing diffoscope
+[2023-07-02 04:29:17] INFO root fetch - processPackages [mpservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpservice-0.9.9.tar.gz tmp/mpservice-0.9.9.post1.tar.gz --markdown 20230702/m/mpservice/0.9.9-0.9.9.post1/diff.md --exclude *.pyd
+[2023-07-02 04:29:17] INFO root fetch - processPackages [calamanCy]: Downloading https://files.pythonhosted.org/packages/d9/3d/c86dc47eda1a477b9275865577b07252405a95f6196f4efd162b68711251/calamanCy-0.1.0.tar.gz
+[2023-07-02 04:29:17] INFO root fetch - processPackages [caproto-apps]: executing diffoscope
+[2023-07-02 04:29:17] INFO root fetch - processPackages [caproto-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caproto-apps-0.1.0.tar.gz tmp/caproto-apps-0.1.1.tar.gz --markdown 20230702/c/caproto-apps/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-02 04:29:17] INFO root fetch - processPackages [calamanCy]: executing diffoscope
+[2023-07-02 04:29:17] INFO root fetch - processPackages [calamanCy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calamanCy-0.0.1.tar.gz tmp/calamanCy-0.1.0.tar.gz --markdown 20230702/c/calamanCy/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-02 04:29:18] INFO root fetch - processPackages [tastytrade-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade_sdk-0.0.4a0.dev79.tar.gz]
+[2023-07-02 04:29:18] INFO root fetch - processPackages [tastytrade-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade-sdk-0.0.dev1.tar.gz]
+[2023-07-02 04:29:18] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-07-02 04:29:18] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.tar.gz]
+[2023-07-02 04:29:18] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.post1.tar.gz]
+[2023-07-02 04:29:18] INFO root fetch - main [MainThread]: End processing [mpservice]: success
+[2023-07-02 04:29:18] INFO root fetch - processPackages [calamanCy]: Remove: archive file [/home/abi/fetcher/tmp/calamanCy-0.0.1.tar.gz]
+[2023-07-02 04:29:18] INFO root fetch - processPackages [calamanCy]: Remove: archive file [/home/abi/fetcher/tmp/calamanCy-0.1.0.tar.gz]
+[2023-07-02 04:29:18] INFO root fetch - main [MainThread]: End processing [calamanCy]: success
+[2023-07-02 04:29:18] INFO root fetch - processPackages [caproto-apps]: Remove: archive file [/home/abi/fetcher/tmp/caproto-apps-0.1.0.tar.gz]
+[2023-07-02 04:29:18] INFO root fetch - processPackages [caproto-apps]: Remove: archive file [/home/abi/fetcher/tmp/caproto-apps-0.1.1.tar.gz]
+[2023-07-02 04:29:18] INFO root fetch - main [MainThread]: End processing [caproto-apps]: success
+[2023-07-02 04:29:18] INFO root fetch - main [MainThread]: Store serial: [18725840]
