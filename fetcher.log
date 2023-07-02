@@ -7923,3 +7923,48 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 12:56:37] INFO root fetch - processPackages [robotframework-reportportal-updated]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-reportportal_updated-1.1.6.tar.gz]
 [2023-07-02 12:56:37] INFO root fetch - main [MainThread]: End processing [robotframework-reportportal-updated]: success
 [2023-07-02 12:56:37] INFO root fetch - main [MainThread]: Store serial: [18728019]
+[2023-07-02 13:01:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18728019]
+[2023-07-02 13:01:46] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-02 13:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: silentkiller
+[2023-07-02 13:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: approval-utilities
+[2023-07-02 13:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: approvaltests
+[2023-07-02 13:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: approvaltests-minimal
+[2023-07-02 13:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-yamlfield
+[2023-07-02 13:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: G4-SNP-Overlap
+[2023-07-02 13:01:46] INFO root fetch - processPackages [approvaltests-minimal]: New version: [8.3.1] Old Version: [8.3.0]
+[2023-07-02 13:01:46] INFO root fetch - processPackages [django-yamlfield]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-02 13:01:46] INFO root fetch - processPackages [approval-utilities]: New version: [8.3.1] Old Version: [8.3.0]
+[2023-07-02 13:01:46] WARNING root fetch - processPackages [G4-SNP-Overlap]: Skipping, unable to determine old version
+[2023-07-02 13:01:46] INFO root fetch - main [MainThread]: End processing [G4-SNP-Overlap] error
+[2023-07-02 13:01:46] INFO root fetch - processPackages [approvaltests]: New version: [8.3.1] Old Version: [8.3.0]
+[2023-07-02 13:01:46] INFO root fetch - processPackages [approvaltests-minimal]: Downloading https://files.pythonhosted.org/packages/3d/a0/804313cd5fc29991fbea09e3acf6df1280b629cf35a1c0e4c887baeff98b/approvaltests-minimal-8.3.0.tar.gz
+[2023-07-02 13:01:46] INFO root fetch - processPackages [approval-utilities]: Downloading https://files.pythonhosted.org/packages/10/42/ad94445b1f34e7dc120a550191136183328522dfd2b595748221591887f8/approval_utilities-8.3.0.tar.gz
+[2023-07-02 13:01:46] INFO root fetch - processPackages [approvaltests]: Downloading https://files.pythonhosted.org/packages/07/b7/21fe876914197cb6718a9ed229ba7e729143d165fc01bf5c258018d4fdea/approvaltests-8.3.0.tar.gz
+[2023-07-02 13:01:46] ERROR root fetch - processPackages [silentkiller]: Unable to get metadata: No such project 'silentkiller'
+[2023-07-02 13:01:46] INFO root fetch - main [MainThread]: End processing [silentkiller] error
+[2023-07-02 13:01:46] INFO root fetch - processPackages [django-yamlfield]: Downloading https://files.pythonhosted.org/packages/fe/68/6af2a58830133a56c46c69bc4dfa62891a90aaec7cea000a63f0f950aa3f/django-yamlfield-1.2.0.tar.gz
+[2023-07-02 13:01:47] INFO root fetch - processPackages [approvaltests-minimal]: Downloading https://files.pythonhosted.org/packages/66/f5/85eca075b17a85c214d223d77e994850d5f4993f202ba52713bafc421027/approvaltests-minimal-8.3.1.tar.gz
+[2023-07-02 13:01:47] INFO root fetch - processPackages [approval-utilities]: Downloading https://files.pythonhosted.org/packages/cc/56/363ee5681899c0ed639df97529a33e2874c7d7d3c18d452cff3a0975da74/approval_utilities-8.3.1.tar.gz
+[2023-07-02 13:01:47] INFO root fetch - processPackages [approvaltests]: Downloading https://files.pythonhosted.org/packages/a5/b1/af448234f25c72026af2a41687b5af948d7f99374eabcc7606bebd7db68f/approvaltests-8.3.1.tar.gz
+[2023-07-02 13:01:47] INFO root fetch - processPackages [django-yamlfield]: Downloading https://files.pythonhosted.org/packages/d2/a6/285e22aca5c49b6fbb573d5ccbc7cf682767ef1ed1f79ccdbceaab20e3c5/django-yamlfield-1.2.1.tar.gz
+[2023-07-02 13:01:47] INFO root fetch - processPackages [approvaltests-minimal]: executing diffoscope
+[2023-07-02 13:01:47] INFO root fetch - processPackages [approvaltests-minimal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/approvaltests-minimal-8.3.0.tar.gz tmp/approvaltests-minimal-8.3.1.tar.gz --markdown 20230702/a/approvaltests-minimal/8.3.0-8.3.1/diff.md --exclude *.pyd
+[2023-07-02 13:01:47] INFO root fetch - processPackages [approval-utilities]: executing diffoscope
+[2023-07-02 13:01:47] INFO root fetch - processPackages [approval-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/approval_utilities-8.3.0.tar.gz tmp/approval_utilities-8.3.1.tar.gz --markdown 20230702/a/approval-utilities/8.3.0-8.3.1/diff.md --exclude *.pyd
+[2023-07-02 13:01:47] INFO root fetch - processPackages [django-yamlfield]: executing diffoscope
+[2023-07-02 13:01:47] INFO root fetch - processPackages [django-yamlfield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-yamlfield-1.2.0.tar.gz tmp/django-yamlfield-1.2.1.tar.gz --markdown 20230702/d/django-yamlfield/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-02 13:01:47] INFO root fetch - processPackages [approvaltests]: executing diffoscope
+[2023-07-02 13:01:47] INFO root fetch - processPackages [approvaltests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/approvaltests-8.3.0.tar.gz tmp/approvaltests-8.3.1.tar.gz --markdown 20230702/a/approvaltests/8.3.0-8.3.1/diff.md --exclude *.pyd
+[2023-07-02 13:01:48] INFO root fetch - processPackages [django-yamlfield]: Remove: archive file [/home/abi/fetcher/tmp/django-yamlfield-1.2.0.tar.gz]
+[2023-07-02 13:01:48] INFO root fetch - processPackages [django-yamlfield]: Remove: archive file [/home/abi/fetcher/tmp/django-yamlfield-1.2.1.tar.gz]
+[2023-07-02 13:01:48] INFO root fetch - main [MainThread]: End processing [django-yamlfield]: success
+[2023-07-02 13:01:48] INFO root fetch - processPackages [approval-utilities]: Remove: archive file [/home/abi/fetcher/tmp/approval_utilities-8.3.0.tar.gz]
+[2023-07-02 13:01:48] INFO root fetch - processPackages [approval-utilities]: Remove: archive file [/home/abi/fetcher/tmp/approval_utilities-8.3.1.tar.gz]
+[2023-07-02 13:01:48] INFO root fetch - main [MainThread]: End processing [approval-utilities]: success
+[2023-07-02 13:01:48] INFO root fetch - processPackages [approvaltests-minimal]: Remove: archive file [/home/abi/fetcher/tmp/approvaltests-minimal-8.3.0.tar.gz]
+[2023-07-02 13:01:48] INFO root fetch - processPackages [approvaltests-minimal]: Remove: archive file [/home/abi/fetcher/tmp/approvaltests-minimal-8.3.1.tar.gz]
+[2023-07-02 13:01:48] INFO root fetch - main [MainThread]: End processing [approvaltests-minimal]: success
+[2023-07-02 13:01:48] INFO root fetch - processPackages [approvaltests]: Remove: archive file [/home/abi/fetcher/tmp/approvaltests-8.3.0.tar.gz]
+[2023-07-02 13:01:48] INFO root fetch - processPackages [approvaltests]: Remove: archive file [/home/abi/fetcher/tmp/approvaltests-8.3.1.tar.gz]
+[2023-07-02 13:01:48] INFO root fetch - main [MainThread]: End processing [approvaltests]: success
+[2023-07-02 13:01:48] INFO root fetch - main [MainThread]: Store serial: [18728044]
