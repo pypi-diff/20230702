@@ -11645,3 +11645,74 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 17:50:23] INFO root fetch - processPackages [docassemble.webapp]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.webapp-1.4.9.tar.gz]
 [2023-07-02 17:50:23] INFO root fetch - main [MainThread]: End processing [docassemble.webapp]: success
 [2023-07-02 17:50:23] INFO root fetch - main [MainThread]: Store serial: [18729662]
+[2023-07-02 17:55:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18729662]
+[2023-07-02 17:55:32] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-02 17:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rosetta-ce
+[2023-07-02 17:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: roodkcab
+[2023-07-02 17:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: powerdns-secondary-cleaner
+[2023-07-02 17:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: katalytic-files
+[2023-07-02 17:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: citybrain-official
+[2023-07-02 17:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CDK-pywrapper
+[2023-07-02 17:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: docrobot
+[2023-07-02 17:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-redex
+[2023-07-02 17:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: certora-cli-alpha-master
+[2023-07-02 17:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jafdecs
+[2023-07-02 17:55:32] INFO root fetch - processPackages [roodkcab]: New version: [2.8] Old Version: [2.7]
+[2023-07-02 17:55:32] INFO root fetch - processPackages [katalytic-files]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-02 17:55:32] WARNING root fetch - processPackages [citybrain-official]: Skipping, unable to determine old version
+[2023-07-02 17:55:32] INFO root fetch - main [MainThread]: End processing [citybrain-official] error
+[2023-07-02 17:55:32] INFO root fetch - processPackages [rosetta-ce]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-02 17:55:32] INFO root fetch - processPackages [docrobot]: New version: [1.1.0] Old Version: [1.0.8]
+[2023-07-02 17:55:32] INFO root fetch - processPackages [powerdns-secondary-cleaner]: New version: [1.0.1] Old Version: [1.0]
+[2023-07-02 17:55:32] WARNING root fetch - processPackages [CDK-pywrapper]: Skipping, unable to determine old version
+[2023-07-02 17:55:32] INFO root fetch - main [MainThread]: End processing [CDK-pywrapper] error
+[2023-07-02 17:55:32] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230702.12.22.563987] Old Version: [20230702.11.22.241820]
+[2023-07-02 17:55:33] INFO root fetch - processPackages [roodkcab]: Downloading https://files.pythonhosted.org/packages/28/6f/4cd8a7b914e3e50f19a30f75d370e6e61e4d86d1610ce743efd5e385d25e/roodkcab-2.7.tar.gz
+[2023-07-02 17:55:33] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/99/84/40fc9241c5a7f901ecb50a546a0c5688da3cda1196f9dafff780ee6dc10f/rosetta-ce-1.4.0.tar.gz
+[2023-07-02 17:55:33] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/06/69/9ecc202a5406765375843c98437499ed114037d362d7c2c4d8cc8862ffe8/certora-cli-alpha-master-20230702.11.22.241820.tar.gz
+[2023-07-02 17:55:33] WARNING root fetch - processPackages [python-redex]: Skipping, unable to determine old version
+[2023-07-02 17:55:33] INFO root fetch - main [MainThread]: End processing [python-redex] error
+[2023-07-02 17:55:33] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 40611033>=10485760
+[2023-07-02 17:55:33] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-02 17:55:33] INFO root fetch - processPackages [jafdecs]: New version: [0.1.0a2] Old Version: [0.1.0a0]
+[2023-07-02 17:55:33] INFO root fetch - processPackages [docrobot]: Downloading https://files.pythonhosted.org/packages/40/87/ea8ad557865f208022e650754d99b27e96272491caa03a8a43d05a776b8f/docrobot-1.0.8.tar.gz
+[2023-07-02 17:55:33] INFO root fetch - processPackages [katalytic-files]: Downloading https://files.pythonhosted.org/packages/3a/68/5a148cf1948bff3b7967298bbea31fe1fa174e614a6e520e48523e54041e/katalytic_files-0.9.0.tar.gz
+[2023-07-02 17:55:33] INFO root fetch - processPackages [powerdns-secondary-cleaner]: Downloading https://files.pythonhosted.org/packages/9b/9b/9777710b87a77965e7ed348db9497395104e4e4c70a3216685941b801430/powerdns-secondary-cleaner-1.0.tar.gz
+[2023-07-02 17:55:33] INFO root fetch - processPackages [roodkcab]: Downloading https://files.pythonhosted.org/packages/a5/c0/15a2ed7da5761ba035031fb25bc3a1bf90b2c7b2b6a2903a5190d2a0358b/roodkcab-2.8.tar.gz
+[2023-07-02 17:55:33] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/45/5c/de35ec6f0b9d60cad15b3d4c89a4830cbd28fa35a0af1ce230297edba228/rosetta-ce-1.4.1.tar.gz
+[2023-07-02 17:55:33] INFO root fetch - processPackages [roodkcab]: executing diffoscope
+[2023-07-02 17:55:33] INFO root fetch - processPackages [roodkcab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roodkcab-2.7.tar.gz tmp/roodkcab-2.8.tar.gz --markdown 20230702/r/roodkcab/2.7-2.8/diff.md --exclude *.pyd
+[2023-07-02 17:55:33] INFO root fetch - processPackages [jafdecs]: Downloading https://files.pythonhosted.org/packages/e6/ad/ee4856afd4e8419397be2636cfbf09cfd6b0718d0436083a8154629ceb59/jafdecs-0.1.0a0.tar.gz
+[2023-07-02 17:55:33] INFO root fetch - processPackages [rosetta-ce]: executing diffoscope
+[2023-07-02 17:55:33] INFO root fetch - processPackages [rosetta-ce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosetta-ce-1.4.0.tar.gz tmp/rosetta-ce-1.4.1.tar.gz --markdown 20230702/r/rosetta-ce/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-02 17:55:33] INFO root fetch - processPackages [katalytic-files]: Downloading https://files.pythonhosted.org/packages/04/eb/fcac9abdb9adc934da4d9f47171c0c9fe7bbaab217985ad14dc8ac69d947/katalytic_files-0.9.1.tar.gz
+[2023-07-02 17:55:33] INFO root fetch - processPackages [powerdns-secondary-cleaner]: Downloading https://files.pythonhosted.org/packages/10/e7/5239fecf7d73f289eac01042b1b6ad4231abee8d421237e5d30925941127/powerdns-secondary-cleaner-1.0.1.tar.gz
+[2023-07-02 17:55:33] INFO root fetch - processPackages [katalytic-files]: executing diffoscope
+[2023-07-02 17:55:33] INFO root fetch - processPackages [katalytic-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/katalytic_files-0.9.0.tar.gz tmp/katalytic_files-0.9.1.tar.gz --markdown 20230702/k/katalytic-files/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-02 17:55:33] INFO root fetch - processPackages [powerdns-secondary-cleaner]: executing diffoscope
+[2023-07-02 17:55:33] INFO root fetch - processPackages [powerdns-secondary-cleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powerdns-secondary-cleaner-1.0.tar.gz tmp/powerdns-secondary-cleaner-1.0.1.tar.gz --markdown 20230702/p/powerdns-secondary-cleaner/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-02 17:55:33] INFO root fetch - processPackages [docrobot]: Downloading https://files.pythonhosted.org/packages/89/5e/a6cbfc92fae9ad2c9bbe3b2267b4db14a8b6882211039a8c350885a7cdfa/docrobot-1.1.0.tar.gz
+[2023-07-02 17:55:33] INFO root fetch - processPackages [docrobot]: executing diffoscope
+[2023-07-02 17:55:33] INFO root fetch - processPackages [docrobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docrobot-1.0.8.tar.gz tmp/docrobot-1.1.0.tar.gz --markdown 20230702/d/docrobot/1.0.8-1.1.0/diff.md --exclude *.pyd
+[2023-07-02 17:55:33] INFO root fetch - processPackages [jafdecs]: Downloading https://files.pythonhosted.org/packages/7c/6f/368ffedc93cacffe4a611f8bc283503fe123273a22400c858d5ca9f4e9d6/jafdecs-0.1.0a2.tar.gz
+[2023-07-02 17:55:34] INFO root fetch - processPackages [jafdecs]: executing diffoscope
+[2023-07-02 17:55:34] INFO root fetch - processPackages [jafdecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jafdecs-0.1.0a0.tar.gz tmp/jafdecs-0.1.0a2.tar.gz --markdown 20230702/j/jafdecs/0.1.0a0-0.1.0a2/diff.md --exclude *.pyd
+[2023-07-02 17:55:34] INFO root fetch - processPackages [roodkcab]: Remove: archive file [/home/abi/fetcher/tmp/roodkcab-2.7.tar.gz]
+[2023-07-02 17:55:34] INFO root fetch - processPackages [roodkcab]: Remove: archive file [/home/abi/fetcher/tmp/roodkcab-2.8.tar.gz]
+[2023-07-02 17:55:34] INFO root fetch - main [MainThread]: End processing [roodkcab]: success
+[2023-07-02 17:55:34] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.4.0.tar.gz]
+[2023-07-02 17:55:34] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.4.1.tar.gz]
+[2023-07-02 17:55:34] INFO root fetch - main [MainThread]: End processing [rosetta-ce]: success
+[2023-07-02 17:55:34] INFO root fetch - processPackages [powerdns-secondary-cleaner]: Remove: archive file [/home/abi/fetcher/tmp/powerdns-secondary-cleaner-1.0.tar.gz]
+[2023-07-02 17:55:34] INFO root fetch - processPackages [powerdns-secondary-cleaner]: Remove: archive file [/home/abi/fetcher/tmp/powerdns-secondary-cleaner-1.0.1.tar.gz]
+[2023-07-02 17:55:34] INFO root fetch - main [MainThread]: End processing [powerdns-secondary-cleaner]: success
+[2023-07-02 17:55:34] INFO root fetch - processPackages [katalytic-files]: Remove: archive file [/home/abi/fetcher/tmp/katalytic_files-0.9.0.tar.gz]
+[2023-07-02 17:55:34] INFO root fetch - processPackages [katalytic-files]: Remove: archive file [/home/abi/fetcher/tmp/katalytic_files-0.9.1.tar.gz]
+[2023-07-02 17:55:34] INFO root fetch - main [MainThread]: End processing [katalytic-files]: success
+[2023-07-02 17:55:34] INFO root fetch - processPackages [docrobot]: Remove: archive file [/home/abi/fetcher/tmp/docrobot-1.0.8.tar.gz]
+[2023-07-02 17:55:34] INFO root fetch - processPackages [docrobot]: Remove: archive file [/home/abi/fetcher/tmp/docrobot-1.1.0.tar.gz]
+[2023-07-02 17:55:34] INFO root fetch - main [MainThread]: End processing [docrobot]: success
+[2023-07-02 17:55:35] INFO root fetch - processPackages [jafdecs]: Remove: archive file [/home/abi/fetcher/tmp/jafdecs-0.1.0a0.tar.gz]
+[2023-07-02 17:55:35] INFO root fetch - processPackages [jafdecs]: Remove: archive file [/home/abi/fetcher/tmp/jafdecs-0.1.0a2.tar.gz]
+[2023-07-02 17:55:35] INFO root fetch - main [MainThread]: End processing [jafdecs]: success
+[2023-07-02 17:55:35] INFO root fetch - main [MainThread]: Store serial: [18729695]
