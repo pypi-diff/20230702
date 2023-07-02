@@ -15745,3 +15745,75 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 22:17:36] INFO root fetch - main [MainThread]: End processing [chainsaddiction]: success
 [2023-07-02 22:17:37] INFO root fetch - main [MainThread]: End processing [chainsaddiction]: success
 [2023-07-02 22:17:37] INFO root fetch - main [MainThread]: Store serial: [18731264]
+[2023-07-02 22:22:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18731264]
+[2023-07-02 22:22:48] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-02 22:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: object-detection-model
+[2023-07-02 22:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: screwhashesset
+[2023-07-02 22:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Blockthon
+[2023-07-02 22:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pylingdocs
+[2023-07-02 22:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oarepo-cli
+[2023-07-02 22:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yid-langchain-extensions
+[2023-07-02 22:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: inspectorgadget
+[2023-07-02 22:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sugaru
+[2023-07-02 22:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spanishconjugator
+[2023-07-02 22:22:48] WARNING root fetch - processPackages [screwhashesset]: Skipping, unable to determine old version
+[2023-07-02 22:22:48] INFO root fetch - main [MainThread]: End processing [screwhashesset] error
+[2023-07-02 22:22:48] WARNING root fetch - processPackages [object-detection-model]: Skipping, unable to determine old version
+[2023-07-02 22:22:48] INFO root fetch - main [MainThread]: End processing [object-detection-model] error
+[2023-07-02 22:22:48] INFO root fetch - processPackages [sugaru]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-02 22:22:48] INFO root fetch - processPackages [Blockthon]: New version: [6.9.3] Old Version: [6.3.9]
+[2023-07-02 22:22:48] INFO root fetch - processPackages [oarepo-cli]: New version: [11.1.8] Old Version: [11.1.7]
+[2023-07-02 22:22:48] INFO root fetch - processPackages [yid-langchain-extensions]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-02 22:22:48] INFO root fetch - processPackages [sugaru]: Downloading https://files.pythonhosted.org/packages/b3/19/357507fa1bd43cf804602a2f79effffa0daad94b639bf3bc6e3f6adb9732/sugaru-0.1.0.tar.gz
+[2023-07-02 22:22:48] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/8d/78/28a0e4fb9aa548e59ea7ea246a0e2f931b4c8e04ecf7e138f6e62f6952e6/oarepo-cli-11.1.7.tar.gz
+[2023-07-02 22:22:48] INFO root fetch - processPackages [yid-langchain-extensions]: Downloading https://files.pythonhosted.org/packages/3b/ad/5a14d2e0db79c4c9e25625b1b4d6b4abf5e8bf7fb0bb06ba3461611b3181/yid_langchain_extensions-0.4.8.tar.gz
+[2023-07-02 22:22:48] INFO root fetch - processPackages [pylingdocs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 22:22:48] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-02 22:22:48] INFO root fetch - processPackages [inspectorgadget]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-02 22:22:48] INFO root fetch - processPackages [Blockthon]: Downloading https://files.pythonhosted.org/packages/14/57/d826153551ec57cb989c4811d839d840f04b084e57091d96c55f366ef06b/Blockthon-6.3.9-py3-none-any.whl
+[2023-07-02 22:22:48] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-02 22:22:48] INFO root fetch - processPackages [yid-langchain-extensions]: Downloading https://files.pythonhosted.org/packages/72/ba/67d200561c62c1dbd583ac75ded2fb95737bee8f62900d9aaf0aeda17ef8/yid_langchain_extensions-0.4.9.tar.gz
+[2023-07-02 22:22:48] INFO root fetch - processPackages [sugaru]: Downloading https://files.pythonhosted.org/packages/ad/88/99d5935f303c27cda42d94a5b73f8ac45ceef7a2cfeffa4172de42d2d11a/sugaru-0.2.0.tar.gz
+[2023-07-02 22:22:48] INFO root fetch - processPackages [yid-langchain-extensions]: executing diffoscope
+[2023-07-02 22:22:48] INFO root fetch - processPackages [yid-langchain-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yid_langchain_extensions-0.4.8.tar.gz tmp/yid_langchain_extensions-0.4.9.tar.gz --markdown 20230702/y/yid-langchain-extensions/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-02 22:22:48] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-02 22:22:48] INFO root fetch - processPackages [pylingdocs]: Downloading https://files.pythonhosted.org/packages/df/3d/716c965bf107c0edd878c913dafbc35a08e00d076198850540a8dbc79e13/pylingdocs-0.0.8.tar.gz
+[2023-07-02 22:22:48] INFO root fetch - processPackages [inspectorgadget]: Downloading https://files.pythonhosted.org/packages/e2/c7/4b6cd9c62a2a51110e27b9b1d1effc4e602ee8b5540b987c8b50d4f0727b/inspectorgadget-0.1.0.tar.gz
+[2023-07-02 22:22:48] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/af/a7/2733a476ea08d89fb2f474b4da4c3e1bcd0256c07baebfab128540be8be1/oarepo-cli-11.1.8.tar.gz
+[2023-07-02 22:22:48] INFO root fetch - processPackages [sugaru]: executing diffoscope
+[2023-07-02 22:22:48] INFO root fetch - processPackages [sugaru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sugaru-0.1.0.tar.gz tmp/sugaru-0.2.0.tar.gz --markdown 20230702/s/sugaru/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-02 22:22:48] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-02 22:22:48] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230702/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-02 22:22:48] INFO root fetch - processPackages [Blockthon]: Downloading https://files.pythonhosted.org/packages/e3/ce/4c4811e84a016a896f4d37f0c3bcce8863fd4cad6554748a9d2b980c7307/Blockthon-6.9.3-py3-none-any.whl
+[2023-07-02 22:22:48] INFO root fetch - processPackages [inspectorgadget]: Downloading https://files.pythonhosted.org/packages/c4/3d/e03362ba1506a6cde4436692463550ca255e77298e9ab7c8b71cab32da6c/inspectorgadget-0.1.1.tar.gz
+[2023-07-02 22:22:48] INFO root fetch - processPackages [Blockthon]: executing diffoscope
+[2023-07-02 22:22:48] INFO root fetch - processPackages [Blockthon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Blockthon-6.3.9-py3-none-any.whl.zip tmp/Blockthon-6.9.3-py3-none-any.whl.zip --markdown 20230702/B/Blockthon/6.3.9-6.9.3/diff.md --exclude *.pyd
+[2023-07-02 22:22:48] INFO root fetch - processPackages [inspectorgadget]: executing diffoscope
+[2023-07-02 22:22:48] INFO root fetch - processPackages [inspectorgadget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inspectorgadget-0.1.0.tar.gz tmp/inspectorgadget-0.1.1.tar.gz --markdown 20230702/i/inspectorgadget/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-02 22:22:49] INFO root fetch - processPackages [pylingdocs]: Downloading https://files.pythonhosted.org/packages/59/0a/8b0b797d680c05ecd0cc471b37c5fecdcfc360990792d362ee6c60bfd021/pylingdocs-0.0.9.tar.gz
+[2023-07-02 22:22:49] INFO root fetch - processPackages [pylingdocs]: executing diffoscope
+[2023-07-02 22:22:49] INFO root fetch - processPackages [pylingdocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylingdocs-0.0.8.tar.gz tmp/pylingdocs-0.0.9.tar.gz --markdown 20230702/p/pylingdocs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 22:22:49] INFO root fetch - processPackages [oarepo-cli]: executing diffoscope
+[2023-07-02 22:22:49] INFO root fetch - processPackages [oarepo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-cli-11.1.7.tar.gz tmp/oarepo-cli-11.1.8.tar.gz --markdown 20230702/o/oarepo-cli/11.1.7-11.1.8/diff.md --exclude *.pyd
+[2023-07-02 22:22:49] INFO root fetch - processPackages [yid-langchain-extensions]: Remove: archive file [/home/abi/fetcher/tmp/yid_langchain_extensions-0.4.8.tar.gz]
+[2023-07-02 22:22:49] INFO root fetch - processPackages [yid-langchain-extensions]: Remove: archive file [/home/abi/fetcher/tmp/yid_langchain_extensions-0.4.9.tar.gz]
+[2023-07-02 22:22:49] INFO root fetch - main [MainThread]: End processing [yid-langchain-extensions]: success
+[2023-07-02 22:22:49] INFO root fetch - processPackages [sugaru]: Remove: archive file [/home/abi/fetcher/tmp/sugaru-0.1.0.tar.gz]
+[2023-07-02 22:22:49] INFO root fetch - processPackages [sugaru]: Remove: archive file [/home/abi/fetcher/tmp/sugaru-0.2.0.tar.gz]
+[2023-07-02 22:22:49] INFO root fetch - main [MainThread]: End processing [sugaru]: success
+[2023-07-02 22:22:49] INFO root fetch - processPackages [Blockthon]: Remove: archive file [/home/abi/fetcher/tmp/Blockthon-6.3.9-py3-none-any.whl.zip]
+[2023-07-02 22:22:49] INFO root fetch - processPackages [Blockthon]: Remove: archive file [/home/abi/fetcher/tmp/Blockthon-6.9.3-py3-none-any.whl.zip]
+[2023-07-02 22:22:49] INFO root fetch - main [MainThread]: End processing [Blockthon]: success
+[2023-07-02 22:22:50] INFO root fetch - processPackages [inspectorgadget]: Remove: archive file [/home/abi/fetcher/tmp/inspectorgadget-0.1.0.tar.gz]
+[2023-07-02 22:22:50] INFO root fetch - processPackages [inspectorgadget]: Remove: archive file [/home/abi/fetcher/tmp/inspectorgadget-0.1.1.tar.gz]
+[2023-07-02 22:22:50] INFO root fetch - main [MainThread]: End processing [inspectorgadget]: success
+[2023-07-02 22:22:50] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-02 22:22:50] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-02 22:22:50] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-02 22:22:50] INFO root fetch - processPackages [pylingdocs]: Remove: archive file [/home/abi/fetcher/tmp/pylingdocs-0.0.8.tar.gz]
+[2023-07-02 22:22:50] INFO root fetch - processPackages [pylingdocs]: Remove: archive file [/home/abi/fetcher/tmp/pylingdocs-0.0.9.tar.gz]
+[2023-07-02 22:22:50] INFO root fetch - main [MainThread]: End processing [pylingdocs]: success
+[2023-07-02 22:22:52] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.7.tar.gz]
+[2023-07-02 22:22:52] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.8.tar.gz]
+[2023-07-02 22:22:52] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
+[2023-07-02 22:22:52] INFO root fetch - main [MainThread]: Store serial: [18731303]
