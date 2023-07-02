@@ -16025,3 +16025,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 22:33:27] INFO root fetch - processPackages [supertokens-python]: Remove: archive file [/home/abi/fetcher/tmp/supertokens_python-0.9.1.tar.gz]
 [2023-07-02 22:33:27] INFO root fetch - main [MainThread]: End processing [supertokens-python]: success
 [2023-07-02 22:33:27] INFO root fetch - main [MainThread]: Store serial: [18731390]
+[2023-07-02 22:38:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18731390]
+[2023-07-02 22:38:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-02 22:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sugaru
+[2023-07-02 22:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mvc4kivy
+[2023-07-02 22:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: devopsvalidatecpf
+[2023-07-02 22:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cgepy
+[2023-07-02 22:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: canopy-platform
+[2023-07-02 22:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-shell-utilities
+[2023-07-02 22:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: agamprimer
+[2023-07-02 22:38:38] INFO root fetch - processPackages [canopy-platform]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-07-02 22:38:38] INFO root fetch - processPackages [sugaru]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-02 22:38:38] WARNING root fetch - processPackages [devopsvalidatecpf]: Skipping, unable to determine old version
+[2023-07-02 22:38:38] INFO root fetch - main [MainThread]: End processing [devopsvalidatecpf] error
+[2023-07-02 22:38:38] INFO root fetch - processPackages [cgepy]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-02 22:38:38] INFO root fetch - processPackages [pytest-shell-utilities]: New version: [1.8.0] Old Version: [1.7.0]
+[2023-07-02 22:38:38] INFO root fetch - processPackages [agamprimer]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-02 22:38:38] INFO root fetch - processPackages [mvc4kivy]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-02 22:38:38] INFO root fetch - processPackages [sugaru]: Downloading https://files.pythonhosted.org/packages/4d/0c/7a316315451db865a450633cba4fa2b3136f1029d8df2343453e1e85aa5e/sugaru-0.3.0.tar.gz
+[2023-07-02 22:38:38] INFO root fetch - processPackages [mvc4kivy]: Downloading https://files.pythonhosted.org/packages/51/2b/3d179be7a89409aba4daffb724642231894790e54601ca8c260c641ba26e/mvc4kivy-0.1.6.tar.gz
+[2023-07-02 22:38:38] INFO root fetch - processPackages [canopy-platform]: Downloading https://files.pythonhosted.org/packages/01/07/f5cf35f2f764a8fb0ca1cf996c00e73d20af5680ac80c3238ebc2aed601c/canopy-platform-0.0.7.tar.gz
+[2023-07-02 22:38:38] INFO root fetch - processPackages [pytest-shell-utilities]: Downloading https://files.pythonhosted.org/packages/b1/8e/34552a23b0016328616f070547ae2b12611f641359417e2890eeee4badd6/pytest-shell-utilities-1.7.0.tar.gz
+[2023-07-02 22:38:38] INFO root fetch - processPackages [cgepy]: Downloading https://files.pythonhosted.org/packages/8a/15/4a745640da7fcfb24bc10a7e195362883ce06954eafa5451c017568fa2ff/cgepy-0.7.0.tar.gz
+[2023-07-02 22:38:38] INFO root fetch - processPackages [agamprimer]: Downloading https://files.pythonhosted.org/packages/09/5c/e11f64fea7ffcfd71daa5973468b9bf363c9012e13665aa907cb3d475446/agamprimer-0.6.1.tar.gz
+[2023-07-02 22:38:38] INFO root fetch - processPackages [mvc4kivy]: Downloading https://files.pythonhosted.org/packages/b8/04/8f31d3993e8fd216c6b3a242912824c09eada044babcfa2aad483a4a0a45/mvc4kivy-0.1.7.tar.gz
+[2023-07-02 22:38:38] INFO root fetch - processPackages [sugaru]: Downloading https://files.pythonhosted.org/packages/4a/3a/29f11eb68b19e7d6b5767f3a01398ceed24b6e70298e228064ee4ffba5b5/sugaru-0.3.1.tar.gz
+[2023-07-02 22:38:38] INFO root fetch - processPackages [pytest-shell-utilities]: Downloading https://files.pythonhosted.org/packages/63/9d/9ce26090f104441d2441473c5802d07b127560261baf4ac78eb7fb8aeafa/pytest-shell-utilities-1.8.0.tar.gz
+[2023-07-02 22:38:39] INFO root fetch - processPackages [canopy-platform]: Downloading https://files.pythonhosted.org/packages/2f/5d/2cd75caf7771ab5fe07dbe20dc3f66d04d9374a9627e548c923dd37a1f8f/canopy-platform-0.0.9.tar.gz
+[2023-07-02 22:38:39] INFO root fetch - processPackages [cgepy]: Downloading https://files.pythonhosted.org/packages/28/31/bf5e416a741e45d9ec1153e19b40a2d535f42ba5989cc4132f01bf0f338c/cgepy-0.7.1.tar.gz
+[2023-07-02 22:38:39] INFO root fetch - processPackages [agamprimer]: Downloading https://files.pythonhosted.org/packages/30/0c/5015a8c20aaf619962938720b990a35a8147af267f53a330e8ad55a926cc/agamprimer-0.6.2.tar.gz
+[2023-07-02 22:38:39] INFO root fetch - processPackages [sugaru]: executing diffoscope
+[2023-07-02 22:38:39] INFO root fetch - processPackages [sugaru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sugaru-0.3.0.tar.gz tmp/sugaru-0.3.1.tar.gz --markdown 20230702/s/sugaru/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-02 22:38:39] INFO root fetch - processPackages [mvc4kivy]: executing diffoscope
+[2023-07-02 22:38:39] INFO root fetch - processPackages [mvc4kivy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mvc4kivy-0.1.6.tar.gz tmp/mvc4kivy-0.1.7.tar.gz --markdown 20230702/m/mvc4kivy/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-02 22:38:39] INFO root fetch - processPackages [pytest-shell-utilities]: executing diffoscope
+[2023-07-02 22:38:39] INFO root fetch - processPackages [pytest-shell-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-shell-utilities-1.7.0.tar.gz tmp/pytest-shell-utilities-1.8.0.tar.gz --markdown 20230702/p/pytest-shell-utilities/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2023-07-02 22:38:39] INFO root fetch - processPackages [cgepy]: executing diffoscope
+[2023-07-02 22:38:39] INFO root fetch - processPackages [cgepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgepy-0.7.0.tar.gz tmp/cgepy-0.7.1.tar.gz --markdown 20230702/c/cgepy/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-02 22:38:39] INFO root fetch - processPackages [agamprimer]: executing diffoscope
+[2023-07-02 22:38:39] INFO root fetch - processPackages [agamprimer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agamprimer-0.6.1.tar.gz tmp/agamprimer-0.6.2.tar.gz --markdown 20230702/a/agamprimer/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-02 22:38:39] INFO root fetch - processPackages [canopy-platform]: executing diffoscope
+[2023-07-02 22:38:39] INFO root fetch - processPackages [canopy-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canopy-platform-0.0.7.tar.gz tmp/canopy-platform-0.0.9.tar.gz --markdown 20230702/c/canopy-platform/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 22:38:40] INFO root fetch - processPackages [sugaru]: Remove: archive file [/home/abi/fetcher/tmp/sugaru-0.3.0.tar.gz]
+[2023-07-02 22:38:40] INFO root fetch - processPackages [sugaru]: Remove: archive file [/home/abi/fetcher/tmp/sugaru-0.3.1.tar.gz]
+[2023-07-02 22:38:40] INFO root fetch - main [MainThread]: End processing [sugaru]: success
+[2023-07-02 22:38:40] INFO root fetch - processPackages [agamprimer]: Remove: archive file [/home/abi/fetcher/tmp/agamprimer-0.6.1.tar.gz]
+[2023-07-02 22:38:40] INFO root fetch - processPackages [agamprimer]: Remove: archive file [/home/abi/fetcher/tmp/agamprimer-0.6.2.tar.gz]
+[2023-07-02 22:38:40] INFO root fetch - main [MainThread]: End processing [agamprimer]: success
+[2023-07-02 22:38:40] INFO root fetch - processPackages [cgepy]: Remove: archive file [/home/abi/fetcher/tmp/cgepy-0.7.0.tar.gz]
+[2023-07-02 22:38:40] INFO root fetch - processPackages [cgepy]: Remove: archive file [/home/abi/fetcher/tmp/cgepy-0.7.1.tar.gz]
+[2023-07-02 22:38:40] INFO root fetch - main [MainThread]: End processing [cgepy]: success
+[2023-07-02 22:38:40] INFO root fetch - processPackages [canopy-platform]: Remove: archive file [/home/abi/fetcher/tmp/canopy-platform-0.0.7.tar.gz]
+[2023-07-02 22:38:40] INFO root fetch - processPackages [canopy-platform]: Remove: archive file [/home/abi/fetcher/tmp/canopy-platform-0.0.9.tar.gz]
+[2023-07-02 22:38:40] INFO root fetch - main [MainThread]: End processing [canopy-platform]: success
+[2023-07-02 22:38:40] INFO root fetch - processPackages [mvc4kivy]: Remove: archive file [/home/abi/fetcher/tmp/mvc4kivy-0.1.6.tar.gz]
+[2023-07-02 22:38:40] INFO root fetch - processPackages [mvc4kivy]: Remove: archive file [/home/abi/fetcher/tmp/mvc4kivy-0.1.7.tar.gz]
+[2023-07-02 22:38:40] INFO root fetch - main [MainThread]: End processing [mvc4kivy]: success
+[2023-07-02 22:38:40] INFO root fetch - processPackages [pytest-shell-utilities]: Remove: archive file [/home/abi/fetcher/tmp/pytest-shell-utilities-1.7.0.tar.gz]
+[2023-07-02 22:38:40] INFO root fetch - processPackages [pytest-shell-utilities]: Remove: archive file [/home/abi/fetcher/tmp/pytest-shell-utilities-1.8.0.tar.gz]
+[2023-07-02 22:38:40] INFO root fetch - main [MainThread]: End processing [pytest-shell-utilities]: success
+[2023-07-02 22:38:40] INFO root fetch - main [MainThread]: Store serial: [18731418]
