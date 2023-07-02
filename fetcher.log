@@ -6114,3 +6114,85 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 10:26:19] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2023-07-02 10:26:19] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-07-02 10:26:19] INFO root fetch - main [MainThread]: Store serial: [18727216]
+[2023-07-02 10:31:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18727216]
+[2023-07-02 10:31:28] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-02 10:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SiteScraper
+[2023-07-02 10:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ilsadvbisnvavojebaij
+[2023-07-02 10:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumiverse-harbor
+[2023-07-02 10:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: akshare
+[2023-07-02 10:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fa-models
+[2023-07-02 10:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SiteScraper
+[2023-07-02 10:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cs2star
+[2023-07-02 10:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: notion-graph
+[2023-07-02 10:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-bili-push
+[2023-07-02 10:31:28] INFO root fetch - processPackages [pulumiverse-harbor]: New version: [3.9.3] Old Version: [3.9.2]
+[2023-07-02 10:31:28] INFO root fetch - processPackages [SiteScraper]: New version: [2.3.3] Old Version: [2.3.2]
+[2023-07-02 10:31:28] INFO root fetch - processPackages [ilsadvbisnvavojebaij]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-07-02 10:31:28] INFO root fetch - processPackages [notion-graph]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-07-02 10:31:28] INFO root fetch - processPackages [cs2star]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-07-02 10:31:28] INFO root fetch - processPackages [fa-models]: New version: [1.0.67] Old Version: [1.0.66]
+[2023-07-02 10:31:28] INFO root fetch - processPackages [nonebot-plugin-bili-push]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 10:31:28] INFO root fetch - processPackages [SiteScraper]: New version: [2.3.3] Old Version: [2.3.2]
+[2023-07-02 10:31:28] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/39/39/d1e974268ffd67486d5d2a3a5517b88f829cee0f9b36e9c892d5af45dbf8/nonebot_plugin_bili_push-0.1.8.tar.gz
+[2023-07-02 10:31:28] INFO root fetch - processPackages [notion-graph]: Downloading https://files.pythonhosted.org/packages/4b/4f/b5869498e356f0e74b7b9913ec287d6c381bd5af033229ce139086a20134/notion-graph-0.1.4.tar.gz
+[2023-07-02 10:31:28] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-07-02 10:31:28] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/11/ca/86e6097b5a678a6468551763572b1cf9f41b70bb0fb7b7d5a55188eed3b7/fa-models-1.0.66.tar.gz
+[2023-07-02 10:31:28] INFO root fetch - processPackages [ilsadvbisnvavojebaij]: Downloading https://files.pythonhosted.org/packages/16/c9/99df8c1810b20b7ff65ccb2ebfff39154ddacf8ca3b7567137364f46a44a/ilsadvbisnvavojebaij-0.1.5.tar.gz
+[2023-07-02 10:31:28] INFO root fetch - processPackages [pulumiverse-harbor]: Downloading https://files.pythonhosted.org/packages/3d/c2/60e6f48e7db261eadf19171f9cbe7a63ceff6971b25dc1659959fcbb7f91/pulumiverse_harbor-3.9.2.tar.gz
+[2023-07-02 10:31:28] INFO root fetch - processPackages [SiteScraper]: Downloading https://files.pythonhosted.org/packages/42/83/9b8224a61e0dc26537d234e8617de4cff9268c46c0c9256b1010be4cb92c/SiteScraper-2.3.2.tar.gz
+[2023-07-02 10:31:28] INFO root fetch - processPackages [SiteScraper]: Downloading https://files.pythonhosted.org/packages/42/83/9b8224a61e0dc26537d234e8617de4cff9268c46c0c9256b1010be4cb92c/SiteScraper-2.3.2.tar.gz
+[2023-07-02 10:31:28] INFO root fetch - processPackages [cs2star]: Downloading https://files.pythonhosted.org/packages/f3/24/3cc10a9680eeb2902c32fb4748a1a4f400e1980965107101b1354a2155bc/cs2star-0.5.4.tar.gz
+[2023-07-02 10:31:28] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/7a/de/eb6aaa4df9bfca89e16091310ba9209ee5026d1ad5eaaaa17aa8e4121daf/nonebot_plugin_bili_push-0.1.9.tar.gz
+[2023-07-02 10:31:28] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-07-02 10:31:29] INFO root fetch - processPackages [notion-graph]: Downloading https://files.pythonhosted.org/packages/90/91/bf785ef055b4fd9ccc532f224fc0de851b589280505e7c76a0eefdeffd64/notion-graph-0.2.0.tar.gz
+[2023-07-02 10:31:29] INFO root fetch - processPackages [nonebot-plugin-bili-push]: executing diffoscope
+[2023-07-02 10:31:29] INFO root fetch - processPackages [nonebot-plugin-bili-push]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bili_push-0.1.8.tar.gz tmp/nonebot_plugin_bili_push-0.1.9.tar.gz --markdown 20230702/n/nonebot-plugin-bili-push/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 10:31:29] INFO root fetch - processPackages [ilsadvbisnvavojebaij]: Downloading https://files.pythonhosted.org/packages/f7/bb/393ecb2d16628474b5d8b200d47b8d11646e72e93507fe560d894e9a989e/ilsadvbisnvavojebaij-0.2.0.tar.gz
+[2023-07-02 10:31:29] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/e7/2d/1bd253dbab52124cfb589795e1b577192c4fd47a491e9d821425ca2fc30a/fa-models-1.0.67.tar.gz
+[2023-07-02 10:31:29] INFO root fetch - processPackages [pulumiverse-harbor]: Downloading https://files.pythonhosted.org/packages/0e/5b/3e41f40cbc2d71d40c7bba0c1a36f718d30456041df03071f1609383f028/pulumiverse_harbor-3.9.3.tar.gz
+[2023-07-02 10:31:29] INFO root fetch - processPackages [notion-graph]: executing diffoscope
+[2023-07-02 10:31:29] INFO root fetch - processPackages [notion-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notion-graph-0.1.4.tar.gz tmp/notion-graph-0.2.0.tar.gz --markdown 20230702/n/notion-graph/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-07-02 10:31:29] INFO root fetch - processPackages [SiteScraper]: Downloading https://files.pythonhosted.org/packages/b3/44/6a379fa23169b35021b3cf03452d3905fa268cd2b8369dfe05f760773f90/SiteScraper-2.3.3.tar.gz
+[2023-07-02 10:31:29] INFO root fetch - processPackages [SiteScraper]: Downloading https://files.pythonhosted.org/packages/b3/44/6a379fa23169b35021b3cf03452d3905fa268cd2b8369dfe05f760773f90/SiteScraper-2.3.3.tar.gz
+[2023-07-02 10:31:29] INFO root fetch - processPackages [ilsadvbisnvavojebaij]: executing diffoscope
+[2023-07-02 10:31:29] INFO root fetch - processPackages [ilsadvbisnvavojebaij]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ilsadvbisnvavojebaij-0.1.5.tar.gz tmp/ilsadvbisnvavojebaij-0.2.0.tar.gz --markdown 20230702/i/ilsadvbisnvavojebaij/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-07-02 10:31:29] INFO root fetch - processPackages [cs2star]: Downloading https://files.pythonhosted.org/packages/50/21/99a00d1799cc87a89bae7934b5fdf9e0124409249fb20c1b8daf836a47b9/cs2star-0.5.5.tar.gz
+[2023-07-02 10:31:29] INFO root fetch - processPackages [pulumiverse-harbor]: executing diffoscope
+[2023-07-02 10:31:29] INFO root fetch - processPackages [pulumiverse-harbor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_harbor-3.9.2.tar.gz tmp/pulumiverse_harbor-3.9.3.tar.gz --markdown 20230702/p/pulumiverse-harbor/3.9.2-3.9.3/diff.md --exclude *.pyd
+[2023-07-02 10:31:29] INFO root fetch - processPackages [SiteScraper]: executing diffoscope
+[2023-07-02 10:31:29] INFO root fetch - processPackages [SiteScraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SiteScraper-2.3.2.tar.gz tmp/SiteScraper-2.3.3.tar.gz --markdown 20230702/S/SiteScraper/2.3.2-2.3.3/diff.md --exclude *.pyd
+[2023-07-02 10:31:29] INFO root fetch - processPackages [SiteScraper]: executing diffoscope
+[2023-07-02 10:31:29] INFO root fetch - processPackages [SiteScraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SiteScraper-2.3.2.tar.gz tmp/SiteScraper-2.3.3.tar.gz --markdown 20230702/S/SiteScraper/2.3.2-2.3.3/diff.md --exclude *.pyd
+[2023-07-02 10:31:29] INFO root fetch - processPackages [cs2star]: executing diffoscope
+[2023-07-02 10:31:29] INFO root fetch - processPackages [cs2star]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs2star-0.5.4.tar.gz tmp/cs2star-0.5.5.tar.gz --markdown 20230702/c/cs2star/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-07-02 10:31:29] INFO root fetch - processPackages [fa-models]: executing diffoscope
+[2023-07-02 10:31:29] INFO root fetch - processPackages [fa-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fa-models-1.0.66.tar.gz tmp/fa-models-1.0.67.tar.gz --markdown 20230702/f/fa-models/1.0.66-1.0.67/diff.md --exclude *.pyd
+[2023-07-02 10:31:29] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-07-02 10:31:29] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-07-02 10:31:29] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230702/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-07-02 10:31:30] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.8.tar.gz]
+[2023-07-02 10:31:30] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.9.tar.gz]
+[2023-07-02 10:31:30] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bili-push]: success
+[2023-07-02 10:31:30] INFO root fetch - processPackages [notion-graph]: Remove: archive file [/home/abi/fetcher/tmp/notion-graph-0.1.4.tar.gz]
+[2023-07-02 10:31:30] INFO root fetch - processPackages [notion-graph]: Remove: archive file [/home/abi/fetcher/tmp/notion-graph-0.2.0.tar.gz]
+[2023-07-02 10:31:30] INFO root fetch - main [MainThread]: End processing [notion-graph]: success
+[2023-07-02 10:31:30] INFO root fetch - processPackages [ilsadvbisnvavojebaij]: Remove: archive file [/home/abi/fetcher/tmp/ilsadvbisnvavojebaij-0.1.5.tar.gz]
+[2023-07-02 10:31:30] INFO root fetch - processPackages [ilsadvbisnvavojebaij]: Remove: archive file [/home/abi/fetcher/tmp/ilsadvbisnvavojebaij-0.2.0.tar.gz]
+[2023-07-02 10:31:30] INFO root fetch - main [MainThread]: End processing [ilsadvbisnvavojebaij]: success
+[2023-07-02 10:31:30] INFO root fetch - processPackages [SiteScraper]: Remove: archive file [/home/abi/fetcher/tmp/SiteScraper-2.3.2.tar.gz]
+[2023-07-02 10:31:30] INFO root fetch - processPackages [SiteScraper]: Remove: archive file [/home/abi/fetcher/tmp/SiteScraper-2.3.3.tar.gz]
+[2023-07-02 10:31:30] INFO root fetch - main [MainThread]: End processing [SiteScraper]: success
+[2023-07-02 10:31:30] INFO root fetch - processPackages [cs2star]: Remove: archive file [/home/abi/fetcher/tmp/cs2star-0.5.4.tar.gz]
+[2023-07-02 10:31:30] INFO root fetch - processPackages [cs2star]: Remove: archive file [/home/abi/fetcher/tmp/cs2star-0.5.5.tar.gz]
+[2023-07-02 10:31:30] INFO root fetch - main [MainThread]: End processing [cs2star]: success
+[2023-07-02 10:31:30] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.66.tar.gz]
+[2023-07-02 10:31:30] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.67.tar.gz]
+[2023-07-02 10:31:30] INFO root fetch - main [MainThread]: End processing [fa-models]: success
+[2023-07-02 10:31:30] INFO root fetch - main [MainThread]: End processing [SiteScraper]: success
+[2023-07-02 10:31:31] INFO root fetch - processPackages [pulumiverse-harbor]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_harbor-3.9.2.tar.gz]
+[2023-07-02 10:31:31] INFO root fetch - processPackages [pulumiverse-harbor]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_harbor-3.9.3.tar.gz]
+[2023-07-02 10:31:31] INFO root fetch - main [MainThread]: End processing [pulumiverse-harbor]: success
+[2023-07-02 10:31:34] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-07-02 10:31:34] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-07-02 10:31:34] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-07-02 10:31:34] INFO root fetch - main [MainThread]: Store serial: [18727248]
