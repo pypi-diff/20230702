@@ -12415,3 +12415,61 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 18:24:01] INFO root fetch - processPackages [mojo-xmodules]: Remove: archive file [/home/abi/fetcher/tmp/mojo_xmodules-0.0.9.tar.gz]
 [2023-07-02 18:24:01] INFO root fetch - main [MainThread]: End processing [mojo-xmodules]: success
 [2023-07-02 18:24:01] INFO root fetch - main [MainThread]: Store serial: [18729969]
+[2023-07-02 18:29:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18729969]
+[2023-07-02 18:29:11] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-02 18:29:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mend-ignore-alerts
+[2023-07-02 18:29:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-jutil
+[2023-07-02 18:29:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lyrics-transcriber
+[2023-07-02 18:29:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aicoder
+[2023-07-02 18:29:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlrl-testbed
+[2023-07-02 18:29:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simp2
+[2023-07-02 18:29:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: WinDeklar
+[2023-07-02 18:29:11] INFO root fetch - processPackages [aicoder]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-02 18:29:11] INFO root fetch - processPackages [mlrl-testbed]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-02 18:29:11] INFO root fetch - processPackages [lyrics-transcriber]: New version: [0.3.4] Old Version: [0.3.2]
+[2023-07-02 18:29:11] INFO root fetch - processPackages [mend-ignore-alerts]: New version: [0.2.1] Old Version: [0.2]
+[2023-07-02 18:29:11] WARNING root fetch - processPackages [simp2]: Skipping, unable to determine old version
+[2023-07-02 18:29:11] INFO root fetch - main [MainThread]: End processing [simp2] error
+[2023-07-02 18:29:11] INFO root fetch - processPackages [WinDeklar]: New version: [0.2] Old Version: [0.1.8]
+[2023-07-02 18:29:11] INFO root fetch - processPackages [django-jutil]: New version: [3.9.9] Old Version: [3.9.8]
+[2023-07-02 18:29:11] INFO root fetch - processPackages [lyrics-transcriber]: Downloading https://files.pythonhosted.org/packages/46/77/c59214143f7bd132b9944da63892bbe3c7c1c81cf1839cdfc77229dd2389/lyrics_transcriber-0.3.2.tar.gz
+[2023-07-02 18:29:11] INFO root fetch - processPackages [mend-ignore-alerts]: Downloading https://files.pythonhosted.org/packages/63/e0/8ca92ca28470512baa333098e2d2863be1edc74bc5331651730986894e04/mend_ignore_alerts-0.2-py3-none-any.whl
+[2023-07-02 18:29:11] INFO root fetch - processPackages [mlrl-testbed]: Downloading https://files.pythonhosted.org/packages/28/36/5d4c94a3dfbe2705461bebf1fa18057e484f51c6b3f5b0579138bdd4589b/mlrl_testbed-0.8.2-py3-none-any.whl
+[2023-07-02 18:29:11] INFO root fetch - processPackages [django-jutil]: Downloading https://files.pythonhosted.org/packages/2e/e6/3fdcc7e3736b647cf3ab5609859c19dc656fb6ea44111d0c1c4b5a0f1478/django-jutil-3.9.8.tar.gz
+[2023-07-02 18:29:11] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/2a/ba/0763049edce66fef8fd859ae8539675d57e4ebae0667b066a6d1123d99d2/aicoder-0.3.6-py3-none-any.whl
+[2023-07-02 18:29:11] INFO root fetch - processPackages [WinDeklar]: Downloading https://files.pythonhosted.org/packages/62/40/560cebd8684a15ccae141fc5983fcac7ca26d20a69099c4c08202d78465d/windeklar-0.2.tar.gz
+[2023-07-02 18:29:11] INFO root fetch - processPackages [mend-ignore-alerts]: Downloading https://files.pythonhosted.org/packages/a4/04/0964d75aafad0447e1b3f3cb83e48926513a75a4ff446c44d4e05b616f07/mend_ignore_alerts-0.2.1-py3-none-any.whl
+[2023-07-02 18:29:11] INFO root fetch - processPackages [aicoder]: executing diffoscope
+[2023-07-02 18:29:11] INFO root fetch - processPackages [aicoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicoder-0.3.5-py3-none-any.whl.zip tmp/aicoder-0.3.6-py3-none-any.whl.zip --markdown 20230702/a/aicoder/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-02 18:29:11] INFO root fetch - processPackages [lyrics-transcriber]: Downloading https://files.pythonhosted.org/packages/8c/9b/1c27102515dd21de05e1e0cb0c0083122429fc28c8801e390c69704eb5f1/lyrics_transcriber-0.3.4.tar.gz
+[2023-07-02 18:29:11] INFO root fetch - processPackages [mlrl-testbed]: Downloading https://files.pythonhosted.org/packages/92/eb/97d31016ca954467de35d69d630e6425facb4952fd9655634f9f5f43822d/mlrl_testbed-0.9.0-py3-none-any.whl
+[2023-07-02 18:29:11] INFO root fetch - processPackages [WinDeklar]: executing diffoscope
+[2023-07-02 18:29:11] INFO root fetch - processPackages [WinDeklar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windeklar-0.1.8.tar.gz tmp/windeklar-0.2.tar.gz --markdown 20230702/W/WinDeklar/0.1.8-0.2/diff.md --exclude *.pyd
+[2023-07-02 18:29:11] INFO root fetch - processPackages [lyrics-transcriber]: executing diffoscope
+[2023-07-02 18:29:11] INFO root fetch - processPackages [lyrics-transcriber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyrics_transcriber-0.3.2.tar.gz tmp/lyrics_transcriber-0.3.4.tar.gz --markdown 20230702/l/lyrics-transcriber/0.3.2-0.3.4/diff.md --exclude *.pyd
+[2023-07-02 18:29:11] INFO root fetch - processPackages [mlrl-testbed]: executing diffoscope
+[2023-07-02 18:29:11] INFO root fetch - processPackages [mlrl-testbed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrl_testbed-0.8.2-py3-none-any.whl.zip tmp/mlrl_testbed-0.9.0-py3-none-any.whl.zip --markdown 20230702/m/mlrl-testbed/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-07-02 18:29:11] INFO root fetch - processPackages [mend-ignore-alerts]: executing diffoscope
+[2023-07-02 18:29:11] INFO root fetch - processPackages [mend-ignore-alerts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mend_ignore_alerts-0.2-py3-none-any.whl.zip tmp/mend_ignore_alerts-0.2.1-py3-none-any.whl.zip --markdown 20230702/m/mend-ignore-alerts/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-07-02 18:29:11] INFO root fetch - processPackages [django-jutil]: Downloading https://files.pythonhosted.org/packages/c7/e1/8d217e76e40dfccf488f7ca6bf4ab4dd7d1df5694dbd9b81fe94c00d18fd/django-jutil-3.9.9.tar.gz
+[2023-07-02 18:29:12] INFO root fetch - processPackages [django-jutil]: executing diffoscope
+[2023-07-02 18:29:12] INFO root fetch - processPackages [django-jutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-jutil-3.9.8.tar.gz tmp/django-jutil-3.9.9.tar.gz --markdown 20230702/d/django-jutil/3.9.8-3.9.9/diff.md --exclude *.pyd
+[2023-07-02 18:29:12] INFO root fetch - processPackages [WinDeklar]: Remove: archive file [/home/abi/fetcher/tmp/windeklar-0.1.8.tar.gz]
+[2023-07-02 18:29:12] INFO root fetch - processPackages [WinDeklar]: Remove: archive file [/home/abi/fetcher/tmp/windeklar-0.2.tar.gz]
+[2023-07-02 18:29:12] INFO root fetch - main [MainThread]: End processing [WinDeklar]: success
+[2023-07-02 18:29:12] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.3.5-py3-none-any.whl.zip]
+[2023-07-02 18:29:12] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.3.6-py3-none-any.whl.zip]
+[2023-07-02 18:29:12] INFO root fetch - main [MainThread]: End processing [aicoder]: success
+[2023-07-02 18:29:12] INFO root fetch - processPackages [lyrics-transcriber]: Remove: archive file [/home/abi/fetcher/tmp/lyrics_transcriber-0.3.2.tar.gz]
+[2023-07-02 18:29:12] INFO root fetch - processPackages [lyrics-transcriber]: Remove: archive file [/home/abi/fetcher/tmp/lyrics_transcriber-0.3.4.tar.gz]
+[2023-07-02 18:29:12] INFO root fetch - main [MainThread]: End processing [lyrics-transcriber]: success
+[2023-07-02 18:29:12] INFO root fetch - processPackages [mend-ignore-alerts]: Remove: archive file [/home/abi/fetcher/tmp/mend_ignore_alerts-0.2-py3-none-any.whl.zip]
+[2023-07-02 18:29:12] INFO root fetch - processPackages [mend-ignore-alerts]: Remove: archive file [/home/abi/fetcher/tmp/mend_ignore_alerts-0.2.1-py3-none-any.whl.zip]
+[2023-07-02 18:29:12] INFO root fetch - main [MainThread]: End processing [mend-ignore-alerts]: success
+[2023-07-02 18:29:13] INFO root fetch - processPackages [mlrl-testbed]: Remove: archive file [/home/abi/fetcher/tmp/mlrl_testbed-0.8.2-py3-none-any.whl.zip]
+[2023-07-02 18:29:13] INFO root fetch - processPackages [mlrl-testbed]: Remove: archive file [/home/abi/fetcher/tmp/mlrl_testbed-0.9.0-py3-none-any.whl.zip]
+[2023-07-02 18:29:13] INFO root fetch - main [MainThread]: End processing [mlrl-testbed]: success
+[2023-07-02 18:29:14] INFO root fetch - processPackages [django-jutil]: Remove: archive file [/home/abi/fetcher/tmp/django-jutil-3.9.8.tar.gz]
+[2023-07-02 18:29:14] INFO root fetch - processPackages [django-jutil]: Remove: archive file [/home/abi/fetcher/tmp/django-jutil-3.9.9.tar.gz]
+[2023-07-02 18:29:14] INFO root fetch - main [MainThread]: End processing [django-jutil]: success
+[2023-07-02 18:29:14] INFO root fetch - main [MainThread]: Store serial: [18729990]
