@@ -8609,3 +8609,92 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 14:00:38] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.74.0.tar.gz]
 [2023-07-02 14:00:38] INFO root fetch - main [MainThread]: End processing [libmata]: success
 [2023-07-02 14:00:38] INFO root fetch - main [MainThread]: Store serial: [18728315]
+[2023-07-02 14:05:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18728315]
+[2023-07-02 14:05:47] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-02 14:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rots-py
+[2023-07-02 14:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metobs-toolkit
+[2023-07-02 14:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: villa
+[2023-07-02 14:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: checkov
+[2023-07-02 14:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Guitar-app
+[2023-07-02 14:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: freefang-server
+[2023-07-02 14:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-agents-nightly
+[2023-07-02 14:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hotsos
+[2023-07-02 14:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: soccerbars
+[2023-07-02 14:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-serving
+[2023-07-02 14:05:47] WARNING root fetch - processPackages [Guitar-app]: Skipping, unable to determine old version
+[2023-07-02 14:05:47] INFO root fetch - processPackages [Guitar-app]: Start processing: absl-extra
+[2023-07-02 14:05:47] INFO root fetch - main [MainThread]: End processing [Guitar-app] error
+[2023-07-02 14:05:47] INFO root fetch - processPackages [hotsos]: New version: [1.15.post7] Old Version: [1.15.post6]
+[2023-07-02 14:05:47] INFO root fetch - processPackages [rots-py]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-02 14:05:47] INFO root fetch - processPackages [metobs-toolkit]: New version: [0.1.1a2] Old Version: [0.1.1a0]
+[2023-07-02 14:05:47] WARNING root fetch - processPackages [freefang-server]: Skipping, unable to determine old version
+[2023-07-02 14:05:47] INFO root fetch - main [MainThread]: End processing [freefang-server] error
+[2023-07-02 14:05:47] INFO root fetch - processPackages [tf-agents-nightly]: New version: [0.9.0.dev20210812] Old Version: [0.9.0.dev20210811]
+[2023-07-02 14:05:47] INFO root fetch - processPackages [villa]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-02 14:05:47] INFO root fetch - processPackages [absl-extra]: New version: [0.0.2.dev7] Old Version: [0.0.2.dev6]
+[2023-07-02 14:05:47] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-02 14:05:47] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/2f/8e/5b1259fdcefcc564c90842a0c1206b58d6abfbb7914bcbd38710ba780d40/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl
+[2023-07-02 14:05:47] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/0d/78/30c040d1964f67f525d2f2805abbcb10372c2cde99e2e38662f320b49d64/hotsos-1.15.post6.tar.gz
+[2023-07-02 14:05:47] INFO root fetch - processPackages [soccerbars]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-02 14:05:47] INFO root fetch - processPackages [absl-extra]: Downloading https://files.pythonhosted.org/packages/95/23/f03b1f5cf380ccd880c02c623e2baee3e6c064d81025ffb73be7ddee1b42/absl_extra-0.0.2.dev6.tar.gz
+[2023-07-02 14:05:47] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230702] Old Version: [2.4.0b20230701]
+[2023-07-02 14:05:47] INFO root fetch - processPackages [metobs-toolkit]: Downloading https://files.pythonhosted.org/packages/c6/f5/7b26e697a8c6af6fd2e8404534773f27c94c22f3389096d744ae534121cc/metobs_toolkit-0.1.1a0.tar.gz
+[2023-07-02 14:05:47] INFO root fetch - processPackages [villa]: Downloading https://files.pythonhosted.org/packages/6c/95/a4513ba5783fd4cfe5f80503570cfb47958d39601823b2042d20131d06b4/villa-0.5.0.tar.gz
+[2023-07-02 14:05:47] INFO root fetch - processPackages [rots-py]: Downloading https://files.pythonhosted.org/packages/71/dd/383ad8e4659170edbf01257588296a56491dbb86679dcc08918fa4994779/rots-py-1.2.1.tar.gz
+[2023-07-02 14:05:47] INFO root fetch - processPackages [soccerbars]: Downloading https://files.pythonhosted.org/packages/83/51/198b28881183da567643ed34083d95b30e7c1381d80169e9aa40310056b3/soccerbars-0.2.0.tar.gz
+[2023-07-02 14:05:47] INFO root fetch - processPackages [absl-extra]: Downloading https://files.pythonhosted.org/packages/3e/38/70913b80496a8a56a89f18cdf7d336daf69201e419ebb6fdd33bf2309250/absl_extra-0.0.2.dev7.tar.gz
+[2023-07-02 14:05:47] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/ab/ef/0166a7e4f408445dee07d9ce8665b8dfdfa487a651f3f3f1266a39a80d4f/bigdl_serving-2.4.0b20230701-py2.py3-none-any.whl
+[2023-07-02 14:05:47] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/ae/8c/d1e1b7b8f7b6ceee69bbf569ab3bd6f79ffd9963ff66079303942550d03d/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl
+[2023-07-02 14:05:47] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/31/99/cdbb82340c3185f610211883d8a148ba01b303ff02ec9586f13f9cc217f2/hotsos-1.15.post7.tar.gz
+[2023-07-02 14:05:47] INFO root fetch - processPackages [absl-extra]: executing diffoscope
+[2023-07-02 14:05:47] INFO root fetch - processPackages [absl-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/absl_extra-0.0.2.dev6.tar.gz tmp/absl_extra-0.0.2.dev7.tar.gz --markdown 20230702/a/absl-extra/0.0.2.dev6-0.0.2.dev7/diff.md --exclude *.pyd
+[2023-07-02 14:05:47] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/36/b2/faea7cf4d04d72880327d7e73a0327922cb8cd1c61a51e8fd38f344e9f2f/checkov-2.3.99.tar.gz
+[2023-07-02 14:05:48] INFO root fetch - processPackages [rots-py]: Downloading https://files.pythonhosted.org/packages/eb/87/056ab2f38fa8f7675098b458141965c10eaf88a3f7e331dcb78d4e90a26d/rots-py-1.2.2.tar.gz
+[2023-07-02 14:05:48] INFO root fetch - processPackages [soccerbars]: Downloading https://files.pythonhosted.org/packages/d5/91/ccfb72a2e8e6cd589ce987a79e86f87164af15e3c4c215d965d9e80ba95f/soccerbars-0.2.1.tar.gz
+[2023-07-02 14:05:48] INFO root fetch - processPackages [tf-agents-nightly]: executing diffoscope
+[2023-07-02 14:05:48] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2023-07-02 14:05:48] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/d0/44/0ebbf5ce064c42aec0a0c04f6f864e17ee0f6e822b4ac397ed1acd7e8f41/bigdl_serving-2.4.0b20230702-py2.py3-none-any.whl
+[2023-07-02 14:05:48] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.15.post6.tar.gz tmp/hotsos-1.15.post7.tar.gz --markdown 20230702/h/hotsos/1.15.post6-1.15.post7/diff.md --exclude *.pyd
+[2023-07-02 14:05:48] INFO root fetch - processPackages [tf-agents-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip --markdown 20230702/t/tf-agents-nightly/0.9.0.dev20210811-0.9.0.dev20210812/diff.md --exclude *.pyd
+[2023-07-02 14:05:48] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-07-02 14:05:48] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230702/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-02 14:05:48] INFO root fetch - processPackages [metobs-toolkit]: Downloading https://files.pythonhosted.org/packages/44/1a/08b753481fdfcca1d34079024b81e604b30c9dd334bb77be8fb8b7afb03d/metobs_toolkit-0.1.1a2.tar.gz
+[2023-07-02 14:05:48] INFO root fetch - processPackages [villa]: Downloading https://files.pythonhosted.org/packages/e2/a9/b945e5856566e199f3a29c311987a022434c52ac8e883ebfb0cbdda3e859/villa-0.6.0.tar.gz
+[2023-07-02 14:05:48] INFO root fetch - processPackages [rots-py]: executing diffoscope
+[2023-07-02 14:05:48] INFO root fetch - processPackages [rots-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rots-py-1.2.1.tar.gz tmp/rots-py-1.2.2.tar.gz --markdown 20230702/r/rots-py/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-02 14:05:48] INFO root fetch - processPackages [soccerbars]: executing diffoscope
+[2023-07-02 14:05:48] INFO root fetch - processPackages [soccerbars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soccerbars-0.2.0.tar.gz tmp/soccerbars-0.2.1.tar.gz --markdown 20230702/s/soccerbars/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-02 14:05:48] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-07-02 14:05:48] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230701-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230702-py2.py3-none-any.whl.zip --markdown 20230702/b/bigdl-serving/2.4.0b20230701-2.4.0b20230702/diff.md --exclude *.pyd
+[2023-07-02 14:05:48] INFO root fetch - processPackages [villa]: executing diffoscope
+[2023-07-02 14:05:48] INFO root fetch - processPackages [villa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/villa-0.5.0.tar.gz tmp/villa-0.6.0.tar.gz --markdown 20230702/v/villa/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-02 14:05:48] INFO root fetch - processPackages [metobs-toolkit]: executing diffoscope
+[2023-07-02 14:05:48] INFO root fetch - processPackages [metobs-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metobs_toolkit-0.1.1a0.tar.gz tmp/metobs_toolkit-0.1.1a2.tar.gz --markdown 20230702/m/metobs-toolkit/0.1.1a0-0.1.1a2/diff.md --exclude *.pyd
+[2023-07-02 14:05:49] INFO root fetch - processPackages [absl-extra]: Remove: archive file [/home/abi/fetcher/tmp/absl_extra-0.0.2.dev6.tar.gz]
+[2023-07-02 14:05:49] INFO root fetch - processPackages [absl-extra]: Remove: archive file [/home/abi/fetcher/tmp/absl_extra-0.0.2.dev7.tar.gz]
+[2023-07-02 14:05:49] INFO root fetch - main [MainThread]: End processing [absl-extra]: success
+[2023-07-02 14:05:49] INFO root fetch - processPackages [soccerbars]: Remove: archive file [/home/abi/fetcher/tmp/soccerbars-0.2.0.tar.gz]
+[2023-07-02 14:05:49] INFO root fetch - processPackages [soccerbars]: Remove: archive file [/home/abi/fetcher/tmp/soccerbars-0.2.1.tar.gz]
+[2023-07-02 14:05:49] INFO root fetch - main [MainThread]: End processing [soccerbars]: success
+[2023-07-02 14:05:49] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230701-py2.py3-none-any.whl.zip]
+[2023-07-02 14:05:49] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230702-py2.py3-none-any.whl.zip]
+[2023-07-02 14:05:49] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-07-02 14:05:49] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.98.tar.gz]
+[2023-07-02 14:05:49] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
+[2023-07-02 14:05:49] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-07-02 14:05:50] INFO root fetch - processPackages [villa]: Remove: archive file [/home/abi/fetcher/tmp/villa-0.5.0.tar.gz]
+[2023-07-02 14:05:50] INFO root fetch - processPackages [villa]: Remove: archive file [/home/abi/fetcher/tmp/villa-0.6.0.tar.gz]
+[2023-07-02 14:05:50] INFO root fetch - main [MainThread]: End processing [villa]: success
+[2023-07-02 14:05:51] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.15.post6.tar.gz]
+[2023-07-02 14:05:51] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.15.post7.tar.gz]
+[2023-07-02 14:05:51] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2023-07-02 14:05:51] INFO root fetch - processPackages [metobs-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/metobs_toolkit-0.1.1a0.tar.gz]
+[2023-07-02 14:05:51] INFO root fetch - processPackages [metobs-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/metobs_toolkit-0.1.1a2.tar.gz]
+[2023-07-02 14:05:51] INFO root fetch - main [MainThread]: End processing [metobs-toolkit]: success
+[2023-07-02 14:05:52] INFO root fetch - processPackages [rots-py]: Remove: archive file [/home/abi/fetcher/tmp/rots-py-1.2.1.tar.gz]
+[2023-07-02 14:05:52] INFO root fetch - processPackages [rots-py]: Remove: archive file [/home/abi/fetcher/tmp/rots-py-1.2.2.tar.gz]
+[2023-07-02 14:05:52] INFO root fetch - main [MainThread]: End processing [rots-py]: success
+[2023-07-02 14:05:55] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip]
+[2023-07-02 14:05:55] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip]
+[2023-07-02 14:05:55] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
+[2023-07-02 14:05:55] INFO root fetch - main [MainThread]: Store serial: [18728352]
