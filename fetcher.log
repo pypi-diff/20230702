@@ -4126,3 +4126,24 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 06:29:37] INFO root fetch - processPackages [c4p]: Remove: archive file [/home/abi/fetcher/tmp/c4p-2023.7.1.tar.gz]
 [2023-07-02 06:29:37] INFO root fetch - main [MainThread]: End processing [c4p]: success
 [2023-07-02 06:29:37] INFO root fetch - main [MainThread]: Store serial: [18726361]
+[2023-07-02 06:34:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726361]
+[2023-07-02 06:34:47] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-02 06:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aicodebot
+[2023-07-02 06:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ra2mix
+[2023-07-02 06:34:47] INFO root fetch - processPackages [ra2mix]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-02 06:34:47] INFO root fetch - processPackages [aicodebot]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-07-02 06:34:47] INFO root fetch - processPackages [ra2mix]: Downloading https://files.pythonhosted.org/packages/ec/a7/42021700e6d3dbae7a69545ffddc016361196e9c5c96d4d95fb33f7a3f5f/ra2mix-0.0.3.tar.gz
+[2023-07-02 06:34:47] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/a8/d2/2dedb18b2db57b4f2be3de4c4cd4cbd0be8af351135d6dc667208951fbad/aicodebot-0.6.2.tar.gz
+[2023-07-02 06:34:47] INFO root fetch - processPackages [ra2mix]: Downloading https://files.pythonhosted.org/packages/2a/0d/8b424344cb9fefb3927e34bea753c220d8ff7141118fa2c06433a7f42072/ra2mix-0.0.4.tar.gz
+[2023-07-02 06:34:48] INFO root fetch - processPackages [ra2mix]: executing diffoscope
+[2023-07-02 06:34:48] INFO root fetch - processPackages [ra2mix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ra2mix-0.0.3.tar.gz tmp/ra2mix-0.0.4.tar.gz --markdown 20230702/r/ra2mix/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-02 06:34:48] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/dd/ba/140ae6a052705193818edffc1058bd27346fee9421ed4041bc66378e7f9f/aicodebot-0.7.0.tar.gz
+[2023-07-02 06:34:48] INFO root fetch - processPackages [aicodebot]: executing diffoscope
+[2023-07-02 06:34:48] INFO root fetch - processPackages [aicodebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicodebot-0.6.2.tar.gz tmp/aicodebot-0.7.0.tar.gz --markdown 20230702/a/aicodebot/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-07-02 06:34:48] INFO root fetch - processPackages [ra2mix]: Remove: archive file [/home/abi/fetcher/tmp/ra2mix-0.0.3.tar.gz]
+[2023-07-02 06:34:48] INFO root fetch - processPackages [ra2mix]: Remove: archive file [/home/abi/fetcher/tmp/ra2mix-0.0.4.tar.gz]
+[2023-07-02 06:34:48] INFO root fetch - main [MainThread]: End processing [ra2mix]: success
+[2023-07-02 06:34:49] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.6.2.tar.gz]
+[2023-07-02 06:34:49] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.7.0.tar.gz]
+[2023-07-02 06:34:49] INFO root fetch - main [MainThread]: End processing [aicodebot]: success
+[2023-07-02 06:34:49] INFO root fetch - main [MainThread]: Store serial: [18726368]
