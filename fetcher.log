@@ -10302,3 +10302,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 16:14:13] INFO root fetch - processPackages [fschat]: Remove: archive file [/home/abi/fetcher/tmp/fschat-0.2.9.tar.gz]
 [2023-07-02 16:14:13] INFO root fetch - main [MainThread]: End processing [fschat]: success
 [2023-07-02 16:14:13] INFO root fetch - main [MainThread]: Store serial: [18729035]
+[2023-07-02 16:19:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18729035]
+[2023-07-02 16:19:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-02 16:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cachefunc
+[2023-07-02 16:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inpost
+[2023-07-02 16:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchility
+[2023-07-02 16:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyngleton-yourlogarithm
+[2023-07-02 16:19:21] INFO root fetch - processPackages [torchility]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-07-02 16:19:21] INFO root fetch - processPackages [cachefunc]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-02 16:19:21] INFO root fetch - processPackages [inpost]: New version: [0.1.5a1] Old Version: [0.1.4]
+[2023-07-02 16:19:21] INFO root fetch - processPackages [torchility]: Downloading https://files.pythonhosted.org/packages/6a/85/972c16b904e2d3321d11952134cba678fce1143f416850af307b7d1a17db/torchility-0.7.5.tar.gz
+[2023-07-02 16:19:21] INFO root fetch - processPackages [cachefunc]: Downloading https://files.pythonhosted.org/packages/bf/30/f43d9d1f33753e7e2c4d9cde63ff1c97080690e953388e542b608fcbb90d/cachefunc-0.2.4.tar.gz
+[2023-07-02 16:19:21] WARNING root fetch - processPackages [pyngleton-yourlogarithm]: Skipping, unable to determine old version
+[2023-07-02 16:19:21] INFO root fetch - main [MainThread]: End processing [pyngleton-yourlogarithm] error
+[2023-07-02 16:19:21] INFO root fetch - processPackages [inpost]: Downloading https://files.pythonhosted.org/packages/ed/01/426434ee8adfa674f42ccb25b9e9fdd1f48bbe1eb9c05bc22744ba930804/inpost-0.1.4.tar.gz
+[2023-07-02 16:19:22] INFO root fetch - processPackages [torchility]: Downloading https://files.pythonhosted.org/packages/11/92/ea1310b45e83f17306f9b84bf3b5aaf85f63a78526a5667b36e26c3f2c8d/torchility-0.7.6.tar.gz
+[2023-07-02 16:19:22] INFO root fetch - processPackages [cachefunc]: Downloading https://files.pythonhosted.org/packages/2b/91/afb0d63a3e269a6fd9da818bf84083a577ac734418fc0a2062da3e7545e2/cachefunc-0.2.5.tar.gz
+[2023-07-02 16:19:22] INFO root fetch - processPackages [torchility]: executing diffoscope
+[2023-07-02 16:19:22] INFO root fetch - processPackages [torchility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchility-0.7.5.tar.gz tmp/torchility-0.7.6.tar.gz --markdown 20230702/t/torchility/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-07-02 16:19:22] INFO root fetch - processPackages [cachefunc]: executing diffoscope
+[2023-07-02 16:19:22] INFO root fetch - processPackages [cachefunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cachefunc-0.2.4.tar.gz tmp/cachefunc-0.2.5.tar.gz --markdown 20230702/c/cachefunc/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-02 16:19:22] INFO root fetch - processPackages [inpost]: Downloading https://files.pythonhosted.org/packages/c3/81/010a6ebc7a2ab1474809efa38bf1d6bdad198d0629ca865c4ba9daf49948/inpost-0.1.5a1.tar.gz
+[2023-07-02 16:19:22] INFO root fetch - processPackages [inpost]: executing diffoscope
+[2023-07-02 16:19:22] INFO root fetch - processPackages [inpost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inpost-0.1.4.tar.gz tmp/inpost-0.1.5a1.tar.gz --markdown 20230702/i/inpost/0.1.4-0.1.5a1/diff.md --exclude *.pyd
+[2023-07-02 16:19:23] INFO root fetch - processPackages [cachefunc]: Remove: archive file [/home/abi/fetcher/tmp/cachefunc-0.2.4.tar.gz]
+[2023-07-02 16:19:23] INFO root fetch - processPackages [cachefunc]: Remove: archive file [/home/abi/fetcher/tmp/cachefunc-0.2.5.tar.gz]
+[2023-07-02 16:19:23] INFO root fetch - main [MainThread]: End processing [cachefunc]: success
+[2023-07-02 16:19:23] INFO root fetch - processPackages [torchility]: Remove: archive file [/home/abi/fetcher/tmp/torchility-0.7.5.tar.gz]
+[2023-07-02 16:19:23] INFO root fetch - processPackages [torchility]: Remove: archive file [/home/abi/fetcher/tmp/torchility-0.7.6.tar.gz]
+[2023-07-02 16:19:23] INFO root fetch - main [MainThread]: End processing [torchility]: success
+[2023-07-02 16:19:23] INFO root fetch - processPackages [inpost]: Remove: archive file [/home/abi/fetcher/tmp/inpost-0.1.4.tar.gz]
+[2023-07-02 16:19:23] INFO root fetch - processPackages [inpost]: Remove: archive file [/home/abi/fetcher/tmp/inpost-0.1.5a1.tar.gz]
+[2023-07-02 16:19:23] INFO root fetch - main [MainThread]: End processing [inpost]: success
+[2023-07-02 16:19:23] INFO root fetch - main [MainThread]: Store serial: [18729049]
