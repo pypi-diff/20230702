@@ -13524,3 +13524,84 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-02 19:27:37] INFO root fetch - processPackages [django-tbase-theme-tailwind]: Remove: archive file [/home/abi/fetcher/tmp/django_tbase_theme_tailwind-2023.7.316883187.tar.gz]
 [2023-07-02 19:27:37] INFO root fetch - main [MainThread]: End processing [django-tbase-theme-tailwind]: success
 [2023-07-02 19:27:37] INFO root fetch - main [MainThread]: Store serial: [18730370]
+[2023-07-02 19:32:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18730370]
+[2023-07-02 19:32:47] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-02 19:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omnivoreql
+[2023-07-02 19:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Mostats-001
+[2023-07-02 19:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ignos-internal-api-client
+[2023-07-02 19:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dxsp
+[2023-07-02 19:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crazy-thursday
+[2023-07-02 19:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Mostats
+[2023-07-02 19:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: edc-refusal
+[2023-07-02 19:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: KoiLang
+[2023-07-02 19:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pure-ocean-breeze
+[2023-07-02 19:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: edc-screening
+[2023-07-02 19:32:47] WARNING root fetch - processPackages [Mostats-001]: Skipping, unable to determine old version
+[2023-07-02 19:32:47] INFO root fetch - main [MainThread]: End processing [Mostats-001] error
+[2023-07-02 19:32:47] WARNING root fetch - processPackages [Mostats]: Skipping, unable to determine old version
+[2023-07-02 19:32:47] INFO root fetch - processPackages [omnivoreql]: New version: [0.2.3.1] Old Version: [0.2.3]
+[2023-07-02 19:32:47] INFO root fetch - main [MainThread]: End processing [Mostats] error
+[2023-07-02 19:32:47] INFO root fetch - processPackages [ignos-internal-api-client]: New version: [20230702.0.5514] Old Version: [20230630.0.5510]
+[2023-07-02 19:32:47] INFO root fetch - processPackages [edc-refusal]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 19:32:47] INFO root fetch - processPackages [edc-screening]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-02 19:32:47] INFO root fetch - processPackages [dxsp]: New version: [3.1.2] Old Version: [3.1.1]
+[2023-07-02 19:32:47] INFO root fetch - processPackages [pure-ocean-breeze]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-07-02 19:32:47] INFO root fetch - processPackages [KoiLang]: New version: [1.1.1] Old Version: [1.1.0b2]
+[2023-07-02 19:32:47] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.7.3.0] Old Version: [2023.7.2.1]
+[2023-07-02 19:32:47] INFO root fetch - processPackages [omnivoreql]: Downloading https://files.pythonhosted.org/packages/b5/18/f3ec6c6b064f40e633295b5b8a6a885a4252382141d58c8ba5009fd8d4b6/omnivoreql-0.2.3.tar.gz
+[2023-07-02 19:32:47] INFO root fetch - processPackages [pure-ocean-breeze]: Downloading https://files.pythonhosted.org/packages/16/5d/4a2bbacb193a1943541bbf0c21dff5457752f945ed95b90fccbab6dd2537/pure_ocean_breeze-4.0.1.tar.gz
+[2023-07-02 19:32:47] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/67/eb/a57f619fb7d7572e599ef63f347d80f5436b5215059280ab78e8fc80c15d/crazy-thursday-2023.7.2.1.tar.gz
+[2023-07-02 19:32:47] INFO root fetch - processPackages [edc-screening]: Downloading https://files.pythonhosted.org/packages/ac/d1/4538a5856e707d30a7055d4bcc26ae878e5984cbafd2fbbf5268847b6693/edc_screening-0.3.8-py3-none-any.whl
+[2023-07-02 19:32:47] INFO root fetch - processPackages [ignos-internal-api-client]: Downloading https://files.pythonhosted.org/packages/f0/61/affbaf5b010ff4658b5333e9338278c9752a526d834c3c084263fbce3498/ignos-internal-api-client-20230630.0.5510.tar.gz
+[2023-07-02 19:32:47] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/f0/fc/66c2fb36ab4db3ea3f918bb23e9c64d539d393c5578efe5f5f2de6e6c246/dxsp-3.1.1.tar.gz
+[2023-07-02 19:32:47] INFO root fetch - processPackages [edc-refusal]: Downloading https://files.pythonhosted.org/packages/85/2f/9360dbb5c9d3c4c8f59bd00d126e0effd3ac40e39e18b9cfae9c1dbe14bd/edc-refusal-0.1.8.tar.gz
+[2023-07-02 19:32:47] INFO root fetch - processPackages [KoiLang]: Downloading https://files.pythonhosted.org/packages/2f/79/6e3d1ee543125e2437154598723b0bd69bc6dd8151489610fb9f802d8a6b/KoiLang-1.1.0b2.tar.gz
+[2023-07-02 19:32:47] INFO root fetch - processPackages [omnivoreql]: Downloading https://files.pythonhosted.org/packages/38/48/0c6f9f8b7db1ba3a4e9523051878d6d700eac35bb7c0ca3d0b079fc072a6/omnivoreql-0.2.3.1.tar.gz
+[2023-07-02 19:32:47] INFO root fetch - processPackages [omnivoreql]: executing diffoscope
+[2023-07-02 19:32:47] INFO root fetch - processPackages [omnivoreql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnivoreql-0.2.3.tar.gz tmp/omnivoreql-0.2.3.1.tar.gz --markdown 20230702/o/omnivoreql/0.2.3-0.2.3.1/diff.md --exclude *.pyd
+[2023-07-02 19:32:47] INFO root fetch - processPackages [pure-ocean-breeze]: Downloading https://files.pythonhosted.org/packages/08/a3/244ecb0600db68ffe4aacfc2c7f4dea04802fe20f50c210df1215bf0f784/pure_ocean_breeze-4.0.2.tar.gz
+[2023-07-02 19:32:47] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/ee/a0/b8acb512936860210c2110c26ef6a5d72e174fe03bbfff65aee7c2aa7768/crazy-thursday-2023.7.3.0.tar.gz
+[2023-07-02 19:32:47] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/10/8c/80eafc94946194496f2b0c558db26e232e7347f81e576e2bf4a153ee1e14/dxsp-3.1.2.tar.gz
+[2023-07-02 19:32:47] INFO root fetch - processPackages [pure-ocean-breeze]: executing diffoscope
+[2023-07-02 19:32:47] INFO root fetch - processPackages [pure-ocean-breeze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pure_ocean_breeze-4.0.1.tar.gz tmp/pure_ocean_breeze-4.0.2.tar.gz --markdown 20230702/p/pure-ocean-breeze/4.0.1-4.0.2/diff.md --exclude *.pyd
+[2023-07-02 19:32:47] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-07-02 19:32:47] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.7.2.1.tar.gz tmp/crazy-thursday-2023.7.3.0.tar.gz --markdown 20230702/c/crazy-thursday/2023.7.2.1-2023.7.3.0/diff.md --exclude *.pyd
+[2023-07-02 19:32:47] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-07-02 19:32:47] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-3.1.1.tar.gz tmp/dxsp-3.1.2.tar.gz --markdown 20230702/d/dxsp/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2023-07-02 19:32:47] INFO root fetch - processPackages [ignos-internal-api-client]: Downloading https://files.pythonhosted.org/packages/66/b4/0702e77475a929abb4e1a50e984ea1f92dfa21b11c0a1da0554dd3a66f68/ignos-internal-api-client-20230702.0.5514.tar.gz
+[2023-07-02 19:32:47] INFO root fetch - processPackages [edc-screening]: Downloading https://files.pythonhosted.org/packages/26/4f/bd2f456e4f61d3b9493a5f6b3379c55d5721d503c23ab583b9700f5d66af/edc_screening-0.3.9-py3-none-any.whl
+[2023-07-02 19:32:47] INFO root fetch - processPackages [KoiLang]: Downloading https://files.pythonhosted.org/packages/70/18/07746e6ae99b7c155cc0339c3b7b2c0ccb4f0749878fde8b9fec406ebeac/KoiLang-1.1.1.tar.gz
+[2023-07-02 19:32:47] INFO root fetch - processPackages [edc-refusal]: Downloading https://files.pythonhosted.org/packages/f9/dd/3af8a57aa77f54dfafdaf716406e4f887df2fc34091c28a47516798ff7bd/edc-refusal-0.1.9.tar.gz
+[2023-07-02 19:32:47] INFO root fetch - processPackages [ignos-internal-api-client]: executing diffoscope
+[2023-07-02 19:32:47] INFO root fetch - processPackages [ignos-internal-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ignos-internal-api-client-20230630.0.5510.tar.gz tmp/ignos-internal-api-client-20230702.0.5514.tar.gz --markdown 20230702/i/ignos-internal-api-client/20230630.0.5510-20230702.0.5514/diff.md --exclude *.pyd
+[2023-07-02 19:32:47] INFO root fetch - processPackages [KoiLang]: executing diffoscope
+[2023-07-02 19:32:47] INFO root fetch - processPackages [KoiLang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KoiLang-1.1.0b2.tar.gz tmp/KoiLang-1.1.1.tar.gz --markdown 20230702/K/KoiLang/1.1.0b2-1.1.1/diff.md --exclude *.pyd
+[2023-07-02 19:32:48] INFO root fetch - processPackages [edc-refusal]: executing diffoscope
+[2023-07-02 19:32:48] INFO root fetch - processPackages [edc-refusal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-refusal-0.1.8.tar.gz tmp/edc-refusal-0.1.9.tar.gz --markdown 20230702/e/edc-refusal/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 19:32:48] INFO root fetch - processPackages [edc-screening]: executing diffoscope
+[2023-07-02 19:32:48] INFO root fetch - processPackages [edc-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_screening-0.3.8-py3-none-any.whl.zip tmp/edc_screening-0.3.9-py3-none-any.whl.zip --markdown 20230702/e/edc-screening/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-02 19:32:49] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-3.1.1.tar.gz]
+[2023-07-02 19:32:49] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-3.1.2.tar.gz]
+[2023-07-02 19:32:49] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-07-02 19:32:49] INFO root fetch - processPackages [ignos-internal-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ignos-internal-api-client-20230630.0.5510.tar.gz]
+[2023-07-02 19:32:49] INFO root fetch - processPackages [ignos-internal-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ignos-internal-api-client-20230702.0.5514.tar.gz]
+[2023-07-02 19:32:49] INFO root fetch - main [MainThread]: End processing [ignos-internal-api-client]: success
+[2023-07-02 19:32:49] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.2.1.tar.gz]
+[2023-07-02 19:32:49] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.3.0.tar.gz]
+[2023-07-02 19:32:49] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-07-02 19:32:49] INFO root fetch - processPackages [omnivoreql]: Remove: archive file [/home/abi/fetcher/tmp/omnivoreql-0.2.3.tar.gz]
+[2023-07-02 19:32:49] INFO root fetch - processPackages [omnivoreql]: Remove: archive file [/home/abi/fetcher/tmp/omnivoreql-0.2.3.1.tar.gz]
+[2023-07-02 19:32:49] INFO root fetch - main [MainThread]: End processing [omnivoreql]: success
+[2023-07-02 19:32:49] INFO root fetch - processPackages [edc-refusal]: Remove: archive file [/home/abi/fetcher/tmp/edc-refusal-0.1.8.tar.gz]
+[2023-07-02 19:32:49] INFO root fetch - processPackages [edc-refusal]: Remove: archive file [/home/abi/fetcher/tmp/edc-refusal-0.1.9.tar.gz]
+[2023-07-02 19:32:49] INFO root fetch - main [MainThread]: End processing [edc-refusal]: success
+[2023-07-02 19:32:49] INFO root fetch - processPackages [edc-screening]: Remove: archive file [/home/abi/fetcher/tmp/edc_screening-0.3.8-py3-none-any.whl.zip]
+[2023-07-02 19:32:49] INFO root fetch - processPackages [edc-screening]: Remove: archive file [/home/abi/fetcher/tmp/edc_screening-0.3.9-py3-none-any.whl.zip]
+[2023-07-02 19:32:49] INFO root fetch - main [MainThread]: End processing [edc-screening]: success
+[2023-07-02 19:32:49] INFO root fetch - processPackages [pure-ocean-breeze]: Remove: archive file [/home/abi/fetcher/tmp/pure_ocean_breeze-4.0.1.tar.gz]
+[2023-07-02 19:32:49] INFO root fetch - processPackages [pure-ocean-breeze]: Remove: archive file [/home/abi/fetcher/tmp/pure_ocean_breeze-4.0.2.tar.gz]
+[2023-07-02 19:32:49] INFO root fetch - main [MainThread]: End processing [pure-ocean-breeze]: success
+[2023-07-02 19:32:50] INFO root fetch - processPackages [KoiLang]: Remove: archive file [/home/abi/fetcher/tmp/KoiLang-1.1.0b2.tar.gz]
+[2023-07-02 19:32:50] INFO root fetch - processPackages [KoiLang]: Remove: archive file [/home/abi/fetcher/tmp/KoiLang-1.1.1.tar.gz]
+[2023-07-02 19:32:50] INFO root fetch - main [MainThread]: End processing [KoiLang]: success
+[2023-07-02 19:32:50] INFO root fetch - main [MainThread]: Store serial: [18730409]
