@@ -4777,3 +4777,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 07:35:43] INFO root fetch - processPackages [jplaw]: Remove: archive file [/home/abi/fetcher/tmp/jplaw-0.1.5.tar.gz]
 [2023-07-02 07:35:43] INFO root fetch - main [MainThread]: End processing [jplaw]: success
 [2023-07-02 07:35:43] INFO root fetch - main [MainThread]: Store serial: [18726582]
+[2023-07-02 07:40:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726582]
+[2023-07-02 07:40:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-02 07:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-backblaze-b2
+[2023-07-02 07:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-hotel
+[2023-07-02 07:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-hotel
+[2023-07-02 07:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qontract-reconcile
+[2023-07-02 07:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: data-merge
+[2023-07-02 07:40:51] INFO root fetch - processPackages [odoo-addon-hotel]: New version: [15.0.1.0.0.9] Old Version: [15.0.1.0.0.8]
+[2023-07-02 07:40:51] WARNING root fetch - processPackages [data-merge]: Skipping, unable to determine old version
+[2023-07-02 07:40:51] INFO root fetch - main [MainThread]: End processing [data-merge] error
+[2023-07-02 07:40:51] INFO root fetch - processPackages [odoo14-addon-hotel]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev7]
+[2023-07-02 07:40:51] INFO root fetch - processPackages [django-backblaze-b2]: New version: [3.2.1] Old Version: [3.2.0]
+[2023-07-02 07:40:51] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-02 07:40:51] INFO root fetch - processPackages [django-backblaze-b2]: Downloading https://files.pythonhosted.org/packages/76/4f/264125a49f8bf21df85c6284fa94f2d2e6ce9c2d2e7f41a0682ff3d63f62/django_backblaze_b2-3.2.0.tar.gz
+[2023-07-02 07:40:52] INFO root fetch - processPackages [odoo-addon-hotel]: Downloading https://files.pythonhosted.org/packages/2a/de/5bea8e65f68a988e7b46d533a8191a2960d7695ef56fbdced31b6ddaaa22/odoo_addon_hotel-15.0.1.0.0.8-py3-none-any.whl
+[2023-07-02 07:40:52] INFO root fetch - processPackages [odoo14-addon-hotel]: Downloading https://files.pythonhosted.org/packages/37/c9/a4b88a19ab439dc67f2243029cf786e10a7a87ef8f08c929fafc18c53b63/odoo14_addon_hotel-14.0.1.0.1.dev7-py3-none-any.whl
+[2023-07-02 07:40:52] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-02 07:40:52] INFO root fetch - processPackages [django-backblaze-b2]: Downloading https://files.pythonhosted.org/packages/5d/fc/e562d1c36462d259d36847dc9c2ebd5cde6ad948d6aba240bce5eeea7459/django_backblaze_b2-3.2.1.tar.gz
+[2023-07-02 07:40:52] INFO root fetch - processPackages [django-backblaze-b2]: executing diffoscope
+[2023-07-02 07:40:52] INFO root fetch - processPackages [django-backblaze-b2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_backblaze_b2-3.2.0.tar.gz tmp/django_backblaze_b2-3.2.1.tar.gz --markdown 20230702/d/django-backblaze-b2/3.2.0-3.2.1/diff.md --exclude *.pyd
+[2023-07-02 07:40:52] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-02 07:40:52] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-02 07:40:52] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230702/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-02 07:40:53] INFO root fetch - processPackages [odoo14-addon-hotel]: Downloading https://files.pythonhosted.org/packages/67/22/df3517622fed232de0578dce5b69f02249345fb9b9b8f3e35fc4ea886980/odoo14_addon_hotel-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-07-02 07:40:53] INFO root fetch - processPackages [odoo-addon-hotel]: Downloading https://files.pythonhosted.org/packages/d7/0a/188a625f0ab4ccbf7cdd33b16e453f1a8b32cea2ced9d90f7b20caf9bcc0/odoo_addon_hotel-15.0.1.0.0.9-py3-none-any.whl
+[2023-07-02 07:40:53] INFO root fetch - processPackages [django-backblaze-b2]: Remove: archive file [/home/abi/fetcher/tmp/django_backblaze_b2-3.2.0.tar.gz]
+[2023-07-02 07:40:53] INFO root fetch - processPackages [django-backblaze-b2]: Remove: archive file [/home/abi/fetcher/tmp/django_backblaze_b2-3.2.1.tar.gz]
+[2023-07-02 07:40:53] INFO root fetch - main [MainThread]: End processing [django-backblaze-b2]: success
+[2023-07-02 07:40:53] INFO root fetch - processPackages [odoo-addon-hotel]: executing diffoscope
+[2023-07-02 07:40:53] INFO root fetch - processPackages [odoo-addon-hotel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hotel-15.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_hotel-15.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230702/o/odoo-addon-hotel/15.0.1.0.0.8-15.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-07-02 07:40:53] INFO root fetch - processPackages [odoo14-addon-hotel]: executing diffoscope
+[2023-07-02 07:40:53] INFO root fetch - processPackages [odoo14-addon-hotel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hotel-14.0.1.0.1.dev7-py3-none-any.whl.zip tmp/odoo14_addon_hotel-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230702/o/odoo14-addon-hotel/14.0.1.0.1.dev7-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-07-02 07:40:54] INFO root fetch - processPackages [odoo-addon-hotel]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hotel-15.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-07-02 07:40:54] INFO root fetch - processPackages [odoo-addon-hotel]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hotel-15.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-07-02 07:40:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-hotel]: success
+[2023-07-02 07:40:55] INFO root fetch - processPackages [odoo14-addon-hotel]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hotel-14.0.1.0.1.dev7-py3-none-any.whl.zip]
+[2023-07-02 07:40:55] INFO root fetch - processPackages [odoo14-addon-hotel]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hotel-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2023-07-02 07:40:55] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hotel]: success
+[2023-07-02 07:40:58] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-02 07:40:58] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-02 07:40:58] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-02 07:40:58] INFO root fetch - main [MainThread]: Store serial: [18726596]
