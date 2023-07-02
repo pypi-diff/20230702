@@ -5156,3 +5156,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 08:43:33] INFO root fetch - processPackages [pybi-next]: Remove: archive file [/home/abi/fetcher/tmp/pybi-next-0.4.9.tar.gz]
 [2023-07-02 08:43:33] INFO root fetch - main [MainThread]: End processing [pybi-next]: success
 [2023-07-02 08:43:33] INFO root fetch - main [MainThread]: Store serial: [18726742]
+[2023-07-02 08:48:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726742]
+[2023-07-02 08:48:42] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-02 08:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AileenTestFirstAttempt
+[2023-07-02 08:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: one-api-tool
+[2023-07-02 08:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asymongo
+[2023-07-02 08:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: htagweb
+[2023-07-02 08:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: asymysql
+[2023-07-02 08:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ez-a-sync
+[2023-07-02 08:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coolmongo
+[2023-07-02 08:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: coolmysql
+[2023-07-02 08:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rstyleslice
+[2023-07-02 08:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: notebook_setup
+[2023-07-02 08:48:42] WARNING root fetch - processPackages [htagweb]: Skipping, unable to determine old version
+[2023-07-02 08:48:42] INFO root fetch - main [MainThread]: End processing [htagweb] error
+[2023-07-02 08:48:42] INFO root fetch - processPackages [ez-a-sync]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-02 08:48:42] INFO root fetch - processPackages [coolmongo]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-07-02 08:48:42] INFO root fetch - processPackages [one-api-tool]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-02 08:48:42] INFO root fetch - processPackages [asymongo]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-07-02 08:48:42] INFO root fetch - processPackages [rstyleslice]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-07-02 08:48:42] INFO root fetch - processPackages [AileenTestFirstAttempt]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-02 08:48:42] INFO root fetch - processPackages [asymysql]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-07-02 08:48:42] INFO root fetch - processPackages [coolmysql]: New version: [1.4.7] Old Version: [1.4.6]
+[2023-07-02 08:48:42] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/db/3b/8856b661d31c9a2794039f0bbe8876d9ed1823de9553f49a76808a79279b/ez-a-sync-0.2.0.tar.gz
+[2023-07-02 08:48:42] WARNING root fetch - processPackages [notebook_setup]: Skipping, unable to determine old version
+[2023-07-02 08:48:42] INFO root fetch - main [MainThread]: End processing [notebook_setup] error
+[2023-07-02 08:48:42] INFO root fetch - processPackages [AileenTestFirstAttempt]: Downloading https://files.pythonhosted.org/packages/aa/e6/19c48c8e7968e71a2bdbcd92f24d73d81393166df3a6bb9b1f85d376c5c9/AileenTestFirstAttempt-0.0.1.tar.gz
+[2023-07-02 08:48:42] INFO root fetch - processPackages [coolmongo]: Downloading https://files.pythonhosted.org/packages/af/af/65e062f9f4f64cb738b0ce2d75b4bb10ed7ee5904567f2b1afb5f0f18f4c/coolmongo-1.3.3.tar.gz
+[2023-07-02 08:48:42] INFO root fetch - processPackages [coolmysql]: Downloading https://files.pythonhosted.org/packages/84/1c/842e1fef362f66fdfb1039eda9e412f755945f5f709cc8efff89ab7e89b3/coolmysql-1.4.6.tar.gz
+[2023-07-02 08:48:42] INFO root fetch - processPackages [rstyleslice]: Downloading https://files.pythonhosted.org/packages/71/8f/49eac947d6f125b4469f2eb24c34d33f7032d3ef98aa239657493fac51b0/rstyleslice-1.4.2.tar.gz
+[2023-07-02 08:48:42] INFO root fetch - processPackages [asymongo]: Downloading https://files.pythonhosted.org/packages/c3/7c/c7156867345749c0029e18d5e5c7a94f0e869f3525ed452ee5a675deb905/asymongo-1.3.3.tar.gz
+[2023-07-02 08:48:42] INFO root fetch - processPackages [asymysql]: Downloading https://files.pythonhosted.org/packages/7f/63/dd95e70f9fcea4f5cd5b3c3f863ce098759bb2f5f79b2a5df37ce4c7937b/asymysql-1.3.3.tar.gz
+[2023-07-02 08:48:42] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/bc/c6/03e4605449ed000f8b9bb289cb7ea5eec4583ae70659f07d145c6a1cfff7/ez-a-sync-0.3.0.tar.gz
+[2023-07-02 08:48:42] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/37/f7/aee2f9d3f3e01baeaaa80a58aa2cfffcea0b45e460c2c702dc1585593e75/one-api-tool-0.3.5.tar.gz
+[2023-07-02 08:48:42] INFO root fetch - processPackages [ez-a-sync]: executing diffoscope
+[2023-07-02 08:48:42] INFO root fetch - processPackages [ez-a-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez-a-sync-0.2.0.tar.gz tmp/ez-a-sync-0.3.0.tar.gz --markdown 20230702/e/ez-a-sync/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-02 08:48:42] INFO root fetch - processPackages [coolmysql]: Downloading https://files.pythonhosted.org/packages/dc/97/fe2b88e25a8a73aaf7d9512ca2f8fd022f315cd7089061e1c147397bc01d/coolmysql-1.4.7.tar.gz
+[2023-07-02 08:48:42] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/f7/e6/badf4682377b1215b46619a70ff3c4551f9e5357f81756cbcf63d76c3e74/one-api-tool-0.3.6.tar.gz
+[2023-07-02 08:48:42] INFO root fetch - processPackages [coolmysql]: executing diffoscope
+[2023-07-02 08:48:42] INFO root fetch - processPackages [coolmysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coolmysql-1.4.6.tar.gz tmp/coolmysql-1.4.7.tar.gz --markdown 20230702/c/coolmysql/1.4.6-1.4.7/diff.md --exclude *.pyd
+[2023-07-02 08:48:42] INFO root fetch - processPackages [coolmongo]: Downloading https://files.pythonhosted.org/packages/9b/82/2aa914042579785e7f5a73347905636852b01e3e0f2ca08f28b8c0ddfccc/coolmongo-1.3.4.tar.gz
+[2023-07-02 08:48:42] INFO root fetch - processPackages [AileenTestFirstAttempt]: Downloading https://files.pythonhosted.org/packages/72/cf/63e5411d30df050b639c8c656254a86c69e187d6fbcbf30788ef590a4158/AileenTestFirstAttempt-0.0.2.tar.gz
+[2023-07-02 08:48:42] INFO root fetch - processPackages [asymongo]: Downloading https://files.pythonhosted.org/packages/af/37/f3444398292c42b5417c5d0c318af2c5d7c5777a7f278a407b71e3dd6c07/asymongo-1.3.4.tar.gz
+[2023-07-02 08:48:42] INFO root fetch - processPackages [asymysql]: Downloading https://files.pythonhosted.org/packages/05/fa/8f734af707cf9a576b1ec85333884d27a48dbcf75de0eb469f74abac192d/asymysql-1.3.4.tar.gz
+[2023-07-02 08:48:42] INFO root fetch - processPackages [coolmongo]: executing diffoscope
+[2023-07-02 08:48:42] INFO root fetch - processPackages [coolmongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coolmongo-1.3.3.tar.gz tmp/coolmongo-1.3.4.tar.gz --markdown 20230702/c/coolmongo/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-07-02 08:48:42] INFO root fetch - processPackages [AileenTestFirstAttempt]: executing diffoscope
+[2023-07-02 08:48:42] INFO root fetch - processPackages [AileenTestFirstAttempt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AileenTestFirstAttempt-0.0.1.tar.gz tmp/AileenTestFirstAttempt-0.0.2.tar.gz --markdown 20230702/A/AileenTestFirstAttempt/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-02 08:48:42] INFO root fetch - processPackages [one-api-tool]: executing diffoscope
+[2023-07-02 08:48:42] INFO root fetch - processPackages [one-api-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/one-api-tool-0.3.5.tar.gz tmp/one-api-tool-0.3.6.tar.gz --markdown 20230702/o/one-api-tool/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-02 08:48:42] INFO root fetch - processPackages [asymysql]: executing diffoscope
+[2023-07-02 08:48:42] INFO root fetch - processPackages [asymysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asymysql-1.3.3.tar.gz tmp/asymysql-1.3.4.tar.gz --markdown 20230702/a/asymysql/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-07-02 08:48:43] INFO root fetch - processPackages [asymongo]: executing diffoscope
+[2023-07-02 08:48:43] INFO root fetch - processPackages [rstyleslice]: Downloading https://files.pythonhosted.org/packages/9e/b7/438a4c39a39a12476daaf9effcd8c8f9288a7fa7f721aa727044b8703c03/rstyleslice-1.4.3.tar.gz
+[2023-07-02 08:48:43] INFO root fetch - processPackages [asymongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asymongo-1.3.3.tar.gz tmp/asymongo-1.3.4.tar.gz --markdown 20230702/a/asymongo/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-07-02 08:48:43] INFO root fetch - processPackages [rstyleslice]: executing diffoscope
+[2023-07-02 08:48:43] INFO root fetch - processPackages [rstyleslice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rstyleslice-1.4.2.tar.gz tmp/rstyleslice-1.4.3.tar.gz --markdown 20230702/r/rstyleslice/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-07-02 08:48:43] INFO root fetch - processPackages [coolmysql]: Remove: archive file [/home/abi/fetcher/tmp/coolmysql-1.4.6.tar.gz]
+[2023-07-02 08:48:43] INFO root fetch - processPackages [coolmysql]: Remove: archive file [/home/abi/fetcher/tmp/coolmysql-1.4.7.tar.gz]
+[2023-07-02 08:48:43] INFO root fetch - main [MainThread]: End processing [coolmysql]: success
+[2023-07-02 08:48:44] INFO root fetch - processPackages [coolmongo]: Remove: archive file [/home/abi/fetcher/tmp/coolmongo-1.3.3.tar.gz]
+[2023-07-02 08:48:44] INFO root fetch - processPackages [coolmongo]: Remove: archive file [/home/abi/fetcher/tmp/coolmongo-1.3.4.tar.gz]
+[2023-07-02 08:48:44] INFO root fetch - main [MainThread]: End processing [coolmongo]: success
+[2023-07-02 08:48:44] INFO root fetch - processPackages [asymongo]: Remove: archive file [/home/abi/fetcher/tmp/asymongo-1.3.3.tar.gz]
+[2023-07-02 08:48:44] INFO root fetch - processPackages [asymongo]: Remove: archive file [/home/abi/fetcher/tmp/asymongo-1.3.4.tar.gz]
+[2023-07-02 08:48:44] INFO root fetch - main [MainThread]: End processing [asymongo]: success
+[2023-07-02 08:48:44] INFO root fetch - processPackages [asymysql]: Remove: archive file [/home/abi/fetcher/tmp/asymysql-1.3.3.tar.gz]
+[2023-07-02 08:48:44] INFO root fetch - processPackages [asymysql]: Remove: archive file [/home/abi/fetcher/tmp/asymysql-1.3.4.tar.gz]
+[2023-07-02 08:48:44] INFO root fetch - main [MainThread]: End processing [asymysql]: success
+[2023-07-02 08:48:44] INFO root fetch - processPackages [rstyleslice]: Remove: archive file [/home/abi/fetcher/tmp/rstyleslice-1.4.2.tar.gz]
+[2023-07-02 08:48:44] INFO root fetch - processPackages [rstyleslice]: Remove: archive file [/home/abi/fetcher/tmp/rstyleslice-1.4.3.tar.gz]
+[2023-07-02 08:48:44] INFO root fetch - main [MainThread]: End processing [rstyleslice]: success
+[2023-07-02 08:48:44] INFO root fetch - processPackages [AileenTestFirstAttempt]: Remove: archive file [/home/abi/fetcher/tmp/AileenTestFirstAttempt-0.0.1.tar.gz]
+[2023-07-02 08:48:44] INFO root fetch - processPackages [AileenTestFirstAttempt]: Remove: archive file [/home/abi/fetcher/tmp/AileenTestFirstAttempt-0.0.2.tar.gz]
+[2023-07-02 08:48:44] INFO root fetch - main [MainThread]: End processing [AileenTestFirstAttempt]: success
+[2023-07-02 08:48:44] INFO root fetch - processPackages [one-api-tool]: Remove: archive file [/home/abi/fetcher/tmp/one-api-tool-0.3.5.tar.gz]
+[2023-07-02 08:48:44] INFO root fetch - processPackages [one-api-tool]: Remove: archive file [/home/abi/fetcher/tmp/one-api-tool-0.3.6.tar.gz]
+[2023-07-02 08:48:44] INFO root fetch - main [MainThread]: End processing [one-api-tool]: success
+[2023-07-02 08:48:44] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.2.0.tar.gz]
+[2023-07-02 08:48:44] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.3.0.tar.gz]
+[2023-07-02 08:48:44] INFO root fetch - main [MainThread]: End processing [ez-a-sync]: success
+[2023-07-02 08:48:44] INFO root fetch - main [MainThread]: Store serial: [18726774]
