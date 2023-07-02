@@ -13219,3 +13219,308 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 19:22:21] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.9.tar.gz]
 [2023-07-02 19:22:21] INFO root fetch - main [MainThread]: End processing [plutous-trade-crypto]: success
 [2023-07-02 19:22:21] INFO root fetch - main [MainThread]: Store serial: [18730327]
+[2023-07-02 19:27:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18730327]
+[2023-07-02 19:27:30] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-02 19:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2023-07-02 19:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ormlite
+[2023-07-02 19:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edc-consent
+[2023-07-02 19:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spanishconjugator
+[2023-07-02 19:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cors-finder
+[2023-07-02 19:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: 3DFin
+[2023-07-02 19:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: target-permutation-importances
+[2023-07-02 19:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: plutous-trade-crypto
+[2023-07-02 19:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pure-ocean-breeze
+[2023-07-02 19:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: llm-chain
+[2023-07-02 19:27:30] INFO root fetch - processPackages [edc-consent]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-02 19:27:30] INFO root fetch - processPackages [cors-finder]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-02 19:27:30] INFO root fetch - processPackages [target-permutation-importances]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-02 19:27:30] INFO root fetch - processPackages [plutous-trade-crypto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 19:27:30] INFO root fetch - processPackages [3DFin]: New version: [0.2.0rc5] Old Version: [0.2.0rc4]
+[2023-07-02 19:27:30] INFO root fetch - processPackages [ormlite]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-02 19:27:30] INFO root fetch - processPackages [llm-chain]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 19:27:30] INFO root fetch - processPackages [pure-ocean-breeze]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-07-02 19:27:30] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/e3/db/d32a1544d7f944ad8af411383551ea4aa42adfdd0f238ff44a5a3edaa00e/plutous_trade_crypto-0.0.8.tar.gz
+[2023-07-02 19:27:30] INFO root fetch - processPackages [cors-finder]: Downloading https://files.pythonhosted.org/packages/fe/42/e4587e6b57c03b9158698cb4d4f1d141478496aeba5854d3eadf39d12adb/cors-finder-1.0.1.tar.gz
+[2023-07-02 19:27:30] INFO root fetch - processPackages [target-permutation-importances]: Downloading https://files.pythonhosted.org/packages/02/d0/03487c1a18028673ee4bb0dba1c71c8f90c2892e0997f14ef7ab0a73cf9d/target_permutation_importances-1.0.5.tar.gz
+[2023-07-02 19:27:30] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-02 19:27:30] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-02 19:27:30] INFO root fetch - processPackages [ormlite]: Downloading https://files.pythonhosted.org/packages/02/78/ee0bf509d7f13703d45c0bf9670e4489201fb92bb55bf3e41f718abb04fb/ormlite-0.0.2-py3-none-any.whl
+[2023-07-02 19:27:30] INFO root fetch - processPackages [3DFin]: Downloading https://files.pythonhosted.org/packages/0f/aa/b7981f0dd00b51a4d73c20eab697973fd1d87a94f2c077926faaaebbc2f5/3dfin-0.2.0rc4.tar.gz
+[2023-07-02 19:27:30] INFO root fetch - processPackages [edc-consent]: Downloading https://files.pythonhosted.org/packages/a5/67/71ed828e9f2300b9877ceafa8e3a76429ab3f9db31a2670f5cc8c42d1f6f/edc_consent-0.3.8-py3-none-any.whl
+[2023-07-02 19:27:30] INFO root fetch - processPackages [pure-ocean-breeze]: Downloading https://files.pythonhosted.org/packages/cf/d3/8be1af1f9dfa6b1726fbd695d966716e94e5e5a8fa3ed17f65699f3edcd2/pure_ocean_breeze-4.0.0.tar.gz
+[2023-07-02 19:27:30] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/b4/a4/200ca398a36203e8bd51a034e50c51963506316cbf5e7a47866700accaee/plutous_trade_crypto-0.0.9.tar.gz
+[2023-07-02 19:27:30] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-02 19:27:30] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-02 19:27:30] INFO root fetch - processPackages [llm-chain]: Downloading https://files.pythonhosted.org/packages/ad/0a/0c7f7c227359c09f5e88c872ee082cdd6d578afd846a72d7bd6e23351c19/llm-chain-0.0.8.tar.gz
+[2023-07-02 19:27:30] INFO root fetch - processPackages [plutous-trade-crypto]: executing diffoscope
+[2023-07-02 19:27:30] INFO root fetch - processPackages [plutous-trade-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous_trade_crypto-0.0.8.tar.gz tmp/plutous_trade_crypto-0.0.9.tar.gz --markdown 20230702/p/plutous-trade-crypto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 19:27:30] INFO root fetch - processPackages [cors-finder]: Downloading https://files.pythonhosted.org/packages/fb/31/3477caf1f980626d37da2a80b1013e2c25e0ac1923ef9f2bd0f1839d2245/cors-finder-1.0.2.tar.gz
+[2023-07-02 19:27:30] INFO root fetch - processPackages [target-permutation-importances]: Downloading https://files.pythonhosted.org/packages/d0/80/0c758eb604f061e1ee0a8a2d78c3c59a48c6f0c232da429f18a2693b9139/target_permutation_importances-1.0.6.tar.gz
+[2023-07-02 19:27:30] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-02 19:27:30] INFO root fetch - processPackages [ormlite]: Downloading https://files.pythonhosted.org/packages/c3/80/f73345b81615cc8783a0eff375dca7cf738ba9d4ee817b0a9cfcde9c1706/ormlite-0.0.3-py3-none-any.whl
+[2023-07-02 19:27:30] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-02 19:27:30] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230702/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-02 19:27:30] INFO root fetch - processPackages [ormlite]: executing diffoscope
+[2023-07-02 19:27:30] INFO root fetch - processPackages [ormlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ormlite-0.0.2-py3-none-any.whl.zip tmp/ormlite-0.0.3-py3-none-any.whl.zip --markdown 20230702/o/ormlite/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-02 19:27:30] INFO root fetch - processPackages [pure-ocean-breeze]: Downloading https://files.pythonhosted.org/packages/16/5d/4a2bbacb193a1943541bbf0c21dff5457752f945ed95b90fccbab6dd2537/pure_ocean_breeze-4.0.1.tar.gz
+[2023-07-02 19:27:30] INFO root fetch - processPackages [cors-finder]: executing diffoscope
+[2023-07-02 19:27:30] INFO root fetch - processPackages [cors-finder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cors-finder-1.0.1.tar.gz tmp/cors-finder-1.0.2.tar.gz --markdown 20230702/c/cors-finder/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-02 19:27:30] INFO root fetch - processPackages [target-permutation-importances]: executing diffoscope
+[2023-07-02 19:27:30] INFO root fetch - processPackages [target-permutation-importances]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/target_permutation_importances-1.0.5.tar.gz tmp/target_permutation_importances-1.0.6.tar.gz --markdown 20230702/t/target-permutation-importances/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-02 19:27:31] INFO root fetch - processPackages [llm-chain]: Downloading https://files.pythonhosted.org/packages/86/bb/a6773e0c83b405b184e19aa3f5e6e685a38e64842b41a0f551b6844a6510/llm-chain-0.0.9.tar.gz
+[2023-07-02 19:27:31] INFO root fetch - processPackages [pure-ocean-breeze]: executing diffoscope
+[2023-07-02 19:27:31] INFO root fetch - processPackages [pure-ocean-breeze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pure_ocean_breeze-4.0.0.tar.gz tmp/pure_ocean_breeze-4.0.1.tar.gz --markdown 20230702/p/pure-ocean-breeze/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-07-02 19:27:31] INFO root fetch - processPackages [edc-consent]: Downloading https://files.pythonhosted.org/packages/1c/bc/11e7ec2b2ff19b0b61bb2bf6be7d0cda56dac787218dc9f1f584b0b85005/edc_consent-0.3.9-py3-none-any.whl
+[2023-07-02 19:27:31] INFO root fetch - processPackages [llm-chain]: executing diffoscope
+[2023-07-02 19:27:31] INFO root fetch - processPackages [llm-chain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm-chain-0.0.8.tar.gz tmp/llm-chain-0.0.9.tar.gz --markdown 20230702/l/llm-chain/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 19:27:31] INFO root fetch - processPackages [3DFin]: Downloading https://files.pythonhosted.org/packages/7e/5e/94ea710c337950fddb0d41069985797bde1dfcb4e039f4190e48fcb2f11a/3dfin-0.2.0rc5.tar.gz
+[2023-07-02 19:27:31] INFO root fetch - processPackages [edc-consent]: executing diffoscope
+[2023-07-02 19:27:31] INFO root fetch - processPackages [edc-consent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_consent-0.3.8-py3-none-any.whl.zip tmp/edc_consent-0.3.9-py3-none-any.whl.zip --markdown 20230702/e/edc-consent/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-02 19:27:31] INFO root fetch - processPackages [3DFin]: executing diffoscope
+[2023-07-02 19:27:31] INFO root fetch - processPackages [3DFin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/3dfin-0.2.0rc4.tar.gz tmp/3dfin-0.2.0rc5.tar.gz --markdown 20230702/3/3DFin/0.2.0rc4-0.2.0rc5/diff.md --exclude *.pyd
+[2023-07-02 19:27:32] INFO root fetch - processPackages [cors-finder]: Remove: archive file [/home/abi/fetcher/tmp/cors-finder-1.0.1.tar.gz]
+[2023-07-02 19:27:32] INFO root fetch - processPackages [cors-finder]: Remove: archive file [/home/abi/fetcher/tmp/cors-finder-1.0.2.tar.gz]
+[2023-07-02 19:27:32] INFO root fetch - processPackages [cors-finder]: Start processing: django-tbase-theme-tailwind
+[2023-07-02 19:27:32] INFO root fetch - main [MainThread]: End processing [cors-finder]: success
+[2023-07-02 19:27:32] INFO root fetch - processPackages [django-tbase-theme-tailwind]: New version: [2023.7.316883187] Old Version: [2023.7.216883135]
+[2023-07-02 19:27:32] INFO root fetch - processPackages [django-tbase-theme-tailwind]: Downloading https://files.pythonhosted.org/packages/20/95/878af4dda9e422ec96dc8a4f880d0553fc9e215877d8abffe81c9d219365/django_tbase_theme_tailwind-2023.7.216883135.tar.gz
+[2023-07-02 19:27:32] INFO root fetch - processPackages [ormlite]: Remove: archive file [/home/abi/fetcher/tmp/ormlite-0.0.2-py3-none-any.whl.zip]
+[2023-07-02 19:27:32] INFO root fetch - processPackages [ormlite]: Remove: archive file [/home/abi/fetcher/tmp/ormlite-0.0.3-py3-none-any.whl.zip]
+[2023-07-02 19:27:32] INFO root fetch - processPackages [ormlite]: Start processing: edc-model-admin
+[2023-07-02 19:27:32] INFO root fetch - main [MainThread]: End processing [ormlite]: success
+[2023-07-02 19:27:32] INFO root fetch - processPackages [target-permutation-importances]: Remove: archive file [/home/abi/fetcher/tmp/target_permutation_importances-1.0.5.tar.gz]
+[2023-07-02 19:27:32] INFO root fetch - processPackages [target-permutation-importances]: Remove: archive file [/home/abi/fetcher/tmp/target_permutation_importances-1.0.6.tar.gz]
+[2023-07-02 19:27:32] INFO root fetch - processPackages [target-permutation-importances]: Start processing: mlrl-boomer
+[2023-07-02 19:27:32] INFO root fetch - main [MainThread]: End processing [target-permutation-importances]: success
+[2023-07-02 19:27:32] INFO root fetch - processPackages [edc-model-admin]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-02 19:27:32] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.8.tar.gz]
+[2023-07-02 19:27:32] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.9.tar.gz]
+[2023-07-02 19:27:32] INFO root fetch - processPackages [plutous-trade-crypto]: Start processing: mlrl-common
+[2023-07-02 19:27:32] INFO root fetch - main [MainThread]: End processing [plutous-trade-crypto]: success
+[2023-07-02 19:27:32] INFO root fetch - processPackages [mlrl-boomer]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-02 19:27:32] INFO root fetch - processPackages [edc-model-admin]: Downloading https://files.pythonhosted.org/packages/8e/24/d1d3372dddbcec39a17d98c5d62dc8c2f67219eac6dffdf828c392ef807f/edc_model_admin-0.3.8-py3-none-any.whl
+[2023-07-02 19:27:32] INFO root fetch - processPackages [mlrl-common]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-02 19:27:32] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-02 19:27:32] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230702/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-02 19:27:32] INFO root fetch - processPackages [mlrl-boomer]: Downloading https://files.pythonhosted.org/packages/ea/c4/d85310652032bc57d59df6572ec286007293a40fe109393dd772ba0890f9/mlrl_boomer-0.8.2-cp39-cp39-win_amd64.whl
+[2023-07-02 19:27:32] INFO root fetch - processPackages [edc-consent]: Remove: archive file [/home/abi/fetcher/tmp/edc_consent-0.3.8-py3-none-any.whl.zip]
+[2023-07-02 19:27:32] INFO root fetch - processPackages [edc-consent]: Remove: archive file [/home/abi/fetcher/tmp/edc_consent-0.3.9-py3-none-any.whl.zip]
+[2023-07-02 19:27:32] INFO root fetch - main [MainThread]: End processing [edc-consent]: success
+[2023-07-02 19:27:32] INFO root fetch - processPackages [mlrl-common]: Downloading https://files.pythonhosted.org/packages/6e/11/91da5f6542304e0fc7263014430b372352a8c22857252a7485ef9d8f8426/mlrl_common-0.8.2-cp39-cp39-win_amd64.whl
+[2023-07-02 19:27:33] INFO root fetch - processPackages [edc-model-admin]: Downloading https://files.pythonhosted.org/packages/4f/db/c8ef59cf96e2f3bf3460d5b4a7dc1f6adf0b4e1ec89227788583de019595/edc_model_admin-0.3.9-py3-none-any.whl
+[2023-07-02 19:27:33] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-02 19:27:33] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-02 19:27:33] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-02 19:27:33] INFO root fetch - processPackages [mlrl-boomer]: Downloading https://files.pythonhosted.org/packages/55/fd/1cdc28eb1e54ba77968281518f5845386ae632573c7b8c3f19391e4d0ef1/mlrl_boomer-0.9.0-cp39-cp39-win_amd64.whl
+[2023-07-02 19:27:33] INFO root fetch - processPackages [edc-model-admin]: executing diffoscope
+[2023-07-02 19:27:33] INFO root fetch - processPackages [edc-model-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_model_admin-0.3.8-py3-none-any.whl.zip tmp/edc_model_admin-0.3.9-py3-none-any.whl.zip --markdown 20230702/e/edc-model-admin/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-02 19:27:33] INFO root fetch - processPackages [mlrl-common]: Downloading https://files.pythonhosted.org/packages/c9/1a/d98e2ca056739a6ab2426b30dc04386118ab147c7610009c473d9b1c70fd/mlrl_common-0.9.0-cp39-cp39-win_amd64.whl
+[2023-07-02 19:27:33] INFO root fetch - processPackages [mlrl-boomer]: executing diffoscope
+[2023-07-02 19:27:33] INFO root fetch - processPackages [mlrl-boomer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrl_boomer-0.8.2-cp39-cp39-win_amd64.whl.zip tmp/mlrl_boomer-0.9.0-cp39-cp39-win_amd64.whl.zip --markdown 20230702/m/mlrl-boomer/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-07-02 19:27:33] ERROR root fetch - processPackages [spanishconjugator]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/spanishconjugator-2.3.998.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/spanishconjugator-2.3.999.tar.gz: No such file or directory
+
+[2023-07-02 19:27:33] INFO root fetch - main [MainThread]: End processing [spanishconjugator] error
+[2023-07-02 19:27:33] INFO root fetch - processPackages [django-tbase-theme-tailwind]: Downloading https://files.pythonhosted.org/packages/18/37/1ae476307102b81aba4c327ce2f56f92ff424dcae887ea01b14f8f81870b/django_tbase_theme_tailwind-2023.7.316883187.tar.gz
+[2023-07-02 19:27:33] INFO root fetch - processPackages [mlrl-common]: executing diffoscope
+[2023-07-02 19:27:33] INFO root fetch - processPackages [mlrl-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrl_common-0.8.2-cp39-cp39-win_amd64.whl.zip tmp/mlrl_common-0.9.0-cp39-cp39-win_amd64.whl.zip --markdown 20230702/m/mlrl-common/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-07-02 19:27:33] INFO root fetch - processPackages [pure-ocean-breeze]: Remove: archive file [/home/abi/fetcher/tmp/pure_ocean_breeze-4.0.0.tar.gz]
+[2023-07-02 19:27:33] INFO root fetch - processPackages [pure-ocean-breeze]: Remove: archive file [/home/abi/fetcher/tmp/pure_ocean_breeze-4.0.1.tar.gz]
+[2023-07-02 19:27:33] INFO root fetch - main [MainThread]: End processing [pure-ocean-breeze]: success
+[2023-07-02 19:27:33] INFO root fetch - processPackages [llm-chain]: Remove: archive file [/home/abi/fetcher/tmp/llm-chain-0.0.8.tar.gz]
+[2023-07-02 19:27:33] INFO root fetch - processPackages [llm-chain]: Remove: archive file [/home/abi/fetcher/tmp/llm-chain-0.0.9.tar.gz]
+[2023-07-02 19:27:33] INFO root fetch - main [MainThread]: End processing [llm-chain]: success
+[2023-07-02 19:27:34] INFO root fetch - processPackages [3DFin]: Remove: archive file [/home/abi/fetcher/tmp/3dfin-0.2.0rc4.tar.gz]
+[2023-07-02 19:27:34] INFO root fetch - processPackages [3DFin]: Remove: archive file [/home/abi/fetcher/tmp/3dfin-0.2.0rc5.tar.gz]
+[2023-07-02 19:27:34] INFO root fetch - main [MainThread]: End processing [3DFin]: success
+[2023-07-02 19:27:34] INFO root fetch - processPackages [django-tbase-theme-tailwind]: executing diffoscope
+[2023-07-02 19:27:34] INFO root fetch - processPackages [django-tbase-theme-tailwind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_tbase_theme_tailwind-2023.7.216883135.tar.gz tmp/django_tbase_theme_tailwind-2023.7.316883187.tar.gz --markdown 20230702/d/django-tbase-theme-tailwind/2023.7.216883135-2023.7.316883187/diff.md --exclude *.pyd
+[2023-07-02 19:27:34] INFO root fetch - processPackages [edc-model-admin]: Remove: archive file [/home/abi/fetcher/tmp/edc_model_admin-0.3.8-py3-none-any.whl.zip]
+[2023-07-02 19:27:34] INFO root fetch - processPackages [edc-model-admin]: Remove: archive file [/home/abi/fetcher/tmp/edc_model_admin-0.3.9-py3-none-any.whl.zip]
+[2023-07-02 19:27:34] INFO root fetch - main [MainThread]: End processing [edc-model-admin]: success
+[2023-07-02 19:27:34] ERROR root fetch - processPackages [mlrl-boomer]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=139824740703632)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=139824874921472)
+
+[2023-07-02 19:27:34] INFO root fetch - main [MainThread]: End processing [mlrl-boomer] error
+[2023-07-02 19:27:34] ERROR root fetch - processPackages [mlrl-common]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=139797494504944)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=139797628722688)
+
+[2023-07-02 19:27:34] INFO root fetch - main [MainThread]: End processing [mlrl-common] error
+[2023-07-02 19:27:37] INFO root fetch - processPackages [django-tbase-theme-tailwind]: Remove: archive file [/home/abi/fetcher/tmp/django_tbase_theme_tailwind-2023.7.216883135.tar.gz]
+[2023-07-02 19:27:37] INFO root fetch - processPackages [django-tbase-theme-tailwind]: Remove: archive file [/home/abi/fetcher/tmp/django_tbase_theme_tailwind-2023.7.316883187.tar.gz]
+[2023-07-02 19:27:37] INFO root fetch - main [MainThread]: End processing [django-tbase-theme-tailwind]: success
+[2023-07-02 19:27:37] INFO root fetch - main [MainThread]: Store serial: [18730370]
