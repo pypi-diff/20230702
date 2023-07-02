@@ -7397,3 +7397,79 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 12:13:38] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-07-02 12:13:38] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-07-02 12:13:38] INFO root fetch - main [MainThread]: Store serial: [18727740]
+[2023-07-02 12:18:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18727740]
+[2023-07-02 12:18:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-02 12:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: astartes
+[2023-07-02 12:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: target-permutation-importances
+[2023-07-02 12:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: demoparser2
+[2023-07-02 12:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mdiocre
+[2023-07-02 12:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wqw-example-pkg
+[2023-07-02 12:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: patchgenerator
+[2023-07-02 12:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bacteria
+[2023-07-02 12:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sqllineage
+[2023-07-02 12:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rmy
+[2023-07-02 12:18:47] INFO root fetch - processPackages [astartes]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-02 12:18:47] INFO root fetch - processPackages [mdiocre]: New version: [3.5.2] Old Version: [3.5.1]
+[2023-07-02 12:18:47] INFO root fetch - processPackages [target-permutation-importances]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-02 12:18:47] WARNING root fetch - processPackages [patchgenerator]: Skipping, unable to determine old version
+[2023-07-02 12:18:47] INFO root fetch - main [MainThread]: End processing [patchgenerator] error
+[2023-07-02 12:18:47] INFO root fetch - processPackages [wqw-example-pkg]: New version: [1.0.1] Old Version: [0.0.1]
+[2023-07-02 12:18:47] INFO root fetch - processPackages [demoparser2]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-02 12:18:47] INFO root fetch - processPackages [sqllineage]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-07-02 12:18:47] INFO root fetch - processPackages [bacteria]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-07-02 12:18:47] INFO root fetch - processPackages [rmy]: New version: [0.3] Old Version: [0.1.2]
+[2023-07-02 12:18:47] INFO root fetch - processPackages [target-permutation-importances]: Downloading https://files.pythonhosted.org/packages/95/54/ba06e5d714920ad19a85ee5f6f9d28e83103b9b74ae86a77ccb9c0d7f204/target_permutation_importances-1.0.0.tar.gz
+[2023-07-02 12:18:47] INFO root fetch - processPackages [wqw-example-pkg]: Downloading https://files.pythonhosted.org/packages/af/34/ad48ab07b23a4e7a14644932ab64230bcc462a4e103c760809220e656d3e/wqw_example_pkg-0.0.1.tar.gz
+[2023-07-02 12:18:47] INFO root fetch - processPackages [demoparser2]: Downloading https://files.pythonhosted.org/packages/63/f9/f2aaf582dedf802d501fc95ba6993a015d3c8c21c061d1488daec0f80c08/demoparser2-0.1.1-cp39-none-win_amd64.whl
+[2023-07-02 12:18:47] INFO root fetch - processPackages [mdiocre]: Downloading https://files.pythonhosted.org/packages/20/d0/3ea470e79106668476a234948ffc6f77eb95691b103fdd1b30a85f7550c6/mdiocre-3.5.1.tar.gz
+[2023-07-02 12:18:47] INFO root fetch - processPackages [sqllineage]: Downloading https://files.pythonhosted.org/packages/32/ef/b886f60f014ff8f55e747058b352220c47f8841d57cd8a1a6a9dba50c34e/sqllineage-1.4.4.tar.gz
+[2023-07-02 12:18:47] INFO root fetch - processPackages [rmy]: Downloading https://files.pythonhosted.org/packages/f8/a8/79c8317d7acb7bd8fd6fd82ef1e1bf540a84d3f11402d54c7adf5a66a060/rmy-0.1.2.tar.gz
+[2023-07-02 12:18:47] INFO root fetch - processPackages [astartes]: Downloading https://files.pythonhosted.org/packages/b0/63/73265f4e468624c348157bd7d2b6ef568849dedfcfff05c9888b94ed1ac2/astartes-1.1.1.tar.gz
+[2023-07-02 12:18:47] INFO root fetch - processPackages [bacteria]: Downloading https://files.pythonhosted.org/packages/45/0d/87936d317a6e68dd75e4922e0780d93ded3bbff92c2a895148de72856958/bacteria-1.4.0.tar.gz
+[2023-07-02 12:18:47] INFO root fetch - processPackages [target-permutation-importances]: Downloading https://files.pythonhosted.org/packages/f3/99/6d7796f5e1c0b85eb1d21e086ae3e4ac394af8f2ea8be7740e8d005d131f/target_permutation_importances-1.0.1.tar.gz
+[2023-07-02 12:18:47] INFO root fetch - processPackages [wqw-example-pkg]: Downloading https://files.pythonhosted.org/packages/1d/1a/2d404146f2f3cfae1cec173d090945afad975675dd6e99add9f79da6b046/wqw_example_pkg-1.0.1.tar.gz
+[2023-07-02 12:18:48] INFO root fetch - processPackages [astartes]: executing diffoscope
+[2023-07-02 12:18:48] INFO root fetch - processPackages [astartes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astartes-1.1.0.tar.gz tmp/astartes-1.1.1.tar.gz --markdown 20230702/a/astartes/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-02 12:18:48] INFO root fetch - processPackages [bacteria]: executing diffoscope
+[2023-07-02 12:18:48] INFO root fetch - processPackages [bacteria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bacteria-1.3.0.tar.gz tmp/bacteria-1.4.0.tar.gz --markdown 20230702/b/bacteria/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-07-02 12:18:48] INFO root fetch - processPackages [target-permutation-importances]: executing diffoscope
+[2023-07-02 12:18:48] INFO root fetch - processPackages [target-permutation-importances]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/target_permutation_importances-1.0.0.tar.gz tmp/target_permutation_importances-1.0.1.tar.gz --markdown 20230702/t/target-permutation-importances/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-02 12:18:48] INFO root fetch - processPackages [mdiocre]: Downloading https://files.pythonhosted.org/packages/1a/1a/ead35561cb467cd7a1d847d57d13c87a52878b56cf22b4e14d785944fd04/mdiocre-3.5.2.tar.gz
+[2023-07-02 12:18:48] INFO root fetch - processPackages [rmy]: Downloading https://files.pythonhosted.org/packages/fa/e3/f17621ba230ad14c84c5f1bbd561c01caab7b35b2e8bc0eefbc7f88b7985/rmy-0.3.tar.gz
+[2023-07-02 12:18:48] INFO root fetch - processPackages [wqw-example-pkg]: executing diffoscope
+[2023-07-02 12:18:48] INFO root fetch - processPackages [wqw-example-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wqw_example_pkg-0.0.1.tar.gz tmp/wqw_example_pkg-1.0.1.tar.gz --markdown 20230702/w/wqw-example-pkg/0.0.1-1.0.1/diff.md --exclude *.pyd
+[2023-07-02 12:18:48] INFO root fetch - processPackages [demoparser2]: Downloading https://files.pythonhosted.org/packages/6d/f9/c7f8d6126e9d4b807d8d94898f7b5567db44cb0d5b25408acf1fa0ed229d/demoparser2-0.1.2-cp39-none-win_amd64.whl
+[2023-07-02 12:18:48] INFO root fetch - processPackages [mdiocre]: executing diffoscope
+[2023-07-02 12:18:48] INFO root fetch - processPackages [mdiocre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdiocre-3.5.1.tar.gz tmp/mdiocre-3.5.2.tar.gz --markdown 20230702/m/mdiocre/3.5.1-3.5.2/diff.md --exclude *.pyd
+[2023-07-02 12:18:48] INFO root fetch - processPackages [rmy]: executing diffoscope
+[2023-07-02 12:18:48] INFO root fetch - processPackages [rmy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rmy-0.1.2.tar.gz tmp/rmy-0.3.tar.gz --markdown 20230702/r/rmy/0.1.2-0.3/diff.md --exclude *.pyd
+[2023-07-02 12:18:48] INFO root fetch - processPackages [sqllineage]: Downloading https://files.pythonhosted.org/packages/7d/a6/5199f3f5e77a041cec139fc9bd173a9ca3313b354a2459e20cc16ee50dd5/sqllineage-1.4.5.tar.gz
+[2023-07-02 12:18:48] INFO root fetch - processPackages [sqllineage]: executing diffoscope
+[2023-07-02 12:18:48] INFO root fetch - processPackages [sqllineage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqllineage-1.4.4.tar.gz tmp/sqllineage-1.4.5.tar.gz --markdown 20230702/s/sqllineage/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-07-02 12:18:48] INFO root fetch - processPackages [demoparser2]: executing diffoscope
+[2023-07-02 12:18:48] INFO root fetch - processPackages [demoparser2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/demoparser2-0.1.1-cp39-none-win_amd64.whl.zip tmp/demoparser2-0.1.2-cp39-none-win_amd64.whl.zip --markdown 20230702/d/demoparser2/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-02 12:18:49] INFO root fetch - processPackages [astartes]: Remove: archive file [/home/abi/fetcher/tmp/astartes-1.1.0.tar.gz]
+[2023-07-02 12:18:49] INFO root fetch - processPackages [astartes]: Remove: archive file [/home/abi/fetcher/tmp/astartes-1.1.1.tar.gz]
+[2023-07-02 12:18:49] INFO root fetch - main [MainThread]: End processing [astartes]: success
+[2023-07-02 12:18:49] INFO root fetch - processPackages [bacteria]: Remove: archive file [/home/abi/fetcher/tmp/bacteria-1.3.0.tar.gz]
+[2023-07-02 12:18:49] INFO root fetch - processPackages [bacteria]: Remove: archive file [/home/abi/fetcher/tmp/bacteria-1.4.0.tar.gz]
+[2023-07-02 12:18:49] INFO root fetch - main [MainThread]: End processing [bacteria]: success
+[2023-07-02 12:18:49] INFO root fetch - processPackages [target-permutation-importances]: Remove: archive file [/home/abi/fetcher/tmp/target_permutation_importances-1.0.0.tar.gz]
+[2023-07-02 12:18:49] INFO root fetch - processPackages [target-permutation-importances]: Remove: archive file [/home/abi/fetcher/tmp/target_permutation_importances-1.0.1.tar.gz]
+[2023-07-02 12:18:49] INFO root fetch - main [MainThread]: End processing [target-permutation-importances]: success
+[2023-07-02 12:18:49] INFO root fetch - processPackages [mdiocre]: Remove: archive file [/home/abi/fetcher/tmp/mdiocre-3.5.1.tar.gz]
+[2023-07-02 12:18:49] INFO root fetch - processPackages [mdiocre]: Remove: archive file [/home/abi/fetcher/tmp/mdiocre-3.5.2.tar.gz]
+[2023-07-02 12:18:49] INFO root fetch - main [MainThread]: End processing [mdiocre]: success
+[2023-07-02 12:18:49] INFO root fetch - processPackages [wqw-example-pkg]: Remove: archive file [/home/abi/fetcher/tmp/wqw_example_pkg-0.0.1.tar.gz]
+[2023-07-02 12:18:49] INFO root fetch - processPackages [wqw-example-pkg]: Remove: archive file [/home/abi/fetcher/tmp/wqw_example_pkg-1.0.1.tar.gz]
+[2023-07-02 12:18:49] INFO root fetch - main [MainThread]: End processing [wqw-example-pkg]: success
+[2023-07-02 12:18:49] INFO root fetch - processPackages [rmy]: Remove: archive file [/home/abi/fetcher/tmp/rmy-0.1.2.tar.gz]
+[2023-07-02 12:18:49] INFO root fetch - processPackages [rmy]: Remove: archive file [/home/abi/fetcher/tmp/rmy-0.3.tar.gz]
+[2023-07-02 12:18:49] INFO root fetch - main [MainThread]: End processing [rmy]: success
+[2023-07-02 12:18:49] INFO root fetch - processPackages [demoparser2]: Remove: archive file [/home/abi/fetcher/tmp/demoparser2-0.1.1-cp39-none-win_amd64.whl.zip]
+[2023-07-02 12:18:49] INFO root fetch - processPackages [demoparser2]: Remove: archive file [/home/abi/fetcher/tmp/demoparser2-0.1.2-cp39-none-win_amd64.whl.zip]
+[2023-07-02 12:18:49] INFO root fetch - main [MainThread]: End processing [demoparser2]: success
+[2023-07-02 12:19:35] INFO root fetch - processPackages [sqllineage]: Remove: archive file [/home/abi/fetcher/tmp/sqllineage-1.4.4.tar.gz]
+[2023-07-02 12:19:35] INFO root fetch - processPackages [sqllineage]: Remove: archive file [/home/abi/fetcher/tmp/sqllineage-1.4.5.tar.gz]
+[2023-07-02 12:19:35] INFO root fetch - main [MainThread]: End processing [sqllineage]: success
+[2023-07-02 12:19:35] INFO root fetch - main [MainThread]: Store serial: [18727779]
