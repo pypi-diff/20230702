@@ -5325,3 +5325,21 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 08:59:06] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-client]: success
 [2023-07-02 08:59:06] INFO root fetch - main [MainThread]: End processing [threemystic-common]: success
 [2023-07-02 08:59:06] INFO root fetch - main [MainThread]: Store serial: [18726820]
+[2023-07-02 09:04:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726820]
+[2023-07-02 09:04:16] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-02 09:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: polywrap-sys-config-bundle
+[2023-07-02 09:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seqio-nightly
+[2023-07-02 09:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: polywrap-web3-config-bundle
+[2023-07-02 09:04:16] WARNING root fetch - processPackages [polywrap-sys-config-bundle]: Skipping, unable to determine old version
+[2023-07-02 09:04:16] INFO root fetch - main [MainThread]: End processing [polywrap-sys-config-bundle] error
+[2023-07-02 09:04:16] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-07-02 09:04:16] WARNING root fetch - processPackages [polywrap-web3-config-bundle]: Skipping, unable to determine old version
+[2023-07-02 09:04:16] INFO root fetch - main [MainThread]: End processing [polywrap-web3-config-bundle] error
+[2023-07-02 09:04:16] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-07-02 09:04:17] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-07-02 09:04:17] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-07-02 09:04:17] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230702/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-07-02 09:04:18] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-07-02 09:04:18] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-07-02 09:04:18] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-07-02 09:04:18] INFO root fetch - main [MainThread]: Store serial: [18726842]
