@@ -8784,3 +8784,20 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 14:16:19] INFO root fetch - processPackages [nonebot-adapter-villa]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_villa-0.5.0.tar.gz]
 [2023-07-02 14:16:19] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-villa]: success
 [2023-07-02 14:16:19] INFO root fetch - main [MainThread]: Store serial: [18728388]
+[2023-07-02 14:21:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18728388]
+[2023-07-02 14:21:28] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-02 14:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-dllib-spark3
+[2023-07-02 14:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyterlab-celltagsclasses
+[2023-07-02 14:21:28] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230701] Old Version: [2.4.0b20230630]
+[2023-07-02 14:21:28] INFO root fetch - processPackages [jupyterlab-celltagsclasses]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-02 14:21:28] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/bd/fd/262367c3335bf7ac505af4d48007ec6193286e7f3b734ff88aa760293dae/bigdl-dllib-spark3-2.4.0b20230630.tar.gz
+[2023-07-02 14:21:28] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61328794>=10485760
+[2023-07-02 14:21:28] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-07-02 14:21:28] INFO root fetch - processPackages [jupyterlab-celltagsclasses]: Downloading https://files.pythonhosted.org/packages/b4/c8/c53bb7cf31c6109d2f40d0f46286195177e4fa8d24ee1b67c74b703be9bc/jupyterlab_celltagsclasses-0.3.0.tar.gz
+[2023-07-02 14:21:29] INFO root fetch - processPackages [jupyterlab-celltagsclasses]: Downloading https://files.pythonhosted.org/packages/3e/b7/9512db1542d8f717f6eb7378b3249ce0a2bb0899bf41a5e052ef3e66d788/jupyterlab_celltagsclasses-0.3.1.tar.gz
+[2023-07-02 14:21:29] INFO root fetch - processPackages [jupyterlab-celltagsclasses]: executing diffoscope
+[2023-07-02 14:21:29] INFO root fetch - processPackages [jupyterlab-celltagsclasses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_celltagsclasses-0.3.0.tar.gz tmp/jupyterlab_celltagsclasses-0.3.1.tar.gz --markdown 20230702/j/jupyterlab-celltagsclasses/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-02 14:21:30] INFO root fetch - processPackages [jupyterlab-celltagsclasses]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_celltagsclasses-0.3.0.tar.gz]
+[2023-07-02 14:21:30] INFO root fetch - processPackages [jupyterlab-celltagsclasses]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_celltagsclasses-0.3.1.tar.gz]
+[2023-07-02 14:21:30] INFO root fetch - main [MainThread]: End processing [jupyterlab-celltagsclasses]: success
+[2023-07-02 14:21:30] INFO root fetch - main [MainThread]: Store serial: [18728400]
