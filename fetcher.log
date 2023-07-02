@@ -13875,3 +13875,108 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-02 20:09:20] INFO root fetch - processPackages [piperider-nightly]: Remove: archive file [/home/abi/fetcher/tmp/piperider-nightly-0.9.0.20220921.tar.gz]
 [2023-07-02 20:09:20] INFO root fetch - main [MainThread]: End processing [piperider-nightly]: success
 [2023-07-02 20:09:20] INFO root fetch - main [MainThread]: Store serial: [18730536]
+[2023-07-02 20:14:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18730536]
+[2023-07-02 20:14:29] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-02 20:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trailmet
+[2023-07-02 20:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datascience-cookiecutter
+[2023-07-02 20:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloudflarepycli
+[2023-07-02 20:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reflex-ui
+[2023-07-02 20:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-data-browser
+[2023-07-02 20:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: warframe.py
+[2023-07-02 20:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: phxutils
+[2023-07-02 20:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yeref
+[2023-07-02 20:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyauthenticator
+[2023-07-02 20:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oarepo-cli
+[2023-07-02 20:14:29] INFO root fetch - processPackages [phxutils]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-02 20:14:29] INFO root fetch - processPackages [reflex-ui]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-02 20:14:29] INFO root fetch - processPackages [warframe.py]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-02 20:14:29] INFO root fetch - processPackages [cloudflarepycli]: New version: [1.8] Old Version: [1.7.0]
+[2023-07-02 20:14:29] INFO root fetch - processPackages [datascience-cookiecutter]: New version: [0.3] Old Version: [0.2.1]
+[2023-07-02 20:14:29] WARNING root fetch - processPackages [trailmet]: Skipping, unable to determine old version
+[2023-07-02 20:14:29] INFO root fetch - processPackages [trailmet]: Start processing: nextguild
+[2023-07-02 20:14:29] INFO root fetch - main [MainThread]: End processing [trailmet] error
+[2023-07-02 20:14:29] INFO root fetch - processPackages [yeref]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-02 20:14:29] INFO root fetch - processPackages [oarepo-cli]: New version: [11.1.3] Old Version: [11.1.2]
+[2023-07-02 20:14:29] INFO root fetch - processPackages [django-data-browser]: New version: [4.2.4] Old Version: [4.2.3]
+[2023-07-02 20:14:29] INFO root fetch - processPackages [pyauthenticator]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-02 20:14:29] INFO root fetch - processPackages [warframe.py]: Downloading https://files.pythonhosted.org/packages/b1/ea/f2db93c8844a82367d4053871e0e7822e0be9e762def4c1c535210b58558/warframe.py-0.5.0.tar.gz
+[2023-07-02 20:14:29] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/7d/2c/cafb170f394b43cdbbdf786f8cd093f87d3d560c9a8520cb21c824fe5135/oarepo-cli-11.1.2.tar.gz
+[2023-07-02 20:14:29] INFO root fetch - processPackages [nextguild]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-02 20:14:29] INFO root fetch - processPackages [reflex-ui]: Downloading https://files.pythonhosted.org/packages/eb/76/f67928cea3972e900e5a1c7bfdaa47a4cd36ad881afc53ea588176c9b093/reflex_ui-0.1.0.tar.gz
+[2023-07-02 20:14:29] INFO root fetch - processPackages [datascience-cookiecutter]: Downloading https://files.pythonhosted.org/packages/3b/8c/799fe13e90c76afe7532fcefa1c4cc42b17947c1b82af8689deee02d615f/datascience_cookiecutter-0.2.1.tar.gz
+[2023-07-02 20:14:29] INFO root fetch - processPackages [cloudflarepycli]: Downloading https://files.pythonhosted.org/packages/55/e1/cfda8930f9a80a957c589b8c87e6c3c4b658485c459e82aa1cc745c5e283/cloudflarepycli-1.7.0.tar.gz
+[2023-07-02 20:14:29] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/b0/b0/909fe6a3b78d0f6ac51f68676b3211c8db161827cbcd18d88fca04fd4ea2/yeref-0.2.8.tar.gz
+[2023-07-02 20:14:29] INFO root fetch - processPackages [pyauthenticator]: Downloading https://files.pythonhosted.org/packages/b5/8f/802ac158758c783aa31ff8242b7286e002dbbfa9d219d26ec78abcaf6b90/pyauthenticator-0.0.7.tar.gz
+[2023-07-02 20:14:29] INFO root fetch - processPackages [phxutils]: Downloading https://files.pythonhosted.org/packages/34/b2/ef698fe4474797b28af799b6e4bb8f6f68b6e0d07364f1653867bd90ce09/phxutils-1.1.8.tar.gz
+[2023-07-02 20:14:30] INFO root fetch - processPackages [django-data-browser]: Downloading https://files.pythonhosted.org/packages/d8/4d/d9d92182cb6c2feb8d423ccd51ccfaaff4ca99112187339c90e07b3e7450/django-data-browser-4.2.3.tar.gz
+[2023-07-02 20:14:30] INFO root fetch - processPackages [nextguild]: Downloading https://files.pythonhosted.org/packages/9b/93/a555e1df0184dbfa673fc9de025d70503217cbc142b058c988a4861def82/nextguild-1.2.8.tar.gz
+[2023-07-02 20:14:30] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/b2/d0/928778fccc93d5e04c07dac59567bb064c0c4e289c16643cd394543bbf31/oarepo-cli-11.1.3.tar.gz
+[2023-07-02 20:14:30] INFO root fetch - processPackages [warframe.py]: Downloading https://files.pythonhosted.org/packages/d1/87/77d905c0f90b9f40cccce08f73112805accef64d30f5a6d913c571def01e/warframe.py-0.6.0.tar.gz
+[2023-07-02 20:14:30] INFO root fetch - processPackages [datascience-cookiecutter]: Downloading https://files.pythonhosted.org/packages/bf/b3/613f68623c6d8ef564bb68512f5baea702fec583998a0bf7edb9eab97e50/datascience_cookiecutter-0.3.tar.gz
+[2023-07-02 20:14:30] INFO root fetch - processPackages [cloudflarepycli]: Downloading https://files.pythonhosted.org/packages/70/7c/a6aebfef6cc2dc550018693bae5587cc8e2f2bfff62081b8c1449ed1c8b2/cloudflarepycli-1.8.tar.gz
+[2023-07-02 20:14:30] INFO root fetch - processPackages [reflex-ui]: Downloading https://files.pythonhosted.org/packages/71/bd/2f47112915147526e3f5a4a69adb3b1872f22e20ebf738ac4e5d4aa12ed3/reflex_ui-0.1.1.tar.gz
+[2023-07-02 20:14:30] INFO root fetch - processPackages [pyauthenticator]: Downloading https://files.pythonhosted.org/packages/6e/fc/e1670e88271da53dbbbe736a41436a5e35268fc875a3440ab036758b8d40/pyauthenticator-0.0.8.tar.gz
+[2023-07-02 20:14:30] INFO root fetch - processPackages [oarepo-cli]: executing diffoscope
+[2023-07-02 20:14:30] INFO root fetch - processPackages [oarepo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-cli-11.1.2.tar.gz tmp/oarepo-cli-11.1.3.tar.gz --markdown 20230702/o/oarepo-cli/11.1.2-11.1.3/diff.md --exclude *.pyd
+[2023-07-02 20:14:30] INFO root fetch - processPackages [datascience-cookiecutter]: executing diffoscope
+[2023-07-02 20:14:30] INFO root fetch - processPackages [datascience-cookiecutter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datascience_cookiecutter-0.2.1.tar.gz tmp/datascience_cookiecutter-0.3.tar.gz --markdown 20230702/d/datascience-cookiecutter/0.2.1-0.3/diff.md --exclude *.pyd
+[2023-07-02 20:14:30] INFO root fetch - processPackages [warframe.py]: executing diffoscope
+[2023-07-02 20:14:30] INFO root fetch - processPackages [warframe.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warframe.py-0.5.0.tar.gz tmp/warframe.py-0.6.0.tar.gz --markdown 20230702/w/warframe.py/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-02 20:14:30] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/50/99/66805a69f7cda19e4f2694ce8433b49220c99c3c330adad82223a3aa368e/yeref-0.2.9.tar.gz
+[2023-07-02 20:14:30] INFO root fetch - processPackages [phxutils]: Downloading https://files.pythonhosted.org/packages/73/b5/ab222f5eea91d62ca8ba37271ea9acc5fabc7920f2ee31f6e49f8010580a/phxutils-1.1.9.tar.gz
+[2023-07-02 20:14:30] INFO root fetch - processPackages [nextguild]: Downloading https://files.pythonhosted.org/packages/c2/7e/fd61e4b7224a4afb8cbeb0f4f0a32425fa8d661f11e8ebd2a101d11305a3/nextguild-1.2.9.tar.gz
+[2023-07-02 20:14:30] INFO root fetch - processPackages [django-data-browser]: Downloading https://files.pythonhosted.org/packages/3b/be/56b0b4b0065d2b8071eb22f213d54f3b4519f0bb9632f1e6506cc873d9e9/django-data-browser-4.2.4.tar.gz
+[2023-07-02 20:14:30] INFO root fetch - processPackages [cloudflarepycli]: executing diffoscope
+[2023-07-02 20:14:30] INFO root fetch - processPackages [cloudflarepycli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudflarepycli-1.7.0.tar.gz tmp/cloudflarepycli-1.8.tar.gz --markdown 20230702/c/cloudflarepycli/1.7.0-1.8/diff.md --exclude *.pyd
+[2023-07-02 20:14:30] INFO root fetch - processPackages [pyauthenticator]: executing diffoscope
+[2023-07-02 20:14:30] INFO root fetch - processPackages [pyauthenticator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyauthenticator-0.0.7.tar.gz tmp/pyauthenticator-0.0.8.tar.gz --markdown 20230702/p/pyauthenticator/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-02 20:14:30] INFO root fetch - processPackages [reflex-ui]: executing diffoscope
+[2023-07-02 20:14:30] INFO root fetch - processPackages [reflex-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflex_ui-0.1.0.tar.gz tmp/reflex_ui-0.1.1.tar.gz --markdown 20230702/r/reflex-ui/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-02 20:14:30] INFO root fetch - processPackages [nextguild]: executing diffoscope
+[2023-07-02 20:14:30] INFO root fetch - processPackages [nextguild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextguild-1.2.8.tar.gz tmp/nextguild-1.2.9.tar.gz --markdown 20230702/n/nextguild/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-02 20:14:30] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-07-02 20:14:30] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.2.8.tar.gz tmp/yeref-0.2.9.tar.gz --markdown 20230702/y/yeref/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-02 20:14:30] INFO root fetch - processPackages [django-data-browser]: executing diffoscope
+[2023-07-02 20:14:30] INFO root fetch - processPackages [django-data-browser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-data-browser-4.2.3.tar.gz tmp/django-data-browser-4.2.4.tar.gz --markdown 20230702/d/django-data-browser/4.2.3-4.2.4/diff.md --exclude *.pyd
+[2023-07-02 20:14:30] INFO root fetch - processPackages [phxutils]: executing diffoscope
+[2023-07-02 20:14:30] INFO root fetch - processPackages [phxutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phxutils-1.1.8.tar.gz tmp/phxutils-1.1.9.tar.gz --markdown 20230702/p/phxutils/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-02 20:14:31] INFO root fetch - processPackages [cloudflarepycli]: Remove: archive file [/home/abi/fetcher/tmp/cloudflarepycli-1.7.0.tar.gz]
+[2023-07-02 20:14:31] INFO root fetch - processPackages [cloudflarepycli]: Remove: archive file [/home/abi/fetcher/tmp/cloudflarepycli-1.8.tar.gz]
+[2023-07-02 20:14:31] INFO root fetch - processPackages [cloudflarepycli]: Start processing: ecowitt2mqtt
+[2023-07-02 20:14:31] INFO root fetch - main [MainThread]: End processing [cloudflarepycli]: success
+[2023-07-02 20:14:32] INFO root fetch - processPackages [warframe.py]: Remove: archive file [/home/abi/fetcher/tmp/warframe.py-0.5.0.tar.gz]
+[2023-07-02 20:14:32] INFO root fetch - processPackages [warframe.py]: Remove: archive file [/home/abi/fetcher/tmp/warframe.py-0.6.0.tar.gz]
+[2023-07-02 20:14:32] INFO root fetch - main [MainThread]: End processing [warframe.py]: success
+[2023-07-02 20:14:32] INFO root fetch - processPackages [ecowitt2mqtt]: New version: [2023.7.0] Old Version: [2023.6.1]
+[2023-07-02 20:14:32] INFO root fetch - processPackages [datascience-cookiecutter]: Remove: archive file [/home/abi/fetcher/tmp/datascience_cookiecutter-0.2.1.tar.gz]
+[2023-07-02 20:14:32] INFO root fetch - processPackages [datascience-cookiecutter]: Remove: archive file [/home/abi/fetcher/tmp/datascience_cookiecutter-0.3.tar.gz]
+[2023-07-02 20:14:32] INFO root fetch - main [MainThread]: End processing [datascience-cookiecutter]: success
+[2023-07-02 20:14:32] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.8.tar.gz]
+[2023-07-02 20:14:32] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.9.tar.gz]
+[2023-07-02 20:14:32] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-07-02 20:14:32] INFO root fetch - processPackages [pyauthenticator]: Remove: archive file [/home/abi/fetcher/tmp/pyauthenticator-0.0.7.tar.gz]
+[2023-07-02 20:14:32] INFO root fetch - processPackages [pyauthenticator]: Remove: archive file [/home/abi/fetcher/tmp/pyauthenticator-0.0.8.tar.gz]
+[2023-07-02 20:14:32] INFO root fetch - main [MainThread]: End processing [pyauthenticator]: success
+[2023-07-02 20:14:32] INFO root fetch - processPackages [ecowitt2mqtt]: Downloading https://files.pythonhosted.org/packages/12/6a/5b79cbc3a037586cc6a07c6b72506bc6db7c2e98c2eadda40d648d15462b/ecowitt2mqtt-2023.6.1.tar.gz
+[2023-07-02 20:14:32] INFO root fetch - processPackages [nextguild]: Remove: archive file [/home/abi/fetcher/tmp/nextguild-1.2.8.tar.gz]
+[2023-07-02 20:14:32] INFO root fetch - processPackages [nextguild]: Remove: archive file [/home/abi/fetcher/tmp/nextguild-1.2.9.tar.gz]
+[2023-07-02 20:14:32] INFO root fetch - main [MainThread]: End processing [nextguild]: success
+[2023-07-02 20:14:32] INFO root fetch - processPackages [phxutils]: Remove: archive file [/home/abi/fetcher/tmp/phxutils-1.1.8.tar.gz]
+[2023-07-02 20:14:32] INFO root fetch - processPackages [phxutils]: Remove: archive file [/home/abi/fetcher/tmp/phxutils-1.1.9.tar.gz]
+[2023-07-02 20:14:32] INFO root fetch - main [MainThread]: End processing [phxutils]: success
+[2023-07-02 20:14:32] INFO root fetch - processPackages [ecowitt2mqtt]: Downloading https://files.pythonhosted.org/packages/b4/a3/2522ea22b4071f9b21ca8b59a197fe6ecc33328d6b733ba5ee526179a841/ecowitt2mqtt-2023.7.0.tar.gz
+[2023-07-02 20:14:32] INFO root fetch - processPackages [ecowitt2mqtt]: executing diffoscope
+[2023-07-02 20:14:32] INFO root fetch - processPackages [ecowitt2mqtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecowitt2mqtt-2023.6.1.tar.gz tmp/ecowitt2mqtt-2023.7.0.tar.gz --markdown 20230702/e/ecowitt2mqtt/2023.6.1-2023.7.0/diff.md --exclude *.pyd
+[2023-07-02 20:14:32] INFO root fetch - processPackages [django-data-browser]: Remove: archive file [/home/abi/fetcher/tmp/django-data-browser-4.2.3.tar.gz]
+[2023-07-02 20:14:32] INFO root fetch - processPackages [django-data-browser]: Remove: archive file [/home/abi/fetcher/tmp/django-data-browser-4.2.4.tar.gz]
+[2023-07-02 20:14:32] INFO root fetch - main [MainThread]: End processing [django-data-browser]: success
+[2023-07-02 20:14:34] INFO root fetch - processPackages [ecowitt2mqtt]: Remove: archive file [/home/abi/fetcher/tmp/ecowitt2mqtt-2023.6.1.tar.gz]
+[2023-07-02 20:14:34] INFO root fetch - processPackages [ecowitt2mqtt]: Remove: archive file [/home/abi/fetcher/tmp/ecowitt2mqtt-2023.7.0.tar.gz]
+[2023-07-02 20:14:34] INFO root fetch - main [MainThread]: End processing [ecowitt2mqtt]: success
+[2023-07-02 20:14:34] INFO root fetch - processPackages [reflex-ui]: Remove: archive file [/home/abi/fetcher/tmp/reflex_ui-0.1.0.tar.gz]
+[2023-07-02 20:14:34] INFO root fetch - processPackages [reflex-ui]: Remove: archive file [/home/abi/fetcher/tmp/reflex_ui-0.1.1.tar.gz]
+[2023-07-02 20:14:34] INFO root fetch - main [MainThread]: End processing [reflex-ui]: success
+[2023-07-02 20:14:36] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.2.tar.gz]
+[2023-07-02 20:14:36] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.3.tar.gz]
+[2023-07-02 20:14:36] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
+[2023-07-02 20:14:36] INFO root fetch - main [MainThread]: Store serial: [18730574]
