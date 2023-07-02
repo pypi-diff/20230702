@@ -873,3 +873,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 02:01:17] INFO root fetch - processPackages [headless]: Remove: archive file [/home/abi/fetcher/tmp/headless-2.0.0a9.tar.gz]
 [2023-07-02 02:01:17] INFO root fetch - main [MainThread]: End processing [headless]: success
 [2023-07-02 02:01:17] INFO root fetch - main [MainThread]: Store serial: [18725123]
+[2023-07-02 02:06:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18725123]
+[2023-07-02 02:06:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-02 02:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pptx2md
+[2023-07-02 02:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spotify-recommender-api
+[2023-07-02 02:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lantrane
+[2023-07-02 02:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchdatasets-nightly
+[2023-07-02 02:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ibis-framework
+[2023-07-02 02:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mct-nightly
+[2023-07-02 02:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jaxkern-nightly
+[2023-07-02 02:06:27] INFO root fetch - processPackages [pptx2md]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-07-02 02:06:27] WARNING root fetch - processPackages [lantrane]: Skipping, unable to determine old version
+[2023-07-02 02:06:27] INFO root fetch - main [MainThread]: End processing [lantrane] error
+[2023-07-02 02:06:27] INFO root fetch - processPackages [ibis-framework]: New version: [v0.6.0] Old Version: [5.1.1.dev596]
+[2023-07-02 02:06:27] INFO root fetch - processPackages [spotify-recommender-api]: New version: [4.5.0] Old Version: [4.4.1]
+[2023-07-02 02:06:27] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230701.post444] Old Version: [1.9.0.20230630.post425]
+[2023-07-02 02:06:27] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-07-02 02:06:27] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1688169846] Old Version: [1688083420]
+[2023-07-02 02:06:27] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/86/8e/ff06232280591e9dca8734c917026b25e2b72f375503697224371ea83f93/mct-nightly-1.9.0.20230630.post425.tar.gz
+[2023-07-02 02:06:27] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-07-02 02:06:27] INFO root fetch - processPackages [spotify-recommender-api]: Downloading https://files.pythonhosted.org/packages/31/b1/6adccb42e4cb1b8d778b156815c259dfffa625b1cc76a3c5986a59cc255e/spotify_recommender_api-4.4.1-py3-none-any.whl
+[2023-07-02 02:06:27] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/86/73/5bb809d953019c98c0a2ee7b39aff6497e579d28d4f623329768fe26748e/torchdatasets-nightly-1688083420.tar.gz
+[2023-07-02 02:06:27] INFO root fetch - processPackages [ibis-framework]: Downloading https://files.pythonhosted.org/packages/05/86/78e0cf4ed3631228a4baaffb42814c0db3ae5610e464b4c21ab6ae2efefa/ibis_framework-5.1.1.dev596.tar.gz
+[2023-07-02 02:06:27] INFO root fetch - processPackages [pptx2md]: Downloading https://files.pythonhosted.org/packages/5b/5c/4c70507ed9926622cff45099870e7a4c51f94af3adad6ff7850c20bebb28/pptx2md-1.3.0.tar.gz
+[2023-07-02 02:06:27] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/45/bd/1b40913091ab87008b9bc9daeae29485e9e5d48bf990dfce529f6e4c4250/mct-nightly-1.9.0.20230701.post444.tar.gz
+[2023-07-02 02:06:27] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/c5/c1/9d6258d2d44fa19792d012da3d33a6fcb2caad243bad92c4871a31f221bf/torchdatasets-nightly-1688169846.tar.gz
+[2023-07-02 02:06:27] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-07-02 02:06:27] INFO root fetch - processPackages [spotify-recommender-api]: Downloading https://files.pythonhosted.org/packages/e9/21/8801d461004bd64b358381cdcd4802dc9b9fdc312030e2b4dc7b960f31f9/spotify_recommender_api-4.5.0-py3-none-any.whl
+[2023-07-02 02:06:27] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-07-02 02:06:27] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230630.post425.tar.gz tmp/mct-nightly-1.9.0.20230701.post444.tar.gz --markdown 20230702/m/mct-nightly/1.9.0.20230630.post425-1.9.0.20230701.post444/diff.md --exclude *.pyd
+[2023-07-02 02:06:27] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-07-02 02:06:27] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230702/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-07-02 02:06:27] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-07-02 02:06:27] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1688083420.tar.gz tmp/torchdatasets-nightly-1688169846.tar.gz --markdown 20230702/t/torchdatasets-nightly/1688083420-1688169846/diff.md --exclude *.pyd
+[2023-07-02 02:06:27] INFO root fetch - processPackages [pptx2md]: Downloading https://files.pythonhosted.org/packages/71/8e/17147cdecb7ed38ab7a1c32cc11a948ec20d750329c3de2e0e7f149ea101/pptx2md-1.4.0.tar.gz
+[2023-07-02 02:06:27] INFO root fetch - processPackages [spotify-recommender-api]: executing diffoscope
+[2023-07-02 02:06:27] INFO root fetch - processPackages [spotify-recommender-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotify_recommender_api-4.4.1-py3-none-any.whl.zip tmp/spotify_recommender_api-4.5.0-py3-none-any.whl.zip --markdown 20230702/s/spotify-recommender-api/4.4.1-4.5.0/diff.md --exclude *.pyd
+[2023-07-02 02:06:27] INFO root fetch - processPackages [ibis-framework]: Downloading https://files.pythonhosted.org/packages/0b/3d/fbf4278e9e436717a6fe476a81d1abec511869bba1cf642b601472bf6408/ibis-framework-v0.6.0.tar.gz
+[2023-07-02 02:06:27] INFO root fetch - processPackages [pptx2md]: executing diffoscope
+[2023-07-02 02:06:27] INFO root fetch - processPackages [pptx2md]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pptx2md-1.3.0.tar.gz tmp/pptx2md-1.4.0.tar.gz --markdown 20230702/p/pptx2md/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-07-02 02:06:28] INFO root fetch - processPackages [ibis-framework]: executing diffoscope
+[2023-07-02 02:06:28] INFO root fetch - processPackages [ibis-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibis_framework-5.1.1.dev596.tar.gz tmp/ibis-framework-v0.6.0.tar.gz --markdown 20230702/i/ibis-framework/5.1.1.dev596-v0.6.0/diff.md --exclude *.pyd
+[2023-07-02 02:06:28] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1688083420.tar.gz]
+[2023-07-02 02:06:28] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1688169846.tar.gz]
+[2023-07-02 02:06:28] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-07-02 02:06:29] INFO root fetch - processPackages [pptx2md]: Remove: archive file [/home/abi/fetcher/tmp/pptx2md-1.3.0.tar.gz]
+[2023-07-02 02:06:29] INFO root fetch - processPackages [pptx2md]: Remove: archive file [/home/abi/fetcher/tmp/pptx2md-1.4.0.tar.gz]
+[2023-07-02 02:06:29] INFO root fetch - main [MainThread]: End processing [pptx2md]: success
+[2023-07-02 02:06:29] INFO root fetch - processPackages [spotify-recommender-api]: Remove: archive file [/home/abi/fetcher/tmp/spotify_recommender_api-4.4.1-py3-none-any.whl.zip]
+[2023-07-02 02:06:29] INFO root fetch - processPackages [spotify-recommender-api]: Remove: archive file [/home/abi/fetcher/tmp/spotify_recommender_api-4.5.0-py3-none-any.whl.zip]
+[2023-07-02 02:06:29] INFO root fetch - main [MainThread]: End processing [spotify-recommender-api]: success
+[2023-07-02 02:06:29] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-07-02 02:06:29] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-07-02 02:06:29] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-07-02 02:06:31] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230630.post425.tar.gz]
+[2023-07-02 02:06:31] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230701.post444.tar.gz]
+[2023-07-02 02:06:31] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-07-02 02:06:33] INFO root fetch - processPackages [ibis-framework]: Remove: archive file [/home/abi/fetcher/tmp/ibis_framework-5.1.1.dev596.tar.gz]
+[2023-07-02 02:06:33] INFO root fetch - processPackages [ibis-framework]: Remove: archive file [/home/abi/fetcher/tmp/ibis-framework-v0.6.0.tar.gz]
+[2023-07-02 02:06:33] INFO root fetch - main [MainThread]: End processing [ibis-framework]: success
+[2023-07-02 02:06:33] INFO root fetch - main [MainThread]: Store serial: [18725147]
