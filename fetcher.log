@@ -8576,3 +8576,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 13:55:22] INFO root fetch - main [MainThread]: End processing [limburg-flood-impact]: success
 [2023-07-02 13:55:22] INFO root fetch - main [MainThread]: End processing [limburg-flood-impact]: success
 [2023-07-02 13:55:22] INFO root fetch - main [MainThread]: Store serial: [18728298]
+[2023-07-02 14:00:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18728298]
+[2023-07-02 14:00:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-02 14:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: notion-graph
+[2023-07-02 14:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: funcoin
+[2023-07-02 14:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fundrive
+[2023-07-02 14:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libmata
+[2023-07-02 14:00:32] INFO root fetch - processPackages [notion-graph]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-02 14:00:32] WARNING root fetch - processPackages [fundrive]: Skipping, unable to determine old version
+[2023-07-02 14:00:32] INFO root fetch - main [MainThread]: End processing [fundrive] error
+[2023-07-02 14:00:32] INFO root fetch - processPackages [funcoin]: New version: [202307021956] Old Version: [202306301659]
+[2023-07-02 14:00:32] INFO root fetch - processPackages [notion-graph]: Downloading https://files.pythonhosted.org/packages/dc/76/3256a59b2ec728fb8cda9e106a4afc851010659502cb471893a48b50c8b7/notion-graph-0.2.4.tar.gz
+[2023-07-02 14:00:32] INFO root fetch - processPackages [libmata]: New version: [0.74.0] Old Version: [0.73.0]
+[2023-07-02 14:00:32] INFO root fetch - processPackages [funcoin]: Downloading https://files.pythonhosted.org/packages/34/50/caab1e06afcfae51b6d391b93bf9ad674e8a91b3edd5d762875baaead0d8/funcoin-202306301659.tar.gz
+[2023-07-02 14:00:32] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/6c/4e/6ea61846d02519e004c5c4ab738268e6bb097bf1fa9ee0064692447a7714/libmata-0.73.0.tar.gz
+[2023-07-02 14:00:32] INFO root fetch - processPackages [notion-graph]: Downloading https://files.pythonhosted.org/packages/cd/1d/cc01659744b9d1ddbb276a18618750b7d8014e969c25d9b99d99f94362e6/notion-graph-0.2.5.tar.gz
+[2023-07-02 14:00:32] INFO root fetch - processPackages [notion-graph]: executing diffoscope
+[2023-07-02 14:00:32] INFO root fetch - processPackages [notion-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notion-graph-0.2.4.tar.gz tmp/notion-graph-0.2.5.tar.gz --markdown 20230702/n/notion-graph/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-02 14:00:32] INFO root fetch - processPackages [funcoin]: Downloading https://files.pythonhosted.org/packages/70/71/905a448cf593e97b8e7ed5ed072ba5650332da8d27fa9de89feac5fea4bd/funcoin-202307021956.tar.gz
+[2023-07-02 14:00:32] INFO root fetch - processPackages [funcoin]: executing diffoscope
+[2023-07-02 14:00:32] INFO root fetch - processPackages [funcoin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcoin-202306301659.tar.gz tmp/funcoin-202307021956.tar.gz --markdown 20230702/f/funcoin/202306301659-202307021956/diff.md --exclude *.pyd
+[2023-07-02 14:00:33] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/34/78/ae8687255502ebc6ec0f37a72e8ace651a1bc3f95669b9b7a683809f8620/libmata-0.74.0.tar.gz
+[2023-07-02 14:00:33] INFO root fetch - processPackages [notion-graph]: Remove: archive file [/home/abi/fetcher/tmp/notion-graph-0.2.4.tar.gz]
+[2023-07-02 14:00:33] INFO root fetch - processPackages [notion-graph]: Remove: archive file [/home/abi/fetcher/tmp/notion-graph-0.2.5.tar.gz]
+[2023-07-02 14:00:33] INFO root fetch - main [MainThread]: End processing [notion-graph]: success
+[2023-07-02 14:00:33] INFO root fetch - processPackages [libmata]: executing diffoscope
+[2023-07-02 14:00:33] INFO root fetch - processPackages [libmata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libmata-0.73.0.tar.gz tmp/libmata-0.74.0.tar.gz --markdown 20230702/l/libmata/0.73.0-0.74.0/diff.md --exclude *.pyd
+[2023-07-02 14:00:33] INFO root fetch - processPackages [funcoin]: Remove: archive file [/home/abi/fetcher/tmp/funcoin-202306301659.tar.gz]
+[2023-07-02 14:00:33] INFO root fetch - processPackages [funcoin]: Remove: archive file [/home/abi/fetcher/tmp/funcoin-202307021956.tar.gz]
+[2023-07-02 14:00:33] INFO root fetch - main [MainThread]: End processing [funcoin]: success
+[2023-07-02 14:00:38] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.73.0.tar.gz]
+[2023-07-02 14:00:38] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.74.0.tar.gz]
+[2023-07-02 14:00:38] INFO root fetch - main [MainThread]: End processing [libmata]: success
+[2023-07-02 14:00:38] INFO root fetch - main [MainThread]: Store serial: [18728315]
