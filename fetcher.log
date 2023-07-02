@@ -3550,3 +3550,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 05:01:18] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
 [2023-07-02 05:01:18] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-07-02 05:01:18] INFO root fetch - main [MainThread]: Store serial: [18726093]
+[2023-07-02 05:06:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726093]
+[2023-07-02 05:06:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-02 05:06:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-connector-prestashop
+[2023-07-02 05:06:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-connector-prestashop-environment
+[2023-07-02 05:06:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-contract
+[2023-07-02 05:06:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dad-tool
+[2023-07-02 05:06:26] INFO root fetch - processPackages [dad-tool]: New version: [1.0.0] Old Version: [0.3.0]
+[2023-07-02 05:06:26] INFO root fetch - processPackages [odoo14-addon-connector-prestashop]: New version: [14.0.2.0.3.dev5] Old Version: [14.0.2.0.3.dev3]
+[2023-07-02 05:06:26] INFO root fetch - processPackages [odoo14-addon-connector-prestashop-environment]: New version: [14.0.1.0.1.dev6] Old Version: [14.0.1.0.1.dev4]
+[2023-07-02 05:06:26] INFO root fetch - processPackages [odoo14-addon-contract]: New version: [14.0.2.9.6.dev2] Old Version: [14.0.2.9.5.dev2]
+[2023-07-02 05:06:26] INFO root fetch - processPackages [odoo14-addon-connector-prestashop-environment]: Downloading https://files.pythonhosted.org/packages/90/b0/a2fa5fd6ec9e8122f6ccceb90f19b48339e6de947f13a963f84f838fc427/odoo14_addon_connector_prestashop_environment-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-07-02 05:06:26] INFO root fetch - processPackages [dad-tool]: Downloading https://files.pythonhosted.org/packages/c4/2c/90c1628e8b536acb14b600ace84b0ec2090f667bf7fe6a20eb5e9d7c8b3f/dad-tool-0.3.0.tar.gz
+[2023-07-02 05:06:26] INFO root fetch - processPackages [odoo14-addon-contract]: Downloading https://files.pythonhosted.org/packages/85/80/fa2b3f96da4d6346224a003ef95545165051c2cc98d411b8865efbad54c8/odoo14_addon_contract-14.0.2.9.5.dev2-py3-none-any.whl
+[2023-07-02 05:06:27] INFO root fetch - processPackages [odoo14-addon-connector-prestashop]: Downloading https://files.pythonhosted.org/packages/3d/bc/b0d096395278c2d289dc4fb6f8abbc753acef7e2105b1164525403ce60a2/odoo14_addon_connector_prestashop-14.0.2.0.3.dev3-py3-none-any.whl
+[2023-07-02 05:06:27] INFO root fetch - processPackages [odoo14-addon-connector-prestashop-environment]: Downloading https://files.pythonhosted.org/packages/c7/48/34927271884a8f5b93c79aa91317269c6946f667ecba8123daa32a13c3c6/odoo14_addon_connector_prestashop_environment-14.0.1.0.1.dev6-py3-none-any.whl
+[2023-07-02 05:06:27] INFO root fetch - processPackages [dad-tool]: Downloading https://files.pythonhosted.org/packages/18/68/141588965cd974ac7b05b767a655e5df3a0da4bf8f018927038caa40f8b7/dad-tool-1.0.0.tar.gz
+[2023-07-02 05:06:27] INFO root fetch - processPackages [dad-tool]: executing diffoscope
+[2023-07-02 05:06:27] INFO root fetch - processPackages [dad-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dad-tool-0.3.0.tar.gz tmp/dad-tool-1.0.0.tar.gz --markdown 20230702/d/dad-tool/0.3.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-02 05:06:27] INFO root fetch - processPackages [odoo14-addon-contract]: Downloading https://files.pythonhosted.org/packages/4a/2f/b3078b338fe555715925883d6240b40dd6e3948466f24e9693b5bbf985c6/odoo14_addon_contract-14.0.2.9.6.dev2-py3-none-any.whl
+[2023-07-02 05:06:27] INFO root fetch - processPackages [odoo14-addon-connector-prestashop-environment]: executing diffoscope
+[2023-07-02 05:06:27] INFO root fetch - processPackages [odoo14-addon-connector-prestashop-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_connector_prestashop_environment-14.0.1.0.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_connector_prestashop_environment-14.0.1.0.1.dev6-py3-none-any.whl.zip --markdown 20230702/o/odoo14-addon-connector-prestashop-environment/14.0.1.0.1.dev4-14.0.1.0.1.dev6/diff.md --exclude *.pyd
+[2023-07-02 05:06:27] INFO root fetch - processPackages [odoo14-addon-connector-prestashop]: Downloading https://files.pythonhosted.org/packages/1f/70/e87464df1af6edc6fda21dab03470cde5150fd87017b7cfd95e14db547d8/odoo14_addon_connector_prestashop-14.0.2.0.3.dev5-py3-none-any.whl
+[2023-07-02 05:06:27] INFO root fetch - processPackages [odoo14-addon-contract]: executing diffoscope
+[2023-07-02 05:06:27] INFO root fetch - processPackages [odoo14-addon-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_contract-14.0.2.9.5.dev2-py3-none-any.whl.zip tmp/odoo14_addon_contract-14.0.2.9.6.dev2-py3-none-any.whl.zip --markdown 20230702/o/odoo14-addon-contract/14.0.2.9.5.dev2-14.0.2.9.6.dev2/diff.md --exclude *.pyd
+[2023-07-02 05:06:27] INFO root fetch - processPackages [odoo14-addon-connector-prestashop]: executing diffoscope
+[2023-07-02 05:06:27] INFO root fetch - processPackages [odoo14-addon-connector-prestashop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_connector_prestashop-14.0.2.0.3.dev3-py3-none-any.whl.zip tmp/odoo14_addon_connector_prestashop-14.0.2.0.3.dev5-py3-none-any.whl.zip --markdown 20230702/o/odoo14-addon-connector-prestashop/14.0.2.0.3.dev3-14.0.2.0.3.dev5/diff.md --exclude *.pyd
+[2023-07-02 05:06:28] INFO root fetch - processPackages [dad-tool]: Remove: archive file [/home/abi/fetcher/tmp/dad-tool-0.3.0.tar.gz]
+[2023-07-02 05:06:28] INFO root fetch - processPackages [dad-tool]: Remove: archive file [/home/abi/fetcher/tmp/dad-tool-1.0.0.tar.gz]
+[2023-07-02 05:06:28] INFO root fetch - main [MainThread]: End processing [dad-tool]: success
+[2023-07-02 05:06:28] INFO root fetch - processPackages [odoo14-addon-connector-prestashop-environment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_connector_prestashop_environment-14.0.1.0.1.dev4-py3-none-any.whl.zip]
+[2023-07-02 05:06:28] INFO root fetch - processPackages [odoo14-addon-connector-prestashop-environment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_connector_prestashop_environment-14.0.1.0.1.dev6-py3-none-any.whl.zip]
+[2023-07-02 05:06:28] INFO root fetch - main [MainThread]: End processing [odoo14-addon-connector-prestashop-environment]: success
+[2023-07-02 05:06:29] INFO root fetch - processPackages [odoo14-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_contract-14.0.2.9.5.dev2-py3-none-any.whl.zip]
+[2023-07-02 05:06:29] INFO root fetch - processPackages [odoo14-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_contract-14.0.2.9.6.dev2-py3-none-any.whl.zip]
+[2023-07-02 05:06:29] INFO root fetch - main [MainThread]: End processing [odoo14-addon-contract]: success
+[2023-07-02 05:06:29] INFO root fetch - processPackages [odoo14-addon-connector-prestashop]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_connector_prestashop-14.0.2.0.3.dev3-py3-none-any.whl.zip]
+[2023-07-02 05:06:29] INFO root fetch - processPackages [odoo14-addon-connector-prestashop]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_connector_prestashop-14.0.2.0.3.dev5-py3-none-any.whl.zip]
+[2023-07-02 05:06:29] INFO root fetch - main [MainThread]: End processing [odoo14-addon-connector-prestashop]: success
+[2023-07-02 05:06:29] INFO root fetch - main [MainThread]: Store serial: [18726102]
