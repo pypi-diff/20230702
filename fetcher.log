@@ -8474,3 +8474,17 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 13:39:49] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230701-py3-none-win_amd64.whl.zip]
 [2023-07-02 13:39:49] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
 [2023-07-02 13:39:49] INFO root fetch - main [MainThread]: Store serial: [18728247]
+[2023-07-02 13:44:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18728247]
+[2023-07-02 13:44:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-02 13:44:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyre-check-nightly
+[2023-07-02 13:44:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: artfight-api
+[2023-07-02 13:44:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: G4SNPsOverlaps
+[2023-07-02 13:44:57] WARNING root fetch - processPackages [artfight-api]: Skipping, unable to determine old version
+[2023-07-02 13:44:57] INFO root fetch - main [MainThread]: End processing [artfight-api] error
+[2023-07-02 13:44:58] WARNING root fetch - processPackages [G4SNPsOverlaps]: Skipping, unable to determine old version
+[2023-07-02 13:44:58] INFO root fetch - main [MainThread]: End processing [G4SNPsOverlaps] error
+[2023-07-02 13:44:58] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101688296279] Old Version: [0.0.101688209909]
+[2023-07-02 13:44:58] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/3b/b9/ffd333ab92a0f64aedf1e405b4d849ee6eaf45f429b9557acbc7578af410/pyre-check-nightly-0.0.101688209909.tar.gz
+[2023-07-02 13:44:58] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23762754>=10485760
+[2023-07-02 13:44:58] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-07-02 13:44:58] INFO root fetch - main [MainThread]: Store serial: [18728260]
