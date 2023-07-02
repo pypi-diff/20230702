@@ -15202,3 +15202,83 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 21:34:53] INFO root fetch - processPackages [humanloop]: Remove: archive file [/home/abi/fetcher/tmp/humanloop-0.4.9.tar.gz]
 [2023-07-02 21:34:53] INFO root fetch - main [MainThread]: End processing [humanloop]: success
 [2023-07-02 21:34:53] INFO root fetch - main [MainThread]: Store serial: [18730995]
+[2023-07-02 21:39:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18730995]
+[2023-07-02 21:40:02] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-02 21:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nlp-service
+[2023-07-02 21:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-report-qweb-signer
+[2023-07-02 21:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mmemoji
+[2023-07-02 21:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SantorinAI
+[2023-07-02 21:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aporia
+[2023-07-02 21:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-openupgrade-scripts
+[2023-07-02 21:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bgstools
+[2023-07-02 21:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pybind11-geobuf
+[2023-07-02 21:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mvc4kivy
+[2023-07-02 21:40:02] INFO root fetch - processPackages [nlp-service]: New version: [1.4.6] Old Version: [1.4.4]
+[2023-07-02 21:40:02] INFO root fetch - processPackages [odoo14-addon-report-qweb-signer]: New version: [14.0.2.0.2.dev2] Old Version: [14.0.2.0.2.dev1]
+[2023-07-02 21:40:02] INFO root fetch - processPackages [mmemoji]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-02 21:40:02] INFO root fetch - processPackages [SantorinAI]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-02 21:40:02] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: New version: [16.0.1.0.3.4] Old Version: [16.0.1.0.3.3]
+[2023-07-02 21:40:02] INFO root fetch - processPackages [bgstools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 21:40:02] INFO root fetch - processPackages [aporia]: New version: [3.3.0] Old Version: [3.2.0]
+[2023-07-02 21:40:02] INFO root fetch - processPackages [SantorinAI]: Downloading https://files.pythonhosted.org/packages/ef/d3/df9e3b4f7e616f3c969294bee8e15ed237933da01114350592b308257e11/SantorinAI-1.3.1.tar.gz
+[2023-07-02 21:40:02] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/3e/b0/51cf14f2bfe3b97ddd2a4fef68a913c27a0c79fd961c4a4a2da6040c2783/odoo_addon_openupgrade_scripts-16.0.1.0.3.3-py3-none-any.whl
+[2023-07-02 21:40:02] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/a3/d9/0f2b579fbbb29225abec7da824c3d2177fa751c84913339da89e8d0b4f89/bgstools-0.1.8.tar.gz
+[2023-07-02 21:40:02] INFO root fetch - processPackages [aporia]: Downloading https://files.pythonhosted.org/packages/ac/ce/a01f34770d919fd80640d673d3d8e2a856c12b0a5b2bbecae4112cab7692/aporia-3.2.0.tar.gz
+[2023-07-02 21:40:02] INFO root fetch - processPackages [pybind11-geobuf]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-02 21:40:02] INFO root fetch - processPackages [mvc4kivy]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-02 21:40:02] INFO root fetch - processPackages [odoo14-addon-report-qweb-signer]: Downloading https://files.pythonhosted.org/packages/6e/b8/fd016d379ea669f9fdff323c3b1866ea35a1ea45c02356da350c83861aa5/odoo14_addon_report_qweb_signer-14.0.2.0.2.dev1-py3-none-any.whl
+[2023-07-02 21:40:02] INFO root fetch - processPackages [nlp-service]: Downloading https://files.pythonhosted.org/packages/12/a1/6e77eadc2231972f9aa0b00249ec50400b8a6c2941a29fc88ca32a3c5d0a/nlp_service-1.4.4.tar.gz
+[2023-07-02 21:40:02] INFO root fetch - processPackages [mmemoji]: Downloading https://files.pythonhosted.org/packages/97/cc/47ee2084acdc6c2f28cb9750227d93242883532f573f50e12d62b76ac528/mmemoji-0.4.0.tar.gz
+[2023-07-02 21:40:03] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/0a/3c/638191cc7a3a6135dbf58e2857b29d83bacba72ac3e579510aae9606e202/bgstools-0.1.9.tar.gz
+[2023-07-02 21:40:03] INFO root fetch - processPackages [bgstools]: executing diffoscope
+[2023-07-02 21:40:03] INFO root fetch - processPackages [bgstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgstools-0.1.8.tar.gz tmp/bgstools-0.1.9.tar.gz --markdown 20230702/b/bgstools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 21:40:03] INFO root fetch - processPackages [SantorinAI]: Downloading https://files.pythonhosted.org/packages/1d/60/5f0b69857e95e55477f16a3548cb5dfa32e49e782e04d63df12597559569/SantorinAI-1.3.2.tar.gz
+[2023-07-02 21:40:03] INFO root fetch - processPackages [mvc4kivy]: Downloading https://files.pythonhosted.org/packages/bc/0f/79b07242b2b44d5fb1d316adf4e0520e5bd960540a650e501a3afded2eb5/mvc4kivy-0.1.5.tar.gz
+[2023-07-02 21:40:03] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/5e/36/9a793bfc2338d418c057a1cd4083942ab7b9951cbde20c8903cac2b26eed/odoo_addon_openupgrade_scripts-16.0.1.0.3.4-py3-none-any.whl
+[2023-07-02 21:40:03] INFO root fetch - processPackages [nlp-service]: Downloading https://files.pythonhosted.org/packages/d6/4f/65cd932706e3b1e7bc5a096e2bb0b61ad63b693b412efece3b7db124822a/nlp_service-1.4.6.tar.gz
+[2023-07-02 21:40:03] INFO root fetch - processPackages [aporia]: Downloading https://files.pythonhosted.org/packages/54/49/96c9323156635096df19d1b3c9448b0a5731fb1698d1827c1ba48dd0a846/aporia-3.3.0.tar.gz
+[2023-07-02 21:40:03] INFO root fetch - processPackages [mmemoji]: Downloading https://files.pythonhosted.org/packages/9a/e5/c1537b8f880576fe6995655cb18960223c357d7e41cec23b5f5b2d31a2da/mmemoji-0.5.0.tar.gz
+[2023-07-02 21:40:03] INFO root fetch - processPackages [pybind11-geobuf]: Downloading https://files.pythonhosted.org/packages/71/a7/8a67becae3c190f6324b4c173658c34d0508eec19960a818ee9dff4b16c9/pybind11_geobuf-0.1.5.tar.gz
+[2023-07-02 21:40:03] INFO root fetch - processPackages [nlp-service]: executing diffoscope
+[2023-07-02 21:40:03] INFO root fetch - processPackages [nlp-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlp_service-1.4.4.tar.gz tmp/nlp_service-1.4.6.tar.gz --markdown 20230702/n/nlp-service/1.4.4-1.4.6/diff.md --exclude *.pyd
+[2023-07-02 21:40:03] INFO root fetch - processPackages [mmemoji]: executing diffoscope
+[2023-07-02 21:40:03] INFO root fetch - processPackages [mmemoji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmemoji-0.4.0.tar.gz tmp/mmemoji-0.5.0.tar.gz --markdown 20230702/m/mmemoji/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-02 21:40:03] INFO root fetch - processPackages [SantorinAI]: executing diffoscope
+[2023-07-02 21:40:03] INFO root fetch - processPackages [SantorinAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SantorinAI-1.3.1.tar.gz tmp/SantorinAI-1.3.2.tar.gz --markdown 20230702/S/SantorinAI/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-02 21:40:03] INFO root fetch - processPackages [aporia]: executing diffoscope
+[2023-07-02 21:40:03] INFO root fetch - processPackages [aporia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aporia-3.2.0.tar.gz tmp/aporia-3.3.0.tar.gz --markdown 20230702/a/aporia/3.2.0-3.3.0/diff.md --exclude *.pyd
+[2023-07-02 21:40:03] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: executing diffoscope
+[2023-07-02 21:40:03] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.3-py3-none-any.whl.zip tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.4-py3-none-any.whl.zip --markdown 20230702/o/odoo-addon-openupgrade-scripts/16.0.1.0.3.3-16.0.1.0.3.4/diff.md --exclude *.pyd
+[2023-07-02 21:40:03] INFO root fetch - processPackages [mvc4kivy]: Downloading https://files.pythonhosted.org/packages/51/2b/3d179be7a89409aba4daffb724642231894790e54601ca8c260c641ba26e/mvc4kivy-0.1.6.tar.gz
+[2023-07-02 21:40:03] WARNING root fetch - processPackages [odoo14-addon-report-qweb-signer]: Skipping package: exceeds size limit 18122252>=10485760
+[2023-07-02 21:40:03] INFO root fetch - main [MainThread]: End processing [odoo14-addon-report-qweb-signer] error
+[2023-07-02 21:40:04] INFO root fetch - processPackages [mvc4kivy]: executing diffoscope
+[2023-07-02 21:40:04] INFO root fetch - processPackages [mvc4kivy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mvc4kivy-0.1.5.tar.gz tmp/mvc4kivy-0.1.6.tar.gz --markdown 20230702/m/mvc4kivy/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-02 21:40:04] INFO root fetch - processPackages [pybind11-geobuf]: Downloading https://files.pythonhosted.org/packages/ab/df/757d27892af5deca8288be9d02edaf47d72a989859a70afbe55d65a6dec1/pybind11_geobuf-0.1.6-cp39-cp39-macosx_10_9_x86_64.whl
+[2023-07-02 21:40:04] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.8.tar.gz]
+[2023-07-02 21:40:04] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.9.tar.gz]
+[2023-07-02 21:40:04] INFO root fetch - main [MainThread]: End processing [bgstools]: success
+[2023-07-02 21:40:04] INFO root fetch - processPackages [SantorinAI]: Remove: archive file [/home/abi/fetcher/tmp/SantorinAI-1.3.1.tar.gz]
+[2023-07-02 21:40:04] INFO root fetch - processPackages [SantorinAI]: Remove: archive file [/home/abi/fetcher/tmp/SantorinAI-1.3.2.tar.gz]
+[2023-07-02 21:40:04] INFO root fetch - main [MainThread]: End processing [SantorinAI]: success
+[2023-07-02 21:40:04] INFO root fetch - processPackages [aporia]: Remove: archive file [/home/abi/fetcher/tmp/aporia-3.2.0.tar.gz]
+[2023-07-02 21:40:04] INFO root fetch - processPackages [aporia]: Remove: archive file [/home/abi/fetcher/tmp/aporia-3.3.0.tar.gz]
+[2023-07-02 21:40:04] INFO root fetch - main [MainThread]: End processing [aporia]: success
+[2023-07-02 21:40:04] INFO root fetch - processPackages [nlp-service]: Remove: archive file [/home/abi/fetcher/tmp/nlp_service-1.4.4.tar.gz]
+[2023-07-02 21:40:04] INFO root fetch - processPackages [nlp-service]: Remove: archive file [/home/abi/fetcher/tmp/nlp_service-1.4.6.tar.gz]
+[2023-07-02 21:40:04] INFO root fetch - main [MainThread]: End processing [nlp-service]: success
+[2023-07-02 21:40:04] INFO root fetch - processPackages [mmemoji]: Remove: archive file [/home/abi/fetcher/tmp/mmemoji-0.4.0.tar.gz]
+[2023-07-02 21:40:04] INFO root fetch - processPackages [mmemoji]: Remove: archive file [/home/abi/fetcher/tmp/mmemoji-0.5.0.tar.gz]
+[2023-07-02 21:40:04] INFO root fetch - main [MainThread]: End processing [mmemoji]: success
+[2023-07-02 21:40:05] INFO root fetch - processPackages [pybind11-geobuf]: executing diffoscope
+[2023-07-02 21:40:05] INFO root fetch - processPackages [pybind11-geobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybind11_geobuf-0.1.5.tar.gz tmp/pybind11_geobuf-0.1.6-cp39-cp39-macosx_10_9_x86_64.whl.zip --markdown 20230702/p/pybind11-geobuf/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-02 21:40:05] INFO root fetch - processPackages [mvc4kivy]: Remove: archive file [/home/abi/fetcher/tmp/mvc4kivy-0.1.5.tar.gz]
+[2023-07-02 21:40:05] INFO root fetch - processPackages [mvc4kivy]: Remove: archive file [/home/abi/fetcher/tmp/mvc4kivy-0.1.6.tar.gz]
+[2023-07-02 21:40:05] INFO root fetch - main [MainThread]: End processing [mvc4kivy]: success
+[2023-07-02 21:40:06] INFO root fetch - processPackages [pybind11-geobuf]: Remove: archive file [/home/abi/fetcher/tmp/pybind11_geobuf-0.1.5.tar.gz]
+[2023-07-02 21:40:06] INFO root fetch - processPackages [pybind11-geobuf]: Remove: archive file [/home/abi/fetcher/tmp/pybind11_geobuf-0.1.6-cp39-cp39-macosx_10_9_x86_64.whl.zip]
+[2023-07-02 21:40:06] INFO root fetch - main [MainThread]: End processing [pybind11-geobuf]: success
+[2023-07-02 21:40:09] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.3-py3-none-any.whl.zip]
+[2023-07-02 21:40:09] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.4-py3-none-any.whl.zip]
+[2023-07-02 21:40:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
+[2023-07-02 21:40:09] INFO root fetch - main [MainThread]: Store serial: [18731040]
