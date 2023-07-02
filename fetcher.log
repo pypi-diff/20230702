@@ -9209,3 +9209,29 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 14:48:34] INFO root fetch - processPackages [gaphor]: Remove: archive file [/home/abi/fetcher/tmp/gaphor-2.9.2.tar.gz]
 [2023-07-02 14:48:34] INFO root fetch - main [MainThread]: End processing [gaphor]: success
 [2023-07-02 14:48:34] INFO root fetch - main [MainThread]: Store serial: [18728569]
+[2023-07-02 14:53:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18728569]
+[2023-07-02 14:53:43] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-02 14:53:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: upstash-redis
+[2023-07-02 14:53:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adao
+[2023-07-02 14:53:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-orca
+[2023-07-02 14:53:43] INFO root fetch - processPackages [adao]: New version: [9.9.0.1] Old Version: [9.8.0.2]
+[2023-07-02 14:53:43] INFO root fetch - processPackages [upstash-redis]: New version: [0.13.1] Old Version: [0.13.0]
+[2023-07-02 14:53:44] INFO root fetch - processPackages [adao]: Downloading https://files.pythonhosted.org/packages/03/8b/b81f4cabc35adbe07e1589ed21c793afe54b3afd1f9441e0a9e300d3a18c/adao-9.8.0.2.tar.gz
+[2023-07-02 14:53:44] INFO root fetch - processPackages [upstash-redis]: Downloading https://files.pythonhosted.org/packages/34/7f/b0bfbba283634cbabe4551f7c6c05e906405ffed41b8d4867cdcc5a116bf/upstash_redis-0.13.0.tar.gz
+[2023-07-02 14:53:44] INFO root fetch - processPackages [bigdl-orca]: New version: [2.4.0b20230702] Old Version: [2.4.0b20230701]
+[2023-07-02 14:53:44] INFO root fetch - processPackages [bigdl-orca]: Downloading https://files.pythonhosted.org/packages/6a/99/225ece5655ce8b12e9394f8f8892810344dcd93cdd5eedc05db249ca0140/bigdl_orca-2.4.0b20230701-py3-none-manylinux1_x86_64.whl
+[2023-07-02 14:53:44] INFO root fetch - processPackages [upstash-redis]: Downloading https://files.pythonhosted.org/packages/a2/67/463aab98f029ef43ed6da9af544f5dc2ebbee81bac1a0e35e8d6a669e5de/upstash_redis-0.13.1.tar.gz
+[2023-07-02 14:53:44] INFO root fetch - processPackages [upstash-redis]: executing diffoscope
+[2023-07-02 14:53:44] INFO root fetch - processPackages [upstash-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upstash_redis-0.13.0.tar.gz tmp/upstash_redis-0.13.1.tar.gz --markdown 20230702/u/upstash-redis/0.13.0-0.13.1/diff.md --exclude *.pyd
+[2023-07-02 14:53:44] WARNING root fetch - processPackages [bigdl-orca]: Skipping package: exceeds size limit 20369601>=10485760
+[2023-07-02 14:53:44] INFO root fetch - main [MainThread]: End processing [bigdl-orca] error
+[2023-07-02 14:53:44] INFO root fetch - processPackages [adao]: Downloading https://files.pythonhosted.org/packages/c6/66/461dbbb3cac2fc5d498a5d4ad1c48bf8fd785126412a880786ef6a754b99/adao-9.9.0.1.tar.gz
+[2023-07-02 14:53:45] INFO root fetch - processPackages [adao]: executing diffoscope
+[2023-07-02 14:53:45] INFO root fetch - processPackages [adao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adao-9.8.0.2.tar.gz tmp/adao-9.9.0.1.tar.gz --markdown 20230702/a/adao/9.8.0.2-9.9.0.1/diff.md --exclude *.pyd
+[2023-07-02 14:53:45] INFO root fetch - processPackages [upstash-redis]: Remove: archive file [/home/abi/fetcher/tmp/upstash_redis-0.13.0.tar.gz]
+[2023-07-02 14:53:45] INFO root fetch - processPackages [upstash-redis]: Remove: archive file [/home/abi/fetcher/tmp/upstash_redis-0.13.1.tar.gz]
+[2023-07-02 14:53:45] INFO root fetch - main [MainThread]: End processing [upstash-redis]: success
+[2023-07-02 14:53:48] INFO root fetch - processPackages [adao]: Remove: archive file [/home/abi/fetcher/tmp/adao-9.8.0.2.tar.gz]
+[2023-07-02 14:53:48] INFO root fetch - processPackages [adao]: Remove: archive file [/home/abi/fetcher/tmp/adao-9.9.0.1.tar.gz]
+[2023-07-02 14:53:48] INFO root fetch - main [MainThread]: End processing [adao]: success
+[2023-07-02 14:53:48] INFO root fetch - main [MainThread]: Store serial: [18728579]
