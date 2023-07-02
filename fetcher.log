@@ -2177,3 +2177,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 03:34:20] INFO root fetch - processPackages [gitbetter]: Remove: archive file [/home/abi/fetcher/tmp/gitbetter-2.1.1.tar.gz]
 [2023-07-02 03:34:20] INFO root fetch - main [MainThread]: End processing [gitbetter]: success
 [2023-07-02 03:34:20] INFO root fetch - main [MainThread]: Store serial: [18725628]
+[2023-07-02 03:39:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18725628]
+[2023-07-02 03:39:28] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-02 03:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-stdlib
+[2023-07-02 03:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-lambda-subminute
+[2023-07-02 03:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: querysource
+[2023-07-02 03:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-numpy
+[2023-07-02 03:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sweetrpg-model-core
+[2023-07-02 03:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pixqrcodegen
+[2023-07-02 03:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-pandas
+[2023-07-02 03:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: backendpy
+[2023-07-02 03:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-pytorch
+[2023-07-02 03:39:28] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-02 03:39:28] INFO root fetch - processPackages [sweetrpg-model-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-02 03:39:28] INFO root fetch - processPackages [querysource]: New version: [3.6.9] Old Version: [3.6.8]
+[2023-07-02 03:39:28] INFO root fetch - processPackages [backendpy]: New version: [0.2.5a4] Old Version: [0.2.5a3]
+[2023-07-02 03:39:28] INFO root fetch - processPackages [pixqrcodegen]: New version: [0.9] Old Version: [0.5]
+[2023-07-02 03:39:28] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-02 03:39:28] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/e5/12/963a9c9137cb30feaf66b7d9cb7a08a6ea591ebef038343c3b132f84bba7/cdk_lambda_subminute-2.0.98.tar.gz
+[2023-07-02 03:39:28] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-02 03:39:29] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-02 03:39:29] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-02 03:39:29] INFO root fetch - processPackages [querysource]: Downloading https://files.pythonhosted.org/packages/70/4b/8c539f343afcdd37564e5a6c74c47423c9bf31268e67037958cf41e0fefb/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-02 03:39:29] INFO root fetch - processPackages [backendpy]: Downloading https://files.pythonhosted.org/packages/7b/7c/01c6c27fd9dab5d8b0ba1d719fab57a0ea77e87ac3e1c58d781587c20d74/backendpy-0.2.5a3.tar.gz
+[2023-07-02 03:39:29] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-07-02 03:39:29] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-07-02 03:39:29] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-02 03:39:29] INFO root fetch - processPackages [sweetrpg-model-core]: Downloading https://files.pythonhosted.org/packages/2b/a9/f6d12795fc3f52981f5476c74fd485c2b56fe1911b278640171d94d92bc1/sweetrpg-model-core-0.0.98.tar.gz
+[2023-07-02 03:39:29] INFO root fetch - processPackages [pixqrcodegen]: Downloading https://files.pythonhosted.org/packages/2e/70/e66d736096723a3a1fa117e190d15edd6e34803f5eafe82bff484c899f6c/pixqrcodegen-0.5.tar.gz
+[2023-07-02 03:39:29] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-07-02 03:39:29] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/72/85/0d48595efd9bc93c2b767982602157ef78a97896735d1d14075242ba3a9f/cdk_lambda_subminute-2.0.99.tar.gz
+[2023-07-02 03:39:29] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-07-02 03:39:29] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-07-02 03:39:29] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-07-02 03:39:29] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230702/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-02 03:39:29] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-07-02 03:39:29] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230702/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-02 03:39:29] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-07-02 03:39:29] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230702/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-02 03:39:29] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-02 03:39:29] INFO root fetch - processPackages [backendpy]: Downloading https://files.pythonhosted.org/packages/bd/33/d6c8c8adc9cd62d2efe31314ca182147c7a848c91535d4656c6a4e163d10/backendpy-0.2.5a4-py3-none-any.whl
+[2023-07-02 03:39:29] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-07-02 03:39:29] INFO root fetch - processPackages [querysource]: Downloading https://files.pythonhosted.org/packages/ab/50/018cb101f002f53a882706970a666f7fabfdaef68902e2363149b998910b/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-02 03:39:29] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-07-02 03:39:29] INFO root fetch - processPackages [pixqrcodegen]: Downloading https://files.pythonhosted.org/packages/5a/d1/81979de9e33c719a1ef28ac6941938834de6eb6d0da1e66f0e4010a52044/pixqrcodegen-0.9.tar.gz
+[2023-07-02 03:39:29] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230702/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-02 03:39:29] INFO root fetch - processPackages [sweetrpg-model-core]: Downloading https://files.pythonhosted.org/packages/45/2f/72ea3ec101547d659b6522d0efd329d98807f3f70bd531b7c55e48836946/sweetrpg-model-core-0.0.99.tar.gz
+[2023-07-02 03:39:29] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-02 03:39:29] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230702/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-02 03:39:29] INFO root fetch - processPackages [pixqrcodegen]: executing diffoscope
+[2023-07-02 03:39:29] INFO root fetch - processPackages [pixqrcodegen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixqrcodegen-0.5.tar.gz tmp/pixqrcodegen-0.9.tar.gz --markdown 20230702/p/pixqrcodegen/0.5-0.9/diff.md --exclude *.pyd
+[2023-07-02 03:39:29] INFO root fetch - processPackages [backendpy]: executing diffoscope
+[2023-07-02 03:39:29] INFO root fetch - processPackages [backendpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backendpy-0.2.5a3.tar.gz tmp/backendpy-0.2.5a4-py3-none-any.whl.zip --markdown 20230702/b/backendpy/0.2.5a3-0.2.5a4/diff.md --exclude *.pyd
+[2023-07-02 03:39:29] INFO root fetch - processPackages [sweetrpg-model-core]: executing diffoscope
+[2023-07-02 03:39:29] INFO root fetch - processPackages [sweetrpg-model-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-model-core-0.0.98.tar.gz tmp/sweetrpg-model-core-0.0.99.tar.gz --markdown 20230702/s/sweetrpg-model-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-02 03:39:29] INFO root fetch - processPackages [querysource]: executing diffoscope
+[2023-07-02 03:39:29] INFO root fetch - processPackages [querysource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230702/q/querysource/3.6.8-3.6.9/diff.md --exclude *.pyd
+[2023-07-02 03:39:30] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-07-02 03:39:30] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-07-02 03:39:30] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-07-02 03:39:30] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-07-02 03:39:30] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-07-02 03:39:30] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-07-02 03:39:30] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-02 03:39:30] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-02 03:39:30] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-02 03:39:30] INFO root fetch - processPackages [backendpy]: Remove: archive file [/home/abi/fetcher/tmp/backendpy-0.2.5a3.tar.gz]
+[2023-07-02 03:39:30] INFO root fetch - processPackages [backendpy]: Remove: archive file [/home/abi/fetcher/tmp/backendpy-0.2.5a4-py3-none-any.whl.zip]
+[2023-07-02 03:39:30] INFO root fetch - main [MainThread]: End processing [backendpy]: success
+[2023-07-02 03:39:31] INFO root fetch - processPackages [pixqrcodegen]: Remove: archive file [/home/abi/fetcher/tmp/pixqrcodegen-0.5.tar.gz]
+[2023-07-02 03:39:31] INFO root fetch - processPackages [pixqrcodegen]: Remove: archive file [/home/abi/fetcher/tmp/pixqrcodegen-0.9.tar.gz]
+[2023-07-02 03:39:31] INFO root fetch - main [MainThread]: End processing [pixqrcodegen]: success
+[2023-07-02 03:39:31] INFO root fetch - processPackages [sweetrpg-model-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-model-core-0.0.98.tar.gz]
+[2023-07-02 03:39:31] INFO root fetch - processPackages [sweetrpg-model-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-model-core-0.0.99.tar.gz]
+[2023-07-02 03:39:31] INFO root fetch - main [MainThread]: End processing [sweetrpg-model-core]: success
+[2023-07-02 03:39:31] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.98.tar.gz]
+[2023-07-02 03:39:31] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.99.tar.gz]
+[2023-07-02 03:39:31] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-07-02 03:39:31] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-07-02 03:39:31] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-07-02 03:39:31] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-07-02 03:39:34] INFO root fetch - processPackages [querysource]: Remove: archive file [/home/abi/fetcher/tmp/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-02 03:39:34] INFO root fetch - processPackages [querysource]: Remove: archive file [/home/abi/fetcher/tmp/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-02 03:39:34] INFO root fetch - main [MainThread]: End processing [querysource]: success
+[2023-07-02 03:39:34] INFO root fetch - main [MainThread]: Store serial: [18725655]
