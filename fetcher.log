@@ -10104,3 +10104,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 15:47:42] INFO root fetch - processPackages [aleksis-app-paweljong]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_app_paweljong-2.0.dev0.tar.gz]
 [2023-07-02 15:47:42] INFO root fetch - main [MainThread]: End processing [aleksis-app-paweljong]: success
 [2023-07-02 15:47:42] INFO root fetch - main [MainThread]: Store serial: [18728971]
+[2023-07-02 15:52:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18728971]
+[2023-07-02 15:52:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-02 15:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aleksis-app-buelleten
+[2023-07-02 15:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moto
+[2023-07-02 15:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: elevenlabslib
+[2023-07-02 15:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aleksis-app-discourse
+[2023-07-02 15:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: equilibrator-pathway
+[2023-07-02 15:52:53] INFO root fetch - processPackages [aleksis-app-discourse]: New version: [2.0.dev0] Old Version: [1.0.dev0]
+[2023-07-02 15:52:53] INFO root fetch - processPackages [elevenlabslib]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-02 15:52:53] INFO root fetch - processPackages [aleksis-app-buelleten]: New version: [2.0.dev0] Old Version: [1.0.7.dev0]
+[2023-07-02 15:52:53] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-07-02 15:52:53] INFO root fetch - processPackages [equilibrator-pathway]: New version: [0.4.8b2] Old Version: [0.4.8b1]
+[2023-07-02 15:52:53] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-07-02 15:52:53] INFO root fetch - processPackages [aleksis-app-buelleten]: Downloading https://files.pythonhosted.org/packages/d2/0c/ec33923ff5ace8878963ec7040bb605b23be3cb46a8b6a1e12d1ce8177cd/AlekSIS-App-Buelleten-1.0.7.dev0.tar.gz
+[2023-07-02 15:52:53] INFO root fetch - processPackages [aleksis-app-discourse]: Downloading https://files.pythonhosted.org/packages/e8/f2/a7c383eca25d13527a1494ca9deccf430f0bbbb36f7eddf7868ec57e1fae/AlekSIS-App-Discourse-1.0.dev0.tar.gz
+[2023-07-02 15:52:53] INFO root fetch - processPackages [elevenlabslib]: Downloading https://files.pythonhosted.org/packages/71/9f/a2e14f1b42cd79c3c6a8ad806c3cbd5335dc4d86ac4ae97b1ac88424cd9c/elevenlabslib-0.9.3.tar.gz
+[2023-07-02 15:52:53] INFO root fetch - processPackages [equilibrator-pathway]: Downloading https://files.pythonhosted.org/packages/cb/ec/319bec12a6544cafab9461a83766ed5c27c98b88d6a9d447898f4fe8fde4/equilibrator-pathway-0.4.8b1.tar.gz
+[2023-07-02 15:52:53] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-07-02 15:52:53] INFO root fetch - processPackages [aleksis-app-buelleten]: Downloading https://files.pythonhosted.org/packages/92/87/9e5d05f20704fc2cb2bd959f391e017b864d6f4269684d5be09ee8bcdb16/aleksis_app_buelleten-2.0.dev0.tar.gz
+[2023-07-02 15:52:53] INFO root fetch - processPackages [aleksis-app-discourse]: Downloading https://files.pythonhosted.org/packages/52/1a/481f506cf81409d906e6da0fc28e5be5c47715177604f916b3d6515a783b/aleksis_app_discourse-2.0.dev0.tar.gz
+[2023-07-02 15:52:53] INFO root fetch - processPackages [elevenlabslib]: Downloading https://files.pythonhosted.org/packages/d3/f3/f52bb2a224b7802bb07d8ea42b16b5b9ff82c41270e726e4334a5666d573/elevenlabslib-0.9.4.tar.gz
+[2023-07-02 15:52:53] INFO root fetch - processPackages [elevenlabslib]: executing diffoscope
+[2023-07-02 15:52:53] INFO root fetch - processPackages [elevenlabslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elevenlabslib-0.9.3.tar.gz tmp/elevenlabslib-0.9.4.tar.gz --markdown 20230702/e/elevenlabslib/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-02 15:52:54] INFO root fetch - processPackages [aleksis-app-buelleten]: executing diffoscope
+[2023-07-02 15:52:54] INFO root fetch - processPackages [aleksis-app-buelleten]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AlekSIS-App-Buelleten-1.0.7.dev0.tar.gz tmp/aleksis_app_buelleten-2.0.dev0.tar.gz --markdown 20230702/a/aleksis-app-buelleten/1.0.7.dev0-2.0.dev0/diff.md --exclude *.pyd
+[2023-07-02 15:52:54] INFO root fetch - processPackages [aleksis-app-discourse]: executing diffoscope
+[2023-07-02 15:52:54] INFO root fetch - processPackages [aleksis-app-discourse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AlekSIS-App-Discourse-1.0.dev0.tar.gz tmp/aleksis_app_discourse-2.0.dev0.tar.gz --markdown 20230702/a/aleksis-app-discourse/1.0.dev0-2.0.dev0/diff.md --exclude *.pyd
+[2023-07-02 15:52:54] INFO root fetch - processPackages [equilibrator-pathway]: Downloading https://files.pythonhosted.org/packages/7c/a1/eae571f7a8011e6a7c9dffa93f7b077c70908a8db5dcda75d199d4de738c/equilibrator-pathway-0.4.8b2.tar.gz
+[2023-07-02 15:52:54] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-07-02 15:52:54] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230702/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-07-02 15:52:54] INFO root fetch - processPackages [equilibrator-pathway]: executing diffoscope
+[2023-07-02 15:52:54] INFO root fetch - processPackages [equilibrator-pathway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/equilibrator-pathway-0.4.8b1.tar.gz tmp/equilibrator-pathway-0.4.8b2.tar.gz --markdown 20230702/e/equilibrator-pathway/0.4.8b1-0.4.8b2/diff.md --exclude *.pyd
+[2023-07-02 15:52:55] INFO root fetch - processPackages [elevenlabslib]: Remove: archive file [/home/abi/fetcher/tmp/elevenlabslib-0.9.3.tar.gz]
+[2023-07-02 15:52:55] INFO root fetch - processPackages [elevenlabslib]: Remove: archive file [/home/abi/fetcher/tmp/elevenlabslib-0.9.4.tar.gz]
+[2023-07-02 15:52:55] INFO root fetch - main [MainThread]: End processing [elevenlabslib]: success
+[2023-07-02 15:52:55] INFO root fetch - processPackages [aleksis-app-discourse]: Remove: archive file [/home/abi/fetcher/tmp/AlekSIS-App-Discourse-1.0.dev0.tar.gz]
+[2023-07-02 15:52:55] INFO root fetch - processPackages [aleksis-app-discourse]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_app_discourse-2.0.dev0.tar.gz]
+[2023-07-02 15:52:55] INFO root fetch - main [MainThread]: End processing [aleksis-app-discourse]: success
+[2023-07-02 15:52:55] INFO root fetch - processPackages [aleksis-app-buelleten]: Remove: archive file [/home/abi/fetcher/tmp/AlekSIS-App-Buelleten-1.0.7.dev0.tar.gz]
+[2023-07-02 15:52:55] INFO root fetch - processPackages [aleksis-app-buelleten]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_app_buelleten-2.0.dev0.tar.gz]
+[2023-07-02 15:52:55] INFO root fetch - main [MainThread]: End processing [aleksis-app-buelleten]: success
+[2023-07-02 15:52:56] INFO root fetch - processPackages [equilibrator-pathway]: Remove: archive file [/home/abi/fetcher/tmp/equilibrator-pathway-0.4.8b1.tar.gz]
+[2023-07-02 15:52:56] INFO root fetch - processPackages [equilibrator-pathway]: Remove: archive file [/home/abi/fetcher/tmp/equilibrator-pathway-0.4.8b2.tar.gz]
+[2023-07-02 15:52:56] INFO root fetch - main [MainThread]: End processing [equilibrator-pathway]: success
+[2023-07-02 15:53:26] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-07-02 15:53:26] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-07-02 15:53:26] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-07-02 15:53:26] INFO root fetch - main [MainThread]: Store serial: [18728982]
