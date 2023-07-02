@@ -15282,3 +15282,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 21:40:09] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.4-py3-none-any.whl.zip]
 [2023-07-02 21:40:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
 [2023-07-02 21:40:09] INFO root fetch - main [MainThread]: Store serial: [18731040]
+[2023-07-02 21:45:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18731040]
+[2023-07-02 21:45:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-02 21:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edc-model-form
+[2023-07-02 21:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gstreasy
+[2023-07-02 21:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lowrankdensity-demo
+[2023-07-02 21:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autodistill-blip
+[2023-07-02 21:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wagtail-cjkcms
+[2023-07-02 21:45:17] INFO root fetch - processPackages [gstreasy]: New version: [0.3.1] Old Version: [0.1.0]
+[2023-07-02 21:45:17] INFO root fetch - processPackages [edc-model-form]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 21:45:17] INFO root fetch - processPackages [wagtail-cjkcms]: New version: [23.7.1] Old Version: [23.6.2]
+[2023-07-02 21:45:17] INFO root fetch - processPackages [autodistill-blip]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-02 21:45:17] INFO root fetch - processPackages [lowrankdensity-demo]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-02 21:45:17] INFO root fetch - processPackages [autodistill-blip]: Downloading https://files.pythonhosted.org/packages/fc/b6/3d21e9a16d26874183cb08361245150bb408a8e887c1e87b3c9616ca75e4/autodistill-blip-0.1.1.tar.gz
+[2023-07-02 21:45:18] INFO root fetch - processPackages [edc-model-form]: Downloading https://files.pythonhosted.org/packages/f2/07/9ad0b04ab53ba54c0acf39d4ca39c614c0ea3a5fde8336c110036322c773/edc-model-form-0.1.8.tar.gz
+[2023-07-02 21:45:18] INFO root fetch - processPackages [lowrankdensity-demo]: Downloading https://files.pythonhosted.org/packages/4c/5f/7f589da9ebf6631f659a2ab7df55e0aa719875ca2f0c8e630ef736302bfd/lowrankdensity_demo-0.0.1.tar.gz
+[2023-07-02 21:45:18] INFO root fetch - processPackages [wagtail-cjkcms]: Downloading https://files.pythonhosted.org/packages/b6/6e/1024ebbcaa3124fb36a2479057323fdf14509511ca7ad758ec7aef51dffc/wagtail-cjkcms-23.6.2.tar.gz
+[2023-07-02 21:45:18] INFO root fetch - processPackages [gstreasy]: Downloading https://files.pythonhosted.org/packages/c6/8b/7acfcfecb11bdcb129c5d30d7f1c5f15bdf128c4893329d4c92a117ffc06/gstreasy-0.1.0.tar.gz
+[2023-07-02 21:45:18] INFO root fetch - processPackages [lowrankdensity-demo]: Downloading https://files.pythonhosted.org/packages/0d/f2/43de41e0751d8ef169fb0774ce6ef3b125a8efe4bff91e2ad7968529e702/lowrankdensity_demo-0.0.2.tar.gz
+[2023-07-02 21:45:18] INFO root fetch - processPackages [edc-model-form]: Downloading https://files.pythonhosted.org/packages/7f/2e/04eb526a59f7c918cc17a7314c159f4a6e2d904d95a6ca3c10218050da5d/edc-model-form-0.1.9.tar.gz
+[2023-07-02 21:45:18] INFO root fetch - processPackages [gstreasy]: Downloading https://files.pythonhosted.org/packages/9b/fe/322bc721cda5f1a5e0e0f94473b17dee13b9634b00e248d536c8400ecaf8/gstreasy-0.3.1.tar.gz
+[2023-07-02 21:45:18] INFO root fetch - processPackages [autodistill-blip]: Downloading https://files.pythonhosted.org/packages/dd/d5/fad154ae32930cbc08939073bf1d56299be77aeadfa8b60764b2b315d2a3/autodistill-blip-0.1.2.tar.gz
+[2023-07-02 21:45:18] INFO root fetch - processPackages [wagtail-cjkcms]: Downloading https://files.pythonhosted.org/packages/06/0e/bc7963f4e01ebc6e39b3aab1411653b3d94a409b50f427e85340c77ff4bd/wagtail-cjkcms-23.7.1.tar.gz
+[2023-07-02 21:45:18] INFO root fetch - processPackages [edc-model-form]: executing diffoscope
+[2023-07-02 21:45:18] INFO root fetch - processPackages [edc-model-form]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-model-form-0.1.8.tar.gz tmp/edc-model-form-0.1.9.tar.gz --markdown 20230702/e/edc-model-form/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 21:45:18] INFO root fetch - processPackages [lowrankdensity-demo]: executing diffoscope
+[2023-07-02 21:45:18] INFO root fetch - processPackages [lowrankdensity-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lowrankdensity_demo-0.0.1.tar.gz tmp/lowrankdensity_demo-0.0.2.tar.gz --markdown 20230702/l/lowrankdensity-demo/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-02 21:45:18] INFO root fetch - processPackages [gstreasy]: executing diffoscope
+[2023-07-02 21:45:18] INFO root fetch - processPackages [gstreasy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gstreasy-0.1.0.tar.gz tmp/gstreasy-0.3.1.tar.gz --markdown 20230702/g/gstreasy/0.1.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-02 21:45:18] INFO root fetch - processPackages [autodistill-blip]: executing diffoscope
+[2023-07-02 21:45:18] INFO root fetch - processPackages [autodistill-blip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autodistill-blip-0.1.1.tar.gz tmp/autodistill-blip-0.1.2.tar.gz --markdown 20230702/a/autodistill-blip/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-02 21:45:18] INFO root fetch - processPackages [wagtail-cjkcms]: executing diffoscope
+[2023-07-02 21:45:18] INFO root fetch - processPackages [wagtail-cjkcms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-cjkcms-23.6.2.tar.gz tmp/wagtail-cjkcms-23.7.1.tar.gz --markdown 20230702/w/wagtail-cjkcms/23.6.2-23.7.1/diff.md --exclude *.pyd
+[2023-07-02 21:45:19] INFO root fetch - processPackages [lowrankdensity-demo]: Remove: archive file [/home/abi/fetcher/tmp/lowrankdensity_demo-0.0.1.tar.gz]
+[2023-07-02 21:45:19] INFO root fetch - processPackages [lowrankdensity-demo]: Remove: archive file [/home/abi/fetcher/tmp/lowrankdensity_demo-0.0.2.tar.gz]
+[2023-07-02 21:45:19] INFO root fetch - main [MainThread]: End processing [lowrankdensity-demo]: success
+[2023-07-02 21:45:19] INFO root fetch - processPackages [autodistill-blip]: Remove: archive file [/home/abi/fetcher/tmp/autodistill-blip-0.1.1.tar.gz]
+[2023-07-02 21:45:19] INFO root fetch - processPackages [autodistill-blip]: Remove: archive file [/home/abi/fetcher/tmp/autodistill-blip-0.1.2.tar.gz]
+[2023-07-02 21:45:19] INFO root fetch - main [MainThread]: End processing [autodistill-blip]: success
+[2023-07-02 21:45:19] INFO root fetch - processPackages [edc-model-form]: Remove: archive file [/home/abi/fetcher/tmp/edc-model-form-0.1.8.tar.gz]
+[2023-07-02 21:45:19] INFO root fetch - processPackages [edc-model-form]: Remove: archive file [/home/abi/fetcher/tmp/edc-model-form-0.1.9.tar.gz]
+[2023-07-02 21:45:19] INFO root fetch - main [MainThread]: End processing [edc-model-form]: success
+[2023-07-02 21:45:19] INFO root fetch - processPackages [gstreasy]: Remove: archive file [/home/abi/fetcher/tmp/gstreasy-0.1.0.tar.gz]
+[2023-07-02 21:45:19] INFO root fetch - processPackages [gstreasy]: Remove: archive file [/home/abi/fetcher/tmp/gstreasy-0.3.1.tar.gz]
+[2023-07-02 21:45:19] INFO root fetch - main [MainThread]: End processing [gstreasy]: success
+[2023-07-02 21:45:21] INFO root fetch - processPackages [wagtail-cjkcms]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-cjkcms-23.6.2.tar.gz]
+[2023-07-02 21:45:21] INFO root fetch - processPackages [wagtail-cjkcms]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-cjkcms-23.7.1.tar.gz]
+[2023-07-02 21:45:21] INFO root fetch - main [MainThread]: End processing [wagtail-cjkcms]: success
+[2023-07-02 21:45:21] INFO root fetch - main [MainThread]: Store serial: [18731063]
