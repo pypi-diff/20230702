@@ -13792,3 +13792,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-02 19:58:56] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.4.0rc9-py3-none-any.whl.zip]
 [2023-07-02 19:58:56] INFO root fetch - main [MainThread]: End processing [mlrun]: success
 [2023-07-02 19:58:56] INFO root fetch - main [MainThread]: Store serial: [18730497]
+[2023-07-02 20:04:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18730497]
+[2023-07-02 20:04:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-02 20:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-homo-mathematician
+[2023-07-02 20:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jalali-calendar-cli
+[2023-07-02 20:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-robocopy
+[2023-07-02 20:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simplelinearregress
+[2023-07-02 20:04:05] WARNING root fetch - processPackages [simplelinearregress]: Skipping, unable to determine old version
+[2023-07-02 20:04:05] INFO root fetch - processPackages [jalali-calendar-cli]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-02 20:04:05] INFO root fetch - main [MainThread]: End processing [simplelinearregress] error
+[2023-07-02 20:04:05] INFO root fetch - processPackages [nonebot-plugin-homo-mathematician]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-02 20:04:05] INFO root fetch - processPackages [py-robocopy]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-02 20:04:05] INFO root fetch - processPackages [nonebot-plugin-homo-mathematician]: Downloading https://files.pythonhosted.org/packages/60/c2/b073899ce4585aabf5a5cfba7b507d74b5f98118111c4b6571a6d8f81130/nonebot_plugin_homo_mathematician-0.0.5.tar.gz
+[2023-07-02 20:04:05] INFO root fetch - processPackages [jalali-calendar-cli]: Downloading https://files.pythonhosted.org/packages/2e/1f/483be8abf8dee6be569f9e8c413617deeb32529020649700a24ac39f4f86/jalali_calendar_cli-0.1.5.tar.gz
+[2023-07-02 20:04:05] INFO root fetch - processPackages [py-robocopy]: Downloading https://files.pythonhosted.org/packages/51/1b/bdb2d0fced72e52a65b192c120059823308363a8909a5fe8512b0c6291fb/py-robocopy-0.0.3.tar.gz
+[2023-07-02 20:04:06] INFO root fetch - processPackages [nonebot-plugin-homo-mathematician]: Downloading https://files.pythonhosted.org/packages/6b/0e/7d1be75a6cb9f56e816e9b044c8becf4573460a9ef1ea8b080deee355574/nonebot_plugin_homo_mathematician-0.0.6.tar.gz
+[2023-07-02 20:04:06] INFO root fetch - processPackages [jalali-calendar-cli]: Downloading https://files.pythonhosted.org/packages/36/ea/ad0d35cdd6bd800af33efa806b568907f1448de8ca7662d35a8b7552bc79/jalali_calendar_cli-0.1.6.tar.gz
+[2023-07-02 20:04:06] INFO root fetch - processPackages [nonebot-plugin-homo-mathematician]: executing diffoscope
+[2023-07-02 20:04:06] INFO root fetch - processPackages [nonebot-plugin-homo-mathematician]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_homo_mathematician-0.0.5.tar.gz tmp/nonebot_plugin_homo_mathematician-0.0.6.tar.gz --markdown 20230702/n/nonebot-plugin-homo-mathematician/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-02 20:04:06] INFO root fetch - processPackages [py-robocopy]: Downloading https://files.pythonhosted.org/packages/19/85/7461abb26d79995afd88bc470bc693bbc8631c0eb3f1f7322739c9a0864b/py-robocopy-0.0.4.tar.gz
+[2023-07-02 20:04:06] INFO root fetch - processPackages [jalali-calendar-cli]: executing diffoscope
+[2023-07-02 20:04:06] INFO root fetch - processPackages [jalali-calendar-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jalali_calendar_cli-0.1.5.tar.gz tmp/jalali_calendar_cli-0.1.6.tar.gz --markdown 20230702/j/jalali-calendar-cli/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-02 20:04:06] INFO root fetch - processPackages [py-robocopy]: executing diffoscope
+[2023-07-02 20:04:06] INFO root fetch - processPackages [py-robocopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-robocopy-0.0.3.tar.gz tmp/py-robocopy-0.0.4.tar.gz --markdown 20230702/p/py-robocopy/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-02 20:04:07] INFO root fetch - processPackages [nonebot-plugin-homo-mathematician]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_homo_mathematician-0.0.5.tar.gz]
+[2023-07-02 20:04:07] INFO root fetch - processPackages [nonebot-plugin-homo-mathematician]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_homo_mathematician-0.0.6.tar.gz]
+[2023-07-02 20:04:07] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-homo-mathematician]: success
+[2023-07-02 20:04:07] INFO root fetch - processPackages [py-robocopy]: Remove: archive file [/home/abi/fetcher/tmp/py-robocopy-0.0.3.tar.gz]
+[2023-07-02 20:04:07] INFO root fetch - processPackages [py-robocopy]: Remove: archive file [/home/abi/fetcher/tmp/py-robocopy-0.0.4.tar.gz]
+[2023-07-02 20:04:07] INFO root fetch - main [MainThread]: End processing [py-robocopy]: success
+[2023-07-02 20:04:07] INFO root fetch - processPackages [jalali-calendar-cli]: Remove: archive file [/home/abi/fetcher/tmp/jalali_calendar_cli-0.1.5.tar.gz]
+[2023-07-02 20:04:07] INFO root fetch - processPackages [jalali-calendar-cli]: Remove: archive file [/home/abi/fetcher/tmp/jalali_calendar_cli-0.1.6.tar.gz]
+[2023-07-02 20:04:07] INFO root fetch - main [MainThread]: End processing [jalali-calendar-cli]: success
+[2023-07-02 20:04:07] INFO root fetch - main [MainThread]: Store serial: [18730511]
