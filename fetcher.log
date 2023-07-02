@@ -12761,3 +12761,75 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 18:50:07] INFO root fetch - processPackages [Dans-Diffraction]: Remove: archive file [/home/abi/fetcher/tmp/Dans_Diffraction-3.0.0.tar.gz]
 [2023-07-02 18:50:07] INFO root fetch - main [MainThread]: End processing [Dans-Diffraction]: success
 [2023-07-02 18:50:07] INFO root fetch - main [MainThread]: Store serial: [18730121]
+[2023-07-02 18:55:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18730121]
+[2023-07-02 18:55:17] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-02 18:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pex
+[2023-07-02 18:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygount
+[2023-07-02 18:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openapi-pydantic-models
+[2023-07-02 18:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: my-project-0880-10
+[2023-07-02 18:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastq2folder
+[2023-07-02 18:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyrepresent
+[2023-07-02 18:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: suisa-sendemeldung
+[2023-07-02 18:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aicoder
+[2023-07-02 18:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyCharacterAI
+[2023-07-02 18:55:17] INFO root fetch - processPackages [openapi-pydantic-models]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-02 18:55:17] INFO root fetch - processPackages [pygount]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-07-02 18:55:17] INFO root fetch - processPackages [pex]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-07-02 18:55:17] WARNING root fetch - processPackages [PyCharacterAI]: Skipping, unable to determine old version
+[2023-07-02 18:55:17] WARNING root fetch - processPackages [my-project-0880-10]: Skipping, unable to determine old version
+[2023-07-02 18:55:17] INFO root fetch - main [MainThread]: End processing [PyCharacterAI] error
+[2023-07-02 18:55:17] INFO root fetch - main [MainThread]: End processing [my-project-0880-10] error
+[2023-07-02 18:55:17] INFO root fetch - processPackages [aicoder]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-02 18:55:17] INFO root fetch - processPackages [pyrepresent]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-02 18:55:17] INFO root fetch - processPackages [suisa-sendemeldung]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-02 18:55:17] INFO root fetch - processPackages [fastq2folder]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-02 18:55:17] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/3c/04/f210d1c8853dba7c70add0a6485822f5541ab9ed32f18845ad64e15366e7/aicoder-0.3.8-py3-none-any.whl
+[2023-07-02 18:55:17] INFO root fetch - processPackages [pyrepresent]: Downloading https://files.pythonhosted.org/packages/1f/48/5575fc117018b5030e057676261d62becee842ddc8aa08cf7b6a8d52a6b4/pyrepresent-0.2.2.tar.gz
+[2023-07-02 18:55:17] INFO root fetch - processPackages [fastq2folder]: Downloading https://files.pythonhosted.org/packages/f6/9f/b58ccc01437ea30b7e05f09e95d27bc56ad441320d220ba2cc5dcadc12eb/fastq2folder-1.0.5.tar.gz
+[2023-07-02 18:55:17] INFO root fetch - processPackages [suisa-sendemeldung]: Downloading https://files.pythonhosted.org/packages/89/7e/f09050729548a8e1531f01639f1d2056a176503efef1ce43f67aaba91efe/suisa_sendemeldung-0.9.1.tar.gz
+[2023-07-02 18:55:17] INFO root fetch - processPackages [pex]: Downloading https://files.pythonhosted.org/packages/bc/74/287adfa37d7be93d3183305f3f1e9685ecf1f6dae715b25bef0d69553bfc/pex-2.1.98.tar.gz
+[2023-07-02 18:55:17] INFO root fetch - processPackages [openapi-pydantic-models]: Downloading https://files.pythonhosted.org/packages/34/3e/949b9c4dbf8219f2c1ccde2f30e564f811bae14343966d42476d80d0d228/openapi-pydantic-models-1.0.0.tar.gz
+[2023-07-02 18:55:17] INFO root fetch - processPackages [pygount]: Downloading https://files.pythonhosted.org/packages/90/bc/bb2810bc0e824a84d926d75f9976b0dee5e8bc8aa785ed23226af735b768/pygount-1.6.0.tar.gz
+[2023-07-02 18:55:17] INFO root fetch - processPackages [fastq2folder]: Downloading https://files.pythonhosted.org/packages/2c/3d/5c48111f81e30f16bba5de58704bdf267c20120d68aff8791ba50ad0217d/fastq2folder-1.0.6.tar.gz
+[2023-07-02 18:55:17] INFO root fetch - processPackages [suisa-sendemeldung]: Downloading https://files.pythonhosted.org/packages/d8/14/384be6dce5ce128664a9ee799f9be43b63883f1e9824f79c8e927f6d9402/suisa_sendemeldung-0.9.2.tar.gz
+[2023-07-02 18:55:17] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/ea/08/4a2976c118906b021e6ccf502f9e4632f028a9bd653358c313258fa582b4/aicoder-0.3.9-py3-none-any.whl
+[2023-07-02 18:55:17] INFO root fetch - processPackages [pyrepresent]: Downloading https://files.pythonhosted.org/packages/70/1d/0e94d6f61efc24a972827d1e4ebd478e20f9f23b43e8a8ec74a9a351a3a2/pyrepresent-0.2.3.tar.gz
+[2023-07-02 18:55:17] INFO root fetch - processPackages [pygount]: Downloading https://files.pythonhosted.org/packages/71/0e/c7d891315a721fa4197e501835ba181a6241decb289d65d71a815167b2dd/pygount-1.6.1.tar.gz
+[2023-07-02 18:55:17] INFO root fetch - processPackages [fastq2folder]: executing diffoscope
+[2023-07-02 18:55:17] INFO root fetch - processPackages [fastq2folder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastq2folder-1.0.5.tar.gz tmp/fastq2folder-1.0.6.tar.gz --markdown 20230702/f/fastq2folder/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-02 18:55:17] INFO root fetch - processPackages [openapi-pydantic-models]: Downloading https://files.pythonhosted.org/packages/e5/42/888fb76c014a5ee6a846201f13753b5e363b227509efdb946f9850e9bb8e/openapi-pydantic-models-1.0.1.tar.gz
+[2023-07-02 18:55:17] INFO root fetch - processPackages [suisa-sendemeldung]: executing diffoscope
+[2023-07-02 18:55:17] INFO root fetch - processPackages [suisa-sendemeldung]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suisa_sendemeldung-0.9.1.tar.gz tmp/suisa_sendemeldung-0.9.2.tar.gz --markdown 20230702/s/suisa-sendemeldung/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-02 18:55:17] INFO root fetch - processPackages [aicoder]: executing diffoscope
+[2023-07-02 18:55:17] INFO root fetch - processPackages [aicoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicoder-0.3.8-py3-none-any.whl.zip tmp/aicoder-0.3.9-py3-none-any.whl.zip --markdown 20230702/a/aicoder/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-02 18:55:18] INFO root fetch - processPackages [pyrepresent]: executing diffoscope
+[2023-07-02 18:55:18] INFO root fetch - processPackages [pyrepresent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrepresent-0.2.2.tar.gz tmp/pyrepresent-0.2.3.tar.gz --markdown 20230702/p/pyrepresent/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-02 18:55:18] INFO root fetch - processPackages [pygount]: executing diffoscope
+[2023-07-02 18:55:18] INFO root fetch - processPackages [pygount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygount-1.6.0.tar.gz tmp/pygount-1.6.1.tar.gz --markdown 20230702/p/pygount/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-07-02 18:55:18] INFO root fetch - processPackages [openapi-pydantic-models]: executing diffoscope
+[2023-07-02 18:55:18] INFO root fetch - processPackages [openapi-pydantic-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi-pydantic-models-1.0.0.tar.gz tmp/openapi-pydantic-models-1.0.1.tar.gz --markdown 20230702/o/openapi-pydantic-models/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-02 18:55:18] INFO root fetch - processPackages [pex]: Downloading https://files.pythonhosted.org/packages/f8/76/7e17f82344dd14a5a9cf76391cdf6edeede0e409432a319db98512d11375/pex-2.1.99.tar.gz
+[2023-07-02 18:55:18] INFO root fetch - processPackages [fastq2folder]: Remove: archive file [/home/abi/fetcher/tmp/fastq2folder-1.0.5.tar.gz]
+[2023-07-02 18:55:18] INFO root fetch - processPackages [fastq2folder]: Remove: archive file [/home/abi/fetcher/tmp/fastq2folder-1.0.6.tar.gz]
+[2023-07-02 18:55:18] INFO root fetch - main [MainThread]: End processing [fastq2folder]: success
+[2023-07-02 18:55:18] INFO root fetch - processPackages [pex]: executing diffoscope
+[2023-07-02 18:55:18] INFO root fetch - processPackages [pex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pex-2.1.98.tar.gz tmp/pex-2.1.99.tar.gz --markdown 20230702/p/pex/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-07-02 18:55:19] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.3.8-py3-none-any.whl.zip]
+[2023-07-02 18:55:19] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.3.9-py3-none-any.whl.zip]
+[2023-07-02 18:55:19] INFO root fetch - main [MainThread]: End processing [aicoder]: success
+[2023-07-02 18:55:19] INFO root fetch - processPackages [pyrepresent]: Remove: archive file [/home/abi/fetcher/tmp/pyrepresent-0.2.2.tar.gz]
+[2023-07-02 18:55:19] INFO root fetch - processPackages [pyrepresent]: Remove: archive file [/home/abi/fetcher/tmp/pyrepresent-0.2.3.tar.gz]
+[2023-07-02 18:55:19] INFO root fetch - main [MainThread]: End processing [pyrepresent]: success
+[2023-07-02 18:55:19] INFO root fetch - processPackages [suisa-sendemeldung]: Remove: archive file [/home/abi/fetcher/tmp/suisa_sendemeldung-0.9.1.tar.gz]
+[2023-07-02 18:55:19] INFO root fetch - processPackages [suisa-sendemeldung]: Remove: archive file [/home/abi/fetcher/tmp/suisa_sendemeldung-0.9.2.tar.gz]
+[2023-07-02 18:55:19] INFO root fetch - main [MainThread]: End processing [suisa-sendemeldung]: success
+[2023-07-02 18:55:19] INFO root fetch - processPackages [openapi-pydantic-models]: Remove: archive file [/home/abi/fetcher/tmp/openapi-pydantic-models-1.0.0.tar.gz]
+[2023-07-02 18:55:19] INFO root fetch - processPackages [openapi-pydantic-models]: Remove: archive file [/home/abi/fetcher/tmp/openapi-pydantic-models-1.0.1.tar.gz]
+[2023-07-02 18:55:19] INFO root fetch - main [MainThread]: End processing [openapi-pydantic-models]: success
+[2023-07-02 18:55:30] INFO root fetch - processPackages [pex]: Remove: archive file [/home/abi/fetcher/tmp/pex-2.1.98.tar.gz]
+[2023-07-02 18:55:30] INFO root fetch - processPackages [pex]: Remove: archive file [/home/abi/fetcher/tmp/pex-2.1.99.tar.gz]
+[2023-07-02 18:55:30] INFO root fetch - main [MainThread]: End processing [pex]: success
+[2023-07-02 18:56:11] INFO root fetch - processPackages [pygount]: Remove: archive file [/home/abi/fetcher/tmp/pygount-1.6.0.tar.gz]
+[2023-07-02 18:56:11] INFO root fetch - processPackages [pygount]: Remove: archive file [/home/abi/fetcher/tmp/pygount-1.6.1.tar.gz]
+[2023-07-02 18:56:11] INFO root fetch - main [MainThread]: End processing [pygount]: success
+[2023-07-02 18:56:11] INFO root fetch - main [MainThread]: Store serial: [18730150]
