@@ -2261,3 +2261,180 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 03:39:34] INFO root fetch - processPackages [querysource]: Remove: archive file [/home/abi/fetcher/tmp/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-02 03:39:34] INFO root fetch - main [MainThread]: End processing [querysource]: success
 [2023-07-02 03:39:34] INFO root fetch - main [MainThread]: Store serial: [18725655]
+[2023-07-02 03:44:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18725655]
+[2023-07-02 03:44:44] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-02 03:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Blockthon
+[2023-07-02 03:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sweetrpg-web-core
+[2023-07-02 03:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: weewx
+[2023-07-02 03:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-scipy
+[2023-07-02 03:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sweetrpg-db
+[2023-07-02 03:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sweetrpg-api-core
+[2023-07-02 03:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: terminal-manager
+[2023-07-02 03:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: get-eyedata
+[2023-07-02 03:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-sphinx
+[2023-07-02 03:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: b2sim
+[2023-07-02 03:44:44] INFO root fetch - processPackages [sweetrpg-web-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-02 03:44:44] INFO root fetch - processPackages [sweetrpg-db]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-02 03:44:44] INFO root fetch - processPackages [sweetrpg-api-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-02 03:44:44] INFO root fetch - processPackages [b2sim]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-02 03:44:44] INFO root fetch - processPackages [weewx]: New version: [5.0.0b6] Old Version: [5.0.0b5]
+[2023-07-02 03:44:44] INFO root fetch - processPackages [Blockthon]: New version: [4.6.9] Old Version: [3.6.9]
+[2023-07-02 03:44:44] INFO root fetch - processPackages [get-eyedata]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-02 03:44:44] INFO root fetch - processPackages [terminal-manager]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-02 03:44:44] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/10/78/7e4ec24c92190fa564c9ba8a1797ccda0c7472064d109da37e0d283f94d2/sweetrpg-web-core-0.0.98.tar.gz
+[2023-07-02 03:44:44] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-02 03:44:44] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-02 03:44:44] INFO root fetch - processPackages [sweetrpg-db]: Downloading https://files.pythonhosted.org/packages/a9/8d/3d3cba136965ab00c0338cfe26c6389ebecbad7a6f919918dee83c8706be/sweetrpg-db-0.0.98.tar.gz
+[2023-07-02 03:44:44] INFO root fetch - processPackages [sweetrpg-api-core]: Downloading https://files.pythonhosted.org/packages/5d/9d/2398efc534be1a806373637db31588bc65727faee8d3d4ad1e210310552e/sweetrpg-api-core-0.0.98.tar.gz
+[2023-07-02 03:44:44] INFO root fetch - processPackages [b2sim]: Downloading https://files.pythonhosted.org/packages/10/22/cdf4cd9bb6d80a04618ab0d4b05f106941aacea4f0dc7c4c61529b59eaa2/b2sim-1.0.3.tar.gz
+[2023-07-02 03:44:44] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-07-02 03:44:44] INFO root fetch - processPackages [get-eyedata]: Downloading https://files.pythonhosted.org/packages/01/df/2938d65fb6fe70b619f4ef56f28615fc1bbdf6dd3eed4c10f2c4f8ac0bb1/get_eyedata-1.3.1-py3-none-any.whl
+[2023-07-02 03:44:44] INFO root fetch - processPackages [terminal-manager]: Downloading https://files.pythonhosted.org/packages/c5/22/6da5bd7b3e9614a486af1ebeffadb9c393ecfe941223a1242ec7a3c25a11/terminal_manager-0.0.1.tar.gz
+[2023-07-02 03:44:44] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-07-02 03:44:44] INFO root fetch - processPackages [Blockthon]: Downloading https://files.pythonhosted.org/packages/f3/64/058de6ccde1e6d59e0eaa83ce486877f390f7f6c7720a817373fe755bf35/Blockthon-3.6.9.tar.gz
+[2023-07-02 03:44:44] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/bd/15/72a761101e501277066578a42896229ae4a254ecf7602e2e15f38b35310d/sweetrpg-web-core-0.0.99.tar.gz
+[2023-07-02 03:44:44] INFO root fetch - processPackages [sweetrpg-api-core]: Downloading https://files.pythonhosted.org/packages/bf/6c/3cd8f95074a8f63967790523ccf02ffe9aef45c9c675b0a443c0371e8e04/sweetrpg-api-core-0.0.99.tar.gz
+[2023-07-02 03:44:44] INFO root fetch - processPackages [sweetrpg-db]: Downloading https://files.pythonhosted.org/packages/cd/b0/462b503c41bce59517535ee1abde52ec10f2d1d9cfecfa361efd1369becb/sweetrpg-db-0.0.99.tar.gz
+[2023-07-02 03:44:44] INFO root fetch - processPackages [sweetrpg-web-core]: executing diffoscope
+[2023-07-02 03:44:44] INFO root fetch - processPackages [sweetrpg-web-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-web-core-0.0.98.tar.gz tmp/sweetrpg-web-core-0.0.99.tar.gz --markdown 20230702/s/sweetrpg-web-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-02 03:44:44] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-07-02 03:44:44] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-07-02 03:44:44] INFO root fetch - processPackages [sweetrpg-api-core]: executing diffoscope
+[2023-07-02 03:44:44] INFO root fetch - processPackages [sweetrpg-api-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-api-core-0.0.98.tar.gz tmp/sweetrpg-api-core-0.0.99.tar.gz --markdown 20230702/s/sweetrpg-api-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-02 03:44:44] INFO root fetch - processPackages [weewx]: Downloading https://files.pythonhosted.org/packages/7c/fd/9a8f6b81d81ac360f1529143b0818fbb8b024682f2e470cbc5b785f13a83/weewx-5.0.0b6.tar.gz
+[2023-07-02 03:44:44] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-07-02 03:44:44] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230702/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-02 03:44:44] INFO root fetch - processPackages [sweetrpg-db]: executing diffoscope
+[2023-07-02 03:44:44] INFO root fetch - processPackages [sweetrpg-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-db-0.0.98.tar.gz tmp/sweetrpg-db-0.0.99.tar.gz --markdown 20230702/s/sweetrpg-db/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-02 03:44:44] INFO root fetch - processPackages [b2sim]: Downloading https://files.pythonhosted.org/packages/0a/7d/452d267373c861263d76edb4e1609a7d1e7ae815e8d9b42e313ae3e55bf6/b2sim-1.0.4.tar.gz
+[2023-07-02 03:44:44] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-07-02 03:44:44] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230702/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-02 03:44:44] INFO root fetch - processPackages [get-eyedata]: Downloading https://files.pythonhosted.org/packages/da/c7/659a0f8c1ad7ee4314be19bdcf0bdbe162651c4be7d5d21612cec8ccea85/get_eyedata-1.3.2-py3-none-any.whl
+[2023-07-02 03:44:44] INFO root fetch - processPackages [terminal-manager]: Downloading https://files.pythonhosted.org/packages/c1/e9/4dfd8e70e799c5123798d75983e02b6c842b73f46dad71d119d3ebcf7899/terminal_manager-0.1.0.tar.gz
+[2023-07-02 03:44:44] INFO root fetch - processPackages [b2sim]: executing diffoscope
+[2023-07-02 03:44:44] INFO root fetch - processPackages [b2sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b2sim-1.0.3.tar.gz tmp/b2sim-1.0.4.tar.gz --markdown 20230702/b/b2sim/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-02 03:44:44] INFO root fetch - processPackages [get-eyedata]: executing diffoscope
+[2023-07-02 03:44:44] INFO root fetch - processPackages [get-eyedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/get_eyedata-1.3.1-py3-none-any.whl.zip tmp/get_eyedata-1.3.2-py3-none-any.whl.zip --markdown 20230702/g/get-eyedata/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-02 03:44:44] INFO root fetch - processPackages [terminal-manager]: executing diffoscope
+[2023-07-02 03:44:44] INFO root fetch - processPackages [terminal-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terminal_manager-0.0.1.tar.gz tmp/terminal_manager-0.1.0.tar.gz --markdown 20230702/t/terminal-manager/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-02 03:44:44] INFO root fetch - processPackages [Blockthon]: Downloading https://files.pythonhosted.org/packages/c8/2f/6f67d3d57e0aec4bba69c73d48a5e2ceba955f2890551f7ec5c6eb7edb6b/Blockthon-4.6.9.tar.gz
+[2023-07-02 03:44:44] INFO root fetch - processPackages [Blockthon]: executing diffoscope
+[2023-07-02 03:44:44] INFO root fetch - processPackages [Blockthon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Blockthon-3.6.9.tar.gz tmp/Blockthon-4.6.9.tar.gz --markdown 20230702/B/Blockthon/3.6.9-4.6.9/diff.md --exclude *.pyd
+[2023-07-02 03:44:45] INFO root fetch - processPackages [weewx]: executing diffoscope
+[2023-07-02 03:44:45] INFO root fetch - processPackages [weewx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weewx-5.0.0b5.tar.gz tmp/weewx-5.0.0b6.tar.gz --markdown 20230702/w/weewx/5.0.0b5-5.0.0b6/diff.md --exclude *.pyd
+[2023-07-02 03:44:46] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.98.tar.gz]
+[2023-07-02 03:44:46] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.99.tar.gz]
+[2023-07-02 03:44:46] INFO root fetch - processPackages [sweetrpg-web-core]: Start processing: proactive
+[2023-07-02 03:44:46] INFO root fetch - main [MainThread]: End processing [sweetrpg-web-core]: success
+[2023-07-02 03:44:46] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-07-02 03:44:46] INFO root fetch - processPackages [sweetrpg-db]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-db-0.0.98.tar.gz]
+[2023-07-02 03:44:46] INFO root fetch - processPackages [sweetrpg-db]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-db-0.0.99.tar.gz]
+[2023-07-02 03:44:46] INFO root fetch - processPackages [sweetrpg-db]: Start processing: sweetrpg-web-core
+[2023-07-02 03:44:46] INFO root fetch - main [MainThread]: End processing [sweetrpg-db]: success
+[2023-07-02 03:44:46] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-07-02 03:44:46] INFO root fetch - processPackages [sweetrpg-web-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-02 03:44:46] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-07-02 03:44:46] INFO root fetch - processPackages [proactive]: Start processing: catchem-alpha-zero
+[2023-07-02 03:44:46] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-07-02 03:44:46] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/10/78/7e4ec24c92190fa564c9ba8a1797ccda0c7472064d109da37e0d283f94d2/sweetrpg-web-core-0.0.98.tar.gz
+[2023-07-02 03:44:46] INFO root fetch - processPackages [catchem-alpha-zero]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-02 03:44:46] INFO root fetch - processPackages [catchem-alpha-zero]: Downloading https://files.pythonhosted.org/packages/1d/5c/2bc5be84925cf660530b87626d7f052ba9a6846d6c86ca3c8bb82e03089e/catchem-alpha-zero-0.0.2.tar.gz
+[2023-07-02 03:44:46] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-07-02 03:44:46] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-07-02 03:44:46] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: gthnk
+[2023-07-02 03:44:46] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-07-02 03:44:46] INFO root fetch - processPackages [terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/terminal_manager-0.0.1.tar.gz]
+[2023-07-02 03:44:46] INFO root fetch - processPackages [terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/terminal_manager-0.1.0.tar.gz]
+[2023-07-02 03:44:46] INFO root fetch - processPackages [terminal-manager]: Start processing: NewFunctionsPYC
+[2023-07-02 03:44:46] INFO root fetch - main [MainThread]: End processing [terminal-manager]: success
+[2023-07-02 03:44:46] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/bd/15/72a761101e501277066578a42896229ae4a254ecf7602e2e15f38b35310d/sweetrpg-web-core-0.0.99.tar.gz
+[2023-07-02 03:44:46] INFO root fetch - processPackages [gthnk]: New version: [0.8.1] Old Version: [0.7.0]
+[2023-07-02 03:44:46] INFO root fetch - processPackages [NewFunctionsPYC]: New version: [1.4.0b0] Old Version: [1.3.2]
+[2023-07-02 03:44:46] INFO root fetch - processPackages [get-eyedata]: Remove: archive file [/home/abi/fetcher/tmp/get_eyedata-1.3.1-py3-none-any.whl.zip]
+[2023-07-02 03:44:46] INFO root fetch - processPackages [get-eyedata]: Remove: archive file [/home/abi/fetcher/tmp/get_eyedata-1.3.2-py3-none-any.whl.zip]
+[2023-07-02 03:44:46] INFO root fetch - processPackages [get-eyedata]: Start processing: sweetrpg-api-core
+[2023-07-02 03:44:46] INFO root fetch - main [MainThread]: End processing [get-eyedata]: success
+[2023-07-02 03:44:46] INFO root fetch - processPackages [sweetrpg-web-core]: executing diffoscope
+[2023-07-02 03:44:46] INFO root fetch - processPackages [sweetrpg-web-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-web-core-0.0.98.tar.gz tmp/sweetrpg-web-core-0.0.99.tar.gz --markdown 20230702/s/sweetrpg-web-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-02 03:44:46] INFO root fetch - processPackages [sweetrpg-api-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-02 03:44:46] INFO root fetch - processPackages [sweetrpg-api-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-api-core-0.0.98.tar.gz]
+[2023-07-02 03:44:46] INFO root fetch - processPackages [sweetrpg-api-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-api-core-0.0.99.tar.gz]
+[2023-07-02 03:44:46] INFO root fetch - processPackages [sweetrpg-api-core]: Start processing: nbdev-django
+[2023-07-02 03:44:46] INFO root fetch - main [MainThread]: End processing [sweetrpg-api-core]: success
+[2023-07-02 03:44:46] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-07-02 03:44:46] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-07-02 03:44:46] INFO root fetch - processPackages [nbdev-scipy]: Start processing: proactive-jupyter-kernel
+[2023-07-02 03:44:46] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-07-02 03:44:46] INFO root fetch - processPackages [sweetrpg-api-core]: Downloading https://files.pythonhosted.org/packages/5d/9d/2398efc534be1a806373637db31588bc65727faee8d3d4ad1e210310552e/sweetrpg-api-core-0.0.98.tar.gz
+[2023-07-02 03:44:46] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-02 03:44:46] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-07-02 03:44:46] INFO root fetch - processPackages [gthnk]: Downloading https://files.pythonhosted.org/packages/4b/e9/908c514d1bf212ac30fad63efe9c55d756df6738c81470102c5bf2c12333/gthnk-0.7.0.tar.gz
+[2023-07-02 03:44:46] INFO root fetch - processPackages [catchem-alpha-zero]: Downloading https://files.pythonhosted.org/packages/82/94/7e806ed4b3b5085d5a15bc1b72fdc03b48c6f7b1f9e58acd97af629c5760/catchem-alpha-zero-0.0.3.tar.gz
+[2023-07-02 03:44:46] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-07-02 03:44:46] INFO root fetch - processPackages [NewFunctionsPYC]: Downloading https://files.pythonhosted.org/packages/08/b6/8460b0f50b03a77847ecaeaea81bdb43b1363d5959f1ce35c31d0bcbd1c5/NewFunctionsPYC-1.3.2.tar.gz
+[2023-07-02 03:44:46] INFO root fetch - processPackages [b2sim]: Remove: archive file [/home/abi/fetcher/tmp/b2sim-1.0.3.tar.gz]
+[2023-07-02 03:44:46] INFO root fetch - processPackages [b2sim]: Remove: archive file [/home/abi/fetcher/tmp/b2sim-1.0.4.tar.gz]
+[2023-07-02 03:44:46] INFO root fetch - processPackages [b2sim]: Start processing: sweetrpg-library-objects
+[2023-07-02 03:44:46] INFO root fetch - main [MainThread]: End processing [b2sim]: success
+[2023-07-02 03:44:46] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-07-02 03:44:46] INFO root fetch - processPackages [sweetrpg-api-core]: Downloading https://files.pythonhosted.org/packages/bf/6c/3cd8f95074a8f63967790523ccf02ffe9aef45c9c675b0a443c0371e8e04/sweetrpg-api-core-0.0.99.tar.gz
+[2023-07-02 03:44:46] INFO root fetch - processPackages [sweetrpg-library-objects]: New version: [0.0.86] Old Version: [0.0.85]
+[2023-07-02 03:44:46] INFO root fetch - processPackages [catchem-alpha-zero]: executing diffoscope
+[2023-07-02 03:44:46] INFO root fetch - processPackages [catchem-alpha-zero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catchem-alpha-zero-0.0.2.tar.gz tmp/catchem-alpha-zero-0.0.3.tar.gz --markdown 20230702/c/catchem-alpha-zero/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-02 03:44:46] INFO root fetch - processPackages [sweetrpg-api-core]: executing diffoscope
+[2023-07-02 03:44:46] INFO root fetch - processPackages [sweetrpg-api-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-api-core-0.0.98.tar.gz tmp/sweetrpg-api-core-0.0.99.tar.gz --markdown 20230702/s/sweetrpg-api-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-02 03:44:46] INFO root fetch - processPackages [sweetrpg-library-objects]: Downloading https://files.pythonhosted.org/packages/3b/8f/5bc5b1bf1cbb2bd23cd2883844aade1e32b222ebf1f95ad4be614a5a5fab/sweetrpg-library-objects-0.0.85.tar.gz
+[2023-07-02 03:44:46] INFO root fetch - processPackages [Blockthon]: Remove: archive file [/home/abi/fetcher/tmp/Blockthon-3.6.9.tar.gz]
+[2023-07-02 03:44:46] INFO root fetch - processPackages [Blockthon]: Remove: archive file [/home/abi/fetcher/tmp/Blockthon-4.6.9.tar.gz]
+[2023-07-02 03:44:46] INFO root fetch - processPackages [Blockthon]: Start processing: lokzzpylib
+[2023-07-02 03:44:46] INFO root fetch - main [MainThread]: End processing [Blockthon]: success
+[2023-07-02 03:44:46] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-07-02 03:44:46] INFO root fetch - processPackages [lokzzpylib]: New version: [0.1.dev1] Old Version: [0.1]
+[2023-07-02 03:44:46] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-07-02 03:44:46] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-07-02 03:44:46] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230702/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-02 03:44:46] INFO root fetch - processPackages [sweetrpg-library-objects]: Downloading https://files.pythonhosted.org/packages/5e/9f/6f76023a2ce599dcc8f9336e4ca97d11bf333da43274c8193887a32463aa/sweetrpg-library-objects-0.0.86.tar.gz
+[2023-07-02 03:44:46] INFO root fetch - processPackages [NewFunctionsPYC]: Downloading https://files.pythonhosted.org/packages/78/24/23990715b5f1ee22028efb8ff92bde87f2a45ae40a79c6c43d5a8b7cf329/NewFunctionsPYC-1.4.0b0.tar.gz
+[2023-07-02 03:44:46] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-07-02 03:44:46] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230702/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-07-02 03:44:46] INFO root fetch - processPackages [sweetrpg-library-objects]: executing diffoscope
+[2023-07-02 03:44:46] INFO root fetch - processPackages [sweetrpg-library-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-library-objects-0.0.85.tar.gz tmp/sweetrpg-library-objects-0.0.86.tar.gz --markdown 20230702/s/sweetrpg-library-objects/0.0.85-0.0.86/diff.md --exclude *.pyd
+[2023-07-02 03:44:46] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/fa/0a/c4d3e108c5fbf5dc394c584d45917120a600bfb03d5fb0a37c4aaaeb1c21/lokzzpylib-0.1.tar.gz
+[2023-07-02 03:44:46] INFO root fetch - processPackages [NewFunctionsPYC]: executing diffoscope
+[2023-07-02 03:44:46] INFO root fetch - processPackages [NewFunctionsPYC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NewFunctionsPYC-1.3.2.tar.gz tmp/NewFunctionsPYC-1.4.0b0.tar.gz --markdown 20230702/N/NewFunctionsPYC/1.3.2-1.4.0b0/diff.md --exclude *.pyd
+[2023-07-02 03:44:47] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/27/eb/2fe82183fc63cb6adf115a33600de4d7f47b2904e4cd31f60a2500b238a7/lokzzpylib-0.1.dev1.tar.gz
+[2023-07-02 03:44:47] INFO root fetch - processPackages [lokzzpylib]: executing diffoscope
+[2023-07-02 03:44:47] INFO root fetch - processPackages [lokzzpylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lokzzpylib-0.1.tar.gz tmp/lokzzpylib-0.1.dev1.tar.gz --markdown 20230702/l/lokzzpylib/0.1-0.1.dev1/diff.md --exclude *.pyd
+[2023-07-02 03:44:47] INFO root fetch - processPackages [gthnk]: Downloading https://files.pythonhosted.org/packages/88/c6/1f0c3a8b767898a4b3be09701be1f58c5d9bbe732586a5b90cc5231c252e/gthnk-0.8.1.tar.gz
+[2023-07-02 03:44:47] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.98.tar.gz]
+[2023-07-02 03:44:47] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.99.tar.gz]
+[2023-07-02 03:44:47] INFO root fetch - main [MainThread]: End processing [sweetrpg-web-core]: success
+[2023-07-02 03:44:47] INFO root fetch - processPackages [gthnk]: executing diffoscope
+[2023-07-02 03:44:47] INFO root fetch - processPackages [gthnk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gthnk-0.7.0.tar.gz tmp/gthnk-0.8.1.tar.gz --markdown 20230702/g/gthnk/0.7.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-02 03:44:47] INFO root fetch - processPackages [sweetrpg-api-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-api-core-0.0.98.tar.gz]
+[2023-07-02 03:44:47] INFO root fetch - processPackages [sweetrpg-api-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-api-core-0.0.99.tar.gz]
+[2023-07-02 03:44:47] INFO root fetch - main [MainThread]: End processing [sweetrpg-api-core]: success
+[2023-07-02 03:44:47] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-07-02 03:44:47] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-07-02 03:44:47] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-07-02 03:44:48] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-07-02 03:44:48] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-07-02 03:44:48] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-07-02 03:44:48] INFO root fetch - processPackages [sweetrpg-library-objects]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-library-objects-0.0.85.tar.gz]
+[2023-07-02 03:44:48] INFO root fetch - processPackages [sweetrpg-library-objects]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-library-objects-0.0.86.tar.gz]
+[2023-07-02 03:44:48] INFO root fetch - main [MainThread]: End processing [sweetrpg-library-objects]: success
+[2023-07-02 03:44:48] INFO root fetch - processPackages [NewFunctionsPYC]: Remove: archive file [/home/abi/fetcher/tmp/NewFunctionsPYC-1.3.2.tar.gz]
+[2023-07-02 03:44:48] INFO root fetch - processPackages [NewFunctionsPYC]: Remove: archive file [/home/abi/fetcher/tmp/NewFunctionsPYC-1.4.0b0.tar.gz]
+[2023-07-02 03:44:48] INFO root fetch - main [MainThread]: End processing [NewFunctionsPYC]: success
+[2023-07-02 03:44:48] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.1.tar.gz]
+[2023-07-02 03:44:48] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.1.dev1.tar.gz]
+[2023-07-02 03:44:48] INFO root fetch - main [MainThread]: End processing [lokzzpylib]: success
+[2023-07-02 03:44:49] INFO root fetch - processPackages [catchem-alpha-zero]: Remove: archive file [/home/abi/fetcher/tmp/catchem-alpha-zero-0.0.2.tar.gz]
+[2023-07-02 03:44:49] INFO root fetch - processPackages [catchem-alpha-zero]: Remove: archive file [/home/abi/fetcher/tmp/catchem-alpha-zero-0.0.3.tar.gz]
+[2023-07-02 03:44:49] INFO root fetch - main [MainThread]: End processing [catchem-alpha-zero]: success
+[2023-07-02 03:44:57] INFO root fetch - processPackages [gthnk]: Remove: archive file [/home/abi/fetcher/tmp/gthnk-0.7.0.tar.gz]
+[2023-07-02 03:44:57] INFO root fetch - processPackages [gthnk]: Remove: archive file [/home/abi/fetcher/tmp/gthnk-0.8.1.tar.gz]
+[2023-07-02 03:44:57] INFO root fetch - main [MainThread]: End processing [gthnk]: success
+[2023-07-02 03:47:45] ERROR root fetch - processPackages [weewx]: Timeout during execution of pkgdiff
+[2023-07-02 03:47:45] INFO root fetch - main [MainThread]: End processing [weewx] error
+[2023-07-02 03:47:45] INFO root fetch - main [MainThread]: Store serial: [18725714]
