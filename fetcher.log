@@ -15477,3 +15477,111 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 22:01:51] INFO root fetch - processPackages [konko]: Remove: archive file [/home/abi/fetcher/tmp/konko-0.0.6.tar.gz]
 [2023-07-02 22:01:51] INFO root fetch - main [MainThread]: End processing [konko]: success
 [2023-07-02 22:01:51] INFO root fetch - main [MainThread]: Store serial: [18731114]
+[2023-07-02 22:06:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18731114]
+[2023-07-02 22:07:01] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-02 22:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ast-monitor
+[2023-07-02 22:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-base-tier-validation-report
+[2023-07-02 22:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tropycal
+[2023-07-02 22:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dxsp
+[2023-07-02 22:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyhubio
+[2023-07-02 22:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oarepo-runtime
+[2023-07-02 22:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pipenv
+[2023-07-02 22:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tricky
+[2023-07-02 22:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scinumtools
+[2023-07-02 22:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyauthenticator
+[2023-07-02 22:07:01] INFO root fetch - processPackages [scinumtools]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-07-02 22:07:01] INFO root fetch - processPackages [pyauthenticator]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-02 22:07:01] INFO root fetch - processPackages [pipenv]: New version: [9.1.0] Old Version: [9.0.3]
+[2023-07-02 22:07:01] INFO root fetch - processPackages [dxsp]: New version: [3.1.2] Old Version: [3.1.1]
+[2023-07-02 22:07:01] INFO root fetch - processPackages [scinumtools]: Downloading https://files.pythonhosted.org/packages/8e/78/d1280434b6ea3762d0a598ecebfb6c5ee575d7d84861fb7d8f00f3cc2899/scinumtools-1.6.0.tar.gz
+[2023-07-02 22:07:01] INFO root fetch - processPackages [pyauthenticator]: Downloading https://files.pythonhosted.org/packages/b5/8f/802ac158758c783aa31ff8242b7286e002dbbfa9d219d26ec78abcaf6b90/pyauthenticator-0.0.7.tar.gz
+[2023-07-02 22:07:01] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/f0/fc/66c2fb36ab4db3ea3f918bb23e9c64d539d393c5578efe5f5f2de6e6c246/dxsp-3.1.1.tar.gz
+[2023-07-02 22:07:01] INFO root fetch - processPackages [pipenv]: Downloading https://files.pythonhosted.org/packages/df/eb/d796f85bc65969569a250c896c8b7d7aacb25a6857914c08cf4ed9bfc7f6/pipenv-9.0.3.tar.gz
+[2023-07-02 22:07:01] INFO root fetch - processPackages [odoo14-addon-base-tier-validation-report]: New version: [14.0.1.1.1.dev6] Old Version: [14.0.1.1.1.dev5]
+[2023-07-02 22:07:01] INFO root fetch - processPackages [tropycal]: New version: [1.0] Old Version: [0.6.1]
+[2023-07-02 22:07:01] INFO root fetch - processPackages [ast-monitor]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-07-02 22:07:01] INFO root fetch - processPackages [tricky]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 22:07:01] INFO root fetch - processPackages [pyhubio]: New version: [1.3] Old Version: [1.2]
+[2023-07-02 22:07:01] INFO root fetch - processPackages [oarepo-runtime]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-02 22:07:01] INFO root fetch - processPackages [scinumtools]: Downloading https://files.pythonhosted.org/packages/b2/e5/581ecbf7141f8ea8436ef923dcc2a8ca6d0e0e52667ad7937df84a5e17e5/scinumtools-1.6.1.tar.gz
+[2023-07-02 22:07:01] INFO root fetch - processPackages [odoo14-addon-base-tier-validation-report]: Downloading https://files.pythonhosted.org/packages/11/32/cb2b3878457d522089d76fadc9d032406e26d6cff8714fc1fc7b45e11de7/odoo14_addon_base_tier_validation_report-14.0.1.1.1.dev5-py3-none-any.whl
+[2023-07-02 22:07:01] INFO root fetch - processPackages [oarepo-runtime]: Downloading https://files.pythonhosted.org/packages/17/18/dcc7b08301454d96434492978faaaf5d8f943c96d8560d5742eb6824dfcd/oarepo-runtime-1.3.8.tar.gz
+[2023-07-02 22:07:01] INFO root fetch - processPackages [ast-monitor]: Downloading https://files.pythonhosted.org/packages/0a/3c/b2d7728f0605bb9cd347d4b84aa3c4e16db7d206b149eb267dee30dbb6b9/ast_monitor-0.3.3.tar.gz
+[2023-07-02 22:07:01] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/10/8c/80eafc94946194496f2b0c558db26e232e7347f81e576e2bf4a153ee1e14/dxsp-3.1.2.tar.gz
+[2023-07-02 22:07:01] INFO root fetch - processPackages [tricky]: Downloading https://files.pythonhosted.org/packages/2f/2a/44c79deec2f32f6e529c5ad9e72e6cb060867455cac6ce8a7c65a1f7eb37/tricky-0.0.8.tar.gz
+[2023-07-02 22:07:01] INFO root fetch - processPackages [scinumtools]: executing diffoscope
+[2023-07-02 22:07:01] INFO root fetch - processPackages [pyhubio]: Downloading https://files.pythonhosted.org/packages/6f/ee/8d03aa315a74688be968237746e06cd725786380c3e189241f71fe40323f/pyhubio-1.2.tar.gz
+[2023-07-02 22:07:01] INFO root fetch - processPackages [scinumtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scinumtools-1.6.0.tar.gz tmp/scinumtools-1.6.1.tar.gz --markdown 20230702/s/scinumtools/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-07-02 22:07:02] INFO root fetch - processPackages [pyauthenticator]: Downloading https://files.pythonhosted.org/packages/6e/fc/e1670e88271da53dbbbe736a41436a5e35268fc875a3440ab036758b8d40/pyauthenticator-0.0.8.tar.gz
+[2023-07-02 22:07:02] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-07-02 22:07:02] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-3.1.1.tar.gz tmp/dxsp-3.1.2.tar.gz --markdown 20230702/d/dxsp/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2023-07-02 22:07:02] INFO root fetch - processPackages [tropycal]: Downloading https://files.pythonhosted.org/packages/87/c8/ad769b90a76a7101681d7449810367765bed3de8d7ec76d37665958a19d8/tropycal-0.6.1.tar.gz
+[2023-07-02 22:07:02] INFO root fetch - processPackages [pyauthenticator]: executing diffoscope
+[2023-07-02 22:07:02] INFO root fetch - processPackages [pyauthenticator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyauthenticator-0.0.7.tar.gz tmp/pyauthenticator-0.0.8.tar.gz --markdown 20230702/p/pyauthenticator/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-02 22:07:02] INFO root fetch - processPackages [odoo14-addon-base-tier-validation-report]: Downloading https://files.pythonhosted.org/packages/7f/9b/d0e6ddea3f39855cafe404ed0ec9150b62bbe74012b579afaeabe6b6cc11/odoo14_addon_base_tier_validation_report-14.0.1.1.1.dev6-py3-none-any.whl
+[2023-07-02 22:07:02] INFO root fetch - processPackages [oarepo-runtime]: Downloading https://files.pythonhosted.org/packages/d4/a6/bbef3bd266677026b7d501efe81bd8f82ca65597bab5e89f9a32ef64b034/oarepo-runtime-1.3.9.tar.gz
+[2023-07-02 22:07:02] INFO root fetch - processPackages [odoo14-addon-base-tier-validation-report]: executing diffoscope
+[2023-07-02 22:07:02] INFO root fetch - processPackages [odoo14-addon-base-tier-validation-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_tier_validation_report-14.0.1.1.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_base_tier_validation_report-14.0.1.1.1.dev6-py3-none-any.whl.zip --markdown 20230702/o/odoo14-addon-base-tier-validation-report/14.0.1.1.1.dev5-14.0.1.1.1.dev6/diff.md --exclude *.pyd
+[2023-07-02 22:07:02] INFO root fetch - processPackages [ast-monitor]: Downloading https://files.pythonhosted.org/packages/6e/f0/d64de54f34ffec5034d70ac4d65062336df0e2187a6234245c3cd3facb63/ast_monitor-0.4.0.tar.gz
+[2023-07-02 22:07:02] INFO root fetch - processPackages [oarepo-runtime]: executing diffoscope
+[2023-07-02 22:07:02] INFO root fetch - processPackages [oarepo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-runtime-1.3.8.tar.gz tmp/oarepo-runtime-1.3.9.tar.gz --markdown 20230702/o/oarepo-runtime/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-02 22:07:02] INFO root fetch - processPackages [pyhubio]: Downloading https://files.pythonhosted.org/packages/7e/a4/ce9a0ae005e1deeaa19b3aa061a892bfaedf9562dfff19b9883f47b1bad9/pyhubio-1.3.tar.gz
+[2023-07-02 22:07:02] INFO root fetch - processPackages [pipenv]: Downloading https://files.pythonhosted.org/packages/53/66/3f7451f27ce52b194f289c5b3ceb6b159ba177a932bea1fef8e1885ccf92/pipenv-9.1.0.tar.gz
+[2023-07-02 22:07:02] INFO root fetch - processPackages [tricky]: Downloading https://files.pythonhosted.org/packages/1f/1f/69387711c8a77318f5bda8e316739b1e7e6d167ec044721b37c81944715a/tricky-0.0.9.tar.gz
+[2023-07-02 22:07:02] INFO root fetch - processPackages [ast-monitor]: executing diffoscope
+[2023-07-02 22:07:02] INFO root fetch - processPackages [ast-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ast_monitor-0.3.3.tar.gz tmp/ast_monitor-0.4.0.tar.gz --markdown 20230702/a/ast-monitor/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-07-02 22:07:02] INFO root fetch - processPackages [pyhubio]: executing diffoscope
+[2023-07-02 22:07:02] INFO root fetch - processPackages [pyhubio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhubio-1.2.tar.gz tmp/pyhubio-1.3.tar.gz --markdown 20230702/p/pyhubio/1.2-1.3/diff.md --exclude *.pyd
+[2023-07-02 22:07:02] INFO root fetch - processPackages [tricky]: executing diffoscope
+[2023-07-02 22:07:02] INFO root fetch - processPackages [tricky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tricky-0.0.8.tar.gz tmp/tricky-0.0.9.tar.gz --markdown 20230702/t/tricky/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 22:07:03] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-3.1.1.tar.gz]
+[2023-07-02 22:07:03] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-3.1.2.tar.gz]
+[2023-07-02 22:07:03] INFO root fetch - processPackages [dxsp]: Start processing: exactonline-prefect-tasks
+[2023-07-02 22:07:03] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-07-02 22:07:03] INFO root fetch - processPackages [exactonline-prefect-tasks]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 22:07:03] INFO root fetch - processPackages [pipenv]: executing diffoscope
+[2023-07-02 22:07:03] INFO root fetch - processPackages [pipenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipenv-9.0.3.tar.gz tmp/pipenv-9.1.0.tar.gz --markdown 20230702/p/pipenv/9.0.3-9.1.0/diff.md --exclude *.pyd
+[2023-07-02 22:07:03] INFO root fetch - processPackages [scinumtools]: Remove: archive file [/home/abi/fetcher/tmp/scinumtools-1.6.0.tar.gz]
+[2023-07-02 22:07:03] INFO root fetch - processPackages [scinumtools]: Remove: archive file [/home/abi/fetcher/tmp/scinumtools-1.6.1.tar.gz]
+[2023-07-02 22:07:03] INFO root fetch - processPackages [scinumtools]: Start processing: odoo-addon-base-tier-validation-report
+[2023-07-02 22:07:03] INFO root fetch - main [MainThread]: End processing [scinumtools]: success
+[2023-07-02 22:07:03] INFO root fetch - processPackages [pyauthenticator]: Remove: archive file [/home/abi/fetcher/tmp/pyauthenticator-0.0.7.tar.gz]
+[2023-07-02 22:07:03] INFO root fetch - processPackages [pyauthenticator]: Remove: archive file [/home/abi/fetcher/tmp/pyauthenticator-0.0.8.tar.gz]
+[2023-07-02 22:07:03] INFO root fetch - processPackages [pyauthenticator]: Start processing: cmeel-hwloc
+[2023-07-02 22:07:03] INFO root fetch - main [MainThread]: End processing [pyauthenticator]: success
+[2023-07-02 22:07:03] WARNING root fetch - processPackages [odoo-addon-base-tier-validation-report]: Skipping, unable to determine old version
+[2023-07-02 22:07:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-tier-validation-report] error
+[2023-07-02 22:07:03] INFO root fetch - processPackages [exactonline-prefect-tasks]: Downloading https://files.pythonhosted.org/packages/df/05/55c813d28d91aa37e4923564cc59d8c73568ac255d35f3c80aa0a119b57c/exactonline_prefect_tasks-0.0.8.tar.gz
+[2023-07-02 22:07:03] WARNING root fetch - processPackages [cmeel-hwloc]: Skipping, unable to determine old version
+[2023-07-02 22:07:03] INFO root fetch - main [MainThread]: End processing [cmeel-hwloc] error
+[2023-07-02 22:07:03] INFO root fetch - processPackages [tricky]: Remove: archive file [/home/abi/fetcher/tmp/tricky-0.0.8.tar.gz]
+[2023-07-02 22:07:03] INFO root fetch - processPackages [tricky]: Remove: archive file [/home/abi/fetcher/tmp/tricky-0.0.9.tar.gz]
+[2023-07-02 22:07:03] INFO root fetch - main [MainThread]: End processing [tricky]: success
+[2023-07-02 22:07:03] INFO root fetch - processPackages [pyhubio]: Remove: archive file [/home/abi/fetcher/tmp/pyhubio-1.2.tar.gz]
+[2023-07-02 22:07:03] INFO root fetch - processPackages [pyhubio]: Remove: archive file [/home/abi/fetcher/tmp/pyhubio-1.3.tar.gz]
+[2023-07-02 22:07:03] INFO root fetch - main [MainThread]: End processing [pyhubio]: success
+[2023-07-02 22:07:03] INFO root fetch - processPackages [ast-monitor]: Remove: archive file [/home/abi/fetcher/tmp/ast_monitor-0.3.3.tar.gz]
+[2023-07-02 22:07:03] INFO root fetch - processPackages [ast-monitor]: Remove: archive file [/home/abi/fetcher/tmp/ast_monitor-0.4.0.tar.gz]
+[2023-07-02 22:07:03] INFO root fetch - main [MainThread]: End processing [ast-monitor]: success
+[2023-07-02 22:07:04] INFO root fetch - processPackages [exactonline-prefect-tasks]: Downloading https://files.pythonhosted.org/packages/4e/ed/83cca4d83bbf2cd64a05487b3ba79b011df04633df74793a153286107037/exactonline_prefect_tasks-0.0.9.tar.gz
+[2023-07-02 22:07:04] INFO root fetch - processPackages [odoo14-addon-base-tier-validation-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_tier_validation_report-14.0.1.1.1.dev5-py3-none-any.whl.zip]
+[2023-07-02 22:07:04] INFO root fetch - processPackages [odoo14-addon-base-tier-validation-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_tier_validation_report-14.0.1.1.1.dev6-py3-none-any.whl.zip]
+[2023-07-02 22:07:04] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-tier-validation-report]: success
+[2023-07-02 22:07:04] INFO root fetch - processPackages [tropycal]: Downloading https://files.pythonhosted.org/packages/dc/8a/5c79dc9772441d40eb23095921d15638b7205e492ab8b281176500b621ab/tropycal-1.0.tar.gz
+[2023-07-02 22:07:04] INFO root fetch - processPackages [exactonline-prefect-tasks]: executing diffoscope
+[2023-07-02 22:07:04] INFO root fetch - processPackages [exactonline-prefect-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exactonline_prefect_tasks-0.0.8.tar.gz tmp/exactonline_prefect_tasks-0.0.9.tar.gz --markdown 20230702/e/exactonline-prefect-tasks/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 22:07:05] INFO root fetch - processPackages [oarepo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-runtime-1.3.8.tar.gz]
+[2023-07-02 22:07:05] INFO root fetch - processPackages [oarepo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-runtime-1.3.9.tar.gz]
+[2023-07-02 22:07:05] INFO root fetch - main [MainThread]: End processing [oarepo-runtime]: success
+[2023-07-02 22:07:05] INFO root fetch - processPackages [exactonline-prefect-tasks]: Remove: archive file [/home/abi/fetcher/tmp/exactonline_prefect_tasks-0.0.8.tar.gz]
+[2023-07-02 22:07:05] INFO root fetch - processPackages [exactonline-prefect-tasks]: Remove: archive file [/home/abi/fetcher/tmp/exactonline_prefect_tasks-0.0.9.tar.gz]
+[2023-07-02 22:07:05] INFO root fetch - main [MainThread]: End processing [exactonline-prefect-tasks]: success
+[2023-07-02 22:07:06] INFO root fetch - processPackages [tropycal]: executing diffoscope
+[2023-07-02 22:07:06] INFO root fetch - processPackages [tropycal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tropycal-0.6.1.tar.gz tmp/tropycal-1.0.tar.gz --markdown 20230702/t/tropycal/0.6.1-1.0/diff.md --exclude *.pyd
+[2023-07-02 22:07:08] INFO root fetch - processPackages [pipenv]: Remove: archive file [/home/abi/fetcher/tmp/pipenv-9.0.3.tar.gz]
+[2023-07-02 22:07:08] INFO root fetch - processPackages [pipenv]: Remove: archive file [/home/abi/fetcher/tmp/pipenv-9.1.0.tar.gz]
+[2023-07-02 22:07:08] INFO root fetch - main [MainThread]: End processing [pipenv]: success
+[2023-07-02 22:07:09] INFO root fetch - processPackages [tropycal]: Remove: archive file [/home/abi/fetcher/tmp/tropycal-0.6.1.tar.gz]
+[2023-07-02 22:07:09] INFO root fetch - processPackages [tropycal]: Remove: archive file [/home/abi/fetcher/tmp/tropycal-1.0.tar.gz]
+[2023-07-02 22:07:09] INFO root fetch - main [MainThread]: End processing [tropycal]: success
+[2023-07-02 22:07:09] INFO root fetch - main [MainThread]: Store serial: [18731157]
