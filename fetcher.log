@@ -9890,3 +9890,157 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 15:37:13] INFO root fetch - processPackages [cognite-pygen]: Remove: archive file [/home/abi/fetcher/tmp/cognite_pygen-0.9.1.tar.gz]
 [2023-07-02 15:37:13] INFO root fetch - main [MainThread]: End processing [cognite-pygen]: success
 [2023-07-02 15:37:13] INFO root fetch - main [MainThread]: Store serial: [18728869]
+[2023-07-02 15:42:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18728869]
+[2023-07-02 15:42:22] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-02 15:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyxel
+[2023-07-02 15:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: latexplotlib
+[2023-07-02 15:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crystals
+[2023-07-02 15:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: effortlesshtml
+[2023-07-02 15:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: foreverbull
+[2023-07-02 15:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: investlib
+[2023-07-02 15:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: a2dl
+[2023-07-02 15:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aleksis-app-postbuero
+[2023-07-02 15:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fbgemm-gpu-nightly
+[2023-07-02 15:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dictToXmlString
+[2023-07-02 15:42:22] INFO root fetch - processPackages [latexplotlib]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-07-02 15:42:22] INFO root fetch - processPackages [effortlesshtml]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-02 15:42:22] INFO root fetch - processPackages [crystals]: New version: [1.7.0a1] Old Version: [1.6.2]
+[2023-07-02 15:42:22] WARNING root fetch - processPackages [aleksis-app-postbuero]: Skipping, unable to determine old version
+[2023-07-02 15:42:22] INFO root fetch - processPackages [aleksis-app-postbuero]: Start processing: dibug
+[2023-07-02 15:42:22] INFO root fetch - processPackages [a2dl]: New version: [0.1.2a0] Old Version: [0.1.1]
+[2023-07-02 15:42:22] WARNING root fetch - processPackages [dictToXmlString]: Skipping, unable to determine old version
+[2023-07-02 15:42:22] INFO root fetch - main [MainThread]: End processing [aleksis-app-postbuero] error
+[2023-07-02 15:42:22] INFO root fetch - processPackages [investlib]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-02 15:42:22] INFO root fetch - processPackages [dictToXmlString]: Start processing: odoo-addon-openupgrade-scripts
+[2023-07-02 15:42:22] INFO root fetch - processPackages [foreverbull]: New version: [0.0.0.99.20230610094209] Old Version: [0.0.0.92]
+[2023-07-02 15:42:22] INFO root fetch - main [MainThread]: End processing [dictToXmlString] error
+[2023-07-02 15:42:22] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.7.1] Old Version: [2023.6.30]
+[2023-07-02 15:42:22] INFO root fetch - processPackages [pyxel]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-02 15:42:22] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: New version: [16.0.1.0.3.2] Old Version: [16.0.1.0.3]
+[2023-07-02 15:42:22] INFO root fetch - processPackages [dibug]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-02 15:42:22] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/a3/be/7e3302c6ec38647ae27b4d3493be26c1f47aea73089cf228caaf37c5692e/fbgemm_gpu_nightly-2023.6.30-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-02 15:42:22] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/32/59/6a44c0380e03be0e6a8665b2bc150dd61612537fcb5ce296b6c382ceb8d2/odoo_addon_openupgrade_scripts-16.0.1.0.3-py3-none-any.whl
+[2023-07-02 15:42:22] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 260059883>=10485760
+[2023-07-02 15:42:22] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Start processing: odoo-addon-auth-signup-verify-email
+[2023-07-02 15:42:22] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-07-02 15:42:22] INFO root fetch - processPackages [effortlesshtml]: Downloading https://files.pythonhosted.org/packages/4a/60/bc12b32139059ccc771e8d547f31ca8c3923c2b00fcf48d442cb5c04454b/effortlesshtml-0.1.0.tar.gz
+[2023-07-02 15:42:22] INFO root fetch - processPackages [a2dl]: Downloading https://files.pythonhosted.org/packages/11/13/39c5677ffb71a754543cdfc79d4f0ea39d0ec50804c2deb8e00246073dde/a2dl-0.1.1.tar.gz
+[2023-07-02 15:42:22] INFO root fetch - processPackages [odoo-addon-auth-signup-verify-email]: New version: [16.0.1.0.0.3] Old Version: [15.0.1.0.0.3]
+[2023-07-02 15:42:22] INFO root fetch - processPackages [investlib]: Downloading https://files.pythonhosted.org/packages/2e/13/2ab79c7864c9cea8c6481ebb15b4a81ff6fb4d79d318d5a8cb6138deb3ad/investlib-0.0.2.tar.gz
+[2023-07-02 15:42:22] WARNING root fetch - processPackages [a2dl]: Skipping package: exceeds size limit 19047273>=10485760
+[2023-07-02 15:42:22] INFO root fetch - processPackages [a2dl]: Start processing: namespace-mahdimir
+[2023-07-02 15:42:22] INFO root fetch - main [MainThread]: End processing [a2dl] error
+[2023-07-02 15:42:22] INFO root fetch - processPackages [namespace-mahdimir]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-02 15:42:22] INFO root fetch - processPackages [crystals]: Downloading https://files.pythonhosted.org/packages/30/88/4991ae504e028c50ec80a08a5cfdb5bf8d21c58e3bc6a49d7d467b2e864d/crystals-1.6.2.tar.gz
+[2023-07-02 15:42:22] INFO root fetch - processPackages [foreverbull]: Downloading https://files.pythonhosted.org/packages/83/5e/402b3d8e197a33b59ae5994459465f8027f487cad42df3747b300fe53dc4/foreverbull-0.0.0.92.tar.gz
+[2023-07-02 15:42:22] INFO root fetch - processPackages [pyxel]: Downloading https://files.pythonhosted.org/packages/ef/a6/26d576fa8b8e9f9299d583b529b8b99c511285ea95478dc49ddfa5ff2086/pyxel-1.9.8-cp37-abi3-win_amd64.whl
+[2023-07-02 15:42:22] INFO root fetch - processPackages [dibug]: Downloading https://files.pythonhosted.org/packages/f0/64/892a00ac30feb2c94a092e68841ca6ace7b30cd08aa0f349ea367f4a5841/dibug-0.5.0.tar.gz
+[2023-07-02 15:42:22] INFO root fetch - processPackages [namespace-mahdimir]: Downloading https://files.pythonhosted.org/packages/c2/53/57b537e36b7b325ca03664a8272ee5a3a9d8ef042d86f701ad4289c9641f/namespace_mahdimir-0.1.0.tar.gz
+[2023-07-02 15:42:22] INFO root fetch - processPackages [latexplotlib]: Downloading https://files.pythonhosted.org/packages/24/fe/701079b778a30e3bd995123388e1eed5632ba6a82a53748ab84e13ba5b50/latexplotlib-0.6.1.tar.gz
+[2023-07-02 15:42:22] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/c2/37/97d62f52934f83f4f706c3b2cedcd44361e4e0f574ceab7bd35eef68359e/odoo_addon_openupgrade_scripts-16.0.1.0.3.2-py3-none-any.whl
+[2023-07-02 15:42:22] INFO root fetch - processPackages [odoo-addon-auth-signup-verify-email]: Downloading https://files.pythonhosted.org/packages/ab/b7/d63b6d4ddee47b48fa27a54ba3562e0e98d65d011cb44d33a7e511e72726/odoo_addon_auth_signup_verify_email-15.0.1.0.0.3-py3-none-any.whl
+[2023-07-02 15:42:22] INFO root fetch - processPackages [investlib]: Downloading https://files.pythonhosted.org/packages/e0/6c/81098265c2eec723825c722ade8a744d04b23ad1cd667a605ea49ca714e2/investlib-0.0.3.tar.gz
+[2023-07-02 15:42:22] INFO root fetch - processPackages [effortlesshtml]: Downloading https://files.pythonhosted.org/packages/c3/30/ebaeb84df2c18233bf6cb33ac976643d4fe0ad12de7b6676b09c62d74301/effortlesshtml-0.1.1.tar.gz
+[2023-07-02 15:42:22] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: executing diffoscope
+[2023-07-02 15:42:22] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3-py3-none-any.whl.zip tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.2-py3-none-any.whl.zip --markdown 20230702/o/odoo-addon-openupgrade-scripts/16.0.1.0.3-16.0.1.0.3.2/diff.md --exclude *.pyd
+[2023-07-02 15:42:22] INFO root fetch - processPackages [dibug]: Downloading https://files.pythonhosted.org/packages/74/7a/10fa425d98ed3d14a8a8ad7fbb1aba50ecb098c5d02efd044cfc3bb79eb1/dibug-0.5.1.tar.gz
+[2023-07-02 15:42:22] INFO root fetch - processPackages [effortlesshtml]: executing diffoscope
+[2023-07-02 15:42:22] INFO root fetch - processPackages [effortlesshtml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/effortlesshtml-0.1.0.tar.gz tmp/effortlesshtml-0.1.1.tar.gz --markdown 20230702/e/effortlesshtml/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-02 15:42:22] INFO root fetch - processPackages [investlib]: executing diffoscope
+[2023-07-02 15:42:22] INFO root fetch - processPackages [crystals]: Downloading https://files.pythonhosted.org/packages/3c/b1/5f4ec4b2ef1856e6a5d72a193a4bb758518a5d111763c980580463faf88a/crystals-1.7.0a1-cp39-cp39-win_amd64.whl
+[2023-07-02 15:42:22] INFO root fetch - processPackages [investlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/investlib-0.0.2.tar.gz tmp/investlib-0.0.3.tar.gz --markdown 20230702/i/investlib/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-02 15:42:22] INFO root fetch - processPackages [namespace-mahdimir]: Downloading https://files.pythonhosted.org/packages/6a/8e/d87993334e119a8a675c9af750f22bc550b46a743196dcba30cbeea3299a/namespace_mahdimir-0.1.1.tar.gz
+[2023-07-02 15:42:22] INFO root fetch - processPackages [dibug]: executing diffoscope
+[2023-07-02 15:42:23] INFO root fetch - processPackages [dibug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dibug-0.5.0.tar.gz tmp/dibug-0.5.1.tar.gz --markdown 20230702/d/dibug/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-02 15:42:23] INFO root fetch - processPackages [namespace-mahdimir]: executing diffoscope
+[2023-07-02 15:42:23] INFO root fetch - processPackages [namespace-mahdimir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namespace_mahdimir-0.1.0.tar.gz tmp/namespace_mahdimir-0.1.1.tar.gz --markdown 20230702/n/namespace-mahdimir/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-02 15:42:23] INFO root fetch - processPackages [foreverbull]: Downloading https://files.pythonhosted.org/packages/6e/c3/cf13499a255fd30c5d6ccd05686ba0af46cbde2f1cb23b7a4e121a7e23ee/foreverbull-0.0.0.99.20230610094209.tar.gz
+[2023-07-02 15:42:23] INFO root fetch - processPackages [latexplotlib]: Downloading https://files.pythonhosted.org/packages/d8/d8/17dbd268cbd47d6259a33d74e746ceb4a4f8903b4b0f78a05a61544945bc/latexplotlib-0.7.0.tar.gz
+[2023-07-02 15:42:23] INFO root fetch - processPackages [odoo-addon-auth-signup-verify-email]: Downloading https://files.pythonhosted.org/packages/31/3e/1f37bdb930dac13a4043f9938968d0e8ef7547b6bd8f55db78ba119749d6/odoo_addon_auth_signup_verify_email-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-02 15:42:23] INFO root fetch - processPackages [crystals]: executing diffoscope
+[2023-07-02 15:42:23] INFO root fetch - processPackages [crystals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crystals-1.6.2.tar.gz tmp/crystals-1.7.0a1-cp39-cp39-win_amd64.whl.zip --markdown 20230702/c/crystals/1.6.2-1.7.0a1/diff.md --exclude *.pyd
+[2023-07-02 15:42:23] INFO root fetch - processPackages [latexplotlib]: executing diffoscope
+[2023-07-02 15:42:23] INFO root fetch - processPackages [latexplotlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latexplotlib-0.6.1.tar.gz tmp/latexplotlib-0.7.0.tar.gz --markdown 20230702/l/latexplotlib/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-07-02 15:42:23] INFO root fetch - processPackages [odoo-addon-auth-signup-verify-email]: executing diffoscope
+[2023-07-02 15:42:23] INFO root fetch - processPackages [odoo-addon-auth-signup-verify-email]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_auth_signup_verify_email-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_auth_signup_verify_email-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230702/o/odoo-addon-auth-signup-verify-email/15.0.1.0.0.3-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-07-02 15:42:23] INFO root fetch - processPackages [foreverbull]: executing diffoscope
+[2023-07-02 15:42:23] INFO root fetch - processPackages [foreverbull]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foreverbull-0.0.0.92.tar.gz tmp/foreverbull-0.0.0.99.20230610094209.tar.gz --markdown 20230702/f/foreverbull/0.0.0.92-0.0.0.99.20230610094209/diff.md --exclude *.pyd
+[2023-07-02 15:42:23] INFO root fetch - processPackages [pyxel]: Downloading https://files.pythonhosted.org/packages/1f/7f/cb80db464bdf179b5965b0d550485ef4ecf471621622c1aae681515d460f/pyxel-1.9.9-cp37-abi3-win_amd64.whl
+[2023-07-02 15:42:24] INFO root fetch - processPackages [effortlesshtml]: Remove: archive file [/home/abi/fetcher/tmp/effortlesshtml-0.1.0.tar.gz]
+[2023-07-02 15:42:24] INFO root fetch - processPackages [effortlesshtml]: Remove: archive file [/home/abi/fetcher/tmp/effortlesshtml-0.1.1.tar.gz]
+[2023-07-02 15:42:24] INFO root fetch - processPackages [effortlesshtml]: Start processing: eradiate
+[2023-07-02 15:42:24] INFO root fetch - main [MainThread]: End processing [effortlesshtml]: success
+[2023-07-02 15:42:24] INFO root fetch - processPackages [eradiate]: New version: [0.23.2rc4] Old Version: [0.23.2rc3]
+[2023-07-02 15:42:24] INFO root fetch - processPackages [pyxel]: executing diffoscope
+[2023-07-02 15:42:24] INFO root fetch - processPackages [pyxel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxel-1.9.8-cp37-abi3-win_amd64.whl.zip tmp/pyxel-1.9.9-cp37-abi3-win_amd64.whl.zip --markdown 20230702/p/pyxel/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-02 15:42:24] INFO root fetch - processPackages [dibug]: Remove: archive file [/home/abi/fetcher/tmp/dibug-0.5.0.tar.gz]
+[2023-07-02 15:42:24] INFO root fetch - processPackages [dibug]: Remove: archive file [/home/abi/fetcher/tmp/dibug-0.5.1.tar.gz]
+[2023-07-02 15:42:24] INFO root fetch - processPackages [dibug]: Start processing: xklb
+[2023-07-02 15:42:24] INFO root fetch - main [MainThread]: End processing [dibug]: success
+[2023-07-02 15:42:24] INFO root fetch - processPackages [xklb]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-02 15:42:24] INFO root fetch - processPackages [eradiate]: Downloading https://files.pythonhosted.org/packages/5b/a8/dfe3cedfd05693e2885fa9a564830f1b2ff1677bb5ca6f803bf93af57a46/eradiate-0.23.2rc3.tar.gz
+[2023-07-02 15:42:24] INFO root fetch - processPackages [namespace-mahdimir]: Remove: archive file [/home/abi/fetcher/tmp/namespace_mahdimir-0.1.0.tar.gz]
+[2023-07-02 15:42:24] INFO root fetch - processPackages [namespace-mahdimir]: Remove: archive file [/home/abi/fetcher/tmp/namespace_mahdimir-0.1.1.tar.gz]
+[2023-07-02 15:42:24] INFO root fetch - processPackages [namespace-mahdimir]: Start processing: minifit
+[2023-07-02 15:42:24] INFO root fetch - main [MainThread]: End processing [namespace-mahdimir]: success
+[2023-07-02 15:42:24] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/10/78/158da1876f9993e387cbd6f3e863998fb3d36545c88820f91a57f7a97b99/xklb-2.2.8.tar.gz
+[2023-07-02 15:42:24] INFO root fetch - processPackages [minifit]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-02 15:42:24] INFO root fetch - processPackages [crystals]: Remove: archive file [/home/abi/fetcher/tmp/crystals-1.6.2.tar.gz]
+[2023-07-02 15:42:24] INFO root fetch - processPackages [crystals]: Remove: archive file [/home/abi/fetcher/tmp/crystals-1.7.0a1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-02 15:42:24] INFO root fetch - processPackages [crystals]: Start processing: hkkang-utils
+[2023-07-02 15:42:24] INFO root fetch - main [MainThread]: End processing [crystals]: success
+[2023-07-02 15:42:24] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/21/af/fbdd09ebcfd5aa404fbf007cfe827b2b56fcfd19c73cc4b3f7f672fe0b3c/xklb-2.2.9.tar.gz
+[2023-07-02 15:42:24] INFO root fetch - processPackages [hkkang-utils]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-02 15:42:24] INFO root fetch - processPackages [odoo-addon-auth-signup-verify-email]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_signup_verify_email-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-02 15:42:24] INFO root fetch - processPackages [odoo-addon-auth-signup-verify-email]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_signup_verify_email-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-02 15:42:24] INFO root fetch - processPackages [odoo-addon-auth-signup-verify-email]: Start processing: aleksis-app-paweljong
+[2023-07-02 15:42:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-auth-signup-verify-email]: success
+[2023-07-02 15:42:24] INFO root fetch - processPackages [hkkang-utils]: Downloading https://files.pythonhosted.org/packages/e2/b1/253a66cf5551d4fde43848e257bf43fffb8cd6e591e75ce1cc58fe162af1/hkkang_utils-0.2.0.tar.gz
+[2023-07-02 15:42:24] INFO root fetch - processPackages [minifit]: Downloading https://files.pythonhosted.org/packages/9f/35/beb078e2d2d04a7651c8c5da3943f9152510f9a91fe126741f14ee6e042c/minifit-1.0.2.tar.gz
+[2023-07-02 15:42:24] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-07-02 15:42:24] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.2.8.tar.gz tmp/xklb-2.2.9.tar.gz --markdown 20230702/x/xklb/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-02 15:42:24] INFO root fetch - processPackages [investlib]: Remove: archive file [/home/abi/fetcher/tmp/investlib-0.0.2.tar.gz]
+[2023-07-02 15:42:24] INFO root fetch - processPackages [investlib]: Remove: archive file [/home/abi/fetcher/tmp/investlib-0.0.3.tar.gz]
+[2023-07-02 15:42:24] INFO root fetch - main [MainThread]: End processing [investlib]: success
+[2023-07-02 15:42:24] INFO root fetch - processPackages [aleksis-app-paweljong]: New version: [2.0.dev0] Old Version: [1.9]
+[2023-07-02 15:42:24] INFO root fetch - processPackages [hkkang-utils]: Downloading https://files.pythonhosted.org/packages/9c/d4/e66a22bdc847320832d635193ef067af9eb2f652aa30a75b15e804c8d43a/hkkang_utils-0.2.1.tar.gz
+[2023-07-02 15:42:24] INFO root fetch - processPackages [hkkang-utils]: executing diffoscope
+[2023-07-02 15:42:24] INFO root fetch - processPackages [hkkang-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkkang_utils-0.2.0.tar.gz tmp/hkkang_utils-0.2.1.tar.gz --markdown 20230702/h/hkkang-utils/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-02 15:42:25] INFO root fetch - processPackages [foreverbull]: Remove: archive file [/home/abi/fetcher/tmp/foreverbull-0.0.0.92.tar.gz]
+[2023-07-02 15:42:25] INFO root fetch - processPackages [foreverbull]: Remove: archive file [/home/abi/fetcher/tmp/foreverbull-0.0.0.99.20230610094209.tar.gz]
+[2023-07-02 15:42:25] INFO root fetch - main [MainThread]: End processing [foreverbull]: success
+[2023-07-02 15:42:25] INFO root fetch - processPackages [minifit]: Downloading https://files.pythonhosted.org/packages/68/88/a95e55a0272405d1d1c8b2db2cd6acf86ba3d1df4be9d86898e73381585a/minifit-1.0.3.tar.gz
+[2023-07-02 15:42:25] INFO root fetch - processPackages [minifit]: executing diffoscope
+[2023-07-02 15:42:25] INFO root fetch - processPackages [minifit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minifit-1.0.2.tar.gz tmp/minifit-1.0.3.tar.gz --markdown 20230702/m/minifit/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-02 15:42:25] INFO root fetch - processPackages [latexplotlib]: Remove: archive file [/home/abi/fetcher/tmp/latexplotlib-0.6.1.tar.gz]
+[2023-07-02 15:42:25] INFO root fetch - processPackages [latexplotlib]: Remove: archive file [/home/abi/fetcher/tmp/latexplotlib-0.7.0.tar.gz]
+[2023-07-02 15:42:25] INFO root fetch - main [MainThread]: End processing [latexplotlib]: success
+[2023-07-02 15:42:25] INFO root fetch - processPackages [aleksis-app-paweljong]: Downloading https://files.pythonhosted.org/packages/a4/da/2106847a7bde3073995ada9a3f5eb543ba9da39e7de39d1f9728c8d966dc/AlekSIS-App-Paweljong-1.9.tar.gz
+[2023-07-02 15:42:25] INFO root fetch - processPackages [eradiate]: Downloading https://files.pythonhosted.org/packages/99/04/2067a3d532d7e3adc4c14796ccdbef87c09d2d970827975a2ef1451fa97a/eradiate-0.23.2rc4.tar.gz
+[2023-07-02 15:42:25] INFO root fetch - processPackages [eradiate]: executing diffoscope
+[2023-07-02 15:42:25] INFO root fetch - processPackages [eradiate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eradiate-0.23.2rc3.tar.gz tmp/eradiate-0.23.2rc4.tar.gz --markdown 20230702/e/eradiate/0.23.2rc3-0.23.2rc4/diff.md --exclude *.pyd
+[2023-07-02 15:42:25] INFO root fetch - processPackages [aleksis-app-paweljong]: Downloading https://files.pythonhosted.org/packages/2e/f0/33decc2751eb9b338387f54e34be1c08e1e9f9709520a527c947e5cb4cdf/aleksis_app_paweljong-2.0.dev0.tar.gz
+[2023-07-02 15:42:25] INFO root fetch - processPackages [aleksis-app-paweljong]: executing diffoscope
+[2023-07-02 15:42:25] INFO root fetch - processPackages [aleksis-app-paweljong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AlekSIS-App-Paweljong-1.9.tar.gz tmp/aleksis_app_paweljong-2.0.dev0.tar.gz --markdown 20230702/a/aleksis-app-paweljong/1.9-2.0.dev0/diff.md --exclude *.pyd
+[2023-07-02 15:42:25] INFO root fetch - processPackages [pyxel]: Remove: archive file [/home/abi/fetcher/tmp/pyxel-1.9.8-cp37-abi3-win_amd64.whl.zip]
+[2023-07-02 15:42:25] INFO root fetch - processPackages [pyxel]: Remove: archive file [/home/abi/fetcher/tmp/pyxel-1.9.9-cp37-abi3-win_amd64.whl.zip]
+[2023-07-02 15:42:25] INFO root fetch - main [MainThread]: End processing [pyxel]: success
+[2023-07-02 15:42:26] INFO root fetch - processPackages [hkkang-utils]: Remove: archive file [/home/abi/fetcher/tmp/hkkang_utils-0.2.0.tar.gz]
+[2023-07-02 15:42:26] INFO root fetch - processPackages [hkkang-utils]: Remove: archive file [/home/abi/fetcher/tmp/hkkang_utils-0.2.1.tar.gz]
+[2023-07-02 15:42:26] INFO root fetch - main [MainThread]: End processing [hkkang-utils]: success
+[2023-07-02 15:42:26] INFO root fetch - processPackages [minifit]: Remove: archive file [/home/abi/fetcher/tmp/minifit-1.0.2.tar.gz]
+[2023-07-02 15:42:26] INFO root fetch - processPackages [minifit]: Remove: archive file [/home/abi/fetcher/tmp/minifit-1.0.3.tar.gz]
+[2023-07-02 15:42:26] INFO root fetch - main [MainThread]: End processing [minifit]: success
+[2023-07-02 15:42:27] INFO root fetch - processPackages [aleksis-app-paweljong]: Remove: archive file [/home/abi/fetcher/tmp/AlekSIS-App-Paweljong-1.9.tar.gz]
+[2023-07-02 15:42:27] INFO root fetch - processPackages [aleksis-app-paweljong]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_app_paweljong-2.0.dev0.tar.gz]
+[2023-07-02 15:42:27] INFO root fetch - main [MainThread]: End processing [aleksis-app-paweljong]: success
+[2023-07-02 15:42:28] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3-py3-none-any.whl.zip]
+[2023-07-02 15:42:28] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.2-py3-none-any.whl.zip]
+[2023-07-02 15:42:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
+[2023-07-02 15:42:29] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.8.tar.gz]
+[2023-07-02 15:42:29] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.9.tar.gz]
+[2023-07-02 15:42:29] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-07-02 15:42:31] INFO root fetch - processPackages [eradiate]: Remove: archive file [/home/abi/fetcher/tmp/eradiate-0.23.2rc3.tar.gz]
+[2023-07-02 15:42:31] INFO root fetch - processPackages [eradiate]: Remove: archive file [/home/abi/fetcher/tmp/eradiate-0.23.2rc4.tar.gz]
+[2023-07-02 15:42:31] INFO root fetch - main [MainThread]: End processing [eradiate]: success
+[2023-07-02 15:42:31] INFO root fetch - main [MainThread]: Store serial: [18728949]
