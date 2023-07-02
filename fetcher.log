@@ -14759,3 +14759,178 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-02 21:08:28] INFO root fetch - processPackages [edc]: Remove: archive file [/home/abi/fetcher/tmp/edc-0.5.0.tar.gz]
 [2023-07-02 21:08:28] INFO root fetch - main [MainThread]: End processing [edc]: success
 [2023-07-02 21:08:28] INFO root fetch - main [MainThread]: Store serial: [18730841]
+[2023-07-02 21:13:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18730841]
+[2023-07-02 21:13:37] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-02 21:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opensesame-core
+[2023-07-02 21:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kayle
+[2023-07-02 21:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-robocopy
+[2023-07-02 21:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cookieslicer
+[2023-07-02 21:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opensesame-extension-osweb
+[2023-07-02 21:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prepup
+[2023-07-02 21:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: doubleblind
+[2023-07-02 21:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: inflect
+[2023-07-02 21:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: twitter-api-client
+[2023-07-02 21:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oarepo-cli
+[2023-07-02 21:13:37] INFO root fetch - processPackages [kayle]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-02 21:13:37] INFO root fetch - processPackages [opensesame-core]: New version: [4.0.0a5] Old Version: [4.0.0a48]
+[2023-07-02 21:13:37] INFO root fetch - processPackages [py-robocopy]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-02 21:13:37] INFO root fetch - processPackages [opensesame-extension-osweb]: New version: [2.0.0.0a8] Old Version: [2.0.0.0a7]
+[2023-07-02 21:13:37] INFO root fetch - processPackages [cookieslicer]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-07-02 21:13:37] WARNING root fetch - processPackages [doubleblind]: Skipping, unable to determine old version
+[2023-07-02 21:13:37] INFO root fetch - processPackages [doubleblind]: Start processing: inflect
+[2023-07-02 21:13:37] INFO root fetch - main [MainThread]: End processing [doubleblind] error
+[2023-07-02 21:13:37] INFO root fetch - processPackages [prepup]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-02 21:13:37] INFO root fetch - processPackages [oarepo-cli]: New version: [11.1.6] Old Version: [11.1.5]
+[2023-07-02 21:13:37] INFO root fetch - processPackages [inflect]: New version: [6.0.5] Old Version: [6.0.4]
+[2023-07-02 21:13:37] INFO root fetch - processPackages [twitter-api-client]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-02 21:13:37] INFO root fetch - processPackages [inflect]: New version: [6.0.5] Old Version: [6.0.4]
+[2023-07-02 21:13:37] INFO root fetch - processPackages [py-robocopy]: Downloading https://files.pythonhosted.org/packages/19/85/7461abb26d79995afd88bc470bc693bbc8631c0eb3f1f7322739c9a0864b/py-robocopy-0.0.4.tar.gz
+[2023-07-02 21:13:37] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/67/2f/c2b0ed980879a450cb788e3b91ebff7d95246ba19fd8d5183109141e9ffd/oarepo-cli-11.1.5.tar.gz
+[2023-07-02 21:13:38] INFO root fetch - processPackages [prepup]: Downloading https://files.pythonhosted.org/packages/fa/21/8486329a0be6fdd55ce1c89a690e3506b3ac63d330946c5b93a0ea07d33e/prepup-0.1.5.tar.gz
+[2023-07-02 21:13:38] INFO root fetch - processPackages [opensesame-core]: Downloading https://files.pythonhosted.org/packages/1b/e3/40992b987519628e28410ce665de87e8cc480a023ac80de8ee822c6eb8bd/opensesame_core-4.0.0a48.tar.gz
+[2023-07-02 21:13:38] INFO root fetch - processPackages [cookieslicer]: Downloading https://files.pythonhosted.org/packages/4b/e1/a79e3220f75869fd3dd955100dc317f33f8b573aa9234d14febb04f37ef3/cookieslicer-0.1.0.tar.gz
+[2023-07-02 21:13:38] INFO root fetch - processPackages [kayle]: Downloading https://files.pythonhosted.org/packages/91/53/2305502f1e6b46808a8dea0be653b3d7bf7fa1ab0a8e27b082b2961b8a76/kayle-0.5.8-py3-none-any.whl
+[2023-07-02 21:13:38] INFO root fetch - processPackages [inflect]: Downloading https://files.pythonhosted.org/packages/3b/9b/6e44523788cadec2a2bef2632c21264a74ab172cf9a13fab5c94b10db7f2/inflect-6.0.4.tar.gz
+[2023-07-02 21:13:38] WARNING root fetch - processPackages [opensesame-core]: Skipping package: exceeds size limit 18926971>=10485760
+[2023-07-02 21:13:38] INFO root fetch - main [MainThread]: End processing [opensesame-core] error
+[2023-07-02 21:13:38] INFO root fetch - processPackages [twitter-api-client]: Downloading https://files.pythonhosted.org/packages/6d/c9/1d547e8da64fdc6c40cf41bfcd04bab1dc66b8b77d10c444ff66c5a904dc/twitter-api-client-0.9.8.tar.gz
+[2023-07-02 21:13:38] INFO root fetch - processPackages [inflect]: Downloading https://files.pythonhosted.org/packages/3b/9b/6e44523788cadec2a2bef2632c21264a74ab172cf9a13fab5c94b10db7f2/inflect-6.0.4.tar.gz
+[2023-07-02 21:13:38] INFO root fetch - processPackages [py-robocopy]: Downloading https://files.pythonhosted.org/packages/cf/37/5e750cb7ab29d3976205fc4f6ff5ace8dee21177a0ded48043e7d8e20fce/py-robocopy-0.0.5.tar.gz
+[2023-07-02 21:13:38] INFO root fetch - processPackages [opensesame-extension-osweb]: executing diffoscope
+[2023-07-02 21:13:38] INFO root fetch - processPackages [opensesame-extension-osweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensesame_extension_osweb-2.0.0.0a7.tar.gz tmp/opensesame_extension_osweb-2.0.0.0a8.tar.gz --markdown 20230702/o/opensesame-extension-osweb/2.0.0.0a7-2.0.0.0a8/diff.md --exclude *.pyd
+[2023-07-02 21:13:38] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/49/3a/22ba3474cf82b0f0cb199bdbd61c5952b8cb51c7c5e003fa6a8f3fa9cee3/oarepo-cli-11.1.6.tar.gz
+[2023-07-02 21:13:38] INFO root fetch - processPackages [py-robocopy]: executing diffoscope
+[2023-07-02 21:13:38] INFO root fetch - processPackages [py-robocopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-robocopy-0.0.4.tar.gz tmp/py-robocopy-0.0.5.tar.gz --markdown 20230702/p/py-robocopy/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-02 21:13:38] INFO root fetch - processPackages [prepup]: Downloading https://files.pythonhosted.org/packages/2d/87/43b4d751619f34e0a66492048f6fa4cc132cc2150cc739d77d22cfabbb7d/prepup-0.1.6.tar.gz
+[2023-07-02 21:13:38] INFO root fetch - processPackages [kayle]: Downloading https://files.pythonhosted.org/packages/53/0a/d428491d9c47c3d70c6e36d95bb7d75a5dc4e8e40bcc979d4d8fd678b885/kayle-0.5.9-py3-none-any.whl
+[2023-07-02 21:13:38] INFO root fetch - processPackages [inflect]: Downloading https://files.pythonhosted.org/packages/68/40/dd79fdc41ef8e62c0d904d10548ab2d3537bd0354d460ee9f957d424bd5d/inflect-6.0.5.tar.gz
+[2023-07-02 21:13:38] INFO root fetch - processPackages [twitter-api-client]: Downloading https://files.pythonhosted.org/packages/01/72/7a27249d90e3f2e1c268ed5863305cd0c3a1970bb7a1b645b17053605afe/twitter-api-client-0.9.9.tar.gz
+[2023-07-02 21:13:38] INFO root fetch - processPackages [inflect]: Downloading https://files.pythonhosted.org/packages/68/40/dd79fdc41ef8e62c0d904d10548ab2d3537bd0354d460ee9f957d424bd5d/inflect-6.0.5.tar.gz
+[2023-07-02 21:13:38] INFO root fetch - processPackages [prepup]: executing diffoscope
+[2023-07-02 21:13:38] INFO root fetch - processPackages [prepup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prepup-0.1.5.tar.gz tmp/prepup-0.1.6.tar.gz --markdown 20230702/p/prepup/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-02 21:13:38] INFO root fetch - processPackages [cookieslicer]: Downloading https://files.pythonhosted.org/packages/e2/bd/703bd19174140facf1ece69a235e63ba7bfa23002abcd819e6a2a25812b0/cookieslicer-0.1.2.tar.gz
+[2023-07-02 21:13:38] INFO root fetch - processPackages [kayle]: executing diffoscope
+[2023-07-02 21:13:38] INFO root fetch - processPackages [kayle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kayle-0.5.8-py3-none-any.whl.zip tmp/kayle-0.5.9-py3-none-any.whl.zip --markdown 20230702/k/kayle/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-02 21:13:38] INFO root fetch - processPackages [twitter-api-client]: executing diffoscope
+[2023-07-02 21:13:38] INFO root fetch - processPackages [twitter-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitter-api-client-0.9.8.tar.gz tmp/twitter-api-client-0.9.9.tar.gz --markdown 20230702/t/twitter-api-client/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-02 21:13:38] INFO root fetch - processPackages [cookieslicer]: executing diffoscope
+[2023-07-02 21:13:38] INFO root fetch - processPackages [cookieslicer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cookieslicer-0.1.0.tar.gz tmp/cookieslicer-0.1.2.tar.gz --markdown 20230702/c/cookieslicer/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-07-02 21:13:38] INFO root fetch - processPackages [inflect]: executing diffoscope
+[2023-07-02 21:13:38] INFO root fetch - processPackages [inflect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inflect-6.0.4.tar.gz tmp/inflect-6.0.5.tar.gz --markdown 20230702/i/inflect/6.0.4-6.0.5/diff.md --exclude *.pyd
+[2023-07-02 21:13:38] INFO root fetch - processPackages [inflect]: executing diffoscope
+[2023-07-02 21:13:38] INFO root fetch - processPackages [inflect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inflect-6.0.4.tar.gz tmp/inflect-6.0.5.tar.gz --markdown 20230702/i/inflect/6.0.4-6.0.5/diff.md --exclude *.pyd
+[2023-07-02 21:13:38] INFO root fetch - processPackages [oarepo-cli]: executing diffoscope
+[2023-07-02 21:13:38] INFO root fetch - processPackages [oarepo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-cli-11.1.5.tar.gz tmp/oarepo-cli-11.1.6.tar.gz --markdown 20230702/o/oarepo-cli/11.1.5-11.1.6/diff.md --exclude *.pyd
+[2023-07-02 21:13:39] INFO root fetch - processPackages [opensesame-extension-osweb]: Remove: archive file [/home/abi/fetcher/tmp/opensesame_extension_osweb-2.0.0.0a7.tar.gz]
+[2023-07-02 21:13:39] INFO root fetch - processPackages [opensesame-extension-osweb]: Remove: archive file [/home/abi/fetcher/tmp/opensesame_extension_osweb-2.0.0.0a8.tar.gz]
+[2023-07-02 21:13:39] INFO root fetch - main [MainThread]: End processing [opensesame-extension-osweb]: success
+[2023-07-02 21:13:39] INFO root fetch - processPackages [py-robocopy]: Remove: archive file [/home/abi/fetcher/tmp/py-robocopy-0.0.4.tar.gz]
+[2023-07-02 21:13:39] INFO root fetch - processPackages [py-robocopy]: Remove: archive file [/home/abi/fetcher/tmp/py-robocopy-0.0.5.tar.gz]
+[2023-07-02 21:13:39] INFO root fetch - main [MainThread]: End processing [py-robocopy]: success
+[2023-07-02 21:13:39] INFO root fetch - processPackages [twitter-api-client]: Remove: archive file [/home/abi/fetcher/tmp/twitter-api-client-0.9.8.tar.gz]
+[2023-07-02 21:13:39] INFO root fetch - processPackages [twitter-api-client]: Remove: archive file [/home/abi/fetcher/tmp/twitter-api-client-0.9.9.tar.gz]
+[2023-07-02 21:13:39] INFO root fetch - main [MainThread]: End processing [twitter-api-client]: success
+[2023-07-02 21:13:40] INFO root fetch - processPackages [kayle]: Remove: archive file [/home/abi/fetcher/tmp/kayle-0.5.8-py3-none-any.whl.zip]
+[2023-07-02 21:13:40] INFO root fetch - processPackages [kayle]: Remove: archive file [/home/abi/fetcher/tmp/kayle-0.5.9-py3-none-any.whl.zip]
+[2023-07-02 21:13:40] INFO root fetch - main [MainThread]: End processing [kayle]: success
+[2023-07-02 21:13:40] INFO root fetch - processPackages [prepup]: Remove: archive file [/home/abi/fetcher/tmp/prepup-0.1.5.tar.gz]
+[2023-07-02 21:13:40] INFO root fetch - processPackages [prepup]: Remove: archive file [/home/abi/fetcher/tmp/prepup-0.1.6.tar.gz]
+[2023-07-02 21:13:40] INFO root fetch - main [MainThread]: End processing [prepup]: success
+[2023-07-02 21:13:40] INFO root fetch - processPackages [inflect]: Remove: archive file [/home/abi/fetcher/tmp/inflect-6.0.4.tar.gz]
+[2023-07-02 21:13:40] INFO root fetch - processPackages [inflect]: Remove: archive file [/home/abi/fetcher/tmp/inflect-6.0.5.tar.gz]
+[2023-07-02 21:13:40] INFO root fetch - main [MainThread]: End processing [inflect]: success
+[2023-07-02 21:13:40] INFO root fetch - processPackages [cookieslicer]: Remove: archive file [/home/abi/fetcher/tmp/cookieslicer-0.1.0.tar.gz]
+[2023-07-02 21:13:40] INFO root fetch - processPackages [cookieslicer]: Remove: archive file [/home/abi/fetcher/tmp/cookieslicer-0.1.2.tar.gz]
+[2023-07-02 21:13:40] INFO root fetch - main [MainThread]: End processing [cookieslicer]: success
+[2023-07-02 21:13:40] ERROR root fetch - processPackages [inflect]: Diffoscope failed: gzip: tmp/inflect-6.0.5.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/inflect-6.0.5.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-07-02 21:13:40] INFO root fetch - main [MainThread]: End processing [inflect] error
+[2023-07-02 21:13:42] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.5.tar.gz]
+[2023-07-02 21:13:42] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.6.tar.gz]
+[2023-07-02 21:13:42] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
+[2023-07-02 21:13:42] INFO root fetch - main [MainThread]: Store serial: [18730886]
