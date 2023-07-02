@@ -10502,3 +10502,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 16:29:54] INFO root fetch - processPackages [python-kasa]: Remove: archive file [/home/abi/fetcher/tmp/python_kasa-0.5.2.tar.gz]
 [2023-07-02 16:29:54] INFO root fetch - main [MainThread]: End processing [python-kasa]: success
 [2023-07-02 16:29:54] INFO root fetch - main [MainThread]: Store serial: [18729114]
+[2023-07-02 16:34:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18729114]
+[2023-07-02 16:35:03] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-02 16:35:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pcsfilter
+[2023-07-02 16:35:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: htagweb
+[2023-07-02 16:35:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: VeloWeb
+[2023-07-02 16:35:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-dict-display-filter
+[2023-07-02 16:35:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iam-ape
+[2023-07-02 16:35:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aicoder
+[2023-07-02 16:35:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: helios-opentelemetry-sdk
+[2023-07-02 16:35:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: langchain
+[2023-07-02 16:35:03] INFO root fetch - processPackages [pcsfilter]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-02 16:35:03] INFO root fetch - processPackages [htagweb]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-02 16:35:03] INFO root fetch - processPackages [python-dict-display-filter]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-07-02 16:35:03] INFO root fetch - processPackages [VeloWeb]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-02 16:35:03] INFO root fetch - processPackages [iam-ape]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-02 16:35:03] INFO root fetch - processPackages [helios-opentelemetry-sdk]: New version: [1.0.96] Old Version: [1.0.95]
+[2023-07-02 16:35:03] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-07-02 16:35:03] INFO root fetch - processPackages [aicoder]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-02 16:35:03] INFO root fetch - processPackages [htagweb]: Downloading https://files.pythonhosted.org/packages/44/1a/5dd529125524aca5746e9dc3a4cad6ae10e62726b181bc0466de235bac96/htagweb-0.0.2.tar.gz
+[2023-07-02 16:35:03] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Downloading https://files.pythonhosted.org/packages/54/5a/96e7ae98caea2b2e9f025899869de7578275204346b313c4cefe7ac203fe/helios-opentelemetry-sdk-1.0.95.tar.gz
+[2023-07-02 16:35:03] INFO root fetch - processPackages [VeloWeb]: Downloading https://files.pythonhosted.org/packages/fa/cd/f5c430b062046caf0c44a5354df6310d8faf39e51fdb61dff622eff6dd22/VeloWeb-1.0.1.tar.gz
+[2023-07-02 16:35:03] INFO root fetch - processPackages [pcsfilter]: Downloading https://files.pythonhosted.org/packages/83/15/77a4ccfd4769b336a2e34c9fef519438946a49b5ff2b7c02413dae61b981/pcsFilter-1.0.0.tar.gz
+[2023-07-02 16:35:03] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/a9/5e/7048ccda57c9349403f21e9886420529acefbc6d9f92eb506ea5deb62be0/aicoder-0.2.4-py3-none-any.whl
+[2023-07-02 16:35:03] INFO root fetch - processPackages [python-dict-display-filter]: Downloading https://files.pythonhosted.org/packages/28/6f/7647f10463a8c8d3e1a03591c9dc91dd23733d4851a1d0d0391fa597522e/python-dict-display-filter-0.9.7.tar.gz
+[2023-07-02 16:35:03] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/24/6a/f6c87d4ef49bae4d166fa3be99402f669acf9aa59b4d1d31342da0c57e32/langchain-0.0.99.tar.gz
+[2023-07-02 16:35:03] INFO root fetch - processPackages [iam-ape]: Downloading https://files.pythonhosted.org/packages/75/69/8258f977ce7028acd66376d2b76186c84885fa07dbf1cc1dfeb9ee9b4e80/iam_ape-1.1.3.tar.gz
+[2023-07-02 16:35:03] INFO root fetch - processPackages [htagweb]: Downloading https://files.pythonhosted.org/packages/c1/e5/000baebded27c42c993e8363528aa2d5f60ab0bfbdd50f8eae4462ef288c/htagweb-0.0.3.tar.gz
+[2023-07-02 16:35:03] INFO root fetch - processPackages [VeloWeb]: Downloading https://files.pythonhosted.org/packages/93/ae/2df232c8b37ff03814be57fc74f32663a7679dbe6b2c166269c4c76f840b/VeloWeb-1.0.2.tar.gz
+[2023-07-02 16:35:03] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/76/c2/eb690ce6f0ec829af6ebff95a78ecb0eddf80796e2e2a9394fc24f6efb74/aicoder-0.2.5-py3-none-any.whl
+[2023-07-02 16:35:03] INFO root fetch - processPackages [htagweb]: executing diffoscope
+[2023-07-02 16:35:03] INFO root fetch - processPackages [htagweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htagweb-0.0.2.tar.gz tmp/htagweb-0.0.3.tar.gz --markdown 20230702/h/htagweb/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-02 16:35:03] INFO root fetch - processPackages [VeloWeb]: executing diffoscope
+[2023-07-02 16:35:03] INFO root fetch - processPackages [VeloWeb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VeloWeb-1.0.1.tar.gz tmp/VeloWeb-1.0.2.tar.gz --markdown 20230702/V/VeloWeb/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-02 16:35:03] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/8e/d3/a01f18d4cda1e4e2cbed8c15693f649fb439aab4b94f0c2a0ed636bbe505/langchain-0.0.99rc0.tar.gz
+[2023-07-02 16:35:03] INFO root fetch - processPackages [aicoder]: executing diffoscope
+[2023-07-02 16:35:03] INFO root fetch - processPackages [aicoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicoder-0.2.4-py3-none-any.whl.zip tmp/aicoder-0.2.5-py3-none-any.whl.zip --markdown 20230702/a/aicoder/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-02 16:35:03] INFO root fetch - processPackages [pcsfilter]: Downloading https://files.pythonhosted.org/packages/2e/25/c82693dea29ce56793f0a57413e7ba3e50a335b705e199b76f688d01a392/pcsFilter-1.0.1.tar.gz
+[2023-07-02 16:35:03] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Downloading https://files.pythonhosted.org/packages/d4/d0/ab5decaf61d7ba9fade496fa4da4a223cb156da7545ae13d2c5da833e6d9/helios-opentelemetry-sdk-1.0.96.tar.gz
+[2023-07-02 16:35:03] INFO root fetch - processPackages [python-dict-display-filter]: Downloading https://files.pythonhosted.org/packages/a8/87/0652d4072ae90fa64cb27d83cb605e6acb7f4a3590f6e4a8aa12afc0969b/python-dict-display-filter-0.9.8.tar.gz
+[2023-07-02 16:35:04] INFO root fetch - processPackages [iam-ape]: Downloading https://files.pythonhosted.org/packages/95/05/62868569c300b9a9effb7e34ef4db6d3026062dc7e3b94655b75d5168afb/iam_ape-1.1.4.tar.gz
+[2023-07-02 16:35:04] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-07-02 16:35:04] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230702/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-07-02 16:35:04] INFO root fetch - processPackages [helios-opentelemetry-sdk]: executing diffoscope
+[2023-07-02 16:35:04] INFO root fetch - processPackages [helios-opentelemetry-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios-opentelemetry-sdk-1.0.95.tar.gz tmp/helios-opentelemetry-sdk-1.0.96.tar.gz --markdown 20230702/h/helios-opentelemetry-sdk/1.0.95-1.0.96/diff.md --exclude *.pyd
+[2023-07-02 16:35:04] INFO root fetch - processPackages [pcsfilter]: executing diffoscope
+[2023-07-02 16:35:04] INFO root fetch - processPackages [pcsfilter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcsFilter-1.0.0.tar.gz tmp/pcsFilter-1.0.1.tar.gz --markdown 20230702/p/pcsfilter/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-02 16:35:04] INFO root fetch - processPackages [python-dict-display-filter]: executing diffoscope
+[2023-07-02 16:35:04] INFO root fetch - processPackages [python-dict-display-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-dict-display-filter-0.9.7.tar.gz tmp/python-dict-display-filter-0.9.8.tar.gz --markdown 20230702/p/python-dict-display-filter/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-07-02 16:35:04] INFO root fetch - processPackages [iam-ape]: executing diffoscope
+[2023-07-02 16:35:04] INFO root fetch - processPackages [iam-ape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_ape-1.1.3.tar.gz tmp/iam_ape-1.1.4.tar.gz --markdown 20230702/i/iam-ape/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-02 16:35:05] INFO root fetch - processPackages [htagweb]: Remove: archive file [/home/abi/fetcher/tmp/htagweb-0.0.2.tar.gz]
+[2023-07-02 16:35:05] INFO root fetch - processPackages [htagweb]: Remove: archive file [/home/abi/fetcher/tmp/htagweb-0.0.3.tar.gz]
+[2023-07-02 16:35:05] INFO root fetch - main [MainThread]: End processing [htagweb]: success
+[2023-07-02 16:35:05] INFO root fetch - processPackages [VeloWeb]: Remove: archive file [/home/abi/fetcher/tmp/VeloWeb-1.0.1.tar.gz]
+[2023-07-02 16:35:05] INFO root fetch - processPackages [VeloWeb]: Remove: archive file [/home/abi/fetcher/tmp/VeloWeb-1.0.2.tar.gz]
+[2023-07-02 16:35:05] INFO root fetch - main [MainThread]: End processing [VeloWeb]: success
+[2023-07-02 16:35:05] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.2.4-py3-none-any.whl.zip]
+[2023-07-02 16:35:05] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.2.5-py3-none-any.whl.zip]
+[2023-07-02 16:35:05] INFO root fetch - main [MainThread]: End processing [aicoder]: success
+[2023-07-02 16:35:05] INFO root fetch - processPackages [iam-ape]: Remove: archive file [/home/abi/fetcher/tmp/iam_ape-1.1.3.tar.gz]
+[2023-07-02 16:35:05] INFO root fetch - processPackages [iam-ape]: Remove: archive file [/home/abi/fetcher/tmp/iam_ape-1.1.4.tar.gz]
+[2023-07-02 16:35:05] INFO root fetch - main [MainThread]: End processing [iam-ape]: success
+[2023-07-02 16:35:05] INFO root fetch - processPackages [pcsfilter]: Remove: archive file [/home/abi/fetcher/tmp/pcsFilter-1.0.0.tar.gz]
+[2023-07-02 16:35:05] INFO root fetch - processPackages [pcsfilter]: Remove: archive file [/home/abi/fetcher/tmp/pcsFilter-1.0.1.tar.gz]
+[2023-07-02 16:35:05] INFO root fetch - main [MainThread]: End processing [pcsfilter]: success
+[2023-07-02 16:35:05] INFO root fetch - processPackages [python-dict-display-filter]: Remove: archive file [/home/abi/fetcher/tmp/python-dict-display-filter-0.9.7.tar.gz]
+[2023-07-02 16:35:05] INFO root fetch - processPackages [python-dict-display-filter]: Remove: archive file [/home/abi/fetcher/tmp/python-dict-display-filter-0.9.8.tar.gz]
+[2023-07-02 16:35:05] INFO root fetch - main [MainThread]: End processing [python-dict-display-filter]: success
+[2023-07-02 16:35:06] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99.tar.gz]
+[2023-07-02 16:35:06] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99rc0.tar.gz]
+[2023-07-02 16:35:06] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-07-02 16:35:06] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/helios-opentelemetry-sdk-1.0.95.tar.gz]
+[2023-07-02 16:35:06] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/helios-opentelemetry-sdk-1.0.96.tar.gz]
+[2023-07-02 16:35:06] INFO root fetch - main [MainThread]: End processing [helios-opentelemetry-sdk]: success
+[2023-07-02 16:35:06] INFO root fetch - main [MainThread]: Store serial: [18729141]
