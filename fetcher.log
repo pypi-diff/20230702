@@ -15426,3 +15426,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 21:55:47] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.7.tar.gz]
 [2023-07-02 21:55:47] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
 [2023-07-02 21:55:47] INFO root fetch - main [MainThread]: Store serial: [18731092]
+[2023-07-02 22:00:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18731092]
+[2023-07-02 22:00:56] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-02 22:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: squirrels
+[2023-07-02 22:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gravitorch
+[2023-07-02 22:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ttcal
+[2023-07-02 22:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neuroimagingtools
+[2023-07-02 22:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cmeel-metis
+[2023-07-02 22:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: konko
+[2023-07-02 22:00:56] INFO root fetch - processPackages [gravitorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 22:00:56] INFO root fetch - processPackages [ttcal]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-07-02 22:00:56] INFO root fetch - processPackages [squirrels]: New version: [0.1.1.post1] Old Version: [0.1.0]
+[2023-07-02 22:00:56] INFO root fetch - processPackages [konko]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-02 22:00:56] INFO root fetch - processPackages [neuroimagingtools]: New version: [1.1.0] Old Version: [0.5.0]
+[2023-07-02 22:00:56] WARNING root fetch - processPackages [cmeel-metis]: Skipping, unable to determine old version
+[2023-07-02 22:00:56] INFO root fetch - main [MainThread]: End processing [cmeel-metis] error
+[2023-07-02 22:00:56] INFO root fetch - processPackages [ttcal]: Downloading https://files.pythonhosted.org/packages/59/8e/bb02da1afe5fe7649f40272e2344d5c99327ffedad664b17a6d8a7497249/ttcal-2.0.4.tar.gz
+[2023-07-02 22:00:56] INFO root fetch - processPackages [gravitorch]: Downloading https://files.pythonhosted.org/packages/3c/eb/d596884cdb31e5198aa387878eb8ef895802e567d7d679b97f4a406e21ae/gravitorch-0.0.8.tar.gz
+[2023-07-02 22:00:56] INFO root fetch - processPackages [neuroimagingtools]: Downloading https://files.pythonhosted.org/packages/45/41/09001b2480ab54bd044831fbc44ca687498a8a0ec75652773a27d24f18f5/neuroimagingtools-0.5.0.tar.gz
+[2023-07-02 22:00:56] INFO root fetch - processPackages [konko]: Downloading https://files.pythonhosted.org/packages/2a/ef/ff483ef3a005082f4ba4b4a7fe96891d8351bad64e7bcb92a048e2b663db/konko-0.0.5.tar.gz
+[2023-07-02 22:00:56] INFO root fetch - processPackages [squirrels]: Downloading https://files.pythonhosted.org/packages/26/70/92759563e5f065540f2da2f6374e782c2454dadd399fdd6575a2c6ea6104/squirrels-0.1.0.tar.gz
+[2023-07-02 22:00:56] INFO root fetch - processPackages [ttcal]: Downloading https://files.pythonhosted.org/packages/85/97/e5534ced2805fb799e85d726890e263d8ede5bc2b71f1be85f21253599fe/ttcal-2.0.5.tar.gz
+[2023-07-02 22:00:57] INFO root fetch - processPackages [neuroimagingtools]: Downloading https://files.pythonhosted.org/packages/37/4e/9c1d6d3680fe0ad68172f78b43b26bfb665fed055d7f5aebfd7eb575d702/neuroimagingtools-1.1.0.tar.gz
+[2023-07-02 22:00:57] INFO root fetch - processPackages [konko]: Downloading https://files.pythonhosted.org/packages/83/60/cab55e156e4360ed917ffd5c2acee34384fb8f3694bcd097ca6435cf60c5/konko-0.0.6.tar.gz
+[2023-07-02 22:00:57] INFO root fetch - processPackages [ttcal]: executing diffoscope
+[2023-07-02 22:00:57] INFO root fetch - processPackages [ttcal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttcal-2.0.4.tar.gz tmp/ttcal-2.0.5.tar.gz --markdown 20230702/t/ttcal/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-07-02 22:00:57] INFO root fetch - processPackages [squirrels]: Downloading https://files.pythonhosted.org/packages/b8/a5/beb6f594a2bfe361bb822c965d3cf862b15c6c5678a0e7d7f47daa26aa81/squirrels-0.1.1.post1.tar.gz
+[2023-07-02 22:00:57] INFO root fetch - processPackages [gravitorch]: Downloading https://files.pythonhosted.org/packages/d8/af/12bd29b316e1abfd4a89affc84ab78a2b03aaa0ebdf20315c6dc8c4c3886/gravitorch-0.0.9.tar.gz
+[2023-07-02 22:00:57] INFO root fetch - processPackages [neuroimagingtools]: executing diffoscope
+[2023-07-02 22:00:57] INFO root fetch - processPackages [neuroimagingtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuroimagingtools-0.5.0.tar.gz tmp/neuroimagingtools-1.1.0.tar.gz --markdown 20230702/n/neuroimagingtools/0.5.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-02 22:00:57] INFO root fetch - processPackages [konko]: executing diffoscope
+[2023-07-02 22:00:57] INFO root fetch - processPackages [konko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konko-0.0.5.tar.gz tmp/konko-0.0.6.tar.gz --markdown 20230702/k/konko/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-02 22:00:57] INFO root fetch - processPackages [squirrels]: executing diffoscope
+[2023-07-02 22:00:57] INFO root fetch - processPackages [squirrels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squirrels-0.1.0.tar.gz tmp/squirrels-0.1.1.post1.tar.gz --markdown 20230702/s/squirrels/0.1.0-0.1.1.post1/diff.md --exclude *.pyd
+[2023-07-02 22:00:57] INFO root fetch - processPackages [gravitorch]: executing diffoscope
+[2023-07-02 22:00:57] INFO root fetch - processPackages [gravitorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravitorch-0.0.8.tar.gz tmp/gravitorch-0.0.9.tar.gz --markdown 20230702/g/gravitorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 22:00:58] INFO root fetch - processPackages [neuroimagingtools]: Remove: archive file [/home/abi/fetcher/tmp/neuroimagingtools-0.5.0.tar.gz]
+[2023-07-02 22:00:58] INFO root fetch - processPackages [neuroimagingtools]: Remove: archive file [/home/abi/fetcher/tmp/neuroimagingtools-1.1.0.tar.gz]
+[2023-07-02 22:00:58] INFO root fetch - main [MainThread]: End processing [neuroimagingtools]: success
+[2023-07-02 22:00:58] INFO root fetch - processPackages [ttcal]: Remove: archive file [/home/abi/fetcher/tmp/ttcal-2.0.4.tar.gz]
+[2023-07-02 22:00:58] INFO root fetch - processPackages [ttcal]: Remove: archive file [/home/abi/fetcher/tmp/ttcal-2.0.5.tar.gz]
+[2023-07-02 22:00:58] INFO root fetch - main [MainThread]: End processing [ttcal]: success
+[2023-07-02 22:00:58] INFO root fetch - processPackages [squirrels]: Remove: archive file [/home/abi/fetcher/tmp/squirrels-0.1.0.tar.gz]
+[2023-07-02 22:00:58] INFO root fetch - processPackages [squirrels]: Remove: archive file [/home/abi/fetcher/tmp/squirrels-0.1.1.post1.tar.gz]
+[2023-07-02 22:00:58] INFO root fetch - main [MainThread]: End processing [squirrels]: success
+[2023-07-02 22:01:00] INFO root fetch - processPackages [gravitorch]: Remove: archive file [/home/abi/fetcher/tmp/gravitorch-0.0.8.tar.gz]
+[2023-07-02 22:01:00] INFO root fetch - processPackages [gravitorch]: Remove: archive file [/home/abi/fetcher/tmp/gravitorch-0.0.9.tar.gz]
+[2023-07-02 22:01:00] INFO root fetch - main [MainThread]: End processing [gravitorch]: success
+[2023-07-02 22:01:51] INFO root fetch - processPackages [konko]: Remove: archive file [/home/abi/fetcher/tmp/konko-0.0.5.tar.gz]
+[2023-07-02 22:01:51] INFO root fetch - processPackages [konko]: Remove: archive file [/home/abi/fetcher/tmp/konko-0.0.6.tar.gz]
+[2023-07-02 22:01:51] INFO root fetch - main [MainThread]: End processing [konko]: success
+[2023-07-02 22:01:51] INFO root fetch - main [MainThread]: Store serial: [18731114]
