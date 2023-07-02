@@ -4997,3 +4997,18 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 08:17:24] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230702.tar.gz]
 [2023-07-02 08:17:24] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-07-02 08:17:24] INFO root fetch - main [MainThread]: Store serial: [18726667]
+[2023-07-02 08:22:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726667]
+[2023-07-02 08:22:34] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-02 08:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gramex
+[2023-07-02 08:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spacy2df
+[2023-07-02 08:22:34] WARNING root fetch - processPackages [spacy2df]: Skipping, unable to determine old version
+[2023-07-02 08:22:34] INFO root fetch - main [MainThread]: End processing [spacy2df] error
+[2023-07-02 08:22:34] INFO root fetch - processPackages [gramex]: New version: [1.92.0] Old Version: [1.91.1]
+[2023-07-02 08:22:34] INFO root fetch - processPackages [gramex]: Downloading https://files.pythonhosted.org/packages/bd/0f/96803a9a20a8c8fce82639426cfb9852f595c031965161dbf88fd4b25dfd/gramex-1.91.1.tar.gz
+[2023-07-02 08:22:35] INFO root fetch - processPackages [gramex]: Downloading https://files.pythonhosted.org/packages/d8/8c/a07933f4c266cef7159bcebbced26fe5726106fbe373044b6dae30f8c6b4/gramex-1.92.0.tar.gz
+[2023-07-02 08:22:35] INFO root fetch - processPackages [gramex]: executing diffoscope
+[2023-07-02 08:22:35] INFO root fetch - processPackages [gramex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gramex-1.91.1.tar.gz tmp/gramex-1.92.0.tar.gz --markdown 20230702/g/gramex/1.91.1-1.92.0/diff.md --exclude *.pyd
+[2023-07-02 08:22:39] INFO root fetch - processPackages [gramex]: Remove: archive file [/home/abi/fetcher/tmp/gramex-1.91.1.tar.gz]
+[2023-07-02 08:22:39] INFO root fetch - processPackages [gramex]: Remove: archive file [/home/abi/fetcher/tmp/gramex-1.92.0.tar.gz]
+[2023-07-02 08:22:39] INFO root fetch - main [MainThread]: End processing [gramex]: success
+[2023-07-02 08:22:39] INFO root fetch - main [MainThread]: Store serial: [18726675]
