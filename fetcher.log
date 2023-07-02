@@ -2555,3 +2555,9 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 03:58:07] INFO root fetch - processPackages [dasida]: Remove: archive file [/home/abi/fetcher/tmp/dasida-2023.7.1.tar.gz]
 [2023-07-02 03:58:07] INFO root fetch - main [MainThread]: End processing [dasida]: success
 [2023-07-02 03:58:07] INFO root fetch - main [MainThread]: Store serial: [18725759]
+[2023-07-02 04:03:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18725759]
+[2023-07-02 04:03:16] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-02 04:03:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: backup-warden
+[2023-07-02 04:03:16] WARNING root fetch - processPackages [backup-warden]: Skipping, unable to determine old version
+[2023-07-02 04:03:16] INFO root fetch - main [MainThread]: End processing [backup-warden] error
+[2023-07-02 04:03:16] INFO root fetch - main [MainThread]: Store serial: [18725768]
