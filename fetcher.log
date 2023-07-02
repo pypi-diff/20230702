@@ -13681,3 +13681,64 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-02 19:48:22] INFO root fetch - processPackages [PJYoloVision]: Remove: archive file [/home/abi/fetcher/tmp/PJYoloVision-0.0.1.tar.gz]
 [2023-07-02 19:48:22] INFO root fetch - main [MainThread]: End processing [PJYoloVision]: success
 [2023-07-02 19:48:22] INFO root fetch - main [MainThread]: Store serial: [18730439]
+[2023-07-02 19:53:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18730439]
+[2023-07-02 19:53:31] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-02 19:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-fast-treenode
+[2023-07-02 19:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edc-adverse-event
+[2023-07-02 19:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyfermions
+[2023-07-02 19:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: inductance
+[2023-07-02 19:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: databend
+[2023-07-02 19:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gfort2py
+[2023-07-02 19:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gphotos-sync
+[2023-07-02 19:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lollms
+[2023-07-02 19:53:31] INFO root fetch - processPackages [pyfermions]: New version: [1.4] Old Version: [1.3]
+[2023-07-02 19:53:31] INFO root fetch - processPackages [django-fast-treenode]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-02 19:53:31] WARNING root fetch - processPackages [inductance]: Skipping, unable to determine old version
+[2023-07-02 19:53:31] INFO root fetch - main [MainThread]: End processing [inductance] error
+[2023-07-02 19:53:31] INFO root fetch - processPackages [databend]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-07-02 19:53:31] INFO root fetch - processPackages [gfort2py]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-07-02 19:53:31] INFO root fetch - processPackages [edc-adverse-event]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-02 19:53:31] INFO root fetch - processPackages [django-fast-treenode]: Downloading https://files.pythonhosted.org/packages/34/f4/8c5f34a0ffb174fe7cd989acb06cef1d97825a202ddc7884fde2de6bd27d/django-fast-treenode-1.1.0.tar.gz
+[2023-07-02 19:53:31] INFO root fetch - processPackages [gphotos-sync]: New version: [3.1.3] Old Version: [3.1.2]
+[2023-07-02 19:53:31] INFO root fetch - processPackages [lollms]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-02 19:53:31] INFO root fetch - processPackages [pyfermions]: Downloading https://files.pythonhosted.org/packages/d6/3f/2ddfa90d530e2ba68c0dfb9591a12ab3c8919e559ef145cd28bde8fcb482/pyfermions-1.3.tar.gz
+[2023-07-02 19:53:31] INFO root fetch - processPackages [gfort2py]: Downloading https://files.pythonhosted.org/packages/3a/13/e0a4265825953ff96136cff89857e40007be96708649389fdcfb466685c4/gfort2py-2.0.0.tar.gz
+[2023-07-02 19:53:31] INFO root fetch - processPackages [databend]: Downloading https://files.pythonhosted.org/packages/a7/3d/a17c1f788cb81fa07a581bbf4b990273585ae51875097edd24af73a2f977/databend-1.2.3-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-02 19:53:31] INFO root fetch - processPackages [edc-adverse-event]: Downloading https://files.pythonhosted.org/packages/aa/cc/60c44545ab1f1682384ca1da00d121b07fcba05a12b0d6021ae317e693d9/edc_adverse_event-0.3.8-py3-none-any.whl
+[2023-07-02 19:53:31] WARNING root fetch - processPackages [databend]: Skipping package: exceeds size limit 29785133>=10485760
+[2023-07-02 19:53:31] INFO root fetch - main [MainThread]: End processing [databend] error
+[2023-07-02 19:53:31] INFO root fetch - processPackages [gphotos-sync]: Downloading https://files.pythonhosted.org/packages/f9/45/5590eb96ddfc9c46e5ff6cb1f0ff22dcb085a12911a35d669411c6effb28/gphotos-sync-3.1.2.tar.gz
+[2023-07-02 19:53:31] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/55/8e/c10a453677812ff66a65c459737c99f6b99cc00da8cc2e27f3a1f924faa0/lollms-2.1.8.tar.gz
+[2023-07-02 19:53:31] INFO root fetch - processPackages [django-fast-treenode]: Downloading https://files.pythonhosted.org/packages/ff/e0/99b0d9d53c240850e56ec5531c583a3cbb3e182f33111631a74b4784b679/django-fast-treenode-1.1.1.tar.gz
+[2023-07-02 19:53:31] WARNING root fetch - processPackages [gphotos-sync]: Skipping package: exceeds size limit 12575656>=10485760
+[2023-07-02 19:53:31] INFO root fetch - main [MainThread]: End processing [gphotos-sync] error
+[2023-07-02 19:53:31] INFO root fetch - processPackages [django-fast-treenode]: executing diffoscope
+[2023-07-02 19:53:31] INFO root fetch - processPackages [django-fast-treenode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-fast-treenode-1.1.0.tar.gz tmp/django-fast-treenode-1.1.1.tar.gz --markdown 20230702/d/django-fast-treenode/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-02 19:53:31] INFO root fetch - processPackages [gfort2py]: Downloading https://files.pythonhosted.org/packages/4d/c8/74592296ed52a6d85eda562862dcb7997bb35decdf42db2c655af5f3a83e/gfort2py-2.1.0.tar.gz
+[2023-07-02 19:53:31] INFO root fetch - processPackages [edc-adverse-event]: Downloading https://files.pythonhosted.org/packages/04/f0/b9f2b8c39c677c51359e09b0e2a6ec34dde4a98ad9ed7c6bb6f8cea26097/edc_adverse_event-0.3.9-py3-none-any.whl
+[2023-07-02 19:53:31] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/6a/83/7745db4a743155e7a857ec418630027696e10e7fb67dfd6805a2496bdb64/lollms-2.1.9.tar.gz
+[2023-07-02 19:53:31] INFO root fetch - processPackages [gfort2py]: executing diffoscope
+[2023-07-02 19:53:31] INFO root fetch - processPackages [gfort2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gfort2py-2.0.0.tar.gz tmp/gfort2py-2.1.0.tar.gz --markdown 20230702/g/gfort2py/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-07-02 19:53:31] INFO root fetch - processPackages [edc-adverse-event]: executing diffoscope
+[2023-07-02 19:53:31] INFO root fetch - processPackages [edc-adverse-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_adverse_event-0.3.8-py3-none-any.whl.zip tmp/edc_adverse_event-0.3.9-py3-none-any.whl.zip --markdown 20230702/e/edc-adverse-event/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-02 19:53:32] INFO root fetch - processPackages [lollms]: executing diffoscope
+[2023-07-02 19:53:32] INFO root fetch - processPackages [lollms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms-2.1.8.tar.gz tmp/lollms-2.1.9.tar.gz --markdown 20230702/l/lollms/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-02 19:53:32] INFO root fetch - processPackages [pyfermions]: Downloading https://files.pythonhosted.org/packages/5f/f7/49fec373b9bba52a7f43adea57709c36db9ea8cffc9590012e1ea508c010/pyfermions-1.4.tar.gz
+[2023-07-02 19:53:32] INFO root fetch - processPackages [pyfermions]: executing diffoscope
+[2023-07-02 19:53:32] INFO root fetch - processPackages [pyfermions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfermions-1.3.tar.gz tmp/pyfermions-1.4.tar.gz --markdown 20230702/p/pyfermions/1.3-1.4/diff.md --exclude *.pyd
+[2023-07-02 19:53:32] INFO root fetch - processPackages [django-fast-treenode]: Remove: archive file [/home/abi/fetcher/tmp/django-fast-treenode-1.1.0.tar.gz]
+[2023-07-02 19:53:32] INFO root fetch - processPackages [django-fast-treenode]: Remove: archive file [/home/abi/fetcher/tmp/django-fast-treenode-1.1.1.tar.gz]
+[2023-07-02 19:53:32] INFO root fetch - main [MainThread]: End processing [django-fast-treenode]: success
+[2023-07-02 19:53:33] INFO root fetch - processPackages [gfort2py]: Remove: archive file [/home/abi/fetcher/tmp/gfort2py-2.0.0.tar.gz]
+[2023-07-02 19:53:33] INFO root fetch - processPackages [gfort2py]: Remove: archive file [/home/abi/fetcher/tmp/gfort2py-2.1.0.tar.gz]
+[2023-07-02 19:53:33] INFO root fetch - main [MainThread]: End processing [gfort2py]: success
+[2023-07-02 19:53:33] INFO root fetch - processPackages [edc-adverse-event]: Remove: archive file [/home/abi/fetcher/tmp/edc_adverse_event-0.3.8-py3-none-any.whl.zip]
+[2023-07-02 19:53:33] INFO root fetch - processPackages [edc-adverse-event]: Remove: archive file [/home/abi/fetcher/tmp/edc_adverse_event-0.3.9-py3-none-any.whl.zip]
+[2023-07-02 19:53:33] INFO root fetch - main [MainThread]: End processing [edc-adverse-event]: success
+[2023-07-02 19:53:34] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.8.tar.gz]
+[2023-07-02 19:53:34] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.9.tar.gz]
+[2023-07-02 19:53:34] INFO root fetch - main [MainThread]: End processing [lollms]: success
+[2023-07-02 19:53:35] INFO root fetch - processPackages [pyfermions]: Remove: archive file [/home/abi/fetcher/tmp/pyfermions-1.3.tar.gz]
+[2023-07-02 19:53:35] INFO root fetch - processPackages [pyfermions]: Remove: archive file [/home/abi/fetcher/tmp/pyfermions-1.4.tar.gz]
+[2023-07-02 19:53:35] INFO root fetch - main [MainThread]: End processing [pyfermions]: success
+[2023-07-02 19:53:35] INFO root fetch - main [MainThread]: Store serial: [18730464]
