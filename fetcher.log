@@ -5621,3 +5621,27 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 09:37:10] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.2.tar.gz]
 [2023-07-02 09:37:10] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-client]: success
 [2023-07-02 09:37:10] INFO root fetch - main [MainThread]: Store serial: [18727000]
+[2023-07-02 09:42:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18727000]
+[2023-07-02 09:42:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-02 09:42:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: warframe.py
+[2023-07-02 09:42:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wow-ai-mms
+[2023-07-02 09:42:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: classiq
+[2023-07-02 09:42:20] INFO root fetch - processPackages [warframe.py]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-02 09:42:20] WARNING root fetch - processPackages [wow-ai-mms]: Skipping, unable to determine old version
+[2023-07-02 09:42:20] INFO root fetch - main [MainThread]: End processing [wow-ai-mms] error
+[2023-07-02 09:42:20] INFO root fetch - processPackages [warframe.py]: Downloading https://files.pythonhosted.org/packages/e5/4e/3e4903435b35187e03b0221ee5323b08f95c7dfb462b11818a54929cc8c1/warframe.py-0.4.0.tar.gz
+[2023-07-02 09:42:20] INFO root fetch - processPackages [classiq]: New version: [0.9.3] Old Version: [0.9.1]
+[2023-07-02 09:42:20] INFO root fetch - processPackages [classiq]: Downloading https://files.pythonhosted.org/packages/62/bd/a743e4141094b0e9dc17aeac1cedfe15efc910502e7411611d5cdf9d1878/classiq-0.9.1-py3-none-any.whl
+[2023-07-02 09:42:20] INFO root fetch - processPackages [warframe.py]: Downloading https://files.pythonhosted.org/packages/b1/ea/f2db93c8844a82367d4053871e0e7822e0be9e762def4c1c535210b58558/warframe.py-0.5.0.tar.gz
+[2023-07-02 09:42:20] INFO root fetch - processPackages [warframe.py]: executing diffoscope
+[2023-07-02 09:42:20] INFO root fetch - processPackages [warframe.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warframe.py-0.4.0.tar.gz tmp/warframe.py-0.5.0.tar.gz --markdown 20230702/w/warframe.py/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-02 09:42:21] INFO root fetch - processPackages [classiq]: Downloading https://files.pythonhosted.org/packages/e5/eb/9b39365fd2d7c2027f6610a884229059149ab9a3395be331767306762c07/classiq-0.9.3-py3-none-any.whl
+[2023-07-02 09:42:21] INFO root fetch - processPackages [classiq]: executing diffoscope
+[2023-07-02 09:42:21] INFO root fetch - processPackages [classiq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/classiq-0.9.1-py3-none-any.whl.zip tmp/classiq-0.9.3-py3-none-any.whl.zip --markdown 20230702/c/classiq/0.9.1-0.9.3/diff.md --exclude *.pyd
+[2023-07-02 09:42:22] INFO root fetch - processPackages [warframe.py]: Remove: archive file [/home/abi/fetcher/tmp/warframe.py-0.4.0.tar.gz]
+[2023-07-02 09:42:22] INFO root fetch - processPackages [warframe.py]: Remove: archive file [/home/abi/fetcher/tmp/warframe.py-0.5.0.tar.gz]
+[2023-07-02 09:42:22] INFO root fetch - main [MainThread]: End processing [warframe.py]: success
+[2023-07-02 09:42:23] INFO root fetch - processPackages [classiq]: Remove: archive file [/home/abi/fetcher/tmp/classiq-0.9.1-py3-none-any.whl.zip]
+[2023-07-02 09:42:23] INFO root fetch - processPackages [classiq]: Remove: archive file [/home/abi/fetcher/tmp/classiq-0.9.3-py3-none-any.whl.zip]
+[2023-07-02 09:42:23] INFO root fetch - main [MainThread]: End processing [classiq]: success
+[2023-07-02 09:42:23] INFO root fetch - main [MainThread]: Store serial: [18727012]
