@@ -2930,3 +2930,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 04:39:53] INFO root fetch - processPackages [monai-weekly]: Remove: archive file [/home/abi/fetcher/tmp/monai-weekly-1.3.dev2327.tar.gz]
 [2023-07-02 04:39:53] INFO root fetch - main [MainThread]: End processing [monai-weekly]: success
 [2023-07-02 04:39:53] INFO root fetch - main [MainThread]: Store serial: [18725892]
+[2023-07-02 04:44:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18725892]
+[2023-07-02 04:45:02] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-02 04:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: klujax
+[2023-07-02 04:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-asset-management
+[2023-07-02 04:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-fiscal-position-vat-check
+[2023-07-02 04:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-chart-update
+[2023-07-02 04:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-account-journal-lock-date
+[2023-07-02 04:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-account-move-template
+[2023-07-02 04:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk8s-plus-24
+[2023-07-02 04:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mathkit
+[2023-07-02 04:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: monailabel-weekly
+[2023-07-02 04:45:02] INFO root fetch - processPackages [odoo-addon-account-fiscal-position-vat-check]: New version: [16.0.1.1.0.5] Old Version: [16.0.1.1.0.4]
+[2023-07-02 04:45:02] INFO root fetch - processPackages [odoo-addon-account-move-template]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-07-02 04:45:02] INFO root fetch - processPackages [klujax]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-07-02 04:45:02] INFO root fetch - processPackages [odoo-addon-account-chart-update]: New version: [16.0.1.0.1.9] Old Version: [16.0.1.0.1.8]
+[2023-07-02 04:45:02] INFO root fetch - processPackages [monailabel-weekly]: New version: [0.5.dev2327] Old Version: [0.5.dev2326]
+[2023-07-02 04:45:02] INFO root fetch - processPackages [odoo-addon-account-journal-lock-date]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.6]
+[2023-07-02 04:45:02] INFO root fetch - processPackages [odoo-addon-account-asset-management]: New version: [16.0.1.0.1.1] Old Version: [16.0.1.0.1]
+[2023-07-02 04:45:02] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-07-02 04:45:02] INFO root fetch - processPackages [mathkit]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-02 04:45:02] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/73/d5/49a8dc44e72e5db18c0f19520eb82a0010e697d0f43ab159152c33791aa7/cdk8s-plus-24-2.8.8.tar.gz
+[2023-07-02 04:45:02] INFO root fetch - processPackages [mathkit]: Downloading https://files.pythonhosted.org/packages/84/a0/538f8667f18fb12a79a74f439b5104ad363161d1e0a6c14dd56009db00e7/mathkit-0.2.1.tar.gz
+[2023-07-02 04:45:02] INFO root fetch - processPackages [odoo-addon-account-move-template]: Downloading https://files.pythonhosted.org/packages/27/99/f9e659c387bb23a53c5d777305d9e35c4cc4cd3acf5af716461718be0e16/odoo_addon_account_move_template-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-02 04:45:02] INFO root fetch - processPackages [odoo-addon-account-fiscal-position-vat-check]: Downloading https://files.pythonhosted.org/packages/02/e9/44a565a0ef9b5c8e1d823ff3d2b01a75edc48a179388612760c347120ae0/odoo_addon_account_fiscal_position_vat_check-16.0.1.1.0.4-py3-none-any.whl
+[2023-07-02 04:45:02] INFO root fetch - processPackages [odoo-addon-account-chart-update]: Downloading https://files.pythonhosted.org/packages/73/2f/d2a6f8e89191cf938557d92b74efe776d11d4730076f47c16e5db5073945/odoo_addon_account_chart_update-16.0.1.0.1.8-py3-none-any.whl
+[2023-07-02 04:45:02] INFO root fetch - processPackages [odoo-addon-account-journal-lock-date]: Downloading https://files.pythonhosted.org/packages/d4/e7/20e90d39e118211e1ee7bea08e671f71126f6d3020a57211a9c09aa74c5f/odoo_addon_account_journal_lock_date-16.0.1.0.0.6-py3-none-any.whl
+[2023-07-02 04:45:02] INFO root fetch - processPackages [klujax]: Downloading https://files.pythonhosted.org/packages/d7/70/8324e793a848563ba8c52874b0295537ef2941e5f4f5bbc0571bde6288d4/klujax-0.1.4.tar.gz
+[2023-07-02 04:45:02] INFO root fetch - processPackages [monailabel-weekly]: Downloading https://files.pythonhosted.org/packages/a7/b2/a7b41c56a04bb7db99769fc8885c631284731383f628975c5d4556c385be/monailabel_weekly-0.5.dev2326-py3-none-any.whl
+[2023-07-02 04:45:02] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/b9/0d/42edcff8008d67c72f57563f5b66eb8fb34b3e2d0588de546645007d058e/odoo_addon_account_asset_management-16.0.1.0.1-py3-none-any.whl
+[2023-07-02 04:45:02] INFO root fetch - processPackages [mathkit]: Downloading https://files.pythonhosted.org/packages/d7/7a/e54d275c6b90d25cae1af7c6267d5652426c91bf8922cb882207992a5b17/mathkit-0.2.2.tar.gz
+[2023-07-02 04:45:02] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/a4/eb/7fc3f17d6eb6750041a6b336906ad566e6b538954d0cd6fe7880f54bf206/cdk8s-plus-24-2.8.9.tar.gz
+[2023-07-02 04:45:02] INFO root fetch - processPackages [mathkit]: executing diffoscope
+[2023-07-02 04:45:02] INFO root fetch - processPackages [mathkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathkit-0.2.1.tar.gz tmp/mathkit-0.2.2.tar.gz --markdown 20230702/m/mathkit/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-02 04:45:03] INFO root fetch - processPackages [odoo-addon-account-move-template]: Downloading https://files.pythonhosted.org/packages/bc/73/de1e7a2afbc53478b6b1b940ffb3595a3d2340656bafec319c2150a2de13/odoo_addon_account_move_template-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-02 04:45:03] INFO root fetch - processPackages [odoo-addon-account-fiscal-position-vat-check]: Downloading https://files.pythonhosted.org/packages/75/b0/1b8c6fac2f3f1b44cc8a8ca94e9b97ba8fd759087b1df7965f9f6a1b6ac6/odoo_addon_account_fiscal_position_vat_check-16.0.1.1.0.5-py3-none-any.whl
+[2023-07-02 04:45:03] INFO root fetch - processPackages [odoo-addon-account-chart-update]: Downloading https://files.pythonhosted.org/packages/c8/c4/5169ce3377189dab7f4cf1ebd81d3797e684de4755f0cf6fc3d8c01415c2/odoo_addon_account_chart_update-16.0.1.0.1.9-py3-none-any.whl
+[2023-07-02 04:45:03] INFO root fetch - processPackages [odoo-addon-account-move-template]: executing diffoscope
+[2023-07-02 04:45:03] INFO root fetch - processPackages [odoo-addon-account-move-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_move_template-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_move_template-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230702/o/odoo-addon-account-move-template/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-07-02 04:45:03] INFO root fetch - processPackages [odoo-addon-account-fiscal-position-vat-check]: executing diffoscope
+[2023-07-02 04:45:03] INFO root fetch - processPackages [odoo-addon-account-fiscal-position-vat-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_fiscal_position_vat_check-16.0.1.1.0.4-py3-none-any.whl.zip tmp/odoo_addon_account_fiscal_position_vat_check-16.0.1.1.0.5-py3-none-any.whl.zip --markdown 20230702/o/odoo-addon-account-fiscal-position-vat-check/16.0.1.1.0.4-16.0.1.1.0.5/diff.md --exclude *.pyd
+[2023-07-02 04:45:03] INFO root fetch - processPackages [klujax]: Downloading https://files.pythonhosted.org/packages/a5/50/10d36cb6e80b9dd392492af925d56b8fc14fe9c02b3cb5975845e96708c5/klujax-0.2.0.tar.gz
+[2023-07-02 04:45:03] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-07-02 04:45:03] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.8.8.tar.gz tmp/cdk8s-plus-24-2.8.9.tar.gz --markdown 20230702/c/cdk8s-plus-24/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-07-02 04:45:03] INFO root fetch - processPackages [odoo-addon-account-journal-lock-date]: Downloading https://files.pythonhosted.org/packages/d4/f4/9b3ecbf80c3dc8361f62031cf1e1a6312d22535efbfdac13f9cd3a4d052b/odoo_addon_account_journal_lock_date-16.0.1.0.0.7-py3-none-any.whl
+[2023-07-02 04:45:03] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/1c/32/d67990bd7c07adc83d3e4d96940bd3fd441cb45e6ff5d09640fd441b4cd7/odoo_addon_account_asset_management-16.0.1.0.1.1-py3-none-any.whl
+[2023-07-02 04:45:03] INFO root fetch - processPackages [klujax]: executing diffoscope
+[2023-07-02 04:45:03] INFO root fetch - processPackages [klujax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klujax-0.1.4.tar.gz tmp/klujax-0.2.0.tar.gz --markdown 20230702/k/klujax/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-07-02 04:45:03] INFO root fetch - processPackages [odoo-addon-account-journal-lock-date]: executing diffoscope
+[2023-07-02 04:45:03] INFO root fetch - processPackages [odoo-addon-account-journal-lock-date]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_journal_lock_date-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_account_journal_lock_date-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20230702/o/odoo-addon-account-journal-lock-date/16.0.1.0.0.6-16.0.1.0.0.7/diff.md --exclude *.pyd
+[2023-07-02 04:45:03] INFO root fetch - processPackages [odoo-addon-account-chart-update]: executing diffoscope
+[2023-07-02 04:45:03] INFO root fetch - processPackages [odoo-addon-account-chart-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_chart_update-16.0.1.0.1.8-py3-none-any.whl.zip tmp/odoo_addon_account_chart_update-16.0.1.0.1.9-py3-none-any.whl.zip --markdown 20230702/o/odoo-addon-account-chart-update/16.0.1.0.1.8-16.0.1.0.1.9/diff.md --exclude *.pyd
+[2023-07-02 04:45:03] INFO root fetch - processPackages [odoo-addon-account-asset-management]: executing diffoscope
+[2023-07-02 04:45:03] INFO root fetch - processPackages [odoo-addon-account-asset-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_asset_management-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_asset_management-16.0.1.0.1.1-py3-none-any.whl.zip --markdown 20230702/o/odoo-addon-account-asset-management/16.0.1.0.1-16.0.1.0.1.1/diff.md --exclude *.pyd
+[2023-07-02 04:45:04] INFO root fetch - processPackages [mathkit]: Remove: archive file [/home/abi/fetcher/tmp/mathkit-0.2.1.tar.gz]
+[2023-07-02 04:45:04] INFO root fetch - processPackages [mathkit]: Remove: archive file [/home/abi/fetcher/tmp/mathkit-0.2.2.tar.gz]
+[2023-07-02 04:45:04] INFO root fetch - main [MainThread]: End processing [mathkit]: success
+[2023-07-02 04:45:04] INFO root fetch - processPackages [klujax]: Remove: archive file [/home/abi/fetcher/tmp/klujax-0.1.4.tar.gz]
+[2023-07-02 04:45:04] INFO root fetch - processPackages [klujax]: Remove: archive file [/home/abi/fetcher/tmp/klujax-0.2.0.tar.gz]
+[2023-07-02 04:45:04] INFO root fetch - main [MainThread]: End processing [klujax]: success
+[2023-07-02 04:45:04] INFO root fetch - processPackages [odoo-addon-account-fiscal-position-vat-check]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_fiscal_position_vat_check-16.0.1.1.0.4-py3-none-any.whl.zip]
+[2023-07-02 04:45:04] INFO root fetch - processPackages [odoo-addon-account-fiscal-position-vat-check]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_fiscal_position_vat_check-16.0.1.1.0.5-py3-none-any.whl.zip]
+[2023-07-02 04:45:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-fiscal-position-vat-check]: success
+[2023-07-02 04:45:04] INFO root fetch - processPackages [odoo-addon-account-move-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_template-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-02 04:45:04] INFO root fetch - processPackages [odoo-addon-account-move-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_template-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-02 04:45:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-move-template]: success
+[2023-07-02 04:45:04] INFO root fetch - processPackages [odoo-addon-account-journal-lock-date]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_journal_lock_date-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-07-02 04:45:04] INFO root fetch - processPackages [odoo-addon-account-journal-lock-date]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_journal_lock_date-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-07-02 04:45:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-journal-lock-date]: success
+[2023-07-02 04:45:05] INFO root fetch - processPackages [odoo-addon-account-chart-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_chart_update-16.0.1.0.1.8-py3-none-any.whl.zip]
+[2023-07-02 04:45:05] INFO root fetch - processPackages [odoo-addon-account-chart-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_chart_update-16.0.1.0.1.9-py3-none-any.whl.zip]
+[2023-07-02 04:45:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-chart-update]: success
+[2023-07-02 04:45:05] INFO root fetch - processPackages [monailabel-weekly]: Downloading https://files.pythonhosted.org/packages/87/31/e21d58a97e7265770a97b3b114d82524a32517373feae4cf581ae98b7ae5/monailabel_weekly-0.5.dev2327-py3-none-any.whl
+[2023-07-02 04:45:05] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_asset_management-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-02 04:45:05] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_asset_management-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2023-07-02 04:45:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-asset-management]: success
+[2023-07-02 04:45:06] INFO root fetch - processPackages [monailabel-weekly]: executing diffoscope
+[2023-07-02 04:45:06] INFO root fetch - processPackages [monailabel-weekly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monailabel_weekly-0.5.dev2326-py3-none-any.whl.zip tmp/monailabel_weekly-0.5.dev2327-py3-none-any.whl.zip --markdown 20230702/m/monailabel-weekly/0.5.dev2326-0.5.dev2327/diff.md --exclude *.pyd
+[2023-07-02 04:45:06] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.8.tar.gz]
+[2023-07-02 04:45:06] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.9.tar.gz]
+[2023-07-02 04:45:06] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-07-02 04:45:14] INFO root fetch - processPackages [monailabel-weekly]: Remove: archive file [/home/abi/fetcher/tmp/monailabel_weekly-0.5.dev2326-py3-none-any.whl.zip]
+[2023-07-02 04:45:14] INFO root fetch - processPackages [monailabel-weekly]: Remove: archive file [/home/abi/fetcher/tmp/monailabel_weekly-0.5.dev2327-py3-none-any.whl.zip]
+[2023-07-02 04:45:14] INFO root fetch - main [MainThread]: End processing [monailabel-weekly]: success
+[2023-07-02 04:45:14] INFO root fetch - main [MainThread]: Store serial: [18725920]
