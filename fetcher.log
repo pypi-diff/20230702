@@ -14152,3 +14152,85 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-02 20:19:53] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.5.tar.gz]
 [2023-07-02 20:19:53] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
 [2023-07-02 20:19:53] INFO root fetch - main [MainThread]: Store serial: [18730628]
+[2023-07-02 20:24:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18730628]
+[2023-07-02 20:25:03] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-02 20:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pathier
+[2023-07-02 20:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: heavylight
+[2023-07-02 20:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trailmet
+[2023-07-02 20:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: parse-type
+[2023-07-02 20:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sugaru
+[2023-07-02 20:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: morecantile
+[2023-07-02 20:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trailmet
+[2023-07-02 20:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yid-langchain-extensions
+[2023-07-02 20:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyTooling
+[2023-07-02 20:25:03] INFO root fetch - processPackages [morecantile]: New version: [4.2.1] Old Version: [4.2.0]
+[2023-07-02 20:25:03] INFO root fetch - processPackages [yid-langchain-extensions]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-02 20:25:03] INFO root fetch - processPackages [pathier]: New version: [1.0.0] Old Version: [0.9.0]
+[2023-07-02 20:25:03] INFO root fetch - processPackages [heavylight]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-02 20:25:03] INFO root fetch - processPackages [trailmet]: New version: [0.0.1rc0] Old Version: [0.0.1.1]
+[2023-07-02 20:25:03] INFO root fetch - processPackages [trailmet]: New version: [0.0.1rc0] Old Version: [0.0.1.1]
+[2023-07-02 20:25:03] INFO root fetch - processPackages [parse-type]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-02 20:25:03] INFO root fetch - processPackages [pyTooling]: New version: [5.0.0] Old Version: [4.0.1]
+[2023-07-02 20:25:03] INFO root fetch - processPackages [sugaru]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-02 20:25:03] INFO root fetch - processPackages [yid-langchain-extensions]: Downloading https://files.pythonhosted.org/packages/3b/ad/5a14d2e0db79c4c9e25625b1b4d6b4abf5e8bf7fb0bb06ba3461611b3181/yid_langchain_extensions-0.4.8.tar.gz
+[2023-07-02 20:25:03] INFO root fetch - processPackages [heavylight]: Downloading https://files.pythonhosted.org/packages/e7/d5/9c53b770369e887d7a48b10492f0fb3af062fdc2124e065ee56621c7153c/heavylight-1.0.1.tar.gz
+[2023-07-02 20:25:03] INFO root fetch - processPackages [pathier]: Downloading https://files.pythonhosted.org/packages/8f/d2/d37dc8f5fd6560d6ce827efbca68e3e5a1188f74d5d335da4c5504fd1556/pathier-0.9.0.tar.gz
+[2023-07-02 20:25:03] INFO root fetch - processPackages [trailmet]: Downloading https://files.pythonhosted.org/packages/bd/60/9879d380befc7500abc2d5bb12254962cf5b51c72f9f23894d8a1105c1d0/trailmet-0.0.1.1-py3-none-any.whl
+[2023-07-02 20:25:03] INFO root fetch - processPackages [trailmet]: Downloading https://files.pythonhosted.org/packages/bd/60/9879d380befc7500abc2d5bb12254962cf5b51c72f9f23894d8a1105c1d0/trailmet-0.0.1.1-py3-none-any.whl
+[2023-07-02 20:25:03] INFO root fetch - processPackages [morecantile]: Downloading https://files.pythonhosted.org/packages/4e/21/7bb1b4ea0ed01e24bde58a106b167770e1558690b3ba65ccdc3c9e6aa95c/morecantile-4.2.0.tar.gz
+[2023-07-02 20:25:03] INFO root fetch - processPackages [parse-type]: Downloading https://files.pythonhosted.org/packages/d6/d4/8d79b78547df1c670406146776e1a91b1d5a1f5b928c0d7249e4fd1019bb/parse_type-0.6.0.tar.gz
+[2023-07-02 20:25:03] INFO root fetch - processPackages [pyTooling]: Downloading https://files.pythonhosted.org/packages/15/c4/3870c9b8c477d0db0d8cf25d883f4d6283b03c0015c7428f825c184b5ea3/pyTooling-4.0.1.tar.gz
+[2023-07-02 20:25:03] INFO root fetch - processPackages [sugaru]: Downloading https://files.pythonhosted.org/packages/f9/ed/15a5887804ac52737cc337a94d8029f9422dc64950c21c2c8d8ed84a19e9/sugaru-0.0.1.tar.gz
+[2023-07-02 20:25:03] INFO root fetch - processPackages [yid-langchain-extensions]: Downloading https://files.pythonhosted.org/packages/72/ba/67d200561c62c1dbd583ac75ded2fb95737bee8f62900d9aaf0aeda17ef8/yid_langchain_extensions-0.4.9.tar.gz
+[2023-07-02 20:25:03] INFO root fetch - processPackages [heavylight]: Downloading https://files.pythonhosted.org/packages/a0/c4/fe3b2879ef4b7f61702fe0be9f58bc3f6448fe350a1aa884b6baab032d90/heavylight-1.0.2.tar.gz
+[2023-07-02 20:25:03] INFO root fetch - processPackages [trailmet]: Downloading https://files.pythonhosted.org/packages/c4/4b/3e39400f242198674982bec55931383414ae96e98da3741c57e8980b867a/trailmet-0.0.1rc0.tar.gz
+[2023-07-02 20:25:03] INFO root fetch - processPackages [trailmet]: Downloading https://files.pythonhosted.org/packages/c4/4b/3e39400f242198674982bec55931383414ae96e98da3741c57e8980b867a/trailmet-0.0.1rc0.tar.gz
+[2023-07-02 20:25:04] INFO root fetch - processPackages [heavylight]: executing diffoscope
+[2023-07-02 20:25:04] INFO root fetch - processPackages [heavylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heavylight-1.0.1.tar.gz tmp/heavylight-1.0.2.tar.gz --markdown 20230702/h/heavylight/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-02 20:25:04] INFO root fetch - processPackages [yid-langchain-extensions]: executing diffoscope
+[2023-07-02 20:25:04] INFO root fetch - processPackages [yid-langchain-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yid_langchain_extensions-0.4.8.tar.gz tmp/yid_langchain_extensions-0.4.9.tar.gz --markdown 20230702/y/yid-langchain-extensions/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-02 20:25:04] INFO root fetch - processPackages [pathier]: Downloading https://files.pythonhosted.org/packages/8a/46/20b533cfb95a2cb811a6c3ef3cddb81feacbb0d487302d71a2870533f263/pathier-1.0.0.tar.gz
+[2023-07-02 20:25:04] INFO root fetch - processPackages [morecantile]: Downloading https://files.pythonhosted.org/packages/b0/3c/65958af2b9ef2e3f02f35b0091c7b0052348b4b1f3c1a101af71d311d46d/morecantile-4.2.1.tar.gz
+[2023-07-02 20:25:04] INFO root fetch - processPackages [pyTooling]: Downloading https://files.pythonhosted.org/packages/d0/1d/c05e9faf09671515ac3732613ca9b8b786bb2b7d8e523429c851998627df/pyTooling-5.0.0.tar.gz
+[2023-07-02 20:25:04] INFO root fetch - processPackages [parse-type]: Downloading https://files.pythonhosted.org/packages/46/29/558531fda406a29d7a4a26d5c07a928aedb2bceea820c3c9f105dce39584/parse_type-0.6.1.tar.gz
+[2023-07-02 20:25:04] INFO root fetch - processPackages [trailmet]: executing diffoscope
+[2023-07-02 20:25:04] INFO root fetch - processPackages [trailmet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailmet-0.0.1.1-py3-none-any.whl.zip tmp/trailmet-0.0.1rc0.tar.gz --markdown 20230702/t/trailmet/0.0.1.1-0.0.1rc0/diff.md --exclude *.pyd
+[2023-07-02 20:25:04] INFO root fetch - processPackages [trailmet]: executing diffoscope
+[2023-07-02 20:25:04] INFO root fetch - processPackages [trailmet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailmet-0.0.1.1-py3-none-any.whl.zip tmp/trailmet-0.0.1rc0.tar.gz --markdown 20230702/t/trailmet/0.0.1.1-0.0.1rc0/diff.md --exclude *.pyd
+[2023-07-02 20:25:04] INFO root fetch - processPackages [sugaru]: Downloading https://files.pythonhosted.org/packages/b3/19/357507fa1bd43cf804602a2f79effffa0daad94b639bf3bc6e3f6adb9732/sugaru-0.1.0.tar.gz
+[2023-07-02 20:25:04] INFO root fetch - processPackages [morecantile]: executing diffoscope
+[2023-07-02 20:25:04] INFO root fetch - processPackages [morecantile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morecantile-4.2.0.tar.gz tmp/morecantile-4.2.1.tar.gz --markdown 20230702/m/morecantile/4.2.0-4.2.1/diff.md --exclude *.pyd
+[2023-07-02 20:25:04] INFO root fetch - processPackages [parse-type]: executing diffoscope
+[2023-07-02 20:25:04] INFO root fetch - processPackages [parse-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parse_type-0.6.0.tar.gz tmp/parse_type-0.6.1.tar.gz --markdown 20230702/p/parse-type/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-02 20:25:04] INFO root fetch - processPackages [sugaru]: executing diffoscope
+[2023-07-02 20:25:04] INFO root fetch - processPackages [sugaru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sugaru-0.0.1.tar.gz tmp/sugaru-0.1.0.tar.gz --markdown 20230702/s/sugaru/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-02 20:25:04] INFO root fetch - processPackages [pathier]: executing diffoscope
+[2023-07-02 20:25:04] INFO root fetch - processPackages [pathier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathier-0.9.0.tar.gz tmp/pathier-1.0.0.tar.gz --markdown 20230702/p/pathier/0.9.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-02 20:25:04] INFO root fetch - processPackages [pyTooling]: executing diffoscope
+[2023-07-02 20:25:04] INFO root fetch - processPackages [pyTooling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyTooling-4.0.1.tar.gz tmp/pyTooling-5.0.0.tar.gz --markdown 20230702/p/pyTooling/4.0.1-5.0.0/diff.md --exclude *.pyd
+[2023-07-02 20:25:05] INFO root fetch - processPackages [heavylight]: Remove: archive file [/home/abi/fetcher/tmp/heavylight-1.0.1.tar.gz]
+[2023-07-02 20:25:05] INFO root fetch - processPackages [heavylight]: Remove: archive file [/home/abi/fetcher/tmp/heavylight-1.0.2.tar.gz]
+[2023-07-02 20:25:05] INFO root fetch - main [MainThread]: End processing [heavylight]: success
+[2023-07-02 20:25:05] INFO root fetch - processPackages [yid-langchain-extensions]: Remove: archive file [/home/abi/fetcher/tmp/yid_langchain_extensions-0.4.8.tar.gz]
+[2023-07-02 20:25:05] INFO root fetch - processPackages [yid-langchain-extensions]: Remove: archive file [/home/abi/fetcher/tmp/yid_langchain_extensions-0.4.9.tar.gz]
+[2023-07-02 20:25:05] INFO root fetch - main [MainThread]: End processing [yid-langchain-extensions]: success
+[2023-07-02 20:25:05] INFO root fetch - processPackages [trailmet]: Remove: archive file [/home/abi/fetcher/tmp/trailmet-0.0.1.1-py3-none-any.whl.zip]
+[2023-07-02 20:25:05] INFO root fetch - processPackages [trailmet]: Remove: archive file [/home/abi/fetcher/tmp/trailmet-0.0.1rc0.tar.gz]
+[2023-07-02 20:25:05] INFO root fetch - main [MainThread]: End processing [trailmet]: success
+[2023-07-02 20:25:05] INFO root fetch - main [MainThread]: End processing [trailmet]: success
+[2023-07-02 20:25:05] INFO root fetch - processPackages [pathier]: Remove: archive file [/home/abi/fetcher/tmp/pathier-0.9.0.tar.gz]
+[2023-07-02 20:25:05] INFO root fetch - processPackages [pathier]: Remove: archive file [/home/abi/fetcher/tmp/pathier-1.0.0.tar.gz]
+[2023-07-02 20:25:05] INFO root fetch - main [MainThread]: End processing [pathier]: success
+[2023-07-02 20:25:05] INFO root fetch - processPackages [morecantile]: Remove: archive file [/home/abi/fetcher/tmp/morecantile-4.2.0.tar.gz]
+[2023-07-02 20:25:05] INFO root fetch - processPackages [morecantile]: Remove: archive file [/home/abi/fetcher/tmp/morecantile-4.2.1.tar.gz]
+[2023-07-02 20:25:05] INFO root fetch - main [MainThread]: End processing [morecantile]: success
+[2023-07-02 20:25:05] INFO root fetch - processPackages [sugaru]: Remove: archive file [/home/abi/fetcher/tmp/sugaru-0.0.1.tar.gz]
+[2023-07-02 20:25:05] INFO root fetch - processPackages [sugaru]: Remove: archive file [/home/abi/fetcher/tmp/sugaru-0.1.0.tar.gz]
+[2023-07-02 20:25:05] INFO root fetch - main [MainThread]: End processing [sugaru]: success
+[2023-07-02 20:25:05] INFO root fetch - processPackages [parse-type]: Remove: archive file [/home/abi/fetcher/tmp/parse_type-0.6.0.tar.gz]
+[2023-07-02 20:25:05] INFO root fetch - processPackages [parse-type]: Remove: archive file [/home/abi/fetcher/tmp/parse_type-0.6.1.tar.gz]
+[2023-07-02 20:25:05] INFO root fetch - main [MainThread]: End processing [parse-type]: success
+[2023-07-02 20:25:06] INFO root fetch - processPackages [pyTooling]: Remove: archive file [/home/abi/fetcher/tmp/pyTooling-4.0.1.tar.gz]
+[2023-07-02 20:25:06] INFO root fetch - processPackages [pyTooling]: Remove: archive file [/home/abi/fetcher/tmp/pyTooling-5.0.0.tar.gz]
+[2023-07-02 20:25:06] INFO root fetch - main [MainThread]: End processing [pyTooling]: success
+[2023-07-02 20:25:06] INFO root fetch - main [MainThread]: Store serial: [18730654]
