@@ -11178,3 +11178,91 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 17:18:53] INFO root fetch - processPackages [meth]: Remove: archive file [/home/abi/fetcher/tmp/meth-1.1.0.tar.gz]
 [2023-07-02 17:18:53] INFO root fetch - main [MainThread]: End processing [meth]: success
 [2023-07-02 17:18:53] INFO root fetch - main [MainThread]: Store serial: [18729439]
+[2023-07-02 17:23:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18729439]
+[2023-07-02 17:24:02] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-02 17:24:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aicoder
+[2023-07-02 17:24:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ocp-tessellate
+[2023-07-02 17:24:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: srt-equalizer
+[2023-07-02 17:24:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scsd
+[2023-07-02 17:24:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wildered
+[2023-07-02 17:24:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qworker
+[2023-07-02 17:24:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aicoder
+[2023-07-02 17:24:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: heavylight
+[2023-07-02 17:24:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ccxtools
+[2023-07-02 17:24:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cellworld
+[2023-07-02 17:24:02] INFO root fetch - processPackages [ocp-tessellate]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-02 17:24:02] WARNING root fetch - processPackages [wildered]: Skipping, unable to determine old version
+[2023-07-02 17:24:02] INFO root fetch - processPackages [srt-equalizer]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-02 17:24:02] INFO root fetch - processPackages [wildered]: Start processing: curies
+[2023-07-02 17:24:02] INFO root fetch - main [MainThread]: End processing [wildered] error
+[2023-07-02 17:24:02] INFO root fetch - processPackages [aicoder]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-07-02 17:24:02] WARNING root fetch - processPackages [heavylight]: Skipping, unable to determine old version
+[2023-07-02 17:24:02] INFO root fetch - processPackages [scsd]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-02 17:24:02] INFO root fetch - main [MainThread]: End processing [heavylight] error
+[2023-07-02 17:24:02] INFO root fetch - processPackages [ccxtools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 17:24:02] INFO root fetch - processPackages [qworker]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-07-02 17:24:02] INFO root fetch - processPackages [aicoder]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-07-02 17:24:02] INFO root fetch - processPackages [cellworld]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-02 17:24:02] INFO root fetch - processPackages [srt-equalizer]: Downloading https://files.pythonhosted.org/packages/38/4c/95714be3d9b776fe16af83956dcd1f470475887f5cbdb5bf6d2af1a7bc93/srt_equalizer-0.1.4.tar.gz
+[2023-07-02 17:24:02] INFO root fetch - processPackages [cellworld]: Downloading https://files.pythonhosted.org/packages/5b/48/37c208bf9f17c56f039db252d8343184a4a55191496e7d6fc9880261bc31/cellworld-0.0.98.tar.gz
+[2023-07-02 17:24:02] INFO root fetch - processPackages [qworker]: Downloading https://files.pythonhosted.org/packages/7f/76/e8229f7e434297ef00fe9a6e9780df7a16674bc6e6f85ec7c9acaa6b4f31/qworker-1.9.4-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-02 17:24:02] INFO root fetch - processPackages [ccxtools]: Downloading https://files.pythonhosted.org/packages/2f/81/ac3ab54ce686eaf6c2cbf0b6b8845dc3abcd2ca613864b7c6c242ffd3c56/ccxtools-0.0.8.tar.gz
+[2023-07-02 17:24:02] INFO root fetch - processPackages [curies]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-07-02 17:24:02] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/a9/da/c6d1ddfec94472491beba9de614dbea81e5fc6a6342dcf78d96f8c7a1d10/aicoder-0.2.9-py3-none-any.whl
+[2023-07-02 17:24:02] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/a9/da/c6d1ddfec94472491beba9de614dbea81e5fc6a6342dcf78d96f8c7a1d10/aicoder-0.2.9-py3-none-any.whl
+[2023-07-02 17:24:02] INFO root fetch - processPackages [scsd]: Downloading https://files.pythonhosted.org/packages/ac/17/337cb25f0f71ec432dbb4bf39eed6d2a4dafd21d01d2144a5cb8372c5985/scsd-0.0.7.tar.gz
+[2023-07-02 17:24:02] INFO root fetch - processPackages [ocp-tessellate]: Downloading https://files.pythonhosted.org/packages/3c/e7/a13133ba8358fbb1c64441b57b899433bf4379fca84415c2d0e63aba4885/ocp_tessellate-1.1.1.tar.gz
+[2023-07-02 17:24:02] INFO root fetch - processPackages [cellworld]: Downloading https://files.pythonhosted.org/packages/ef/23/3c6f38892cfa3ebc3c34a2cf3e74549ede81266641f0969285913d8e199b/cellworld-0.0.99.tar.gz
+[2023-07-02 17:24:02] INFO root fetch - processPackages [ccxtools]: Downloading https://files.pythonhosted.org/packages/4b/e9/6ef44c6be3fb7e41208d0e44d2c881fbe5ece1952bea1b3b096a5201e196/ccxtools-0.0.9.tar.gz
+[2023-07-02 17:24:02] INFO root fetch - processPackages [srt-equalizer]: Downloading https://files.pythonhosted.org/packages/0a/5c/72daa9dad9175c1ac78fcbae502e0ae6dab2cf76c7c36d852071480cc056/srt_equalizer-0.1.5.tar.gz
+[2023-07-02 17:24:02] INFO root fetch - processPackages [qworker]: Downloading https://files.pythonhosted.org/packages/c3/9f/c4c1a3adfbd03ae3dd8823309f0684fc5bdb7aae5b7854d85169779dcad6/qworker-1.9.5-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-02 17:24:02] INFO root fetch - processPackages [curies]: Downloading https://files.pythonhosted.org/packages/7b/49/1efeb81ebf44ef6c045cd445f2a962b8ecfd92f5f987e07e191c9992c687/curies-0.5.5.tar.gz
+[2023-07-02 17:24:02] INFO root fetch - processPackages [cellworld]: executing diffoscope
+[2023-07-02 17:24:02] INFO root fetch - processPackages [cellworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellworld-0.0.98.tar.gz tmp/cellworld-0.0.99.tar.gz --markdown 20230702/c/cellworld/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-02 17:24:02] INFO root fetch - processPackages [ccxtools]: executing diffoscope
+[2023-07-02 17:24:02] INFO root fetch - processPackages [ccxtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxtools-0.0.8.tar.gz tmp/ccxtools-0.0.9.tar.gz --markdown 20230702/c/ccxtools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 17:24:02] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/fd/f0/7f85734dba3235c678acab4ec2540271cfd83ae061e510129f21c4d568d8/aicoder-0.3.0-py3-none-any.whl
+[2023-07-02 17:24:02] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/fd/f0/7f85734dba3235c678acab4ec2540271cfd83ae061e510129f21c4d568d8/aicoder-0.3.0-py3-none-any.whl
+[2023-07-02 17:24:02] INFO root fetch - processPackages [ocp-tessellate]: Downloading https://files.pythonhosted.org/packages/ee/26/6b7f3686d8be893da268825cd55b696c51e8989313290a0cbf3482c2a089/ocp_tessellate-1.1.2.tar.gz
+[2023-07-02 17:24:02] INFO root fetch - processPackages [qworker]: executing diffoscope
+[2023-07-02 17:24:02] INFO root fetch - processPackages [qworker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qworker-1.9.4-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/qworker-1.9.5-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230702/q/qworker/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-07-02 17:24:02] INFO root fetch - processPackages [srt-equalizer]: executing diffoscope
+[2023-07-02 17:24:02] INFO root fetch - processPackages [srt-equalizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/srt_equalizer-0.1.4.tar.gz tmp/srt_equalizer-0.1.5.tar.gz --markdown 20230702/s/srt-equalizer/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-02 17:24:02] INFO root fetch - processPackages [scsd]: Downloading https://files.pythonhosted.org/packages/73/23/a235ab52743256110c9399a7cd5232cd00d2be18aa57ea724b20fde057b3/scsd-0.0.8.tar.gz
+[2023-07-02 17:24:02] INFO root fetch - processPackages [aicoder]: executing diffoscope
+[2023-07-02 17:24:02] INFO root fetch - processPackages [aicoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicoder-0.2.9-py3-none-any.whl.zip tmp/aicoder-0.3.0-py3-none-any.whl.zip --markdown 20230702/a/aicoder/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-07-02 17:24:02] INFO root fetch - processPackages [aicoder]: executing diffoscope
+[2023-07-02 17:24:02] INFO root fetch - processPackages [aicoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicoder-0.2.9-py3-none-any.whl.zip tmp/aicoder-0.3.0-py3-none-any.whl.zip --markdown 20230702/a/aicoder/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-07-02 17:24:02] INFO root fetch - processPackages [ocp-tessellate]: executing diffoscope
+[2023-07-02 17:24:02] INFO root fetch - processPackages [ocp-tessellate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocp_tessellate-1.1.1.tar.gz tmp/ocp_tessellate-1.1.2.tar.gz --markdown 20230702/o/ocp-tessellate/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-02 17:24:03] INFO root fetch - processPackages [curies]: Downloading https://files.pythonhosted.org/packages/e5/b0/0ade4b432b756fb604b735cdeff218cd0b8d24d4ac579e0f105cd0f725dc/curies-0.5.6.tar.gz
+[2023-07-02 17:24:03] INFO root fetch - processPackages [scsd]: executing diffoscope
+[2023-07-02 17:24:03] INFO root fetch - processPackages [scsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scsd-0.0.7.tar.gz tmp/scsd-0.0.8.tar.gz --markdown 20230702/s/scsd/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-02 17:24:03] INFO root fetch - processPackages [curies]: executing diffoscope
+[2023-07-02 17:24:03] INFO root fetch - processPackages [curies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curies-0.5.5.tar.gz tmp/curies-0.5.6.tar.gz --markdown 20230702/c/curies/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-07-02 17:24:04] INFO root fetch - processPackages [ccxtools]: Remove: archive file [/home/abi/fetcher/tmp/ccxtools-0.0.8.tar.gz]
+[2023-07-02 17:24:04] INFO root fetch - processPackages [ccxtools]: Remove: archive file [/home/abi/fetcher/tmp/ccxtools-0.0.9.tar.gz]
+[2023-07-02 17:24:04] INFO root fetch - main [MainThread]: End processing [ccxtools]: success
+[2023-07-02 17:24:04] INFO root fetch - processPackages [srt-equalizer]: Remove: archive file [/home/abi/fetcher/tmp/srt_equalizer-0.1.4.tar.gz]
+[2023-07-02 17:24:04] INFO root fetch - processPackages [srt-equalizer]: Remove: archive file [/home/abi/fetcher/tmp/srt_equalizer-0.1.5.tar.gz]
+[2023-07-02 17:24:04] INFO root fetch - main [MainThread]: End processing [srt-equalizer]: success
+[2023-07-02 17:24:04] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.2.9-py3-none-any.whl.zip]
+[2023-07-02 17:24:04] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.3.0-py3-none-any.whl.zip]
+[2023-07-02 17:24:04] INFO root fetch - main [MainThread]: End processing [aicoder]: success
+[2023-07-02 17:24:04] INFO root fetch - main [MainThread]: End processing [aicoder]: success
+[2023-07-02 17:24:04] INFO root fetch - processPackages [scsd]: Remove: archive file [/home/abi/fetcher/tmp/scsd-0.0.7.tar.gz]
+[2023-07-02 17:24:04] INFO root fetch - processPackages [scsd]: Remove: archive file [/home/abi/fetcher/tmp/scsd-0.0.8.tar.gz]
+[2023-07-02 17:24:04] INFO root fetch - main [MainThread]: End processing [scsd]: success
+[2023-07-02 17:24:04] INFO root fetch - processPackages [cellworld]: Remove: archive file [/home/abi/fetcher/tmp/cellworld-0.0.98.tar.gz]
+[2023-07-02 17:24:04] INFO root fetch - processPackages [cellworld]: Remove: archive file [/home/abi/fetcher/tmp/cellworld-0.0.99.tar.gz]
+[2023-07-02 17:24:04] INFO root fetch - main [MainThread]: End processing [cellworld]: success
+[2023-07-02 17:24:04] INFO root fetch - processPackages [qworker]: Remove: archive file [/home/abi/fetcher/tmp/qworker-1.9.4-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-02 17:24:04] INFO root fetch - processPackages [qworker]: Remove: archive file [/home/abi/fetcher/tmp/qworker-1.9.5-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-02 17:24:04] INFO root fetch - main [MainThread]: End processing [qworker]: success
+[2023-07-02 17:24:04] INFO root fetch - processPackages [ocp-tessellate]: Remove: archive file [/home/abi/fetcher/tmp/ocp_tessellate-1.1.1.tar.gz]
+[2023-07-02 17:24:04] INFO root fetch - processPackages [ocp-tessellate]: Remove: archive file [/home/abi/fetcher/tmp/ocp_tessellate-1.1.2.tar.gz]
+[2023-07-02 17:24:04] INFO root fetch - main [MainThread]: End processing [ocp-tessellate]: success
+[2023-07-02 17:24:06] INFO root fetch - processPackages [curies]: Remove: archive file [/home/abi/fetcher/tmp/curies-0.5.5.tar.gz]
+[2023-07-02 17:24:06] INFO root fetch - processPackages [curies]: Remove: archive file [/home/abi/fetcher/tmp/curies-0.5.6.tar.gz]
+[2023-07-02 17:24:06] INFO root fetch - main [MainThread]: End processing [curies]: success
+[2023-07-02 17:24:06] INFO root fetch - main [MainThread]: Store serial: [18729489]
