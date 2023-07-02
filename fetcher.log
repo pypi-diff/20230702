@@ -10191,3 +10191,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 15:58:38] INFO root fetch - processPackages [depthai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/depthai-sdk-1.9.5.tar.gz]
 [2023-07-02 15:58:38] INFO root fetch - main [MainThread]: End processing [depthai-sdk]: success
 [2023-07-02 15:58:38] INFO root fetch - main [MainThread]: Store serial: [18729002]
+[2023-07-02 16:03:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18729002]
+[2023-07-02 16:03:47] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-02 16:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: osom-work
+[2023-07-02 16:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-request
+[2023-07-02 16:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: named-env
+[2023-07-02 16:03:47] INFO root fetch - processPackages [osom-work]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-02 16:03:47] INFO root fetch - processPackages [django-request]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-07-02 16:03:47] INFO root fetch - processPackages [osom-work]: Downloading https://files.pythonhosted.org/packages/81/2f/a84aba5a485262454c4678947e94ab2b93c66063a952119a32affc909df3/osom_work-0.0.3-py3-none-any.whl
+[2023-07-02 16:03:47] INFO root fetch - processPackages [named-env]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-07-02 16:03:47] INFO root fetch - processPackages [django-request]: Downloading https://files.pythonhosted.org/packages/26/3c/87afaa7e123ea2c2f50fb1d25aac557437418e618c701d4c2eadee5c5d97/django-request-1.6.2.tar.gz
+[2023-07-02 16:03:47] INFO root fetch - processPackages [named-env]: Downloading https://files.pythonhosted.org/packages/fb/5e/010cb71d2a40ab95f8f096c9bd8a3406739f9422df229728a756c5ff2200/named_env-2.2.0.tar.gz
+[2023-07-02 16:03:48] INFO root fetch - processPackages [osom-work]: Downloading https://files.pythonhosted.org/packages/2b/36/f927bc321360b4e51a4fa0ab240ad769aea283cefe2b5270e2ed9b784212/osom_work-0.0.4-py3-none-any.whl
+[2023-07-02 16:03:48] INFO root fetch - processPackages [django-request]: Downloading https://files.pythonhosted.org/packages/71/66/bd2170e7aab449f9565764f094f29a462c5313c08ee2ba5ad44e82db7736/django-request-1.6.3.tar.gz
+[2023-07-02 16:03:48] INFO root fetch - processPackages [named-env]: Downloading https://files.pythonhosted.org/packages/ba/64/813cfd7935a78a8ff20abd452066c521613c8610207891111170251a529b/named_env-2.2.1.tar.gz
+[2023-07-02 16:03:48] INFO root fetch - processPackages [osom-work]: executing diffoscope
+[2023-07-02 16:03:48] INFO root fetch - processPackages [osom-work]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osom_work-0.0.3-py3-none-any.whl.zip tmp/osom_work-0.0.4-py3-none-any.whl.zip --markdown 20230702/o/osom-work/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-02 16:03:48] INFO root fetch - processPackages [django-request]: executing diffoscope
+[2023-07-02 16:03:48] INFO root fetch - processPackages [django-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-request-1.6.2.tar.gz tmp/django-request-1.6.3.tar.gz --markdown 20230702/d/django-request/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-07-02 16:03:48] INFO root fetch - processPackages [named-env]: executing diffoscope
+[2023-07-02 16:03:48] INFO root fetch - processPackages [named-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/named_env-2.2.0.tar.gz tmp/named_env-2.2.1.tar.gz --markdown 20230702/n/named-env/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-07-02 16:03:49] INFO root fetch - processPackages [osom-work]: Remove: archive file [/home/abi/fetcher/tmp/osom_work-0.0.3-py3-none-any.whl.zip]
+[2023-07-02 16:03:49] INFO root fetch - processPackages [osom-work]: Remove: archive file [/home/abi/fetcher/tmp/osom_work-0.0.4-py3-none-any.whl.zip]
+[2023-07-02 16:03:49] INFO root fetch - main [MainThread]: End processing [osom-work]: success
+[2023-07-02 16:03:49] INFO root fetch - processPackages [named-env]: Remove: archive file [/home/abi/fetcher/tmp/named_env-2.2.0.tar.gz]
+[2023-07-02 16:03:49] INFO root fetch - processPackages [named-env]: Remove: archive file [/home/abi/fetcher/tmp/named_env-2.2.1.tar.gz]
+[2023-07-02 16:03:49] INFO root fetch - main [MainThread]: End processing [named-env]: success
+[2023-07-02 16:03:49] INFO root fetch - processPackages [django-request]: Remove: archive file [/home/abi/fetcher/tmp/django-request-1.6.2.tar.gz]
+[2023-07-02 16:03:49] INFO root fetch - processPackages [django-request]: Remove: archive file [/home/abi/fetcher/tmp/django-request-1.6.3.tar.gz]
+[2023-07-02 16:03:49] INFO root fetch - main [MainThread]: End processing [django-request]: success
+[2023-07-02 16:03:49] INFO root fetch - main [MainThread]: Store serial: [18729010]

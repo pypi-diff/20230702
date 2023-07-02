@@ -1,0 +1,173 @@
+# Comparing `tmp/named_env-2.2.0.tar.gz` & `tmp/named_env-2.2.1.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "named_env-2.2.0.tar", max compression
++gzip compressed data, was "named_env-2.2.1.tar", max compression
+```
+
+## Comparing `named_env-2.2.0.tar` & `named_env-2.2.1.tar`
+
+### file list
+
+```diff
+@@ -1,11 +1,11 @@
+--rw-r--r--   0        0        0     1057 2023-06-27 15:25:43.958896 named_env-2.2.0/LICENSE
+--rw-r--r--   0        0        0      525 2023-06-27 15:25:43.958958 named_env-2.2.0/README.md
+--rw-r--r--   0        0        0     3738 2023-06-27 16:25:32.015924 named_env-2.2.0/pyproject.toml
+--rw-r--r--   0        0        0      439 2023-06-27 16:12:37.375261 named_env-2.2.0/src/named_env/__init__.py
+--rw-r--r--   0        0        0      674 2023-06-27 16:12:37.372785 named_env-2.2.0/src/named_env/exceptions.py
+--rw-r--r--   0        0        0      436 2023-06-27 15:25:43.959639 named_env-2.2.0/src/named_env/namespace.py
+--rw-r--r--   0        0        0        0 2023-06-27 15:25:43.959664 named_env-2.2.0/src/named_env/py.typed
+--rw-r--r--   0        0        0     5229 2023-06-27 16:24:27.612250 named_env-2.2.0/src/named_env/variables.py
+--rw-r--r--   0        0        0      328 2023-06-27 15:25:43.959804 named_env-2.2.0/src/named_env/version.py
+--rw-r--r--   0        0        0     1198 1970-01-01 00:00:00.000000 named_env-2.2.0/setup.py
+--rw-r--r--   0        0        0     1216 1970-01-01 00:00:00.000000 named_env-2.2.0/PKG-INFO
++-rw-r--r--   0        0        0     1057 2023-06-27 15:25:43.958896 named_env-2.2.1/LICENSE
++-rw-r--r--   0        0        0      525 2023-06-27 15:25:43.958958 named_env-2.2.1/README.md
++-rw-r--r--   0        0        0     3738 2023-07-02 14:03:09.568072 named_env-2.2.1/pyproject.toml
++-rw-r--r--   0        0        0      439 2023-06-27 16:12:37.375261 named_env-2.2.1/src/named_env/__init__.py
++-rw-r--r--   0        0        0      674 2023-06-27 16:12:37.372785 named_env-2.2.1/src/named_env/exceptions.py
++-rw-r--r--   0        0        0      436 2023-06-27 15:25:43.959639 named_env-2.2.1/src/named_env/namespace.py
++-rw-r--r--   0        0        0        0 2023-06-27 15:25:43.959664 named_env-2.2.1/src/named_env/py.typed
++-rw-r--r--   0        0        0     5659 2023-07-02 13:41:06.947540 named_env-2.2.1/src/named_env/variables.py
++-rw-r--r--   0        0        0      328 2023-06-27 15:25:43.959804 named_env-2.2.1/src/named_env/version.py
++-rw-r--r--   0        0        0     1198 1970-01-01 00:00:00.000000 named_env-2.2.1/setup.py
++-rw-r--r--   0        0        0     1216 1970-01-01 00:00:00.000000 named_env-2.2.1/PKG-INFO
+```
+
+### Comparing `named_env-2.2.0/LICENSE` & `named_env-2.2.1/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `named_env-2.2.0/README.md` & `named_env-2.2.1/README.md`
+
+ * *Files identical despite different names*
+
+### Comparing `named_env-2.2.0/pyproject.toml` & `named_env-2.2.1/pyproject.toml`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ [tool.poetry]
+ name = "named-env"
+-version = "2.2.0"
++version = "2.2.1"
+ description = "Class-based environment variables typed specification"
+ license = "MIT"
+ authors = [
+     "Artem Novikov <artnew@list.ru>",
+ ]
+ readme = "README.md"
+ repository = "https://github.com/reartnew/named-env"
+```
+
+### Comparing `named_env-2.2.0/src/named_env/exceptions.py` & `named_env-2.2.1/src/named_env/exceptions.py`
+
+ * *Files identical despite different names*
+
+### Comparing `named_env-2.2.0/src/named_env/variables.py` & `named_env-2.2.1/src/named_env/variables.py`
+
+ * *Files 6% similar despite different names*
+
+```diff
+@@ -69,14 +69,16 @@
+         for klass in cls.mro():
+             if not issubclass(klass, BaseVariableMixin):
+                 return klass
+         raise TypeError(f"Non-BaseVariableMixin superclass not found for {cls}")
+ 
+     def __new__(cls, *args, **kwargs) -> t.Any:
+         choice: t.Optional[t.Sequence] = kwargs.pop("choice", None)
++        if choice is not None and not isinstance(choice, t.Sequence):
++            raise ValueError(f"'choice' argument must be a sequence (got {type(choice)!r})")
+         obj = cls._get_base_class().__new__(cls, *args, **kwargs)  # noqa
+         obj._choice = choice
+         obj._name = None
+         obj._value = sentinel
+         return obj
+ 
+     @classmethod
+@@ -104,20 +106,30 @@
+ class Boolean(BaseVariableMixin):
+     """Bool-like class to interpret string values"""
+ 
+     _POSITIVE_VALUES: t.Set[str] = {"y", "yes", "true", "1"}
+     _NEGATIVE_VALUES: t.Set[str] = {"n", "no", "false", "0", "none"}
+ 
+     @classmethod
+-    def cast(cls, value) -> bool:
++    def cast(cls, value) -> t.Optional[bool]:
+         """Override default cast to produce pure booleans"""
+         normalized_value: t.Optional[str] = str(value).lower()
+-        if normalized_value not in cls._POSITIVE_VALUES | cls._NEGATIVE_VALUES:
+-            raise ValueError(f"{repr(value)} is not a valid bool-convertible value")
+-        return normalized_value in cls._POSITIVE_VALUES
++        return (
++            False
++            if normalized_value in cls._NEGATIVE_VALUES
++            else True
++            if normalized_value in cls._POSITIVE_VALUES
++            else None
++        )
++
++    def __new__(cls, *args, **kwargs) -> t.Any:
++        if "choice" in kwargs:
++            raise TypeError(f"{cls.__name__}.__new__() got an unexpected keyword argument 'choice'")
++        kwargs["choice"] = [True, False]
++        return super().__new__(cls, *args, **kwargs)
+ 
+ 
+ class List(BaseVariableMixin, list):
+     """Comma-separated lists reading"""
+ 
+     @classmethod
+     def cast(cls, value: t.Union[t.List[str], str]) -> t.List[str]:
+```
+
+### Comparing `named_env-2.2.0/setup.py` & `named_env-2.2.1/setup.py`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -8,15 +8,15 @@
+ ['named_env']
+ 
+ package_data = \
+ {'': ['*']}
+ 
+ setup_kwargs = {
+     'name': 'named-env',
+-    'version': '2.2.0',
++    'version': '2.2.1',
+     'description': 'Class-based environment variables typed specification',
+     'long_description': '# named-env\n\nClass-based environment variables typed specification.\n\n## Installation\n\n```shell\npip install named-env\n```\n\n## Usage example\n\n```python\nfrom named_env import EnvironmentNamespace, RequiredInteger\nimport os\n\n\nclass WebApplicationEnvironmentNamespace(EnvironmentNamespace):\n    WEB_SERVER_PORT = RequiredInteger()\n\n\nenv = WebApplicationEnvironmentNamespace()\n\nif __name__ == "__main__":\n    os.environ["WEB_SERVER_PORT"] = "80"\n    print(env.WEB_SERVER_PORT)  # 80\n    print(type(env.WEB_SERVER_PORT))  # int\n```\n',
+     'author': 'Artem Novikov',
+     'author_email': 'artnew@list.ru',
+     'maintainer': 'None',
+     'maintainer_email': 'None',
+     'url': 'https://github.com/reartnew/named-env',
+```
+
+### Comparing `named_env-2.2.0/PKG-INFO` & `named_env-2.2.1/PKG-INFO`
+
+ * *Files 7% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: named-env
+-Version: 2.2.0
++Version: 2.2.1
+ Summary: Class-based environment variables typed specification
+ Home-page: https://github.com/reartnew/named-env
+ License: MIT
+ Author: Artem Novikov
+ Author-email: artnew@list.ru
+ Requires-Python: >=3.8,<4.0
+ Classifier: License :: OSI Approved :: MIT License
+```
+
