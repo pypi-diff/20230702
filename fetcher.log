@@ -7040,3 +7040,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 11:31:05] INFO root fetch - processPackages [funboost]: Remove: archive file [/home/abi/fetcher/tmp/funboost-23.6-py3-none-any.whl.zip]
 [2023-07-02 11:31:05] INFO root fetch - main [MainThread]: End processing [funboost]: success
 [2023-07-02 11:31:05] INFO root fetch - main [MainThread]: Store serial: [18727567]
+[2023-07-02 11:36:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18727567]
+[2023-07-02 11:36:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-02 11:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moneywiz-api
+[2023-07-02 11:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fa-models
+[2023-07-02 11:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-luke
+[2023-07-02 11:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wpdetect
+[2023-07-02 11:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oarepo-cli
+[2023-07-02 11:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ag-llama-api
+[2023-07-02 11:36:13] WARNING root fetch - processPackages [moneywiz-api]: Skipping, unable to determine old version
+[2023-07-02 11:36:13] INFO root fetch - main [MainThread]: End processing [moneywiz-api] error
+[2023-07-02 11:36:13] INFO root fetch - processPackages [fa-models]: New version: [1.0.69] Old Version: [1.0.68]
+[2023-07-02 11:36:13] INFO root fetch - processPackages [py-luke]: New version: [0.0.1.dev1] Old Version: [0.0.1.dev0]
+[2023-07-02 11:36:13] INFO root fetch - processPackages [wpdetect]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-07-02 11:36:13] INFO root fetch - processPackages [ag-llama-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 11:36:13] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/cc/d4/bfd94cf998b430e7c8acc6097ec98ee82f1aa2fe25bb0791daa66efc49a5/fa-models-1.0.68.tar.gz
+[2023-07-02 11:36:13] INFO root fetch - processPackages [py-luke]: Downloading https://files.pythonhosted.org/packages/83/8d/c6b552976af87e621f94daa7cc2018f069f1aeeaa78c68bab5fa79f3b60d/py_luke-0.0.1.dev0.tar.gz
+[2023-07-02 11:36:13] INFO root fetch - processPackages [oarepo-cli]: New version: [11.1.0] Old Version: [11.0.8]
+[2023-07-02 11:36:13] INFO root fetch - processPackages [wpdetect]: Downloading https://files.pythonhosted.org/packages/dd/ce/74ffcaa15cf6bfa99dfd027488c2ed7c6ba5e99de2043099cc45230e60d7/wpdetect-1.4.3.tar.gz
+[2023-07-02 11:36:13] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/e7/db/6c93bb8ec9653fafd298258240710b4768345a45843013bc715cf9e658f7/ag_llama_api-0.0.8.tar.gz
+[2023-07-02 11:36:14] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/0e/45/5ce146425eb4c54590e514bf53d436ec8eb7cbeee70953b613dcd4e56824/ag_llama_api-0.0.9.tar.gz
+[2023-07-02 11:36:14] INFO root fetch - processPackages [py-luke]: Downloading https://files.pythonhosted.org/packages/57/67/5c27ba21c7d9a5d90d45ec1b2f342b472b4c120a9baf351bf7b47f6c86e5/py_luke-0.0.1.dev1.tar.gz
+[2023-07-02 11:36:14] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/e6/3e/4471d2f6de859114e7b33494f9ae4f6101321c300c602caaa133c3e170fc/oarepo-cli-11.0.8.tar.gz
+[2023-07-02 11:36:14] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/67/31/51d3d46b7879f9d10ef34a2fe603ba0e08752b203df5663e8745fd76aae6/fa-models-1.0.69.tar.gz
+[2023-07-02 11:36:14] INFO root fetch - processPackages [ag-llama-api]: executing diffoscope
+[2023-07-02 11:36:14] INFO root fetch - processPackages [ag-llama-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ag_llama_api-0.0.8.tar.gz tmp/ag_llama_api-0.0.9.tar.gz --markdown 20230702/a/ag-llama-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 11:36:14] INFO root fetch - processPackages [py-luke]: executing diffoscope
+[2023-07-02 11:36:14] INFO root fetch - processPackages [py-luke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_luke-0.0.1.dev0.tar.gz tmp/py_luke-0.0.1.dev1.tar.gz --markdown 20230702/p/py-luke/0.0.1.dev0-0.0.1.dev1/diff.md --exclude *.pyd
+[2023-07-02 11:36:14] INFO root fetch - processPackages [wpdetect]: Downloading https://files.pythonhosted.org/packages/82/55/0b6ce321dd1cf85265a35986a78aef85bff6c75a067c06aaa41964962e22/wpdetect-1.4.4.tar.gz
+[2023-07-02 11:36:14] INFO root fetch - processPackages [fa-models]: executing diffoscope
+[2023-07-02 11:36:14] INFO root fetch - processPackages [fa-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fa-models-1.0.68.tar.gz tmp/fa-models-1.0.69.tar.gz --markdown 20230702/f/fa-models/1.0.68-1.0.69/diff.md --exclude *.pyd
+[2023-07-02 11:36:14] INFO root fetch - processPackages [wpdetect]: executing diffoscope
+[2023-07-02 11:36:14] INFO root fetch - processPackages [wpdetect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wpdetect-1.4.3.tar.gz tmp/wpdetect-1.4.4.tar.gz --markdown 20230702/w/wpdetect/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-07-02 11:36:14] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/55/06/2c9369484ddc418705d861cbcb0013572c53cdeb9515307bd6fc20daaecc/oarepo-cli-11.1.0.tar.gz
+[2023-07-02 11:36:15] INFO root fetch - processPackages [oarepo-cli]: executing diffoscope
+[2023-07-02 11:36:15] INFO root fetch - processPackages [oarepo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-cli-11.0.8.tar.gz tmp/oarepo-cli-11.1.0.tar.gz --markdown 20230702/o/oarepo-cli/11.0.8-11.1.0/diff.md --exclude *.pyd
+[2023-07-02 11:36:15] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.8.tar.gz]
+[2023-07-02 11:36:15] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.9.tar.gz]
+[2023-07-02 11:36:15] INFO root fetch - main [MainThread]: End processing [ag-llama-api]: success
+[2023-07-02 11:36:15] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.68.tar.gz]
+[2023-07-02 11:36:15] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.69.tar.gz]
+[2023-07-02 11:36:15] INFO root fetch - main [MainThread]: End processing [fa-models]: success
+[2023-07-02 11:36:15] INFO root fetch - processPackages [py-luke]: Remove: archive file [/home/abi/fetcher/tmp/py_luke-0.0.1.dev0.tar.gz]
+[2023-07-02 11:36:15] INFO root fetch - processPackages [py-luke]: Remove: archive file [/home/abi/fetcher/tmp/py_luke-0.0.1.dev1.tar.gz]
+[2023-07-02 11:36:15] INFO root fetch - main [MainThread]: End processing [py-luke]: success
+[2023-07-02 11:36:15] INFO root fetch - processPackages [wpdetect]: Remove: archive file [/home/abi/fetcher/tmp/wpdetect-1.4.3.tar.gz]
+[2023-07-02 11:36:15] INFO root fetch - processPackages [wpdetect]: Remove: archive file [/home/abi/fetcher/tmp/wpdetect-1.4.4.tar.gz]
+[2023-07-02 11:36:15] INFO root fetch - main [MainThread]: End processing [wpdetect]: success
+[2023-07-02 11:36:17] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.0.8.tar.gz]
+[2023-07-02 11:36:17] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.0.tar.gz]
+[2023-07-02 11:36:17] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
+[2023-07-02 11:36:17] INFO root fetch - main [MainThread]: Store serial: [18727593]
