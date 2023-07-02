@@ -3852,3 +3852,24 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 05:48:00] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
 [2023-07-02 05:48:00] INFO root fetch - main [MainThread]: End processing [always-updates]: success
 [2023-07-02 05:48:00] INFO root fetch - main [MainThread]: Store serial: [18726238]
+[2023-07-02 05:53:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726238]
+[2023-07-02 05:53:09] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-02 05:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flexible-lp
+[2023-07-02 05:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Blockthon
+[2023-07-02 05:53:09] INFO root fetch - processPackages [Blockthon]: New version: [4.9.9] Old Version: [4.9.6]
+[2023-07-02 05:53:09] INFO root fetch - processPackages [flexible-lp]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-02 05:53:09] INFO root fetch - processPackages [flexible-lp]: Downloading https://files.pythonhosted.org/packages/63/36/78b19d2ce046c1cf15a7794b4f82443049bee41a8c133da73cc838103b4e/flexible_lp-0.0.2.tar.gz
+[2023-07-02 05:53:09] INFO root fetch - processPackages [Blockthon]: Downloading https://files.pythonhosted.org/packages/b9/08/a4573fb2233304b42ab71f89e05676db8c5fb3ff42552e345a425644a3bb/Blockthon-4.9.6.tar.gz
+[2023-07-02 05:53:10] INFO root fetch - processPackages [flexible-lp]: Downloading https://files.pythonhosted.org/packages/07/17/847fc4f50887b025db1d8a6808b3a987402e3afb74c502fcddcc8ca60164/flexible_lp-0.0.3.tar.gz
+[2023-07-02 05:53:10] INFO root fetch - processPackages [Blockthon]: Downloading https://files.pythonhosted.org/packages/b8/27/19fd7a843e032b30efdbeba7b0bca9d92bd878de873852684b69a49fb2c0/Blockthon-4.9.9.tar.gz
+[2023-07-02 05:53:10] INFO root fetch - processPackages [flexible-lp]: executing diffoscope
+[2023-07-02 05:53:10] INFO root fetch - processPackages [flexible-lp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flexible_lp-0.0.2.tar.gz tmp/flexible_lp-0.0.3.tar.gz --markdown 20230702/f/flexible-lp/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-02 05:53:10] INFO root fetch - processPackages [Blockthon]: executing diffoscope
+[2023-07-02 05:53:10] INFO root fetch - processPackages [Blockthon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Blockthon-4.9.6.tar.gz tmp/Blockthon-4.9.9.tar.gz --markdown 20230702/B/Blockthon/4.9.6-4.9.9/diff.md --exclude *.pyd
+[2023-07-02 05:53:11] INFO root fetch - processPackages [flexible-lp]: Remove: archive file [/home/abi/fetcher/tmp/flexible_lp-0.0.2.tar.gz]
+[2023-07-02 05:53:11] INFO root fetch - processPackages [flexible-lp]: Remove: archive file [/home/abi/fetcher/tmp/flexible_lp-0.0.3.tar.gz]
+[2023-07-02 05:53:11] INFO root fetch - main [MainThread]: End processing [flexible-lp]: success
+[2023-07-02 05:53:11] INFO root fetch - processPackages [Blockthon]: Remove: archive file [/home/abi/fetcher/tmp/Blockthon-4.9.6.tar.gz]
+[2023-07-02 05:53:11] INFO root fetch - processPackages [Blockthon]: Remove: archive file [/home/abi/fetcher/tmp/Blockthon-4.9.9.tar.gz]
+[2023-07-02 05:53:11] INFO root fetch - main [MainThread]: End processing [Blockthon]: success
+[2023-07-02 05:53:11] INFO root fetch - main [MainThread]: Store serial: [18726249]
