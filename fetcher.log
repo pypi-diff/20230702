@@ -8488,3 +8488,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 13:44:58] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23762754>=10485760
 [2023-07-02 13:44:58] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
 [2023-07-02 13:44:58] INFO root fetch - main [MainThread]: Store serial: [18728260]
+[2023-07-02 13:50:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18728260]
+[2023-07-02 13:50:07] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-02 13:50:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geofixit-demo1
+[2023-07-02 13:50:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycollabim
+[2023-07-02 13:50:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omnivoreql
+[2023-07-02 13:50:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wbDefcon
+[2023-07-02 13:50:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: absl-extra
+[2023-07-02 13:50:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-llm
+[2023-07-02 13:50:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-chronos
+[2023-07-02 13:50:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dariusVision
+[2023-07-02 13:50:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ExpoSeq
+[2023-07-02 13:50:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pycollabim
+[2023-07-02 13:50:07] INFO root fetch - processPackages [omnivoreql]: New version: [0.2.2] Old Version: [0.2.1.2]
+[2023-07-02 13:50:07] WARNING root fetch - processPackages [wbDefcon]: Skipping, unable to determine old version
+[2023-07-02 13:50:07] INFO root fetch - main [MainThread]: End processing [wbDefcon] error
+[2023-07-02 13:50:07] WARNING root fetch - processPackages [geofixit-demo1]: Skipping, unable to determine old version
+[2023-07-02 13:50:07] INFO root fetch - main [MainThread]: End processing [geofixit-demo1] error
+[2023-07-02 13:50:07] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230702] Old Version: [2.4.0b20230701]
+[2023-07-02 13:50:07] INFO root fetch - processPackages [absl-extra]: New version: [0.0.2.dev7] Old Version: [0.0.2.dev6]
+[2023-07-02 13:50:07] INFO root fetch - processPackages [dariusVision]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-02 13:50:07] WARNING root fetch - processPackages [pycollabim]: Skipping, unable to determine old version
+[2023-07-02 13:50:07] INFO root fetch - main [MainThread]: End processing [pycollabim] error
+[2023-07-02 13:50:07] WARNING root fetch - processPackages [pycollabim]: Skipping, unable to determine old version
+[2023-07-02 13:50:07] INFO root fetch - main [MainThread]: End processing [pycollabim] error
+[2023-07-02 13:50:07] INFO root fetch - processPackages [ExpoSeq]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-07-02 13:50:07] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230702] Old Version: [2.4.0b20230701]
+[2023-07-02 13:50:07] INFO root fetch - processPackages [omnivoreql]: Downloading https://files.pythonhosted.org/packages/d0/e8/1c3c07ad34c78b7e7c3654835cf36c2aa26c3490454ceafb08e0438ef4ae/omnivoreql-0.2.1.2.tar.gz
+[2023-07-02 13:50:07] INFO root fetch - processPackages [absl-extra]: Downloading https://files.pythonhosted.org/packages/95/23/f03b1f5cf380ccd880c02c623e2baee3e6c064d81025ffb73be7ddee1b42/absl_extra-0.0.2.dev6.tar.gz
+[2023-07-02 13:50:07] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/7f/60/d8a9b39c64d96aba156a3f4b3c47fc589ae2ae6e96ab43b2e08053b1baf3/bigdl_llm-2.4.0b20230701-py3-none-win_amd64.whl
+[2023-07-02 13:50:07] INFO root fetch - processPackages [ExpoSeq]: Downloading https://files.pythonhosted.org/packages/28/c8/242933fadc87f753b965610b461104ff27972da04a1db6b4f23b5ff43709/ExpoSeq-1.1.7.tar.gz
+[2023-07-02 13:50:07] INFO root fetch - processPackages [dariusVision]: Downloading https://files.pythonhosted.org/packages/6d/8c/ded6e99a9e83cda607033554a0c80ca98749c12e44e564ea3f9019cecfc5/dariusVision-0.0.6.tar.gz
+[2023-07-02 13:50:07] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/56/b7/ac0c4eaa1337ac6fcaff5018308f1b8bf0eec2d931765e0edaafe3ed9b0b/bigdl_chronos-2.4.0b20230701-py3-none-win_amd64.whl
+[2023-07-02 13:50:07] INFO root fetch - processPackages [absl-extra]: Downloading https://files.pythonhosted.org/packages/3e/38/70913b80496a8a56a89f18cdf7d336daf69201e419ebb6fdd33bf2309250/absl_extra-0.0.2.dev7.tar.gz
+[2023-07-02 13:50:07] INFO root fetch - processPackages [omnivoreql]: Downloading https://files.pythonhosted.org/packages/e3/4b/31a2acab6300cf5bf754c5ee0ce2f770c5430d8259e843547ecdb2974f45/omnivoreql-0.2.2.tar.gz
+[2023-07-02 13:50:07] INFO root fetch - processPackages [absl-extra]: executing diffoscope
+[2023-07-02 13:50:07] INFO root fetch - processPackages [absl-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/absl_extra-0.0.2.dev6.tar.gz tmp/absl_extra-0.0.2.dev7.tar.gz --markdown 20230702/a/absl-extra/0.0.2.dev6-0.0.2.dev7/diff.md --exclude *.pyd
+[2023-07-02 13:50:07] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/b9/9a/f67a1b9a5faf49f727284dbc76eb837cdd5459aaec7a621675b0d0293138/bigdl_llm-2.4.0b20230702-py3-none-win_amd64.whl
+[2023-07-02 13:50:07] INFO root fetch - processPackages [dariusVision]: Downloading https://files.pythonhosted.org/packages/2f/e7/0cdd0ea99a29bd5f2368cabbe56a228c2353c787a655990ab4332cc5114b/dariusVision-0.0.7.tar.gz
+[2023-07-02 13:50:07] INFO root fetch - processPackages [omnivoreql]: executing diffoscope
+[2023-07-02 13:50:07] INFO root fetch - processPackages [omnivoreql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnivoreql-0.2.1.2.tar.gz tmp/omnivoreql-0.2.2.tar.gz --markdown 20230702/o/omnivoreql/0.2.1.2-0.2.2/diff.md --exclude *.pyd
+[2023-07-02 13:50:07] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/c9/43/7807c7da715baf22f71e892586b9868b96fd5d4a92ed8d30e32a1d22e285/bigdl_chronos-2.4.0b20230702-py3-none-win_amd64.whl
+[2023-07-02 13:50:07] INFO root fetch - processPackages [dariusVision]: executing diffoscope
+[2023-07-02 13:50:07] INFO root fetch - processPackages [dariusVision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dariusVision-0.0.6.tar.gz tmp/dariusVision-0.0.7.tar.gz --markdown 20230702/d/dariusVision/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-02 13:50:07] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-07-02 13:50:07] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230701-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230702-py3-none-win_amd64.whl.zip --markdown 20230702/b/bigdl-llm/2.4.0b20230701-2.4.0b20230702/diff.md --exclude *.pyd
+[2023-07-02 13:50:07] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-07-02 13:50:07] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230701-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230702-py3-none-win_amd64.whl.zip --markdown 20230702/b/bigdl-chronos/2.4.0b20230701-2.4.0b20230702/diff.md --exclude *.pyd
+[2023-07-02 13:50:08] INFO root fetch - processPackages [ExpoSeq]: Downloading https://files.pythonhosted.org/packages/3a/f1/ed80a524618a2635aa0a2dead448e4c11026ce4188832d8dc0e350176780/ExpoSeq-1.1.9.tar.gz
+[2023-07-02 13:50:08] INFO root fetch - processPackages [ExpoSeq]: executing diffoscope
+[2023-07-02 13:50:08] INFO root fetch - processPackages [ExpoSeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExpoSeq-1.1.7.tar.gz tmp/ExpoSeq-1.1.9.tar.gz --markdown 20230702/E/ExpoSeq/1.1.7-1.1.9/diff.md --exclude *.pyd
+[2023-07-02 13:50:08] INFO root fetch - processPackages [absl-extra]: Remove: archive file [/home/abi/fetcher/tmp/absl_extra-0.0.2.dev6.tar.gz]
+[2023-07-02 13:50:08] INFO root fetch - processPackages [absl-extra]: Remove: archive file [/home/abi/fetcher/tmp/absl_extra-0.0.2.dev7.tar.gz]
+[2023-07-02 13:50:08] INFO root fetch - main [MainThread]: End processing [absl-extra]: success
+[2023-07-02 13:50:08] INFO root fetch - processPackages [omnivoreql]: Remove: archive file [/home/abi/fetcher/tmp/omnivoreql-0.2.1.2.tar.gz]
+[2023-07-02 13:50:08] INFO root fetch - processPackages [omnivoreql]: Remove: archive file [/home/abi/fetcher/tmp/omnivoreql-0.2.2.tar.gz]
+[2023-07-02 13:50:08] INFO root fetch - main [MainThread]: End processing [omnivoreql]: success
+[2023-07-02 13:50:08] INFO root fetch - processPackages [dariusVision]: Remove: archive file [/home/abi/fetcher/tmp/dariusVision-0.0.6.tar.gz]
+[2023-07-02 13:50:08] INFO root fetch - processPackages [dariusVision]: Remove: archive file [/home/abi/fetcher/tmp/dariusVision-0.0.7.tar.gz]
+[2023-07-02 13:50:08] INFO root fetch - main [MainThread]: End processing [dariusVision]: success
+[2023-07-02 13:50:09] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230701-py3-none-win_amd64.whl.zip]
+[2023-07-02 13:50:09] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230702-py3-none-win_amd64.whl.zip]
+[2023-07-02 13:50:09] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-07-02 13:50:10] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230701-py3-none-win_amd64.whl.zip]
+[2023-07-02 13:50:10] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230702-py3-none-win_amd64.whl.zip]
+[2023-07-02 13:50:10] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-07-02 13:50:10] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-1.1.7.tar.gz]
+[2023-07-02 13:50:10] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-1.1.9.tar.gz]
+[2023-07-02 13:50:10] INFO root fetch - main [MainThread]: End processing [ExpoSeq]: success
+[2023-07-02 13:50:10] INFO root fetch - main [MainThread]: Store serial: [18728291]
