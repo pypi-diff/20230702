@@ -9320,3 +9320,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 14:59:01] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230702-py3-none-manylinux1_x86_64.whl.zip]
 [2023-07-02 14:59:01] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
 [2023-07-02 14:59:01] INFO root fetch - main [MainThread]: Store serial: [18728606]
+[2023-07-02 15:04:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18728606]
+[2023-07-02 15:04:12] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-02 15:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ns-asphalt9
+[2023-07-02 15:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-password-security
+[2023-07-02 15:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: melon-scheduler
+[2023-07-02 15:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: starknet-skproof
+[2023-07-02 15:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: climalysis
+[2023-07-02 15:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: modelscope
+[2023-07-02 15:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kaiju-tasks
+[2023-07-02 15:04:12] WARNING root fetch - processPackages [starknet-skproof]: Skipping, unable to determine old version
+[2023-07-02 15:04:12] INFO root fetch - main [MainThread]: End processing [starknet-skproof] error
+[2023-07-02 15:04:12] INFO root fetch - processPackages [climalysis]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-02 15:04:12] INFO root fetch - processPackages [ns-asphalt9]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-02 15:04:12] INFO root fetch - processPackages [odoo-addon-password-security]: New version: [15.0.1.1.2] Old Version: [15.0.1.1.1.2]
+[2023-07-02 15:04:12] INFO root fetch - processPackages [melon-scheduler]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-02 15:04:12] INFO root fetch - processPackages [modelscope]: New version: [1.7.0] Old Version: [1.6.1]
+[2023-07-02 15:04:12] INFO root fetch - processPackages [kaiju-tasks]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-07-02 15:04:12] INFO root fetch - processPackages [ns-asphalt9]: Downloading https://files.pythonhosted.org/packages/5b/c4/2012b45668238c31580906c24a2a5274a26caee6c57e0d3cab59238650b6/ns_asphalt9-0.0.5.tar.gz
+[2023-07-02 15:04:12] INFO root fetch - processPackages [climalysis]: Downloading https://files.pythonhosted.org/packages/03/d6/aa529b3971460ee91c9f7614a5d4e533b8281f5884d32e41834c3332d3d7/climalysis-0.0.3.tar.gz
+[2023-07-02 15:04:12] INFO root fetch - processPackages [melon-scheduler]: Downloading https://files.pythonhosted.org/packages/ad/41/833a31653ccae717ee29b80967fa69ba65f786132e5070ba28d60f97b0d2/melon_scheduler-0.1.5.tar.gz
+[2023-07-02 15:04:12] INFO root fetch - processPackages [odoo-addon-password-security]: Downloading https://files.pythonhosted.org/packages/52/f9/2fa4ca00ae7281fc0c998b7d8de62618830d4aeefa4cdc283ec2ce217da1/odoo_addon_password_security-15.0.1.1.1.2-py3-none-any.whl
+[2023-07-02 15:04:12] INFO root fetch - processPackages [kaiju-tasks]: Downloading https://files.pythonhosted.org/packages/77/3d/b3382088ada3bf4f32b1da87663d1fe6b4eaf00f687513b6e6a03611865c/kaiju_tasks-2.1.2-py3-none-any.whl
+[2023-07-02 15:04:12] INFO root fetch - processPackages [modelscope]: Downloading https://files.pythonhosted.org/packages/1a/d4/e5714ab468c9c2357a25d166b394613177f073edbafd0e50457b1f01a827/modelscope-1.6.1.tar.gz
+[2023-07-02 15:04:12] INFO root fetch - processPackages [ns-asphalt9]: Downloading https://files.pythonhosted.org/packages/8a/6b/d316d9c08a8257115d1897d57f22db4fd4c0ceb05ebfe7dc19b80d3d7fb7/ns_asphalt9-0.0.6.tar.gz
+[2023-07-02 15:04:12] INFO root fetch - processPackages [melon-scheduler]: Downloading https://files.pythonhosted.org/packages/43/dd/2d00607f73902c9e5f98ec72c27bba1b976b37a443576b8b76b14efe4079/melon_scheduler-0.1.6.tar.gz
+[2023-07-02 15:04:12] INFO root fetch - processPackages [climalysis]: Downloading https://files.pythonhosted.org/packages/d3/76/bb5cb2fba78afb7da0e9b30c6eae90aac69fd7d37bdb850356972cc0c09d/climalysis-0.0.4.tar.gz
+[2023-07-02 15:04:12] INFO root fetch - processPackages [kaiju-tasks]: Downloading https://files.pythonhosted.org/packages/a3/fd/e66d6071f8b3c8a0f3dcc3839e782966dacefef914bc86ba7b49e9441267/kaiju_tasks-2.1.3-py3-none-any.whl
+[2023-07-02 15:04:12] INFO root fetch - processPackages [odoo-addon-password-security]: Downloading https://files.pythonhosted.org/packages/cf/16/219ba74cc86690225296287e16e257fd82b7cd605931eba109d04efdafbb/odoo_addon_password_security-15.0.1.1.2-py3-none-any.whl
+[2023-07-02 15:04:12] INFO root fetch - processPackages [climalysis]: executing diffoscope
+[2023-07-02 15:04:12] INFO root fetch - processPackages [climalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climalysis-0.0.3.tar.gz tmp/climalysis-0.0.4.tar.gz --markdown 20230702/c/climalysis/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-02 15:04:12] INFO root fetch - processPackages [ns-asphalt9]: executing diffoscope
+[2023-07-02 15:04:12] INFO root fetch - processPackages [ns-asphalt9]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ns_asphalt9-0.0.5.tar.gz tmp/ns_asphalt9-0.0.6.tar.gz --markdown 20230702/n/ns-asphalt9/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-02 15:04:12] INFO root fetch - processPackages [kaiju-tasks]: executing diffoscope
+[2023-07-02 15:04:12] INFO root fetch - processPackages [kaiju-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaiju_tasks-2.1.2-py3-none-any.whl.zip tmp/kaiju_tasks-2.1.3-py3-none-any.whl.zip --markdown 20230702/k/kaiju-tasks/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-07-02 15:04:12] INFO root fetch - processPackages [melon-scheduler]: executing diffoscope
+[2023-07-02 15:04:12] INFO root fetch - processPackages [melon-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/melon_scheduler-0.1.5.tar.gz tmp/melon_scheduler-0.1.6.tar.gz --markdown 20230702/m/melon-scheduler/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-02 15:04:12] INFO root fetch - processPackages [modelscope]: Downloading https://files.pythonhosted.org/packages/3f/fe/cda8f0c5d5decc46a4883d0db79675adbe45a988143abe0c90cd139564e7/modelscope-1.7.0.tar.gz
+[2023-07-02 15:04:13] INFO root fetch - processPackages [odoo-addon-password-security]: executing diffoscope
+[2023-07-02 15:04:13] INFO root fetch - processPackages [odoo-addon-password-security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_password_security-15.0.1.1.1.2-py3-none-any.whl.zip tmp/odoo_addon_password_security-15.0.1.1.2-py3-none-any.whl.zip --markdown 20230702/o/odoo-addon-password-security/15.0.1.1.1.2-15.0.1.1.2/diff.md --exclude *.pyd
+[2023-07-02 15:04:13] INFO root fetch - processPackages [modelscope]: executing diffoscope
+[2023-07-02 15:04:13] INFO root fetch - processPackages [modelscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelscope-1.6.1.tar.gz tmp/modelscope-1.7.0.tar.gz --markdown 20230702/m/modelscope/1.6.1-1.7.0/diff.md --exclude *.pyd
+[2023-07-02 15:04:14] INFO root fetch - processPackages [kaiju-tasks]: Remove: archive file [/home/abi/fetcher/tmp/kaiju_tasks-2.1.2-py3-none-any.whl.zip]
+[2023-07-02 15:04:14] INFO root fetch - processPackages [kaiju-tasks]: Remove: archive file [/home/abi/fetcher/tmp/kaiju_tasks-2.1.3-py3-none-any.whl.zip]
+[2023-07-02 15:04:14] INFO root fetch - main [MainThread]: End processing [kaiju-tasks]: success
+[2023-07-02 15:04:14] INFO root fetch - processPackages [ns-asphalt9]: Remove: archive file [/home/abi/fetcher/tmp/ns_asphalt9-0.0.5.tar.gz]
+[2023-07-02 15:04:14] INFO root fetch - processPackages [ns-asphalt9]: Remove: archive file [/home/abi/fetcher/tmp/ns_asphalt9-0.0.6.tar.gz]
+[2023-07-02 15:04:14] INFO root fetch - main [MainThread]: End processing [ns-asphalt9]: success
+[2023-07-02 15:04:14] INFO root fetch - processPackages [climalysis]: Remove: archive file [/home/abi/fetcher/tmp/climalysis-0.0.3.tar.gz]
+[2023-07-02 15:04:14] INFO root fetch - processPackages [climalysis]: Remove: archive file [/home/abi/fetcher/tmp/climalysis-0.0.4.tar.gz]
+[2023-07-02 15:04:14] INFO root fetch - main [MainThread]: End processing [climalysis]: success
+[2023-07-02 15:04:14] INFO root fetch - processPackages [odoo-addon-password-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_password_security-15.0.1.1.1.2-py3-none-any.whl.zip]
+[2023-07-02 15:04:14] INFO root fetch - processPackages [odoo-addon-password-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_password_security-15.0.1.1.2-py3-none-any.whl.zip]
+[2023-07-02 15:04:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-password-security]: success
+[2023-07-02 15:04:16] INFO root fetch - processPackages [melon-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/melon_scheduler-0.1.5.tar.gz]
+[2023-07-02 15:04:16] INFO root fetch - processPackages [melon-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/melon_scheduler-0.1.6.tar.gz]
+[2023-07-02 15:04:16] INFO root fetch - main [MainThread]: End processing [melon-scheduler]: success
+[2023-07-02 15:05:00] INFO root fetch - processPackages [modelscope]: Remove: archive file [/home/abi/fetcher/tmp/modelscope-1.6.1.tar.gz]
+[2023-07-02 15:05:00] INFO root fetch - processPackages [modelscope]: Remove: archive file [/home/abi/fetcher/tmp/modelscope-1.7.0.tar.gz]
+[2023-07-02 15:05:00] INFO root fetch - main [MainThread]: End processing [modelscope]: success
+[2023-07-02 15:05:00] INFO root fetch - main [MainThread]: Store serial: [18728628]
