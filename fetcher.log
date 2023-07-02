@@ -5834,3 +5834,75 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 10:00:01] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.9.tar.gz]
 [2023-07-02 10:00:01] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
 [2023-07-02 10:00:01] INFO root fetch - main [MainThread]: Store serial: [18727097]
+[2023-07-02 10:05:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18727097]
+[2023-07-02 10:05:12] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-02 10:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wow-ai-mms
+[2023-07-02 10:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ediri-azapi
+[2023-07-02 10:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nwebclient
+[2023-07-02 10:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wow-ai-mms
+[2023-07-02 10:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: refiner
+[2023-07-02 10:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openvino2onnx
+[2023-07-02 10:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wow-ai-mms
+[2023-07-02 10:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-game-collection
+[2023-07-02 10:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mysqlx
+[2023-07-02 10:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bench-cxynb
+[2023-07-02 10:05:13] WARNING root fetch - processPackages [wow-ai-mms]: Skipping, unable to determine old version
+[2023-07-02 10:05:13] INFO root fetch - processPackages [wow-ai-mms]: Start processing: aramgg-poro
+[2023-07-02 10:05:13] INFO root fetch - main [MainThread]: End processing [wow-ai-mms] error
+[2023-07-02 10:05:13] WARNING root fetch - processPackages [wow-ai-mms]: Skipping, unable to determine old version
+[2023-07-02 10:05:13] INFO root fetch - main [MainThread]: End processing [wow-ai-mms] error
+[2023-07-02 10:05:13] INFO root fetch - processPackages [ediri-azapi]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-07-02 10:05:13] WARNING root fetch - processPackages [wow-ai-mms]: Skipping, unable to determine old version
+[2023-07-02 10:05:13] INFO root fetch - main [MainThread]: End processing [wow-ai-mms] error
+[2023-07-02 10:05:13] INFO root fetch - processPackages [refiner]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-02 10:05:13] INFO root fetch - processPackages [mysqlx]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-02 10:05:13] WARNING root fetch - processPackages [bench-cxynb]: Skipping, unable to determine old version
+[2023-07-02 10:05:13] INFO root fetch - main [MainThread]: End processing [bench-cxynb] error
+[2023-07-02 10:05:13] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-02 10:05:13] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-02 10:05:13] WARNING root fetch - processPackages [openvino2onnx]: Skipping, unable to determine old version
+[2023-07-02 10:05:13] INFO root fetch - main [MainThread]: End processing [openvino2onnx] error
+[2023-07-02 10:05:13] INFO root fetch - processPackages [aramgg-poro]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-02 10:05:13] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-02 10:05:13] INFO root fetch - processPackages [aramgg-poro]: Downloading https://files.pythonhosted.org/packages/53/ca/19efad535e1e452321395e2e83abac43d07965a56424952a46b72d1bf77e/aramgg-poro-0.0.5.tar.gz
+[2023-07-02 10:05:13] INFO root fetch - processPackages [refiner]: Downloading https://files.pythonhosted.org/packages/f8/3a/b4cd8e21e9168e7e8ebc2cf6f72e14bcba9db16f2b80cf020db9926fb143/refiner-0.0.1.tar.gz
+[2023-07-02 10:05:13] INFO root fetch - processPackages [ediri-azapi]: Downloading https://files.pythonhosted.org/packages/e8/95/d58efb387005b3d3fa73da38fa08acfcee64aa50121712c033ec0f583017/ediri_azapi-1.6.0.tar.gz
+[2023-07-02 10:05:13] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/08/84/9b3fec304e8c5a0094252d9ab0c40227a49e4c066bc6442169c147fe3076/mysqlx-1.3.1.tar.gz
+[2023-07-02 10:05:13] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/07/d0/ebcd6d9c3397c5a245c8e65834997b6b1974ee7084fa149409dca5eb7b1d/nonebot_plugin_game_collection-2.2.8.tar.gz
+[2023-07-02 10:05:13] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-02 10:05:13] INFO root fetch - processPackages [aramgg-poro]: Downloading https://files.pythonhosted.org/packages/d1/05/88ce4640032e06a190eb698c7b6ea656be2291f5edee104a94ed9c0143ec/aramgg-poro-0.0.6.tar.gz
+[2023-07-02 10:05:13] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-02 10:05:13] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230702/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-02 10:05:13] INFO root fetch - processPackages [aramgg-poro]: executing diffoscope
+[2023-07-02 10:05:13] INFO root fetch - processPackages [aramgg-poro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aramgg-poro-0.0.5.tar.gz tmp/aramgg-poro-0.0.6.tar.gz --markdown 20230702/a/aramgg-poro/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-02 10:05:13] INFO root fetch - processPackages [refiner]: Downloading https://files.pythonhosted.org/packages/29/a1/598410bfdcfdd52645ceb18850c875249e42ecbfce6c912ffba3ab6fe8d9/refiner-0.0.2.tar.gz
+[2023-07-02 10:05:13] INFO root fetch - processPackages [ediri-azapi]: Downloading https://files.pythonhosted.org/packages/76/bc/388d2397823cb95a36dae7e7ad687164961b7750ff97cfaa8658e2690f71/ediri_azapi-1.7.0.tar.gz
+[2023-07-02 10:05:13] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/71/0f/9bf8cdb1b8b1b7b8c7fae668cf661fb044f18527a9fb822074281515b7a2/mysqlx-1.3.2.tar.gz
+[2023-07-02 10:05:13] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/26/57/8b244714216be7a805c6e5fc6ef4d0f4df429ea0c8cec347d68c2f87434c/nonebot_plugin_game_collection-2.2.9.tar.gz
+[2023-07-02 10:05:13] INFO root fetch - processPackages [refiner]: executing diffoscope
+[2023-07-02 10:05:13] INFO root fetch - processPackages [refiner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refiner-0.0.1.tar.gz tmp/refiner-0.0.2.tar.gz --markdown 20230702/r/refiner/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-02 10:05:13] INFO root fetch - processPackages [mysqlx]: executing diffoscope
+[2023-07-02 10:05:13] INFO root fetch - processPackages [mysqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlx-1.3.1.tar.gz tmp/mysqlx-1.3.2.tar.gz --markdown 20230702/m/mysqlx/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-02 10:05:13] INFO root fetch - processPackages [ediri-azapi]: executing diffoscope
+[2023-07-02 10:05:13] INFO root fetch - processPackages [ediri-azapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ediri_azapi-1.6.0.tar.gz tmp/ediri_azapi-1.7.0.tar.gz --markdown 20230702/e/ediri-azapi/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-07-02 10:05:13] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-07-02 10:05:13] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.2.8.tar.gz tmp/nonebot_plugin_game_collection-2.2.9.tar.gz --markdown 20230702/n/nonebot-plugin-game-collection/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-02 10:05:14] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-02 10:05:14] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-02 10:05:14] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-02 10:05:14] INFO root fetch - processPackages [refiner]: Remove: archive file [/home/abi/fetcher/tmp/refiner-0.0.1.tar.gz]
+[2023-07-02 10:05:14] INFO root fetch - processPackages [refiner]: Remove: archive file [/home/abi/fetcher/tmp/refiner-0.0.2.tar.gz]
+[2023-07-02 10:05:14] INFO root fetch - main [MainThread]: End processing [refiner]: success
+[2023-07-02 10:05:14] INFO root fetch - processPackages [aramgg-poro]: Remove: archive file [/home/abi/fetcher/tmp/aramgg-poro-0.0.5.tar.gz]
+[2023-07-02 10:05:14] INFO root fetch - processPackages [aramgg-poro]: Remove: archive file [/home/abi/fetcher/tmp/aramgg-poro-0.0.6.tar.gz]
+[2023-07-02 10:05:14] INFO root fetch - main [MainThread]: End processing [aramgg-poro]: success
+[2023-07-02 10:05:15] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.8.tar.gz]
+[2023-07-02 10:05:15] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.9.tar.gz]
+[2023-07-02 10:05:15] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-07-02 10:05:15] INFO root fetch - processPackages [ediri-azapi]: Remove: archive file [/home/abi/fetcher/tmp/ediri_azapi-1.6.0.tar.gz]
+[2023-07-02 10:05:15] INFO root fetch - processPackages [ediri-azapi]: Remove: archive file [/home/abi/fetcher/tmp/ediri_azapi-1.7.0.tar.gz]
+[2023-07-02 10:05:15] INFO root fetch - main [MainThread]: End processing [ediri-azapi]: success
+[2023-07-02 10:05:15] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.3.1.tar.gz]
+[2023-07-02 10:05:15] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.3.2.tar.gz]
+[2023-07-02 10:05:15] INFO root fetch - main [MainThread]: End processing [mysqlx]: success
+[2023-07-02 10:05:15] INFO root fetch - main [MainThread]: Store serial: [18727135]
