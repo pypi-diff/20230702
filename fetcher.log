@@ -11398,3 +11398,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 17:34:36] INFO root fetch - processPackages [mdtraj]: Remove: archive file [/home/abi/fetcher/tmp/mdtraj-1.9.8.tar.gz]
 [2023-07-02 17:34:36] INFO root fetch - main [MainThread]: End processing [mdtraj]: success
 [2023-07-02 17:34:36] INFO root fetch - main [MainThread]: Store serial: [18729558]
+[2023-07-02 17:39:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18729558]
+[2023-07-02 17:39:46] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-02 17:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qepy
+[2023-07-02 17:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cors-finder
+[2023-07-02 17:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: phable
+[2023-07-02 17:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-madvr
+[2023-07-02 17:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ocp-vscode
+[2023-07-02 17:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyrepresent
+[2023-07-02 17:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mend-ignore-alerts
+[2023-07-02 17:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hmtaipy
+[2023-07-02 17:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: unigui
+[2023-07-02 17:39:46] INFO root fetch - processPackages [phable]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 17:39:46] INFO root fetch - processPackages [qepy]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-02 17:39:46] INFO root fetch - processPackages [unigui]: New version: [1.6.0] Old Version: [1.5.4]
+[2023-07-02 17:39:46] WARNING root fetch - processPackages [cors-finder]: Skipping, unable to determine old version
+[2023-07-02 17:39:46] INFO root fetch - main [MainThread]: End processing [cors-finder] error
+[2023-07-02 17:39:46] INFO root fetch - processPackages [unigui]: Downloading https://files.pythonhosted.org/packages/4c/69/cfaa9b0462dfaa5482d13c3f613e7582574b25c779f4b5db98998025a386/unigui-1.5.4.tar.gz
+[2023-07-02 17:39:46] INFO root fetch - processPackages [py-madvr]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-07-02 17:39:46] INFO root fetch - processPackages [pyrepresent]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-07-02 17:39:46] INFO root fetch - processPackages [ocp-vscode]: New version: [1.2.0] Old Version: [1.1.3]
+[2023-07-02 17:39:46] WARNING root fetch - processPackages [hmtaipy]: Skipping, unable to determine old version
+[2023-07-02 17:39:46] INFO root fetch - main [MainThread]: End processing [hmtaipy] error
+[2023-07-02 17:39:46] WARNING root fetch - processPackages [mend-ignore-alerts]: Skipping, unable to determine old version
+[2023-07-02 17:39:46] INFO root fetch - main [MainThread]: End processing [mend-ignore-alerts] error
+[2023-07-02 17:39:46] INFO root fetch - processPackages [phable]: Downloading https://files.pythonhosted.org/packages/30/a6/d813ba5e7a51e15726c607daa98754b678ab982f0cb1628c2f85291c1ca8/phable-0.1.8.tar.gz
+[2023-07-02 17:39:46] INFO root fetch - processPackages [unigui]: Downloading https://files.pythonhosted.org/packages/c4/08/a64a934dbf979f2b2be56f6f9cec90a7d776e96f24a4cef7e6618b934a76/unigui-1.6.0.tar.gz
+[2023-07-02 17:39:47] INFO root fetch - processPackages [py-madvr]: Downloading https://files.pythonhosted.org/packages/f9/3c/be6b4a2f59ea23bb4151b6b4040a716d648ce6d6d411cca9ac74f8cf650a/py_madvr-1.4.5.tar.gz
+[2023-07-02 17:39:47] INFO root fetch - processPackages [ocp-vscode]: Downloading https://files.pythonhosted.org/packages/0f/ac/e4477ec5cdf3ae3ab4a0d066c89ca7eefd842c5035e514ed08ac4af0171f/ocp_vscode-1.1.3.tar.gz
+[2023-07-02 17:39:47] INFO root fetch - processPackages [qepy]: Downloading https://files.pythonhosted.org/packages/58/69/dc3f48a3413aa0a02322e93a92c07fc4a4ca87540bfc31022eb0ec8e2f38/qepy-0.0.3.tar.gz
+[2023-07-02 17:39:47] INFO root fetch - processPackages [pyrepresent]: Downloading https://files.pythonhosted.org/packages/49/05/7f1287fedd815b6a676d3e43176d56893ab71b30db8d51a9ef2be2c55162/pyrepresent-0.1.4.tar.gz
+[2023-07-02 17:39:47] INFO root fetch - processPackages [unigui]: executing diffoscope
+[2023-07-02 17:39:47] INFO root fetch - processPackages [unigui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unigui-1.5.4.tar.gz tmp/unigui-1.6.0.tar.gz --markdown 20230702/u/unigui/1.5.4-1.6.0/diff.md --exclude *.pyd
+[2023-07-02 17:39:47] INFO root fetch - processPackages [phable]: Downloading https://files.pythonhosted.org/packages/82/2d/3a8ea8a32a694519cacaa74de7d4d45ccd4f524e5eacdd1654370365bc85/phable-0.1.9.tar.gz
+[2023-07-02 17:39:47] INFO root fetch - processPackages [phable]: executing diffoscope
+[2023-07-02 17:39:47] INFO root fetch - processPackages [phable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phable-0.1.8.tar.gz tmp/phable-0.1.9.tar.gz --markdown 20230702/p/phable/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 17:39:47] INFO root fetch - processPackages [py-madvr]: Downloading https://files.pythonhosted.org/packages/31/ea/c0abf3b059e8e8bec759247cd227cd0cedcdf8e32a1f6627536bc5f53c71/py_madvr-1.4.6.tar.gz
+[2023-07-02 17:39:47] INFO root fetch - processPackages [ocp-vscode]: Downloading https://files.pythonhosted.org/packages/44/27/488183f1a2ba3b09e4db84534f30a0b1a9dd5046e8f8820616b2de3e1eaf/ocp_vscode-1.2.0.tar.gz
+[2023-07-02 17:39:47] INFO root fetch - processPackages [pyrepresent]: Downloading https://files.pythonhosted.org/packages/c0/fb/62f0df4e2b55afdc3d6f5e1a2caa448799a50b0902e76ea40b0db31baba9/pyrepresent-0.2.0.tar.gz
+[2023-07-02 17:39:47] INFO root fetch - processPackages [py-madvr]: executing diffoscope
+[2023-07-02 17:39:47] INFO root fetch - processPackages [py-madvr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_madvr-1.4.5.tar.gz tmp/py_madvr-1.4.6.tar.gz --markdown 20230702/p/py-madvr/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-07-02 17:39:47] INFO root fetch - processPackages [ocp-vscode]: executing diffoscope
+[2023-07-02 17:39:47] INFO root fetch - processPackages [ocp-vscode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocp_vscode-1.1.3.tar.gz tmp/ocp_vscode-1.2.0.tar.gz --markdown 20230702/o/ocp-vscode/1.1.3-1.2.0/diff.md --exclude *.pyd
+[2023-07-02 17:39:47] INFO root fetch - processPackages [pyrepresent]: executing diffoscope
+[2023-07-02 17:39:47] INFO root fetch - processPackages [pyrepresent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrepresent-0.1.4.tar.gz tmp/pyrepresent-0.2.0.tar.gz --markdown 20230702/p/pyrepresent/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-07-02 17:39:48] INFO root fetch - processPackages [phable]: Remove: archive file [/home/abi/fetcher/tmp/phable-0.1.8.tar.gz]
+[2023-07-02 17:39:48] INFO root fetch - processPackages [phable]: Remove: archive file [/home/abi/fetcher/tmp/phable-0.1.9.tar.gz]
+[2023-07-02 17:39:48] INFO root fetch - main [MainThread]: End processing [phable]: success
+[2023-07-02 17:39:48] INFO root fetch - processPackages [py-madvr]: Remove: archive file [/home/abi/fetcher/tmp/py_madvr-1.4.5.tar.gz]
+[2023-07-02 17:39:48] INFO root fetch - processPackages [py-madvr]: Remove: archive file [/home/abi/fetcher/tmp/py_madvr-1.4.6.tar.gz]
+[2023-07-02 17:39:48] INFO root fetch - main [MainThread]: End processing [py-madvr]: success
+[2023-07-02 17:39:48] INFO root fetch - processPackages [ocp-vscode]: Remove: archive file [/home/abi/fetcher/tmp/ocp_vscode-1.1.3.tar.gz]
+[2023-07-02 17:39:48] INFO root fetch - processPackages [ocp-vscode]: Remove: archive file [/home/abi/fetcher/tmp/ocp_vscode-1.2.0.tar.gz]
+[2023-07-02 17:39:48] INFO root fetch - main [MainThread]: End processing [ocp-vscode]: success
+[2023-07-02 17:39:48] INFO root fetch - processPackages [pyrepresent]: Remove: archive file [/home/abi/fetcher/tmp/pyrepresent-0.1.4.tar.gz]
+[2023-07-02 17:39:48] INFO root fetch - processPackages [pyrepresent]: Remove: archive file [/home/abi/fetcher/tmp/pyrepresent-0.2.0.tar.gz]
+[2023-07-02 17:39:48] INFO root fetch - main [MainThread]: End processing [pyrepresent]: success
+[2023-07-02 17:39:48] INFO root fetch - processPackages [qepy]: Downloading https://files.pythonhosted.org/packages/38/7c/c4ddd270ebf2abd775e2cff194d6f791ac1287a8ebb105f9de1322f64fe2/qepy-0.0.4.tar.gz
+[2023-07-02 17:39:48] INFO root fetch - processPackages [qepy]: executing diffoscope
+[2023-07-02 17:39:48] INFO root fetch - processPackages [qepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qepy-0.0.3.tar.gz tmp/qepy-0.0.4.tar.gz --markdown 20230702/q/qepy/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-02 17:39:49] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.5.4.tar.gz]
+[2023-07-02 17:39:49] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.6.0.tar.gz]
+[2023-07-02 17:39:49] INFO root fetch - main [MainThread]: End processing [unigui]: success
+[2023-07-02 17:39:50] INFO root fetch - processPackages [qepy]: Remove: archive file [/home/abi/fetcher/tmp/qepy-0.0.3.tar.gz]
+[2023-07-02 17:39:50] INFO root fetch - processPackages [qepy]: Remove: archive file [/home/abi/fetcher/tmp/qepy-0.0.4.tar.gz]
+[2023-07-02 17:39:50] INFO root fetch - main [MainThread]: End processing [qepy]: success
+[2023-07-02 17:39:50] INFO root fetch - main [MainThread]: Store serial: [18729605]
