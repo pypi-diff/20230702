@@ -3711,3 +3711,27 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 05:22:05] INFO root fetch - processPackages [tfrecords]: Remove: archive file [/home/abi/fetcher/tmp/tfrecords-0.2.8-cp39-cp39-win_amd64.whl.zip]
 [2023-07-02 05:22:05] INFO root fetch - main [MainThread]: End processing [tfrecords]: success
 [2023-07-02 05:22:05] INFO root fetch - main [MainThread]: Store serial: [18726183]
+[2023-07-02 05:27:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726183]
+[2023-07-02 05:27:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-02 05:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pybw-comic
+[2023-07-02 05:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: non-local-detector
+[2023-07-02 05:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: maxgradient
+[2023-07-02 05:27:14] WARNING root fetch - processPackages [pybw-comic]: Skipping, unable to determine old version
+[2023-07-02 05:27:14] INFO root fetch - main [MainThread]: End processing [pybw-comic] error
+[2023-07-02 05:27:14] INFO root fetch - processPackages [non-local-detector]: New version: [0.2.1.dev0] Old Version: [0.2.0.dev0]
+[2023-07-02 05:27:14] INFO root fetch - processPackages [maxgradient]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-02 05:27:14] INFO root fetch - processPackages [non-local-detector]: Downloading https://files.pythonhosted.org/packages/d6/9c/f32bc1cedb5c515ca38fe6f5f62fb7e260b4b3fb516e951942b527cb86e0/non_local_detector-0.2.0.dev0.tar.gz
+[2023-07-02 05:27:14] INFO root fetch - processPackages [maxgradient]: Downloading https://files.pythonhosted.org/packages/a0/b8/30077affaba3dc98db7e1543a4313bc6dcf23db73497a0d24febb723956f/maxgradient-0.1.4.tar.gz
+[2023-07-02 05:27:14] INFO root fetch - processPackages [maxgradient]: Downloading https://files.pythonhosted.org/packages/c2/ec/5cbcad6afec6b3c11d72cb9cc88a092ec43b6fbaff291f1fc2b8435ade2d/maxgradient-0.1.5.tar.gz
+[2023-07-02 05:27:15] INFO root fetch - processPackages [maxgradient]: executing diffoscope
+[2023-07-02 05:27:15] INFO root fetch - processPackages [maxgradient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxgradient-0.1.4.tar.gz tmp/maxgradient-0.1.5.tar.gz --markdown 20230702/m/maxgradient/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-02 05:27:15] INFO root fetch - processPackages [non-local-detector]: Downloading https://files.pythonhosted.org/packages/d3/b2/8ca894f7f1d1df7bd623c8549fdfb87fb6f2c9d14c67b3dc540e178579c0/non_local_detector-0.2.1.dev0.tar.gz
+[2023-07-02 05:27:16] INFO root fetch - processPackages [non-local-detector]: executing diffoscope
+[2023-07-02 05:27:16] INFO root fetch - processPackages [non-local-detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/non_local_detector-0.2.0.dev0.tar.gz tmp/non_local_detector-0.2.1.dev0.tar.gz --markdown 20230702/n/non-local-detector/0.2.0.dev0-0.2.1.dev0/diff.md --exclude *.pyd
+[2023-07-02 05:27:16] INFO root fetch - processPackages [maxgradient]: Remove: archive file [/home/abi/fetcher/tmp/maxgradient-0.1.4.tar.gz]
+[2023-07-02 05:27:16] INFO root fetch - processPackages [maxgradient]: Remove: archive file [/home/abi/fetcher/tmp/maxgradient-0.1.5.tar.gz]
+[2023-07-02 05:27:16] INFO root fetch - main [MainThread]: End processing [maxgradient]: success
+[2023-07-02 05:27:17] INFO root fetch - processPackages [non-local-detector]: Remove: archive file [/home/abi/fetcher/tmp/non_local_detector-0.2.0.dev0.tar.gz]
+[2023-07-02 05:27:17] INFO root fetch - processPackages [non-local-detector]: Remove: archive file [/home/abi/fetcher/tmp/non_local_detector-0.2.1.dev0.tar.gz]
+[2023-07-02 05:27:17] INFO root fetch - main [MainThread]: End processing [non-local-detector]: success
+[2023-07-02 05:27:17] INFO root fetch - main [MainThread]: Store serial: [18726192]
