@@ -15892,3 +15892,136 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 22:28:11] INFO root fetch - processPackages [osxphotos]: Remove: archive file [/home/abi/fetcher/tmp/osxphotos-0.60.6.tar.gz]
 [2023-07-02 22:28:11] INFO root fetch - main [MainThread]: End processing [osxphotos]: success
 [2023-07-02 22:28:11] INFO root fetch - main [MainThread]: Store serial: [18731340]
+[2023-07-02 22:33:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18731340]
+[2023-07-02 22:33:20] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-02 22:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: threemystic-common
+[2023-07-02 22:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crypto-ws-api
+[2023-07-02 22:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vellum-ai
+[2023-07-02 22:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jam-ai
+[2023-07-02 22:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pollination-dsl
+[2023-07-02 22:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: threemystic-cloud-client
+[2023-07-02 22:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: supertokens-python
+[2023-07-02 22:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: named-env
+[2023-07-02 22:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: degiroasync
+[2023-07-02 22:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: threemystic-cloud-data-client
+[2023-07-02 22:33:20] INFO root fetch - processPackages [threemystic-common]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-02 22:33:20] INFO root fetch - processPackages [named-env]: New version: [2.3.0] Old Version: [2.2.1]
+[2023-07-02 22:33:20] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-02 22:33:20] WARNING root fetch - processPackages [crypto-ws-api]: Skipping, unable to determine old version
+[2023-07-02 22:33:20] INFO root fetch - processPackages [crypto-ws-api]: Start processing: threemystic-cmdb
+[2023-07-02 22:33:20] INFO root fetch - main [MainThread]: End processing [crypto-ws-api] error
+[2023-07-02 22:33:20] INFO root fetch - processPackages [jam-ai]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-02 22:33:20] INFO root fetch - processPackages [pollination-dsl]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-07-02 22:33:20] INFO root fetch - processPackages [vellum-ai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 22:33:20] INFO root fetch - processPackages [threemystic-cloud-client]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-02 22:33:20] INFO root fetch - processPackages [degiroasync]: New version: [0.17.0] Old Version: [0.16.0]
+[2023-07-02 22:33:20] INFO root fetch - processPackages [supertokens-python]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-02 22:33:20] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/66/5a/557e0985dcc745bfc1b8c866b5d7438832afebac071b09d3311eed9d0186/threemystic_cloud_data_client-0.1.2.tar.gz
+[2023-07-02 22:33:20] INFO root fetch - processPackages [threemystic-cmdb]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-02 22:33:20] INFO root fetch - processPackages [named-env]: Downloading https://files.pythonhosted.org/packages/ba/64/813cfd7935a78a8ff20abd452066c521613c8610207891111170251a529b/named_env-2.2.1.tar.gz
+[2023-07-02 22:33:20] INFO root fetch - processPackages [threemystic-cmdb]: Downloading https://files.pythonhosted.org/packages/c7/3e/a51a0cd5a799f301dd6fc7d0838e938640f266adcb654f1748077275553f/threemystic_cmdb-0.1.2.tar.gz
+[2023-07-02 22:33:20] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/81/8f/563427ed39311ac8c640be1f022d625a3083994343296132c0a42093c058/threemystic_cloud_client-0.1.2.tar.gz
+[2023-07-02 22:33:20] INFO root fetch - processPackages [supertokens-python]: Downloading https://files.pythonhosted.org/packages/41/34/31967fb29a967744e011eb91331a2937f19d9882acccbefdef89c41d48ce/supertokens_python-0.9.0.tar.gz
+[2023-07-02 22:33:20] INFO root fetch - processPackages [jam-ai]: Downloading https://files.pythonhosted.org/packages/ec/dd/c41ac7e1af5508312f91754bb5ff5737c7b8b1ebf3ecb1d87c7127b986a7/jam_ai-0.1.7.tar.gz
+[2023-07-02 22:33:20] INFO root fetch - processPackages [degiroasync]: Downloading https://files.pythonhosted.org/packages/8b/09/e73ad1bca97d01daf4d624416d14e98d1d62cf43e1fa0e038b218622e0aa/degiroasync-0.16.0.tar.gz
+[2023-07-02 22:33:20] INFO root fetch - processPackages [vellum-ai]: Downloading https://files.pythonhosted.org/packages/bf/dd/32c7032684f9a5a1f674df7ecde3a8233288ceabb0a92b3725c41308240c/vellum_ai-0.0.8.tar.gz
+[2023-07-02 22:33:20] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/7d/15/bcc799d7d61ea301a48d7baed188c56f376a06c6da732375517aac5b4bc8/threemystic_cloud_data_client-0.1.3.tar.gz
+[2023-07-02 22:33:20] INFO root fetch - processPackages [pollination-dsl]: Downloading https://files.pythonhosted.org/packages/69/19/642c168b30f39cea915d7270a98e1695e9900d17d7c46aac687fedc6de22/pollination-dsl-0.9.6.tar.gz
+[2023-07-02 22:33:20] INFO root fetch - processPackages [threemystic-common]: Downloading https://files.pythonhosted.org/packages/ff/40/7ea7acdbd2f79a98c96625b110caafed7939d1de4a65dab315a8d47028af/threemystic_common-0.1.1.tar.gz
+[2023-07-02 22:33:20] INFO root fetch - processPackages [named-env]: Downloading https://files.pythonhosted.org/packages/4c/d0/703f59b8c75abf5c932093a45f25546e2b0d059a9a4cf8667db233cb02be/named_env-2.3.0.tar.gz
+[2023-07-02 22:33:20] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-07-02 22:33:20] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.2.tar.gz tmp/threemystic_cloud_data_client-0.1.3.tar.gz --markdown 20230702/t/threemystic-cloud-data-client/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-02 22:33:20] INFO root fetch - processPackages [threemystic-cmdb]: Downloading https://files.pythonhosted.org/packages/36/94/b0206019085ce506212f0e8da8042dab2cc623719dc38133bc0d9f3917e6/threemystic_cmdb-0.1.3.tar.gz
+[2023-07-02 22:33:20] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/b9/a4/84cc217b9b8b8e615864a201b4871085d7f673d576059ee60ee59bd0be56/threemystic_cloud_client-0.1.3.tar.gz
+[2023-07-02 22:33:20] INFO root fetch - processPackages [named-env]: executing diffoscope
+[2023-07-02 22:33:20] INFO root fetch - processPackages [named-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/named_env-2.2.1.tar.gz tmp/named_env-2.3.0.tar.gz --markdown 20230702/n/named-env/2.2.1-2.3.0/diff.md --exclude *.pyd
+[2023-07-02 22:33:20] INFO root fetch - processPackages [supertokens-python]: Downloading https://files.pythonhosted.org/packages/9d/b6/1579872040858340507fd930b8d80cc6f32b03fdf8a1a46b669704ba8615/supertokens_python-0.9.1.tar.gz
+[2023-07-02 22:33:20] INFO root fetch - processPackages [threemystic-cmdb]: executing diffoscope
+[2023-07-02 22:33:20] INFO root fetch - processPackages [threemystic-cmdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cmdb-0.1.2.tar.gz tmp/threemystic_cmdb-0.1.3.tar.gz --markdown 20230702/t/threemystic-cmdb/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-02 22:33:20] INFO root fetch - processPackages [threemystic-cloud-client]: executing diffoscope
+[2023-07-02 22:33:20] INFO root fetch - processPackages [threemystic-cloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_client-0.1.2.tar.gz tmp/threemystic_cloud_client-0.1.3.tar.gz --markdown 20230702/t/threemystic-cloud-client/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-02 22:33:21] INFO root fetch - processPackages [jam-ai]: Downloading https://files.pythonhosted.org/packages/d9/3f/4d544023e78db4af89786a5d6b84b7d83d4bf02ce88ef1162acdb23cd28c/jam_ai-0.1.8.tar.gz
+[2023-07-02 22:33:21] INFO root fetch - processPackages [threemystic-common]: Downloading https://files.pythonhosted.org/packages/e9/93/c13838461092d0f4704870263dea218fcb06a4b834a8ad565c4c15cba405/threemystic_common-0.1.2.tar.gz
+[2023-07-02 22:33:21] INFO root fetch - processPackages [supertokens-python]: executing diffoscope
+[2023-07-02 22:33:21] INFO root fetch - processPackages [supertokens-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supertokens_python-0.9.0.tar.gz tmp/supertokens_python-0.9.1.tar.gz --markdown 20230702/s/supertokens-python/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-02 22:33:21] INFO root fetch - processPackages [jam-ai]: executing diffoscope
+[2023-07-02 22:33:21] INFO root fetch - processPackages [jam-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jam_ai-0.1.7.tar.gz tmp/jam_ai-0.1.8.tar.gz --markdown 20230702/j/jam-ai/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-02 22:33:21] INFO root fetch - processPackages [degiroasync]: Downloading https://files.pythonhosted.org/packages/99/45/d547942d897320cc2d078736af03f418bc6fdd2a8add4955aa4c396135f5/degiroasync-0.17.0.tar.gz
+[2023-07-02 22:33:21] INFO root fetch - processPackages [threemystic-common]: executing diffoscope
+[2023-07-02 22:33:21] INFO root fetch - processPackages [threemystic-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_common-0.1.1.tar.gz tmp/threemystic_common-0.1.2.tar.gz --markdown 20230702/t/threemystic-common/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-02 22:33:21] INFO root fetch - processPackages [pollination-dsl]: Downloading https://files.pythonhosted.org/packages/5a/35/82cf8446f1d2f27921a34d4aebd7d045027ac1987d95ecd6ad7f316bbed9/pollination-dsl-0.9.7.tar.gz
+[2023-07-02 22:33:21] INFO root fetch - processPackages [vellum-ai]: Downloading https://files.pythonhosted.org/packages/4a/1a/5f8a4060cf923a537d1e78b17458c42b4d0162ec730b5a3eb7ca618925fe/vellum_ai-0.0.9.tar.gz
+[2023-07-02 22:33:21] INFO root fetch - processPackages [degiroasync]: executing diffoscope
+[2023-07-02 22:33:21] INFO root fetch - processPackages [degiroasync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/degiroasync-0.16.0.tar.gz tmp/degiroasync-0.17.0.tar.gz --markdown 20230702/d/degiroasync/0.16.0-0.17.0/diff.md --exclude *.pyd
+[2023-07-02 22:33:21] INFO root fetch - processPackages [pollination-dsl]: executing diffoscope
+[2023-07-02 22:33:21] INFO root fetch - processPackages [pollination-dsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-dsl-0.9.6.tar.gz tmp/pollination-dsl-0.9.7.tar.gz --markdown 20230702/p/pollination-dsl/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-07-02 22:33:21] INFO root fetch - processPackages [vellum-ai]: executing diffoscope
+[2023-07-02 22:33:21] INFO root fetch - processPackages [vellum-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vellum_ai-0.0.8.tar.gz tmp/vellum_ai-0.0.9.tar.gz --markdown 20230702/v/vellum-ai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 22:33:22] INFO root fetch - processPackages [named-env]: Remove: archive file [/home/abi/fetcher/tmp/named_env-2.2.1.tar.gz]
+[2023-07-02 22:33:22] INFO root fetch - processPackages [named-env]: Remove: archive file [/home/abi/fetcher/tmp/named_env-2.3.0.tar.gz]
+[2023-07-02 22:33:22] INFO root fetch - processPackages [named-env]: Start processing: joyeuse
+[2023-07-02 22:33:22] INFO root fetch - main [MainThread]: End processing [named-env]: success
+[2023-07-02 22:33:22] WARNING root fetch - processPackages [joyeuse]: Skipping, unable to determine old version
+[2023-07-02 22:33:22] INFO root fetch - processPackages [joyeuse]: Start processing: DomFu
+[2023-07-02 22:33:22] INFO root fetch - main [MainThread]: End processing [joyeuse] error
+[2023-07-02 22:33:22] INFO root fetch - processPackages [DomFu]: New version: [1.4] Old Version: [1.3.2]
+[2023-07-02 22:33:22] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.2.tar.gz]
+[2023-07-02 22:33:22] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.3.tar.gz]
+[2023-07-02 22:33:22] INFO root fetch - processPackages [threemystic-cloud-data-client]: Start processing: DomFu
+[2023-07-02 22:33:22] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
+[2023-07-02 22:33:22] INFO root fetch - processPackages [DomFu]: New version: [1.4] Old Version: [1.3.2]
+[2023-07-02 22:33:22] INFO root fetch - processPackages [threemystic-cmdb]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cmdb-0.1.2.tar.gz]
+[2023-07-02 22:33:22] INFO root fetch - processPackages [threemystic-cmdb]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cmdb-0.1.3.tar.gz]
+[2023-07-02 22:33:22] INFO root fetch - processPackages [threemystic-cmdb]: Start processing: twitter-api-client
+[2023-07-02 22:33:22] INFO root fetch - main [MainThread]: End processing [threemystic-cmdb]: success
+[2023-07-02 22:33:22] INFO root fetch - processPackages [DomFu]: Downloading https://files.pythonhosted.org/packages/e1/b8/6415baef0aa9355c6767a893d0a0f108d59e92111147938c4f96fc466f7e/DomFu-1.3.2-py3.11.egg
+[2023-07-02 22:33:22] INFO root fetch - processPackages [DomFu]: Downloading https://files.pythonhosted.org/packages/e1/b8/6415baef0aa9355c6767a893d0a0f108d59e92111147938c4f96fc466f7e/DomFu-1.3.2-py3.11.egg
+[2023-07-02 22:33:22] INFO root fetch - processPackages [twitter-api-client]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-02 22:33:22] INFO root fetch - processPackages [jam-ai]: Remove: archive file [/home/abi/fetcher/tmp/jam_ai-0.1.7.tar.gz]
+[2023-07-02 22:33:22] INFO root fetch - processPackages [jam-ai]: Remove: archive file [/home/abi/fetcher/tmp/jam_ai-0.1.8.tar.gz]
+[2023-07-02 22:33:22] INFO root fetch - processPackages [jam-ai]: Start processing: ovos-tts-plugin-server
+[2023-07-02 22:33:22] INFO root fetch - main [MainThread]: End processing [jam-ai]: success
+[2023-07-02 22:33:22] INFO root fetch - processPackages [twitter-api-client]: Downloading https://files.pythonhosted.org/packages/6d/c9/1d547e8da64fdc6c40cf41bfcd04bab1dc66b8b77d10c444ff66c5a904dc/twitter-api-client-0.9.8.tar.gz
+[2023-07-02 22:33:22] INFO root fetch - processPackages [ovos-tts-plugin-server]: New version: [0.0.2a5] Old Version: [0.0.2a4]
+[2023-07-02 22:33:22] INFO root fetch - processPackages [twitter-api-client]: Downloading https://files.pythonhosted.org/packages/01/72/7a27249d90e3f2e1c268ed5863305cd0c3a1970bb7a1b645b17053605afe/twitter-api-client-0.9.9.tar.gz
+[2023-07-02 22:33:22] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.2.tar.gz]
+[2023-07-02 22:33:22] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.3.tar.gz]
+[2023-07-02 22:33:22] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-client]: success
+[2023-07-02 22:33:22] INFO root fetch - processPackages [twitter-api-client]: executing diffoscope
+[2023-07-02 22:33:22] INFO root fetch - processPackages [twitter-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitter-api-client-0.9.8.tar.gz tmp/twitter-api-client-0.9.9.tar.gz --markdown 20230702/t/twitter-api-client/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-02 22:33:22] INFO root fetch - processPackages [DomFu]: Downloading https://files.pythonhosted.org/packages/51/61/a7ce9b4e97226a34a7789e4b26e80cf44a26f414157b4b085d1c3541a0fd/DomFu-1.4.tar.gz
+[2023-07-02 22:33:22] INFO root fetch - processPackages [DomFu]: Downloading https://files.pythonhosted.org/packages/51/61/a7ce9b4e97226a34a7789e4b26e80cf44a26f414157b4b085d1c3541a0fd/DomFu-1.4.tar.gz
+[2023-07-02 22:33:23] INFO root fetch - processPackages [degiroasync]: Remove: archive file [/home/abi/fetcher/tmp/degiroasync-0.16.0.tar.gz]
+[2023-07-02 22:33:23] INFO root fetch - processPackages [degiroasync]: Remove: archive file [/home/abi/fetcher/tmp/degiroasync-0.17.0.tar.gz]
+[2023-07-02 22:33:23] INFO root fetch - main [MainThread]: End processing [degiroasync]: success
+[2023-07-02 22:33:23] INFO root fetch - processPackages [ovos-tts-plugin-server]: Downloading https://files.pythonhosted.org/packages/b9/4c/dcbbb42efd503d7f6bb50bbe9fc729555ad1d37d6be08f440ce6ce2801e9/ovos-tts-plugin-server-0.0.2a4.tar.gz
+[2023-07-02 22:33:23] INFO root fetch - processPackages [threemystic-common]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_common-0.1.1.tar.gz]
+[2023-07-02 22:33:23] INFO root fetch - processPackages [threemystic-common]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_common-0.1.2.tar.gz]
+[2023-07-02 22:33:23] INFO root fetch - main [MainThread]: End processing [threemystic-common]: success
+[2023-07-02 22:33:23] INFO root fetch - processPackages [DomFu]: executing diffoscope
+[2023-07-02 22:33:23] INFO root fetch - processPackages [DomFu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DomFu-1.3.2-py3.11.egg tmp/DomFu-1.4.tar.gz --markdown 20230702/D/DomFu/1.3.2-1.4/diff.md --exclude *.pyd
+[2023-07-02 22:33:23] INFO root fetch - processPackages [DomFu]: executing diffoscope
+[2023-07-02 22:33:23] INFO root fetch - processPackages [DomFu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DomFu-1.3.2-py3.11.egg tmp/DomFu-1.4.tar.gz --markdown 20230702/D/DomFu/1.3.2-1.4/diff.md --exclude *.pyd
+[2023-07-02 22:33:23] INFO root fetch - processPackages [vellum-ai]: Remove: archive file [/home/abi/fetcher/tmp/vellum_ai-0.0.8.tar.gz]
+[2023-07-02 22:33:23] INFO root fetch - processPackages [vellum-ai]: Remove: archive file [/home/abi/fetcher/tmp/vellum_ai-0.0.9.tar.gz]
+[2023-07-02 22:33:23] INFO root fetch - main [MainThread]: End processing [vellum-ai]: success
+[2023-07-02 22:33:23] INFO root fetch - processPackages [ovos-tts-plugin-server]: Downloading https://files.pythonhosted.org/packages/8a/92/26874b9c723ce23b775a6e5e05bfdbc44e4a4dc225bfaa753b81afcdfdee/ovos-tts-plugin-server-0.0.2a5.tar.gz
+[2023-07-02 22:33:23] INFO root fetch - processPackages [pollination-dsl]: Remove: archive file [/home/abi/fetcher/tmp/pollination-dsl-0.9.6.tar.gz]
+[2023-07-02 22:33:23] INFO root fetch - processPackages [pollination-dsl]: Remove: archive file [/home/abi/fetcher/tmp/pollination-dsl-0.9.7.tar.gz]
+[2023-07-02 22:33:23] INFO root fetch - main [MainThread]: End processing [pollination-dsl]: success
+[2023-07-02 22:33:23] INFO root fetch - processPackages [ovos-tts-plugin-server]: executing diffoscope
+[2023-07-02 22:33:23] INFO root fetch - processPackages [ovos-tts-plugin-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-tts-plugin-server-0.0.2a4.tar.gz tmp/ovos-tts-plugin-server-0.0.2a5.tar.gz --markdown 20230702/o/ovos-tts-plugin-server/0.0.2a4-0.0.2a5/diff.md --exclude *.pyd
+[2023-07-02 22:33:24] INFO root fetch - processPackages [twitter-api-client]: Remove: archive file [/home/abi/fetcher/tmp/twitter-api-client-0.9.8.tar.gz]
+[2023-07-02 22:33:24] INFO root fetch - processPackages [twitter-api-client]: Remove: archive file [/home/abi/fetcher/tmp/twitter-api-client-0.9.9.tar.gz]
+[2023-07-02 22:33:24] INFO root fetch - main [MainThread]: End processing [twitter-api-client]: success
+[2023-07-02 22:33:24] INFO root fetch - processPackages [DomFu]: Remove: archive file [/home/abi/fetcher/tmp/DomFu-1.3.2-py3.11.egg]
+[2023-07-02 22:33:24] INFO root fetch - processPackages [DomFu]: Remove: archive file [/home/abi/fetcher/tmp/DomFu-1.4.tar.gz]
+[2023-07-02 22:33:24] INFO root fetch - main [MainThread]: End processing [DomFu]: success
+[2023-07-02 22:33:24] INFO root fetch - main [MainThread]: End processing [DomFu]: success
+[2023-07-02 22:33:24] INFO root fetch - processPackages [ovos-tts-plugin-server]: Remove: archive file [/home/abi/fetcher/tmp/ovos-tts-plugin-server-0.0.2a4.tar.gz]
+[2023-07-02 22:33:24] INFO root fetch - processPackages [ovos-tts-plugin-server]: Remove: archive file [/home/abi/fetcher/tmp/ovos-tts-plugin-server-0.0.2a5.tar.gz]
+[2023-07-02 22:33:24] INFO root fetch - main [MainThread]: End processing [ovos-tts-plugin-server]: success
+[2023-07-02 22:33:27] INFO root fetch - processPackages [supertokens-python]: Remove: archive file [/home/abi/fetcher/tmp/supertokens_python-0.9.0.tar.gz]
+[2023-07-02 22:33:27] INFO root fetch - processPackages [supertokens-python]: Remove: archive file [/home/abi/fetcher/tmp/supertokens_python-0.9.1.tar.gz]
+[2023-07-02 22:33:27] INFO root fetch - main [MainThread]: End processing [supertokens-python]: success
+[2023-07-02 22:33:27] INFO root fetch - main [MainThread]: Store serial: [18731390]
