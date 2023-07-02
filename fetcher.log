@@ -16355,3 +16355,51 @@ AssertionError: tmp/Cliente-0.0.4-py3.10.egg does not exist
 [2023-07-02 22:49:14] INFO root fetch - processPackages [liburlparser]: Remove: archive file [/home/abi/fetcher/tmp/liburlparser-0.2.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-02 22:49:14] INFO root fetch - main [MainThread]: End processing [liburlparser]: success
 [2023-07-02 22:49:14] INFO root fetch - main [MainThread]: Store serial: [18731503]
+[2023-07-02 22:54:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18731503]
+[2023-07-02 22:54:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-02 22:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edc-glucose
+[2023-07-02 22:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simplenetlink
+[2023-07-02 22:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moneywiz-api
+[2023-07-02 22:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pixqrcodegen
+[2023-07-02 22:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sphinxcontrib-django
+[2023-07-02 22:54:24] INFO root fetch - processPackages [edc-glucose]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 22:54:24] INFO root fetch - processPackages [simplenetlink]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-02 22:54:24] INFO root fetch - processPackages [sphinxcontrib-django]: New version: [2.4] Old Version: [2.3]
+[2023-07-02 22:54:24] INFO root fetch - processPackages [pixqrcodegen]: New version: [0.9.1] Old Version: [0.5]
+[2023-07-02 22:54:24] INFO root fetch - processPackages [moneywiz-api]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-02 22:54:24] INFO root fetch - processPackages [pixqrcodegen]: Downloading https://files.pythonhosted.org/packages/2e/70/e66d736096723a3a1fa117e190d15edd6e34803f5eafe82bff484c899f6c/pixqrcodegen-0.5.tar.gz
+[2023-07-02 22:54:24] INFO root fetch - processPackages [edc-glucose]: Downloading https://files.pythonhosted.org/packages/5c/c4/7c8c7a40ebfe9a901238b2489fcb461c3c439bd10382d8c50533aee9cf3e/edc_glucose-0.1.8-py3-none-any.whl
+[2023-07-02 22:54:24] INFO root fetch - processPackages [simplenetlink]: Downloading https://files.pythonhosted.org/packages/66/05/8a1816b94ad72cdab1235e51f37d76a091ae68f92dbb97e8e2a9b2843d2b/simplenetlink-0.6.1-py3-none-any.whl
+[2023-07-02 22:54:24] INFO root fetch - processPackages [sphinxcontrib-django]: Downloading https://files.pythonhosted.org/packages/de/30/22a4b466c6460279d7d578f3447b6c079f5b1a619a9a6b85089a1b4a3b89/sphinxcontrib-django-2.3.tar.gz
+[2023-07-02 22:54:25] INFO root fetch - processPackages [moneywiz-api]: Downloading https://files.pythonhosted.org/packages/9e/f6/9915c1d5886b698ef63daff67aea7adad2e912a998713b1caab14b8a8f26/moneywiz-api-0.0.1.tar.gz
+[2023-07-02 22:54:25] INFO root fetch - processPackages [pixqrcodegen]: Downloading https://files.pythonhosted.org/packages/19/93/2b1a8854644772d708af17c9a683a61e16378862cbacffed96af9f86e98b/pixqrcodegen-0.9.1.tar.gz
+[2023-07-02 22:54:25] INFO root fetch - processPackages [simplenetlink]: Downloading https://files.pythonhosted.org/packages/b1/30/470db0652d5db4419993f1472d1be0ab751135c680e97466ef828b19e7c8/simplenetlink-0.6.2-py3-none-any.whl
+[2023-07-02 22:54:25] INFO root fetch - processPackages [pixqrcodegen]: executing diffoscope
+[2023-07-02 22:54:25] INFO root fetch - processPackages [pixqrcodegen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixqrcodegen-0.5.tar.gz tmp/pixqrcodegen-0.9.1.tar.gz --markdown 20230702/p/pixqrcodegen/0.5-0.9.1/diff.md --exclude *.pyd
+[2023-07-02 22:54:25] INFO root fetch - processPackages [sphinxcontrib-django]: Downloading https://files.pythonhosted.org/packages/2b/aa/4a00f36f0d4a86b4ad442625beb1ab06e0f21acbcbe1b8d03fe52d06f378/sphinxcontrib-django-2.4.tar.gz
+[2023-07-02 22:54:25] INFO root fetch - processPackages [moneywiz-api]: Downloading https://files.pythonhosted.org/packages/24/c4/7b5c067ec64dedfd07c8e8a73a3bcab9ccebdd54e7ac81e64f5ce4653053/moneywiz-api-0.0.2.tar.gz
+[2023-07-02 22:54:25] INFO root fetch - processPackages [edc-glucose]: Downloading https://files.pythonhosted.org/packages/e7/01/7d35231023cd75dcd885278afa69e716fc5c7993f8c77eab3963f0319481/edc_glucose-0.1.9-py3-none-any.whl
+[2023-07-02 22:54:25] INFO root fetch - processPackages [simplenetlink]: executing diffoscope
+[2023-07-02 22:54:25] INFO root fetch - processPackages [simplenetlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplenetlink-0.6.1-py3-none-any.whl.zip tmp/simplenetlink-0.6.2-py3-none-any.whl.zip --markdown 20230702/s/simplenetlink/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-02 22:54:25] INFO root fetch - processPackages [sphinxcontrib-django]: executing diffoscope
+[2023-07-02 22:54:25] INFO root fetch - processPackages [sphinxcontrib-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxcontrib-django-2.3.tar.gz tmp/sphinxcontrib-django-2.4.tar.gz --markdown 20230702/s/sphinxcontrib-django/2.3-2.4/diff.md --exclude *.pyd
+[2023-07-02 22:54:25] INFO root fetch - processPackages [moneywiz-api]: executing diffoscope
+[2023-07-02 22:54:25] INFO root fetch - processPackages [moneywiz-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moneywiz-api-0.0.1.tar.gz tmp/moneywiz-api-0.0.2.tar.gz --markdown 20230702/m/moneywiz-api/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-02 22:54:25] INFO root fetch - processPackages [edc-glucose]: executing diffoscope
+[2023-07-02 22:54:25] INFO root fetch - processPackages [edc-glucose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_glucose-0.1.8-py3-none-any.whl.zip tmp/edc_glucose-0.1.9-py3-none-any.whl.zip --markdown 20230702/e/edc-glucose/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 22:54:26] INFO root fetch - processPackages [pixqrcodegen]: Remove: archive file [/home/abi/fetcher/tmp/pixqrcodegen-0.5.tar.gz]
+[2023-07-02 22:54:26] INFO root fetch - processPackages [pixqrcodegen]: Remove: archive file [/home/abi/fetcher/tmp/pixqrcodegen-0.9.1.tar.gz]
+[2023-07-02 22:54:26] INFO root fetch - main [MainThread]: End processing [pixqrcodegen]: success
+[2023-07-02 22:54:26] INFO root fetch - processPackages [simplenetlink]: Remove: archive file [/home/abi/fetcher/tmp/simplenetlink-0.6.1-py3-none-any.whl.zip]
+[2023-07-02 22:54:26] INFO root fetch - processPackages [simplenetlink]: Remove: archive file [/home/abi/fetcher/tmp/simplenetlink-0.6.2-py3-none-any.whl.zip]
+[2023-07-02 22:54:26] INFO root fetch - main [MainThread]: End processing [simplenetlink]: success
+[2023-07-02 22:54:26] INFO root fetch - processPackages [sphinxcontrib-django]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib-django-2.3.tar.gz]
+[2023-07-02 22:54:26] INFO root fetch - processPackages [sphinxcontrib-django]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib-django-2.4.tar.gz]
+[2023-07-02 22:54:26] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-django]: success
+[2023-07-02 22:54:26] INFO root fetch - processPackages [edc-glucose]: Remove: archive file [/home/abi/fetcher/tmp/edc_glucose-0.1.8-py3-none-any.whl.zip]
+[2023-07-02 22:54:26] INFO root fetch - processPackages [edc-glucose]: Remove: archive file [/home/abi/fetcher/tmp/edc_glucose-0.1.9-py3-none-any.whl.zip]
+[2023-07-02 22:54:26] INFO root fetch - main [MainThread]: End processing [edc-glucose]: success
+[2023-07-02 22:54:26] INFO root fetch - processPackages [moneywiz-api]: Remove: archive file [/home/abi/fetcher/tmp/moneywiz-api-0.0.1.tar.gz]
+[2023-07-02 22:54:26] INFO root fetch - processPackages [moneywiz-api]: Remove: archive file [/home/abi/fetcher/tmp/moneywiz-api-0.0.2.tar.gz]
+[2023-07-02 22:54:26] INFO root fetch - main [MainThread]: End processing [moneywiz-api]: success
+[2023-07-02 22:54:26] INFO root fetch - main [MainThread]: Store serial: [18731518]
