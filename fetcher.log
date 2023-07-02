@@ -9780,3 +9780,39 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 15:26:49] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-1.1.9.tar.gz]
 [2023-07-02 15:26:49] INFO root fetch - main [MainThread]: End processing [ExpoSeq]: success
 [2023-07-02 15:26:49] INFO root fetch - main [MainThread]: Store serial: [18728805]
+[2023-07-02 15:31:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18728805]
+[2023-07-02 15:31:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-02 15:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-module-analysis
+[2023-07-02 15:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ccxtools
+[2023-07-02 15:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: git-remote-oracle
+[2023-07-02 15:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-auth-admin-passkey
+[2023-07-02 15:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tilequant
+[2023-07-02 15:31:59] WARNING root fetch - processPackages [odoo14-addon-module-analysis]: Skipping, unable to determine old version
+[2023-07-02 15:31:59] INFO root fetch - main [MainThread]: End processing [odoo14-addon-module-analysis] error
+[2023-07-02 15:31:59] WARNING root fetch - processPackages [git-remote-oracle]: Skipping, unable to determine old version
+[2023-07-02 15:31:59] INFO root fetch - main [MainThread]: End processing [git-remote-oracle] error
+[2023-07-02 15:31:59] INFO root fetch - processPackages [odoo-addon-auth-admin-passkey]: New version: [16.0.1.0.0.3] Old Version: [15.0.1.0.0.2]
+[2023-07-02 15:31:59] INFO root fetch - processPackages [tilequant]: New version: [1.0.0] Old Version: [0.4.1.post1]
+[2023-07-02 15:31:59] INFO root fetch - processPackages [ccxtools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 15:31:59] INFO root fetch - processPackages [ccxtools]: Downloading https://files.pythonhosted.org/packages/2f/81/ac3ab54ce686eaf6c2cbf0b6b8845dc3abcd2ca613864b7c6c242ffd3c56/ccxtools-0.0.8.tar.gz
+[2023-07-02 15:31:59] INFO root fetch - processPackages [odoo-addon-auth-admin-passkey]: Downloading https://files.pythonhosted.org/packages/11/32/87a0025139c0b533ac87cc009e72488afcc4d3c571ee3e96dfc8fcdbdcbe/odoo_addon_auth_admin_passkey-15.0.1.0.0.2-py3-none-any.whl
+[2023-07-02 15:31:59] INFO root fetch - processPackages [tilequant]: Downloading https://files.pythonhosted.org/packages/4f/28/f8b421b262a39c12566cfb2ea16838b774ee8456b2eea2e869f6759b05ce/tilequant-0.4.1.post1.tar.gz
+[2023-07-02 15:31:59] INFO root fetch - processPackages [ccxtools]: Downloading https://files.pythonhosted.org/packages/4b/e9/6ef44c6be3fb7e41208d0e44d2c881fbe5ece1952bea1b3b096a5201e196/ccxtools-0.0.9.tar.gz
+[2023-07-02 15:32:00] INFO root fetch - processPackages [ccxtools]: executing diffoscope
+[2023-07-02 15:32:00] INFO root fetch - processPackages [ccxtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxtools-0.0.8.tar.gz tmp/ccxtools-0.0.9.tar.gz --markdown 20230702/c/ccxtools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 15:32:00] INFO root fetch - processPackages [odoo-addon-auth-admin-passkey]: Downloading https://files.pythonhosted.org/packages/d0/31/d80b6815a0c7d0b8f7193abbecdf3b15fc18833d83f2b821f4d8105b0cc7/odoo_addon_auth_admin_passkey-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-02 15:32:00] INFO root fetch - processPackages [tilequant]: Downloading https://files.pythonhosted.org/packages/8d/28/5559db8a2524cc14f4c975e769637a34d993267b85faac5d8daeb542d515/tilequant-1.0.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-02 15:32:00] INFO root fetch - processPackages [odoo-addon-auth-admin-passkey]: executing diffoscope
+[2023-07-02 15:32:00] INFO root fetch - processPackages [odoo-addon-auth-admin-passkey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_auth_admin_passkey-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_auth_admin_passkey-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230702/o/odoo-addon-auth-admin-passkey/15.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-07-02 15:32:00] INFO root fetch - processPackages [tilequant]: executing diffoscope
+[2023-07-02 15:32:00] INFO root fetch - processPackages [tilequant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tilequant-0.4.1.post1.tar.gz tmp/tilequant-1.0.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230702/t/tilequant/0.4.1.post1-1.0.0/diff.md --exclude *.pyd
+[2023-07-02 15:32:01] INFO root fetch - processPackages [ccxtools]: Remove: archive file [/home/abi/fetcher/tmp/ccxtools-0.0.8.tar.gz]
+[2023-07-02 15:32:01] INFO root fetch - processPackages [ccxtools]: Remove: archive file [/home/abi/fetcher/tmp/ccxtools-0.0.9.tar.gz]
+[2023-07-02 15:32:01] INFO root fetch - main [MainThread]: End processing [ccxtools]: success
+[2023-07-02 15:32:01] INFO root fetch - processPackages [tilequant]: Remove: archive file [/home/abi/fetcher/tmp/tilequant-0.4.1.post1.tar.gz]
+[2023-07-02 15:32:01] INFO root fetch - processPackages [tilequant]: Remove: archive file [/home/abi/fetcher/tmp/tilequant-1.0.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-02 15:32:01] INFO root fetch - main [MainThread]: End processing [tilequant]: success
+[2023-07-02 15:32:01] INFO root fetch - processPackages [odoo-addon-auth-admin-passkey]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_admin_passkey-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-02 15:32:01] INFO root fetch - processPackages [odoo-addon-auth-admin-passkey]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_admin_passkey-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-02 15:32:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-auth-admin-passkey]: success
+[2023-07-02 15:32:01] INFO root fetch - main [MainThread]: Store serial: [18728829]
