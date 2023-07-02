@@ -13634,3 +13634,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-02 19:38:01] INFO root fetch - processPackages [edc-offstudy]: Remove: archive file [/home/abi/fetcher/tmp/edc_offstudy-0.3.9-py3-none-any.whl.zip]
 [2023-07-02 19:38:01] INFO root fetch - main [MainThread]: End processing [edc-offstudy]: success
 [2023-07-02 19:38:01] INFO root fetch - main [MainThread]: Store serial: [18730425]
+[2023-07-02 19:43:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18730425]
+[2023-07-02 19:43:09] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-02 19:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jsonrpc2-objects
+[2023-07-02 19:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-homo-mathematician
+[2023-07-02 19:43:09] INFO root fetch - processPackages [nonebot-plugin-homo-mathematician]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-02 19:43:09] INFO root fetch - processPackages [jsonrpc2-objects]: New version: [3.0.0] Old Version: [2.0.18]
+[2023-07-02 19:43:09] INFO root fetch - processPackages [nonebot-plugin-homo-mathematician]: Downloading https://files.pythonhosted.org/packages/cb/9a/949cc2e64c9b866dc72efd58c0011500082047d4f2c01f14e3382f97c9aa/nonebot_plugin_homo_mathematician-0.0.4.tar.gz
+[2023-07-02 19:43:09] INFO root fetch - processPackages [jsonrpc2-objects]: Downloading https://files.pythonhosted.org/packages/3c/30/4965a2389e851de1ebaf2bdb83c07fcbb9d7504f633ad438c816f952c403/jsonrpc2_objects-2.0.18.tar.gz
+[2023-07-02 19:43:10] INFO root fetch - processPackages [nonebot-plugin-homo-mathematician]: Downloading https://files.pythonhosted.org/packages/60/c2/b073899ce4585aabf5a5cfba7b507d74b5f98118111c4b6571a6d8f81130/nonebot_plugin_homo_mathematician-0.0.5.tar.gz
+[2023-07-02 19:43:10] INFO root fetch - processPackages [jsonrpc2-objects]: Downloading https://files.pythonhosted.org/packages/ce/de/77747a4348e7a99b392d1ed1ecca06dd1daa24088f1f181ff82bc6ee8efe/jsonrpc2-objects-3.0.0.tar.gz
+[2023-07-02 19:43:10] INFO root fetch - processPackages [jsonrpc2-objects]: executing diffoscope
+[2023-07-02 19:43:10] INFO root fetch - processPackages [jsonrpc2-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonrpc2_objects-2.0.18.tar.gz tmp/jsonrpc2-objects-3.0.0.tar.gz --markdown 20230702/j/jsonrpc2-objects/2.0.18-3.0.0/diff.md --exclude *.pyd
+[2023-07-02 19:43:10] INFO root fetch - processPackages [nonebot-plugin-homo-mathematician]: executing diffoscope
+[2023-07-02 19:43:10] INFO root fetch - processPackages [nonebot-plugin-homo-mathematician]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_homo_mathematician-0.0.4.tar.gz tmp/nonebot_plugin_homo_mathematician-0.0.5.tar.gz --markdown 20230702/n/nonebot-plugin-homo-mathematician/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-02 19:43:11] INFO root fetch - processPackages [jsonrpc2-objects]: Remove: archive file [/home/abi/fetcher/tmp/jsonrpc2_objects-2.0.18.tar.gz]
+[2023-07-02 19:43:11] INFO root fetch - processPackages [jsonrpc2-objects]: Remove: archive file [/home/abi/fetcher/tmp/jsonrpc2-objects-3.0.0.tar.gz]
+[2023-07-02 19:43:11] INFO root fetch - main [MainThread]: End processing [jsonrpc2-objects]: success
+[2023-07-02 19:43:11] INFO root fetch - processPackages [nonebot-plugin-homo-mathematician]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_homo_mathematician-0.0.4.tar.gz]
+[2023-07-02 19:43:11] INFO root fetch - processPackages [nonebot-plugin-homo-mathematician]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_homo_mathematician-0.0.5.tar.gz]
+[2023-07-02 19:43:11] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-homo-mathematician]: success
+[2023-07-02 19:43:11] INFO root fetch - main [MainThread]: Store serial: [18730431]
