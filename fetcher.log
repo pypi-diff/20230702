@@ -3984,3 +3984,31 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 06:03:34] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230630.tar.gz]
 [2023-07-02 06:03:34] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
 [2023-07-02 06:03:34] INFO root fetch - main [MainThread]: Store serial: [18726301]
+[2023-07-02 06:08:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726301]
+[2023-07-02 06:08:43] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-02 06:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reliableGPT
+[2023-07-02 06:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reliableGPT
+[2023-07-02 06:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ag-llama-api
+[2023-07-02 06:08:43] INFO root fetch - processPackages [reliableGPT]: New version: [0.2.956] Old Version: [0.2.955]
+[2023-07-02 06:08:43] INFO root fetch - processPackages [reliableGPT]: New version: [0.2.956] Old Version: [0.2.955]
+[2023-07-02 06:08:43] INFO root fetch - processPackages [ag-llama-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 06:08:43] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/8b/06/69693c65151532f45f0af5d50c4171c3245189bf581e40b78b122333d8e9/reliableGPT-0.2.955.tar.gz
+[2023-07-02 06:08:43] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/8b/06/69693c65151532f45f0af5d50c4171c3245189bf581e40b78b122333d8e9/reliableGPT-0.2.955.tar.gz
+[2023-07-02 06:08:43] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/e7/db/6c93bb8ec9653fafd298258240710b4768345a45843013bc715cf9e658f7/ag_llama_api-0.0.8.tar.gz
+[2023-07-02 06:08:44] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/c2/44/3862c8b027a074668581519d8701c7022602c2925f1f5086450de9152e07/reliableGPT-0.2.956.tar.gz
+[2023-07-02 06:08:44] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/c2/44/3862c8b027a074668581519d8701c7022602c2925f1f5086450de9152e07/reliableGPT-0.2.956.tar.gz
+[2023-07-02 06:08:44] INFO root fetch - processPackages [reliableGPT]: executing diffoscope
+[2023-07-02 06:08:44] INFO root fetch - processPackages [reliableGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliableGPT-0.2.955.tar.gz tmp/reliableGPT-0.2.956.tar.gz --markdown 20230702/r/reliableGPT/0.2.955-0.2.956/diff.md --exclude *.pyd
+[2023-07-02 06:08:44] INFO root fetch - processPackages [reliableGPT]: executing diffoscope
+[2023-07-02 06:08:44] INFO root fetch - processPackages [reliableGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliableGPT-0.2.955.tar.gz tmp/reliableGPT-0.2.956.tar.gz --markdown 20230702/r/reliableGPT/0.2.955-0.2.956/diff.md --exclude *.pyd
+[2023-07-02 06:08:44] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/0e/45/5ce146425eb4c54590e514bf53d436ec8eb7cbeee70953b613dcd4e56824/ag_llama_api-0.0.9.tar.gz
+[2023-07-02 06:08:44] INFO root fetch - processPackages [ag-llama-api]: executing diffoscope
+[2023-07-02 06:08:44] INFO root fetch - processPackages [ag-llama-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ag_llama_api-0.0.8.tar.gz tmp/ag_llama_api-0.0.9.tar.gz --markdown 20230702/a/ag-llama-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 06:08:45] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.955.tar.gz]
+[2023-07-02 06:08:45] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.956.tar.gz]
+[2023-07-02 06:08:45] INFO root fetch - main [MainThread]: End processing [reliableGPT]: success
+[2023-07-02 06:08:45] INFO root fetch - main [MainThread]: End processing [reliableGPT]: success
+[2023-07-02 06:08:45] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.8.tar.gz]
+[2023-07-02 06:08:45] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.9.tar.gz]
+[2023-07-02 06:08:45] INFO root fetch - main [MainThread]: End processing [ag-llama-api]: success
+[2023-07-02 06:08:45] INFO root fetch - main [MainThread]: Store serial: [18726310]
