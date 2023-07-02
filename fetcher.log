@@ -7160,3 +7160,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 11:41:28] INFO root fetch - processPackages [lamin_logger]: Remove: archive file [/home/abi/fetcher/tmp/lamin_logger-0.7.4.tar.gz]
 [2023-07-02 11:41:28] INFO root fetch - main [MainThread]: End processing [lamin_logger]: success
 [2023-07-02 11:41:28] INFO root fetch - main [MainThread]: Store serial: [18727619]
+[2023-07-02 11:46:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18727619]
+[2023-07-02 11:46:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-02 11:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cikuu
+[2023-07-02 11:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: perky
+[2023-07-02 11:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: notion-graph
+[2023-07-02 11:46:36] INFO root fetch - processPackages [cikuu]: New version: [2022.8.6] Old Version: [2022.8.5]
+[2023-07-02 11:46:36] INFO root fetch - processPackages [notion-graph]: New version: [0.2.4] Old Version: [0.2.2]
+[2023-07-02 11:46:36] INFO root fetch - processPackages [perky]: New version: [0.9] Old Version: [0.8.2]
+[2023-07-02 11:46:36] INFO root fetch - processPackages [notion-graph]: Downloading https://files.pythonhosted.org/packages/5e/d3/fc44d49428f3389efc99f3122ffcadc02ebda97d84e58a2e6ddf8d0e1345/notion-graph-0.2.2.tar.gz
+[2023-07-02 11:46:36] INFO root fetch - processPackages [cikuu]: Downloading https://files.pythonhosted.org/packages/2d/79/b8e29a010779769ce0475859e88505f47392ba0ef85211fed41c65ba5d9f/cikuu-2022.8.5.tar.gz
+[2023-07-02 11:46:36] INFO root fetch - processPackages [perky]: Downloading https://files.pythonhosted.org/packages/5a/f8/6ca5d83a4d7a4e20a428e24d4637e4172508c4b1f5042a6db92f4d7cf210/perky-0.8.2.tar.gz
+[2023-07-02 11:46:37] INFO root fetch - processPackages [notion-graph]: Downloading https://files.pythonhosted.org/packages/dc/76/3256a59b2ec728fb8cda9e106a4afc851010659502cb471893a48b50c8b7/notion-graph-0.2.4.tar.gz
+[2023-07-02 11:46:37] INFO root fetch - processPackages [perky]: Downloading https://files.pythonhosted.org/packages/3e/1d/ea11780313cbee51461c5cc9d517a710adde15642d1a1d7213aaf3391c0b/perky-0.9.tar.gz
+[2023-07-02 11:46:37] INFO root fetch - processPackages [notion-graph]: executing diffoscope
+[2023-07-02 11:46:37] INFO root fetch - processPackages [notion-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notion-graph-0.2.2.tar.gz tmp/notion-graph-0.2.4.tar.gz --markdown 20230702/n/notion-graph/0.2.2-0.2.4/diff.md --exclude *.pyd
+[2023-07-02 11:46:37] INFO root fetch - processPackages [perky]: executing diffoscope
+[2023-07-02 11:46:37] INFO root fetch - processPackages [perky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perky-0.8.2.tar.gz tmp/perky-0.9.tar.gz --markdown 20230702/p/perky/0.8.2-0.9/diff.md --exclude *.pyd
+[2023-07-02 11:46:38] INFO root fetch - processPackages [notion-graph]: Remove: archive file [/home/abi/fetcher/tmp/notion-graph-0.2.2.tar.gz]
+[2023-07-02 11:46:38] INFO root fetch - processPackages [notion-graph]: Remove: archive file [/home/abi/fetcher/tmp/notion-graph-0.2.4.tar.gz]
+[2023-07-02 11:46:38] INFO root fetch - main [MainThread]: End processing [notion-graph]: success
+[2023-07-02 11:46:38] INFO root fetch - processPackages [perky]: Remove: archive file [/home/abi/fetcher/tmp/perky-0.8.2.tar.gz]
+[2023-07-02 11:46:38] INFO root fetch - processPackages [perky]: Remove: archive file [/home/abi/fetcher/tmp/perky-0.9.tar.gz]
+[2023-07-02 11:46:38] INFO root fetch - main [MainThread]: End processing [perky]: success
+[2023-07-02 11:46:38] INFO root fetch - processPackages [cikuu]: Downloading https://files.pythonhosted.org/packages/2c/9a/e02520dc310f8910483a355a4937e0c22fbead6bdb169d89a37c93589e2b/cikuu-2022.8.6.tar.gz
+[2023-07-02 11:46:40] INFO root fetch - processPackages [cikuu]: executing diffoscope
+[2023-07-02 11:46:40] INFO root fetch - processPackages [cikuu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cikuu-2022.8.5.tar.gz tmp/cikuu-2022.8.6.tar.gz --markdown 20230702/c/cikuu/2022.8.5-2022.8.6/diff.md --exclude *.pyd
+[2023-07-02 11:46:46] INFO root fetch - processPackages [cikuu]: Remove: archive file [/home/abi/fetcher/tmp/cikuu-2022.8.5.tar.gz]
+[2023-07-02 11:46:46] INFO root fetch - processPackages [cikuu]: Remove: archive file [/home/abi/fetcher/tmp/cikuu-2022.8.6.tar.gz]
+[2023-07-02 11:46:46] INFO root fetch - main [MainThread]: End processing [cikuu]: success
+[2023-07-02 11:46:46] INFO root fetch - main [MainThread]: Store serial: [18727627]
