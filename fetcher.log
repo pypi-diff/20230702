@@ -12954,3 +12954,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 19:01:27] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.3.tar.gz]
 [2023-07-02 19:01:27] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
 [2023-07-02 19:01:27] INFO root fetch - main [MainThread]: Store serial: [18730197]
+[2023-07-02 19:06:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18730197]
+[2023-07-02 19:06:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-02 19:06:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adv2099m3
+[2023-07-02 19:06:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ePos-Print-XML
+[2023-07-02 19:06:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: league-client
+[2023-07-02 19:06:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ediri-fly
+[2023-07-02 19:06:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: speech-collator
+[2023-07-02 19:06:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gpt-functions
+[2023-07-02 19:06:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: srt-equalizer
+[2023-07-02 19:06:38] INFO root fetch - processPackages [league-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-02 19:06:38] WARNING root fetch - processPackages [adv2099m3]: Skipping, unable to determine old version
+[2023-07-02 19:06:38] INFO root fetch - main [MainThread]: End processing [adv2099m3] error
+[2023-07-02 19:06:38] INFO root fetch - processPackages [ePos-Print-XML]: New version: [0.2] Old Version: [0.1]
+[2023-07-02 19:06:38] WARNING root fetch - processPackages [ediri-fly]: Skipping, unable to determine old version
+[2023-07-02 19:06:38] INFO root fetch - processPackages [srt-equalizer]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-02 19:06:38] INFO root fetch - main [MainThread]: End processing [ediri-fly] error
+[2023-07-02 19:06:38] INFO root fetch - processPackages [speech-collator]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 19:06:38] WARNING root fetch - processPackages [gpt-functions]: Skipping, unable to determine old version
+[2023-07-02 19:06:38] INFO root fetch - main [MainThread]: End processing [gpt-functions] error
+[2023-07-02 19:06:38] INFO root fetch - processPackages [srt-equalizer]: Downloading https://files.pythonhosted.org/packages/0a/5c/72daa9dad9175c1ac78fcbae502e0ae6dab2cf76c7c36d852071480cc056/srt_equalizer-0.1.5.tar.gz
+[2023-07-02 19:06:38] INFO root fetch - processPackages [speech-collator]: Downloading https://files.pythonhosted.org/packages/f9/a4/349d7a91853a0ead03fafab1d6fee405085858bdb0911f8dce640ca538ce/speech_collator-0.1.8.tar.gz
+[2023-07-02 19:06:38] INFO root fetch - processPackages [ePos-Print-XML]: Downloading https://files.pythonhosted.org/packages/9a/b0/e28bb798795cd8dd836985d1bd19a7e18b334fe808434c59f1f5ec04d523/epos_print_xml-0.1.tar.gz
+[2023-07-02 19:06:38] INFO root fetch - processPackages [league-client]: Downloading https://files.pythonhosted.org/packages/6c/04/9929e1e274fb1b8465e5b0a422d4b94ed7344109af5a65de3a94a0f20cbc/league_client-1.0.8-py3-none-any.whl
+[2023-07-02 19:06:38] INFO root fetch - processPackages [srt-equalizer]: Downloading https://files.pythonhosted.org/packages/2a/3a/8c02fa020718084c20b2e89f6cc7d41ad4671d8b17095f47c69cf6e18615/srt_equalizer-0.1.6.tar.gz
+[2023-07-02 19:06:38] INFO root fetch - processPackages [speech-collator]: Downloading https://files.pythonhosted.org/packages/18/27/fbb01f45afd2b0552d6465d8c14c2152df6bafce27c3646e68863232584a/speech_collator-0.1.9.tar.gz
+[2023-07-02 19:06:38] INFO root fetch - processPackages [srt-equalizer]: executing diffoscope
+[2023-07-02 19:06:38] INFO root fetch - processPackages [srt-equalizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/srt_equalizer-0.1.5.tar.gz tmp/srt_equalizer-0.1.6.tar.gz --markdown 20230702/s/srt-equalizer/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-02 19:06:38] INFO root fetch - processPackages [ePos-Print-XML]: Downloading https://files.pythonhosted.org/packages/f5/8c/0a9081e8bb1accc58a8d6e67cad13c8708ab8a3ff822b70fe5fc32fee401/epos_print_xml-0.2.tar.gz
+[2023-07-02 19:06:38] INFO root fetch - processPackages [speech-collator]: executing diffoscope
+[2023-07-02 19:06:38] INFO root fetch - processPackages [speech-collator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speech_collator-0.1.8.tar.gz tmp/speech_collator-0.1.9.tar.gz --markdown 20230702/s/speech-collator/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 19:06:38] INFO root fetch - processPackages [league-client]: Downloading https://files.pythonhosted.org/packages/aa/87/fc183fd3ed892333e3d73e72ce9a6cd78d3516202fe299f819159565d8a5/league-client-1.0.9.tar.gz
+[2023-07-02 19:06:38] INFO root fetch - processPackages [ePos-Print-XML]: executing diffoscope
+[2023-07-02 19:06:38] INFO root fetch - processPackages [ePos-Print-XML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epos_print_xml-0.1.tar.gz tmp/epos_print_xml-0.2.tar.gz --markdown 20230702/e/ePos-Print-XML/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-02 19:06:39] INFO root fetch - processPackages [league-client]: executing diffoscope
+[2023-07-02 19:06:39] INFO root fetch - processPackages [league-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/league_client-1.0.8-py3-none-any.whl.zip tmp/league-client-1.0.9.tar.gz --markdown 20230702/l/league-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-02 19:06:39] INFO root fetch - processPackages [srt-equalizer]: Remove: archive file [/home/abi/fetcher/tmp/srt_equalizer-0.1.5.tar.gz]
+[2023-07-02 19:06:39] INFO root fetch - processPackages [srt-equalizer]: Remove: archive file [/home/abi/fetcher/tmp/srt_equalizer-0.1.6.tar.gz]
+[2023-07-02 19:06:39] INFO root fetch - main [MainThread]: End processing [srt-equalizer]: success
+[2023-07-02 19:06:40] INFO root fetch - processPackages [league-client]: Remove: archive file [/home/abi/fetcher/tmp/league_client-1.0.8-py3-none-any.whl.zip]
+[2023-07-02 19:06:40] INFO root fetch - processPackages [league-client]: Remove: archive file [/home/abi/fetcher/tmp/league-client-1.0.9.tar.gz]
+[2023-07-02 19:06:40] INFO root fetch - main [MainThread]: End processing [league-client]: success
+[2023-07-02 19:06:40] INFO root fetch - processPackages [ePos-Print-XML]: Remove: archive file [/home/abi/fetcher/tmp/epos_print_xml-0.1.tar.gz]
+[2023-07-02 19:06:40] INFO root fetch - processPackages [ePos-Print-XML]: Remove: archive file [/home/abi/fetcher/tmp/epos_print_xml-0.2.tar.gz]
+[2023-07-02 19:06:40] INFO root fetch - main [MainThread]: End processing [ePos-Print-XML]: success
+[2023-07-02 19:06:40] INFO root fetch - processPackages [speech-collator]: Remove: archive file [/home/abi/fetcher/tmp/speech_collator-0.1.8.tar.gz]
+[2023-07-02 19:06:40] INFO root fetch - processPackages [speech-collator]: Remove: archive file [/home/abi/fetcher/tmp/speech_collator-0.1.9.tar.gz]
+[2023-07-02 19:06:40] INFO root fetch - main [MainThread]: End processing [speech-collator]: success
+[2023-07-02 19:06:40] INFO root fetch - main [MainThread]: Store serial: [18730225]
