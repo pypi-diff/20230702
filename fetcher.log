@@ -6249,3 +6249,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 10:36:45] INFO root fetch - processPackages [django-unfold]: Remove: archive file [/home/abi/fetcher/tmp/django_unfold-0.6.8.tar.gz]
 [2023-07-02 10:36:45] INFO root fetch - main [MainThread]: End processing [django-unfold]: success
 [2023-07-02 10:36:45] INFO root fetch - main [MainThread]: Store serial: [18727268]
+[2023-07-02 10:41:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18727268]
+[2023-07-02 10:41:54] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-02 10:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: superagi-tools
+[2023-07-02 10:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-estimator-nightly
+[2023-07-02 10:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lambda-handler
+[2023-07-02 10:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fast-webflow
+[2023-07-02 10:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bact-order
+[2023-07-02 10:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bbrl-gymnasium
+[2023-07-02 10:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: investor8-sdk
+[2023-07-02 10:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tff-nightly
+[2023-07-02 10:41:54] INFO root fetch - processPackages [superagi-tools]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-02 10:41:54] INFO root fetch - processPackages [fast-webflow]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-02 10:41:54] WARNING root fetch - processPackages [bact-order]: Skipping, unable to determine old version
+[2023-07-02 10:41:54] INFO root fetch - main [MainThread]: End processing [bact-order] error
+[2023-07-02 10:41:54] INFO root fetch - processPackages [bbrl-gymnasium]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 10:41:54] INFO root fetch - processPackages [lambda-handler]: New version: [2.0.0a4] Old Version: [2.0.0a3]
+[2023-07-02 10:41:54] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230701] Old Version: [0.0.1.dev20230630]
+[2023-07-02 10:41:54] INFO root fetch - processPackages [investor8-sdk]: New version: [1.1.98] Old Version: [1.1.97]
+[2023-07-02 10:41:55] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-07-02 10:41:55] INFO root fetch - processPackages [superagi-tools]: Downloading https://files.pythonhosted.org/packages/2d/b5/701f36edfece3d1eb67be96f3664ad721994f4bb3b29fecad0abe99c7445/superagi_tools-1.0.5.tar.gz
+[2023-07-02 10:41:55] INFO root fetch - processPackages [fast-webflow]: Downloading https://files.pythonhosted.org/packages/ab/b1/1f3537db1aea80e4a07035e5c35604a690adacfd24c2aed596d6b417e01b/fast-webflow-0.2.1.tar.gz
+[2023-07-02 10:41:55] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/97/f2/e843bb763439ff322ae421e7f2c3f8ef1db1002ac466829dced69e966734/tff_nightly-0.0.1.dev20230630-py2.py3-none-any.whl
+[2023-07-02 10:41:55] INFO root fetch - processPackages [bbrl-gymnasium]: Downloading https://files.pythonhosted.org/packages/82/f7/2faaeb185c299868c0e6d2bd92523a9c844276a2004c4a53d11f0ce51194/bbrl_gymnasium-0.1.8.tar.gz
+[2023-07-02 10:41:55] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-07-02 10:41:55] INFO root fetch - processPackages [lambda-handler]: Downloading https://files.pythonhosted.org/packages/7a/ce/b1d1f30dd3e895c16d1ca0dafef29f9168219fcc02626055b93332dc12d8/lambda_handler-2.0.0a3.tar.gz
+[2023-07-02 10:41:55] INFO root fetch - processPackages [investor8-sdk]: Downloading https://files.pythonhosted.org/packages/4f/83/8830c77df7a9e83f0e83780ec997c44d181a4b28d172f248f3903649fa33/investor8-sdk-1.1.97.tar.gz
+[2023-07-02 10:41:55] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/cf/6d/85a58a33baecda9f92882447ff497070236d5dd3eb19cd5c1eea6e24bf83/tff_nightly-0.0.1.dev20230701-py2.py3-none-any.whl
+[2023-07-02 10:41:55] INFO root fetch - processPackages [superagi-tools]: Downloading https://files.pythonhosted.org/packages/dc/26/b95053c158f9e962e3f357e41225a3af4af49c5a68d6dc1d674d77c5c3fd/superagi_tools-1.0.6.tar.gz
+[2023-07-02 10:41:55] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-07-02 10:41:55] INFO root fetch - processPackages [fast-webflow]: Downloading https://files.pythonhosted.org/packages/93/29/141e481d343088684c9c50463b13f537e4411765afdb7c968417ba0987b0/fast-webflow-0.2.2.tar.gz
+[2023-07-02 10:41:55] INFO root fetch - processPackages [superagi-tools]: executing diffoscope
+[2023-07-02 10:41:55] INFO root fetch - processPackages [superagi-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superagi_tools-1.0.5.tar.gz tmp/superagi_tools-1.0.6.tar.gz --markdown 20230702/s/superagi-tools/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-02 10:41:55] INFO root fetch - processPackages [lambda-handler]: Downloading https://files.pythonhosted.org/packages/f3/78/0211de68e0d202bef061b6fd98ca1b19c9f662406296c0ddfe9a207325d2/lambda_handler-2.0.0a4.tar.gz
+[2023-07-02 10:41:55] INFO root fetch - processPackages [bbrl-gymnasium]: Downloading https://files.pythonhosted.org/packages/25/f1/0d0c566099018fbee65b4b6cf54a26afb69f2048b5e40ec2cfda0b9e1aa6/bbrl_gymnasium-0.1.9.tar.gz
+[2023-07-02 10:41:55] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-07-02 10:41:55] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230702/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-07-02 10:41:55] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-07-02 10:41:55] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230630-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230701-py2.py3-none-any.whl.zip --markdown 20230702/t/tff-nightly/0.0.1.dev20230630-0.0.1.dev20230701/diff.md --exclude *.pyd
+[2023-07-02 10:41:55] INFO root fetch - processPackages [bbrl-gymnasium]: executing diffoscope
+[2023-07-02 10:41:55] INFO root fetch - processPackages [bbrl-gymnasium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbrl_gymnasium-0.1.8.tar.gz tmp/bbrl_gymnasium-0.1.9.tar.gz --markdown 20230702/b/bbrl-gymnasium/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 10:41:55] INFO root fetch - processPackages [fast-webflow]: executing diffoscope
+[2023-07-02 10:41:55] INFO root fetch - processPackages [fast-webflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast-webflow-0.2.1.tar.gz tmp/fast-webflow-0.2.2.tar.gz --markdown 20230702/f/fast-webflow/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-02 10:41:55] INFO root fetch - processPackages [investor8-sdk]: Downloading https://files.pythonhosted.org/packages/4f/93/4f42e795761f44181b9a34e8c48115e09ffff0e01e7cf36f9f87b23e3794/investor8-sdk-1.1.98.tar.gz
+[2023-07-02 10:41:55] INFO root fetch - processPackages [lambda-handler]: executing diffoscope
+[2023-07-02 10:41:55] INFO root fetch - processPackages [lambda-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambda_handler-2.0.0a3.tar.gz tmp/lambda_handler-2.0.0a4.tar.gz --markdown 20230702/l/lambda-handler/2.0.0a3-2.0.0a4/diff.md --exclude *.pyd
+[2023-07-02 10:41:55] INFO root fetch - processPackages [investor8-sdk]: executing diffoscope
+[2023-07-02 10:41:55] INFO root fetch - processPackages [investor8-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/investor8-sdk-1.1.97.tar.gz tmp/investor8-sdk-1.1.98.tar.gz --markdown 20230702/i/investor8-sdk/1.1.97-1.1.98/diff.md --exclude *.pyd
+[2023-07-02 10:41:56] INFO root fetch - processPackages [superagi-tools]: Remove: archive file [/home/abi/fetcher/tmp/superagi_tools-1.0.5.tar.gz]
+[2023-07-02 10:41:56] INFO root fetch - processPackages [superagi-tools]: Remove: archive file [/home/abi/fetcher/tmp/superagi_tools-1.0.6.tar.gz]
+[2023-07-02 10:41:56] INFO root fetch - main [MainThread]: End processing [superagi-tools]: success
+[2023-07-02 10:41:56] INFO root fetch - processPackages [fast-webflow]: Remove: archive file [/home/abi/fetcher/tmp/fast-webflow-0.2.1.tar.gz]
+[2023-07-02 10:41:56] INFO root fetch - processPackages [fast-webflow]: Remove: archive file [/home/abi/fetcher/tmp/fast-webflow-0.2.2.tar.gz]
+[2023-07-02 10:41:56] INFO root fetch - main [MainThread]: End processing [fast-webflow]: success
+[2023-07-02 10:41:56] INFO root fetch - processPackages [bbrl-gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/bbrl_gymnasium-0.1.8.tar.gz]
+[2023-07-02 10:41:56] INFO root fetch - processPackages [bbrl-gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/bbrl_gymnasium-0.1.9.tar.gz]
+[2023-07-02 10:41:56] INFO root fetch - main [MainThread]: End processing [bbrl-gymnasium]: success
+[2023-07-02 10:41:57] INFO root fetch - processPackages [lambda-handler]: Remove: archive file [/home/abi/fetcher/tmp/lambda_handler-2.0.0a3.tar.gz]
+[2023-07-02 10:41:57] INFO root fetch - processPackages [lambda-handler]: Remove: archive file [/home/abi/fetcher/tmp/lambda_handler-2.0.0a4.tar.gz]
+[2023-07-02 10:41:57] INFO root fetch - main [MainThread]: End processing [lambda-handler]: success
+[2023-07-02 10:41:57] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-07-02 10:41:57] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-07-02 10:41:57] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-07-02 10:41:58] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230630-py2.py3-none-any.whl.zip]
+[2023-07-02 10:41:58] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230701-py2.py3-none-any.whl.zip]
+[2023-07-02 10:41:58] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-07-02 10:41:58] INFO root fetch - processPackages [investor8-sdk]: Remove: archive file [/home/abi/fetcher/tmp/investor8-sdk-1.1.97.tar.gz]
+[2023-07-02 10:41:58] INFO root fetch - processPackages [investor8-sdk]: Remove: archive file [/home/abi/fetcher/tmp/investor8-sdk-1.1.98.tar.gz]
+[2023-07-02 10:41:58] INFO root fetch - main [MainThread]: End processing [investor8-sdk]: success
+[2023-07-02 10:41:58] INFO root fetch - main [MainThread]: Store serial: [18727293]
