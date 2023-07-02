@@ -14288,3 +14288,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-02 20:31:11] INFO root fetch - processPackages [graph-part]: Remove: archive file [/home/abi/fetcher/tmp/graph-part-1.0.1.tar.gz]
 [2023-07-02 20:31:11] INFO root fetch - main [MainThread]: End processing [graph-part]: success
 [2023-07-02 20:31:11] INFO root fetch - main [MainThread]: Store serial: [18730679]
+[2023-07-02 20:36:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18730679]
+[2023-07-02 20:36:19] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-02 20:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phxutils
+[2023-07-02 20:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pathier
+[2023-07-02 20:36:19] INFO root fetch - processPackages [phxutils]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-02 20:36:19] INFO root fetch - processPackages [pathier]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-02 20:36:19] INFO root fetch - processPackages [phxutils]: Downloading https://files.pythonhosted.org/packages/34/b2/ef698fe4474797b28af799b6e4bb8f6f68b6e0d07364f1653867bd90ce09/phxutils-1.1.8.tar.gz
+[2023-07-02 20:36:19] INFO root fetch - processPackages [pathier]: Downloading https://files.pythonhosted.org/packages/8a/46/20b533cfb95a2cb811a6c3ef3cddb81feacbb0d487302d71a2870533f263/pathier-1.0.0.tar.gz
+[2023-07-02 20:36:20] INFO root fetch - processPackages [phxutils]: Downloading https://files.pythonhosted.org/packages/73/b5/ab222f5eea91d62ca8ba37271ea9acc5fabc7920f2ee31f6e49f8010580a/phxutils-1.1.9.tar.gz
+[2023-07-02 20:36:20] INFO root fetch - processPackages [phxutils]: executing diffoscope
+[2023-07-02 20:36:20] INFO root fetch - processPackages [phxutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phxutils-1.1.8.tar.gz tmp/phxutils-1.1.9.tar.gz --markdown 20230702/p/phxutils/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-02 20:36:20] INFO root fetch - processPackages [pathier]: Downloading https://files.pythonhosted.org/packages/6c/88/3f52edd208fdd43f51bccd3a506ddf1df88a764452d02795ea34706699c6/pathier-1.1.0.tar.gz
+[2023-07-02 20:36:20] INFO root fetch - processPackages [pathier]: executing diffoscope
+[2023-07-02 20:36:20] INFO root fetch - processPackages [pathier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathier-1.0.0.tar.gz tmp/pathier-1.1.0.tar.gz --markdown 20230702/p/pathier/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-02 20:36:21] INFO root fetch - processPackages [phxutils]: Remove: archive file [/home/abi/fetcher/tmp/phxutils-1.1.8.tar.gz]
+[2023-07-02 20:36:21] INFO root fetch - processPackages [phxutils]: Remove: archive file [/home/abi/fetcher/tmp/phxutils-1.1.9.tar.gz]
+[2023-07-02 20:36:21] INFO root fetch - main [MainThread]: End processing [phxutils]: success
+[2023-07-02 20:36:22] INFO root fetch - processPackages [pathier]: Remove: archive file [/home/abi/fetcher/tmp/pathier-1.0.0.tar.gz]
+[2023-07-02 20:36:22] INFO root fetch - processPackages [pathier]: Remove: archive file [/home/abi/fetcher/tmp/pathier-1.1.0.tar.gz]
+[2023-07-02 20:36:22] INFO root fetch - main [MainThread]: End processing [pathier]: success
+[2023-07-02 20:36:22] INFO root fetch - main [MainThread]: Store serial: [18730685]
