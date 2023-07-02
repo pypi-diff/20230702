@@ -2606,3 +2606,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 04:13:41] INFO root fetch - processPackages [JsMacrosAC]: Remove: archive file [/home/abi/fetcher/tmp/JsMacrosAC-1.8.4.8263756.tar.gz]
 [2023-07-02 04:13:41] INFO root fetch - main [MainThread]: End processing [JsMacrosAC]: success
 [2023-07-02 04:13:41] INFO root fetch - main [MainThread]: Store serial: [18725787]
+[2023-07-02 04:18:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18725787]
+[2023-07-02 04:18:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-02 04:18:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fiftyone-pipeline-cloudrequestengine
+[2023-07-02 04:18:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fiftyone-pipeline-core
+[2023-07-02 04:18:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fiftyone-pipeline-engines-fiftyone
+[2023-07-02 04:18:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fiftyone-pipeline-engines
+[2023-07-02 04:18:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: catchem-alpha-zero
+[2023-07-02 04:18:50] INFO root fetch - processPackages [fiftyone-pipeline-core]: New version: [4.4.8.0] Old Version: [4.4.7.0]
+[2023-07-02 04:18:50] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: New version: [4.4.8.0] Old Version: [4.4.7.0]
+[2023-07-02 04:18:50] INFO root fetch - processPackages [catchem-alpha-zero]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-02 04:18:50] INFO root fetch - processPackages [fiftyone-pipeline-engines]: New version: [4.4.8.0] Old Version: [4.4.7.0]
+[2023-07-02 04:18:50] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: New version: [4.4.8.0] Old Version: [4.4.7.0]
+[2023-07-02 04:18:50] INFO root fetch - processPackages [catchem-alpha-zero]: Downloading https://files.pythonhosted.org/packages/1d/5c/2bc5be84925cf660530b87626d7f052ba9a6846d6c86ca3c8bb82e03089e/catchem-alpha-zero-0.0.2.tar.gz
+[2023-07-02 04:18:51] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: Downloading https://files.pythonhosted.org/packages/1f/14/8f246f389fc08f047868ce13f839557840666cbfbbb00b40f72404ab33e0/fiftyone_pipeline_cloudrequestengine-4.4.7.0.tar.gz
+[2023-07-02 04:18:51] INFO root fetch - processPackages [fiftyone-pipeline-engines]: Downloading https://files.pythonhosted.org/packages/40/ed/4b4d2f9a94e25a35cb5c7a436d5e6bde771fef67f10458e5fba7e494f878/fiftyone_pipeline_engines-4.4.7.0.tar.gz
+[2023-07-02 04:18:51] INFO root fetch - processPackages [fiftyone-pipeline-core]: Downloading https://files.pythonhosted.org/packages/68/27/cfcd7bb18f1e2ecc3e19d853a2afa186fa320edf8475f517ebc81ddb14df/fiftyone_pipeline_core-4.4.7.0.tar.gz
+[2023-07-02 04:18:51] INFO root fetch - processPackages [catchem-alpha-zero]: Downloading https://files.pythonhosted.org/packages/82/94/7e806ed4b3b5085d5a15bc1b72fdc03b48c6f7b1f9e58acd97af629c5760/catchem-alpha-zero-0.0.3.tar.gz
+[2023-07-02 04:18:51] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: Downloading https://files.pythonhosted.org/packages/74/e2/341b4b8ea36499f76d93868ed58776aded888f2247d1d8d185b1ecef2125/fiftyone_pipeline_engines_fiftyone-4.4.7.0.tar.gz
+[2023-07-02 04:18:51] INFO root fetch - processPackages [catchem-alpha-zero]: executing diffoscope
+[2023-07-02 04:18:51] INFO root fetch - processPackages [catchem-alpha-zero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catchem-alpha-zero-0.0.2.tar.gz tmp/catchem-alpha-zero-0.0.3.tar.gz --markdown 20230702/c/catchem-alpha-zero/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-02 04:18:51] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: Downloading https://files.pythonhosted.org/packages/57/0b/5043a75732cdb4f3894eee095bccca4eca3f291f2e64ebee5fcb716b24f2/fiftyone_pipeline_cloudrequestengine-4.4.8.0.tar.gz
+[2023-07-02 04:18:51] INFO root fetch - processPackages [fiftyone-pipeline-engines]: Downloading https://files.pythonhosted.org/packages/4e/a3/500d24c2165afbd2f3f48b2636467d8441bc9649a45121c4b1313d6721f2/fiftyone_pipeline_engines-4.4.8.0.tar.gz
+[2023-07-02 04:18:51] INFO root fetch - processPackages [fiftyone-pipeline-core]: Downloading https://files.pythonhosted.org/packages/76/d6/b34fc7d1d074a71df816c77ccb53905048f4ae560a2a70978ca29e3134f7/fiftyone_pipeline_core-4.4.8.0.tar.gz
+[2023-07-02 04:18:51] INFO root fetch - processPackages [fiftyone-pipeline-engines]: executing diffoscope
+[2023-07-02 04:18:51] INFO root fetch - processPackages [fiftyone-pipeline-engines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_pipeline_engines-4.4.7.0.tar.gz tmp/fiftyone_pipeline_engines-4.4.8.0.tar.gz --markdown 20230702/f/fiftyone-pipeline-engines/4.4.7.0-4.4.8.0/diff.md --exclude *.pyd
+[2023-07-02 04:18:51] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: executing diffoscope
+[2023-07-02 04:18:51] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_pipeline_cloudrequestengine-4.4.7.0.tar.gz tmp/fiftyone_pipeline_cloudrequestengine-4.4.8.0.tar.gz --markdown 20230702/f/fiftyone-pipeline-cloudrequestengine/4.4.7.0-4.4.8.0/diff.md --exclude *.pyd
+[2023-07-02 04:18:51] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: Downloading https://files.pythonhosted.org/packages/6b/95/db65322b6bc7c0e4e2cb94c839191565def3d46ed1ee559f0ca6d588e227/fiftyone_pipeline_engines_fiftyone-4.4.8.0.tar.gz
+[2023-07-02 04:18:51] INFO root fetch - processPackages [fiftyone-pipeline-core]: executing diffoscope
+[2023-07-02 04:18:51] INFO root fetch - processPackages [fiftyone-pipeline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_pipeline_core-4.4.7.0.tar.gz tmp/fiftyone_pipeline_core-4.4.8.0.tar.gz --markdown 20230702/f/fiftyone-pipeline-core/4.4.7.0-4.4.8.0/diff.md --exclude *.pyd
+[2023-07-02 04:18:51] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: executing diffoscope
+[2023-07-02 04:18:51] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_pipeline_engines_fiftyone-4.4.7.0.tar.gz tmp/fiftyone_pipeline_engines_fiftyone-4.4.8.0.tar.gz --markdown 20230702/f/fiftyone-pipeline-engines-fiftyone/4.4.7.0-4.4.8.0/diff.md --exclude *.pyd
+[2023-07-02 04:18:52] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_cloudrequestengine-4.4.7.0.tar.gz]
+[2023-07-02 04:18:52] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_cloudrequestengine-4.4.8.0.tar.gz]
+[2023-07-02 04:18:52] INFO root fetch - main [MainThread]: End processing [fiftyone-pipeline-cloudrequestengine]: success
+[2023-07-02 04:18:52] INFO root fetch - processPackages [fiftyone-pipeline-engines]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_engines-4.4.7.0.tar.gz]
+[2023-07-02 04:18:52] INFO root fetch - processPackages [fiftyone-pipeline-engines]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_engines-4.4.8.0.tar.gz]
+[2023-07-02 04:18:52] INFO root fetch - main [MainThread]: End processing [fiftyone-pipeline-engines]: success
+[2023-07-02 04:18:52] INFO root fetch - processPackages [catchem-alpha-zero]: Remove: archive file [/home/abi/fetcher/tmp/catchem-alpha-zero-0.0.2.tar.gz]
+[2023-07-02 04:18:52] INFO root fetch - processPackages [catchem-alpha-zero]: Remove: archive file [/home/abi/fetcher/tmp/catchem-alpha-zero-0.0.3.tar.gz]
+[2023-07-02 04:18:52] INFO root fetch - main [MainThread]: End processing [catchem-alpha-zero]: success
+[2023-07-02 04:18:52] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_engines_fiftyone-4.4.7.0.tar.gz]
+[2023-07-02 04:18:52] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_engines_fiftyone-4.4.8.0.tar.gz]
+[2023-07-02 04:18:52] INFO root fetch - main [MainThread]: End processing [fiftyone-pipeline-engines-fiftyone]: success
+[2023-07-02 04:18:52] INFO root fetch - processPackages [fiftyone-pipeline-core]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_core-4.4.7.0.tar.gz]
+[2023-07-02 04:18:52] INFO root fetch - processPackages [fiftyone-pipeline-core]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_core-4.4.8.0.tar.gz]
+[2023-07-02 04:18:52] INFO root fetch - main [MainThread]: End processing [fiftyone-pipeline-core]: success
+[2023-07-02 04:18:52] INFO root fetch - main [MainThread]: Store serial: [18725795]
