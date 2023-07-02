@@ -16723,3 +16723,70 @@ AssertionError: tmp/Cliente-0.0.4-py3.10.egg does not exist
 [2023-07-02 23:36:05] INFO root fetch - processPackages [testpoetry2]: Remove: archive file [/home/abi/fetcher/tmp/testpoetry2-0.1.6.tar.gz]
 [2023-07-02 23:36:05] INFO root fetch - main [MainThread]: End processing [testpoetry2]: success
 [2023-07-02 23:36:05] INFO root fetch - main [MainThread]: Store serial: [18731635]
+[2023-07-02 23:41:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18731635]
+[2023-07-02 23:41:14] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-02 23:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bpx
+[2023-07-02 23:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pipcryptoextensionsV1
+[2023-07-02 23:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smol-dev
+[2023-07-02 23:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpt-functions
+[2023-07-02 23:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pipcryptolibraryV2
+[2023-07-02 23:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pipcryptoextensionsV1
+[2023-07-02 23:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aleksis-app-paweljong
+[2023-07-02 23:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pipcryptolibraryV2
+[2023-07-02 23:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: marginaleffects
+[2023-07-02 23:41:14] INFO root fetch - processPackages [bpx]: New version: [0.3.1] Old Version: [0.2.0]
+[2023-07-02 23:41:14] INFO root fetch - processPackages [gpt-functions]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-02 23:41:14] INFO root fetch - processPackages [pipcryptoextensionsV1]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-02 23:41:14] INFO root fetch - processPackages [pipcryptoextensionsV1]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-02 23:41:14] INFO root fetch - processPackages [pipcryptolibraryV2]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-02 23:41:14] WARNING root fetch - processPackages [smol-dev]: Skipping, unable to determine old version
+[2023-07-02 23:41:14] INFO root fetch - main [MainThread]: End processing [smol-dev] error
+[2023-07-02 23:41:14] INFO root fetch - processPackages [pipcryptolibraryV2]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-02 23:41:14] INFO root fetch - processPackages [aleksis-app-paweljong]: New version: [2.0.dev1] Old Version: [2.0.dev0]
+[2023-07-02 23:41:14] INFO root fetch - processPackages [aleksis-app-paweljong]: Downloading https://files.pythonhosted.org/packages/2e/f0/33decc2751eb9b338387f54e34be1c08e1e9f9709520a527c947e5cb4cdf/aleksis_app_paweljong-2.0.dev0.tar.gz
+[2023-07-02 23:41:14] WARNING root fetch - processPackages [marginaleffects]: Skipping, unable to determine old version
+[2023-07-02 23:41:14] INFO root fetch - main [MainThread]: End processing [marginaleffects] error
+[2023-07-02 23:41:14] INFO root fetch - processPackages [gpt-functions]: Downloading https://files.pythonhosted.org/packages/4f/b1/2e6c0d2701cf87b0aa1151ca41af10a1597bfd01991e45f4feff8099a249/gpt_functions-0.0.6.tar.gz
+[2023-07-02 23:41:14] INFO root fetch - processPackages [pipcryptoextensionsV1]: Downloading https://files.pythonhosted.org/packages/f6/cf/1f19dda8c55e09efb008f08718956eed1a8f52a8713b48f584b0d8b50c19/pipcryptoextensionsV1-1.0.0.tar.gz
+[2023-07-02 23:41:14] INFO root fetch - processPackages [pipcryptoextensionsV1]: Downloading https://files.pythonhosted.org/packages/f6/cf/1f19dda8c55e09efb008f08718956eed1a8f52a8713b48f584b0d8b50c19/pipcryptoextensionsV1-1.0.0.tar.gz
+[2023-07-02 23:41:14] INFO root fetch - processPackages [pipcryptolibraryV2]: Downloading https://files.pythonhosted.org/packages/57/b3/d98069e1529579464792bba000912592553cd32192251aec3fa5bc62b842/pipcryptolibraryV2-1.0.0.tar.gz
+[2023-07-02 23:41:14] INFO root fetch - processPackages [bpx]: Downloading https://files.pythonhosted.org/packages/43/c9/c1f87c60501666951a944ce5bbadb9bf050a9bec82b50647e6775f5fa664/bpx-0.2.0.tar.gz
+[2023-07-02 23:41:14] INFO root fetch - processPackages [pipcryptolibraryV2]: Downloading https://files.pythonhosted.org/packages/57/b3/d98069e1529579464792bba000912592553cd32192251aec3fa5bc62b842/pipcryptolibraryV2-1.0.0.tar.gz
+[2023-07-02 23:41:14] INFO root fetch - processPackages [aleksis-app-paweljong]: Downloading https://files.pythonhosted.org/packages/31/67/acb359d58b60486a1926fefcc71f1d980e9b42f7815d9062d69dfd6db2ae/aleksis_app_paweljong-2.0.dev1.tar.gz
+[2023-07-02 23:41:14] INFO root fetch - processPackages [gpt-functions]: Downloading https://files.pythonhosted.org/packages/4e/4e/d5ce82aea8c858565ba40036421e14e190095b695a02fe8eb8982fc77929/gpt_functions-0.0.7.tar.gz
+[2023-07-02 23:41:15] INFO root fetch - processPackages [pipcryptoextensionsV1]: Downloading https://files.pythonhosted.org/packages/fd/42/5f4aa356b5ba95bcd0180c91c0ae9622ff65b35bcc78064fc2a6792002f1/pipcryptoextensionsV1-1.1.0.tar.gz
+[2023-07-02 23:41:15] INFO root fetch - processPackages [aleksis-app-paweljong]: executing diffoscope
+[2023-07-02 23:41:15] INFO root fetch - processPackages [aleksis-app-paweljong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aleksis_app_paweljong-2.0.dev0.tar.gz tmp/aleksis_app_paweljong-2.0.dev1.tar.gz --markdown 20230702/a/aleksis-app-paweljong/2.0.dev0-2.0.dev1/diff.md --exclude *.pyd
+[2023-07-02 23:41:15] INFO root fetch - processPackages [pipcryptolibraryV2]: Downloading https://files.pythonhosted.org/packages/59/fe/6e0885d7ac4583e45a1cd5f2b9c063111967d435f080b0ab7ad6a054394f/pipcryptolibraryV2-1.1.0.tar.gz
+[2023-07-02 23:41:15] INFO root fetch - processPackages [pipcryptolibraryV2]: Downloading https://files.pythonhosted.org/packages/59/fe/6e0885d7ac4583e45a1cd5f2b9c063111967d435f080b0ab7ad6a054394f/pipcryptolibraryV2-1.1.0.tar.gz
+[2023-07-02 23:41:15] INFO root fetch - processPackages [gpt-functions]: executing diffoscope
+[2023-07-02 23:41:15] INFO root fetch - processPackages [gpt-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_functions-0.0.6.tar.gz tmp/gpt_functions-0.0.7.tar.gz --markdown 20230702/g/gpt-functions/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-02 23:41:15] INFO root fetch - processPackages [bpx]: Downloading https://files.pythonhosted.org/packages/2c/93/ab43841e43fa75acdfb6e3475937ab902476fe496d7f591233bd68e8d7bd/bpx-0.3.1.tar.gz
+[2023-07-02 23:41:15] INFO root fetch - processPackages [pipcryptolibraryV2]: executing diffoscope
+[2023-07-02 23:41:15] INFO root fetch - processPackages [pipcryptolibraryV2]: executing diffoscope
+[2023-07-02 23:41:15] INFO root fetch - processPackages [pipcryptolibraryV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipcryptolibraryV2-1.0.0.tar.gz tmp/pipcryptolibraryV2-1.1.0.tar.gz --markdown 20230702/p/pipcryptolibraryV2/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-02 23:41:15] INFO root fetch - processPackages [pipcryptolibraryV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipcryptolibraryV2-1.0.0.tar.gz tmp/pipcryptolibraryV2-1.1.0.tar.gz --markdown 20230702/p/pipcryptolibraryV2/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-02 23:41:15] INFO root fetch - processPackages [pipcryptoextensionsV1]: executing diffoscope
+[2023-07-02 23:41:15] INFO root fetch - processPackages [pipcryptoextensionsV1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipcryptoextensionsV1-1.0.0.tar.gz tmp/pipcryptoextensionsV1-1.1.0.tar.gz --markdown 20230702/p/pipcryptoextensionsV1/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-02 23:41:15] INFO root fetch - processPackages [bpx]: executing diffoscope
+[2023-07-02 23:41:15] INFO root fetch - processPackages [bpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpx-0.2.0.tar.gz tmp/bpx-0.3.1.tar.gz --markdown 20230702/b/bpx/0.2.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-02 23:41:15] INFO root fetch - processPackages [pipcryptoextensionsV1]: executing diffoscope
+[2023-07-02 23:41:15] INFO root fetch - processPackages [pipcryptoextensionsV1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipcryptoextensionsV1-1.0.0.tar.gz tmp/pipcryptoextensionsV1-1.1.0.tar.gz --markdown 20230702/p/pipcryptoextensionsV1/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-02 23:41:16] INFO root fetch - processPackages [gpt-functions]: Remove: archive file [/home/abi/fetcher/tmp/gpt_functions-0.0.6.tar.gz]
+[2023-07-02 23:41:16] INFO root fetch - processPackages [gpt-functions]: Remove: archive file [/home/abi/fetcher/tmp/gpt_functions-0.0.7.tar.gz]
+[2023-07-02 23:41:16] INFO root fetch - main [MainThread]: End processing [gpt-functions]: success
+[2023-07-02 23:41:16] INFO root fetch - processPackages [pipcryptolibraryV2]: Remove: archive file [/home/abi/fetcher/tmp/pipcryptolibraryV2-1.0.0.tar.gz]
+[2023-07-02 23:41:16] INFO root fetch - processPackages [pipcryptolibraryV2]: Remove: archive file [/home/abi/fetcher/tmp/pipcryptolibraryV2-1.1.0.tar.gz]
+[2023-07-02 23:41:16] INFO root fetch - main [MainThread]: End processing [pipcryptolibraryV2]: success
+[2023-07-02 23:41:16] INFO root fetch - processPackages [bpx]: Remove: archive file [/home/abi/fetcher/tmp/bpx-0.2.0.tar.gz]
+[2023-07-02 23:41:16] INFO root fetch - processPackages [bpx]: Remove: archive file [/home/abi/fetcher/tmp/bpx-0.3.1.tar.gz]
+[2023-07-02 23:41:16] INFO root fetch - main [MainThread]: End processing [bpx]: success
+[2023-07-02 23:41:16] INFO root fetch - processPackages [pipcryptoextensionsV1]: Remove: archive file [/home/abi/fetcher/tmp/pipcryptoextensionsV1-1.0.0.tar.gz]
+[2023-07-02 23:41:16] INFO root fetch - processPackages [pipcryptoextensionsV1]: Remove: archive file [/home/abi/fetcher/tmp/pipcryptoextensionsV1-1.1.0.tar.gz]
+[2023-07-02 23:41:16] INFO root fetch - main [MainThread]: End processing [pipcryptoextensionsV1]: success
+[2023-07-02 23:41:16] INFO root fetch - main [MainThread]: End processing [pipcryptoextensionsV1]: success
+[2023-07-02 23:41:16] INFO root fetch - main [MainThread]: End processing [pipcryptolibraryV2]: success
+[2023-07-02 23:41:17] INFO root fetch - processPackages [aleksis-app-paweljong]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_app_paweljong-2.0.dev0.tar.gz]
+[2023-07-02 23:41:17] INFO root fetch - processPackages [aleksis-app-paweljong]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_app_paweljong-2.0.dev1.tar.gz]
+[2023-07-02 23:41:17] INFO root fetch - main [MainThread]: End processing [aleksis-app-paweljong]: success
+[2023-07-02 23:41:17] INFO root fetch - main [MainThread]: Store serial: [18731668]
