@@ -15005,3 +15005,59 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 21:19:08] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
 [2023-07-02 21:19:08] INFO root fetch - main [MainThread]: End processing [spotPython]: success
 [2023-07-02 21:19:08] INFO root fetch - main [MainThread]: Store serial: [18730922]
+[2023-07-02 21:24:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18730922]
+[2023-07-02 21:24:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-02 21:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sitemap-generator
+[2023-07-02 21:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiida-vasp
+[2023-07-02 21:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: databased
+[2023-07-02 21:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aporia
+[2023-07-02 21:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: customimport
+[2023-07-02 21:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: talkytrend
+[2023-07-02 21:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: humanloop
+[2023-07-02 21:24:18] INFO root fetch - processPackages [aporia]: New version: [3.2.0] Old Version: [3.1.0]
+[2023-07-02 21:24:18] INFO root fetch - processPackages [databased]: New version: [2.5.0] Old Version: [2.4.1]
+[2023-07-02 21:24:18] INFO root fetch - processPackages [humanloop]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-02 21:24:18] INFO root fetch - processPackages [sitemap-generator]: New version: [0.9.8] Old Version: [0.9.5]
+[2023-07-02 21:24:18] INFO root fetch - processPackages [aiida-vasp]: New version: [3.0.0] Old Version: [2.2.0]
+[2023-07-02 21:24:18] WARNING root fetch - processPackages [customimport]: Skipping, unable to determine old version
+[2023-07-02 21:24:18] INFO root fetch - main [MainThread]: End processing [customimport] error
+[2023-07-02 21:24:18] INFO root fetch - processPackages [talkytrend]: New version: [1.5.5] Old Version: [1.5.4]
+[2023-07-02 21:24:18] INFO root fetch - processPackages [aporia]: Downloading https://files.pythonhosted.org/packages/e8/ad/eda6da21f63abc91a322b80a3935563f26a253ec95a46f5b2200c7e4a865/aporia-3.1.0.tar.gz
+[2023-07-02 21:24:18] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/52/b4/1e3b3da61d55408986c9537ca0a66e7084698802dfa12ef8c5cf8c9c4cee/talkytrend-1.5.4.tar.gz
+[2023-07-02 21:24:18] INFO root fetch - processPackages [sitemap-generator]: Downloading https://files.pythonhosted.org/packages/fa/a2/e338d716ec13b20c0a4dce78c3c0d8a5fed957339200f32c6d62ed3b3332/sitemap-generator-0.9.5.tar.gz
+[2023-07-02 21:24:18] INFO root fetch - processPackages [databased]: Downloading https://files.pythonhosted.org/packages/ae/5c/e0e8f92086a4a917dab30dc1abd8e815f17e562310f425e02b2362cd577c/databased-2.4.1.tar.gz
+[2023-07-02 21:24:18] INFO root fetch - processPackages [humanloop]: Downloading https://files.pythonhosted.org/packages/f1/b9/4267d841e0747581a912ad1bbbfd431c4a0321da4fe23ecfce74d9c18ee3/humanloop-0.4.8.tar.gz
+[2023-07-02 21:24:18] INFO root fetch - processPackages [aiida-vasp]: Downloading https://files.pythonhosted.org/packages/e3/30/01d26b94a8df19ab372ba3d21ca8ac8aee0c69562439c6d5d315d5db375d/aiida-vasp-2.2.0.tar.gz
+[2023-07-02 21:24:19] INFO root fetch - processPackages [aporia]: Downloading https://files.pythonhosted.org/packages/ac/ce/a01f34770d919fd80640d673d3d8e2a856c12b0a5b2bbecae4112cab7692/aporia-3.2.0.tar.gz
+[2023-07-02 21:24:19] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/bf/45/6d8beb3785fe4aee9e638a33e77341119a108540df182d53120da9ef025c/talkytrend-1.5.5.tar.gz
+[2023-07-02 21:24:19] WARNING root fetch - processPackages [aiida-vasp]: Skipping package: exceeds size limit 11725384>=10485760
+[2023-07-02 21:24:19] INFO root fetch - main [MainThread]: End processing [aiida-vasp] error
+[2023-07-02 21:24:19] INFO root fetch - processPackages [databased]: Downloading https://files.pythonhosted.org/packages/c6/32/e774e7eb1ff8c6153d8835e9101a2539cad93902527efa9e8746b200dfdd/databased-2.5.0.tar.gz
+[2023-07-02 21:24:19] INFO root fetch - processPackages [aporia]: executing diffoscope
+[2023-07-02 21:24:19] INFO root fetch - processPackages [aporia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aporia-3.1.0.tar.gz tmp/aporia-3.2.0.tar.gz --markdown 20230702/a/aporia/3.1.0-3.2.0/diff.md --exclude *.pyd
+[2023-07-02 21:24:19] INFO root fetch - processPackages [databased]: executing diffoscope
+[2023-07-02 21:24:19] INFO root fetch - processPackages [databased]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databased-2.4.1.tar.gz tmp/databased-2.5.0.tar.gz --markdown 20230702/d/databased/2.4.1-2.5.0/diff.md --exclude *.pyd
+[2023-07-02 21:24:19] INFO root fetch - processPackages [sitemap-generator]: Downloading https://files.pythonhosted.org/packages/df/bb/50c245083854eadba8ccff0c8d069c73700dcf0962a0643f745337598bed/sitemap-generator-0.9.8.tar.gz
+[2023-07-02 21:24:19] INFO root fetch - processPackages [talkytrend]: executing diffoscope
+[2023-07-02 21:24:19] INFO root fetch - processPackages [talkytrend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytrend-1.5.4.tar.gz tmp/talkytrend-1.5.5.tar.gz --markdown 20230702/t/talkytrend/1.5.4-1.5.5/diff.md --exclude *.pyd
+[2023-07-02 21:24:19] INFO root fetch - processPackages [humanloop]: Downloading https://files.pythonhosted.org/packages/84/32/5746adabd7ecbbe87c50804a08d26141ec3c210d49fac450b500adfa126a/humanloop-0.4.9.tar.gz
+[2023-07-02 21:24:19] INFO root fetch - processPackages [sitemap-generator]: executing diffoscope
+[2023-07-02 21:24:19] INFO root fetch - processPackages [sitemap-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sitemap-generator-0.9.5.tar.gz tmp/sitemap-generator-0.9.8.tar.gz --markdown 20230702/s/sitemap-generator/0.9.5-0.9.8/diff.md --exclude *.pyd
+[2023-07-02 21:24:19] INFO root fetch - processPackages [humanloop]: executing diffoscope
+[2023-07-02 21:24:19] INFO root fetch - processPackages [humanloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/humanloop-0.4.8.tar.gz tmp/humanloop-0.4.9.tar.gz --markdown 20230702/h/humanloop/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-02 21:24:20] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.5.4.tar.gz]
+[2023-07-02 21:24:20] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.5.5.tar.gz]
+[2023-07-02 21:24:20] INFO root fetch - main [MainThread]: End processing [talkytrend]: success
+[2023-07-02 21:24:20] INFO root fetch - processPackages [aporia]: Remove: archive file [/home/abi/fetcher/tmp/aporia-3.1.0.tar.gz]
+[2023-07-02 21:24:20] INFO root fetch - processPackages [aporia]: Remove: archive file [/home/abi/fetcher/tmp/aporia-3.2.0.tar.gz]
+[2023-07-02 21:24:20] INFO root fetch - main [MainThread]: End processing [aporia]: success
+[2023-07-02 21:24:20] INFO root fetch - processPackages [sitemap-generator]: Remove: archive file [/home/abi/fetcher/tmp/sitemap-generator-0.9.5.tar.gz]
+[2023-07-02 21:24:20] INFO root fetch - processPackages [sitemap-generator]: Remove: archive file [/home/abi/fetcher/tmp/sitemap-generator-0.9.8.tar.gz]
+[2023-07-02 21:24:20] INFO root fetch - main [MainThread]: End processing [sitemap-generator]: success
+[2023-07-02 21:24:23] INFO root fetch - processPackages [databased]: Remove: archive file [/home/abi/fetcher/tmp/databased-2.4.1.tar.gz]
+[2023-07-02 21:24:23] INFO root fetch - processPackages [databased]: Remove: archive file [/home/abi/fetcher/tmp/databased-2.5.0.tar.gz]
+[2023-07-02 21:24:23] INFO root fetch - main [MainThread]: End processing [databased]: success
+[2023-07-02 21:24:25] INFO root fetch - processPackages [humanloop]: Remove: archive file [/home/abi/fetcher/tmp/humanloop-0.4.8.tar.gz]
+[2023-07-02 21:24:25] INFO root fetch - processPackages [humanloop]: Remove: archive file [/home/abi/fetcher/tmp/humanloop-0.4.9.tar.gz]
+[2023-07-02 21:24:25] INFO root fetch - main [MainThread]: End processing [humanloop]: success
+[2023-07-02 21:24:25] INFO root fetch - main [MainThread]: Store serial: [18730946]
