@@ -7542,3 +7542,68 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 12:25:20] INFO root fetch - processPackages [pywpsrpc]: Remove: archive file [/home/abi/fetcher/tmp/pywpsrpc-2.3.7.tar.gz]
 [2023-07-02 12:25:20] INFO root fetch - main [MainThread]: End processing [pywpsrpc]: success
 [2023-07-02 12:25:20] INFO root fetch - main [MainThread]: Store serial: [18727810]
+[2023-07-02 12:30:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18727810]
+[2023-07-02 12:30:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-02 12:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cikuu
+[2023-07-02 12:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rich-argparse
+[2023-07-02 12:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfra-nightly
+[2023-07-02 12:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fa-models
+[2023-07-02 12:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: absplit
+[2023-07-02 12:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tired
+[2023-07-02 12:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: luminesce-sdk-preview
+[2023-07-02 12:30:30] INFO root fetch - processPackages [cikuu]: New version: [2022.8.8] Old Version: [2022.8.7]
+[2023-07-02 12:30:30] INFO root fetch - processPackages [rich-argparse]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-07-02 12:30:30] INFO root fetch - processPackages [absplit]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-02 12:30:30] INFO root fetch - processPackages [fa-models]: New version: [1.0.70] Old Version: [1.0.69]
+[2023-07-02 12:30:30] INFO root fetch - processPackages [tired]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-02 12:30:30] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-07-02 12:30:30] INFO root fetch - processPackages [tfra-nightly]: New version: [0.6.0.dev20230630020932] Old Version: [0.6.0.dev20230614132209]
+[2023-07-02 12:30:30] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/67/31/51d3d46b7879f9d10ef34a2fe603ba0e08752b203df5663e8745fd76aae6/fa-models-1.0.69.tar.gz
+[2023-07-02 12:30:30] INFO root fetch - processPackages [rich-argparse]: Downloading https://files.pythonhosted.org/packages/88/53/bd5de3cedaed38e6aa67f1941bda97489f2b9f88b50e6419420e71dc0feb/rich_argparse-1.1.1.tar.gz
+[2023-07-02 12:30:30] INFO root fetch - processPackages [cikuu]: Downloading https://files.pythonhosted.org/packages/e2/cf/21bd278e1f949c5732bbe3818e73f091b6dc79814b34352714c2e108a2cf/cikuu-2022.8.7.tar.gz
+[2023-07-02 12:30:30] INFO root fetch - processPackages [absplit]: Downloading https://files.pythonhosted.org/packages/68/86/78f65e09776cc3eead6d191f5242147293de45bf7091b569789c7e63fe94/absplit-1.4.0.tar.gz
+[2023-07-02 12:30:30] INFO root fetch - processPackages [tired]: Downloading https://files.pythonhosted.org/packages/3c/af/380c97935a2c5d4693a0db4f93b98f733de8b149aadf5f4b431f86f79a9a/tired-0.0.2.tar.gz
+[2023-07-02 12:30:30] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2023-07-02 12:30:30] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/20/94/7056ba8dce4a8b66ad2367d488c44bc878e925662217d08f5d7594d09aef/fa-models-1.0.70.tar.gz
+[2023-07-02 12:30:30] INFO root fetch - processPackages [fa-models]: executing diffoscope
+[2023-07-02 12:30:30] INFO root fetch - processPackages [fa-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fa-models-1.0.69.tar.gz tmp/fa-models-1.0.70.tar.gz --markdown 20230702/f/fa-models/1.0.69-1.0.70/diff.md --exclude *.pyd
+[2023-07-02 12:30:30] INFO root fetch - processPackages [tfra-nightly]: Downloading https://files.pythonhosted.org/packages/f1/00/824a99aa30f5897d2c910881397eaed40e558cfc10044686a9544222f083/tfra_nightly-0.6.0.dev20230630020932-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-07-02 12:30:30] INFO root fetch - processPackages [rich-argparse]: Downloading https://files.pythonhosted.org/packages/91/ac/789c1a81ac85f70cf17711e0fda2e0d27674d30b8addbfb36e92188a4f41/rich_argparse-1.2.0.tar.gz
+[2023-07-02 12:30:30] INFO root fetch - processPackages [absplit]: Downloading https://files.pythonhosted.org/packages/81/28/0b0c49eb8256278194b044696676b9e0d0378a0d0d9cdd8dee06d4bf7aad/absplit-1.4.1.tar.gz
+[2023-07-02 12:30:30] INFO root fetch - processPackages [tired]: Downloading https://files.pythonhosted.org/packages/66/2d/bec1d3c15546f0ec73d224531e5aa226e7d855d0f8caae6c1b682ebb7915/tired-0.0.3.tar.gz
+[2023-07-02 12:30:30] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2023-07-02 12:30:30] INFO root fetch - processPackages [absplit]: executing diffoscope
+[2023-07-02 12:30:30] INFO root fetch - processPackages [absplit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/absplit-1.4.0.tar.gz tmp/absplit-1.4.1.tar.gz --markdown 20230702/a/absplit/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-02 12:30:30] INFO root fetch - processPackages [rich-argparse]: executing diffoscope
+[2023-07-02 12:30:30] INFO root fetch - processPackages [rich-argparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rich_argparse-1.1.1.tar.gz tmp/rich_argparse-1.2.0.tar.gz --markdown 20230702/r/rich-argparse/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-07-02 12:30:30] INFO root fetch - processPackages [cikuu]: Downloading https://files.pythonhosted.org/packages/db/a7/7f80d8f63b8d473fb994eb9b07c0ad3b4d3f84b19c99b8a9165adf54a4fe/cikuu-2022.8.8.tar.gz
+[2023-07-02 12:30:30] INFO root fetch - processPackages [tired]: executing diffoscope
+[2023-07-02 12:30:30] INFO root fetch - processPackages [tired]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tired-0.0.2.tar.gz tmp/tired-0.0.3.tar.gz --markdown 20230702/t/tired/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-02 12:30:30] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-07-02 12:30:30] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230702/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-07-02 12:30:30] INFO root fetch - processPackages [cikuu]: executing diffoscope
+[2023-07-02 12:30:30] INFO root fetch - processPackages [cikuu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cikuu-2022.8.7.tar.gz tmp/cikuu-2022.8.8.tar.gz --markdown 20230702/c/cikuu/2022.8.7-2022.8.8/diff.md --exclude *.pyd
+[2023-07-02 12:30:31] INFO root fetch - processPackages [absplit]: Remove: archive file [/home/abi/fetcher/tmp/absplit-1.4.0.tar.gz]
+[2023-07-02 12:30:31] INFO root fetch - processPackages [absplit]: Remove: archive file [/home/abi/fetcher/tmp/absplit-1.4.1.tar.gz]
+[2023-07-02 12:30:31] INFO root fetch - main [MainThread]: End processing [absplit]: success
+[2023-07-02 12:30:31] INFO root fetch - processPackages [rich-argparse]: Remove: archive file [/home/abi/fetcher/tmp/rich_argparse-1.1.1.tar.gz]
+[2023-07-02 12:30:31] INFO root fetch - processPackages [rich-argparse]: Remove: archive file [/home/abi/fetcher/tmp/rich_argparse-1.2.0.tar.gz]
+[2023-07-02 12:30:31] INFO root fetch - main [MainThread]: End processing [rich-argparse]: success
+[2023-07-02 12:30:32] INFO root fetch - processPackages [tired]: Remove: archive file [/home/abi/fetcher/tmp/tired-0.0.2.tar.gz]
+[2023-07-02 12:30:32] INFO root fetch - processPackages [tired]: Remove: archive file [/home/abi/fetcher/tmp/tired-0.0.3.tar.gz]
+[2023-07-02 12:30:32] INFO root fetch - main [MainThread]: End processing [tired]: success
+[2023-07-02 12:30:32] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.69.tar.gz]
+[2023-07-02 12:30:32] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.70.tar.gz]
+[2023-07-02 12:30:32] INFO root fetch - main [MainThread]: End processing [fa-models]: success
+[2023-07-02 12:30:32] INFO root fetch - processPackages [tfra-nightly]: executing diffoscope
+[2023-07-02 12:30:32] INFO root fetch - processPackages [tfra-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfra_nightly-0.6.0.dev20230614132209-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip tmp/tfra_nightly-0.6.0.dev20230630020932-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip --markdown 20230702/t/tfra-nightly/0.6.0.dev20230614132209-0.6.0.dev20230630020932/diff.md --exclude *.pyd
+[2023-07-02 12:30:32] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2023-07-02 12:30:32] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2023-07-02 12:30:32] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-07-02 12:30:36] INFO root fetch - processPackages [cikuu]: Remove: archive file [/home/abi/fetcher/tmp/cikuu-2022.8.7.tar.gz]
+[2023-07-02 12:30:36] INFO root fetch - processPackages [cikuu]: Remove: archive file [/home/abi/fetcher/tmp/cikuu-2022.8.8.tar.gz]
+[2023-07-02 12:30:36] INFO root fetch - main [MainThread]: End processing [cikuu]: success
+[2023-07-02 12:33:29] INFO root fetch - processPackages [tfra-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfra_nightly-0.6.0.dev20230614132209-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip]
+[2023-07-02 12:33:29] INFO root fetch - processPackages [tfra-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfra_nightly-0.6.0.dev20230630020932-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip]
+[2023-07-02 12:33:29] INFO root fetch - main [MainThread]: End processing [tfra-nightly]: success
+[2023-07-02 12:33:29] INFO root fetch - main [MainThread]: Store serial: [18727849]
