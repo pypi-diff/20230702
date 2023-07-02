@@ -6983,3 +6983,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 11:25:51] INFO root fetch - processPackages [haupt]: Remove: archive file [/home/abi/fetcher/tmp/haupt-2.0.0rc9.tar.gz]
 [2023-07-02 11:25:51] INFO root fetch - main [MainThread]: End processing [haupt]: success
 [2023-07-02 11:25:51] INFO root fetch - main [MainThread]: Store serial: [18727549]
+[2023-07-02 11:30:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18727549]
+[2023-07-02 11:31:00] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-02 11:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aleksis
+[2023-07-02 11:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aleksis-builddeps
+[2023-07-02 11:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cachier
+[2023-07-02 11:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: funboost
+[2023-07-02 11:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: igem-uploads
+[2023-07-02 11:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aws-vpclattice-prealpha
+[2023-07-02 11:31:00] INFO root fetch - processPackages [cachier]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-07-02 11:31:00] INFO root fetch - processPackages [aws-vpclattice-prealpha]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-02 11:31:00] INFO root fetch - processPackages [aleksis]: New version: [2023.6b2] Old Version: [2023.6b1]
+[2023-07-02 11:31:00] INFO root fetch - processPackages [igem-uploads]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-02 11:31:00] INFO root fetch - processPackages [aleksis-builddeps]: New version: [2023.6b2] Old Version: [2023.6b1]
+[2023-07-02 11:31:00] INFO root fetch - processPackages [funboost]: New version: [23.6] Old Version: [23.5]
+[2023-07-02 11:31:00] INFO root fetch - processPackages [aws-vpclattice-prealpha]: Downloading https://files.pythonhosted.org/packages/b9/17/523efad78d6e1867e6e9763d8e76db470d8005b2882dbae34e8adae388a5/aws-vpclattice-prealpha-0.0.1.tar.gz
+[2023-07-02 11:31:00] INFO root fetch - processPackages [igem-uploads]: Downloading https://files.pythonhosted.org/packages/07/41/877ba892299f534106fdbd005945a23d586ea1c78dab3a6c630b39a507a2/igem-uploads-1.0.0.tar.gz
+[2023-07-02 11:31:00] INFO root fetch - processPackages [aleksis-builddeps]: Downloading https://files.pythonhosted.org/packages/27/27/aa27df56dd62217c8986d9508e92313746c6e05d4c02cecb5f6ca375705d/aleksis_builddeps-2023.6b1.tar.gz
+[2023-07-02 11:31:00] INFO root fetch - processPackages [cachier]: Downloading https://files.pythonhosted.org/packages/b3/1e/088d5378be841269eadc89076bd14810019144d45e8def1dde729ac1a5a3/cachier-2.2.0.tar.gz
+[2023-07-02 11:31:00] INFO root fetch - processPackages [aleksis]: Downloading https://files.pythonhosted.org/packages/d7/07/c04decd186d9c1ca198622ff49e0284e0b371233fd229604346ebb046489/aleksis-2023.6b1.tar.gz
+[2023-07-02 11:31:00] INFO root fetch - processPackages [aws-vpclattice-prealpha]: Downloading https://files.pythonhosted.org/packages/63/90/3ec8861fff0ba0eef1de10ee4a4d4bec817c05725332c287a95b0d7d42aa/aws-vpclattice-prealpha-0.0.2.tar.gz
+[2023-07-02 11:31:00] INFO root fetch - processPackages [funboost]: Downloading https://files.pythonhosted.org/packages/12/c4/cf6b2e651fa4a377332ca5f7f8b7e9213d393c3ba66a4ebe542f1865f79e/funboost-23.5-py3-none-any.whl
+[2023-07-02 11:31:00] INFO root fetch - processPackages [aws-vpclattice-prealpha]: executing diffoscope
+[2023-07-02 11:31:00] INFO root fetch - processPackages [aws-vpclattice-prealpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-vpclattice-prealpha-0.0.1.tar.gz tmp/aws-vpclattice-prealpha-0.0.2.tar.gz --markdown 20230702/a/aws-vpclattice-prealpha/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-02 11:31:01] INFO root fetch - processPackages [igem-uploads]: Downloading https://files.pythonhosted.org/packages/ad/61/b153d28f3edd6c7b2ebd9a7f4537454c983a9968f2863b216b10b125af89/igem-uploads-1.1.0.tar.gz
+[2023-07-02 11:31:01] INFO root fetch - processPackages [aleksis-builddeps]: Downloading https://files.pythonhosted.org/packages/0a/27/7494519a7c2e83c75bac26eab5a4de782f1e62f20499f178f491724303e5/aleksis_builddeps-2023.6b2.tar.gz
+[2023-07-02 11:31:01] INFO root fetch - processPackages [aleksis]: Downloading https://files.pythonhosted.org/packages/12/8b/777b1c19c2c03597f468ad68d53ed3d5fd554ee7b26647237ab57f30ee34/aleksis-2023.6b2.tar.gz
+[2023-07-02 11:31:01] INFO root fetch - processPackages [cachier]: Downloading https://files.pythonhosted.org/packages/43/2a/a1ba60078b4ce1858c60d79090779b9ee4800937bbae4056452ba7dccd1b/cachier-2.2.1.tar.gz
+[2023-07-02 11:31:01] INFO root fetch - processPackages [aleksis-builddeps]: executing diffoscope
+[2023-07-02 11:31:01] INFO root fetch - processPackages [aleksis-builddeps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aleksis_builddeps-2023.6b1.tar.gz tmp/aleksis_builddeps-2023.6b2.tar.gz --markdown 20230702/a/aleksis-builddeps/2023.6b1-2023.6b2/diff.md --exclude *.pyd
+[2023-07-02 11:31:01] INFO root fetch - processPackages [igem-uploads]: executing diffoscope
+[2023-07-02 11:31:01] INFO root fetch - processPackages [igem-uploads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/igem-uploads-1.0.0.tar.gz tmp/igem-uploads-1.1.0.tar.gz --markdown 20230702/i/igem-uploads/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-02 11:31:01] INFO root fetch - processPackages [aleksis]: executing diffoscope
+[2023-07-02 11:31:01] INFO root fetch - processPackages [aleksis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aleksis-2023.6b1.tar.gz tmp/aleksis-2023.6b2.tar.gz --markdown 20230702/a/aleksis/2023.6b1-2023.6b2/diff.md --exclude *.pyd
+[2023-07-02 11:31:01] INFO root fetch - processPackages [cachier]: executing diffoscope
+[2023-07-02 11:31:01] INFO root fetch - processPackages [cachier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cachier-2.2.0.tar.gz tmp/cachier-2.2.1.tar.gz --markdown 20230702/c/cachier/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-07-02 11:31:01] INFO root fetch - processPackages [funboost]: Downloading https://files.pythonhosted.org/packages/ab/38/c9a703467fe39ed81f0dc3b10b8476080f11d5316476722d3753ff29d875/funboost-23.6-py3-none-any.whl
+[2023-07-02 11:31:01] INFO root fetch - processPackages [funboost]: executing diffoscope
+[2023-07-02 11:31:01] INFO root fetch - processPackages [funboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funboost-23.5-py3-none-any.whl.zip tmp/funboost-23.6-py3-none-any.whl.zip --markdown 20230702/f/funboost/23.5-23.6/diff.md --exclude *.pyd
+[2023-07-02 11:31:02] INFO root fetch - processPackages [aws-vpclattice-prealpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-vpclattice-prealpha-0.0.1.tar.gz]
+[2023-07-02 11:31:02] INFO root fetch - processPackages [aws-vpclattice-prealpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-vpclattice-prealpha-0.0.2.tar.gz]
+[2023-07-02 11:31:02] INFO root fetch - main [MainThread]: End processing [aws-vpclattice-prealpha]: success
+[2023-07-02 11:31:02] INFO root fetch - processPackages [aleksis-builddeps]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_builddeps-2023.6b1.tar.gz]
+[2023-07-02 11:31:02] INFO root fetch - processPackages [aleksis-builddeps]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_builddeps-2023.6b2.tar.gz]
+[2023-07-02 11:31:02] INFO root fetch - main [MainThread]: End processing [aleksis-builddeps]: success
+[2023-07-02 11:31:02] INFO root fetch - processPackages [aleksis]: Remove: archive file [/home/abi/fetcher/tmp/aleksis-2023.6b1.tar.gz]
+[2023-07-02 11:31:02] INFO root fetch - processPackages [aleksis]: Remove: archive file [/home/abi/fetcher/tmp/aleksis-2023.6b2.tar.gz]
+[2023-07-02 11:31:02] INFO root fetch - main [MainThread]: End processing [aleksis]: success
+[2023-07-02 11:31:02] INFO root fetch - processPackages [cachier]: Remove: archive file [/home/abi/fetcher/tmp/cachier-2.2.0.tar.gz]
+[2023-07-02 11:31:02] INFO root fetch - processPackages [cachier]: Remove: archive file [/home/abi/fetcher/tmp/cachier-2.2.1.tar.gz]
+[2023-07-02 11:31:02] INFO root fetch - main [MainThread]: End processing [cachier]: success
+[2023-07-02 11:31:02] INFO root fetch - processPackages [igem-uploads]: Remove: archive file [/home/abi/fetcher/tmp/igem-uploads-1.0.0.tar.gz]
+[2023-07-02 11:31:02] INFO root fetch - processPackages [igem-uploads]: Remove: archive file [/home/abi/fetcher/tmp/igem-uploads-1.1.0.tar.gz]
+[2023-07-02 11:31:02] INFO root fetch - main [MainThread]: End processing [igem-uploads]: success
+[2023-07-02 11:31:05] INFO root fetch - processPackages [funboost]: Remove: archive file [/home/abi/fetcher/tmp/funboost-23.5-py3-none-any.whl.zip]
+[2023-07-02 11:31:05] INFO root fetch - processPackages [funboost]: Remove: archive file [/home/abi/fetcher/tmp/funboost-23.6-py3-none-any.whl.zip]
+[2023-07-02 11:31:05] INFO root fetch - main [MainThread]: End processing [funboost]: success
+[2023-07-02 11:31:05] INFO root fetch - main [MainThread]: Store serial: [18727567]
