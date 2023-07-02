@@ -4855,3 +4855,32 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 07:51:20] INFO root fetch - processPackages [terra-classic-sdk]: Remove: archive file [/home/abi/fetcher/tmp/terra_classic_sdk-2.0.8.2.tar.gz]
 [2023-07-02 07:51:20] INFO root fetch - main [MainThread]: End processing [terra-classic-sdk]: success
 [2023-07-02 07:51:20] INFO root fetch - main [MainThread]: Store serial: [18726611]
+[2023-07-02 07:56:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726611]
+[2023-07-02 07:56:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-02 07:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tendril-structures-media
+[2023-07-02 07:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: irisml-tasks-training
+[2023-07-02 07:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: waivek
+[2023-07-02 07:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyzjr
+[2023-07-02 07:56:30] WARNING root fetch - processPackages [pyzjr]: Skipping, unable to determine old version
+[2023-07-02 07:56:30] INFO root fetch - main [MainThread]: End processing [pyzjr] error
+[2023-07-02 07:56:30] INFO root fetch - processPackages [tendril-structures-media]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-02 07:56:30] INFO root fetch - processPackages [irisml-tasks-training]: New version: [0.0.9] Old Version: [0.0.81]
+[2023-07-02 07:56:30] INFO root fetch - processPackages [waivek]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 07:56:30] INFO root fetch - processPackages [waivek]: Downloading https://files.pythonhosted.org/packages/8c/d1/949e523dd2d5b53ef756c740c7633425f3adeb94ad2c376cf81a62587e2e/waivek-0.1.8.tar.gz
+[2023-07-02 07:56:30] INFO root fetch - processPackages [irisml-tasks-training]: Downloading https://files.pythonhosted.org/packages/a9/fb/6147909a83ca62bbac8329d59623753ea76f47d8798fc0670f06d8389a15/irisml-tasks-training-0.0.81.tar.gz
+[2023-07-02 07:56:30] INFO root fetch - processPackages [tendril-structures-media]: Downloading https://files.pythonhosted.org/packages/c0/30/31dd4548568982cf652c13b14cb93033ef6dca076be7882c368a1ac1ad7e/tendril-structures-media-0.1.1.tar.gz
+[2023-07-02 07:56:30] WARNING root fetch - processPackages [tendril-structures-media]: Skipping package: exceeds size limit 46858329>=10485760
+[2023-07-02 07:56:30] INFO root fetch - main [MainThread]: End processing [tendril-structures-media] error
+[2023-07-02 07:56:30] INFO root fetch - processPackages [waivek]: Downloading https://files.pythonhosted.org/packages/a4/ea/4c15b5c565a13175de2213d36052b88233e76e92301d40a51c483f4f346c/waivek-0.1.9.tar.gz
+[2023-07-02 07:56:30] INFO root fetch - processPackages [waivek]: executing diffoscope
+[2023-07-02 07:56:30] INFO root fetch - processPackages [waivek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waivek-0.1.8.tar.gz tmp/waivek-0.1.9.tar.gz --markdown 20230702/w/waivek/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 07:56:30] INFO root fetch - processPackages [irisml-tasks-training]: Downloading https://files.pythonhosted.org/packages/03/95/02a31958b7096b95e04d4d97bdb225fccca86651bbe1faf0e72395d98604/irisml-tasks-training-0.0.9.tar.gz
+[2023-07-02 07:56:31] INFO root fetch - processPackages [irisml-tasks-training]: executing diffoscope
+[2023-07-02 07:56:31] INFO root fetch - processPackages [irisml-tasks-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irisml-tasks-training-0.0.81.tar.gz tmp/irisml-tasks-training-0.0.9.tar.gz --markdown 20230702/i/irisml-tasks-training/0.0.81-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 07:56:31] INFO root fetch - processPackages [waivek]: Remove: archive file [/home/abi/fetcher/tmp/waivek-0.1.8.tar.gz]
+[2023-07-02 07:56:31] INFO root fetch - processPackages [waivek]: Remove: archive file [/home/abi/fetcher/tmp/waivek-0.1.9.tar.gz]
+[2023-07-02 07:56:31] INFO root fetch - main [MainThread]: End processing [waivek]: success
+[2023-07-02 07:56:32] INFO root fetch - processPackages [irisml-tasks-training]: Remove: archive file [/home/abi/fetcher/tmp/irisml-tasks-training-0.0.81.tar.gz]
+[2023-07-02 07:56:32] INFO root fetch - processPackages [irisml-tasks-training]: Remove: archive file [/home/abi/fetcher/tmp/irisml-tasks-training-0.0.9.tar.gz]
+[2023-07-02 07:56:32] INFO root fetch - main [MainThread]: End processing [irisml-tasks-training]: success
+[2023-07-02 07:56:32] INFO root fetch - main [MainThread]: Store serial: [18726623]
