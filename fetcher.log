@@ -13162,3 +13162,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 19:17:09] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.9.4.tar.gz]
 [2023-07-02 19:17:09] INFO root fetch - main [MainThread]: End processing [m23]: success
 [2023-07-02 19:17:09] INFO root fetch - main [MainThread]: Store serial: [18730289]
+[2023-07-02 19:22:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18730289]
+[2023-07-02 19:22:19] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-02 19:22:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ktch
+[2023-07-02 19:22:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adv2099m5
+[2023-07-02 19:22:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lekkersim
+[2023-07-02 19:22:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cors-finder
+[2023-07-02 19:22:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clustimage
+[2023-07-02 19:22:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adv2099m6
+[2023-07-02 19:22:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qworker
+[2023-07-02 19:22:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: plutous-trade-crypto
+[2023-07-02 19:22:19] INFO root fetch - processPackages [ktch]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-02 19:22:19] INFO root fetch - processPackages [cors-finder]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-02 19:22:19] WARNING root fetch - processPackages [adv2099m5]: Skipping, unable to determine old version
+[2023-07-02 19:22:19] INFO root fetch - main [MainThread]: End processing [adv2099m5] error
+[2023-07-02 19:22:19] INFO root fetch - processPackages [qworker]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-07-02 19:22:19] WARNING root fetch - processPackages [adv2099m6]: Skipping, unable to determine old version
+[2023-07-02 19:22:19] INFO root fetch - main [MainThread]: End processing [adv2099m6] error
+[2023-07-02 19:22:19] INFO root fetch - processPackages [clustimage]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-02 19:22:19] WARNING root fetch - processPackages [lekkersim]: Skipping, unable to determine old version
+[2023-07-02 19:22:19] INFO root fetch - main [MainThread]: End processing [lekkersim] error
+[2023-07-02 19:22:19] INFO root fetch - processPackages [qworker]: Downloading https://files.pythonhosted.org/packages/7f/76/e8229f7e434297ef00fe9a6e9780df7a16674bc6e6f85ec7c9acaa6b4f31/qworker-1.9.4-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-02 19:22:19] INFO root fetch - processPackages [plutous-trade-crypto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 19:22:19] INFO root fetch - processPackages [ktch]: Downloading https://files.pythonhosted.org/packages/83/49/ab28c79ea6ccb44a0b2647a6aea6c62274674de8aff27f1fd8df7e0bd362/ktch-0.2.0.tar.gz
+[2023-07-02 19:22:19] INFO root fetch - processPackages [cors-finder]: Downloading https://files.pythonhosted.org/packages/99/d9/e86d655a6d38984ffc342f9ae6eab0b12352fcb2abd7eead888add9980eb/cors-finder-1.0.0.tar.gz
+[2023-07-02 19:22:19] INFO root fetch - processPackages [clustimage]: Downloading https://files.pythonhosted.org/packages/57/ed/d304662a558e304bcba25df649b188acd09e7efa6e25c4de1b480242df60/clustimage-1.5.8.tar.gz
+[2023-07-02 19:22:19] INFO root fetch - processPackages [qworker]: Downloading https://files.pythonhosted.org/packages/c3/9f/c4c1a3adfbd03ae3dd8823309f0684fc5bdb7aae5b7854d85169779dcad6/qworker-1.9.5-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-02 19:22:19] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/e3/db/d32a1544d7f944ad8af411383551ea4aa42adfdd0f238ff44a5a3edaa00e/plutous_trade_crypto-0.0.8.tar.gz
+[2023-07-02 19:22:19] INFO root fetch - processPackages [cors-finder]: Downloading https://files.pythonhosted.org/packages/fe/42/e4587e6b57c03b9158698cb4d4f1d141478496aeba5854d3eadf39d12adb/cors-finder-1.0.1.tar.gz
+[2023-07-02 19:22:19] INFO root fetch - processPackages [qworker]: executing diffoscope
+[2023-07-02 19:22:19] INFO root fetch - processPackages [qworker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qworker-1.9.4-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/qworker-1.9.5-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230702/q/qworker/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-07-02 19:22:19] INFO root fetch - processPackages [cors-finder]: executing diffoscope
+[2023-07-02 19:22:19] INFO root fetch - processPackages [cors-finder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cors-finder-1.0.0.tar.gz tmp/cors-finder-1.0.1.tar.gz --markdown 20230702/c/cors-finder/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-02 19:22:19] INFO root fetch - processPackages [ktch]: Downloading https://files.pythonhosted.org/packages/f0/2f/aa4634aba638993c931cf5ab8fcf867d1853f7e205f689d86482966ffe23/ktch-0.3.0.tar.gz
+[2023-07-02 19:22:20] INFO root fetch - processPackages [ktch]: executing diffoscope
+[2023-07-02 19:22:20] INFO root fetch - processPackages [ktch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ktch-0.2.0.tar.gz tmp/ktch-0.3.0.tar.gz --markdown 20230702/k/ktch/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-02 19:22:20] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/b4/a4/200ca398a36203e8bd51a034e50c51963506316cbf5e7a47866700accaee/plutous_trade_crypto-0.0.9.tar.gz
+[2023-07-02 19:22:20] INFO root fetch - processPackages [clustimage]: Downloading https://files.pythonhosted.org/packages/94/eb/110301aacac610178260ea5b86a12edcfdb979075298fe6edbe3f915b89b/clustimage-1.5.9.tar.gz
+[2023-07-02 19:22:20] INFO root fetch - processPackages [plutous-trade-crypto]: executing diffoscope
+[2023-07-02 19:22:20] INFO root fetch - processPackages [plutous-trade-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous_trade_crypto-0.0.8.tar.gz tmp/plutous_trade_crypto-0.0.9.tar.gz --markdown 20230702/p/plutous-trade-crypto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 19:22:20] INFO root fetch - processPackages [clustimage]: executing diffoscope
+[2023-07-02 19:22:20] INFO root fetch - processPackages [clustimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clustimage-1.5.8.tar.gz tmp/clustimage-1.5.9.tar.gz --markdown 20230702/c/clustimage/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-02 19:22:20] INFO root fetch - processPackages [cors-finder]: Remove: archive file [/home/abi/fetcher/tmp/cors-finder-1.0.0.tar.gz]
+[2023-07-02 19:22:20] INFO root fetch - processPackages [cors-finder]: Remove: archive file [/home/abi/fetcher/tmp/cors-finder-1.0.1.tar.gz]
+[2023-07-02 19:22:20] INFO root fetch - main [MainThread]: End processing [cors-finder]: success
+[2023-07-02 19:22:21] INFO root fetch - processPackages [qworker]: Remove: archive file [/home/abi/fetcher/tmp/qworker-1.9.4-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-02 19:22:21] INFO root fetch - processPackages [qworker]: Remove: archive file [/home/abi/fetcher/tmp/qworker-1.9.5-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-02 19:22:21] INFO root fetch - main [MainThread]: End processing [qworker]: success
+[2023-07-02 19:22:21] INFO root fetch - processPackages [ktch]: Remove: archive file [/home/abi/fetcher/tmp/ktch-0.2.0.tar.gz]
+[2023-07-02 19:22:21] INFO root fetch - processPackages [ktch]: Remove: archive file [/home/abi/fetcher/tmp/ktch-0.3.0.tar.gz]
+[2023-07-02 19:22:21] INFO root fetch - main [MainThread]: End processing [ktch]: success
+[2023-07-02 19:22:21] INFO root fetch - processPackages [clustimage]: Remove: archive file [/home/abi/fetcher/tmp/clustimage-1.5.8.tar.gz]
+[2023-07-02 19:22:21] INFO root fetch - processPackages [clustimage]: Remove: archive file [/home/abi/fetcher/tmp/clustimage-1.5.9.tar.gz]
+[2023-07-02 19:22:21] INFO root fetch - main [MainThread]: End processing [clustimage]: success
+[2023-07-02 19:22:21] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.8.tar.gz]
+[2023-07-02 19:22:21] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.9.tar.gz]
+[2023-07-02 19:22:21] INFO root fetch - main [MainThread]: End processing [plutous-trade-crypto]: success
+[2023-07-02 19:22:21] INFO root fetch - main [MainThread]: Store serial: [18730327]
