@@ -10221,3 +10221,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 16:03:49] INFO root fetch - processPackages [django-request]: Remove: archive file [/home/abi/fetcher/tmp/django-request-1.6.3.tar.gz]
 [2023-07-02 16:03:49] INFO root fetch - main [MainThread]: End processing [django-request]: success
 [2023-07-02 16:03:49] INFO root fetch - main [MainThread]: Store serial: [18729010]
+[2023-07-02 16:08:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18729010]
+[2023-07-02 16:08:59] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-02 16:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-auth-user-case-insensitive
+[2023-07-02 16:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: singlecase
+[2023-07-02 16:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrosimple
+[2023-07-02 16:08:59] INFO root fetch - processPackages [odoo-addon-auth-user-case-insensitive]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.2]
+[2023-07-02 16:08:59] INFO root fetch - processPackages [singlecase]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-02 16:08:59] INFO root fetch - processPackages [pyrosimple]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-07-02 16:08:59] INFO root fetch - processPackages [singlecase]: Downloading https://files.pythonhosted.org/packages/8c/07/0e3ce7a8065ced052c4d66f862a68b26294970e84f426923a12374a5be2e/singlecase-0.2.0.tar.gz
+[2023-07-02 16:08:59] INFO root fetch - processPackages [odoo-addon-auth-user-case-insensitive]: Downloading https://files.pythonhosted.org/packages/3c/ae/50ea48fb6d3258e397ff9d748818605b0340c397eeea793df2733162763b/odoo_addon_auth_user_case_insensitive-15.0.1.0.0.2-py3-none-any.whl
+[2023-07-02 16:09:00] INFO root fetch - processPackages [pyrosimple]: Downloading https://files.pythonhosted.org/packages/82/a8/9759219eb3372bbb9b9ed70883a6e00ed15251894a94c39d7c75fe6c84ff/pyrosimple-2.8.0.tar.gz
+[2023-07-02 16:09:00] INFO root fetch - processPackages [singlecase]: Downloading https://files.pythonhosted.org/packages/8d/14/89eae62af7fb306878ce756592cce09330067e6adfff2609d799d7aa62cc/singlecase-0.2.1.tar.gz
+[2023-07-02 16:09:00] INFO root fetch - processPackages [singlecase]: executing diffoscope
+[2023-07-02 16:09:00] INFO root fetch - processPackages [singlecase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/singlecase-0.2.0.tar.gz tmp/singlecase-0.2.1.tar.gz --markdown 20230702/s/singlecase/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-02 16:09:00] INFO root fetch - processPackages [odoo-addon-auth-user-case-insensitive]: Downloading https://files.pythonhosted.org/packages/dc/a2/aa3784a967721cd1a683a1f333fc92b92759d09a47e5cf393b12ac60b97c/odoo_addon_auth_user_case_insensitive-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-02 16:09:00] INFO root fetch - processPackages [odoo-addon-auth-user-case-insensitive]: executing diffoscope
+[2023-07-02 16:09:00] INFO root fetch - processPackages [odoo-addon-auth-user-case-insensitive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_auth_user_case_insensitive-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_auth_user_case_insensitive-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230702/o/odoo-addon-auth-user-case-insensitive/15.0.1.0.0.2-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-07-02 16:09:00] INFO root fetch - processPackages [pyrosimple]: Downloading https://files.pythonhosted.org/packages/e6/86/a5ff57bdcd07032f82e3b9fc57bce20a14a3a7fde27f47b5d0701618b275/pyrosimple-2.9.0.tar.gz
+[2023-07-02 16:09:00] INFO root fetch - processPackages [pyrosimple]: executing diffoscope
+[2023-07-02 16:09:00] INFO root fetch - processPackages [pyrosimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrosimple-2.8.0.tar.gz tmp/pyrosimple-2.9.0.tar.gz --markdown 20230702/p/pyrosimple/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-07-02 16:09:01] INFO root fetch - processPackages [singlecase]: Remove: archive file [/home/abi/fetcher/tmp/singlecase-0.2.0.tar.gz]
+[2023-07-02 16:09:01] INFO root fetch - processPackages [singlecase]: Remove: archive file [/home/abi/fetcher/tmp/singlecase-0.2.1.tar.gz]
+[2023-07-02 16:09:01] INFO root fetch - main [MainThread]: End processing [singlecase]: success
+[2023-07-02 16:09:01] INFO root fetch - processPackages [odoo-addon-auth-user-case-insensitive]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_user_case_insensitive-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-02 16:09:01] INFO root fetch - processPackages [odoo-addon-auth-user-case-insensitive]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_user_case_insensitive-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-02 16:09:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-auth-user-case-insensitive]: success
+[2023-07-02 16:09:01] INFO root fetch - processPackages [pyrosimple]: Remove: archive file [/home/abi/fetcher/tmp/pyrosimple-2.8.0.tar.gz]
+[2023-07-02 16:09:01] INFO root fetch - processPackages [pyrosimple]: Remove: archive file [/home/abi/fetcher/tmp/pyrosimple-2.9.0.tar.gz]
+[2023-07-02 16:09:01] INFO root fetch - main [MainThread]: End processing [pyrosimple]: success
+[2023-07-02 16:09:01] INFO root fetch - main [MainThread]: Store serial: [18729018]
