@@ -7308,3 +7308,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 12:02:24] INFO root fetch - processPackages [cikuu]: Remove: archive file [/home/abi/fetcher/tmp/cikuu-2022.8.7.tar.gz]
 [2023-07-02 12:02:24] INFO root fetch - main [MainThread]: End processing [cikuu]: success
 [2023-07-02 12:02:24] INFO root fetch - main [MainThread]: Store serial: [18727692]
+[2023-07-02 12:07:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18727692]
+[2023-07-02 12:07:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-02 12:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TDhelper
+[2023-07-02 12:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quantum-kite
+[2023-07-02 12:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ezcord
+[2023-07-02 12:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyrefact
+[2023-07-02 12:07:33] INFO root fetch - processPackages [TDhelper]: New version: [2.6.8] Old Version: [2.6.7]
+[2023-07-02 12:07:33] WARNING root fetch - processPackages [quantum-kite]: Skipping, unable to determine old version
+[2023-07-02 12:07:33] INFO root fetch - main [MainThread]: End processing [quantum-kite] error
+[2023-07-02 12:07:33] INFO root fetch - processPackages [TDhelper]: Downloading https://files.pythonhosted.org/packages/57/d3/5aa13ab158696d462cbbc8fe850a9ff65c454a6235618e7cb31de70fde21/TDhelper-2.6.7.tar.gz
+[2023-07-02 12:07:33] INFO root fetch - processPackages [ezcord]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-02 12:07:33] INFO root fetch - processPackages [pyrefact]: New version: [90] Old Version: [9]
+[2023-07-02 12:07:33] INFO root fetch - processPackages [pyrefact]: Downloading https://files.pythonhosted.org/packages/ec/25/07a98c4557e35e22a88708b9a988bbedf69d9c83d14aa843166c1bc82677/pyrefact-9.tar.gz
+[2023-07-02 12:07:33] INFO root fetch - processPackages [ezcord]: Downloading https://files.pythonhosted.org/packages/46/8f/5fbf6e7bbf57380f68de65b605fb94738204747cd7a77a70087cf7775907/ezcord-0.3.1.tar.gz
+[2023-07-02 12:07:33] INFO root fetch - processPackages [TDhelper]: Downloading https://files.pythonhosted.org/packages/a1/94/f77c60e37ae0bcd3286ef92509b0b1c3c91f9c6c0407a63813a5c135a4e8/TDhelper-2.6.8.tar.gz
+[2023-07-02 12:07:33] INFO root fetch - processPackages [TDhelper]: executing diffoscope
+[2023-07-02 12:07:33] INFO root fetch - processPackages [TDhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDhelper-2.6.7.tar.gz tmp/TDhelper-2.6.8.tar.gz --markdown 20230702/T/TDhelper/2.6.7-2.6.8/diff.md --exclude *.pyd
+[2023-07-02 12:07:33] INFO root fetch - processPackages [pyrefact]: Downloading https://files.pythonhosted.org/packages/e6/dd/9e01d74dc0b4294491849da0bfee977f40f9ef6fbecaa7ce332e3b765196/pyrefact-90.tar.gz
+[2023-07-02 12:07:33] INFO root fetch - processPackages [ezcord]: Downloading https://files.pythonhosted.org/packages/ac/bd/de12c53923ebc74f394d706fd5f2440515e547971e4daaf11e23bb29aa15/ezcord-0.3.2.tar.gz
+[2023-07-02 12:07:34] INFO root fetch - processPackages [pyrefact]: executing diffoscope
+[2023-07-02 12:07:34] INFO root fetch - processPackages [pyrefact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrefact-9.tar.gz tmp/pyrefact-90.tar.gz --markdown 20230702/p/pyrefact/9-90/diff.md --exclude *.pyd
+[2023-07-02 12:07:34] INFO root fetch - processPackages [ezcord]: executing diffoscope
+[2023-07-02 12:07:34] INFO root fetch - processPackages [ezcord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezcord-0.3.1.tar.gz tmp/ezcord-0.3.2.tar.gz --markdown 20230702/e/ezcord/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-02 12:07:35] INFO root fetch - processPackages [pyrefact]: Remove: archive file [/home/abi/fetcher/tmp/pyrefact-9.tar.gz]
+[2023-07-02 12:07:35] INFO root fetch - processPackages [pyrefact]: Remove: archive file [/home/abi/fetcher/tmp/pyrefact-90.tar.gz]
+[2023-07-02 12:07:35] INFO root fetch - main [MainThread]: End processing [pyrefact]: success
+[2023-07-02 12:07:35] INFO root fetch - processPackages [ezcord]: Remove: archive file [/home/abi/fetcher/tmp/ezcord-0.3.1.tar.gz]
+[2023-07-02 12:07:35] INFO root fetch - processPackages [ezcord]: Remove: archive file [/home/abi/fetcher/tmp/ezcord-0.3.2.tar.gz]
+[2023-07-02 12:07:35] INFO root fetch - main [MainThread]: End processing [ezcord]: success
+[2023-07-02 12:07:35] INFO root fetch - processPackages [TDhelper]: Remove: archive file [/home/abi/fetcher/tmp/TDhelper-2.6.7.tar.gz]
+[2023-07-02 12:07:35] INFO root fetch - processPackages [TDhelper]: Remove: archive file [/home/abi/fetcher/tmp/TDhelper-2.6.8.tar.gz]
+[2023-07-02 12:07:35] INFO root fetch - main [MainThread]: End processing [TDhelper]: success
+[2023-07-02 12:07:35] INFO root fetch - main [MainThread]: Store serial: [18727714]
