@@ -7893,3 +7893,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 12:50:33] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.2b4.tar.gz]
 [2023-07-02 12:50:33] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
 [2023-07-02 12:50:33] INFO root fetch - main [MainThread]: Store serial: [18727986]
+[2023-07-02 12:55:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18727986]
+[2023-07-02 12:55:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-02 12:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robotframework-reportportal-updated
+[2023-07-02 12:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: packly
+[2023-07-02 12:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wqw-example-pkg
+[2023-07-02 12:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vertez
+[2023-07-02 12:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: 1stcaptcha
+[2023-07-02 12:55:42] INFO root fetch - processPackages [robotframework-reportportal-updated]: New version: [1.1.6] Old Version: [1.1.3]
+[2023-07-02 12:55:42] INFO root fetch - processPackages [wqw-example-pkg]: New version: [4.0.1] Old Version: [3.0.1]
+[2023-07-02 12:55:42] WARNING root fetch - processPackages [packly]: Skipping, unable to determine old version
+[2023-07-02 12:55:42] INFO root fetch - main [MainThread]: End processing [packly] error
+[2023-07-02 12:55:42] INFO root fetch - processPackages [wqw-example-pkg]: Downloading https://files.pythonhosted.org/packages/8b/0e/0234283c5565e4c2ab7a38d0bb4a640cecb5c80956bee0fc2f1f72d0af90/wqw_example_pkg-3.0.1.tar.gz
+[2023-07-02 12:55:42] WARNING root fetch - processPackages [1stcaptcha]: Skipping, unable to determine old version
+[2023-07-02 12:55:42] INFO root fetch - main [MainThread]: End processing [1stcaptcha] error
+[2023-07-02 12:55:42] WARNING root fetch - processPackages [vertez]: Skipping, unable to determine old version
+[2023-07-02 12:55:42] INFO root fetch - main [MainThread]: End processing [vertez] error
+[2023-07-02 12:55:43] INFO root fetch - processPackages [robotframework-reportportal-updated]: Downloading https://files.pythonhosted.org/packages/5d/6a/62d8007c34183e0d9ccf9c6c01c1a8d838757b9f871e22593550f945f215/robotframework-reportportal_updated-1.1.3.tar.gz
+[2023-07-02 12:55:43] INFO root fetch - processPackages [wqw-example-pkg]: Downloading https://files.pythonhosted.org/packages/53/38/cf19f92f0914823ce0f1c12d65f58be517cf605e9c1b9a21db264dd6d8d8/wqw_example_pkg-4.0.1.tar.gz
+[2023-07-02 12:55:43] INFO root fetch - processPackages [robotframework-reportportal-updated]: Downloading https://files.pythonhosted.org/packages/8f/ac/81acb5ca8025206bb92e8b5f30c841f3eb46b1a7dfb924525a392783ca68/robotframework-reportportal_updated-1.1.6.tar.gz
+[2023-07-02 12:55:43] INFO root fetch - processPackages [wqw-example-pkg]: executing diffoscope
+[2023-07-02 12:55:43] INFO root fetch - processPackages [wqw-example-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wqw_example_pkg-3.0.1.tar.gz tmp/wqw_example_pkg-4.0.1.tar.gz --markdown 20230702/w/wqw-example-pkg/3.0.1-4.0.1/diff.md --exclude *.pyd
+[2023-07-02 12:55:43] INFO root fetch - processPackages [robotframework-reportportal-updated]: executing diffoscope
+[2023-07-02 12:55:43] INFO root fetch - processPackages [robotframework-reportportal-updated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-reportportal_updated-1.1.3.tar.gz tmp/robotframework-reportportal_updated-1.1.6.tar.gz --markdown 20230702/r/robotframework-reportportal-updated/1.1.3-1.1.6/diff.md --exclude *.pyd
+[2023-07-02 12:55:44] INFO root fetch - processPackages [wqw-example-pkg]: Remove: archive file [/home/abi/fetcher/tmp/wqw_example_pkg-3.0.1.tar.gz]
+[2023-07-02 12:55:44] INFO root fetch - processPackages [wqw-example-pkg]: Remove: archive file [/home/abi/fetcher/tmp/wqw_example_pkg-4.0.1.tar.gz]
+[2023-07-02 12:55:44] INFO root fetch - main [MainThread]: End processing [wqw-example-pkg]: success
+[2023-07-02 12:56:37] INFO root fetch - processPackages [robotframework-reportportal-updated]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-reportportal_updated-1.1.3.tar.gz]
+[2023-07-02 12:56:37] INFO root fetch - processPackages [robotframework-reportportal-updated]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-reportportal_updated-1.1.6.tar.gz]
+[2023-07-02 12:56:37] INFO root fetch - main [MainThread]: End processing [robotframework-reportportal-updated]: success
+[2023-07-02 12:56:37] INFO root fetch - main [MainThread]: Store serial: [18728019]
