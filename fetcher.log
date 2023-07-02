@@ -10685,3 +10685,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 16:45:28] INFO root fetch - processPackages [e-qsl]: Remove: archive file [/home/abi/fetcher/tmp/e-qsl-0.1.9.tar.gz]
 [2023-07-02 16:45:28] INFO root fetch - main [MainThread]: End processing [e-qsl]: success
 [2023-07-02 16:45:28] INFO root fetch - main [MainThread]: Store serial: [18729178]
+[2023-07-02 16:50:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18729178]
+[2023-07-02 16:50:36] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-02 16:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GMM-Demux
+[2023-07-02 16:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: consumptionbackend
+[2023-07-02 16:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: consumptionbackend
+[2023-07-02 16:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rosrestpy
+[2023-07-02 16:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: e-qsl
+[2023-07-02 16:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aicoder
+[2023-07-02 16:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: consumptioncli
+[2023-07-02 16:50:36] INFO root fetch - processPackages [e-qsl]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 16:50:36] INFO root fetch - processPackages [aicoder]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-02 16:50:36] INFO root fetch - processPackages [GMM-Demux]: New version: [0.2.2.1] Old Version: [0.2.2.0]
+[2023-07-02 16:50:36] WARNING root fetch - processPackages [consumptionbackend]: Skipping, unable to determine old version
+[2023-07-02 16:50:36] INFO root fetch - main [MainThread]: End processing [consumptionbackend] error
+[2023-07-02 16:50:36] INFO root fetch - processPackages [rosrestpy]: New version: [0.8.0] Old Version: [0.7.2]
+[2023-07-02 16:50:36] WARNING root fetch - processPackages [consumptionbackend]: Skipping, unable to determine old version
+[2023-07-02 16:50:36] INFO root fetch - main [MainThread]: End processing [consumptionbackend] error
+[2023-07-02 16:50:36] WARNING root fetch - processPackages [consumptioncli]: Skipping, unable to determine old version
+[2023-07-02 16:50:36] INFO root fetch - main [MainThread]: End processing [consumptioncli] error
+[2023-07-02 16:50:37] INFO root fetch - processPackages [e-qsl]: Downloading https://files.pythonhosted.org/packages/1d/e4/f98965ad46a5e52221c2dcd82f071628344eaebbb5dda2e663e2f69749cc/e-qsl-0.1.8.tar.gz
+[2023-07-02 16:50:37] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/dd/11/8f0e36e9614edb84bee65c7deae1666844245395ad6301f332d69e30ccb2/aicoder-0.2.6-py3-none-any.whl
+[2023-07-02 16:50:37] INFO root fetch - processPackages [rosrestpy]: Downloading https://files.pythonhosted.org/packages/c5/78/ea7b164442716916e2099195fa56db7bda489b41567e4df8791507bfdff4/rosrestpy-0.7.2.tar.gz
+[2023-07-02 16:50:37] INFO root fetch - processPackages [GMM-Demux]: Downloading https://files.pythonhosted.org/packages/d2/d9/0ae4c2feaf60bf0658bee0c31fdf07bb6e3d22995648a8ee8c23258722a6/GMM_Demux-0.2.2.0.tar.gz
+[2023-07-02 16:50:37] INFO root fetch - processPackages [e-qsl]: Downloading https://files.pythonhosted.org/packages/53/3b/0affc5c6730054741a521330a3878a5d86a23d03e6c4b7b6222c10bf04b1/e-qsl-0.1.9.tar.gz
+[2023-07-02 16:50:37] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/ea/0a/78509359124c745bb96e3a909a77b6ff52f8e4117081b2ae058b1fc0ce41/aicoder-0.2.7-py3-none-any.whl
+[2023-07-02 16:50:37] INFO root fetch - processPackages [e-qsl]: executing diffoscope
+[2023-07-02 16:50:37] INFO root fetch - processPackages [e-qsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e-qsl-0.1.8.tar.gz tmp/e-qsl-0.1.9.tar.gz --markdown 20230702/e/e-qsl/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 16:50:37] INFO root fetch - processPackages [rosrestpy]: Downloading https://files.pythonhosted.org/packages/e7/04/316c6a93ab6ad119e9f89f2ab9ba4be53fb0fc422bd7d12f2d2b6eb58418/rosrestpy-0.8.0.tar.gz
+[2023-07-02 16:50:37] INFO root fetch - processPackages [aicoder]: executing diffoscope
+[2023-07-02 16:50:37] INFO root fetch - processPackages [aicoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicoder-0.2.6-py3-none-any.whl.zip tmp/aicoder-0.2.7-py3-none-any.whl.zip --markdown 20230702/a/aicoder/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-02 16:50:37] INFO root fetch - processPackages [rosrestpy]: executing diffoscope
+[2023-07-02 16:50:37] INFO root fetch - processPackages [rosrestpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosrestpy-0.7.2.tar.gz tmp/rosrestpy-0.8.0.tar.gz --markdown 20230702/r/rosrestpy/0.7.2-0.8.0/diff.md --exclude *.pyd
+[2023-07-02 16:50:38] INFO root fetch - processPackages [GMM-Demux]: Downloading https://files.pythonhosted.org/packages/33/4c/0778e83d447a7e2ba2751ca1b4710adc5691c9fd5976e7b962161d1aa026/GMM_Demux-0.2.2.1.tar.gz
+[2023-07-02 16:50:38] INFO root fetch - processPackages [GMM-Demux]: executing diffoscope
+[2023-07-02 16:50:38] INFO root fetch - processPackages [GMM-Demux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GMM_Demux-0.2.2.0.tar.gz tmp/GMM_Demux-0.2.2.1.tar.gz --markdown 20230702/G/GMM-Demux/0.2.2.0-0.2.2.1/diff.md --exclude *.pyd
+[2023-07-02 16:50:38] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.2.6-py3-none-any.whl.zip]
+[2023-07-02 16:50:38] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.2.7-py3-none-any.whl.zip]
+[2023-07-02 16:50:38] INFO root fetch - main [MainThread]: End processing [aicoder]: success
+[2023-07-02 16:50:38] INFO root fetch - processPackages [e-qsl]: Remove: archive file [/home/abi/fetcher/tmp/e-qsl-0.1.8.tar.gz]
+[2023-07-02 16:50:38] INFO root fetch - processPackages [e-qsl]: Remove: archive file [/home/abi/fetcher/tmp/e-qsl-0.1.9.tar.gz]
+[2023-07-02 16:50:38] INFO root fetch - main [MainThread]: End processing [e-qsl]: success
+[2023-07-02 16:50:38] INFO root fetch - processPackages [rosrestpy]: Remove: archive file [/home/abi/fetcher/tmp/rosrestpy-0.7.2.tar.gz]
+[2023-07-02 16:50:38] INFO root fetch - processPackages [rosrestpy]: Remove: archive file [/home/abi/fetcher/tmp/rosrestpy-0.8.0.tar.gz]
+[2023-07-02 16:50:38] INFO root fetch - main [MainThread]: End processing [rosrestpy]: success
+[2023-07-02 16:50:40] INFO root fetch - processPackages [GMM-Demux]: Remove: archive file [/home/abi/fetcher/tmp/GMM_Demux-0.2.2.0.tar.gz]
+[2023-07-02 16:50:40] INFO root fetch - processPackages [GMM-Demux]: Remove: archive file [/home/abi/fetcher/tmp/GMM_Demux-0.2.2.1.tar.gz]
+[2023-07-02 16:50:40] INFO root fetch - main [MainThread]: End processing [GMM-Demux]: success
+[2023-07-02 16:50:40] INFO root fetch - main [MainThread]: Store serial: [18729203]
