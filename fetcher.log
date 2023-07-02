@@ -8801,3 +8801,121 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 14:21:30] INFO root fetch - processPackages [jupyterlab-celltagsclasses]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_celltagsclasses-0.3.1.tar.gz]
 [2023-07-02 14:21:30] INFO root fetch - main [MainThread]: End processing [jupyterlab-celltagsclasses]: success
 [2023-07-02 14:21:30] INFO root fetch - main [MainThread]: Store serial: [18728400]
+[2023-07-02 14:26:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18728400]
+[2023-07-02 14:26:40] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-02 14:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: melon-scheduler
+[2023-07-02 14:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arxivai
+[2023-07-02 14:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wpdetect
+[2023-07-02 14:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ccxtools
+[2023-07-02 14:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: upstash-ratelimit
+[2023-07-02 14:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-master
+[2023-07-02 14:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-orca-spark3
+[2023-07-02 14:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-friesian-spark3
+[2023-07-02 14:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-chronos-spark3
+[2023-07-02 14:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: absl-extra
+[2023-07-02 14:26:40] INFO root fetch - processPackages [melon-scheduler]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-02 14:26:40] INFO root fetch - processPackages [upstash-ratelimit]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-02 14:26:40] INFO root fetch - processPackages [wpdetect]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-07-02 14:26:40] INFO root fetch - processPackages [arxivai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 14:26:40] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230702] Old Version: [2.4.0b20230701]
+[2023-07-02 14:26:40] INFO root fetch - processPackages [ccxtools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 14:26:40] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230702.12.22.563987] Old Version: [20230702.11.22.241820]
+[2023-07-02 14:26:40] INFO root fetch - processPackages [absl-extra]: New version: [0.0.2.dev9] Old Version: [0.0.2.dev8]
+[2023-07-02 14:26:40] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230702] Old Version: [2.4.0b20230701]
+[2023-07-02 14:26:40] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230702] Old Version: [2.4.0b20230701]
+[2023-07-02 14:26:40] INFO root fetch - processPackages [melon-scheduler]: Downloading https://files.pythonhosted.org/packages/ec/3d/0179feefa3c279c6e9a6a00802288f5092c5df6c37061a6516f3d2028abf/melon_scheduler-0.1.3.tar.gz
+[2023-07-02 14:26:40] INFO root fetch - processPackages [wpdetect]: Downloading https://files.pythonhosted.org/packages/82/55/0b6ce321dd1cf85265a35986a78aef85bff6c75a067c06aaa41964962e22/wpdetect-1.4.4.tar.gz
+[2023-07-02 14:26:40] INFO root fetch - processPackages [absl-extra]: Downloading https://files.pythonhosted.org/packages/29/92/688b446e3822b3be1951317596cd759c0087642922cd952a1d9bf930d1cd/absl_extra-0.0.2.dev8.tar.gz
+[2023-07-02 14:26:40] INFO root fetch - processPackages [upstash-ratelimit]: Downloading https://files.pythonhosted.org/packages/74/52/29f2c96307d791c5023800d68d6fc0468190a0a26830ed2d7ec5a75ffdb9/upstash_ratelimit-0.3.0.tar.gz
+[2023-07-02 14:26:40] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/06/69/9ecc202a5406765375843c98437499ed114037d362d7c2c4d8cc8862ffe8/certora-cli-alpha-master-20230702.11.22.241820.tar.gz
+[2023-07-02 14:26:40] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 40611033>=10485760
+[2023-07-02 14:26:40] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: bigdl-spark3
+[2023-07-02 14:26:40] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-02 14:26:40] INFO root fetch - processPackages [arxivai]: Downloading https://files.pythonhosted.org/packages/e1/2a/e14d8197ac444b660824efc96ad53058c0350101b717fa49eb0c015099d7/arxivai-0.0.8.tar.gz
+[2023-07-02 14:26:40] INFO root fetch - processPackages [ccxtools]: Downloading https://files.pythonhosted.org/packages/2f/81/ac3ab54ce686eaf6c2cbf0b6b8845dc3abcd2ca613864b7c6c242ffd3c56/ccxtools-0.0.8.tar.gz
+[2023-07-02 14:26:40] INFO root fetch - processPackages [melon-scheduler]: Downloading https://files.pythonhosted.org/packages/54/e5/4b689c6fa6d8ae53e6eeea5b90d9036b9a004b7412a97df170d61087877f/melon_scheduler-0.1.4.tar.gz
+[2023-07-02 14:26:40] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/7f/66/556793a9af734ad396f355b822647b7578cd024d7deba91688bc8ed39e14/bigdl_orca_spark3-2.4.0b20230701-py3-none-manylinux1_x86_64.whl
+[2023-07-02 14:26:40] INFO root fetch - processPackages [wpdetect]: Downloading https://files.pythonhosted.org/packages/c8/25/477893a8fc97ef1b6692df077d3e0da9df88e3c89f4b8aa08a427e8a47ed/wpdetect-1.4.5.tar.gz
+[2023-07-02 14:26:40] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/9c/61/1b407d00de241cd5b02e675834a810e7d6d4c5437eb3057235e1c97e6d80/bigdl_chronos_spark3-2.4.0b20230701-py3-none-manylinux1_x86_64.whl
+[2023-07-02 14:26:40] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/0c/d0/b18cf0227915fb3ef661b0f971fc8d2d42d7db7fd87da0f5baa8f12a728f/bigdl_friesian_spark3-2.4.0b20230701-py3-none-manylinux1_x86_64.whl
+[2023-07-02 14:26:41] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230702] Old Version: [2.4.0b20230701]
+[2023-07-02 14:26:41] INFO root fetch - processPackages [wpdetect]: executing diffoscope
+[2023-07-02 14:26:41] INFO root fetch - processPackages [wpdetect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wpdetect-1.4.4.tar.gz tmp/wpdetect-1.4.5.tar.gz --markdown 20230702/w/wpdetect/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-07-02 14:26:41] INFO root fetch - processPackages [melon-scheduler]: executing diffoscope
+[2023-07-02 14:26:41] INFO root fetch - processPackages [melon-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/melon_scheduler-0.1.3.tar.gz tmp/melon_scheduler-0.1.4.tar.gz --markdown 20230702/m/melon-scheduler/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-02 14:26:41] INFO root fetch - processPackages [upstash-ratelimit]: Downloading https://files.pythonhosted.org/packages/13/51/8e51e5f12cdb40076422a1a089bb638435912017c7a81377988505f7d1af/upstash_ratelimit-0.3.1.tar.gz
+[2023-07-02 14:26:41] INFO root fetch - processPackages [upstash-ratelimit]: executing diffoscope
+[2023-07-02 14:26:41] INFO root fetch - processPackages [upstash-ratelimit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upstash_ratelimit-0.3.0.tar.gz tmp/upstash_ratelimit-0.3.1.tar.gz --markdown 20230702/u/upstash-ratelimit/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-02 14:26:41] INFO root fetch - processPackages [absl-extra]: Downloading https://files.pythonhosted.org/packages/f7/ad/385040ffc5d1a6c7ce24b748fe7932e7fc6f931c5a98bbd7a4f9c8acacfd/absl_extra-0.0.2.dev9.tar.gz
+[2023-07-02 14:26:41] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/72/02/1582c19605f6bfd363897ac0131d61268259c70ba1421149c35617ef521b/bigdl_spark3-2.4.0b20230701-py3-none-manylinux1_x86_64.whl
+[2023-07-02 14:26:41] INFO root fetch - processPackages [arxivai]: Downloading https://files.pythonhosted.org/packages/50/53/aac61452e0dd2d1eb59209b6cf623c394cecccd2f0e5f37c3586f04aa94c/arxivai-0.0.9.tar.gz
+[2023-07-02 14:26:41] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/63/d0/68079d5f42b5bf4f20f623b2407e836dc5fce63d11562e74b73a6460e12c/bigdl_chronos_spark3-2.4.0b20230702-py3-none-manylinux1_x86_64.whl
+[2023-07-02 14:26:41] INFO root fetch - processPackages [ccxtools]: Downloading https://files.pythonhosted.org/packages/4b/e9/6ef44c6be3fb7e41208d0e44d2c881fbe5ece1952bea1b3b096a5201e196/ccxtools-0.0.9.tar.gz
+[2023-07-02 14:26:41] INFO root fetch - processPackages [absl-extra]: executing diffoscope
+[2023-07-02 14:26:41] INFO root fetch - processPackages [absl-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/absl_extra-0.0.2.dev8.tar.gz tmp/absl_extra-0.0.2.dev9.tar.gz --markdown 20230702/a/absl-extra/0.0.2.dev8-0.0.2.dev9/diff.md --exclude *.pyd
+[2023-07-02 14:26:41] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20207758>=10485760
+[2023-07-02 14:26:41] INFO root fetch - processPackages [bigdl-orca-spark3]: Start processing: git-remote-oracle-crazyt
+[2023-07-02 14:26:41] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-07-02 14:26:41] WARNING root fetch - processPackages [git-remote-oracle-crazyt]: Skipping, unable to determine old version
+[2023-07-02 14:26:41] INFO root fetch - processPackages [git-remote-oracle-crazyt]: Start processing: climalysis
+[2023-07-02 14:26:41] INFO root fetch - main [MainThread]: End processing [git-remote-oracle-crazyt] error
+[2023-07-02 14:26:41] INFO root fetch - processPackages [arxivai]: executing diffoscope
+[2023-07-02 14:26:41] INFO root fetch - processPackages [arxivai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arxivai-0.0.8.tar.gz tmp/arxivai-0.0.9.tar.gz --markdown 20230702/a/arxivai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 14:26:41] ERROR root fetch - processPackages [climalysis]: Unable to get metadata: No such project 'climalysis'
+[2023-07-02 14:26:41] INFO root fetch - processPackages [climalysis]: Start processing: authomize-rest-api-client
+[2023-07-02 14:26:41] INFO root fetch - main [MainThread]: End processing [climalysis] error
+[2023-07-02 14:26:41] INFO root fetch - processPackages [ccxtools]: executing diffoscope
+[2023-07-02 14:26:41] INFO root fetch - processPackages [ccxtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxtools-0.0.8.tar.gz tmp/ccxtools-0.0.9.tar.gz --markdown 20230702/c/ccxtools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 14:26:41] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-07-02 14:26:41] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230701-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230702-py3-none-manylinux1_x86_64.whl.zip --markdown 20230702/b/bigdl-chronos-spark3/2.4.0b20230701-2.4.0b20230702/diff.md --exclude *.pyd
+[2023-07-02 14:26:41] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/cd/2c/22d64945c8449656643c4219f09b4058a4cecd9c47b015e40ebffd17588a/bigdl_friesian_spark3-2.4.0b20230702-py3-none-manylinux1_x86_64.whl
+[2023-07-02 14:26:41] INFO root fetch - processPackages [authomize-rest-api-client]: New version: [4.3.1] Old Version: [4.3.0]
+[2023-07-02 14:26:41] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/db/da/8dfd36d352fdb720e8bbbc899c87d776bff9f6e65e8deceba4c20fdae897/bigdl_spark3-2.4.0b20230702-py3-none-manylinux1_x86_64.whl
+[2023-07-02 14:26:41] INFO root fetch - processPackages [authomize-rest-api-client]: Downloading https://files.pythonhosted.org/packages/c8/bd/b567241ac58cbdd769b5ff57a74b242f528b907a7d3a1a08bd2d239ae73c/authomize-rest-api-client-4.3.0.tar.gz
+[2023-07-02 14:26:41] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-07-02 14:26:41] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230701-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230702-py3-none-manylinux1_x86_64.whl.zip --markdown 20230702/b/bigdl-friesian-spark3/2.4.0b20230701-2.4.0b20230702/diff.md --exclude *.pyd
+[2023-07-02 14:26:41] INFO root fetch - processPackages [authomize-rest-api-client]: Downloading https://files.pythonhosted.org/packages/ea/7f/9041a3810bb58a688d2c352ad47d8ed947bf1ed206df9b07dcf13e0f464e/authomize-rest-api-client-4.3.1.tar.gz
+[2023-07-02 14:26:41] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-07-02 14:26:41] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230701-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230702-py3-none-manylinux1_x86_64.whl.zip --markdown 20230702/b/bigdl-spark3/2.4.0b20230701-2.4.0b20230702/diff.md --exclude *.pyd
+[2023-07-02 14:26:41] INFO root fetch - processPackages [authomize-rest-api-client]: executing diffoscope
+[2023-07-02 14:26:41] INFO root fetch - processPackages [authomize-rest-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authomize-rest-api-client-4.3.0.tar.gz tmp/authomize-rest-api-client-4.3.1.tar.gz --markdown 20230702/a/authomize-rest-api-client/4.3.0-4.3.1/diff.md --exclude *.pyd
+[2023-07-02 14:26:42] INFO root fetch - processPackages [wpdetect]: Remove: archive file [/home/abi/fetcher/tmp/wpdetect-1.4.4.tar.gz]
+[2023-07-02 14:26:42] INFO root fetch - processPackages [wpdetect]: Remove: archive file [/home/abi/fetcher/tmp/wpdetect-1.4.5.tar.gz]
+[2023-07-02 14:26:42] INFO root fetch - processPackages [wpdetect]: Start processing: hkkang-utils
+[2023-07-02 14:26:42] INFO root fetch - main [MainThread]: End processing [wpdetect]: success
+[2023-07-02 14:26:42] INFO root fetch - processPackages [hkkang-utils]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-02 14:26:42] INFO root fetch - processPackages [hkkang-utils]: Downloading https://files.pythonhosted.org/packages/e2/b1/253a66cf5551d4fde43848e257bf43fffb8cd6e591e75ce1cc58fe162af1/hkkang_utils-0.2.0.tar.gz
+[2023-07-02 14:26:42] INFO root fetch - processPackages [arxivai]: Remove: archive file [/home/abi/fetcher/tmp/arxivai-0.0.8.tar.gz]
+[2023-07-02 14:26:42] INFO root fetch - processPackages [arxivai]: Remove: archive file [/home/abi/fetcher/tmp/arxivai-0.0.9.tar.gz]
+[2023-07-02 14:26:42] INFO root fetch - main [MainThread]: End processing [arxivai]: success
+[2023-07-02 14:26:42] INFO root fetch - processPackages [ccxtools]: Remove: archive file [/home/abi/fetcher/tmp/ccxtools-0.0.8.tar.gz]
+[2023-07-02 14:26:42] INFO root fetch - processPackages [ccxtools]: Remove: archive file [/home/abi/fetcher/tmp/ccxtools-0.0.9.tar.gz]
+[2023-07-02 14:26:42] INFO root fetch - main [MainThread]: End processing [ccxtools]: success
+[2023-07-02 14:26:43] INFO root fetch - processPackages [hkkang-utils]: Downloading https://files.pythonhosted.org/packages/9c/d4/e66a22bdc847320832d635193ef067af9eb2f652aa30a75b15e804c8d43a/hkkang_utils-0.2.1.tar.gz
+[2023-07-02 14:26:43] INFO root fetch - processPackages [absl-extra]: Remove: archive file [/home/abi/fetcher/tmp/absl_extra-0.0.2.dev8.tar.gz]
+[2023-07-02 14:26:43] INFO root fetch - processPackages [absl-extra]: Remove: archive file [/home/abi/fetcher/tmp/absl_extra-0.0.2.dev9.tar.gz]
+[2023-07-02 14:26:43] INFO root fetch - main [MainThread]: End processing [absl-extra]: success
+[2023-07-02 14:26:43] INFO root fetch - processPackages [upstash-ratelimit]: Remove: archive file [/home/abi/fetcher/tmp/upstash_ratelimit-0.3.0.tar.gz]
+[2023-07-02 14:26:43] INFO root fetch - processPackages [upstash-ratelimit]: Remove: archive file [/home/abi/fetcher/tmp/upstash_ratelimit-0.3.1.tar.gz]
+[2023-07-02 14:26:43] INFO root fetch - main [MainThread]: End processing [upstash-ratelimit]: success
+[2023-07-02 14:26:43] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230701-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-02 14:26:43] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230702-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-02 14:26:43] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-07-02 14:26:43] INFO root fetch - processPackages [melon-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/melon_scheduler-0.1.3.tar.gz]
+[2023-07-02 14:26:43] INFO root fetch - processPackages [melon-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/melon_scheduler-0.1.4.tar.gz]
+[2023-07-02 14:26:43] INFO root fetch - main [MainThread]: End processing [melon-scheduler]: success
+[2023-07-02 14:26:43] INFO root fetch - processPackages [hkkang-utils]: executing diffoscope
+[2023-07-02 14:26:43] INFO root fetch - processPackages [hkkang-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkkang_utils-0.2.0.tar.gz tmp/hkkang_utils-0.2.1.tar.gz --markdown 20230702/h/hkkang-utils/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-02 14:26:43] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230701-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-02 14:26:43] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230702-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-02 14:26:43] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-07-02 14:26:43] INFO root fetch - processPackages [authomize-rest-api-client]: Remove: archive file [/home/abi/fetcher/tmp/authomize-rest-api-client-4.3.0.tar.gz]
+[2023-07-02 14:26:43] INFO root fetch - processPackages [authomize-rest-api-client]: Remove: archive file [/home/abi/fetcher/tmp/authomize-rest-api-client-4.3.1.tar.gz]
+[2023-07-02 14:26:43] INFO root fetch - main [MainThread]: End processing [authomize-rest-api-client]: success
+[2023-07-02 14:26:44] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230701-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-02 14:26:44] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230702-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-02 14:26:44] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-07-02 14:26:44] INFO root fetch - processPackages [hkkang-utils]: Remove: archive file [/home/abi/fetcher/tmp/hkkang_utils-0.2.0.tar.gz]
+[2023-07-02 14:26:44] INFO root fetch - processPackages [hkkang-utils]: Remove: archive file [/home/abi/fetcher/tmp/hkkang_utils-0.2.1.tar.gz]
+[2023-07-02 14:26:44] INFO root fetch - main [MainThread]: End processing [hkkang-utils]: success
+[2023-07-02 14:26:44] INFO root fetch - main [MainThread]: Store serial: [18728448]
