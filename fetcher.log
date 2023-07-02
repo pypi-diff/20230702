@@ -14519,3 +14519,30 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-02 20:52:00] INFO root fetch - processPackages [gs-netsuite-api]: Remove: archive file [/home/abi/fetcher/tmp/gs-netsuite-api-1.2.1.tar.gz]
 [2023-07-02 20:52:00] INFO root fetch - main [MainThread]: End processing [gs-netsuite-api]: success
 [2023-07-02 20:52:00] INFO root fetch - main [MainThread]: Store serial: [18730754]
+[2023-07-02 20:57:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18730754]
+[2023-07-02 20:57:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-02 20:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ask-orex
+[2023-07-02 20:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: roxbot
+[2023-07-02 20:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mbnk
+[2023-07-02 20:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: offat
+[2023-07-02 20:57:09] INFO root fetch - processPackages [roxbot]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-07-02 20:57:09] INFO root fetch - processPackages [mbnk]: New version: [0.1.0a0] Old Version: [0.0.7]
+[2023-07-02 20:57:09] WARNING root fetch - processPackages [ask-orex]: Skipping, unable to determine old version
+[2023-07-02 20:57:09] WARNING root fetch - processPackages [offat]: Skipping, unable to determine old version
+[2023-07-02 20:57:09] INFO root fetch - main [MainThread]: End processing [ask-orex] error
+[2023-07-02 20:57:09] INFO root fetch - main [MainThread]: End processing [offat] error
+[2023-07-02 20:57:09] INFO root fetch - processPackages [mbnk]: Downloading https://files.pythonhosted.org/packages/12/5f/3ce07e7d22d092380ad0ce1f1b8dbaa2f857c97f078b23eb2d2b04f879e1/mbnk-0.0.7.tar.gz
+[2023-07-02 20:57:09] INFO root fetch - processPackages [roxbot]: Downloading https://files.pythonhosted.org/packages/80/a6/635ff90baf604f303fc7efc6a5dd52433e3ac98a1a214a8e40e7dfa42076/roxbot-0.3.1.tar.gz
+[2023-07-02 20:57:09] INFO root fetch - processPackages [mbnk]: Downloading https://files.pythonhosted.org/packages/84/1a/7af37ccee11e9f569277ef4094e94079c6512fd553efa1f24f27803f8eeb/mbnk-0.1.0a0.tar.gz
+[2023-07-02 20:57:10] INFO root fetch - processPackages [mbnk]: executing diffoscope
+[2023-07-02 20:57:10] INFO root fetch - processPackages [mbnk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbnk-0.0.7.tar.gz tmp/mbnk-0.1.0a0.tar.gz --markdown 20230702/m/mbnk/0.0.7-0.1.0a0/diff.md --exclude *.pyd
+[2023-07-02 20:57:10] INFO root fetch - processPackages [roxbot]: Downloading https://files.pythonhosted.org/packages/ce/ed/9542c06ad0d03b0493b62f29982f6799dee3dfc7f48f931c97fa475e8641/roxbot-0.4.0.tar.gz
+[2023-07-02 20:57:10] INFO root fetch - processPackages [roxbot]: executing diffoscope
+[2023-07-02 20:57:10] INFO root fetch - processPackages [roxbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roxbot-0.3.1.tar.gz tmp/roxbot-0.4.0.tar.gz --markdown 20230702/r/roxbot/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-07-02 20:57:11] INFO root fetch - processPackages [mbnk]: Remove: archive file [/home/abi/fetcher/tmp/mbnk-0.0.7.tar.gz]
+[2023-07-02 20:57:11] INFO root fetch - processPackages [mbnk]: Remove: archive file [/home/abi/fetcher/tmp/mbnk-0.1.0a0.tar.gz]
+[2023-07-02 20:57:11] INFO root fetch - main [MainThread]: End processing [mbnk]: success
+[2023-07-02 20:57:11] INFO root fetch - processPackages [roxbot]: Remove: archive file [/home/abi/fetcher/tmp/roxbot-0.3.1.tar.gz]
+[2023-07-02 20:57:11] INFO root fetch - processPackages [roxbot]: Remove: archive file [/home/abi/fetcher/tmp/roxbot-0.4.0.tar.gz]
+[2023-07-02 20:57:11] INFO root fetch - main [MainThread]: End processing [roxbot]: success
+[2023-07-02 20:57:11] INFO root fetch - main [MainThread]: Store serial: [18730770]
