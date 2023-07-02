@@ -1856,3 +1856,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 03:01:07] INFO root fetch - processPackages [SwiftyPy]: Remove: archive file [/home/abi/fetcher/tmp/SwiftyPy-7.1.tar.gz]
 [2023-07-02 03:01:07] INFO root fetch - main [MainThread]: End processing [SwiftyPy]: success
 [2023-07-02 03:01:07] INFO root fetch - main [MainThread]: Store serial: [18725500]
+[2023-07-02 03:06:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18725500]
+[2023-07-02 03:06:36] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-02 03:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-slack-chatbot
+[2023-07-02 03:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: catchem-alpha-zero
+[2023-07-02 03:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SwiftyPy
+[2023-07-02 03:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-databrew-cicd
+[2023-07-02 03:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nsj-rest-lib
+[2023-07-02 03:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pixqrcodegen
+[2023-07-02 03:06:36] WARNING root fetch - processPackages [catchem-alpha-zero]: Skipping, unable to determine old version
+[2023-07-02 03:06:36] INFO root fetch - main [MainThread]: End processing [catchem-alpha-zero] error
+[2023-07-02 03:06:36] INFO root fetch - processPackages [nsj-rest-lib]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-07-02 03:06:36] INFO root fetch - processPackages [pixqrcodegen]: New version: [0.7] Old Version: [0.6]
+[2023-07-02 03:06:36] INFO root fetch - processPackages [SwiftyPy]: New version: [8.1] Old Version: [7.1]
+[2023-07-02 03:06:36] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-02 03:06:36] INFO root fetch - processPackages [cdk-slack-chatbot]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-02 03:06:36] INFO root fetch - processPackages [SwiftyPy]: Downloading https://files.pythonhosted.org/packages/5b/b0/a5f7e2ca8bee2a453925f00e09ff46be431b5547a108fae8e5597bec7b04/SwiftyPy-7.1.tar.gz
+[2023-07-02 03:06:36] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2023-07-02 03:06:37] INFO root fetch - processPackages [nsj-rest-lib]: Downloading https://files.pythonhosted.org/packages/54/37/6ccac787b8d075e4e08ed55642b5bdad4ac9b4fe76e6e61f326a53d13be9/nsj_rest_lib-1.2.1.tar.gz
+[2023-07-02 03:06:37] INFO root fetch - processPackages [pixqrcodegen]: Downloading https://files.pythonhosted.org/packages/fc/7b/50291058cb19751b982c3ad6176a680bd487a87291c8a9729bb3146d0f06/pixqrcodegen-0.6.tar.gz
+[2023-07-02 03:06:37] INFO root fetch - processPackages [cdk-slack-chatbot]: Downloading https://files.pythonhosted.org/packages/18/e1/39c7ef0a63f08b4cdd9206beb69861062b890aa42bf0ead00ce61f92d7e4/cdk-slack-chatbot-1.0.98.tar.gz
+[2023-07-02 03:06:37] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2023-07-02 03:06:37] INFO root fetch - processPackages [nsj-rest-lib]: Downloading https://files.pythonhosted.org/packages/85/f1/244d232bbe2c22808a1117463e5f9e910b8c28a8f8dbbde522a79012bdb1/nsj_rest_lib-1.3.0.tar.gz
+[2023-07-02 03:06:37] INFO root fetch - processPackages [SwiftyPy]: Downloading https://files.pythonhosted.org/packages/fc/42/defc26c4551e5578eb955963330fbac39d58733e19a3c3ff8692784bd188/SwiftyPy-8.1.tar.gz
+[2023-07-02 03:06:37] INFO root fetch - processPackages [cdk-slack-chatbot]: Downloading https://files.pythonhosted.org/packages/12/72/dc851f78a8ed85e11196ca9ee9dd0d9524d10ba5e6a193ae2ce79645cb38/cdk-slack-chatbot-1.0.99.tar.gz
+[2023-07-02 03:06:37] INFO root fetch - processPackages [nsj-rest-lib]: executing diffoscope
+[2023-07-02 03:06:37] INFO root fetch - processPackages [nsj-rest-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsj_rest_lib-1.2.1.tar.gz tmp/nsj_rest_lib-1.3.0.tar.gz --markdown 20230702/n/nsj-rest-lib/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-07-02 03:06:37] INFO root fetch - processPackages [pixqrcodegen]: Downloading https://files.pythonhosted.org/packages/8d/22/fd1b6db385b45ef18ca3510fb795afeac468927a36173c0599c66d172d3d/pixqrcodegen-0.7.tar.gz
+[2023-07-02 03:06:37] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-07-02 03:06:37] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230702/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-02 03:06:37] INFO root fetch - processPackages [pixqrcodegen]: executing diffoscope
+[2023-07-02 03:06:37] INFO root fetch - processPackages [pixqrcodegen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixqrcodegen-0.6.tar.gz tmp/pixqrcodegen-0.7.tar.gz --markdown 20230702/p/pixqrcodegen/0.6-0.7/diff.md --exclude *.pyd
+[2023-07-02 03:06:37] INFO root fetch - processPackages [SwiftyPy]: executing diffoscope
+[2023-07-02 03:06:37] INFO root fetch - processPackages [SwiftyPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SwiftyPy-7.1.tar.gz tmp/SwiftyPy-8.1.tar.gz --markdown 20230702/S/SwiftyPy/7.1-8.1/diff.md --exclude *.pyd
+[2023-07-02 03:06:37] INFO root fetch - processPackages [cdk-slack-chatbot]: executing diffoscope
+[2023-07-02 03:06:37] INFO root fetch - processPackages [cdk-slack-chatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-slack-chatbot-1.0.98.tar.gz tmp/cdk-slack-chatbot-1.0.99.tar.gz --markdown 20230702/c/cdk-slack-chatbot/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-02 03:06:38] INFO root fetch - processPackages [pixqrcodegen]: Remove: archive file [/home/abi/fetcher/tmp/pixqrcodegen-0.6.tar.gz]
+[2023-07-02 03:06:38] INFO root fetch - processPackages [pixqrcodegen]: Remove: archive file [/home/abi/fetcher/tmp/pixqrcodegen-0.7.tar.gz]
+[2023-07-02 03:06:38] INFO root fetch - main [MainThread]: End processing [pixqrcodegen]: success
+[2023-07-02 03:06:38] INFO root fetch - processPackages [nsj-rest-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_rest_lib-1.2.1.tar.gz]
+[2023-07-02 03:06:38] INFO root fetch - processPackages [nsj-rest-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_rest_lib-1.3.0.tar.gz]
+[2023-07-02 03:06:38] INFO root fetch - main [MainThread]: End processing [nsj-rest-lib]: success
+[2023-07-02 03:06:38] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2023-07-02 03:06:38] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2023-07-02 03:06:38] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-07-02 03:07:21] INFO root fetch - processPackages [SwiftyPy]: Remove: archive file [/home/abi/fetcher/tmp/SwiftyPy-7.1.tar.gz]
+[2023-07-02 03:07:21] INFO root fetch - processPackages [SwiftyPy]: Remove: archive file [/home/abi/fetcher/tmp/SwiftyPy-8.1.tar.gz]
+[2023-07-02 03:07:21] INFO root fetch - main [MainThread]: End processing [SwiftyPy]: success
+[2023-07-02 03:07:32] INFO root fetch - processPackages [cdk-slack-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/cdk-slack-chatbot-1.0.98.tar.gz]
+[2023-07-02 03:07:32] INFO root fetch - processPackages [cdk-slack-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/cdk-slack-chatbot-1.0.99.tar.gz]
+[2023-07-02 03:07:32] INFO root fetch - main [MainThread]: End processing [cdk-slack-chatbot]: success
+[2023-07-02 03:07:32] INFO root fetch - main [MainThread]: Store serial: [18725520]
