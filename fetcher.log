@@ -7473,3 +7473,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 12:19:35] INFO root fetch - processPackages [sqllineage]: Remove: archive file [/home/abi/fetcher/tmp/sqllineage-1.4.5.tar.gz]
 [2023-07-02 12:19:35] INFO root fetch - main [MainThread]: End processing [sqllineage]: success
 [2023-07-02 12:19:35] INFO root fetch - main [MainThread]: Store serial: [18727779]
+[2023-07-02 12:24:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18727779]
+[2023-07-02 12:24:57] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-02 12:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bookio-fetchfox
+[2023-07-02 12:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deaddrops
+[2023-07-02 12:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumiverse-purrl
+[2023-07-02 12:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sincei
+[2023-07-02 12:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scinumtools
+[2023-07-02 12:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torf
+[2023-07-02 12:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hyfi-template
+[2023-07-02 12:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pywpsrpc
+[2023-07-02 12:24:57] INFO root fetch - processPackages [sincei]: New version: [0.3.1] Old Version: [0.3]
+[2023-07-02 12:24:57] INFO root fetch - processPackages [bookio-fetchfox]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-02 12:24:57] INFO root fetch - processPackages [pulumiverse-purrl]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-02 12:24:57] WARNING root fetch - processPackages [deaddrops]: Skipping, unable to determine old version
+[2023-07-02 12:24:57] INFO root fetch - main [MainThread]: End processing [deaddrops] error
+[2023-07-02 12:24:57] INFO root fetch - processPackages [torf]: New version: [4.2.1] Old Version: [4.2.0]
+[2023-07-02 12:24:57] INFO root fetch - processPackages [hyfi-template]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-02 12:24:57] INFO root fetch - processPackages [scinumtools]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-07-02 12:24:57] INFO root fetch - processPackages [scinumtools]: Downloading https://files.pythonhosted.org/packages/8e/78/d1280434b6ea3762d0a598ecebfb6c5ee575d7d84861fb7d8f00f3cc2899/scinumtools-1.6.0.tar.gz
+[2023-07-02 12:24:57] INFO root fetch - processPackages [pywpsrpc]: New version: [2.3.7] Old Version: [2.3.6]
+[2023-07-02 12:24:57] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/de/d2/3a18537d4af2f791ca4ac2c96432acb2b60bc28e0a3bde512d17945062bc/hyfi_template-0.3.8.tar.gz
+[2023-07-02 12:24:57] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/48/ba/fe131fd4808024281f0131e7b098d5774dcca4ae3bec36f87992e4816083/bookio_fetchfox-0.9.4.tar.gz
+[2023-07-02 12:24:57] INFO root fetch - processPackages [sincei]: Downloading https://files.pythonhosted.org/packages/56/a8/c2066f6a2f8da6cedca1267da4321f584b6dd7507c4f1b433b960bf94908/sincei-0.3.tar.gz
+[2023-07-02 12:24:57] INFO root fetch - processPackages [torf]: Downloading https://files.pythonhosted.org/packages/a8/88/2910afbe4109534128a4913fd2590eb8d41ee86d5d761baace5281bbe213/torf-4.2.0.tar.gz
+[2023-07-02 12:24:57] INFO root fetch - processPackages [pulumiverse-purrl]: Downloading https://files.pythonhosted.org/packages/d8/2a/63397789b5fb54c2538389df30302ecf3b68d5c110893a2b19bfb2325478/pulumiverse_purrl-0.4.0.tar.gz
+[2023-07-02 12:24:57] INFO root fetch - processPackages [pywpsrpc]: Downloading https://files.pythonhosted.org/packages/8c/10/184b06650ebc6f0565c80977f1d61344d77922f66553b69556a1e2905a21/pywpsrpc-2.3.6.tar.gz
+[2023-07-02 12:24:57] INFO root fetch - processPackages [scinumtools]: Downloading https://files.pythonhosted.org/packages/b2/e5/581ecbf7141f8ea8436ef923dcc2a8ca6d0e0e52667ad7937df84a5e17e5/scinumtools-1.6.1.tar.gz
+[2023-07-02 12:24:57] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/75/ea/0ec148cecd1924c30e81ff63d276ade389cc674d2356eb6b5d1cad33da5a/bookio_fetchfox-0.9.5.tar.gz
+[2023-07-02 12:24:57] INFO root fetch - processPackages [scinumtools]: executing diffoscope
+[2023-07-02 12:24:57] INFO root fetch - processPackages [scinumtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scinumtools-1.6.0.tar.gz tmp/scinumtools-1.6.1.tar.gz --markdown 20230702/s/scinumtools/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-07-02 12:24:57] INFO root fetch - processPackages [bookio-fetchfox]: executing diffoscope
+[2023-07-02 12:24:57] INFO root fetch - processPackages [bookio-fetchfox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bookio_fetchfox-0.9.4.tar.gz tmp/bookio_fetchfox-0.9.5.tar.gz --markdown 20230702/b/bookio-fetchfox/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-02 12:24:57] INFO root fetch - processPackages [sincei]: Downloading https://files.pythonhosted.org/packages/09/a3/b0edf22745f19063de23b194353b7ec23bdb15b127a2c8e7cc5004da3336/sincei-0.3.1.tar.gz
+[2023-07-02 12:24:57] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/52/9d/a59bbe37a7a9fecd2074109613b3d488a7d0e727283141375549eedf064e/hyfi_template-0.3.9.tar.gz
+[2023-07-02 12:24:57] INFO root fetch - processPackages [torf]: Downloading https://files.pythonhosted.org/packages/8a/dc/65037e45600341d5b0e1b6d70e86e09e96bbde820ef4c6c7b29b08588f43/torf-4.2.1.tar.gz
+[2023-07-02 12:24:57] INFO root fetch - processPackages [pulumiverse-purrl]: Downloading https://files.pythonhosted.org/packages/e6/6f/92226a538bc8db244d28fb711db5b06b2d58f75d896be986c627c0ea2aa1/pulumiverse_purrl-0.4.1.tar.gz
+[2023-07-02 12:24:57] INFO root fetch - processPackages [pulumiverse-purrl]: executing diffoscope
+[2023-07-02 12:24:57] INFO root fetch - processPackages [pulumiverse-purrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_purrl-0.4.0.tar.gz tmp/pulumiverse_purrl-0.4.1.tar.gz --markdown 20230702/p/pulumiverse-purrl/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-02 12:24:57] INFO root fetch - processPackages [hyfi-template]: executing diffoscope
+[2023-07-02 12:24:57] INFO root fetch - processPackages [hyfi-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi_template-0.3.8.tar.gz tmp/hyfi_template-0.3.9.tar.gz --markdown 20230702/h/hyfi-template/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-02 12:24:57] INFO root fetch - processPackages [sincei]: executing diffoscope
+[2023-07-02 12:24:57] INFO root fetch - processPackages [sincei]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sincei-0.3.tar.gz tmp/sincei-0.3.1.tar.gz --markdown 20230702/s/sincei/0.3-0.3.1/diff.md --exclude *.pyd
+[2023-07-02 12:24:58] INFO root fetch - processPackages [torf]: executing diffoscope
+[2023-07-02 12:24:58] INFO root fetch - processPackages [torf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torf-4.2.0.tar.gz tmp/torf-4.2.1.tar.gz --markdown 20230702/t/torf/4.2.0-4.2.1/diff.md --exclude *.pyd
+[2023-07-02 12:24:58] INFO root fetch - processPackages [pywpsrpc]: Downloading https://files.pythonhosted.org/packages/db/97/c0c668f1acb9d723064a3025ea7ccd568cb5676ef47a5ebc782f60238f5a/pywpsrpc-2.3.7.tar.gz
+[2023-07-02 12:24:59] INFO root fetch - processPackages [pulumiverse-purrl]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_purrl-0.4.0.tar.gz]
+[2023-07-02 12:24:59] INFO root fetch - processPackages [pulumiverse-purrl]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_purrl-0.4.1.tar.gz]
+[2023-07-02 12:24:59] INFO root fetch - main [MainThread]: End processing [pulumiverse-purrl]: success
+[2023-07-02 12:24:59] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.9.4.tar.gz]
+[2023-07-02 12:24:59] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.9.5.tar.gz]
+[2023-07-02 12:24:59] INFO root fetch - main [MainThread]: End processing [bookio-fetchfox]: success
+[2023-07-02 12:24:59] INFO root fetch - processPackages [scinumtools]: Remove: archive file [/home/abi/fetcher/tmp/scinumtools-1.6.0.tar.gz]
+[2023-07-02 12:24:59] INFO root fetch - processPackages [scinumtools]: Remove: archive file [/home/abi/fetcher/tmp/scinumtools-1.6.1.tar.gz]
+[2023-07-02 12:24:59] INFO root fetch - main [MainThread]: End processing [scinumtools]: success
+[2023-07-02 12:24:59] INFO root fetch - processPackages [hyfi-template]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_template-0.3.8.tar.gz]
+[2023-07-02 12:24:59] INFO root fetch - processPackages [hyfi-template]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_template-0.3.9.tar.gz]
+[2023-07-02 12:24:59] INFO root fetch - main [MainThread]: End processing [hyfi-template]: success
+[2023-07-02 12:24:59] INFO root fetch - processPackages [sincei]: Remove: archive file [/home/abi/fetcher/tmp/sincei-0.3.tar.gz]
+[2023-07-02 12:24:59] INFO root fetch - processPackages [sincei]: Remove: archive file [/home/abi/fetcher/tmp/sincei-0.3.1.tar.gz]
+[2023-07-02 12:24:59] INFO root fetch - main [MainThread]: End processing [sincei]: success
+[2023-07-02 12:24:59] INFO root fetch - processPackages [torf]: Remove: archive file [/home/abi/fetcher/tmp/torf-4.2.0.tar.gz]
+[2023-07-02 12:24:59] INFO root fetch - processPackages [torf]: Remove: archive file [/home/abi/fetcher/tmp/torf-4.2.1.tar.gz]
+[2023-07-02 12:24:59] INFO root fetch - main [MainThread]: End processing [torf]: success
+[2023-07-02 12:25:00] INFO root fetch - processPackages [pywpsrpc]: executing diffoscope
+[2023-07-02 12:25:00] INFO root fetch - processPackages [pywpsrpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywpsrpc-2.3.6.tar.gz tmp/pywpsrpc-2.3.7.tar.gz --markdown 20230702/p/pywpsrpc/2.3.6-2.3.7/diff.md --exclude *.pyd
+[2023-07-02 12:25:20] INFO root fetch - processPackages [pywpsrpc]: Remove: archive file [/home/abi/fetcher/tmp/pywpsrpc-2.3.6.tar.gz]
+[2023-07-02 12:25:20] INFO root fetch - processPackages [pywpsrpc]: Remove: archive file [/home/abi/fetcher/tmp/pywpsrpc-2.3.7.tar.gz]
+[2023-07-02 12:25:20] INFO root fetch - main [MainThread]: End processing [pywpsrpc]: success
+[2023-07-02 12:25:20] INFO root fetch - main [MainThread]: Store serial: [18727810]
