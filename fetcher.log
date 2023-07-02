@@ -9464,3 +9464,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 15:10:13] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-2.9.1.tar.gz]
 [2023-07-02 15:10:13] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bilichat]: success
 [2023-07-02 15:10:13] INFO root fetch - main [MainThread]: Store serial: [18728672]
+[2023-07-02 15:15:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18728672]
+[2023-07-02 15:15:22] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-02 15:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyterlab-celltagsclasses
+[2023-07-02 15:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-pandas
+[2023-07-02 15:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-password-security
+[2023-07-02 15:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: starknet-skproof
+[2023-07-02 15:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fa-models
+[2023-07-02 15:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-pytorch
+[2023-07-02 15:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-auth-saml
+[2023-07-02 15:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-scipy
+[2023-07-02 15:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: b2sim
+[2023-07-02 15:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oarepo-cli
+[2023-07-02 15:15:22] INFO root fetch - processPackages [jupyterlab-celltagsclasses]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-02 15:15:22] INFO root fetch - processPackages [odoo-addon-password-security]: New version: [15.0.1.1.4] Old Version: [15.0.1.1.3]
+[2023-07-02 15:15:22] INFO root fetch - processPackages [b2sim]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-02 15:15:22] INFO root fetch - processPackages [fa-models]: New version: [1.0.72] Old Version: [1.0.70]
+[2023-07-02 15:15:22] INFO root fetch - processPackages [odoo-addon-auth-saml]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.3]
+[2023-07-02 15:15:22] INFO root fetch - processPackages [oarepo-cli]: New version: [11.1.2] Old Version: [11.1.1]
+[2023-07-02 15:15:22] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-02 15:15:22] WARNING root fetch - processPackages [starknet-skproof]: Skipping, unable to determine old version
+[2023-07-02 15:15:22] INFO root fetch - processPackages [odoo-addon-password-security]: Downloading https://files.pythonhosted.org/packages/35/ff/195efd0a818eace0d784525747e43285d6666ed9e088b9664fec2c7b966b/odoo_addon_password_security-15.0.1.1.3-py3-none-any.whl
+[2023-07-02 15:15:22] INFO root fetch - main [MainThread]: End processing [starknet-skproof] error
+[2023-07-02 15:15:22] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-02 15:15:22] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/20/94/7056ba8dce4a8b66ad2367d488c44bc878e925662217d08f5d7594d09aef/fa-models-1.0.70.tar.gz
+[2023-07-02 15:15:22] INFO root fetch - processPackages [jupyterlab-celltagsclasses]: Downloading https://files.pythonhosted.org/packages/3e/b7/9512db1542d8f717f6eb7378b3249ce0a2bb0899bf41a5e052ef3e66d788/jupyterlab_celltagsclasses-0.3.1.tar.gz
+[2023-07-02 15:15:22] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-02 15:15:22] INFO root fetch - processPackages [b2sim]: Downloading https://files.pythonhosted.org/packages/0a/7d/452d267373c861263d76edb4e1609a7d1e7ae815e8d9b42e313ae3e55bf6/b2sim-1.0.4.tar.gz
+[2023-07-02 15:15:22] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-07-02 15:15:22] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-07-02 15:15:22] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-07-02 15:15:22] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/97/6a/0a8eb77111efd0e71f598c626d538896e2da409919a3c7747d1e0e535b9c/oarepo-cli-11.1.1.tar.gz
+[2023-07-02 15:15:22] INFO root fetch - processPackages [odoo-addon-auth-saml]: Downloading https://files.pythonhosted.org/packages/31/6d/4e81ef590c31f40dcf3d1eaec4d282661696ebebf12996c506661baa849a/odoo_addon_auth_saml-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-02 15:15:22] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-07-02 15:15:22] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-07-02 15:15:22] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/08/18/a7c30ba69490ccca1ea59cb1b455393a409663ba2014a2a084a9a2925467/fa-models-1.0.72.tar.gz
+[2023-07-02 15:15:22] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-07-02 15:15:22] INFO root fetch - processPackages [odoo-addon-password-security]: Downloading https://files.pythonhosted.org/packages/7f/7f/ce7c209fbcbeea499a7193e142f84dd3398634c3930b7f5873f16839609a/odoo_addon_password_security-15.0.1.1.4-py3-none-any.whl
+[2023-07-02 15:15:22] INFO root fetch - processPackages [jupyterlab-celltagsclasses]: Downloading https://files.pythonhosted.org/packages/02/ab/96e6647c90b9978eca56f191a2929edd57b76be9ce62d1c23ea74471cefd/jupyterlab_celltagsclasses-0.3.2.tar.gz
+[2023-07-02 15:15:22] INFO root fetch - processPackages [b2sim]: Downloading https://files.pythonhosted.org/packages/57/e7/ffc705d69e0bcdbb81efa52d2deb234edf2fa194dae3a0a6c07bd3e8d43f/b2sim-1.0.5.tar.gz
+[2023-07-02 15:15:23] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-07-02 15:15:23] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230702/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-02 15:15:23] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-07-02 15:15:23] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230702/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-02 15:15:23] INFO root fetch - processPackages [fa-models]: executing diffoscope
+[2023-07-02 15:15:23] INFO root fetch - processPackages [fa-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fa-models-1.0.70.tar.gz tmp/fa-models-1.0.72.tar.gz --markdown 20230702/f/fa-models/1.0.70-1.0.72/diff.md --exclude *.pyd
+[2023-07-02 15:15:23] INFO root fetch - processPackages [odoo-addon-auth-saml]: Downloading https://files.pythonhosted.org/packages/7c/51/2f236d00a308c57e06c5da7193dc52cfb12e52eb749b20ad8e9e70087cca/odoo_addon_auth_saml-16.0.1.0.1-py3-none-any.whl
+[2023-07-02 15:15:23] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-07-02 15:15:23] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230702/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-02 15:15:23] INFO root fetch - processPackages [jupyterlab-celltagsclasses]: executing diffoscope
+[2023-07-02 15:15:23] INFO root fetch - processPackages [jupyterlab-celltagsclasses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_celltagsclasses-0.3.1.tar.gz tmp/jupyterlab_celltagsclasses-0.3.2.tar.gz --markdown 20230702/j/jupyterlab-celltagsclasses/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-02 15:15:23] INFO root fetch - processPackages [odoo-addon-password-security]: executing diffoscope
+[2023-07-02 15:15:23] INFO root fetch - processPackages [odoo-addon-password-security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_password_security-15.0.1.1.3-py3-none-any.whl.zip tmp/odoo_addon_password_security-15.0.1.1.4-py3-none-any.whl.zip --markdown 20230702/o/odoo-addon-password-security/15.0.1.1.3-15.0.1.1.4/diff.md --exclude *.pyd
+[2023-07-02 15:15:23] INFO root fetch - processPackages [b2sim]: executing diffoscope
+[2023-07-02 15:15:23] INFO root fetch - processPackages [b2sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b2sim-1.0.4.tar.gz tmp/b2sim-1.0.5.tar.gz --markdown 20230702/b/b2sim/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-02 15:15:23] INFO root fetch - processPackages [odoo-addon-auth-saml]: executing diffoscope
+[2023-07-02 15:15:23] INFO root fetch - processPackages [odoo-addon-auth-saml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_auth_saml-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_auth_saml-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230702/o/odoo-addon-auth-saml/16.0.1.0.0.3-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-07-02 15:15:24] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/7d/2c/cafb170f394b43cdbbdf786f8cd093f87d3d560c9a8520cb21c824fe5135/oarepo-cli-11.1.2.tar.gz
+[2023-07-02 15:15:24] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-07-02 15:15:24] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-07-02 15:15:24] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-07-02 15:15:24] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-07-02 15:15:24] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-07-02 15:15:24] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-07-02 15:15:24] INFO root fetch - processPackages [b2sim]: Remove: archive file [/home/abi/fetcher/tmp/b2sim-1.0.4.tar.gz]
+[2023-07-02 15:15:24] INFO root fetch - processPackages [b2sim]: Remove: archive file [/home/abi/fetcher/tmp/b2sim-1.0.5.tar.gz]
+[2023-07-02 15:15:24] INFO root fetch - main [MainThread]: End processing [b2sim]: success
+[2023-07-02 15:15:24] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.70.tar.gz]
+[2023-07-02 15:15:24] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.72.tar.gz]
+[2023-07-02 15:15:24] INFO root fetch - main [MainThread]: End processing [fa-models]: success
+[2023-07-02 15:15:25] INFO root fetch - processPackages [odoo-addon-password-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_password_security-15.0.1.1.3-py3-none-any.whl.zip]
+[2023-07-02 15:15:25] INFO root fetch - processPackages [odoo-addon-password-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_password_security-15.0.1.1.4-py3-none-any.whl.zip]
+[2023-07-02 15:15:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-password-security]: success
+[2023-07-02 15:15:25] INFO root fetch - processPackages [oarepo-cli]: executing diffoscope
+[2023-07-02 15:15:25] INFO root fetch - processPackages [oarepo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-cli-11.1.1.tar.gz tmp/oarepo-cli-11.1.2.tar.gz --markdown 20230702/o/oarepo-cli/11.1.1-11.1.2/diff.md --exclude *.pyd
+[2023-07-02 15:15:27] INFO root fetch - processPackages [jupyterlab-celltagsclasses]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_celltagsclasses-0.3.1.tar.gz]
+[2023-07-02 15:15:27] INFO root fetch - processPackages [jupyterlab-celltagsclasses]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_celltagsclasses-0.3.2.tar.gz]
+[2023-07-02 15:15:27] INFO root fetch - main [MainThread]: End processing [jupyterlab-celltagsclasses]: success
+[2023-07-02 15:15:29] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.1.tar.gz]
+[2023-07-02 15:15:29] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.2.tar.gz]
+[2023-07-02 15:15:29] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
+[2023-07-02 15:16:18] INFO root fetch - processPackages [odoo-addon-auth-saml]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_saml-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-02 15:16:18] INFO root fetch - processPackages [odoo-addon-auth-saml]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_saml-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-02 15:16:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-auth-saml]: success
+[2023-07-02 15:16:20] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-07-02 15:16:20] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-07-02 15:16:20] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-07-02 15:16:20] INFO root fetch - main [MainThread]: Store serial: [18728704]
