@@ -6763,3 +6763,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 11:15:15] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
 [2023-07-02 11:15:15] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2023-07-02 11:15:15] INFO root fetch - main [MainThread]: Store serial: [18727463]
+[2023-07-02 11:20:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18727463]
+[2023-07-02 11:20:23] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-02 11:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openai-api-call
+[2023-07-02 11:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deairequest
+[2023-07-02 11:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oidc-drf
+[2023-07-02 11:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyperf2
+[2023-07-02 11:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gnssrefl
+[2023-07-02 11:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-yapi
+[2023-07-02 11:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fa-models
+[2023-07-02 11:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spanishconjugator
+[2023-07-02 11:20:23] INFO root fetch - processPackages [openai-api-call]: New version: [0.6.0] Old Version: [0.5.3]
+[2023-07-02 11:20:23] INFO root fetch - processPackages [deairequest]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-02 11:20:23] INFO root fetch - processPackages [pyperf2]: New version: [0.4] Old Version: [0.3.1]
+[2023-07-02 11:20:23] INFO root fetch - processPackages [python-yapi]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-02 11:20:23] INFO root fetch - processPackages [oidc-drf]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-02 11:20:23] INFO root fetch - processPackages [fa-models]: New version: [1.0.68] Old Version: [1.0.67]
+[2023-07-02 11:20:23] INFO root fetch - processPackages [gnssrefl]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-07-02 11:20:23] INFO root fetch - processPackages [deairequest]: Downloading https://files.pythonhosted.org/packages/ba/1e/a7357f1ee6c0887a4a42e530b6861aeb02a0f6ca848a1e74f3ffbad7b0dc/deairequest-0.0.8.tar.gz
+[2023-07-02 11:20:23] INFO root fetch - processPackages [python-yapi]: Downloading https://files.pythonhosted.org/packages/f7/d5/3c6b0e6c3cd791f32f0c6fbcba3bca3bd526198ff69fbe3ac0485f56cc03/python-yapi-0.1.1.tar.gz
+[2023-07-02 11:20:23] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/e7/2d/1bd253dbab52124cfb589795e1b577192c4fd47a491e9d821425ca2fc30a/fa-models-1.0.67.tar.gz
+[2023-07-02 11:20:23] INFO root fetch - processPackages [openai-api-call]: Downloading https://files.pythonhosted.org/packages/c4/c7/fd81d26a3b0f879ec3cdc0081ba431bfde78d445eeb579ae67c425e73bba/openai_api_call-0.5.3.tar.gz
+[2023-07-02 11:20:23] INFO root fetch - processPackages [pyperf2]: Downloading https://files.pythonhosted.org/packages/40/85/6c42ac9b73c3e1e9211aee3ac91a02323c3d74d01418ed74e3c71c6b2f2b/pyperf2-0.3.1-py3-none-any.whl
+[2023-07-02 11:20:24] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-02 11:20:24] INFO root fetch - processPackages [gnssrefl]: Downloading https://files.pythonhosted.org/packages/a4/5c/f49ad56cf2935d22d1328bf9170ea052b2eef9de33ec9d65022e09364bfd/gnssrefl-1.3.7.tar.gz
+[2023-07-02 11:20:24] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-02 11:20:24] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/ce/93/454761ede9344d68511818d9508a124582284cce54be94c293e1f360d701/oidc_drf-1.0.7.tar.gz
+[2023-07-02 11:20:24] INFO root fetch - processPackages [deairequest]: Downloading https://files.pythonhosted.org/packages/fe/6a/17a98fe8650785a2e2a0ed1fdd780e64cdee8f3a619be6b8d3456baeb877/deairequest-0.0.9.tar.gz
+[2023-07-02 11:20:24] INFO root fetch - processPackages [deairequest]: executing diffoscope
+[2023-07-02 11:20:24] INFO root fetch - processPackages [deairequest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deairequest-0.0.8.tar.gz tmp/deairequest-0.0.9.tar.gz --markdown 20230702/d/deairequest/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-02 11:20:24] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/cc/d4/bfd94cf998b430e7c8acc6097ec98ee82f1aa2fe25bb0791daa66efc49a5/fa-models-1.0.68.tar.gz
+[2023-07-02 11:20:24] INFO root fetch - processPackages [openai-api-call]: Downloading https://files.pythonhosted.org/packages/33/f8/f961b6a662a1d9ea5afec48a71a20b6c515d55c718acb740193a16e97d74/openai_api_call-0.6.0.tar.gz
+[2023-07-02 11:20:24] INFO root fetch - processPackages [python-yapi]: Downloading https://files.pythonhosted.org/packages/80/64/1ad1ff58bd9d5ab4d6a5132bca691df75d7c576dd2d4aa40812446fab8a8/python_yapi-0.1.2.tar.gz
+[2023-07-02 11:20:24] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-02 11:20:24] INFO root fetch - processPackages [pyperf2]: Downloading https://files.pythonhosted.org/packages/35/5b/21ae5f11c46c0ada155fa5d76c53a914438e1476a315dba0960f6af25993/pyperf2-0.4-py3-none-any.whl
+[2023-07-02 11:20:24] INFO root fetch - processPackages [fa-models]: executing diffoscope
+[2023-07-02 11:20:24] INFO root fetch - processPackages [fa-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fa-models-1.0.67.tar.gz tmp/fa-models-1.0.68.tar.gz --markdown 20230702/f/fa-models/1.0.67-1.0.68/diff.md --exclude *.pyd
+[2023-07-02 11:20:24] INFO root fetch - processPackages [openai-api-call]: executing diffoscope
+[2023-07-02 11:20:24] INFO root fetch - processPackages [openai-api-call]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_api_call-0.5.3.tar.gz tmp/openai_api_call-0.6.0.tar.gz --markdown 20230702/o/openai-api-call/0.5.3-0.6.0/diff.md --exclude *.pyd
+[2023-07-02 11:20:24] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/68/9c/dfd2ae2a5dacafd614f4d4c352c6125c2640e9e04ba204cf253952d67b80/oidc_drf-1.0.8.tar.gz
+[2023-07-02 11:20:24] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-02 11:20:24] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230702/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-02 11:20:24] INFO root fetch - processPackages [pyperf2]: executing diffoscope
+[2023-07-02 11:20:24] INFO root fetch - processPackages [pyperf2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyperf2-0.3.1-py3-none-any.whl.zip tmp/pyperf2-0.4-py3-none-any.whl.zip --markdown 20230702/p/pyperf2/0.3.1-0.4/diff.md --exclude *.pyd
+[2023-07-02 11:20:24] INFO root fetch - processPackages [python-yapi]: executing diffoscope
+[2023-07-02 11:20:24] INFO root fetch - processPackages [python-yapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-yapi-0.1.1.tar.gz tmp/python_yapi-0.1.2.tar.gz --markdown 20230702/p/python-yapi/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-02 11:20:24] INFO root fetch - processPackages [oidc-drf]: executing diffoscope
+[2023-07-02 11:20:24] INFO root fetch - processPackages [oidc-drf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oidc_drf-1.0.7.tar.gz tmp/oidc_drf-1.0.8.tar.gz --markdown 20230702/o/oidc-drf/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-02 11:20:25] INFO root fetch - processPackages [deairequest]: Remove: archive file [/home/abi/fetcher/tmp/deairequest-0.0.8.tar.gz]
+[2023-07-02 11:20:25] INFO root fetch - processPackages [deairequest]: Remove: archive file [/home/abi/fetcher/tmp/deairequest-0.0.9.tar.gz]
+[2023-07-02 11:20:25] INFO root fetch - main [MainThread]: End processing [deairequest]: success
+[2023-07-02 11:20:25] INFO root fetch - processPackages [openai-api-call]: Remove: archive file [/home/abi/fetcher/tmp/openai_api_call-0.5.3.tar.gz]
+[2023-07-02 11:20:25] INFO root fetch - processPackages [openai-api-call]: Remove: archive file [/home/abi/fetcher/tmp/openai_api_call-0.6.0.tar.gz]
+[2023-07-02 11:20:25] INFO root fetch - main [MainThread]: End processing [openai-api-call]: success
+[2023-07-02 11:20:25] INFO root fetch - processPackages [pyperf2]: Remove: archive file [/home/abi/fetcher/tmp/pyperf2-0.3.1-py3-none-any.whl.zip]
+[2023-07-02 11:20:25] INFO root fetch - processPackages [pyperf2]: Remove: archive file [/home/abi/fetcher/tmp/pyperf2-0.4-py3-none-any.whl.zip]
+[2023-07-02 11:20:25] INFO root fetch - main [MainThread]: End processing [pyperf2]: success
+[2023-07-02 11:20:25] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.0.7.tar.gz]
+[2023-07-02 11:20:25] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.0.8.tar.gz]
+[2023-07-02 11:20:25] INFO root fetch - main [MainThread]: End processing [oidc-drf]: success
+[2023-07-02 11:20:25] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.67.tar.gz]
+[2023-07-02 11:20:25] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.68.tar.gz]
+[2023-07-02 11:20:25] INFO root fetch - main [MainThread]: End processing [fa-models]: success
+[2023-07-02 11:20:25] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-02 11:20:25] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-02 11:20:25] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-02 11:20:25] INFO root fetch - processPackages [python-yapi]: Remove: archive file [/home/abi/fetcher/tmp/python-yapi-0.1.1.tar.gz]
+[2023-07-02 11:20:25] INFO root fetch - processPackages [python-yapi]: Remove: archive file [/home/abi/fetcher/tmp/python_yapi-0.1.2.tar.gz]
+[2023-07-02 11:20:25] INFO root fetch - main [MainThread]: End processing [python-yapi]: success
+[2023-07-02 11:20:26] INFO root fetch - processPackages [gnssrefl]: Downloading https://files.pythonhosted.org/packages/58/ca/e783ec5ced96c271dfccce3e4af083e94ee3baec149a1e2374beb8c43fdf/gnssrefl-1.3.8.tar.gz
+[2023-07-02 11:20:27] INFO root fetch - processPackages [gnssrefl]: executing diffoscope
+[2023-07-02 11:20:27] INFO root fetch - processPackages [gnssrefl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnssrefl-1.3.7.tar.gz tmp/gnssrefl-1.3.8.tar.gz --markdown 20230702/g/gnssrefl/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-07-02 11:20:32] INFO root fetch - processPackages [gnssrefl]: Remove: archive file [/home/abi/fetcher/tmp/gnssrefl-1.3.7.tar.gz]
+[2023-07-02 11:20:32] INFO root fetch - processPackages [gnssrefl]: Remove: archive file [/home/abi/fetcher/tmp/gnssrefl-1.3.8.tar.gz]
+[2023-07-02 11:20:32] INFO root fetch - main [MainThread]: End processing [gnssrefl]: success
+[2023-07-02 11:20:32] INFO root fetch - main [MainThread]: Store serial: [18727493]
