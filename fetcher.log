@@ -8049,3 +8049,24 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 13:12:26] INFO root fetch - processPackages [salabim]: Remove: archive file [/home/abi/fetcher/tmp/salabim-23.2.0.tar.gz]
 [2023-07-02 13:12:26] INFO root fetch - main [MainThread]: End processing [salabim]: success
 [2023-07-02 13:12:26] INFO root fetch - main [MainThread]: Store serial: [18728086]
+[2023-07-02 13:17:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18728086]
+[2023-07-02 13:17:37] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-02 13:17:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: packly
+[2023-07-02 13:17:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: JsMacrosAC
+[2023-07-02 13:17:37] INFO root fetch - processPackages [JsMacrosAC]: New version: [1.8.5.8296535] Old Version: [1.8.4.8263756]
+[2023-07-02 13:17:37] INFO root fetch - processPackages [packly]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-02 13:17:37] INFO root fetch - processPackages [JsMacrosAC]: Downloading https://files.pythonhosted.org/packages/46/cc/a26bd40a56b42bf97f9f9a1009ed5a4dd499c1ad96435d6f92515c01c957/JsMacrosAC-1.8.4.8263756.tar.gz
+[2023-07-02 13:17:37] INFO root fetch - processPackages [packly]: Downloading https://files.pythonhosted.org/packages/a2/50/a02b131758b11c517bbccc8978001712ede051c0f53b0634196dc56c6e23/packly-0.1.0.tar.gz
+[2023-07-02 13:17:38] INFO root fetch - processPackages [JsMacrosAC]: Downloading https://files.pythonhosted.org/packages/35/5b/86e20173d333893035201dc00c62b5e8f1d9be02ba3bf345ecda7d1e3c54/JsMacrosAC-1.8.5.8296535.tar.gz
+[2023-07-02 13:17:38] INFO root fetch - processPackages [packly]: Downloading https://files.pythonhosted.org/packages/81/2a/1eae6dda078486bd2010f3b3f039f52d6f419a959aecadff38d7fce69de1/packly-0.1.1.tar.gz
+[2023-07-02 13:17:38] INFO root fetch - processPackages [JsMacrosAC]: executing diffoscope
+[2023-07-02 13:17:38] INFO root fetch - processPackages [JsMacrosAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JsMacrosAC-1.8.4.8263756.tar.gz tmp/JsMacrosAC-1.8.5.8296535.tar.gz --markdown 20230702/J/JsMacrosAC/1.8.4.8263756-1.8.5.8296535/diff.md --exclude *.pyd
+[2023-07-02 13:17:38] INFO root fetch - processPackages [packly]: executing diffoscope
+[2023-07-02 13:17:38] INFO root fetch - processPackages [packly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packly-0.1.0.tar.gz tmp/packly-0.1.1.tar.gz --markdown 20230702/p/packly/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-02 13:17:39] INFO root fetch - processPackages [packly]: Remove: archive file [/home/abi/fetcher/tmp/packly-0.1.0.tar.gz]
+[2023-07-02 13:17:39] INFO root fetch - processPackages [packly]: Remove: archive file [/home/abi/fetcher/tmp/packly-0.1.1.tar.gz]
+[2023-07-02 13:17:39] INFO root fetch - main [MainThread]: End processing [packly]: success
+[2023-07-02 13:17:47] INFO root fetch - processPackages [JsMacrosAC]: Remove: archive file [/home/abi/fetcher/tmp/JsMacrosAC-1.8.4.8263756.tar.gz]
+[2023-07-02 13:17:47] INFO root fetch - processPackages [JsMacrosAC]: Remove: archive file [/home/abi/fetcher/tmp/JsMacrosAC-1.8.5.8296535.tar.gz]
+[2023-07-02 13:17:47] INFO root fetch - main [MainThread]: End processing [JsMacrosAC]: success
+[2023-07-02 13:17:47] INFO root fetch - main [MainThread]: Store serial: [18728094]
