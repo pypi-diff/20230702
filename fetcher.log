@@ -10152,3 +10152,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 15:53:26] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-07-02 15:53:26] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-07-02 15:53:26] INFO root fetch - main [MainThread]: Store serial: [18728982]
+[2023-07-02 15:58:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18728982]
+[2023-07-02 15:58:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-02 15:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: equilibrator-pathway
+[2023-07-02 15:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tensordict-nightly
+[2023-07-02 15:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: depthai-sdk
+[2023-07-02 15:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pref-voting
+[2023-07-02 15:58:35] INFO root fetch - processPackages [equilibrator-pathway]: New version: [0.4.8b2] Old Version: [0.4.8b1]
+[2023-07-02 15:58:36] INFO root fetch - processPackages [pref-voting]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-02 15:58:36] INFO root fetch - processPackages [depthai-sdk]: New version: [1.9.5] Old Version: [1.9.4.1]
+[2023-07-02 15:58:36] INFO root fetch - processPackages [pref-voting]: Downloading https://files.pythonhosted.org/packages/77/25/ffa5ff3e018fc7f7c9fb8831d3ec2f3537f5fb2b9ae6b49310fcdce19d48/pref_voting-0.4.8.tar.gz
+[2023-07-02 15:58:36] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.7.2] Old Version: [2023.7.1]
+[2023-07-02 15:58:36] INFO root fetch - processPackages [equilibrator-pathway]: Downloading https://files.pythonhosted.org/packages/cb/ec/319bec12a6544cafab9461a83766ed5c27c98b88d6a9d447898f4fe8fde4/equilibrator-pathway-0.4.8b1.tar.gz
+[2023-07-02 15:58:36] INFO root fetch - processPackages [pref-voting]: Downloading https://files.pythonhosted.org/packages/25/33/15bd2e1b3749a053085a61c8c9e6deafd9ffce855827db1f7ad34acb69bb/pref_voting-0.4.9.tar.gz
+[2023-07-02 15:58:36] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/2f/40/1256077e03f5460dd40c6e7ead53da4f6c48949721cbc820c3ce3e24e9b8/tensordict_nightly-2023.7.1-cp39-cp39-win_amd64.whl
+[2023-07-02 15:58:36] INFO root fetch - processPackages [depthai-sdk]: Downloading https://files.pythonhosted.org/packages/20/eb/0df359cc2efb53018ab6bb3265e923186a11e3b4874f563e38ed961a4982/depthai-sdk-1.9.4.1.tar.gz
+[2023-07-02 15:58:36] INFO root fetch - processPackages [pref-voting]: executing diffoscope
+[2023-07-02 15:58:36] INFO root fetch - processPackages [pref-voting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pref_voting-0.4.8.tar.gz tmp/pref_voting-0.4.9.tar.gz --markdown 20230702/p/pref-voting/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-02 15:58:36] INFO root fetch - processPackages [equilibrator-pathway]: Downloading https://files.pythonhosted.org/packages/7c/a1/eae571f7a8011e6a7c9dffa93f7b077c70908a8db5dcda75d199d4de738c/equilibrator-pathway-0.4.8b2.tar.gz
+[2023-07-02 15:58:36] INFO root fetch - processPackages [equilibrator-pathway]: executing diffoscope
+[2023-07-02 15:58:36] INFO root fetch - processPackages [equilibrator-pathway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/equilibrator-pathway-0.4.8b1.tar.gz tmp/equilibrator-pathway-0.4.8b2.tar.gz --markdown 20230702/e/equilibrator-pathway/0.4.8b1-0.4.8b2/diff.md --exclude *.pyd
+[2023-07-02 15:58:36] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/67/f5/9534314996530966839c5aab6e319d5289f41c48eaf61c7b5fa2dc703498/tensordict_nightly-2023.7.2-cp39-cp39-win_amd64.whl
+[2023-07-02 15:58:36] INFO root fetch - processPackages [depthai-sdk]: Downloading https://files.pythonhosted.org/packages/8a/c6/52f9402b7ada5aae5bbcd8c9a70c488e99bfdb7e05ea708ea6bb2f02b64c/depthai-sdk-1.9.5.tar.gz
+[2023-07-02 15:58:37] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-07-02 15:58:37] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.7.1-cp39-cp39-win_amd64.whl.zip tmp/tensordict_nightly-2023.7.2-cp39-cp39-win_amd64.whl.zip --markdown 20230702/t/tensordict-nightly/2023.7.1-2023.7.2/diff.md --exclude *.pyd
+[2023-07-02 15:58:37] INFO root fetch - processPackages [depthai-sdk]: executing diffoscope
+[2023-07-02 15:58:37] INFO root fetch - processPackages [depthai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/depthai-sdk-1.9.4.1.tar.gz tmp/depthai-sdk-1.9.5.tar.gz --markdown 20230702/d/depthai-sdk/1.9.4.1-1.9.5/diff.md --exclude *.pyd
+[2023-07-02 15:58:37] INFO root fetch - processPackages [pref-voting]: Remove: archive file [/home/abi/fetcher/tmp/pref_voting-0.4.8.tar.gz]
+[2023-07-02 15:58:37] INFO root fetch - processPackages [pref-voting]: Remove: archive file [/home/abi/fetcher/tmp/pref_voting-0.4.9.tar.gz]
+[2023-07-02 15:58:37] INFO root fetch - main [MainThread]: End processing [pref-voting]: success
+[2023-07-02 15:58:38] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.7.1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-02 15:58:38] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.7.2-cp39-cp39-win_amd64.whl.zip]
+[2023-07-02 15:58:38] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-07-02 15:58:38] INFO root fetch - processPackages [equilibrator-pathway]: Remove: archive file [/home/abi/fetcher/tmp/equilibrator-pathway-0.4.8b1.tar.gz]
+[2023-07-02 15:58:38] INFO root fetch - processPackages [equilibrator-pathway]: Remove: archive file [/home/abi/fetcher/tmp/equilibrator-pathway-0.4.8b2.tar.gz]
+[2023-07-02 15:58:38] INFO root fetch - main [MainThread]: End processing [equilibrator-pathway]: success
+[2023-07-02 15:58:38] INFO root fetch - processPackages [depthai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/depthai-sdk-1.9.4.1.tar.gz]
+[2023-07-02 15:58:38] INFO root fetch - processPackages [depthai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/depthai-sdk-1.9.5.tar.gz]
+[2023-07-02 15:58:38] INFO root fetch - main [MainThread]: End processing [depthai-sdk]: success
+[2023-07-02 15:58:38] INFO root fetch - main [MainThread]: Store serial: [18729002]
