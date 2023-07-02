@@ -16403,3 +16403,42 @@ AssertionError: tmp/Cliente-0.0.4-py3.10.egg does not exist
 [2023-07-02 22:54:26] INFO root fetch - processPackages [moneywiz-api]: Remove: archive file [/home/abi/fetcher/tmp/moneywiz-api-0.0.2.tar.gz]
 [2023-07-02 22:54:26] INFO root fetch - main [MainThread]: End processing [moneywiz-api]: success
 [2023-07-02 22:54:26] INFO root fetch - main [MainThread]: Store serial: [18731518]
+[2023-07-02 22:59:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18731518]
+[2023-07-02 22:59:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-02 22:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iza
+[2023-07-02 22:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edc
+[2023-07-02 22:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ovos-tts-plugin-server
+[2023-07-02 22:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spark-dummy-tools
+[2023-07-02 22:59:35] INFO root fetch - processPackages [ovos-tts-plugin-server]: New version: [0.0.2a6] Old Version: [0.0.2a5]
+[2023-07-02 22:59:35] INFO root fetch - processPackages [iza]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-02 22:59:35] INFO root fetch - processPackages [spark-dummy-tools]: New version: [0.4.0] Old Version: [0.3.5]
+[2023-07-02 22:59:35] INFO root fetch - processPackages [edc]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-02 22:59:35] INFO root fetch - processPackages [ovos-tts-plugin-server]: Downloading https://files.pythonhosted.org/packages/8a/92/26874b9c723ce23b775a6e5e05bfdbc44e4a4dc225bfaa753b81afcdfdee/ovos-tts-plugin-server-0.0.2a5.tar.gz
+[2023-07-02 22:59:35] INFO root fetch - processPackages [iza]: Downloading https://files.pythonhosted.org/packages/bb/e4/7d82bd9ca82b19d78408f21a9c4b4a304c1fc9f662e06c2faec83efe0979/iza-0.0.7.tar.gz
+[2023-07-02 22:59:35] INFO root fetch - processPackages [spark-dummy-tools]: Downloading https://files.pythonhosted.org/packages/d1/7b/a384e054d874287fcf8aef6c5a9d48dad12cee2dd826ce47a366c8ea0b88/spark_dummy_tools-0.3.5.tar.gz
+[2023-07-02 22:59:35] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/06/b3/d8ff19784503de9ebe36a47dc60c4403eaac6556184dcc74a19c0276beaf/edc-0.5.0.tar.gz
+[2023-07-02 22:59:36] INFO root fetch - processPackages [iza]: Downloading https://files.pythonhosted.org/packages/56/45/c6f3c48f703c21cd01145c663486f051f3d98b12a1dd86e8b022af78f343/iza-0.0.8.tar.gz
+[2023-07-02 22:59:36] INFO root fetch - processPackages [ovos-tts-plugin-server]: Downloading https://files.pythonhosted.org/packages/21/db/f913452a322cecfa4b561a1ab525e5a22ddac5019a704c8aa23e67a95fdf/ovos-tts-plugin-server-0.0.2a6.tar.gz
+[2023-07-02 22:59:36] INFO root fetch - processPackages [spark-dummy-tools]: Downloading https://files.pythonhosted.org/packages/d4/50/967fe4395e0c7b57a2ba2e80cd541388c6f945fc4087c270cbfc2c0419d8/spark_dummy_tools-0.4.0.tar.gz
+[2023-07-02 22:59:36] INFO root fetch - processPackages [iza]: executing diffoscope
+[2023-07-02 22:59:36] INFO root fetch - processPackages [iza]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iza-0.0.7.tar.gz tmp/iza-0.0.8.tar.gz --markdown 20230702/i/iza/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-02 22:59:36] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/dd/9a/e985387683e0b5258d8f18b41a204195975d67b9d57a2fa815f7fecbbdf7/edc-0.5.1.tar.gz
+[2023-07-02 22:59:36] INFO root fetch - processPackages [spark-dummy-tools]: executing diffoscope
+[2023-07-02 22:59:36] INFO root fetch - processPackages [spark-dummy-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_dummy_tools-0.3.5.tar.gz tmp/spark_dummy_tools-0.4.0.tar.gz --markdown 20230702/s/spark-dummy-tools/0.3.5-0.4.0/diff.md --exclude *.pyd
+[2023-07-02 22:59:36] INFO root fetch - processPackages [edc]: executing diffoscope
+[2023-07-02 22:59:36] INFO root fetch - processPackages [edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-0.5.0.tar.gz tmp/edc-0.5.1.tar.gz --markdown 20230702/e/edc/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-02 22:59:36] INFO root fetch - processPackages [ovos-tts-plugin-server]: executing diffoscope
+[2023-07-02 22:59:36] INFO root fetch - processPackages [ovos-tts-plugin-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-tts-plugin-server-0.0.2a5.tar.gz tmp/ovos-tts-plugin-server-0.0.2a6.tar.gz --markdown 20230702/o/ovos-tts-plugin-server/0.0.2a5-0.0.2a6/diff.md --exclude *.pyd
+[2023-07-02 22:59:37] INFO root fetch - processPackages [spark-dummy-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_dummy_tools-0.3.5.tar.gz]
+[2023-07-02 22:59:37] INFO root fetch - processPackages [spark-dummy-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_dummy_tools-0.4.0.tar.gz]
+[2023-07-02 22:59:37] INFO root fetch - main [MainThread]: End processing [spark-dummy-tools]: success
+[2023-07-02 22:59:37] INFO root fetch - processPackages [ovos-tts-plugin-server]: Remove: archive file [/home/abi/fetcher/tmp/ovos-tts-plugin-server-0.0.2a5.tar.gz]
+[2023-07-02 22:59:37] INFO root fetch - processPackages [ovos-tts-plugin-server]: Remove: archive file [/home/abi/fetcher/tmp/ovos-tts-plugin-server-0.0.2a6.tar.gz]
+[2023-07-02 22:59:37] INFO root fetch - main [MainThread]: End processing [ovos-tts-plugin-server]: success
+[2023-07-02 22:59:37] INFO root fetch - processPackages [edc]: Remove: archive file [/home/abi/fetcher/tmp/edc-0.5.0.tar.gz]
+[2023-07-02 22:59:37] INFO root fetch - processPackages [edc]: Remove: archive file [/home/abi/fetcher/tmp/edc-0.5.1.tar.gz]
+[2023-07-02 22:59:37] INFO root fetch - main [MainThread]: End processing [edc]: success
+[2023-07-02 22:59:37] INFO root fetch - processPackages [iza]: Remove: archive file [/home/abi/fetcher/tmp/iza-0.0.7.tar.gz]
+[2023-07-02 22:59:37] INFO root fetch - processPackages [iza]: Remove: archive file [/home/abi/fetcher/tmp/iza-0.0.8.tar.gz]
+[2023-07-02 22:59:37] INFO root fetch - main [MainThread]: End processing [iza]: success
+[2023-07-02 22:59:37] INFO root fetch - main [MainThread]: Store serial: [18731530]
