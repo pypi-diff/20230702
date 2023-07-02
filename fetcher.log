@@ -4720,3 +4720,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 07:30:32] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.2b2.tar.gz]
 [2023-07-02 07:30:32] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
 [2023-07-02 07:30:32] INFO root fetch - main [MainThread]: Store serial: [18726566]
+[2023-07-02 07:35:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726566]
+[2023-07-02 07:35:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-02 07:35:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jplaw
+[2023-07-02 07:35:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crazy-thursday
+[2023-07-02 07:35:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aitemplates
+[2023-07-02 07:35:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-backblaze-b2
+[2023-07-02 07:35:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo13-addon-survey-contact-generation
+[2023-07-02 07:35:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addons-oca-timesheet
+[2023-07-02 07:35:41] INFO root fetch - processPackages [jplaw]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-02 07:35:41] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: New version: [16.0.20230701.0] Old Version: [16.0.20230629.0]
+[2023-07-02 07:35:41] INFO root fetch - processPackages [odoo13-addon-survey-contact-generation]: New version: [13.0.1.1.1.dev1] Old Version: [13.0.1.1.0]
+[2023-07-02 07:35:41] INFO root fetch - processPackages [aitemplates]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-02 07:35:41] INFO root fetch - processPackages [django-backblaze-b2]: New version: [3.2.0] Old Version: [3.1.0]
+[2023-07-02 07:35:41] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.7.2.1] Old Version: [2023.7.2.0]
+[2023-07-02 07:35:41] INFO root fetch - processPackages [aitemplates]: Downloading https://files.pythonhosted.org/packages/c9/1f/c3b35e203e73c6562287311527c36798cf058f4542a1cc2012699e54c8f2/aitemplates-0.1.8.tar.gz
+[2023-07-02 07:35:41] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/61/d8/b664907848f7a957b123f69769455781759376a7a34df6f50842102303e9/crazy-thursday-2023.7.2.0.tar.gz
+[2023-07-02 07:35:41] INFO root fetch - processPackages [django-backblaze-b2]: Downloading https://files.pythonhosted.org/packages/42/d8/cc6decc5f2fea4bf8ab96a4e7bc514430ff4bbc67d794196e842f0e3e789/django_backblaze_b2-3.1.0.tar.gz
+[2023-07-02 07:35:41] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: Downloading https://files.pythonhosted.org/packages/a3/12/442d10b8f0703c3b1470379b241efb332ae98fe8aa4204a6b8b6531465c4/odoo_addons_oca_timesheet-16.0.20230629.0-py3-none-any.whl
+[2023-07-02 07:35:41] INFO root fetch - processPackages [odoo13-addon-survey-contact-generation]: Downloading https://files.pythonhosted.org/packages/de/6f/839448eb71e5fd3e59b9203bff63c4cf59edcb6feb308e64bd49b359a679/odoo13_addon_survey_contact_generation-13.0.1.1.0-py3-none-any.whl
+[2023-07-02 07:35:41] INFO root fetch - processPackages [jplaw]: Downloading https://files.pythonhosted.org/packages/4e/47/bb0c7caae364948e3415be538975de911ccadeadd47945d4dcea188fdd6d/jplaw-0.1.4.tar.gz
+[2023-07-02 07:35:41] INFO root fetch - processPackages [aitemplates]: Downloading https://files.pythonhosted.org/packages/31/8d/fec27aa91f72352e256e81460077515d340f93b087b2d5f555a95e17896a/aitemplates-0.1.9.tar.gz
+[2023-07-02 07:35:41] INFO root fetch - processPackages [aitemplates]: executing diffoscope
+[2023-07-02 07:35:41] INFO root fetch - processPackages [aitemplates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aitemplates-0.1.8.tar.gz tmp/aitemplates-0.1.9.tar.gz --markdown 20230702/a/aitemplates/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-02 07:35:41] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/67/eb/a57f619fb7d7572e599ef63f347d80f5436b5215059280ab78e8fc80c15d/crazy-thursday-2023.7.2.1.tar.gz
+[2023-07-02 07:35:41] INFO root fetch - processPackages [odoo13-addon-survey-contact-generation]: Downloading https://files.pythonhosted.org/packages/99/1f/e08d89da35c0c97c55768b16d50ac0f7220f5676e2013da71cbf591c5b21/odoo13_addon_survey_contact_generation-13.0.1.1.1.dev1-py3-none-any.whl
+[2023-07-02 07:35:41] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-07-02 07:35:41] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.7.2.0.tar.gz tmp/crazy-thursday-2023.7.2.1.tar.gz --markdown 20230702/c/crazy-thursday/2023.7.2.0-2023.7.2.1/diff.md --exclude *.pyd
+[2023-07-02 07:35:41] INFO root fetch - processPackages [django-backblaze-b2]: Downloading https://files.pythonhosted.org/packages/76/4f/264125a49f8bf21df85c6284fa94f2d2e6ce9c2d2e7f41a0682ff3d63f62/django_backblaze_b2-3.2.0.tar.gz
+[2023-07-02 07:35:41] INFO root fetch - processPackages [jplaw]: Downloading https://files.pythonhosted.org/packages/50/dc/e92e6e4e0fb0c0bca201afa6ba9c51b9996bb1ecc29f4dc948af011b8516/jplaw-0.1.5.tar.gz
+[2023-07-02 07:35:41] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: Downloading https://files.pythonhosted.org/packages/a3/15/eac00c5425b044f4d93ca4777ed9040bba57761ac79a38f4cbfef72ce9a1/odoo_addons_oca_timesheet-16.0.20230701.0-py3-none-any.whl
+[2023-07-02 07:35:41] INFO root fetch - processPackages [django-backblaze-b2]: executing diffoscope
+[2023-07-02 07:35:41] INFO root fetch - processPackages [django-backblaze-b2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_backblaze_b2-3.1.0.tar.gz tmp/django_backblaze_b2-3.2.0.tar.gz --markdown 20230702/d/django-backblaze-b2/3.1.0-3.2.0/diff.md --exclude *.pyd
+[2023-07-02 07:35:41] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: executing diffoscope
+[2023-07-02 07:35:41] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_timesheet-16.0.20230629.0-py3-none-any.whl.zip tmp/odoo_addons_oca_timesheet-16.0.20230701.0-py3-none-any.whl.zip --markdown 20230702/o/odoo-addons-oca-timesheet/16.0.20230629.0-16.0.20230701.0/diff.md --exclude *.pyd
+[2023-07-02 07:35:41] INFO root fetch - processPackages [jplaw]: executing diffoscope
+[2023-07-02 07:35:41] INFO root fetch - processPackages [jplaw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jplaw-0.1.4.tar.gz tmp/jplaw-0.1.5.tar.gz --markdown 20230702/j/jplaw/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-02 07:35:41] INFO root fetch - processPackages [odoo13-addon-survey-contact-generation]: executing diffoscope
+[2023-07-02 07:35:41] INFO root fetch - processPackages [odoo13-addon-survey-contact-generation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_survey_contact_generation-13.0.1.1.0-py3-none-any.whl.zip tmp/odoo13_addon_survey_contact_generation-13.0.1.1.1.dev1-py3-none-any.whl.zip --markdown 20230702/o/odoo13-addon-survey-contact-generation/13.0.1.1.0-13.0.1.1.1.dev1/diff.md --exclude *.pyd
+[2023-07-02 07:35:42] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.2.0.tar.gz]
+[2023-07-02 07:35:42] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.2.1.tar.gz]
+[2023-07-02 07:35:42] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-07-02 07:35:42] INFO root fetch - processPackages [aitemplates]: Remove: archive file [/home/abi/fetcher/tmp/aitemplates-0.1.8.tar.gz]
+[2023-07-02 07:35:42] INFO root fetch - processPackages [aitemplates]: Remove: archive file [/home/abi/fetcher/tmp/aitemplates-0.1.9.tar.gz]
+[2023-07-02 07:35:42] INFO root fetch - main [MainThread]: End processing [aitemplates]: success
+[2023-07-02 07:35:42] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_timesheet-16.0.20230629.0-py3-none-any.whl.zip]
+[2023-07-02 07:35:42] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_timesheet-16.0.20230701.0-py3-none-any.whl.zip]
+[2023-07-02 07:35:42] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-timesheet]: success
+[2023-07-02 07:35:43] INFO root fetch - processPackages [django-backblaze-b2]: Remove: archive file [/home/abi/fetcher/tmp/django_backblaze_b2-3.1.0.tar.gz]
+[2023-07-02 07:35:43] INFO root fetch - processPackages [django-backblaze-b2]: Remove: archive file [/home/abi/fetcher/tmp/django_backblaze_b2-3.2.0.tar.gz]
+[2023-07-02 07:35:43] INFO root fetch - main [MainThread]: End processing [django-backblaze-b2]: success
+[2023-07-02 07:35:43] INFO root fetch - processPackages [odoo13-addon-survey-contact-generation]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_survey_contact_generation-13.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-02 07:35:43] INFO root fetch - processPackages [odoo13-addon-survey-contact-generation]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_survey_contact_generation-13.0.1.1.1.dev1-py3-none-any.whl.zip]
+[2023-07-02 07:35:43] INFO root fetch - main [MainThread]: End processing [odoo13-addon-survey-contact-generation]: success
+[2023-07-02 07:35:43] INFO root fetch - processPackages [jplaw]: Remove: archive file [/home/abi/fetcher/tmp/jplaw-0.1.4.tar.gz]
+[2023-07-02 07:35:43] INFO root fetch - processPackages [jplaw]: Remove: archive file [/home/abi/fetcher/tmp/jplaw-0.1.5.tar.gz]
+[2023-07-02 07:35:43] INFO root fetch - main [MainThread]: End processing [jplaw]: success
+[2023-07-02 07:35:43] INFO root fetch - main [MainThread]: Store serial: [18726582]
