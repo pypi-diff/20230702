@@ -5237,3 +5237,24 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 08:48:44] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.3.0.tar.gz]
 [2023-07-02 08:48:44] INFO root fetch - main [MainThread]: End processing [ez-a-sync]: success
 [2023-07-02 08:48:44] INFO root fetch - main [MainThread]: Store serial: [18726774]
+[2023-07-02 08:53:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726774]
+[2023-07-02 08:53:53] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-02 08:53:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mlbi-at-dku-lib
+[2023-07-02 08:53:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: typedload
+[2023-07-02 08:53:53] INFO root fetch - processPackages [typedload]: New version: [2.9] Old Version: [2.8]
+[2023-07-02 08:53:53] INFO root fetch - processPackages [mlbi-at-dku-lib]: New version: [0.2.1b0] Old Version: [0.2.1]
+[2023-07-02 08:53:53] INFO root fetch - processPackages [mlbi-at-dku-lib]: Downloading https://files.pythonhosted.org/packages/f5/b5/9bd2874d317d9fc07fb5622c3df1fd4eacae08398fbd89dd5492e769410c/mlbi_at_dku_lib-0.2.1.tar.gz
+[2023-07-02 08:53:53] INFO root fetch - processPackages [typedload]: Downloading https://files.pythonhosted.org/packages/1a/9c/b3e79bbe539b796edf6f784dfe2cd45ba8c239e727d1a2bd66bae1ce323b/typedload-2.8.tar.gz
+[2023-07-02 08:53:53] INFO root fetch - processPackages [mlbi-at-dku-lib]: Downloading https://files.pythonhosted.org/packages/3d/71/a4969a86e4e878c4e4a9760496d7d4d70ff8bfb4f4ea360f328a6d03e95e/mlbi_at_dku_lib-0.2.1b0.tar.gz
+[2023-07-02 08:53:54] INFO root fetch - processPackages [typedload]: Downloading https://files.pythonhosted.org/packages/16/9e/9a2ddfc41dadcfa54a39c136817e339764a9005b8ba3fad58d75a9592040/typedload-2.9.tar.gz
+[2023-07-02 08:53:54] INFO root fetch - processPackages [mlbi-at-dku-lib]: executing diffoscope
+[2023-07-02 08:53:54] INFO root fetch - processPackages [mlbi-at-dku-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlbi_at_dku_lib-0.2.1.tar.gz tmp/mlbi_at_dku_lib-0.2.1b0.tar.gz --markdown 20230702/m/mlbi-at-dku-lib/0.2.1-0.2.1b0/diff.md --exclude *.pyd
+[2023-07-02 08:53:54] INFO root fetch - processPackages [typedload]: executing diffoscope
+[2023-07-02 08:53:54] INFO root fetch - processPackages [typedload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedload-2.8.tar.gz tmp/typedload-2.9.tar.gz --markdown 20230702/t/typedload/2.8-2.9/diff.md --exclude *.pyd
+[2023-07-02 08:53:55] INFO root fetch - processPackages [mlbi-at-dku-lib]: Remove: archive file [/home/abi/fetcher/tmp/mlbi_at_dku_lib-0.2.1.tar.gz]
+[2023-07-02 08:53:55] INFO root fetch - processPackages [mlbi-at-dku-lib]: Remove: archive file [/home/abi/fetcher/tmp/mlbi_at_dku_lib-0.2.1b0.tar.gz]
+[2023-07-02 08:53:55] INFO root fetch - main [MainThread]: End processing [mlbi-at-dku-lib]: success
+[2023-07-02 08:53:55] INFO root fetch - processPackages [typedload]: Remove: archive file [/home/abi/fetcher/tmp/typedload-2.8.tar.gz]
+[2023-07-02 08:53:55] INFO root fetch - processPackages [typedload]: Remove: archive file [/home/abi/fetcher/tmp/typedload-2.9.tar.gz]
+[2023-07-02 08:53:55] INFO root fetch - main [MainThread]: End processing [typedload]: success
+[2023-07-02 08:53:55] INFO root fetch - main [MainThread]: Store serial: [18726780]
