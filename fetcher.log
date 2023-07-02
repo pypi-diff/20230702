@@ -4949,3 +4949,27 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 08:06:52] INFO root fetch - processPackages [mathpad]: Remove: archive file [/home/abi/fetcher/tmp/mathpad-2.0.0.tar.gz]
 [2023-07-02 08:06:52] INFO root fetch - main [MainThread]: End processing [mathpad]: success
 [2023-07-02 08:06:52] INFO root fetch - main [MainThread]: Store serial: [18726643]
+[2023-07-02 08:11:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18726643]
+[2023-07-02 08:12:02] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-02 08:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: superagi-tools
+[2023-07-02 08:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyVCG
+[2023-07-02 08:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: photoshop-python-api
+[2023-07-02 08:12:02] WARNING root fetch - processPackages [PyVCG]: Skipping, unable to determine old version
+[2023-07-02 08:12:02] INFO root fetch - processPackages [superagi-tools]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-02 08:12:02] INFO root fetch - main [MainThread]: End processing [PyVCG] error
+[2023-07-02 08:12:02] INFO root fetch - processPackages [superagi-tools]: Downloading https://files.pythonhosted.org/packages/27/d9/63126a5f050504596fa7bbea95f822861f187656c01ff5e5efb951c72955/superagi_tools-1.0.3.tar.gz
+[2023-07-02 08:12:02] INFO root fetch - processPackages [photoshop-python-api]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-02 08:12:03] INFO root fetch - processPackages [photoshop-python-api]: Downloading https://files.pythonhosted.org/packages/21/a0/58a991995acb0c81aed8911668b98bed07e70ce14ccd9a24ddaf8219850c/photoshop_python_api-0.8.0.tar.gz
+[2023-07-02 08:12:03] INFO root fetch - processPackages [superagi-tools]: Downloading https://files.pythonhosted.org/packages/0d/af/a565e097af7022759f5f13a89ada95d9ba680adfdee69cafa8d36f0d9b53/superagi_tools-1.0.4.tar.gz
+[2023-07-02 08:12:03] INFO root fetch - processPackages [superagi-tools]: executing diffoscope
+[2023-07-02 08:12:03] INFO root fetch - processPackages [superagi-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superagi_tools-1.0.3.tar.gz tmp/superagi_tools-1.0.4.tar.gz --markdown 20230702/s/superagi-tools/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-02 08:12:04] INFO root fetch - processPackages [photoshop-python-api]: Downloading https://files.pythonhosted.org/packages/57/83/41a0c1f902728967d4625c2e49195bb0d81ddfea52527b9aa6678b087f2b/photoshop_python_api-0.9.0.tar.gz
+[2023-07-02 08:12:04] INFO root fetch - processPackages [superagi-tools]: Remove: archive file [/home/abi/fetcher/tmp/superagi_tools-1.0.3.tar.gz]
+[2023-07-02 08:12:04] INFO root fetch - processPackages [superagi-tools]: Remove: archive file [/home/abi/fetcher/tmp/superagi_tools-1.0.4.tar.gz]
+[2023-07-02 08:12:04] INFO root fetch - main [MainThread]: End processing [superagi-tools]: success
+[2023-07-02 08:12:05] INFO root fetch - processPackages [photoshop-python-api]: executing diffoscope
+[2023-07-02 08:12:05] INFO root fetch - processPackages [photoshop-python-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/photoshop_python_api-0.8.0.tar.gz tmp/photoshop_python_api-0.9.0.tar.gz --markdown 20230702/p/photoshop-python-api/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-02 08:12:07] INFO root fetch - processPackages [photoshop-python-api]: Remove: archive file [/home/abi/fetcher/tmp/photoshop_python_api-0.8.0.tar.gz]
+[2023-07-02 08:12:07] INFO root fetch - processPackages [photoshop-python-api]: Remove: archive file [/home/abi/fetcher/tmp/photoshop_python_api-0.9.0.tar.gz]
+[2023-07-02 08:12:07] INFO root fetch - main [MainThread]: End processing [photoshop-python-api]: success
+[2023-07-02 08:12:07] INFO root fetch - main [MainThread]: Store serial: [18726653]
