@@ -2783,3 +2783,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 04:29:18] INFO root fetch - processPackages [caproto-apps]: Remove: archive file [/home/abi/fetcher/tmp/caproto-apps-0.1.1.tar.gz]
 [2023-07-02 04:29:18] INFO root fetch - main [MainThread]: End processing [caproto-apps]: success
 [2023-07-02 04:29:18] INFO root fetch - main [MainThread]: Store serial: [18725840]
+[2023-07-02 04:34:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18725840]
+[2023-07-02 04:34:26] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-02 04:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: forks-sync
+[2023-07-02 04:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cca-zoo
+[2023-07-02 04:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mathkit
+[2023-07-02 04:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Blockthon
+[2023-07-02 04:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-account-move-update-analytic
+[2023-07-02 04:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-account-move-update-analytic
+[2023-07-02 04:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Lin-CMS
+[2023-07-02 04:34:27] INFO root fetch - processPackages [odoo-addon-account-move-update-analytic]: New version: [15.0.1.1.0.2] Old Version: [15.0.1.1.0]
+[2023-07-02 04:34:27] INFO root fetch - processPackages [mathkit]: New version: [0.2] Old Version: [0.1.1.1.1]
+[2023-07-02 04:34:27] INFO root fetch - processPackages [Blockthon]: New version: [4.9.6] Old Version: [4.6.9]
+[2023-07-02 04:34:27] INFO root fetch - processPackages [forks-sync]: New version: [4.0.0] Old Version: [3.0.5]
+[2023-07-02 04:34:27] INFO root fetch - processPackages [odoo14-addon-account-move-update-analytic]: New version: [14.0.1.0.2.dev4] Old Version: [14.0.1.0.2.dev2]
+[2023-07-02 04:34:27] INFO root fetch - processPackages [cca-zoo]: New version: [2.1.0] Old Version: [2.0.8]
+[2023-07-02 04:34:27] INFO root fetch - processPackages [Blockthon]: Downloading https://files.pythonhosted.org/packages/c8/2f/6f67d3d57e0aec4bba69c73d48a5e2ceba955f2890551f7ec5c6eb7edb6b/Blockthon-4.6.9.tar.gz
+[2023-07-02 04:34:27] INFO root fetch - processPackages [Lin-CMS]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-02 04:34:27] INFO root fetch - processPackages [odoo-addon-account-move-update-analytic]: Downloading https://files.pythonhosted.org/packages/a0/d9/68f382ef1f765be66f1ec8caef9336115b412dbfdeda54a152fed7ca2af3/odoo_addon_account_move_update_analytic-15.0.1.1.0-py3-none-any.whl
+[2023-07-02 04:34:27] INFO root fetch - processPackages [mathkit]: Downloading https://files.pythonhosted.org/packages/8b/a3/9d2ba2e178e00faacc8fdba625294ef55de693c4d9858907dca29aeacc92/mathkit-0.1.1.1.1.tar.gz
+[2023-07-02 04:34:27] INFO root fetch - processPackages [forks-sync]: Downloading https://files.pythonhosted.org/packages/39/32/a89dfa445c9f848981514913e2afcfae6b05f536bc646cef8acdf24e2c97/forks-sync-3.0.5.tar.gz
+[2023-07-02 04:34:27] INFO root fetch - processPackages [cca-zoo]: Downloading https://files.pythonhosted.org/packages/c5/c4/561be92667855f76c572a8bec70d915432cf220451524cf06290e1c15105/cca_zoo-2.0.8.tar.gz
+[2023-07-02 04:34:27] INFO root fetch - processPackages [odoo14-addon-account-move-update-analytic]: Downloading https://files.pythonhosted.org/packages/f0/0f/849dba4d74a3868ea9f94b43afed913df303a9d48ab37ce5014cdfd2c7a4/odoo14_addon_account_move_update_analytic-14.0.1.0.2.dev2-py3-none-any.whl
+[2023-07-02 04:34:27] INFO root fetch - processPackages [Lin-CMS]: Downloading https://files.pythonhosted.org/packages/1e/6c/a83473a7fe79f19ec1ab3c06600d2fa722b99a06715d715ef37500389a5c/Lin-CMS-0.4.8.tar.gz
+[2023-07-02 04:34:27] INFO root fetch - processPackages [Blockthon]: Downloading https://files.pythonhosted.org/packages/b9/08/a4573fb2233304b42ab71f89e05676db8c5fb3ff42552e345a425644a3bb/Blockthon-4.9.6.tar.gz
+[2023-07-02 04:34:27] INFO root fetch - processPackages [mathkit]: Downloading https://files.pythonhosted.org/packages/5e/73/479ff3c058354d622d76f2f9f4fbb88acc016a60757acbd95c36c9873385/mathkit-0.2.tar.gz
+[2023-07-02 04:34:27] INFO root fetch - processPackages [cca-zoo]: Downloading https://files.pythonhosted.org/packages/0e/f6/23539e5b5ceecce961e36c34aa6f75821d8a375a8d20f137a380198655d4/cca_zoo-2.1.0.tar.gz
+[2023-07-02 04:34:27] INFO root fetch - processPackages [Blockthon]: executing diffoscope
+[2023-07-02 04:34:27] INFO root fetch - processPackages [Blockthon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Blockthon-4.6.9.tar.gz tmp/Blockthon-4.9.6.tar.gz --markdown 20230702/B/Blockthon/4.6.9-4.9.6/diff.md --exclude *.pyd
+[2023-07-02 04:34:27] INFO root fetch - processPackages [mathkit]: executing diffoscope
+[2023-07-02 04:34:27] INFO root fetch - processPackages [mathkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathkit-0.1.1.1.1.tar.gz tmp/mathkit-0.2.tar.gz --markdown 20230702/m/mathkit/0.1.1.1.1-0.2/diff.md --exclude *.pyd
+[2023-07-02 04:34:27] INFO root fetch - processPackages [odoo-addon-account-move-update-analytic]: Downloading https://files.pythonhosted.org/packages/96/3b/6c18f621e6c2213ef01bde60739223399d7e7efc1a61f3fda64cf935d238/odoo_addon_account_move_update_analytic-15.0.1.1.0.2-py3-none-any.whl
+[2023-07-02 04:34:27] INFO root fetch - processPackages [forks-sync]: Downloading https://files.pythonhosted.org/packages/2d/a7/5fd5b48d3eefce8cdc7c2ed23976d612c7c6feff66b3bb7004c4b6b4a88e/forks-sync-4.0.0.tar.gz
+[2023-07-02 04:34:27] INFO root fetch - processPackages [odoo14-addon-account-move-update-analytic]: Downloading https://files.pythonhosted.org/packages/25/3e/9c26134aa2d75f0508d65f85bdc4b8bde529d3f37f6ee8b9db95a809606b/odoo14_addon_account_move_update_analytic-14.0.1.0.2.dev4-py3-none-any.whl
+[2023-07-02 04:34:27] INFO root fetch - processPackages [cca-zoo]: executing diffoscope
+[2023-07-02 04:34:27] INFO root fetch - processPackages [cca-zoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cca_zoo-2.0.8.tar.gz tmp/cca_zoo-2.1.0.tar.gz --markdown 20230702/c/cca-zoo/2.0.8-2.1.0/diff.md --exclude *.pyd
+[2023-07-02 04:34:27] INFO root fetch - processPackages [odoo-addon-account-move-update-analytic]: executing diffoscope
+[2023-07-02 04:34:27] INFO root fetch - processPackages [odoo-addon-account-move-update-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_move_update_analytic-15.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_account_move_update_analytic-15.0.1.1.0.2-py3-none-any.whl.zip --markdown 20230702/o/odoo-addon-account-move-update-analytic/15.0.1.1.0-15.0.1.1.0.2/diff.md --exclude *.pyd
+[2023-07-02 04:34:27] INFO root fetch - processPackages [forks-sync]: executing diffoscope
+[2023-07-02 04:34:27] INFO root fetch - processPackages [forks-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forks-sync-3.0.5.tar.gz tmp/forks-sync-4.0.0.tar.gz --markdown 20230702/f/forks-sync/3.0.5-4.0.0/diff.md --exclude *.pyd
+[2023-07-02 04:34:27] INFO root fetch - processPackages [odoo14-addon-account-move-update-analytic]: executing diffoscope
+[2023-07-02 04:34:27] INFO root fetch - processPackages [odoo14-addon-account-move-update-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_move_update_analytic-14.0.1.0.2.dev2-py3-none-any.whl.zip tmp/odoo14_addon_account_move_update_analytic-14.0.1.0.2.dev4-py3-none-any.whl.zip --markdown 20230702/o/odoo14-addon-account-move-update-analytic/14.0.1.0.2.dev2-14.0.1.0.2.dev4/diff.md --exclude *.pyd
+[2023-07-02 04:34:28] INFO root fetch - processPackages [Lin-CMS]: Downloading https://files.pythonhosted.org/packages/99/a8/e895be655ff7dc59d0533d1f09cf5beac6b2fe4cade5c6f643b26e948f26/Lin-CMS-0.4.9.tar.gz
+[2023-07-02 04:34:28] INFO root fetch - processPackages [Lin-CMS]: executing diffoscope
+[2023-07-02 04:34:28] INFO root fetch - processPackages [Lin-CMS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Lin-CMS-0.4.8.tar.gz tmp/Lin-CMS-0.4.9.tar.gz --markdown 20230702/L/Lin-CMS/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-02 04:34:28] INFO root fetch - processPackages [mathkit]: Remove: archive file [/home/abi/fetcher/tmp/mathkit-0.1.1.1.1.tar.gz]
+[2023-07-02 04:34:28] INFO root fetch - processPackages [mathkit]: Remove: archive file [/home/abi/fetcher/tmp/mathkit-0.2.tar.gz]
+[2023-07-02 04:34:28] INFO root fetch - main [MainThread]: End processing [mathkit]: success
+[2023-07-02 04:34:28] INFO root fetch - processPackages [Blockthon]: Remove: archive file [/home/abi/fetcher/tmp/Blockthon-4.6.9.tar.gz]
+[2023-07-02 04:34:28] INFO root fetch - processPackages [Blockthon]: Remove: archive file [/home/abi/fetcher/tmp/Blockthon-4.9.6.tar.gz]
+[2023-07-02 04:34:28] INFO root fetch - main [MainThread]: End processing [Blockthon]: success
+[2023-07-02 04:34:28] INFO root fetch - processPackages [odoo-addon-account-move-update-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_update_analytic-15.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-02 04:34:28] INFO root fetch - processPackages [odoo-addon-account-move-update-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_update_analytic-15.0.1.1.0.2-py3-none-any.whl.zip]
+[2023-07-02 04:34:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-move-update-analytic]: success
+[2023-07-02 04:34:29] INFO root fetch - processPackages [forks-sync]: Remove: archive file [/home/abi/fetcher/tmp/forks-sync-3.0.5.tar.gz]
+[2023-07-02 04:34:29] INFO root fetch - processPackages [forks-sync]: Remove: archive file [/home/abi/fetcher/tmp/forks-sync-4.0.0.tar.gz]
+[2023-07-02 04:34:29] INFO root fetch - main [MainThread]: End processing [forks-sync]: success
+[2023-07-02 04:34:29] INFO root fetch - processPackages [odoo14-addon-account-move-update-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_move_update_analytic-14.0.1.0.2.dev2-py3-none-any.whl.zip]
+[2023-07-02 04:34:29] INFO root fetch - processPackages [odoo14-addon-account-move-update-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_move_update_analytic-14.0.1.0.2.dev4-py3-none-any.whl.zip]
+[2023-07-02 04:34:29] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-move-update-analytic]: success
+[2023-07-02 04:34:29] INFO root fetch - processPackages [cca-zoo]: Remove: archive file [/home/abi/fetcher/tmp/cca_zoo-2.0.8.tar.gz]
+[2023-07-02 04:34:29] INFO root fetch - processPackages [cca-zoo]: Remove: archive file [/home/abi/fetcher/tmp/cca_zoo-2.1.0.tar.gz]
+[2023-07-02 04:34:29] INFO root fetch - main [MainThread]: End processing [cca-zoo]: success
+[2023-07-02 04:34:30] INFO root fetch - processPackages [Lin-CMS]: Remove: archive file [/home/abi/fetcher/tmp/Lin-CMS-0.4.8.tar.gz]
+[2023-07-02 04:34:30] INFO root fetch - processPackages [Lin-CMS]: Remove: archive file [/home/abi/fetcher/tmp/Lin-CMS-0.4.9.tar.gz]
+[2023-07-02 04:34:30] INFO root fetch - main [MainThread]: End processing [Lin-CMS]: success
+[2023-07-02 04:34:30] INFO root fetch - main [MainThread]: Store serial: [18725858]
