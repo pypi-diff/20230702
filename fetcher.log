@@ -7968,3 +7968,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-02 13:01:48] INFO root fetch - processPackages [approvaltests]: Remove: archive file [/home/abi/fetcher/tmp/approvaltests-8.3.1.tar.gz]
 [2023-07-02 13:01:48] INFO root fetch - main [MainThread]: End processing [approvaltests]: success
 [2023-07-02 13:01:48] INFO root fetch - main [MainThread]: Store serial: [18728044]
+[2023-07-02 13:06:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18728044]
+[2023-07-02 13:06:57] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-02 13:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: funfluid
+[2023-07-02 13:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: foursight-core
+[2023-07-02 13:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sterm
+[2023-07-02 13:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: foursight-cgap
+[2023-07-02 13:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: foursight
+[2023-07-02 13:06:57] INFO root fetch - processPackages [funfluid]: New version: [202307021904] Old Version: [202306302149]
+[2023-07-02 13:06:57] INFO root fetch - processPackages [foursight-core]: New version: [4.3.0.2b5] Old Version: [4.3.0.2b4]
+[2023-07-02 13:06:57] INFO root fetch - processPackages [foursight]: New version: [3.5.0.2b4] Old Version: [3.5.0.2b3]
+[2023-07-02 13:06:57] INFO root fetch - processPackages [foursight-cgap]: New version: [3.5.0.2b4] Old Version: [3.5.0.2b3]
+[2023-07-02 13:06:57] INFO root fetch - processPackages [sterm]: New version: [6.0.2] Old Version: [6.0.1]
+[2023-07-02 13:06:57] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/5e/9b/8cf357ce5268c9c7c7e16d20b8b9f4963b67e4ae82ddd39e98169916c459/foursight_core-4.3.0.2b4.tar.gz
+[2023-07-02 13:06:57] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/09/e1/781b711e648bdf362c321e447fcaff70a46904face890d7c70f7572a5b26/foursight-3.5.0.2b3.tar.gz
+[2023-07-02 13:06:57] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/9f/b7/038f94f899b789158cab971422d67fd2f540810c0f344d7bdbcfc33a23e8/foursight_cgap-3.5.0.2b3.tar.gz
+[2023-07-02 13:06:57] INFO root fetch - processPackages [funfluid]: Downloading https://files.pythonhosted.org/packages/06/89/6866cc72f4f244e30b35c231b1f5f3856d20dd30be7f5974973cc13b9286/funfluid-202306302149.tar.gz
+[2023-07-02 13:06:57] INFO root fetch - processPackages [sterm]: Downloading https://files.pythonhosted.org/packages/6d/c4/7ca5149d507dedeb63060b1ddcb6d481048392f3f1001d5fe2e6c59b9b9d/sterm-6.0.1.tar.gz
+[2023-07-02 13:06:57] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/4a/57/48c97ecb33d702c367b732575be7fc1970f30b4d5890fb2b7d48b3b54da1/foursight_cgap-3.5.0.2b4.tar.gz
+[2023-07-02 13:06:57] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/9e/d9/f06f09f2bb3499c1e4b5c0c2fc8f3727b3752fab11dc4b458133b64d6943/foursight-3.5.0.2b4.tar.gz
+[2023-07-02 13:06:57] INFO root fetch - processPackages [foursight-cgap]: executing diffoscope
+[2023-07-02 13:06:57] INFO root fetch - processPackages [foursight-cgap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_cgap-3.5.0.2b3.tar.gz tmp/foursight_cgap-3.5.0.2b4.tar.gz --markdown 20230702/f/foursight-cgap/3.5.0.2b3-3.5.0.2b4/diff.md --exclude *.pyd
+[2023-07-02 13:06:57] INFO root fetch - processPackages [funfluid]: Downloading https://files.pythonhosted.org/packages/b8/05/4888516968536042978d5dada33a5e42c08bf812e7e2c64d49d1099f6b74/funfluid-202307021904.tar.gz
+[2023-07-02 13:06:57] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/78/61/0773950f952853d36c5de7f66aff525d6684d99f22738a38cce3a5b5fd9d/foursight_core-4.3.0.2b5.tar.gz
+[2023-07-02 13:06:57] INFO root fetch - processPackages [sterm]: Downloading https://files.pythonhosted.org/packages/86/65/f39d397e016921cd0bcfdee410991b471f6a41112cf0d780b83fe1f953ae/sterm-6.0.2.tar.gz
+[2023-07-02 13:06:57] INFO root fetch - processPackages [funfluid]: executing diffoscope
+[2023-07-02 13:06:57] INFO root fetch - processPackages [funfluid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funfluid-202306302149.tar.gz tmp/funfluid-202307021904.tar.gz --markdown 20230702/f/funfluid/202306302149-202307021904/diff.md --exclude *.pyd
+[2023-07-02 13:06:57] INFO root fetch - processPackages [foursight]: executing diffoscope
+[2023-07-02 13:06:57] INFO root fetch - processPackages [foursight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight-3.5.0.2b3.tar.gz tmp/foursight-3.5.0.2b4.tar.gz --markdown 20230702/f/foursight/3.5.0.2b3-3.5.0.2b4/diff.md --exclude *.pyd
+[2023-07-02 13:06:57] INFO root fetch - processPackages [foursight-core]: executing diffoscope
+[2023-07-02 13:06:57] INFO root fetch - processPackages [foursight-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_core-4.3.0.2b4.tar.gz tmp/foursight_core-4.3.0.2b5.tar.gz --markdown 20230702/f/foursight-core/4.3.0.2b4-4.3.0.2b5/diff.md --exclude *.pyd
+[2023-07-02 13:06:58] INFO root fetch - processPackages [sterm]: executing diffoscope
+[2023-07-02 13:06:58] INFO root fetch - processPackages [sterm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230702:/home/abi/fetcher/20230702:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sterm-6.0.1.tar.gz tmp/sterm-6.0.2.tar.gz --markdown 20230702/s/sterm/6.0.1-6.0.2/diff.md --exclude *.pyd
+[2023-07-02 13:06:58] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.5.0.2b3.tar.gz]
+[2023-07-02 13:06:58] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.5.0.2b4.tar.gz]
+[2023-07-02 13:06:58] INFO root fetch - main [MainThread]: End processing [foursight-cgap]: success
+[2023-07-02 13:06:59] INFO root fetch - processPackages [sterm]: Remove: archive file [/home/abi/fetcher/tmp/sterm-6.0.1.tar.gz]
+[2023-07-02 13:06:59] INFO root fetch - processPackages [sterm]: Remove: archive file [/home/abi/fetcher/tmp/sterm-6.0.2.tar.gz]
+[2023-07-02 13:06:59] INFO root fetch - main [MainThread]: End processing [sterm]: success
+[2023-07-02 13:06:59] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.5.0.2b3.tar.gz]
+[2023-07-02 13:06:59] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.5.0.2b4.tar.gz]
+[2023-07-02 13:06:59] INFO root fetch - main [MainThread]: End processing [foursight]: success
+[2023-07-02 13:06:59] INFO root fetch - processPackages [funfluid]: Remove: archive file [/home/abi/fetcher/tmp/funfluid-202306302149.tar.gz]
+[2023-07-02 13:06:59] INFO root fetch - processPackages [funfluid]: Remove: archive file [/home/abi/fetcher/tmp/funfluid-202307021904.tar.gz]
+[2023-07-02 13:06:59] INFO root fetch - main [MainThread]: End processing [funfluid]: success
+[2023-07-02 13:07:13] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.2b4.tar.gz]
+[2023-07-02 13:07:13] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.2b5.tar.gz]
+[2023-07-02 13:07:13] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
+[2023-07-02 13:07:13] INFO root fetch - main [MainThread]: Store serial: [18728061]
